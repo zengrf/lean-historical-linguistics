@@ -6,7 +6,7 @@
 
 This repository delivers a literature study, a retained research library, an executable proof of concept and a staged research plan for **Proto-Indo-European and Sino-Tibetan / Trans-Himalayan reconstruction**. The proof of concept uses synthetic examples. Source-backed linguistic case studies are specified future deliveries, not completed reconstructions.
 
-**M1 implementation is now available:** a versioned evidence schema, Lean dossier checker, 38 valid and 44 adversarial fixtures, and reproducible imports of 60 records from pinned Indo-European and Burmish datasets. Automated checks pass; the required six-entry independent transcription review remains pending. M1 is marked `in_review`. See [the delivery report](docs/07-m1-delivery.md) and [criterion-level status](reports/m1-delivery.json).
+**M1 is delivered:** a versioned evidence schema, Lean dossier checker, 38 valid and 44 adversarial fixtures, and reproducible imports of 60 records from pinned Indo-European and Burmish datasets. All four acceptance criteria pass. A separate AI agent independently transcribed the six required source entries; all match exactly. This source-entry review is not human or family-specialist sign-off. See [the review record](reviews/m1-independent-review.md), [delivery report](docs/07-m1-delivery.md) and [criterion-level status](reports/m1-delivery.json).
 
 ## Start reading
 
@@ -20,7 +20,7 @@ This repository delivers a literature study, a retained research library, an exe
 | [Research and acquisition method](docs/06-research-method.md) | Reading depth, selection bias, access gaps, version handling and reproducibility |
 | [M1 implementation and verification](docs/07-m1-delivery.md) | Evidence schema, CLI, real CLDF imports, tests and independent-review gate |
 | [Annotated bibliography](bibliography/README.md) | 132 source-specific annotations, original links, reading scope and PDF locations |
-| [Milestone register](data/milestones.json) | Machine-readable delivery goals; only M0 is marked delivered |
+| [Milestone register](data/milestones.json) | Machine-readable delivery goals; M0 and M1 delivered, M2–M9 planned |
 
 ## What is retained and checked
 
@@ -56,8 +56,8 @@ lake exe dossier_check data/pilots --strict
 cd ..
 python scripts/verify_m1.py
 python -m unittest discover -s tests -v
-python scripts/review_m1.py
-python scripts/verify_m1_delivery.py
+python scripts/review_m1.py --require-complete
+python scripts/verify_m1_delivery.py --require-complete
 ```
 
 The default toolchain is pinned in [lean-toolchain](lean/lean-toolchain). CI builds Lean **4.19.0 and 4.34.1** independently. The original local build used 4.19.0 because the 4.34.1 binary did not run on the host's macOS 10.15. If you need that compatibility path, replace `lake` with `lake +leanprover/lean4:v4.19.0` in each Lean command. CI results, rather than local compatibility claims, establish the newer-toolchain build status.

@@ -41,7 +41,7 @@ def verify():
                 {"id":"M1-cldf","status":"passed","evidence":["reports/cldf-iecor.json","reports/cldf-hillburmish.json","docs/07-m1-delivery.md"],
                  "result":"Both full upstream CLDF snapshots validate; 30 records from each imported reproducibly; unsupported fields/tables retained and explicitly reported"},
                 {"id":"M1-review","status":review["status"],"evidence":"reports/m1-review.json",
-                 "result":f"{review['reviewed_records']} independently entered records; at least {review['minimum_reviewed']} required; {review['uncertain_records']} flagged imported readings"}],
+                 "result":f"{review['reviewed_records']} independently entered records; at least {review['minimum_reviewed']} required; {review['uncertain_records']} flagged imported readings; reviewer type: {review['reviewer_type']}"}],
             "artifacts":m["artifacts"],
             "next_action":None if complete else "Independent reviewer completes reviews/m1-response-template.json as reviews/m1-responses.json; resolve/flag discrepancies, rerun review and delivery checks, and only then mark M1 delivered."}
 

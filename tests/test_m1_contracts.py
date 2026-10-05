@@ -102,6 +102,18 @@ class ReviewGateTests(unittest.TestCase):
     def test_valid_synthetic_review_passes(self):
         self.assertEqual(assess(self.packet,self.expected,self.response)["status"],"passed")
 
+    def test_ai_review_provenance_is_explicit_and_bound_to_response(self):
+        self.response["reviewer_id"]="synthetic-test-agent"
+        self.response["reviewer_type"]="independent_ai_agent"
+        r=assess(self.packet,self.expected,self.response)
+        self.assertEqual(r["status"],"passed")
+        self.assertEqual(r["reviewer_type"],"independent_ai_agent")
+        self.assertIs(r["independent_of_encoding"],True)
+        self.response["independent_of_encoding"]=False
+        changed=assess(self.packet,self.expected,self.response)
+        self.assertEqual(changed["status"],"pending")
+        self.assertNotEqual(r["response_sha256"],changed["response_sha256"])
+
     def test_self_review_does_not_close_the_gate(self):
         self.response["reviewer_id"]="assistant:codex"
         self.assertEqual(assess(self.packet,self.expected,self.response)["status"],"pending")

@@ -1,7 +1,7 @@
 {
   "milestone": "M1",
   "criterion": "M1-review",
-  "status": "pending",
+  "status": "passed",
   "core_records": 60,
   "minimum_reviewed": 6,
   "required_record_ids": [
@@ -12,19 +12,46 @@
     "iecor:18-4-1",
     "iecor:23-6-1"
   ],
-  "reviewed_records": 0,
-  "coverage": 0.0,
+  "reviewed_records": 6,
+  "coverage": 0.1,
   "uncertain_records": 0,
-  "missing_record_ids": [
-    "hillburmish:Atsi-1193_accomplishsucceed-1",
-    "hillburmish:Lashi-1666_achehead-1",
-    "hillburmish:Rangoon-1366_afraidbe-1",
-    "iecor:10-4-1",
-    "iecor:18-4-1",
-    "iecor:23-6-1"
+  "missing_record_ids": [],
+  "entries": [
+    {
+      "record_id": "hillburmish:Atsi-1193_accomplishsucceed-1",
+      "matches_import": true,
+      "resolved_or_flagged": true
+    },
+    {
+      "record_id": "hillburmish:Lashi-1666_achehead-1",
+      "matches_import": true,
+      "resolved_or_flagged": true
+    },
+    {
+      "record_id": "hillburmish:Rangoon-1366_afraidbe-1",
+      "matches_import": true,
+      "resolved_or_flagged": true
+    },
+    {
+      "record_id": "iecor:18-4-1",
+      "matches_import": true,
+      "resolved_or_flagged": true
+    },
+    {
+      "record_id": "iecor:23-6-1",
+      "matches_import": true,
+      "resolved_or_flagged": true
+    },
+    {
+      "record_id": "iecor:10-4-1",
+      "matches_import": true,
+      "resolved_or_flagged": true
+    }
   ],
-  "entries": [],
   "errors": [],
-  "reviewer_id": null,
-  "limitation": "The script verifies recorded coverage and transcription agreement. Reviewer identity and independence are attestations; it cannot authenticate people or replace specialist review."
+  "reviewer_id": "codex-independent-ai-agent:/root/m1_source_review",
+  "reviewer_type": "independent_ai_agent",
+  "independent_of_encoding": true,
+  "response_sha256": "6393074cc007b47ccba88262276b490b15b37ce1326df442c1f42075312816a8",
+  "limitation": "The script verifies recorded coverage and exact transcription agreement. Reviewer identity, type and independence are attestations; it cannot authenticate reviewers. An independent AI-agent source-entry review is not human or family-specialist sign-off."
 }

@@ -1,7 +1,7 @@
 {
   "milestone": "M1",
-  "status": "in_review",
-  "all_deliverables_accepted": false,
+  "status": "delivered",
+  "all_deliverables_accepted": true,
   "engineering_deliverables_accepted": true,
   "criteria": [
     {
@@ -28,9 +28,9 @@
     },
     {
       "id": "M1-review",
-      "status": "pending",
+      "status": "passed",
       "evidence": "reports/m1-review.json",
-      "result": "0 independently entered records; at least 6 required; 0 flagged imported readings"
+      "result": "6 independently entered records; at least 6 required; 0 flagged imported readings; reviewer type: independent_ai_agent"
     }
   ],
   "artifacts": [
@@ -47,10 +47,12 @@
     "scripts/import_cldf.py",
     "scripts/verify_m1.py",
     "reviews/m1-packet.json",
+    "reviews/m1-responses.json",
+    "reviews/m1-independent-review.md",
     "reports/schema-validation.json",
     "reports/m1-review.json",
     "reports/m1-delivery.json",
     "docs/07-m1-delivery.md"
   ],
-  "next_action": "Independent reviewer completes reviews/m1-response-template.json as reviews/m1-responses.json; resolve/flag discrepancies, rerun review and delivery checks, and only then mark M1 delivered."
+  "next_action": null
 }

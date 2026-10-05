@@ -18,7 +18,7 @@ M1 reports are separate from the literature acquisition audit:
 
 - [schema-validation.json](schema-validation.json): 38 valid / 44 adversarial cases, 60 imported records, source reconciliation, structural round trips and input hashes.
 - [cldf-iecor.json](cldf-iecor.json) and [cldf-hillburmish.json](cldf-hillburmish.json): pinned imports, row/ID counts, field mappings and uninterpreted data.
-- [m1-review.json](m1-review.json): independent transcription coverage; currently pending.
-- [m1-delivery.json](m1-delivery.json): criterion-level acceptance and delivered artifacts. Engineering checks are accepted; `all_deliverables_accepted` remains false until the independent review passes.
+- [m1-review.json](m1-review.json): six of 60 originals independently transcribed by a separate AI agent; all match exactly. The report records reviewer type, independence attestation and a canonical JSON response hash. See the [review method and limitations](../reviews/m1-independent-review.md); this is not human or family-specialist sign-off.
+- [m1-delivery.json](m1-delivery.json): all four criteria pass, with `all_deliverables_accepted: true` and the accepted artifact paths.
 
-`python scripts/verify_m1_delivery.py --require-complete` fails while any M1 gate remains pending. A green engineering CI result does not silently override that requirement.
+CI now runs both `python scripts/review_m1.py --require-complete` and `python scripts/verify_m1_delivery.py --require-complete`. A missing, stale or incomplete review fails acceptance; changed source readings require renewed independent review.

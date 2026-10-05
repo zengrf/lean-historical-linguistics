@@ -54,7 +54,7 @@
   {
     "id": "M1",
     "title": "Evidence schema, provenance and import contract",
-    "status": "in_review",
+    "status": "delivered",
     "depends_on": [
       "M0"
     ],
@@ -73,6 +73,8 @@
       "scripts/import_cldf.py",
       "scripts/verify_m1.py",
       "reviews/m1-packet.json",
+      "reviews/m1-responses.json",
+      "reviews/m1-independent-review.md",
       "reports/schema-validation.json",
       "reports/m1-review.json",
       "reports/m1-delivery.json",
@@ -100,7 +102,7 @@
         "pass_condition": "At least 10 percent of imported core forms and all uncertain OCR/glyph records are independently checked; discrepancies resolved or explicitly flagged."
       }
     ],
-    "delivery_note": "Implementation and automated verification delivered; independent double-entry review is pending. See reports/m1-delivery.json for criterion-level status."
+    "delivery_note": "All four acceptance criteria pass. A separate AI agent independently transcribed six of 60 core originals; all agree exactly and no imported readings are flagged. This source-entry review is not human or family-specialist sign-off. See reviews/m1-independent-review.md and reports/m1-delivery.json."
   },
   {
     "id": "M2",

@@ -1,0 +1,78 @@
+{
+  "reviewer_id": "codex-independent-ai-agent:/root/m1_source_review",
+  "reviewer_type": "independent_ai_agent",
+  "independent_of_encoding": true,
+  "packet_sha256": "aae16253a527d0738397c7e92806c4c680ec16f07e118b388e759be2bbb5d3b5",
+  "entries": [
+    {
+      "record_id": "hillburmish:Atsi-1193_accomplishsucceed-1",
+      "original": "pa̱n⁵⁵",
+      "resolution": null
+    },
+    {
+      "record_id": "hillburmish:Lashi-1666_achehead-1",
+      "original": "nɔː³¹",
+      "resolution": null
+    },
+    {
+      "record_id": "hillburmish:Rangoon-1366_afraidbe-1",
+      "original": "tɕɑuʔ⁴",
+      "resolution": null
+    },
+    {
+      "record_id": "iecor:18-4-1",
+      "original": "popel",
+      "resolution": null
+    },
+    {
+      "record_id": "iecor:23-6-1",
+      "original": "bak",
+      "resolution": null
+    },
+    {
+      "record_id": "iecor:10-4-1",
+      "original": "chāi",
+      "resolution": null
+    }
+  ],
+  "metadata": {
+    "review_completed_at_utc": "2026-10-05T06:11:48Z",
+    "reviewer_task_path": "/root/m1_source_review",
+    "review_note": "reviews/m1-independent-review.md",
+    "scope": "The six packet-listed Value cells only; independent source-entry review, not historical-linguistic sign-off.",
+    "method": "Fresh-context independent AI reviewer opened each unique ID row in the pinned UTF-8 CSVs, displayed its raw CSV row, Value, escaped Value, and full Unicode code-point sequence, then transcribed the Value without normalization. Local source bytes were compared with separately fetched commit-pinned raw GitHub CSV bytes.",
+    "expected_values_consulted": false,
+    "importer_or_validation_code_consulted": false,
+    "packet_hash_method": "SHA256 of UTF-8 json.dumps(packet, sort_keys=True, ensure_ascii=False) with default separators and no trailing newline; matches the supplied response template.",
+    "packet_raw_bytes_sha256": "b2a72fae3d2a858d601e80935167a13c73c61e1b9e758795aabf8b777609e9bd",
+    "sources": [
+      {
+        "dataset": "hillburmish",
+        "commit": "3d96cfa6b2ed4c59fd13e28ef5ae00db30247bb3",
+        "source_file": "data/upstream/hillburmish/cldf/forms.csv",
+        "fetched_url": "https://raw.githubusercontent.com/lexibank/hillburmish/3d96cfa6b2ed4c59fd13e28ef5ae00db30247bb3/cldf/forms.csv",
+        "local_and_fetched_sha256": "7a6906044fb9337c894498e3936040dec86f34198f2ee1bd1ca282fb0f3e421f",
+        "byte_count": 479039,
+        "matches_packet_sha256": true,
+        "local_and_fetched_bytes_identical": true
+      },
+      {
+        "dataset": "iecor",
+        "commit": "700b635a04786427b78841489c46eefbe2843509",
+        "source_file": "data/upstream/iecor/cldf/forms.csv",
+        "fetched_url": "https://raw.githubusercontent.com/lexibank/iecor/700b635a04786427b78841489c46eefbe2843509/cldf/forms.csv",
+        "local_and_fetched_sha256": "055ce127b4033d6b96f5589228bf9a63b20564a0c0d19e5b9e97fe80b1a77202",
+        "byte_count": 2650749,
+        "matches_packet_sha256": true,
+        "local_and_fetched_bytes_identical": true
+      }
+    ],
+    "source_ambiguities": [],
+    "limitations": [
+      "AI review by a separate agent task; reviewer_id is a task identifier, not an authenticated human identity.",
+      "The agent did not participate in import/encoding and received no expected imported values; filesystem read separation was enforced by instruction in a shared workspace, not by a sandbox.",
+      "No human or language-family-specialist sign-off; no evaluation of source scholarship, cognacy, phonological analysis, or historical claims.",
+      "Only six packet-selected cells were reviewed; this is not a review of every core record."
+    ]
+  }
+}

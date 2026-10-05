@@ -47,4 +47,4 @@ Reconstructed records require a proto doculect, a declared analysis and that ana
 
 From `lean/`, run `lake exe dossier_check data/pilots --strict`. The CLI also accepts explicit files, directories, `--report FILE` and `--roundtrip FILE` for one accepted dossier. Exit codes are 0 for all accepted, 1 for rejected dossiers and 2 for invocation/I/O failures. Directory scanning covers immediate `.json` files, not nested directories.
 
-The [migration policy](../MIGRATIONS.md) governs future changes. See the [M1 delivery report](../../docs/07-m1-delivery.md) for import scope, tests and remaining review requirements.
+The [migration policy](../MIGRATIONS.md) governs future changes. See the [M1 delivery report](../../docs/07-m1-delivery.md) for import scope, tests and the completed source-entry review.

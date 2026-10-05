@@ -1,6 +1,6 @@
 # M1: evidence schema, provenance and import contract
 
-**Implementation and automated verification are delivered. Independent double-entry review is pending.** M1 is therefore `in_review`, not fully accepted. The authoritative criterion-by-criterion result is [m1-delivery.json](../reports/m1-delivery.json). Nothing in this delivery establishes the historical correctness of the imported analyses.
+**M1 is delivered: all four acceptance criteria pass.** A separate AI agent completed the independent source-entry review, with exact agreement on all six required entries. The authoritative criterion-by-criterion result is [m1-delivery.json](../reports/m1-delivery.json). This is not human or family-specialist sign-off, and does not establish the historical correctness of the imported analyses.
 
 ## Delivered artifacts
 
@@ -9,7 +9,7 @@
 | M1-fixtures | 38 valid fixtures accepted; 44 adversarial fixtures rejected for their intended reasons | [Fixture manifest](../data/fixtures/manifest.json), [validation report](../reports/schema-validation.json) |
 | M1-lossless | Every valid fixture and all 60 real imported records preserve their complete structure through Lean JSON decoding/encoding | [Typed evidence](../lean/Historical/Evidence.lean), [verification script](../scripts/verify_m1.py) |
 | M1-cldf | Two pinned full CLDF datasets validate; 30 records from each are imported and reconciled by upstream ID | [IE-CoR report](../reports/cldf-iecor.json), [Burmish report](../reports/cldf-hillburmish.json), mapping policy below |
-| M1-review | **Pending:** six independent source transcriptions required; none recorded | [Blinded packet](../reviews/m1-packet.json), [review report](../reports/m1-review.json) |
+| M1-review | Six of 60 core records independently transcribed by a separate AI agent; all six match exactly; no flagged imported readings | [Blinded packet](../reviews/m1-packet.json), [review record](../reviews/m1-independent-review.md), [review report](../reports/m1-review.json) |
 
 The [versioned schema](../schema/v1/README.md) and [migration policy](../schema/MIGRATIONS.md) specify required fields, source/attestation distinctions, dates, normalization and linked alternatives. The validator rejects dangling references, duplicate primary IDs, unrecorded normalization, incompatible cell contents, reconstructed/attested identity confusion and invalid choice bindings. Strict input checks also reject duplicate JSON keys, unknown fields and malformed Unicode input.
 
@@ -61,7 +61,7 @@ The importer retains cognacy, loan, native-script, commentary and other custom f
 
 IE-CoR's selected rows have empty row-level source-reference fields. They receive exact dataset-row citations; dictionary-level references are not invented. Burmish's original source-reference strings remain in raw columns and the source bibliography remains in the snapshot. Resolving those citations into a richer publication graph is future data enrichment, not hidden behind a generic “source complete” claim.
 
-This mapping/loss policy was reviewed during implementation against both snapshots and adversarial adapter tests. That implementation review is distinct from the still-pending independent transcription gate. No unsupported semantic field is claimed to have been imported losslessly into a richer meaning; its original bytes remain recoverable.
+This mapping/loss policy was reviewed during implementation against both snapshots and adversarial adapter tests. The separate source-entry review described below checks the required transcription sample. No unsupported semantic field is claimed to have been imported losslessly into a richer meaning; its original bytes remain recoverable.
 
 ## Proof and parser boundaries
 
@@ -91,22 +91,26 @@ python scripts/check_proofs.py reports/lean-axioms-current.txt
 python scripts/import_cldf.py --check
 python scripts/verify_m1.py
 python -m unittest discover -s tests -v
-python scripts/review_m1.py
-python scripts/verify_m1_delivery.py
+python scripts/review_m1.py --require-complete
+python scripts/verify_m1_delivery.py --require-complete
 python scripts/check_plan.py
 ```
 
 The saved engineering report records hashes of its inputs and implementation. The delivery verifier rejects a stale report or missing artifact. Generated schemas/fixtures/imports are rebuilt in CI and compared against the committed versions. Upstream validation uses vendored snapshots and needs no network after dependencies are installed.
 
-## Remaining acceptance gate
+## Completed independent source-entry review
 
-The [review instructions](../reviews/README.md) and six-row packet are ready. A reviewer independent of the import/encoding must enter the original source values. The packet omits the expected imported answers. The checker requires the current packet hash, actual reviewer identity, independence attestation, sufficient coverage, and resolved or explicitly flagged discrepancies. It cannot authenticate that identity itself.
+On 2026-10-05 UTC, the separate AI agent `codex-independent-ai-agent:/root/m1_source_review` completed the fixed six-row packet: three IE-CoR and three Burmish entries. It started with fresh context, had not participated in the encoding, and consulted the packet and source CSVs without viewing imported values, importer code or validation reports. It separately fetched the commit-pinned public CSVs and verified byte equality and SHA256 hashes against the local snapshots. It inspected each source row and every Unicode code point before finalizing the entries.
 
-Until that review is supplied, both commands intentionally fail:
+The [submitted response](../reviews/m1-responses.json) and [reviewer's record](../reviews/m1-independent-review.md) preserve its identity, method, source hashes and limitations. Subsequent reconciliation found exact Unicode agreement on all six originals, including combining marks, IPA symbols, vowel length and superscript tones. Coverage is 6/60 (10%); there are no flagged imported readings or unresolved discrepancies. The reviewer made no changes to imports or validators.
+
+Independence here means a separate agent and source-entry procedure without access to expected answers in its task context. The shared filesystem boundary was enforced by instruction, not a sandbox, and shared AI failure modes remain possible. This is not an independent human or family-specialist review. The M5/M6 linguistic review requirements remain in force.
+
+Both acceptance commands now pass, and CI requires them:
 
 ```bash
 python scripts/review_m1.py --require-complete
 python scripts/verify_m1_delivery.py --require-complete
 ```
 
-This preserves the original acceptance requirement instead of redefining an automated round trip as independent review. A green engineering CI run does not change `all_deliverables_accepted: false`.
+The review checker requires the current packet hash, reviewer identity, independence attestation, sufficient coverage, and resolved or explicitly flagged discrepancies. It also records reviewer type and a canonical JSON response hash, so the saved report identifies the exact response assessed. It cannot authenticate reviewer identity or independence. Changing a source or the sample requires a new review; missing, stale or incomplete review evidence fails CI. The delivery report now records `all_deliverables_accepted: true`.

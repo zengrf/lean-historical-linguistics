@@ -66,7 +66,10 @@ def assess(packet, expected, responses):
             "coverage":len(reviewed)/len(expected),"uncertain_records":sum(r["uncertain"] for r in expected.values()),
             "missing_record_ids":missing,"entries":entries,"errors":errors,
             "reviewer_id":responses.get("reviewer_id") if responses else None,
-            "limitation":"The script verifies recorded coverage and transcription agreement. Reviewer identity and independence are attestations; it cannot authenticate people or replace specialist review."}
+            "reviewer_type":responses.get("reviewer_type","unspecified") if responses else None,
+            "independent_of_encoding":responses.get("independent_of_encoding") if responses else None,
+            "response_sha256":hashlib.sha256(json.dumps(responses,ensure_ascii=False,sort_keys=True).encode()).hexdigest() if responses else None,
+            "limitation":"The script verifies recorded coverage and exact transcription agreement. Reviewer identity, type and independence are attestations; it cannot authenticate reviewers. An independent AI-agent source-entry review is not human or family-specialist sign-off."}
 
 
 def main():
