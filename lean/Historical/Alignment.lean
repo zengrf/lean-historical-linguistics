@@ -52,8 +52,11 @@ def RowRelated (r : Row) : Prop :=
 def checkRow (r : Row) : Bool := decide (recover r.aligned = r.original)
 
 theorem checkRow_iff (r : Row) : checkRow r = true ↔ RowRelated r := by
+  -- Reflect the decision before simplifying the optional row constructors.
+  -- This order is stable across the supported simplifier versions.
+  simp only [checkRow, decide_eq_true_eq]
   rcases r with ⟨original, aligned⟩
-  cases original <;> cases aligned <;> simp [checkRow, recover, RowRelated, removeGaps_iff]
+  cases original <;> cases aligned <;> simp [recover, RowRelated, removeGaps_iff]
 
 theorem accepted_row_recovers (r : Row) (h : checkRow r = true) :
     recover r.aligned = r.original := by simpa [checkRow] using h
