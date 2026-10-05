@@ -1,0 +1,797 @@
+{
+  "schema_version": "1.0.0",
+  "suite": "contextual-rules",
+  "fixtures": [
+    {
+      "path": "valid/unconditional.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, left-to-right, simultaneous: input position 1 is p and has no contextual or edge restriction, so emit f. Position 2 is a, outside the target, so copy a. Position 3 is p and likewise matches unconditionally, so emit f. Position 4 is a and is copied. Every context is read from the original input; none is required here."
+    },
+    {
+      "path": "valid/intervocalic.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, left-to-right, simultaneous: position 1 is p but lacks the required adjacent a on its left, so copy p. Position 2 is a and is copied as a nontarget. Position 3 is p with original position 2 = a immediately left and original position 4 = a immediately right, so emit b. Position 4 is a and is copied. Position 5 is p with a on its left but no segment on its right; its right test fails, so copy p."
+    },
+    {
+      "path": "valid/word-initial.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, left-to-right, simultaneous: position 1 is p with an empty original left side, so the left-edge anchor holds and f is emitted. Position 2 is a, a nontarget, and is copied. Position 3 is p, but its original left side contains p and a; with no left tests to consume those tokens, the left-edge anchor fails and p is copied."
+    },
+    {
+      "path": "valid/word-final-deletion.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, left-to-right, simultaneous: position 1 is t but the original right side contains a and t, so the empty-context right-edge anchor fails and t is copied. Position 2 is a and is copied as a nontarget. Position 3 is t with an empty original right side, so the right-edge anchor holds and this original token is consumed with no output."
+    },
+    {
+      "path": "valid/morpheme-context.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, left-to-right, simultaneous: position 1 is p but has no adjacent left token to satisfy the explicit + test, so copy p. Position 2 is the morpheme boundary + and must be copied. Position 3 is p immediately after original position 2 = +, so emit b. Position 4 is a, a nontarget, and is copied. The boundary is inspected by the explicit test and is never itself a replacement target."
+    },
+    {
+      "path": "valid/ltr-simultaneous.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, left-to-right, simultaneous: position 1 is b, a nontarget, so copy b. Position 2 is a and its original left neighbor is b, so emit b. Position 3 is a but its original left neighbor is position 2 = a, so copy a. The b emitted at position 2 cannot satisfy position 3's test because this pass reads the original input on both sides."
+    },
+    {
+      "path": "valid/ltr-feeding.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, left-to-right, feeding: position 1 is b and is copied, leaving produced prefix [b]. At original position 2, a sees the nearest produced left token b and is replaced by b, leaving [b, b]. At original position 3, a now sees the b produced for position 2 and is replaced by b, leaving [b, b, b]. Each of the three original positions is visited once; emitted b tokens are not revisited."
+    },
+    {
+      "path": "valid/rtl-simultaneous.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, right-to-left, simultaneous: visit original position 3 first; it is b, a nontarget, and is copied. Position 2 is a whose original right neighbor at position 3 is b, so emit b. Position 1 is a whose original right neighbor at position 2 is a, so its right test fails and a is copied. Output is presented in original left-to-right word order as [a, b, b]; the earlier emitted b does not feed position 1."
+    },
+    {
+      "path": "valid/rtl-feeding.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, right-to-left, feeding: original position 3 is b and is copied, giving produced suffix [b]. Original position 2 is a with nearest produced right token b, so emit b to its left, giving suffix [b, b]. Original position 1 is a and its nearest produced right token is now the b emitted for position 2, so emit b. The final word in ordinary order is [b, b, b]; no emitted token is rescanned."
+    },
+    {
+      "path": "valid/deletion-simultaneous.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, left-to-right, simultaneous: position 1 is b and is copied. Position 2 is a with original left neighbor b, so delete position 2. Position 3 is a whose original left neighbor is position 2 = a, so its test fails and a is copied. Deleting position 2 does not expose b for a simultaneous context test at position 3."
+    },
+    {
+      "path": "valid/deletion-feeding.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, left-to-right, feeding: position 1 is b and is copied, giving prefix [b]. Original position 2 is a and sees b in the produced prefix, so delete it; the prefix stays [b]. Original position 3 is a and again sees b as the nearest produced left token because position 2 emitted nothing, so delete it too. Both deleted original tokens are consumed; the final word is [b]."
+    },
+    {
+      "path": "valid/unvisited-context.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, left-to-right, feeding: at original position 1, p has original unvisited position 2 = p immediately right, so emit b. At original position 2, p has original unvisited position 3 = p immediately right, so emit b. At original position 3, p has no right token, so the required p test fails and p is copied. Right-side tests read the remaining original input throughout this left-to-right pass; earlier b outputs do not affect them."
+    },
+    {
+      "path": "valid/rtl-word-initial.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, right-to-left, feeding: original position 3 is p, but its unvisited original left side contains positions 1 and 2, so the left-edge anchor fails and p is copied. Position 2 is a and is copied as a nontarget. Original position 1 is p with no unvisited original token to its left, so the left-edge anchor holds and f is emitted. The ordinary-order result is [f, a, p]; changing scan direction does not turn a left-edge anchor into a word-final condition."
+    },
+    {
+      "path": "valid/two-token-context.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, left-to-right, simultaneous: position 1 is p and position 2 is a; both are nontargets and are copied. Position 3 is t. Its first, nearest-left test [a] consumes original position 2 = a; its second left test [p] consumes original position 1 = p. Both succeed in the listed nearest-first order. Its right context is empty and no token remains to the right, so the right-edge anchor also succeeds. Emit d for position 3."
+    },
+    {
+      "path": "valid/boundary-blocks-wildcard.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, left-to-right, simultaneous: position 1 is a and is copied as a nontarget. Position 2 is the boundary + and is copied. Position 3 is p: the right wildcard would match adjacent position 4 = a, but the left wildcard cannot match adjacent position 2 = + and cannot skip it to reach position 1. Thus the occurrence fails and p is copied. Position 4 is a and is copied. Record the complete unchanged post-rule word."
+    },
+    {
+      "path": "valid/ordered-cascade.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1 runs on [p, a], left-to-right and simultaneous: position 1 = p matches the unrestricted p target and emits f; position 2 = a is copied. Record [f, a]. Pass 2 receives this entire post-rule word: position 1 = f matches its unrestricted f target and emits v; position 2 = a is copied. Record [v, a]. Separate passes feed one another even though each individual pass is simultaneous."
+    },
+    {
+      "path": "valid/reversed-cascade.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1 runs on [p, a], left-to-right and simultaneous, targeting f: position 1 = p is a nontarget and is copied; position 2 = a is also copied. The unchanged stage [p, a] is retained. Pass 2 receives [p, a] and targets p: position 1 matches without contextual restrictions and emits f; position 2 = a is copied. Record [f, a]. The earlier f-to-v pass is not rerun after f is created."
+    },
+    {
+      "path": "valid/unicode-atoms.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, left-to-right, simultaneous: position 1 is the complete atomic string a̱, is outside target [tʰ], and is copied exactly. Position 2 is the complete atomic string tʰ, matching the target; its original nearest-left atom a̱ and nearest-right atom ⁵⁵ match the respective singleton classes, so emit s. Position 3 is the atomic string ⁵⁵ and is copied exactly. None of the three strings is split into characters, normalized, or given an implicit tone or phonetic interpretation."
+    },
+    {
+      "path": "valid/edge-exposed-by-deletion.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1, left-to-right, feeding: original position 1 is a with an empty produced left side, so the left-edge anchor holds and the token is deleted. The produced prefix remains empty. Original position 2 is also a; its already visited side is that empty produced prefix, so the same anchor holds and it is deleted. Original position 3 is b, a nontarget, and is copied. The final word is [b]; both original a tokens were visited once, and deletion exposed the left edge for the second visit."
+    },
+    {
+      "path": "valid/empty-word.json",
+      "accept": true,
+      "code": null,
+      "category": "independent-hand-work",
+      "rationale": "Pass 1 is right-to-left and feeding, but the input has no original positions to visit. No target is encountered and no output is produced. The pass still exists, so record its empty post-rule word [] as the sole step; the final output is also []."
+    },
+    {
+      "path": "valid/identity-package.json",
+      "accept": true,
+      "code": null,
+      "category": "boundary-contract",
+      "rationale": "Empty cascade is identity with no steps."
+    },
+    {
+      "path": "valid/only-boundaries.json",
+      "accept": true,
+      "code": null,
+      "category": "boundary-contract",
+      "rationale": "Boundaries survive deletion rules."
+    },
+    {
+      "path": "valid/delete-all.json",
+      "accept": true,
+      "code": null,
+      "category": "boundary-contract",
+      "rationale": "Deleting each original segment produces an empty word."
+    },
+    {
+      "path": "valid/multiple-class-members.json",
+      "accept": true,
+      "code": null,
+      "category": "boundary-contract",
+      "rationale": "Every matching member of an explicit segment class changes."
+    },
+    {
+      "path": "valid/replacement-not-revisited.json",
+      "accept": true,
+      "code": null,
+      "category": "boundary-contract",
+      "rationale": "A self-replacement consumes one original token and terminates."
+    },
+    {
+      "path": "invalid/missing-step.json",
+      "accept": false,
+      "code": "TRACE_LENGTH",
+      "category": "trace-shape",
+      "rationale": "A law's complete stage cannot be omitted."
+    },
+    {
+      "path": "invalid/extra-step.json",
+      "accept": false,
+      "code": "TRACE_LENGTH",
+      "category": "trace-shape",
+      "rationale": "An extra stage is not licensed."
+    },
+    {
+      "path": "invalid/omit-unchanged-step.json",
+      "accept": false,
+      "code": "TRACE_LENGTH",
+      "category": "trace-shape",
+      "rationale": "A no-change pass still requires a certificate step."
+    },
+    {
+      "path": "invalid/reordered-steps.json",
+      "accept": false,
+      "code": "RULE_ID",
+      "category": "rule-order",
+      "rationale": "Certificate order must match named laws."
+    },
+    {
+      "path": "invalid/wrong-law-id.json",
+      "accept": false,
+      "code": "RULE_ID",
+      "category": "rule-order",
+      "rationale": "A different law identity cannot be substituted."
+    },
+    {
+      "path": "invalid/reused-law-id.json",
+      "accept": false,
+      "code": "RULE_ID",
+      "category": "rule-order",
+      "rationale": "Repeated certificate law IDs cannot replace the next law."
+    },
+    {
+      "path": "invalid/wrong-input-stage.json",
+      "accept": false,
+      "code": "TRACE_STAGE",
+      "category": "stage-identity",
+      "rationale": "The certificate must name the actual input stage."
+    },
+    {
+      "path": "invalid/wrong-output-stage.json",
+      "accept": false,
+      "code": "TRACE_STAGE",
+      "category": "stage-identity",
+      "rationale": "The certificate must name the actual output stage."
+    },
+    {
+      "path": "invalid/wrong-final.json",
+      "accept": false,
+      "code": "FINAL_OUTPUT",
+      "category": "trace-shape",
+      "rationale": "The final word must equal the final step."
+    },
+    {
+      "path": "invalid/corrupt-middle.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "trace-shape",
+      "rationale": "A plausible final word does not excuse an invalid intermediate word."
+    },
+    {
+      "path": "invalid/skip-all-matches.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "uniformity",
+      "rationale": "Matching occurrences must change."
+    },
+    {
+      "path": "invalid/change-one-occurrence.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "uniformity",
+      "rationale": "A rule cannot arbitrarily change only the first of two matches."
+    },
+    {
+      "path": "invalid/ltr-sim-feeds.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "feeding-vs-simultaneous",
+      "rationale": "Simultaneous left context cannot see a newly produced b."
+    },
+    {
+      "path": "invalid/ltr-feeding-frozen.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "feeding-vs-simultaneous",
+      "rationale": "Feeding left context sees the produced b."
+    },
+    {
+      "path": "invalid/rtl-sim-feeds.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "feeding-vs-simultaneous",
+      "rationale": "Simultaneous right context is original."
+    },
+    {
+      "path": "invalid/rtl-feeding-frozen.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "feeding-vs-simultaneous",
+      "rationale": "Right-to-left feeding sees produced right context."
+    },
+    {
+      "path": "invalid/deletion-sim-feeds.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "deletion",
+      "rationale": "Simultaneous deletion cannot expose b for another match."
+    },
+    {
+      "path": "invalid/deletion-feed-frozen.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "deletion",
+      "rationale": "Feeding deletion exposes the preceding b."
+    },
+    {
+      "path": "invalid/ignore-initial-anchor.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "context",
+      "rationale": "An initial-only rule cannot change final p."
+    },
+    {
+      "path": "invalid/ignore-final-anchor.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "context",
+      "rationale": "Final deletion cannot delete initial t."
+    },
+    {
+      "path": "invalid/wildcard-crosses-boundary.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "boundary",
+      "rationale": "A segment wildcard cannot match a morpheme boundary."
+    },
+    {
+      "path": "invalid/erase-morpheme-boundary.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "boundary",
+      "rationale": "A rule cannot delete a boundary."
+    },
+    {
+      "path": "invalid/rtl-swaps-word-edges.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "direction",
+      "rationale": "Right-to-left scanning does not exchange original word-initial and word-final conditions."
+    },
+    {
+      "path": "invalid/unvisited-context-feeds.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "feeding-vs-simultaneous",
+      "rationale": "Unvisited right context remains original in a left-to-right pass."
+    },
+    {
+      "path": "invalid/normalize-atomic-token.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "unicode",
+      "rationale": "A combining-mark atom cannot be silently normalized or stripped."
+    },
+    {
+      "path": "invalid/feeding-edge-not-exposed.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "deletion",
+      "rationale": "Feeding deletion exposes the word edge for the next original a."
+    },
+    {
+      "path": "invalid/reverse-nearest-first.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "context",
+      "rationale": "Left context is nearest-first, not left-to-right spelling order."
+    },
+    {
+      "path": "invalid/boundary-is-not-word-edge.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "boundary",
+      "rationale": "A morpheme boundary is not a word edge."
+    },
+    {
+      "path": "invalid/changed-model-order.json",
+      "accept": false,
+      "code": "STEP_OUTPUT",
+      "category": "rule-order",
+      "rationale": "Changing package rule order changes the licensed trace even when labels and stages remain valid."
+    },
+    {
+      "path": "invalid/package-mismatch.json",
+      "accept": false,
+      "code": "PACKAGE_IDENTITY",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject package mismatch under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/version-mismatch.json",
+      "accept": false,
+      "code": "PACKAGE_IDENTITY",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject version mismatch under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/duplicate-inventory.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject duplicate inventory under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/empty-inventory.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject empty inventory under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/empty-symbol.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject empty symbol under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/whitespace-symbol.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject whitespace symbol under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/boundary-in-inventory.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject boundary in inventory under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/unknown-target.json",
+      "accept": false,
+      "code": "TARGET_CLASS",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject unknown target under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/empty-target.json",
+      "accept": false,
+      "code": "TARGET_CLASS",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject empty target under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/duplicate-target.json",
+      "accept": false,
+      "code": "TARGET_CLASS",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject duplicate target under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/unknown-replacement.json",
+      "accept": false,
+      "code": "REPLACEMENT",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject unknown replacement under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/replace-with-boundary.json",
+      "accept": false,
+      "code": "REPLACEMENT",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject replace with boundary under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/unknown-context.json",
+      "accept": false,
+      "code": "CONTEXT_CLASS",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject unknown context under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/empty-context-class.json",
+      "accept": false,
+      "code": "CONTEXT_CLASS",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject empty context class under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/duplicate-context-class.json",
+      "accept": false,
+      "code": "CONTEXT_CLASS",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject duplicate context class under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/unbounded-left-context.json",
+      "accept": false,
+      "code": "CONTEXT_BOUND",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject unbounded left context under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/unbounded-right-context.json",
+      "accept": false,
+      "code": "CONTEXT_BOUND",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject unbounded right context under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/broken-stage-chain.json",
+      "accept": false,
+      "code": "STAGE_CHAIN",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject broken stage chain under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/wrong-final-stage.json",
+      "accept": false,
+      "code": "STAGE_CHAIN",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject wrong final stage under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/cyclic-stage-name.json",
+      "accept": false,
+      "code": "STAGE_ORDER",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject cyclic stage name under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/invalid-law-id.json",
+      "accept": false,
+      "code": "RULE_IDS",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject invalid law id under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/unknown-input-segment.json",
+      "accept": false,
+      "code": "WORD_INVENTORY",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject unknown input segment under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/unknown-step-segment.json",
+      "accept": false,
+      "code": "WORD_INVENTORY",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject unknown step segment under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/unknown-output-segment.json",
+      "accept": false,
+      "code": "WORD_INVENTORY",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject unknown output segment under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/schema-version.json",
+      "accept": false,
+      "code": "SCHEMA_VERSION",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject schema version under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/invalid-dossier-id.json",
+      "accept": false,
+      "code": "DOSSIER_ID",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject invalid dossier id under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/missing-package-version.json",
+      "accept": false,
+      "code": "PACKAGE_METADATA",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject missing package version under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/iterate-to-fixed-point.json",
+      "accept": false,
+      "code": "JSON_SHAPE",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject iterate to fixed point under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/whole-word-lookup.json",
+      "accept": false,
+      "code": "JSON_SHAPE",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject whole word lookup under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/lexical-exceptions.json",
+      "accept": false,
+      "code": "JSON_SHAPE",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject lexical exceptions under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/insertion-operation.json",
+      "accept": false,
+      "code": "JSON_SHAPE",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject insertion operation under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/word-replacement.json",
+      "accept": false,
+      "code": "JSON_SHAPE",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject word replacement under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/unknown-direction.json",
+      "accept": false,
+      "code": "JSON_SHAPE",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject unknown direction under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/omit-explicit-replacement.json",
+      "accept": false,
+      "code": "JSON_SHAPE",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject omit explicit replacement under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/hidden-predicate.json",
+      "accept": false,
+      "code": "JSON_SHAPE",
+      "category": "grammar-and-packaging",
+      "rationale": "Reject hidden predicate under the explicit rule/package contract."
+    },
+    {
+      "path": "invalid/unicode-whitespace-00a0.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+00A0 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-1680.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+1680 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-2000.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+2000 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-2001.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+2001 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-2002.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+2002 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-2003.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+2003 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-2004.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+2004 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-2005.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+2005 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-2006.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+2006 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-2007.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+2007 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-2008.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+2008 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-2009.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+2009 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-200a.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+200A cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-2028.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+2028 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-2029.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+2029 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-202f.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+202F cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-205f.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+205F cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/unicode-whitespace-3000.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Unicode White_Space U+3000 cannot be an atomic segment symbol."
+    },
+    {
+      "path": "invalid/embedded-unicode-whitespace.json",
+      "accept": false,
+      "code": "INVENTORY",
+      "category": "unicode-whitespace",
+      "rationale": "Whitespace is forbidden inside a segment string, not just as an entire symbol."
+    },
+    {
+      "path": "invalid/duplicate-law-identities.json",
+      "accept": false,
+      "code": "RULE_IDS",
+      "category": "grammar-and-packaging",
+      "rationale": "Distinct package laws need unique identities."
+    },
+    {
+      "path": "invalid/duplicate-json-key.json",
+      "accept": false,
+      "code": "DUPLICATE_JSON_KEY",
+      "category": "parser",
+      "rationale": "Duplicate keys cannot conceal an alternate target or output."
+    },
+    {
+      "path": "invalid/invalid-utf8.json",
+      "accept": false,
+      "code": "UTF8",
+      "category": "parser",
+      "rationale": "Malformed UTF-8 is rejected without replacing bytes."
+    },
+    {
+      "path": "invalid/invalid-json.json",
+      "accept": false,
+      "code": "JSON_SYNTAX",
+      "category": "parser",
+      "rationale": "Syntactically malformed JSON is rejected."
+    },
+    {
+      "path": "invalid/surrogate-escape.json",
+      "accept": false,
+      "code": "UNICODE_ESCAPE",
+      "category": "parser",
+      "rationale": "Supplementary characters must use literal UTF-8 across both supported Lean parsers."
+    }
+  ]
+}

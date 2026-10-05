@@ -1,0 +1,529 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "independent-hand-worked-derivations",
+  "semantics_file": "docs/rule-semantics.md",
+  "semantics_sha256": "bd93cd34d4d06ea6a5cf224062514ec7a97fbc370f55653d2ce471ff4da449f8",
+  "instructions": "An independent reviewer reads only this packet and its pinned prose semantics, works every rule pass by hand without executing an interpreter or consulting expected answers, and records every post-rule word and a position-by-position rationale. Empty/no-change stages must be retained. This is a synthetic semantics review, not historical-linguistic validation.",
+  "cases": [
+    {
+      "id": "unconditional",
+      "input": [
+        "p",
+        "a",
+        "p",
+        "a"
+      ],
+      "rules": [
+        {
+          "target": [
+            "p"
+          ],
+          "replacement": "f",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      ]
+    },
+    {
+      "id": "intervocalic",
+      "input": [
+        "p",
+        "a",
+        "p",
+        "a",
+        "p"
+      ],
+      "rules": [
+        {
+          "target": [
+            "p"
+          ],
+          "replacement": "b",
+          "left": [
+            [
+              "a"
+            ]
+          ],
+          "right": [
+            [
+              "a"
+            ]
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      ]
+    },
+    {
+      "id": "word-initial",
+      "input": [
+        "p",
+        "a",
+        "p"
+      ],
+      "rules": [
+        {
+          "target": [
+            "p"
+          ],
+          "replacement": "f",
+          "left": [],
+          "right": [],
+          "left_edge": true,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      ]
+    },
+    {
+      "id": "word-final-deletion",
+      "input": [
+        "t",
+        "a",
+        "t"
+      ],
+      "rules": [
+        {
+          "target": [
+            "t"
+          ],
+          "replacement": null,
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": true,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      ]
+    },
+    {
+      "id": "morpheme-context",
+      "input": [
+        "p",
+        "+",
+        "p",
+        "a"
+      ],
+      "rules": [
+        {
+          "target": [
+            "p"
+          ],
+          "replacement": "b",
+          "left": [
+            "+"
+          ],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      ]
+    },
+    {
+      "id": "ltr-simultaneous",
+      "input": [
+        "b",
+        "a",
+        "a"
+      ],
+      "rules": [
+        {
+          "target": [
+            "a"
+          ],
+          "replacement": "b",
+          "left": [
+            [
+              "b"
+            ]
+          ],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      ]
+    },
+    {
+      "id": "ltr-feeding",
+      "input": [
+        "b",
+        "a",
+        "a"
+      ],
+      "rules": [
+        {
+          "target": [
+            "a"
+          ],
+          "replacement": "b",
+          "left": [
+            [
+              "b"
+            ]
+          ],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "feeding"
+        }
+      ]
+    },
+    {
+      "id": "rtl-simultaneous",
+      "input": [
+        "a",
+        "a",
+        "b"
+      ],
+      "rules": [
+        {
+          "target": [
+            "a"
+          ],
+          "replacement": "b",
+          "left": [],
+          "right": [
+            [
+              "b"
+            ]
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "right-to-left",
+          "mode": "simultaneous"
+        }
+      ]
+    },
+    {
+      "id": "rtl-feeding",
+      "input": [
+        "a",
+        "a",
+        "b"
+      ],
+      "rules": [
+        {
+          "target": [
+            "a"
+          ],
+          "replacement": "b",
+          "left": [],
+          "right": [
+            [
+              "b"
+            ]
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "right-to-left",
+          "mode": "feeding"
+        }
+      ]
+    },
+    {
+      "id": "deletion-simultaneous",
+      "input": [
+        "b",
+        "a",
+        "a"
+      ],
+      "rules": [
+        {
+          "target": [
+            "a"
+          ],
+          "replacement": null,
+          "left": [
+            [
+              "b"
+            ]
+          ],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      ]
+    },
+    {
+      "id": "deletion-feeding",
+      "input": [
+        "b",
+        "a",
+        "a"
+      ],
+      "rules": [
+        {
+          "target": [
+            "a"
+          ],
+          "replacement": null,
+          "left": [
+            [
+              "b"
+            ]
+          ],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "feeding"
+        }
+      ]
+    },
+    {
+      "id": "unvisited-context",
+      "input": [
+        "p",
+        "p",
+        "p"
+      ],
+      "rules": [
+        {
+          "target": [
+            "p"
+          ],
+          "replacement": "b",
+          "left": [],
+          "right": [
+            [
+              "p"
+            ]
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "feeding"
+        }
+      ]
+    },
+    {
+      "id": "rtl-word-initial",
+      "input": [
+        "p",
+        "a",
+        "p"
+      ],
+      "rules": [
+        {
+          "target": [
+            "p"
+          ],
+          "replacement": "f",
+          "left": [],
+          "right": [],
+          "left_edge": true,
+          "right_edge": false,
+          "direction": "right-to-left",
+          "mode": "feeding"
+        }
+      ]
+    },
+    {
+      "id": "two-token-context",
+      "input": [
+        "p",
+        "a",
+        "t"
+      ],
+      "rules": [
+        {
+          "target": [
+            "t"
+          ],
+          "replacement": "d",
+          "left": [
+            [
+              "a"
+            ],
+            [
+              "p"
+            ]
+          ],
+          "right": [],
+          "left_edge": false,
+          "right_edge": true,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      ]
+    },
+    {
+      "id": "boundary-blocks-wildcard",
+      "input": [
+        "a",
+        "+",
+        "p",
+        "a"
+      ],
+      "rules": [
+        {
+          "target": [
+            "p"
+          ],
+          "replacement": "b",
+          "left": [
+            "*"
+          ],
+          "right": [
+            "*"
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      ]
+    },
+    {
+      "id": "ordered-cascade",
+      "input": [
+        "p",
+        "a"
+      ],
+      "rules": [
+        {
+          "target": [
+            "p"
+          ],
+          "replacement": "f",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        },
+        {
+          "target": [
+            "f"
+          ],
+          "replacement": "v",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      ]
+    },
+    {
+      "id": "reversed-cascade",
+      "input": [
+        "p",
+        "a"
+      ],
+      "rules": [
+        {
+          "target": [
+            "f"
+          ],
+          "replacement": "v",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        },
+        {
+          "target": [
+            "p"
+          ],
+          "replacement": "f",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      ]
+    },
+    {
+      "id": "unicode-atoms",
+      "input": [
+        "a̱",
+        "tʰ",
+        "⁵⁵"
+      ],
+      "rules": [
+        {
+          "target": [
+            "tʰ"
+          ],
+          "replacement": "s",
+          "left": [
+            [
+              "a̱"
+            ]
+          ],
+          "right": [
+            [
+              "⁵⁵"
+            ]
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      ]
+    },
+    {
+      "id": "edge-exposed-by-deletion",
+      "input": [
+        "a",
+        "a",
+        "b"
+      ],
+      "rules": [
+        {
+          "target": [
+            "a"
+          ],
+          "replacement": null,
+          "left": [],
+          "right": [],
+          "left_edge": true,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "feeding"
+        }
+      ]
+    },
+    {
+      "id": "empty-word",
+      "input": [],
+      "rules": [
+        {
+          "target": [
+            "a"
+          ],
+          "replacement": "b",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "right-to-left",
+          "mode": "feeding"
+        }
+      ]
+    }
+  ]
+}

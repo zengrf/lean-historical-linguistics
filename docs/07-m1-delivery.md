@@ -65,7 +65,7 @@ This mapping/loss policy was reviewed during implementation against both snapsho
 
 ## Proof and parser boundaries
 
-Five M1 theorems bring the audited project total to 27:
+M1 added five theorems to the 22 M0 results (27 at M1 delivery; M2 brings the current project audit to 44):
 
 - Recorded normalization replay agrees with an inductive chain relation.
 - Renormalization retains the original source string.

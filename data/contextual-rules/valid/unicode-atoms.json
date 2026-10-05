@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "id": "unicode-atoms",
+  "model": {
+    "id": "synthetic-unicode-atoms",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "tʰ"
+          ],
+          "replacement": "s",
+          "left": [
+            [
+              "a̱"
+            ]
+          ],
+          "right": [
+            [
+              "⁵⁵"
+            ]
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  "certificate": {
+    "package_id": "synthetic-unicode-atoms",
+    "package_version": "1.0.0",
+    "input": [
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "steps": [
+      {
+        "rule_id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "output": [
+          "a̱",
+          "s",
+          "⁵⁵"
+        ]
+      }
+    ],
+    "output": [
+      "a̱",
+      "s",
+      "⁵⁵"
+    ]
+  }
+}

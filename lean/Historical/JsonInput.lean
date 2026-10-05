@@ -49,12 +49,14 @@ private def checkKeys : List Token → List (List String) → Except String Unit
       else checkKeys rest ((s :: current) :: stack)
   | _ :: rest, stack => checkKeys rest stack
 
-def decodeDossier (text : String) : Except String Dossier := do
+def decodeExact {α : Type} [FromJson α] [ToJson α] (text : String) : Except String α := do
   let j ← (Json.parse text).mapError ("JSON_SYNTAX: " ++ ·)
   checkKeys (← tokens text.toList false false [] []) []
-  let d : Dossier ← (fromJson? j).mapError ("JSON_SHAPE: " ++ ·)
+  let d : α ← (fromJson? j).mapError ("JSON_SHAPE: " ++ ·)
   if j != toJson d then
     throw "JSON_SHAPE: unknown fields or omitted explicit fields; every optional field must be present as null or a value"
   return d
+
+def decodeDossier (text : String) : Except String Dossier := decodeExact text
 
 end Historical

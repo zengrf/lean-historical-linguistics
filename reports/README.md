@@ -8,7 +8,7 @@ python scripts/verify_library.py --local --output reports/library-audit.json
 
 It records the time, count decisions, source coverage, access gaps and actual checks of all 127 retained PDF files. It attests to the files checked at that time. It does not establish exhaustive literature coverage or cover-to-cover reading. A public clone contains 64 PDFs; its ordinary audit therefore has a different on-disk count.
 
-`lean-axioms-local.txt` records `#print axioms` for all 27 theorem declarations after a successful local build with **Lean 4.19.0 on macOS 10.15 x86_64**. Its reported dependencies are `propext` and `Quot.sound`. There are no project axioms or proof placeholders in the audited source.
+`lean-axioms-local.txt` records `#print axioms` for all 44 theorem declarations after a successful local build with **Lean 4.19.0 on macOS 10.15 x86_64**. Its reported dependencies are `propext` and `Quot.sound`. There are no project axioms or proof placeholders in the audited source.
 
 The local host could not run the Lean 4.34.1 binary because its system C++ library lacks a required symbol. [GitHub Actions](https://github.com/zengrf/lean-historical-linguistics/actions/workflows/ci.yml) independently builds the source on Linux with both 4.19.0 and the pinned 4.34.1, then checks each generated theorem audit. Consult the run for the commit being evaluated; a committed old report alone does not validate changed source.
 
@@ -22,3 +22,12 @@ M1 reports are separate from the literature acquisition audit:
 - [m1-delivery.json](m1-delivery.json): all four criteria pass, with `all_deliverables_accepted: true` and the accepted artifact paths.
 
 CI now runs both `python scripts/review_m1.py --require-complete` and `python scripts/verify_m1_delivery.py --require-complete`. A missing, stale or incomplete review fails acceptance; changed source readings require renewed independent review.
+
+[contextual-rules.json](contextual-rules.json) records M2's four accepted criteria,
+25 valid / 88 adversarial fixtures, exact agreement on 20 independently hand-worked
+AI examples, 9,284 further forward comparisons, the 17 new theorem names and
+source hashes. [M2's delivery document](../docs/08-m2-delivery.md) states the proof
+and empirical limits. `python scripts/verify_m2.py --audit PATH` reruns the
+executable checks and audits a freshly emitted Lean theorem report;
+`--check-report` checks freshness, review attestations and delivered paths only.
+Both Lean CI jobs run the full verification and reject report drift.

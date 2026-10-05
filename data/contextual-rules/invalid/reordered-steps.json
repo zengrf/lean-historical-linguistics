@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0.0",
+  "id": "reordered-steps",
+  "model": {
+    "id": "synthetic-ordered-cascade",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s2",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "p"
+          ],
+          "replacement": "f",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      },
+      {
+        "id": "law-2",
+        "input_stage": "s1",
+        "output_stage": "s2",
+        "rule": {
+          "target": [
+            "f"
+          ],
+          "replacement": "v",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  "certificate": {
+    "package_id": "synthetic-ordered-cascade",
+    "package_version": "1.0.0",
+    "input": [
+      "p",
+      "a"
+    ],
+    "steps": [
+      {
+        "rule_id": "law-2",
+        "input_stage": "s1",
+        "output_stage": "s2",
+        "output": [
+          "v",
+          "a"
+        ]
+      },
+      {
+        "rule_id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "output": [
+          "f",
+          "a"
+        ]
+      }
+    ],
+    "output": [
+      "v",
+      "a"
+    ]
+  }
+}

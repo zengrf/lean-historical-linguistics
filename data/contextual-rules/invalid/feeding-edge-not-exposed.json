@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "id": "feeding-edge-not-exposed",
+  "model": {
+    "id": "synthetic-edge-exposed-by-deletion",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "a"
+          ],
+          "replacement": null,
+          "left": [],
+          "right": [],
+          "left_edge": true,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "feeding"
+        }
+      }
+    ]
+  },
+  "certificate": {
+    "package_id": "synthetic-edge-exposed-by-deletion",
+    "package_version": "1.0.0",
+    "input": [
+      "a",
+      "a",
+      "b"
+    ],
+    "steps": [
+      {
+        "rule_id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "output": [
+          "a",
+          "b"
+        ]
+      }
+    ],
+    "output": [
+      "a",
+      "b"
+    ]
+  }
+}

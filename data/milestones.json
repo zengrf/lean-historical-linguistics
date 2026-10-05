@@ -107,39 +107,53 @@
   {
     "id": "M2",
     "title": "Contextual sound-law semantics and certificates",
-    "status": "planned",
+    "status": "delivered",
     "depends_on": [
       "M1"
     ],
     "owner_role": "Lean engineer with phonological review",
     "artifacts": [
-      "Historical/Rules.lean",
-      "Historical/Certificates.lean",
+      "lean/Historical/Rules.lean",
+      "lean/Historical/Certificates.lean",
+      "lean/Historical/RuleInput.lean",
+      "lean/VerifyDossiers.lean",
       "docs/rule-semantics.md",
+      "docs/08-m2-delivery.md",
+      "data/contextual-rules/manifest.json",
+      "data/rule-packages/contextual-examples.json",
+      "reviews/m2-packet.json",
+      "reviews/m2-responses.json",
+      "reviews/m2-independent-review.md",
+      "reviews/m2-code-review.md",
+      "scripts/build_m2_fixtures.py",
+      "scripts/reference_rules.py",
+      "scripts/verify_m2.py",
+      "tests/test_m2_contracts.py",
       "reports/contextual-rules.json"
     ],
     "acceptance": [
       {
         "id": "M2-semantics",
-        "test": "Build a total reference interpreter and compare hand-worked derivations",
+        "test": "Build Lean; python scripts/verify_m2.py --audit reports/lean-axioms-current.txt (after emitting a fresh Audit.lean report)",
         "pass_condition": "Published semantics specify boundaries, contexts, application direction, pass convention, substitution, deletion and rule order; at least 10 independently hand-worked examples match."
       },
       {
         "id": "M2-checker",
-        "test": "Implement lake build Historical.Rules Historical.Certificates and audit all public theorem dependencies",
+        "test": "From lean/: lake build Historical.Rules Historical.Certificates; lake env lean Audit.lean; run scripts/check_proofs.py on emitted audit",
         "pass_condition": "Kernel-checked soundness and completeness connect certificate acceptance exactly to the specified derivation relation; no unproved project axioms."
       },
       {
         "id": "M2-adversarial",
-        "test": "Implement lake exe verify_dossiers --suite contextual-rules",
+        "test": "From lean/: lake exe verify_dossiers --suite contextual-rules",
         "pass_condition": "At least 40 adversarial fixtures exercise missing/extra stages, rule-order changes, context mismatches and feeding versus simultaneous application; each has the expected outcome."
       },
       {
         "id": "M2-no-memorization",
-        "test": "Review the rule grammar and pilot rule packages",
+        "test": "Review docs/rule-semantics.md and data/rule-packages/contextual-examples.json; python scripts/verify_m2.py",
         "pass_condition": "No arbitrary unchecked word-specific substitution or hidden lexical lookup is accepted as a regular sound-law explanation."
       }
-    ]
+    ],
+    "delivery_note": "All four criteria pass: 17 new Lean theorems, 25 valid and 88 adversarial fixtures, 20 independently hand-worked AI review examples and 9,284 further forward comparisons. Synthetic semantics packages do not establish historical sound laws or replace family-specialist review. See docs/08-m2-delivery.md and reports/contextual-rules.json."
   },
   {
     "id": "M3",

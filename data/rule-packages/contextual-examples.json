@@ -1,0 +1,1083 @@
+[
+  {
+    "id": "synthetic-unconditional",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "p"
+          ],
+          "replacement": "f",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-intervocalic",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "p"
+          ],
+          "replacement": "b",
+          "left": [
+            [
+              "a"
+            ]
+          ],
+          "right": [
+            [
+              "a"
+            ]
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-word-initial",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "p"
+          ],
+          "replacement": "f",
+          "left": [],
+          "right": [],
+          "left_edge": true,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-word-final-deletion",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "t"
+          ],
+          "replacement": null,
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": true,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-morpheme-context",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "p"
+          ],
+          "replacement": "b",
+          "left": [
+            "+"
+          ],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-ltr-simultaneous",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "a"
+          ],
+          "replacement": "b",
+          "left": [
+            [
+              "b"
+            ]
+          ],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-ltr-feeding",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "a"
+          ],
+          "replacement": "b",
+          "left": [
+            [
+              "b"
+            ]
+          ],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "feeding"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-rtl-simultaneous",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "a"
+          ],
+          "replacement": "b",
+          "left": [],
+          "right": [
+            [
+              "b"
+            ]
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "right-to-left",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-rtl-feeding",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "a"
+          ],
+          "replacement": "b",
+          "left": [],
+          "right": [
+            [
+              "b"
+            ]
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "right-to-left",
+          "mode": "feeding"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-deletion-simultaneous",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "a"
+          ],
+          "replacement": null,
+          "left": [
+            [
+              "b"
+            ]
+          ],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-deletion-feeding",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "a"
+          ],
+          "replacement": null,
+          "left": [
+            [
+              "b"
+            ]
+          ],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "feeding"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-unvisited-context",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "p"
+          ],
+          "replacement": "b",
+          "left": [],
+          "right": [
+            [
+              "p"
+            ]
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "feeding"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-rtl-word-initial",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "p"
+          ],
+          "replacement": "f",
+          "left": [],
+          "right": [],
+          "left_edge": true,
+          "right_edge": false,
+          "direction": "right-to-left",
+          "mode": "feeding"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-two-token-context",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "t"
+          ],
+          "replacement": "d",
+          "left": [
+            [
+              "a"
+            ],
+            [
+              "p"
+            ]
+          ],
+          "right": [],
+          "left_edge": false,
+          "right_edge": true,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-boundary-blocks-wildcard",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "p"
+          ],
+          "replacement": "b",
+          "left": [
+            "*"
+          ],
+          "right": [
+            "*"
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-ordered-cascade",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s2",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "p"
+          ],
+          "replacement": "f",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      },
+      {
+        "id": "law-2",
+        "input_stage": "s1",
+        "output_stage": "s2",
+        "rule": {
+          "target": [
+            "f"
+          ],
+          "replacement": "v",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-reversed-cascade",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s2",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "f"
+          ],
+          "replacement": "v",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      },
+      {
+        "id": "law-2",
+        "input_stage": "s1",
+        "output_stage": "s2",
+        "rule": {
+          "target": [
+            "p"
+          ],
+          "replacement": "f",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-unicode-atoms",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "tʰ"
+          ],
+          "replacement": "s",
+          "left": [
+            [
+              "a̱"
+            ]
+          ],
+          "right": [
+            [
+              "⁵⁵"
+            ]
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-edge-exposed-by-deletion",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "a"
+          ],
+          "replacement": null,
+          "left": [],
+          "right": [],
+          "left_edge": true,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "feeding"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-empty-word",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "a"
+          ],
+          "replacement": "b",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "right-to-left",
+          "mode": "feeding"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-identity-package",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s0",
+    "laws": []
+  },
+  {
+    "id": "synthetic-only-boundaries",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "a"
+          ],
+          "replacement": null,
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-delete-all",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "a"
+          ],
+          "replacement": null,
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "feeding"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-multiple-class-members",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "p",
+            "t"
+          ],
+          "replacement": "s",
+          "left": [
+            [
+              "a",
+              "b"
+            ]
+          ],
+          "right": [
+            "*"
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthetic-replacement-not-revisited",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "a"
+          ],
+          "replacement": "a",
+          "left": [],
+          "right": [],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "feeding"
+        }
+      }
+    ]
+  }
+]

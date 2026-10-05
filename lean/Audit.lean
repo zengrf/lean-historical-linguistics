@@ -29,3 +29,21 @@ import Historical
 #print axioms Historical.renormalize_preserves_choices
 #print axioms Historical.missing_ne_gap
 #print axioms Historical.cell_json_roundtrip
+
+#print axioms Historical.Rules.emits_iff_outputAt
+#print axioms Historical.Rules.scan_eq_iff
+#print axioms Historical.Rules.pass_iff_apply
+#print axioms Historical.Rules.pass_deterministic
+#print axioms Historical.Rules.outputAt_length_le
+#print axioms Historical.Rules.scan_length_le
+#print axioms Historical.Rules.applyRule_length_le
+#print axioms Historical.Rules.morpheme_copied
+#print axioms Historical.Certificates.checkTrace_iff
+#print axioms Historical.Certificates.checkTrace_sound
+#print axioms Historical.Certificates.checkTrace_complete
+#print axioms Historical.Certificates.derives_iff_run
+#print axioms Historical.Certificates.trace_implies_derives
+#print axioms Historical.Certificates.run_append
+#print axioms Historical.Certificates.canonical_trace_accepted
+#print axioms Historical.Certificates.derivation_iff_certificate
+#print axioms Historical.RuleInput.checkDossier_iff

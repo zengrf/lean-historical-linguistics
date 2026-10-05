@@ -8,6 +8,8 @@ This repository delivers a literature study, a retained research library, an exe
 
 **M1 is delivered:** a versioned evidence schema, Lean dossier checker, 38 valid and 44 adversarial fixtures, and reproducible imports of 60 records from pinned Indo-European and Burmish datasets. All four acceptance criteria pass. A separate AI agent independently transcribed the six required source entries; all match exactly. This source-entry review is not human or family-specialist sign-off. See [the review record](reviews/m1-independent-review.md), [delivery report](docs/07-m1-delivery.md) and [criterion-level status](reports/m1-delivery.json).
 
+**M2 is delivered:** a total contextual-rule interpreter with explicit boundaries, both scan directions, simultaneous/feeding passes, substitution and deletion; a certificate checker with kernel-checked soundness and completeness; 25 valid and 88 adversarial fixtures; and 20 independently hand-worked AI review examples. Lean and a separate Python interpreter agree on 9,284 further forward cases. See [M2 delivery](docs/08-m2-delivery.md), [rule semantics](docs/rule-semantics.md) and [acceptance evidence](reports/contextual-rules.json). The packages are synthetic examples, not historically validated sound laws.
+
 ## Start reading
 
 | Document | Purpose |
@@ -19,15 +21,16 @@ This repository delivers a literature study, a retained research library, an exe
 | [Prior-art source audit](docs/05-prior-art.md) | Pinned Lean/mathlib/linglib source inspections and reuse opportunities |
 | [Research and acquisition method](docs/06-research-method.md) | Reading depth, selection bias, access gaps, version handling and reproducibility |
 | [M1 implementation and verification](docs/07-m1-delivery.md) | Evidence schema, CLI, real CLDF imports, tests and independent-review gate |
+| [M2 implementation and verification](docs/08-m2-delivery.md) | Contextual rule semantics, proved trace checker, independent examples and adversarial tests |
 | [Annotated bibliography](bibliography/README.md) | 132 source-specific annotations, original links, reading scope and PDF locations |
-| [Milestone register](data/milestones.json) | Machine-readable delivery goals; M0 and M1 delivered, M2–M9 planned |
+| [Milestone register](data/milestones.json) | Machine-readable delivery goals; M0–M2 delivered, M3–M9 planned |
 
 ## What is retained and checked
 
 - **127 PDFs, representing 122 qualifying distinct works**, retained locally: 5,184 pages and approximately 211 MB. Proposals, reviews/replies and a chapter already contained in a downloaded book do not count toward the 100-work floor. Five unsuccessful acquisitions are documented separately.
 - **64 PDFs are included in this public repository** under their recorded redistribution terms. The other 63 are retained in the ignored local library. The manifest and fetcher preserve their original source locations; continued remote availability is not guaranteed.
 - **132 annotated references**: 34 focused excerpt readings, 82 excerpt screenings, 10 visual excerpt readings, one decoded-abstract screening, two web-only excerpt readings and three access-gap notes. This is not a claim to have read 5,184 pages cover to cover.
-- **27 Lean theorem declarations**: the original 22 plus five M1 results about normalization-chain continuity, source/choice preservation, cell distinctions and cell JSON round trips. The audit permits Lean's standard logical axioms and rejects project axioms, proof placeholders and `native_decide`.
+- **44 Lean theorem declarations**: 22 M0 results, five M1 evidence results and 17 M2 results connecting contextual execution, inductive semantics and certificate acceptance. The audit permits Lean's standard logical axioms and rejects project axioms, proof placeholders and `native_decide`.
 
 The [full local acquisition audit](reports/library-audit.json) records actual hash and page-count checks. Public CI validates the public PDFs and the acquisition ledger; it cannot verify copies absent from a public checkout. See [verification records](reports/README.md).
 
@@ -53,11 +56,15 @@ lake build
 lake env lean Audit.lean > ../reports/lean-axioms-current.txt
 python ../scripts/check_proofs.py ../reports/lean-axioms-current.txt
 lake exe dossier_check data/pilots --strict
+lake exe verify_dossiers --suite contextual-rules
 cd ..
 python scripts/verify_m1.py
 python -m unittest discover -s tests -v
 python scripts/review_m1.py --require-complete
 python scripts/verify_m1_delivery.py --require-complete
+python scripts/build_m2_fixtures.py --check
+python scripts/verify_m2.py --audit reports/lean-axioms-current.txt
+python scripts/verify_m2.py --check-report
 ```
 
 The default toolchain is pinned in [lean-toolchain](lean/lean-toolchain). CI builds Lean **4.19.0 and 4.34.1** independently. The original local build used 4.19.0 because the 4.34.1 binary did not run on the host's macOS 10.15. If you need that compatibility path, replace `lake` with `lake +leanprover/lean4:v4.19.0` in each Lean command. CI results, rather than local compatibility claims, establish the newer-toolchain build status.
@@ -83,7 +90,7 @@ library/downloads/ Local retained PDFs; ignored by Git
 library/text/     Local extracted text; ignored by Git
 library/metadata/ Local discovery/fetch records; ignored by Git
 reports/          Acquisition and proof verification records
-reviews/          Blinded M1 packet and independent review workflow
+reviews/          Independent source-entry and hand-worked semantics review records
 schema/           Versioned evidence format and migration policy
 scripts/          Retrieval, catalogue generation and validation
 ```

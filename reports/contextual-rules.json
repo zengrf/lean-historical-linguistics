@@ -1,0 +1,1848 @@
+{
+  "milestone": "M2",
+  "status": "delivered",
+  "all_deliverables_accepted": true,
+  "criteria": [
+    {
+      "id": "M2-semantics",
+      "status": "passed",
+      "result": "Total interpreter; 20 independently hand-worked cases and 22 passes agree exactly",
+      "evidence": [
+        "docs/rule-semantics.md",
+        "reviews/m2-independent-review.md"
+      ]
+    },
+    {
+      "id": "M2-checker",
+      "status": "passed",
+      "result": "17 new kernel-checked theorems; entire-trace soundness/completeness and dossier acceptance reflection",
+      "evidence": [
+        "lean/Historical/Rules.lean",
+        "lean/Historical/Certificates.lean",
+        "lean/Historical/RuleInput.lean",
+        "lean/Audit.lean"
+      ]
+    },
+    {
+      "id": "M2-adversarial",
+      "status": "passed",
+      "result": "25 valid and 88 adversarial fixtures; every intended outcome/rejection reason matched",
+      "evidence": "data/contextual-rules/manifest.json"
+    },
+    {
+      "id": "M2-no-memorization",
+      "status": "passed",
+      "result": "Typed local grammar, finite inventory, two-token context bounds; lexical lookup, callbacks, word replacement, insertion and unrestricted iteration rejected",
+      "evidence": [
+        "docs/rule-semantics.md",
+        "data/rule-packages/contextual-examples.json"
+      ]
+    }
+  ],
+  "valid_fixtures": 25,
+  "adversarial_fixtures": 88,
+  "fixtures": [
+    {
+      "fixture": "valid/unconditional.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/intervocalic.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/word-initial.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/word-final-deletion.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/morpheme-context.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/ltr-simultaneous.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/ltr-feeding.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/rtl-simultaneous.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/rtl-feeding.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/deletion-simultaneous.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/deletion-feeding.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/unvisited-context.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/rtl-word-initial.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/two-token-context.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/boundary-blocks-wildcard.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/ordered-cascade.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/reversed-cascade.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/unicode-atoms.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/edge-exposed-by-deletion.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/empty-word.json",
+      "category": "independent-hand-work",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/identity-package.json",
+      "category": "boundary-contract",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/only-boundaries.json",
+      "category": "boundary-contract",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/delete-all.json",
+      "category": "boundary-contract",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/multiple-class-members.json",
+      "category": "boundary-contract",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "valid/replacement-not-revisited.json",
+      "category": "boundary-contract",
+      "expected_accept": true,
+      "expected_error": null,
+      "accepted": true,
+      "passed": true,
+      "error_codes": []
+    },
+    {
+      "fixture": "invalid/missing-step.json",
+      "category": "trace-shape",
+      "expected_accept": false,
+      "expected_error": "TRACE_LENGTH",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "TRACE_LENGTH",
+        "RULE_ID",
+        "TRACE_STAGE",
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/extra-step.json",
+      "category": "trace-shape",
+      "expected_accept": false,
+      "expected_error": "TRACE_LENGTH",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "TRACE_LENGTH"
+      ]
+    },
+    {
+      "fixture": "invalid/omit-unchanged-step.json",
+      "category": "trace-shape",
+      "expected_accept": false,
+      "expected_error": "TRACE_LENGTH",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "TRACE_LENGTH",
+        "RULE_ID",
+        "TRACE_STAGE",
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/reordered-steps.json",
+      "category": "rule-order",
+      "expected_accept": false,
+      "expected_error": "RULE_ID",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "RULE_ID",
+        "TRACE_STAGE",
+        "STEP_OUTPUT",
+        "RULE_ID",
+        "TRACE_STAGE",
+        "STEP_OUTPUT",
+        "FINAL_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/wrong-law-id.json",
+      "category": "rule-order",
+      "expected_accept": false,
+      "expected_error": "RULE_ID",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "RULE_ID"
+      ]
+    },
+    {
+      "fixture": "invalid/reused-law-id.json",
+      "category": "rule-order",
+      "expected_accept": false,
+      "expected_error": "RULE_ID",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "RULE_ID"
+      ]
+    },
+    {
+      "fixture": "invalid/wrong-input-stage.json",
+      "category": "stage-identity",
+      "expected_accept": false,
+      "expected_error": "TRACE_STAGE",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "TRACE_STAGE"
+      ]
+    },
+    {
+      "fixture": "invalid/wrong-output-stage.json",
+      "category": "stage-identity",
+      "expected_accept": false,
+      "expected_error": "TRACE_STAGE",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "TRACE_STAGE"
+      ]
+    },
+    {
+      "fixture": "invalid/wrong-final.json",
+      "category": "trace-shape",
+      "expected_accept": false,
+      "expected_error": "FINAL_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "FINAL_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/corrupt-middle.json",
+      "category": "trace-shape",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT",
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/skip-all-matches.json",
+      "category": "uniformity",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/change-one-occurrence.json",
+      "category": "uniformity",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/ltr-sim-feeds.json",
+      "category": "feeding-vs-simultaneous",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/ltr-feeding-frozen.json",
+      "category": "feeding-vs-simultaneous",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/rtl-sim-feeds.json",
+      "category": "feeding-vs-simultaneous",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/rtl-feeding-frozen.json",
+      "category": "feeding-vs-simultaneous",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/deletion-sim-feeds.json",
+      "category": "deletion",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/deletion-feed-frozen.json",
+      "category": "deletion",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/ignore-initial-anchor.json",
+      "category": "context",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/ignore-final-anchor.json",
+      "category": "context",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/wildcard-crosses-boundary.json",
+      "category": "boundary",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/erase-morpheme-boundary.json",
+      "category": "boundary",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/rtl-swaps-word-edges.json",
+      "category": "direction",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/unvisited-context-feeds.json",
+      "category": "feeding-vs-simultaneous",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/normalize-atomic-token.json",
+      "category": "unicode",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/feeding-edge-not-exposed.json",
+      "category": "deletion",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/reverse-nearest-first.json",
+      "category": "context",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/boundary-is-not-word-edge.json",
+      "category": "boundary",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/changed-model-order.json",
+      "category": "rule-order",
+      "expected_accept": false,
+      "expected_error": "STEP_OUTPUT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STEP_OUTPUT",
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/package-mismatch.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "PACKAGE_IDENTITY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "PACKAGE_IDENTITY"
+      ]
+    },
+    {
+      "fixture": "invalid/version-mismatch.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "PACKAGE_IDENTITY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "PACKAGE_IDENTITY"
+      ]
+    },
+    {
+      "fixture": "invalid/duplicate-inventory.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/empty-inventory.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY",
+        "TARGET_CLASS",
+        "REPLACEMENT",
+        "WORD_INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/empty-symbol.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/whitespace-symbol.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/boundary-in-inventory.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unknown-target.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "TARGET_CLASS",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "TARGET_CLASS",
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/empty-target.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "TARGET_CLASS",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "TARGET_CLASS",
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/duplicate-target.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "TARGET_CLASS",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "TARGET_CLASS"
+      ]
+    },
+    {
+      "fixture": "invalid/unknown-replacement.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "REPLACEMENT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "REPLACEMENT",
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/replace-with-boundary.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "REPLACEMENT",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "REPLACEMENT",
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/unknown-context.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "CONTEXT_CLASS",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "CONTEXT_CLASS",
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/empty-context-class.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "CONTEXT_CLASS",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "CONTEXT_CLASS",
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/duplicate-context-class.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "CONTEXT_CLASS",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "CONTEXT_CLASS"
+      ]
+    },
+    {
+      "fixture": "invalid/unbounded-left-context.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "CONTEXT_BOUND",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "CONTEXT_BOUND",
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/unbounded-right-context.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "CONTEXT_BOUND",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "CONTEXT_BOUND",
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/broken-stage-chain.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "STAGE_CHAIN",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STAGE_CHAIN",
+        "TRACE_STAGE"
+      ]
+    },
+    {
+      "fixture": "invalid/wrong-final-stage.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "STAGE_CHAIN",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STAGE_CHAIN"
+      ]
+    },
+    {
+      "fixture": "invalid/cyclic-stage-name.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "STAGE_ORDER",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "STAGE_ORDER",
+        "STAGE_CHAIN",
+        "TRACE_STAGE"
+      ]
+    },
+    {
+      "fixture": "invalid/invalid-law-id.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "RULE_IDS",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "RULE_IDS",
+        "RULE_ID"
+      ]
+    },
+    {
+      "fixture": "invalid/unknown-input-segment.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "WORD_INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "WORD_INVENTORY",
+        "STEP_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/unknown-step-segment.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "WORD_INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "WORD_INVENTORY",
+        "STEP_OUTPUT",
+        "FINAL_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/unknown-output-segment.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "WORD_INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "WORD_INVENTORY",
+        "FINAL_OUTPUT"
+      ]
+    },
+    {
+      "fixture": "invalid/schema-version.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "SCHEMA_VERSION",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "SCHEMA_VERSION"
+      ]
+    },
+    {
+      "fixture": "invalid/invalid-dossier-id.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "DOSSIER_ID",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "DOSSIER_ID"
+      ]
+    },
+    {
+      "fixture": "invalid/missing-package-version.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "PACKAGE_METADATA",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "PACKAGE_METADATA",
+        "PACKAGE_IDENTITY"
+      ]
+    },
+    {
+      "fixture": "invalid/iterate-to-fixed-point.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "JSON_SHAPE",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "JSON_SHAPE"
+      ]
+    },
+    {
+      "fixture": "invalid/whole-word-lookup.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "JSON_SHAPE",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "JSON_SHAPE"
+      ]
+    },
+    {
+      "fixture": "invalid/lexical-exceptions.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "JSON_SHAPE",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "JSON_SHAPE"
+      ]
+    },
+    {
+      "fixture": "invalid/insertion-operation.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "JSON_SHAPE",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "JSON_SHAPE"
+      ]
+    },
+    {
+      "fixture": "invalid/word-replacement.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "JSON_SHAPE",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "JSON_SHAPE"
+      ]
+    },
+    {
+      "fixture": "invalid/unknown-direction.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "JSON_SHAPE",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "JSON_SHAPE"
+      ]
+    },
+    {
+      "fixture": "invalid/omit-explicit-replacement.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "JSON_SHAPE",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "JSON_SHAPE"
+      ]
+    },
+    {
+      "fixture": "invalid/hidden-predicate.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "JSON_SHAPE",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "JSON_SHAPE"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-00a0.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-1680.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-2000.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-2001.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-2002.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-2003.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-2004.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-2005.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-2006.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-2007.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-2008.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-2009.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-200a.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-2028.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-2029.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-202f.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-205f.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/unicode-whitespace-3000.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/embedded-unicode-whitespace.json",
+      "category": "unicode-whitespace",
+      "expected_accept": false,
+      "expected_error": "INVENTORY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "INVENTORY"
+      ]
+    },
+    {
+      "fixture": "invalid/duplicate-law-identities.json",
+      "category": "grammar-and-packaging",
+      "expected_accept": false,
+      "expected_error": "RULE_IDS",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "RULE_IDS",
+        "RULE_ID"
+      ]
+    },
+    {
+      "fixture": "invalid/duplicate-json-key.json",
+      "category": "parser",
+      "expected_accept": false,
+      "expected_error": "DUPLICATE_JSON_KEY",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "DUPLICATE_JSON_KEY"
+      ]
+    },
+    {
+      "fixture": "invalid/invalid-utf8.json",
+      "category": "parser",
+      "expected_accept": false,
+      "expected_error": "UTF8",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "UTF8"
+      ]
+    },
+    {
+      "fixture": "invalid/invalid-json.json",
+      "category": "parser",
+      "expected_accept": false,
+      "expected_error": "JSON_SYNTAX",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "JSON_SYNTAX"
+      ]
+    },
+    {
+      "fixture": "invalid/surrogate-escape.json",
+      "category": "parser",
+      "expected_accept": false,
+      "expected_error": "UNICODE_ESCAPE",
+      "accepted": false,
+      "passed": true,
+      "error_codes": [
+        "UNICODE_ESCAPE"
+      ]
+    }
+  ],
+  "independent_review": {
+    "status": "passed",
+    "minimum_cases": 10,
+    "packet_cases": 20,
+    "reviewed_cases": 20,
+    "missing_cases": [],
+    "errors": [],
+    "reviewer_id": "/root/m2_hand_review",
+    "reviewer_type": "independent_ai_agent",
+    "packet_sha256": "a5e1d7c7a1d0bd9aa32ecc2d4ad54bbc828f235f9cc3733cab537987c7a610f8",
+    "semantics_sha256": "bd93cd34d4d06ea6a5cf224062514ec7a97fbc370f55653d2ce471ff4da449f8",
+    "response_sha256": "6d62a807d9adf7430928db49bef5ed2d18da15682fa003fbe8f59d00131684f9",
+    "limitation": "Identity, independence and hand-work are attestations. Separate AI review is not human or family-specialist sign-off; a shared filesystem boundary is enforced by instruction."
+  },
+  "hand_worked_examples": [
+    {
+      "id": "unconditional",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "intervocalic",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "word-initial",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "word-final-deletion",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "morpheme-context",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "ltr-simultaneous",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "ltr-feeding",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "rtl-simultaneous",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "rtl-feeding",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "deletion-simultaneous",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "deletion-feeding",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "unvisited-context",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "rtl-word-initial",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "two-token-context",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "boundary-blocks-wildcard",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "ordered-cascade",
+      "passes": 2,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "reversed-cascade",
+      "passes": 2,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "unicode-atoms",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "edge-exposed-by-deletion",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    },
+    {
+      "id": "empty-word",
+      "passes": 1,
+      "lean_matches_hand_work": true,
+      "python_matches_hand_work": true
+    }
+  ],
+  "implementation_review": {
+    "evidence": "reviews/m2-code-review.md",
+    "reviewer_type": "independent_ai_agent",
+    "findings": [
+      {
+        "id": "M2-R1",
+        "status": "resolved",
+        "regression_category": "unicode-whitespace"
+      }
+    ],
+    "limitation": "Recorded AI code-review finding and recheck; not an automated guarantee of exhaustive review."
+  },
+  "forward_cross_check": {
+    "max_word_length": 4,
+    "alphabets": [
+      [
+        "a",
+        "b",
+        "c"
+      ],
+      [
+        "a",
+        "b",
+        "+"
+      ]
+    ],
+    "distinct_words_per_package": 211,
+    "packages": 44,
+    "comparisons": 9284,
+    "all_passed": true,
+    "results": [
+      {
+        "package": "synthetic-enumeration-0-left-to-right-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-0-left-to-right-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-0-right-to-left-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-0-right-to-left-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-1-left-to-right-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-1-left-to-right-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-1-right-to-left-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-1-right-to-left-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-2-left-to-right-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-2-left-to-right-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-2-right-to-left-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-2-right-to-left-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-3-left-to-right-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-3-left-to-right-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-3-right-to-left-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-3-right-to-left-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-4-left-to-right-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-4-left-to-right-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-4-right-to-left-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-4-right-to-left-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-5-left-to-right-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-5-left-to-right-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-5-right-to-left-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-5-right-to-left-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-6-left-to-right-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-6-left-to-right-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-6-right-to-left-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-6-right-to-left-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-7-left-to-right-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-7-left-to-right-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-7-right-to-left-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-7-right-to-left-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-8-left-to-right-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-8-left-to-right-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-8-right-to-left-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-8-right-to-left-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-9-left-to-right-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-9-left-to-right-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-9-right-to-left-simultaneous",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-9-right-to-left-feeding",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-cascade-0",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-cascade-1",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-cascade-2",
+        "words": 211,
+        "passed": true
+      },
+      {
+        "package": "synthetic-enumeration-cascade-3",
+        "words": 211,
+        "passed": true
+      }
+    ]
+  },
+  "proof_audit": {
+    "total_declarations": 44,
+    "m2_declarations": [
+      "Historical.Rules.emits_iff_outputAt",
+      "Historical.Rules.scan_eq_iff",
+      "Historical.Rules.pass_iff_apply",
+      "Historical.Rules.pass_deterministic",
+      "Historical.Rules.outputAt_length_le",
+      "Historical.Rules.scan_length_le",
+      "Historical.Rules.applyRule_length_le",
+      "Historical.Rules.morpheme_copied",
+      "Historical.Certificates.checkTrace_iff",
+      "Historical.Certificates.checkTrace_sound",
+      "Historical.Certificates.checkTrace_complete",
+      "Historical.Certificates.derives_iff_run",
+      "Historical.Certificates.trace_implies_derives",
+      "Historical.Certificates.run_append",
+      "Historical.Certificates.canonical_trace_accepted",
+      "Historical.Certificates.derivation_iff_certificate",
+      "Historical.RuleInput.checkDossier_iff"
+    ],
+    "all_declarations_audited": true,
+    "project_axioms": false,
+    "proof_placeholders": false
+  },
+  "json_order_and_bmp_escapes_preserved": true,
+  "cli_contracts": {
+    "accept_exit": 0,
+    "reject_exit": 1,
+    "invocation_and_io_exit": 2,
+    "saved_report_equals_stdout": true
+  },
+  "limitations": [
+    "These packages are synthetic semantics examples, not verified historical sound laws.",
+    "Formal results are relative to the declared tokenization, local tests, pass convention and ordered package.",
+    "The byte parser and package validators are executable infrastructure; their entire implementation is not formally verified.",
+    "Grammar restrictions do not prove natural classes or prevent every form of empirical overfitting.",
+    "The Python comparison oracle is test infrastructure, not part of the proof trust base.",
+    "Independent hand-work is by a separate AI agent, not a human or family specialist."
+  ],
+  "input_hashes": {
+    ".github/workflows/ci.yml": "2dce9428b59134447e13cd8ad894f8992c182803d13006f30aee7b4a781c72dc",
+    "data/contextual-rules/invalid/boundary-in-inventory.json": "9aed171d663887a66b173857b9ccb7ffff68ecebf672052bcfe0bf1614ab43c1",
+    "data/contextual-rules/invalid/boundary-is-not-word-edge.json": "01fab6b917d6e6944c49397bc546497b856c582bdc0531cc1ac3282ead659af0",
+    "data/contextual-rules/invalid/broken-stage-chain.json": "9e6f35401e60159a2c65c65176f343907b840c8bf6281633f53dc785f29af047",
+    "data/contextual-rules/invalid/change-one-occurrence.json": "73a5ad7671e10455dc9a87b9078423beeb87b606404004cf8e380e1806803e30",
+    "data/contextual-rules/invalid/changed-model-order.json": "b43e64dea03d1a0ab1287bf78dca4b2020b8aa721d1dbd3b93a9ae2209f58d54",
+    "data/contextual-rules/invalid/corrupt-middle.json": "92df12bc784e0303f4e4b214a1ba5b81a2127a0c6e7a5820f46b26bfef97742f",
+    "data/contextual-rules/invalid/cyclic-stage-name.json": "4f7d80145fd5e568600f601b46a137b27aceec30e628c0f0f554931db192807d",
+    "data/contextual-rules/invalid/deletion-feed-frozen.json": "d220bb3e3f82cf33db5ff1f29178d26f7c9b572c3a664a6630db22de87c3844d",
+    "data/contextual-rules/invalid/deletion-sim-feeds.json": "7a147a88467fe2a345352a8a7648fbe7927b94ced90cba7311ace353ad2453c4",
+    "data/contextual-rules/invalid/duplicate-context-class.json": "cc10d123182719e8d4bd62ad20f0fae8c30cdb5c92fbdbe30a72d61dbed3fd37",
+    "data/contextual-rules/invalid/duplicate-inventory.json": "2f4b73341841748961d330c4792bd827c0093b02bdf6701cc66ee80f1a6c8a94",
+    "data/contextual-rules/invalid/duplicate-json-key.json": "defe8e1cdaaf979ecdbe3394cc404a0bad82aa844406749bddea9f858e2716d4",
+    "data/contextual-rules/invalid/duplicate-law-identities.json": "b25c365cdfcd1f2459697f7ce5b04cf72497742f963d92a57e52b060d1349b1a",
+    "data/contextual-rules/invalid/duplicate-target.json": "b9ccb7b9b7911033ebb4927f6837a9462a4c4fbe25f98403b7c9334febf00f0c",
+    "data/contextual-rules/invalid/embedded-unicode-whitespace.json": "f6e443d08d12d55ed5e54d7bef2350a5ce903e6fc8b1fe1f429fac554672d862",
+    "data/contextual-rules/invalid/empty-context-class.json": "3521e563c424902c54beb9ba7f4802b1bc6fc91d5cebe37207765885c80bc201",
+    "data/contextual-rules/invalid/empty-inventory.json": "8a026aac974a4c8e019c7dc57ceda214cdbd0b3f48c6a6820d53ea4d5c36b316",
+    "data/contextual-rules/invalid/empty-symbol.json": "0b8066cafc7e3252919560b0c9e6521900c84506fa5d7559f641894cd217c086",
+    "data/contextual-rules/invalid/empty-target.json": "64e9368247fc45c50bc44ae13de2d1f0fb66f59dede1cd64bd09f49c5dfa0032",
+    "data/contextual-rules/invalid/erase-morpheme-boundary.json": "127c5fa30909977bad57ebe9d2caa7d37b690904b3b20cd8701b881c9ea637c8",
+    "data/contextual-rules/invalid/extra-step.json": "86bf82cdddd20873ac5fd694858a63b377ab28e4bafda989c1cfbf7264d3e4f4",
+    "data/contextual-rules/invalid/feeding-edge-not-exposed.json": "a96683a158cd4f12e179e02014c79edaa756f71d94d067f6f08444614901b897",
+    "data/contextual-rules/invalid/hidden-predicate.json": "697be059dfe0d76afb4389a185fb4648bc709569a2d42256e32da200820433f9",
+    "data/contextual-rules/invalid/ignore-final-anchor.json": "2161b9adda58a76bb613fe1baf34b28506d0ce04995525924dc22bf648cac3b0",
+    "data/contextual-rules/invalid/ignore-initial-anchor.json": "19c3f3f539fa37f87f0e86bd1dcaa1815c891ad9e3cf7557afa979d28af3809d",
+    "data/contextual-rules/invalid/insertion-operation.json": "3092673f603dd1040edf1eab44208a0a97bdf69e4ee9bb4437c68010ce2a8f04",
+    "data/contextual-rules/invalid/invalid-dossier-id.json": "92aa13691b4568ae8acce9726c9bfb8233e11e8e4ceb4095af7c637445bd2cb6",
+    "data/contextual-rules/invalid/invalid-json.json": "021fb596db81e6d02bf3d2586ee3981fe519f275c0ac9ca76bbcf2ebb4097d96",
+    "data/contextual-rules/invalid/invalid-law-id.json": "d4e429f09e33bbf8a790df64fdf86302eb73b101bbeb69874d953f4c13de316d",
+    "data/contextual-rules/invalid/invalid-utf8.json": "a8100ae6aa1940d0b663bb31cd466142ebbdbd5187131b92d93818987832eb89",
+    "data/contextual-rules/invalid/iterate-to-fixed-point.json": "839ae923b4920f481acc97e4507c881bda2b431610cd11a1927cb3fb46fa8d2e",
+    "data/contextual-rules/invalid/lexical-exceptions.json": "bfd8727ce3308a71fa76f766ae23d72c0854d7bb1625bca427ebf2103d11d452",
+    "data/contextual-rules/invalid/ltr-feeding-frozen.json": "b90f8060847102602dd7d70b11e648e0c9e30c1df84ac2bd9275eecfd4a6ff96",
+    "data/contextual-rules/invalid/ltr-sim-feeds.json": "6a4bf3b2040e8aed24dfd81445d76ff7678cffa38ec1dd4be7b6bc49c9578335",
+    "data/contextual-rules/invalid/missing-package-version.json": "aad73c4a869fc0c12802ec097fce24693a104eb9059ba0390f50484083e09b92",
+    "data/contextual-rules/invalid/missing-step.json": "4aa441dee4dd2956d5a7ee0a1dfb726c0ce181f937e6cc37ebdb59dec6bdf0b1",
+    "data/contextual-rules/invalid/normalize-atomic-token.json": "f3b8ea2e811bbe5f8aca1b882ed895352edb882d0b4038ba422c3f22b0e5df66",
+    "data/contextual-rules/invalid/omit-explicit-replacement.json": "8672018b6102aea5c0cb8a267206d99898007d3cf5112ca5d0dab8d623fa860e",
+    "data/contextual-rules/invalid/omit-unchanged-step.json": "6fad510586f2e1e99bd70936fb9f3560e3627da7ff59250cef538bb734c449c7",
+    "data/contextual-rules/invalid/package-mismatch.json": "ee95046d61b3452fc722089afa85f9f8281b8f0e7d4cfd293fa63d9a09633565",
+    "data/contextual-rules/invalid/reordered-steps.json": "748e3a88bca01bbdca2657f4cde2e0a6e84c50643965446b5b96f159d9fd0e88",
+    "data/contextual-rules/invalid/replace-with-boundary.json": "2e923ca58c91c45f3c55cf5d3bf182896eae3f3a59621c1d7ee3d801458052e4",
+    "data/contextual-rules/invalid/reused-law-id.json": "95f00182c48202e8dcd1c42efc8d270e53a1884cdeca085964f6bce2c3e3eef7",
+    "data/contextual-rules/invalid/reverse-nearest-first.json": "d8778c85a0883dcc1dbba9b5c21ef524841dc67483c38c70e1bd0e17e8235da8",
+    "data/contextual-rules/invalid/rtl-feeding-frozen.json": "46de41d12870216c64e094fc80b003ace76ae7f6eef9f7f7f87d5cd884a8cad0",
+    "data/contextual-rules/invalid/rtl-sim-feeds.json": "5fee29d4d76e021266c93047a1a56330d1f050d534916579f94391b4a72b792d",
+    "data/contextual-rules/invalid/rtl-swaps-word-edges.json": "b05f15b9562a779866d6a30e4a35fae74f99fafceb42b2c1535d6c87e4486d9f",
+    "data/contextual-rules/invalid/schema-version.json": "047260dd30af042af41641279713b2150d5e566974baa6925932f4c0c7498218",
+    "data/contextual-rules/invalid/skip-all-matches.json": "cbd095eab05c06ba264e54816b292c7b88838661b076faf3d49389ffe506b356",
+    "data/contextual-rules/invalid/surrogate-escape.json": "b9567bb76a7e91c920ed9ff1115d1f6afc45c85299dc3d500bddcff0bf3eafa1",
+    "data/contextual-rules/invalid/unbounded-left-context.json": "6ae55b504dca8bba4d4b52b2d796b74e410b2890ef8058f3bd3e3aac86344f64",
+    "data/contextual-rules/invalid/unbounded-right-context.json": "d66c9277190ed5eb0c50b7c17e2ee34b7915f9b9a83fc794e936c01cb350a307",
+    "data/contextual-rules/invalid/unicode-whitespace-00a0.json": "a2e49efd7caf498e0c068c1839ad96ff4997ec9ac60a81c7bd0126c6d818fa1e",
+    "data/contextual-rules/invalid/unicode-whitespace-1680.json": "17733e6f9c9e13376a4feb2c52599c66231f6dafae91941fb9a713e572d21f64",
+    "data/contextual-rules/invalid/unicode-whitespace-2000.json": "0f4be37d24d969d69ee49aa9d319d1552906f8679f90d1b86af89f7215ea4f5f",
+    "data/contextual-rules/invalid/unicode-whitespace-2001.json": "b8a10ca64f2958a7105b91b3e8b620f4ed9ad5dacf509a11ba2ab3d3deadd3a8",
+    "data/contextual-rules/invalid/unicode-whitespace-2002.json": "fd51023625a8c2745ac175c32ea7576419ecbde1bda01dac21161711f0fabceb",
+    "data/contextual-rules/invalid/unicode-whitespace-2003.json": "fd22593056271c2fddf5a7e53c798e2984b710a2496a93e87d385c6fd5294f84",
+    "data/contextual-rules/invalid/unicode-whitespace-2004.json": "91713d59cd2a50b8491253197a75bd5825058d52950d0c86c4206f4e94724aa3",
+    "data/contextual-rules/invalid/unicode-whitespace-2005.json": "7c7f0014092d5ba6bca27d8525dac5b3ef584e4b69d7a41f008bee0ea6fc9912",
+    "data/contextual-rules/invalid/unicode-whitespace-2006.json": "93f2d1988fbd61326ba7fa99b0acebb6abfadbad7f4264e50bb2f8668c5f3753",
+    "data/contextual-rules/invalid/unicode-whitespace-2007.json": "6872e4802c9a0c05724ef41a6c9dbe4b1718b6cd69ecb3fbd7ac695781ee1df2",
+    "data/contextual-rules/invalid/unicode-whitespace-2008.json": "46cab6498069c4acf63ddf40e08fdad9aa1efb9b23c944a33ff2dbee03a03fd8",
+    "data/contextual-rules/invalid/unicode-whitespace-2009.json": "43c6adaf713b7484f9984910f6b8a7594f79928a0a03288a7142a4e0148d2222",
+    "data/contextual-rules/invalid/unicode-whitespace-200a.json": "867faa5d7f64dac7c4a3b09c272ae12d1e11243b63d09b1a11f2f4c996de88c6",
+    "data/contextual-rules/invalid/unicode-whitespace-2028.json": "5f5503d4c1f8a5a47dc23f2ea47f6a84e98ef6ae2aaa8a98d9f0a05f97f2fbc4",
+    "data/contextual-rules/invalid/unicode-whitespace-2029.json": "44f698c5ce68d6ee3fb0b5d4e6997fcee0af9c5b747e1297a25371cdff95d4a9",
+    "data/contextual-rules/invalid/unicode-whitespace-202f.json": "9c84eae6d620cf486fe3d4f2c82c10f90d09e741b7569cd16ac347ba9867a911",
+    "data/contextual-rules/invalid/unicode-whitespace-205f.json": "5f846d489e1738bcf3363fe1281274e05a6acb1d76034c16d11dbe192a99a3ad",
+    "data/contextual-rules/invalid/unicode-whitespace-3000.json": "2765bf9bdab195fd33c2606f2d204595b82e1730864ba83f00dd7b9edef10123",
+    "data/contextual-rules/invalid/unknown-context.json": "2dee2144741e95e32ad8e0f7e57340c7ae1c652b829b6c0d54e31b80220d2d51",
+    "data/contextual-rules/invalid/unknown-direction.json": "2b38a8c1c6d119878750a68e8ecf6aebf0d28fbe3e020a8d36d4c16e658b87b1",
+    "data/contextual-rules/invalid/unknown-input-segment.json": "b5321dbd8063e9ad00f4de90494a91dcd9b8cb48d249e8644b4e5f8031646dcd",
+    "data/contextual-rules/invalid/unknown-output-segment.json": "954cbe2b5715525c065c693aefa8ab935aa4524bfe00d9c6c891ca825e795f42",
+    "data/contextual-rules/invalid/unknown-replacement.json": "26c748ba7c9cb75c66f523e20a7e24a8d0d2f3aa9ea22dc8c60099d983ef9bd8",
+    "data/contextual-rules/invalid/unknown-step-segment.json": "f3868a86b9f664796ab969f77e466864e731959fb731a1059f9a84c84f40dd93",
+    "data/contextual-rules/invalid/unknown-target.json": "c7dd3c4bc097648a052eae1ded2dd01b8d6d92e06776b5fd32557a0204421668",
+    "data/contextual-rules/invalid/unvisited-context-feeds.json": "76fb4ab01b70c15232eb4090e694f532d6316cb4775968bd27ac0fa09e0be00f",
+    "data/contextual-rules/invalid/version-mismatch.json": "8dedab153d241ffd2db850299933cd4024e9b2372819127ceaf80480933ab1a4",
+    "data/contextual-rules/invalid/whitespace-symbol.json": "bedad94c80c5bf517d62e9fec6cf27494b0ba4a82674f0d2ddfcf39384c41e48",
+    "data/contextual-rules/invalid/whole-word-lookup.json": "0d9452537c9b278cf134756b50615b96d08f14a6b3b46412687d98ec31ad30f9",
+    "data/contextual-rules/invalid/wildcard-crosses-boundary.json": "08d63ae6051fca3039d09e538715983b680e81bd611bca2c850374b2a2ef8fd3",
+    "data/contextual-rules/invalid/word-replacement.json": "8dfa504864cbd89719cbda50063303069bdf6ceecdccf5e3e16551f6cc2268e7",
+    "data/contextual-rules/invalid/wrong-final-stage.json": "74fc9cc28d0c6551e756c8d9ea1444752ce583d16ef38b35f02cca199fc76c4c",
+    "data/contextual-rules/invalid/wrong-final.json": "25ad63c4f98166b32e1f644dde681d4eb9d3ff2399333af8bf0b544ebc3c0b34",
+    "data/contextual-rules/invalid/wrong-input-stage.json": "50b27b351b22abf45abf0566172285325e83fec8ca29afb9f6e5141a0698afbf",
+    "data/contextual-rules/invalid/wrong-law-id.json": "00c92f9bff3162e70aec3d80c8f104931fd28ad2cf1cd52a8b773a24b0f8a159",
+    "data/contextual-rules/invalid/wrong-output-stage.json": "a946bbaf4173f879a11f818c9bb4083e1643f2aeb7f9ecb14f983ee7b358260b",
+    "data/contextual-rules/manifest.json": "c453b5783afa34187dc09be54d4d350f8f159e1289513326c6719a0d54c2f70f",
+    "data/contextual-rules/valid/boundary-blocks-wildcard.json": "4b53575156cf66e1350bd436f45ea6bb97ecc8d5297f36b3e7d2a5aa39d727ee",
+    "data/contextual-rules/valid/delete-all.json": "cb09142da0e0798b6af2c0ab3bafd613c22d6526816f5bb02b57efa5e2571232",
+    "data/contextual-rules/valid/deletion-feeding.json": "3bc90bd98939f4c5eaa862c1ac1bf6ff69e1168601292bf700f905fe5689ee06",
+    "data/contextual-rules/valid/deletion-simultaneous.json": "fdb7f1b420216d4c08225893fa6544267d803f45dc4a9f24d428455fd7d158aa",
+    "data/contextual-rules/valid/edge-exposed-by-deletion.json": "2ba8d5b7f6fce4af54ecf919ede8f10f3b2e7a4055bde5c7ca22974ce3a41849",
+    "data/contextual-rules/valid/empty-word.json": "6dabfa810c4c9d31c0392cf65c50f7dc52f741bc1fd3b175ffec136218da5c0e",
+    "data/contextual-rules/valid/identity-package.json": "32774974b667542b8464e87d751375472eb01d9042eceaff687bd92b2abadf8c",
+    "data/contextual-rules/valid/intervocalic.json": "12a9b156207474e86f6350ec5ac64479a7706c1879482fa1cb1110cc3100f618",
+    "data/contextual-rules/valid/ltr-feeding.json": "96e32276ac5162f3b3b054f1989b43773476e34442d61c2c5ca6173098357541",
+    "data/contextual-rules/valid/ltr-simultaneous.json": "dbcd8339a9d99be0c2e143ac39f75183b103bf3d58b20ae3394c9bcac5f2de82",
+    "data/contextual-rules/valid/morpheme-context.json": "65e9346c33f38e1939f2657aa8edef629353ca9970e1af835c4c12d8bf4533fe",
+    "data/contextual-rules/valid/multiple-class-members.json": "88d3c8d4e393f06dd2969d296a962068803b28aef040266299b03537b2c8c1f9",
+    "data/contextual-rules/valid/only-boundaries.json": "608e811acccfbcc28fc208f516be2fd9d4994444d591ac311803e79828ee9525",
+    "data/contextual-rules/valid/ordered-cascade.json": "ad2ac96a215f147fb7ae99633b08ce59193ed173814999cb7d126d297de744d0",
+    "data/contextual-rules/valid/replacement-not-revisited.json": "8a115df45fb972a9510c4f69599e222f614dfb449b72f99616840a519a9c9e5e",
+    "data/contextual-rules/valid/reversed-cascade.json": "fd9844e825e3727377316b998b13cf0a2736e36565c6025535a01040237e5ae1",
+    "data/contextual-rules/valid/rtl-feeding.json": "1d10f384b44956668bad94d5eb8938d8ad4d7c1c025274f9d03158a6a8400cde",
+    "data/contextual-rules/valid/rtl-simultaneous.json": "8a26a6c75695217d4ff10382a42663fdefe9c3c03c0521ceaffbb2686eaa3f7f",
+    "data/contextual-rules/valid/rtl-word-initial.json": "96472ca4452ac001b16da0a9edc095082e5a6470f28fef667de4d334f559bd1f",
+    "data/contextual-rules/valid/two-token-context.json": "a69a73c16b2d3856f76e29754088e9e7e1627578dd6c4f419d35e9a766539985",
+    "data/contextual-rules/valid/unconditional.json": "a3cfd7ff5253171fece9f80ee91fab742d89d3bd8a17943ed6daeac734a76229",
+    "data/contextual-rules/valid/unicode-atoms.json": "727e8427573ab19ead87c7dcec82c880318f494bc3cd579da53f564b69c2201e",
+    "data/contextual-rules/valid/unvisited-context.json": "f1377530d0ee3af686fb87d0dd39b68b68431cf1784b43e3dbb77610dd4774dc",
+    "data/contextual-rules/valid/word-final-deletion.json": "f87e43e1c8de796991c3f7eb289fcf566ad42670f30e3d25e0bfebcb4952e547",
+    "data/contextual-rules/valid/word-initial.json": "3302bde2b5dbcef2da3088b9fba7ab1c8e73fb78b3cc889e1697d19740b1cabf",
+    "data/rule-packages/contextual-examples.json": "70952f4497720165660ffc187c831fc46164d7eb03514bd028eb62e24a2a34ae",
+    "docs/08-m2-delivery.md": "05b823d16b4aaa46ae190c2821fccd5b5a7a300be38f5147a587887c54670025",
+    "docs/rule-semantics.md": "bd93cd34d4d06ea6a5cf224062514ec7a97fbc370f55653d2ce471ff4da449f8",
+    "lean/Audit.lean": "ed120b7dab9d488ed2703297d315ef55cb24a6f8987bafbcf8236b0801f04a5a",
+    "lean/Comparative/Core.lean": "26e58a4147a07317f615912f37972f7d08c147968159872b5d8cd36c37c857a8",
+    "lean/Comparative/Examples.lean": "e847b3a41625be6eb3375e261e48df1cc308f6bb15d185ea8d7b1402e1f9c8a4",
+    "lean/Comparative/Patterns.lean": "50df3ef56d9c8e6cfb951fbb30554327ede2a1bd0a48a068489bba3a3632199e",
+    "lean/Comparative.lean": "5a86cb79f48b5bb7b7dfe539ad9eb5529a6fcb4b985d5660f6e820ca5f161197",
+    "lean/Historical/Certificates.lean": "bce24d449d0b39281d75987035b3d14d1287ee6c9b356ce9941a813dee53e158",
+    "lean/Historical/Evidence.lean": "adfab9a0073b8df312dc28895cd12094e5213de8c8544d2015543338980b5f9f",
+    "lean/Historical/JsonInput.lean": "4dbb8bdcd8a026eb72e0d58d4ca699a6c46d07dd3d11e9d15fed26bf4ae5248a",
+    "lean/Historical/RuleInput.lean": "b07bff88f3441029d9c75038511df1bf8e37e5053171ff1fd716826b5db711f0",
+    "lean/Historical/Rules.lean": "5a80b6c4b49d16941db3623a146ab9d14db4877d0dae05b840968de965fa0bb4",
+    "lean/Historical/Validation.lean": "b7222532841e6d6ab06c269ce99e85c605a86ef9ebf56ea46644dbc613a8f18d",
+    "lean/Historical.lean": "7722494f550bc95393534815ead486ed78ad25dc45e51520518e8133b1710017",
+    "lean/VerifyDossiers.lean": "d87ef8b5db2375742e8d16185cb8fa80ca034dfc55426daa07a514aea1ec2c82",
+    "lean/lake-manifest.json": "f308586d334c2feb35f11dedf1c9cabc082e3ddc0b7e3458b424f60ab8177f66",
+    "lean/lakefile.toml": "787db3d10885830ecd6578fa6c149cf9fa9cc2b3d2836458c789ad8bfccde853",
+    "lean/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+    "reviews/m2-code-review.md": "6eb1fdd1aa57a7a601b987d738ebce59a3e246d1656df0b016c157a0070dfb4a",
+    "reviews/m2-independent-review.md": "b4056a67fa02fd5c97d9694cb4f4dec1175ddcba6c1f75519fe7f54366686324",
+    "reviews/m2-packet.json": "46966a7c6756028e9a93b947a8bbe84ad10f4924f366833162efb83601bf164b",
+    "reviews/m2-responses.json": "415d4b7cf78c9b710b310d9714b0643df122faf4359f49f755fd18012b895467",
+    "scripts/build_m2_fixtures.py": "751c1961b39ab72a344f72dcd97624b58fc0cd8bef8b171f1754934a718ab985",
+    "scripts/check_proofs.py": "e9c075ff362bd1907f5adcbcd38c4e9a5c684d7d3f6ee14459e022da668fb40c",
+    "scripts/reference_rules.py": "d8536ce7ad4d152db57fb70840b7707091a20f7c4295796d7a1c9d64a95aba90",
+    "scripts/verify_m2.py": "1618f097b14ca015cb7d2a363329a81afe7f4aac145d7dc6c4406e3b49f3d71f",
+    "tests/test_m2_contracts.py": "5b94dcb1d57e7293735a07f8bcfc87eed7417324a84f292228a56c28fc0b21a1"
+  }
+}

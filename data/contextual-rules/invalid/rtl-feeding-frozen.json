@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0",
+  "id": "rtl-feeding-frozen",
+  "model": {
+    "id": "synthetic-rtl-feeding",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "a"
+          ],
+          "replacement": "b",
+          "left": [],
+          "right": [
+            [
+              "b"
+            ]
+          ],
+          "left_edge": false,
+          "right_edge": false,
+          "direction": "right-to-left",
+          "mode": "feeding"
+        }
+      }
+    ]
+  },
+  "certificate": {
+    "package_id": "synthetic-rtl-feeding",
+    "package_version": "1.0.0",
+    "input": [
+      "a",
+      "a",
+      "b"
+    ],
+    "steps": [
+      {
+        "rule_id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "output": [
+          "a",
+          "b",
+          "b"
+        ]
+      }
+    ],
+    "output": [
+      "a",
+      "b",
+      "b"
+    ]
+  }
+}

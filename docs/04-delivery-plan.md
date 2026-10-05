@@ -1,6 +1,6 @@
 # Delivery plan with verifiable goals
 
-This is a research-and-engineering plan, not a promise that a complete prehistoric language will be recovered. **M0 and M1 are delivered; M2–M9 are planned.** M1's source-entry gate was completed by a separate AI reviewer; specialist review of historical analyses remains part of the later case studies. The machine-readable register is [milestones.json](../data/milestones.json). M1's checker and verification commands now exist; commands named for later modules remain acceptance-interface specifications.
+This is a research-and-engineering plan, not a promise that a complete prehistoric language will be recovered. **M0–M2 are delivered; M3–M9 are planned.** Separate AI reviewers completed M1's source-entry gate and M2's independent hand-worked examples; specialist review of historical analyses remains part of the later case studies. The machine-readable register is [milestones.json](../data/milestones.json). M1/M2's checkers and verification commands now exist; commands named for later modules remain acceptance-interface specifications.
 
 ## 1. Intended research contribution
 
@@ -21,7 +21,7 @@ The first publishable result could be the semantics and certificate checker plus
 |---|---|---|---|
 | **M0** | Literature corpus, synthesis, proof-of-concept and public repository | At least 100 distinct qualifying retained works; checksums; annotated catalogue; general theorem and counterexample build; public CI | Delivered |
 | **M1** | Data contract and provenance; depends on M0 | Schema, 38 valid / 44 adversarial fixtures, lossless source retention, CLDF adapter and 60 real imported records. Six source entries independently checked by a separate AI agent, with exact agreement. | Delivered; original estimate 3–5 engineer-weeks + review |
-| **M2** | Restricted contextual rule semantics and trace checker; depends on M1 | Total reference interpreter; explicit pass convention; checker soundness/completeness theorems; 40 adversarial derivation fixtures; 10 independently hand-worked examples | 5–8 engineer-weeks |
+| **M2** | Restricted contextual rule semantics and trace checker; depends on M1 | Total interpreter; explicit pass conventions; 17 new theorems including checker soundness/completeness; 25 valid / 88 adversarial fixtures; 20 independently hand-worked AI examples; 9,284 further comparisons | Delivered; original estimate 5–8 engineer-weeks |
 | **M3** | Alignment and correspondence verification; depends on M1–M2 | Alignment preservation theorem; clique-cover feasibility checker; missing-data non-transitivity handled; 100 checked sites including incomplete/conflicting cases | 4–6 engineer-weeks |
 | **M4** | Bounded inverse reconstruction and alternatives; depends on M2–M3 | Finite enumeration theorem; candidate soundness/completeness; ambiguity and monotonicity results; exhaustive small-domain reference comparisons | 4–7 engineer-weeks |
 | **M5** | PIE case study; depends on M1–M4 | 20-set reviewed core expanding to 200 sets / 600 reflex records; named rule packages; chronology and morphology dossiers; frozen evaluation and independent sign-off | 6–10 engineer-weeks + 6–10 specialist-weeks |
@@ -54,7 +54,7 @@ Implemented acceptance command, run from `lean/`: `lake exe dossier_check data/p
 
 Publish a small grammar for the rule language. State the semantics of matching, word boundaries, context, pass direction, rule order and deletion. Include examples that distinguish simultaneous from feeding application. Prove that the checker accepts exactly the traces licensed by the semantics. Report the trusted axioms of every public theorem.
 
-Acceptance commands to implement: `lake build Historical.Rules Historical.Certificates` and `lake exe verify_dossiers --suite contextual-rules`. Reject any implementation that allows an unchecked word-specific substitution merely to make examples pass.
+Implemented acceptance commands: `lake build Historical.Rules Historical.Certificates` and `lake exe verify_dossiers --suite contextual-rules`. The restricted grammar rejects unchecked word-specific substitutions, hidden lexical lookups and arbitrary callbacks. See the [published semantics](rule-semantics.md), [M2 delivery and verification](08-m2-delivery.md), and [criterion-level evidence](../reports/contextual-rules.json). Independent AI hand-work checks all 20 examples against the prose semantics; it does not provide historical or family-specialist validation.
 
 ### M3: verify structure before optimizing
 

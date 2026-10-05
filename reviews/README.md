@@ -22,3 +22,21 @@ For a new or changed source packet, an independent reviewer should:
 5. Once the review passes, change M1's status to `delivered`, remove the pending-review note, regenerate `reports/m1-delivery.json`, and run `python scripts/verify_m1_delivery.py --require-complete`.
 
 Changing a pinned source or the review sample invalidates the packet hash. Reviewer identity, type and independence are explicit attestations; the script can check coverage and exact transcription agreement, but cannot authenticate reviewers. The report also records a SHA256 of the complete response's canonical JSON serialization (`ensure_ascii=False`, `sort_keys=True`, Python's default separators, UTF-8, no trailing newline). It is not the raw file hash. This M1 check concerns source entry. M5/M6 will require a separate family-specialist review of the linguistic analyses.
+
+## M2 independent hand-worked derivations
+
+The [M2 packet](m2-packet.json) pins the prose semantics and supplies 20 synthetic
+inputs and rule sequences without expected outputs. A fresh AI reviewer manually
+derived all 22 passes before seeing or executing the implementation. The
+[response](m2-responses.json) records every intermediate word and a positional
+rationale; the [review note](m2-independent-review.md) records method and limits.
+All stages agree with Lean execution and the separate Python test oracle.
+
+`python scripts/verify_m2.py --audit reports/lean-axioms-current.txt` checks the
+packet/semantics hashes, independence attestations, complete coverage and exact
+stage agreement. Changed semantics or inputs reopen the review. This is AI
+semantics review, not human or family-specialist sign-off.
+
+A later [M2 code review](m2-code-review.md), performed after the hand-worked
+answers were frozen, found and independently rechecked a Unicode whitespace
+validation fix. Its scope and limitations are recorded separately.

@@ -1,0 +1,357 @@
+{
+  "schema_version": "1.0.0",
+  "reviewer_id": "/root/m2_hand_review",
+  "reviewer_type": "independent_ai_agent",
+  "independent_of_implementation": true,
+  "method": "manual derivation from prose; no interpreter execution",
+  "packet_sha256": "a5e1d7c7a1d0bd9aa32ecc2d4ad54bbc828f235f9cc3733cab537987c7a610f8",
+  "semantics_sha256": "bd93cd34d4d06ea6a5cf224062514ec7a97fbc370f55653d2ce471ff4da449f8",
+  "scope": {
+    "packet": "reviews/m2-packet.json",
+    "semantics": "docs/rule-semantics.md",
+    "case_count": 20,
+    "rule_pass_count": 22,
+    "position_numbering": "One-based positions in the original input of each pass; final words use ordinary left-to-right order."
+  },
+  "provenance": {
+    "separate_agent_task": true,
+    "fresh_task_context": true,
+    "substantive_sources_read": [
+      "docs/rule-semantics.md",
+      "reviews/m2-packet.json"
+    ],
+    "applicable_agents_files_found": [],
+    "implementation_read": false,
+    "interpreter_executed": false,
+    "expected_answers_consulted": false,
+    "fixtures_or_reports_read": false,
+    "automated_processing": "JSON serialization, SHA-256 computation, and structural validation of manually entered answers only; no transformation semantics were executed.",
+    "read_boundary": "Enforced by task instructions on a shared filesystem, not by a technical sandbox.",
+    "human_sign_off": false,
+    "family_specialist_sign_off": false,
+    "answers_frozen_before_comparison": true
+  },
+  "specification_ambiguities": [],
+  "limits": [
+    "This is a separate AI review of the 20 supplied synthetic examples, not a human or external specialist review.",
+    "No historical-linguistic validity, natural-class validity, family expertise, empirical coverage, or held-out performance is assessed.",
+    "These hand derivations do not by themselves establish implementation correctness beyond agreement on the supplied cases, and no implementation comparison was performed by this reviewer.",
+    "Package parsing, validation, certificates, proofs, and cases outside this packet were not inspected."
+  ],
+  "entries": [
+    {
+      "id": "unconditional",
+      "steps": [
+        [
+          "f",
+          "a",
+          "f",
+          "a"
+        ]
+      ],
+      "output": [
+        "f",
+        "a",
+        "f",
+        "a"
+      ],
+      "reasoning": "Pass 1, left-to-right, simultaneous: input position 1 is p and has no contextual or edge restriction, so emit f. Position 2 is a, outside the target, so copy a. Position 3 is p and likewise matches unconditionally, so emit f. Position 4 is a and is copied. Every context is read from the original input; none is required here."
+    },
+    {
+      "id": "intervocalic",
+      "steps": [
+        [
+          "p",
+          "a",
+          "b",
+          "a",
+          "p"
+        ]
+      ],
+      "output": [
+        "p",
+        "a",
+        "b",
+        "a",
+        "p"
+      ],
+      "reasoning": "Pass 1, left-to-right, simultaneous: position 1 is p but lacks the required adjacent a on its left, so copy p. Position 2 is a and is copied as a nontarget. Position 3 is p with original position 2 = a immediately left and original position 4 = a immediately right, so emit b. Position 4 is a and is copied. Position 5 is p with a on its left but no segment on its right; its right test fails, so copy p."
+    },
+    {
+      "id": "word-initial",
+      "steps": [
+        [
+          "f",
+          "a",
+          "p"
+        ]
+      ],
+      "output": [
+        "f",
+        "a",
+        "p"
+      ],
+      "reasoning": "Pass 1, left-to-right, simultaneous: position 1 is p with an empty original left side, so the left-edge anchor holds and f is emitted. Position 2 is a, a nontarget, and is copied. Position 3 is p, but its original left side contains p and a; with no left tests to consume those tokens, the left-edge anchor fails and p is copied."
+    },
+    {
+      "id": "word-final-deletion",
+      "steps": [
+        [
+          "t",
+          "a"
+        ]
+      ],
+      "output": [
+        "t",
+        "a"
+      ],
+      "reasoning": "Pass 1, left-to-right, simultaneous: position 1 is t but the original right side contains a and t, so the empty-context right-edge anchor fails and t is copied. Position 2 is a and is copied as a nontarget. Position 3 is t with an empty original right side, so the right-edge anchor holds and this original token is consumed with no output."
+    },
+    {
+      "id": "morpheme-context",
+      "steps": [
+        [
+          "p",
+          "+",
+          "b",
+          "a"
+        ]
+      ],
+      "output": [
+        "p",
+        "+",
+        "b",
+        "a"
+      ],
+      "reasoning": "Pass 1, left-to-right, simultaneous: position 1 is p but has no adjacent left token to satisfy the explicit + test, so copy p. Position 2 is the morpheme boundary + and must be copied. Position 3 is p immediately after original position 2 = +, so emit b. Position 4 is a, a nontarget, and is copied. The boundary is inspected by the explicit test and is never itself a replacement target."
+    },
+    {
+      "id": "ltr-simultaneous",
+      "steps": [
+        [
+          "b",
+          "b",
+          "a"
+        ]
+      ],
+      "output": [
+        "b",
+        "b",
+        "a"
+      ],
+      "reasoning": "Pass 1, left-to-right, simultaneous: position 1 is b, a nontarget, so copy b. Position 2 is a and its original left neighbor is b, so emit b. Position 3 is a but its original left neighbor is position 2 = a, so copy a. The b emitted at position 2 cannot satisfy position 3's test because this pass reads the original input on both sides."
+    },
+    {
+      "id": "ltr-feeding",
+      "steps": [
+        [
+          "b",
+          "b",
+          "b"
+        ]
+      ],
+      "output": [
+        "b",
+        "b",
+        "b"
+      ],
+      "reasoning": "Pass 1, left-to-right, feeding: position 1 is b and is copied, leaving produced prefix [b]. At original position 2, a sees the nearest produced left token b and is replaced by b, leaving [b, b]. At original position 3, a now sees the b produced for position 2 and is replaced by b, leaving [b, b, b]. Each of the three original positions is visited once; emitted b tokens are not revisited."
+    },
+    {
+      "id": "rtl-simultaneous",
+      "steps": [
+        [
+          "a",
+          "b",
+          "b"
+        ]
+      ],
+      "output": [
+        "a",
+        "b",
+        "b"
+      ],
+      "reasoning": "Pass 1, right-to-left, simultaneous: visit original position 3 first; it is b, a nontarget, and is copied. Position 2 is a whose original right neighbor at position 3 is b, so emit b. Position 1 is a whose original right neighbor at position 2 is a, so its right test fails and a is copied. Output is presented in original left-to-right word order as [a, b, b]; the earlier emitted b does not feed position 1."
+    },
+    {
+      "id": "rtl-feeding",
+      "steps": [
+        [
+          "b",
+          "b",
+          "b"
+        ]
+      ],
+      "output": [
+        "b",
+        "b",
+        "b"
+      ],
+      "reasoning": "Pass 1, right-to-left, feeding: original position 3 is b and is copied, giving produced suffix [b]. Original position 2 is a with nearest produced right token b, so emit b to its left, giving suffix [b, b]. Original position 1 is a and its nearest produced right token is now the b emitted for position 2, so emit b. The final word in ordinary order is [b, b, b]; no emitted token is rescanned."
+    },
+    {
+      "id": "deletion-simultaneous",
+      "steps": [
+        [
+          "b",
+          "a"
+        ]
+      ],
+      "output": [
+        "b",
+        "a"
+      ],
+      "reasoning": "Pass 1, left-to-right, simultaneous: position 1 is b and is copied. Position 2 is a with original left neighbor b, so delete position 2. Position 3 is a whose original left neighbor is position 2 = a, so its test fails and a is copied. Deleting position 2 does not expose b for a simultaneous context test at position 3."
+    },
+    {
+      "id": "deletion-feeding",
+      "steps": [
+        [
+          "b"
+        ]
+      ],
+      "output": [
+        "b"
+      ],
+      "reasoning": "Pass 1, left-to-right, feeding: position 1 is b and is copied, giving prefix [b]. Original position 2 is a and sees b in the produced prefix, so delete it; the prefix stays [b]. Original position 3 is a and again sees b as the nearest produced left token because position 2 emitted nothing, so delete it too. Both deleted original tokens are consumed; the final word is [b]."
+    },
+    {
+      "id": "unvisited-context",
+      "steps": [
+        [
+          "b",
+          "b",
+          "p"
+        ]
+      ],
+      "output": [
+        "b",
+        "b",
+        "p"
+      ],
+      "reasoning": "Pass 1, left-to-right, feeding: at original position 1, p has original unvisited position 2 = p immediately right, so emit b. At original position 2, p has original unvisited position 3 = p immediately right, so emit b. At original position 3, p has no right token, so the required p test fails and p is copied. Right-side tests read the remaining original input throughout this left-to-right pass; earlier b outputs do not affect them."
+    },
+    {
+      "id": "rtl-word-initial",
+      "steps": [
+        [
+          "f",
+          "a",
+          "p"
+        ]
+      ],
+      "output": [
+        "f",
+        "a",
+        "p"
+      ],
+      "reasoning": "Pass 1, right-to-left, feeding: original position 3 is p, but its unvisited original left side contains positions 1 and 2, so the left-edge anchor fails and p is copied. Position 2 is a and is copied as a nontarget. Original position 1 is p with no unvisited original token to its left, so the left-edge anchor holds and f is emitted. The ordinary-order result is [f, a, p]; changing scan direction does not turn a left-edge anchor into a word-final condition."
+    },
+    {
+      "id": "two-token-context",
+      "steps": [
+        [
+          "p",
+          "a",
+          "d"
+        ]
+      ],
+      "output": [
+        "p",
+        "a",
+        "d"
+      ],
+      "reasoning": "Pass 1, left-to-right, simultaneous: position 1 is p and position 2 is a; both are nontargets and are copied. Position 3 is t. Its first, nearest-left test [a] consumes original position 2 = a; its second left test [p] consumes original position 1 = p. Both succeed in the listed nearest-first order. Its right context is empty and no token remains to the right, so the right-edge anchor also succeeds. Emit d for position 3."
+    },
+    {
+      "id": "boundary-blocks-wildcard",
+      "steps": [
+        [
+          "a",
+          "+",
+          "p",
+          "a"
+        ]
+      ],
+      "output": [
+        "a",
+        "+",
+        "p",
+        "a"
+      ],
+      "reasoning": "Pass 1, left-to-right, simultaneous: position 1 is a and is copied as a nontarget. Position 2 is the boundary + and is copied. Position 3 is p: the right wildcard would match adjacent position 4 = a, but the left wildcard cannot match adjacent position 2 = + and cannot skip it to reach position 1. Thus the occurrence fails and p is copied. Position 4 is a and is copied. Record the complete unchanged post-rule word."
+    },
+    {
+      "id": "ordered-cascade",
+      "steps": [
+        [
+          "f",
+          "a"
+        ],
+        [
+          "v",
+          "a"
+        ]
+      ],
+      "output": [
+        "v",
+        "a"
+      ],
+      "reasoning": "Pass 1 runs on [p, a], left-to-right and simultaneous: position 1 = p matches the unrestricted p target and emits f; position 2 = a is copied. Record [f, a]. Pass 2 receives this entire post-rule word: position 1 = f matches its unrestricted f target and emits v; position 2 = a is copied. Record [v, a]. Separate passes feed one another even though each individual pass is simultaneous."
+    },
+    {
+      "id": "reversed-cascade",
+      "steps": [
+        [
+          "p",
+          "a"
+        ],
+        [
+          "f",
+          "a"
+        ]
+      ],
+      "output": [
+        "f",
+        "a"
+      ],
+      "reasoning": "Pass 1 runs on [p, a], left-to-right and simultaneous, targeting f: position 1 = p is a nontarget and is copied; position 2 = a is also copied. The unchanged stage [p, a] is retained. Pass 2 receives [p, a] and targets p: position 1 matches without contextual restrictions and emits f; position 2 = a is copied. Record [f, a]. The earlier f-to-v pass is not rerun after f is created."
+    },
+    {
+      "id": "unicode-atoms",
+      "steps": [
+        [
+          "a̱",
+          "s",
+          "⁵⁵"
+        ]
+      ],
+      "output": [
+        "a̱",
+        "s",
+        "⁵⁵"
+      ],
+      "reasoning": "Pass 1, left-to-right, simultaneous: position 1 is the complete atomic string a̱, is outside target [tʰ], and is copied exactly. Position 2 is the complete atomic string tʰ, matching the target; its original nearest-left atom a̱ and nearest-right atom ⁵⁵ match the respective singleton classes, so emit s. Position 3 is the atomic string ⁵⁵ and is copied exactly. None of the three strings is split into characters, normalized, or given an implicit tone or phonetic interpretation."
+    },
+    {
+      "id": "edge-exposed-by-deletion",
+      "steps": [
+        [
+          "b"
+        ]
+      ],
+      "output": [
+        "b"
+      ],
+      "reasoning": "Pass 1, left-to-right, feeding: original position 1 is a with an empty produced left side, so the left-edge anchor holds and the token is deleted. The produced prefix remains empty. Original position 2 is also a; its already visited side is that empty produced prefix, so the same anchor holds and it is deleted. Original position 3 is b, a nontarget, and is copied. The final word is [b]; both original a tokens were visited once, and deletion exposed the left edge for the second visit."
+    },
+    {
+      "id": "empty-word",
+      "steps": [
+        []
+      ],
+      "output": [],
+      "reasoning": "Pass 1 is right-to-left and feeding, but the input has no original positions to visit. No target is encountered and no output is produced. The pass still exists, so record its empty post-rule word [] as the sole step; the final output is also []."
+    }
+  ]
+}

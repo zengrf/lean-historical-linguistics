@@ -1,6 +1,6 @@
 # Formal architecture and theorem contracts
 
-Status: **design**, except the explicitly identified prototype results and the implemented [M1 evidence schema/checker](07-m1-delivery.md). This document specifies what future implementations must prove; it does not claim those later modules already exist.
+Status: **design**, except the explicitly identified prototype results, implemented [M1 evidence schema/checker](07-m1-delivery.md), and [M2 contextual semantics/certificates](08-m2-delivery.md). This document specifies what future implementations must prove; it does not claim those later modules already exist.
 
 ## 1. The object of verification
 
@@ -46,6 +46,8 @@ Missing evidence must not create a new cognate, while an alignment gap can repre
 CLDF should be the interchange format where applicable, with sidecar tables for historical stages, laws, provenance, alternative analyses and certificates. The CLDF validator remains useful but does not validate the history itself.
 
 ## 3. Rule semantics
+
+M2 now implements the [precise versioned contract](rule-semantics.md): single-segment substitution/deletion, at most two explicit context tests per side, word/morpheme boundaries, both scan directions, simultaneous/feeding passes and named chronological stages. The proposals below concerning compilation and broader rule fragments remain future work.
 
 The initial rule language should describe a bounded left and right context, a target predicate on segments, a replacement or deletion, and an application convention. Require explicit word/morpheme boundaries and the stage at which accent and tone are interpreted.
 
@@ -126,14 +128,15 @@ The current files use `Std`, with no mathlib or linglib dependency.
 | Missing-data compatibility need not be transitive | **Proved example** | `Comparative.Patterns.compatible_is_not_transitive` |
 | Missing data differ from gaps and cannot alone supply support | **Proved examples** | `Comparative.Patterns` |
 | Independent positional alternatives can overgenerate | **Proved example** | `Comparative.Patterns.independent_choices_overgenerate` |
-| Context-sensitive rule interpreter / compiler correctness | Planned | Milestones M2 and M7 |
+| Context-sensitive rule interpreter and certificate correctness | **Proved** | `Historical.Rules`, `Historical.Certificates`, `Historical.RuleInput.checkDossier_iff`; M2 |
+| Restricted rule compiler correctness | Planned | M7 |
 | Alignment validity, correspondence-cover checker correctness | Planned | M3 |
 | Exhaustive enumeration by segment inventory and length bound | Planned | M4; current pool is supplied explicitly |
 | Verified real PIE or Sino-Tibetan etymology | **Not yet delivered** | M5 and M6 |
 | Identifiability up to a declared equivalence | Planned beyond toy examples | M4 / M9 |
 | Probabilistic inference correctness and calibration | Planned, optional | M9 |
 
-There are **22 M0 theorem declarations**, plus five M1 evidence results, for **27 audited declarations** in total. The abstract `Rule` is currently any total word-to-word function; the code does not yet enforce phonological locality, a finite alphabet, or historical plausibility. M1 adds stage/source metadata and consistency checks to evidence records; it does not yet enforce stages in rule execution.
+There are **22 M0 theorem declarations**, five M1 evidence results and 17 M2 results, for **44 audited declarations** in total. The M0 abstract `Comparative.Rule` remains any total word-to-word function for generic theorems. M2 uses a distinct data-only `Historical.Rules.Rule` grammar; its accepted packages enforce local context bounds, a finite declared inventory and chronological stage continuity. M1 retains sourced evidence independently. These representation and execution checks do not establish historical plausibility.
 
 ## 7. Uncertainty, scores and explanations
 

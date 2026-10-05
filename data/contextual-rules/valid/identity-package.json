@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "id": "identity-package",
+  "model": {
+    "id": "synthetic-identity-package",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s0",
+    "laws": []
+  },
+  "certificate": {
+    "package_id": "synthetic-identity-package",
+    "package_version": "1.0.0",
+    "input": [
+      "a",
+      "+",
+      "b"
+    ],
+    "steps": [],
+    "output": [
+      "a",
+      "+",
+      "b"
+    ]
+  }
+}

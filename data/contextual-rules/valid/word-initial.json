@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "id": "word-initial",
+  "model": {
+    "id": "synthetic-word-initial",
+    "version": "1.0.0",
+    "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+    "inventory": [
+      "a",
+      "b",
+      "p",
+      "f",
+      "v",
+      "t",
+      "d",
+      "s",
+      "x",
+      "a̱",
+      "tʰ",
+      "⁵⁵"
+    ],
+    "initial_stage": "s0",
+    "final_stage": "s1",
+    "laws": [
+      {
+        "id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "rule": {
+          "target": [
+            "p"
+          ],
+          "replacement": "f",
+          "left": [],
+          "right": [],
+          "left_edge": true,
+          "right_edge": false,
+          "direction": "left-to-right",
+          "mode": "simultaneous"
+        }
+      }
+    ]
+  },
+  "certificate": {
+    "package_id": "synthetic-word-initial",
+    "package_version": "1.0.0",
+    "input": [
+      "p",
+      "a",
+      "p"
+    ],
+    "steps": [
+      {
+        "rule_id": "law-1",
+        "input_stage": "s0",
+        "output_stage": "s1",
+        "output": [
+          "f",
+          "a",
+          "p"
+        ]
+      }
+    ],
+    "output": [
+      "f",
+      "a",
+      "p"
+    ]
+  }
+}

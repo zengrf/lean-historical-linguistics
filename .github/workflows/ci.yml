@@ -29,6 +29,10 @@ jobs:
           python scripts/verify_m1_delivery.py --require-complete
           python -m unittest discover -s tests -v
           git diff --exit-code -- schema/v1/dossier.schema.json data/fixtures reports/m1-review.json reports/m1-delivery.json
+      - name: Check M2 generated fixtures, independent review and delivery hashes
+        run: |
+          python scripts/build_m2_fixtures.py --check
+          python scripts/verify_m2.py --check-report
       - name: Check generated catalogue and attribution notices
         run: |
           python scripts/build_catalogue.py
@@ -70,3 +74,8 @@ jobs:
           python scripts/review_m1.py --require-complete
           python scripts/verify_m1_delivery.py --require-complete
           git diff --exit-code -- reports/schema-validation.json reports/m1-review.json reports/m1-delivery.json
+      - name: M2 contextual rules, certificates and independent examples
+        run: |
+          python scripts/verify_m2.py --audit "$RUNNER_TEMP/axioms.txt"
+          python scripts/verify_m2.py --check-report
+          git diff --exit-code -- reports/contextual-rules.json
