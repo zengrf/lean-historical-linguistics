@@ -1,0 +1,4342 @@
+{
+  "schema_version": "1.0.0",
+  "id": "iecor-m1",
+  "description": "M1 representation/import pilot. Published data claims are retained; no historical reconstruction is verified here.",
+  "sources": [
+    {
+      "id": "iecor:snapshot",
+      "title": "Heggarty, Paul & Anderson, Cormac & Scarborough, Matthew 2024. Indo-European Cognate Relationships database (IE-CoR version 1.1). Leipzig: Max Planck Institute for Evolutionary Anthropology",
+      "url": "https://github.com/lexibank/iecor/tree/700b635a04786427b78841489c46eefbe2843509",
+      "version": "700b635a04786427b78841489c46eefbe2843509",
+      "license": "CC BY 4.0",
+      "kind": "dataset",
+      "sha256": "055ce127b4033d6b96f5589228bf9a63b20564a0c0d19e5b9e97fe80b1a77202"
+    }
+  ],
+  "doculects": [
+    {
+      "id": "iecor:7",
+      "name": "Armenian: Western",
+      "family": "Indo-European",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "iecor:8",
+      "name": "Armenian: Eastern",
+      "family": "Indo-European",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "iecor:10",
+      "name": "Bengali",
+      "family": "Indo-European",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "iecor:15",
+      "name": "Bulgarian",
+      "family": "Indo-European",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "iecor:16",
+      "name": "Belarusian",
+      "family": "Indo-European",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "iecor:17",
+      "name": "Catalan",
+      "family": "Indo-European",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "iecor:18",
+      "name": "Czech",
+      "family": "Indo-European",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "iecor:20",
+      "name": "Danish",
+      "family": "Indo-European",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "iecor:21",
+      "name": "Dutch",
+      "family": "Indo-European",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "iecor:23",
+      "name": "Faroese",
+      "family": "Indo-European",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    }
+  ],
+  "meanings": [
+    {
+      "id": "iecor:4",
+      "label": "ash"
+    },
+    {
+      "id": "iecor:6",
+      "label": "back"
+    },
+    {
+      "id": "iecor:7",
+      "label": "bad"
+    },
+    {
+      "id": "iecor:8",
+      "label": "bark"
+    },
+    {
+      "id": "iecor:11",
+      "label": "big"
+    }
+  ],
+  "analyses": [],
+  "normalization_methods": [
+    {
+      "id": "cldf-form",
+      "version": "1",
+      "description": "Retain upstream Value-to-Form mapping without inferring its linguistic correctness"
+    },
+    {
+      "id": "cldf-segments",
+      "version": "1",
+      "description": "Concatenate upstream Segments tokens, preserving boundary and alias notation exactly"
+    }
+  ],
+  "choice_groups": [],
+  "records": [
+    {
+      "id": "iecor:7-4-1",
+      "doculect_id": "iecor:7",
+      "meaning_ids": [
+        "iecor:4"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#7-4-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "moxir",
+          "normalized": "mɔχiɾ",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "m"
+            },
+            {
+              "kind": "segment",
+              "value": "ɔ"
+            },
+            {
+              "kind": "segment",
+              "value": "χ"
+            },
+            {
+              "kind": "segment",
+              "value": "i"
+            },
+            {
+              "kind": "segment",
+              "value": "ɾ"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "moxir",
+              "output": "moxir",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "moxir",
+              "output": "mɔχiɾ",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "7-4-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "7-4-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "7"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "4"
+          },
+          {
+            "name": "Value",
+            "value": "moxir"
+          },
+          {
+            "name": "Form",
+            "value": "moxir"
+          },
+          {
+            "name": "Segments",
+            "value": "m ɔ χ i ɾ"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "mɔˈχiɾ"
+          },
+          {
+            "name": "Phonemic",
+            "value": "mɔχiɾ"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "m ɔ χ i ɾ"
+          },
+          {
+            "name": "native_script",
+            "value": "մոխիր"
+          },
+          {
+            "name": "url",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:8-4-1",
+      "doculect_id": "iecor:8",
+      "meaning_ids": [
+        "iecor:4"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#8-4-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "moxir",
+          "normalized": "mɔχiɾ",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "m"
+            },
+            {
+              "kind": "segment",
+              "value": "ɔ"
+            },
+            {
+              "kind": "segment",
+              "value": "χ"
+            },
+            {
+              "kind": "segment",
+              "value": "i"
+            },
+            {
+              "kind": "segment",
+              "value": "ɾ"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "moxir",
+              "output": "moxir",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "moxir",
+              "output": "mɔχiɾ",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "8-4-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "8-4-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "8"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "4"
+          },
+          {
+            "name": "Value",
+            "value": "moxir"
+          },
+          {
+            "name": "Form",
+            "value": "moxir"
+          },
+          {
+            "name": "Segments",
+            "value": "m ɔ χ i ɾ"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "mɔˈχiɾ"
+          },
+          {
+            "name": "Phonemic",
+            "value": "mɔχiɾ"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "m ɔ χ i ɾ"
+          },
+          {
+            "name": "native_script",
+            "value": "մոխիր"
+          },
+          {
+            "name": "url",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:10-4-1",
+      "doculect_id": "iecor:10",
+      "meaning_ids": [
+        "iecor:4"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#10-4-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "chāi",
+          "normalized": "tʃʰai",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "tʃʰ"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "i"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "chāi",
+              "output": "chāi",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "chāi",
+              "output": "tʃʰai",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "10-4-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "10-4-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "10"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "4"
+          },
+          {
+            "name": "Value",
+            "value": "chāi"
+          },
+          {
+            "name": "Form",
+            "value": "chāi"
+          },
+          {
+            "name": "Segments",
+            "value": "tʃʰ a i"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "tʃʰai"
+          },
+          {
+            "name": "Phonemic",
+            "value": ""
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": ""
+          },
+          {
+            "name": "native_script",
+            "value": "ছাই"
+          },
+          {
+            "name": "url",
+            "value": "http://dsalsrv02.uchicago.edu/cgi-bin/app/biswas-bengali_query.py?searchhws=yes&qs=ছাই"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:15-4-1",
+      "doculect_id": "iecor:15",
+      "meaning_ids": [
+        "iecor:4"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#15-4-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "pepel",
+          "normalized": "pɛpɘlˠ",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "p"
+            },
+            {
+              "kind": "segment",
+              "value": "ɛ"
+            },
+            {
+              "kind": "segment",
+              "value": "p"
+            },
+            {
+              "kind": "segment",
+              "value": "ɘ"
+            },
+            {
+              "kind": "segment",
+              "value": "lˠ"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "pepel",
+              "output": "pepel",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "pepel",
+              "output": "pɛpɘlˠ",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "15-4-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "15-4-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "15"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "4"
+          },
+          {
+            "name": "Value",
+            "value": "pepel"
+          },
+          {
+            "name": "Form",
+            "value": "pepel"
+          },
+          {
+            "name": "Segments",
+            "value": "p ɛ p ɘ lˠ"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ˈpɛpɘɫ"
+          },
+          {
+            "name": "Phonemic",
+            "value": "ˈpepel"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "p e p e l"
+          },
+          {
+            "name": "native_script",
+            "value": "пепел"
+          },
+          {
+            "name": "url",
+            "value": "https://rechnik.chitanka.info/w/пепел"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:16-4-1",
+      "doculect_id": "iecor:16",
+      "meaning_ids": [
+        "iecor:4"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#16-4-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "popel",
+          "normalized": "pɔpʲɛlˠ",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "p"
+            },
+            {
+              "kind": "segment",
+              "value": "ɔ"
+            },
+            {
+              "kind": "segment",
+              "value": "pʲ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɛ"
+            },
+            {
+              "kind": "segment",
+              "value": "lˠ"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "popel",
+              "output": "popel",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "popel",
+              "output": "pɔpʲɛlˠ",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "16-4-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "16-4-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "16"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "4"
+          },
+          {
+            "name": "Value",
+            "value": "popel"
+          },
+          {
+            "name": "Form",
+            "value": "popel"
+          },
+          {
+            "name": "Segments",
+            "value": "p ɔ pʲ ɛ lˠ"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ˈpɔpʲɛɫ"
+          },
+          {
+            "name": "Phonemic",
+            "value": "ˈpopʲel"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "p o pʲ e l"
+          },
+          {
+            "name": "native_script",
+            "value": "попел"
+          },
+          {
+            "name": "url",
+            "value": "http://www.slounik.org/search?search=попел"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:17-4-1",
+      "doculect_id": "iecor:17",
+      "meaning_ids": [
+        "iecor:4"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#17-4-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "cendra",
+          "normalized": "sɛn̪drə",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "s"
+            },
+            {
+              "kind": "segment",
+              "value": "ɛ"
+            },
+            {
+              "kind": "segment",
+              "value": "n̪"
+            },
+            {
+              "kind": "segment",
+              "value": "d"
+            },
+            {
+              "kind": "segment",
+              "value": "r"
+            },
+            {
+              "kind": "segment",
+              "value": "ə"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "cendra",
+              "output": "cendra",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "cendra",
+              "output": "sɛn̪drə",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "17-4-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "17-4-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "17"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "4"
+          },
+          {
+            "name": "Value",
+            "value": "cendra"
+          },
+          {
+            "name": "Form",
+            "value": "cendra"
+          },
+          {
+            "name": "Segments",
+            "value": "s ɛ n̪ d r ə"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ˈsɛn̪drə"
+          },
+          {
+            "name": "Phonemic",
+            "value": "ˈsɛndrə"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "s ɛ n d r ə"
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:18-4-1",
+      "doculect_id": "iecor:18",
+      "meaning_ids": [
+        "iecor:4"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#18-4-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "popel",
+          "normalized": "pɔpɛl",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "p"
+            },
+            {
+              "kind": "segment",
+              "value": "ɔ"
+            },
+            {
+              "kind": "segment",
+              "value": "p"
+            },
+            {
+              "kind": "segment",
+              "value": "ɛ"
+            },
+            {
+              "kind": "segment",
+              "value": "l"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "popel",
+              "output": "popel",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "popel",
+              "output": "pɔpɛl",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "18-4-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "18-4-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "18"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "4"
+          },
+          {
+            "name": "Value",
+            "value": "popel"
+          },
+          {
+            "name": "Form",
+            "value": "popel"
+          },
+          {
+            "name": "Segments",
+            "value": "p ɔ p ɛ l"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ˈpɔpɛl"
+          },
+          {
+            "name": "Phonemic",
+            "value": "ˈpopel"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "p o p e l"
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": "http://ssjc.ujc.cas.cz/search.php?hledej=Hledat&hsubstr=no&heslo=popel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:20-4-1",
+      "doculect_id": "iecor:20",
+      "meaning_ids": [
+        "iecor:4"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#20-4-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "aske",
+          "normalized": "asɡə",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "s"
+            },
+            {
+              "kind": "segment",
+              "value": "ɡ"
+            },
+            {
+              "kind": "segment",
+              "value": "ə"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "aske",
+              "output": "aske",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "aske",
+              "output": "asɡə",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "20-4-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "20-4-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "20"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "4"
+          },
+          {
+            "name": "Value",
+            "value": "aske"
+          },
+          {
+            "name": "Form",
+            "value": "aske"
+          },
+          {
+            "name": "Segments",
+            "value": "a s ɡ ə"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ˈasɡə"
+          },
+          {
+            "name": "Phonemic",
+            "value": ""
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": ""
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": "http://ordnet.dk/ddo/ordbog?query=aske"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:21-4-1",
+      "doculect_id": "iecor:21",
+      "meaning_ids": [
+        "iecor:4"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#21-4-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "as",
+          "normalized": "ɑs",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ɑ"
+            },
+            {
+              "kind": "segment",
+              "value": "s"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "as",
+              "output": "as",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "as",
+              "output": "ɑs",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "21-4-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "21-4-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "21"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "4"
+          },
+          {
+            "name": "Value",
+            "value": "as"
+          },
+          {
+            "name": "Form",
+            "value": "as"
+          },
+          {
+            "name": "Segments",
+            "value": "ɑ s"
+          },
+          {
+            "name": "Comment",
+            "value": "Removed ASCH - archaic form?"
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ɑs"
+          },
+          {
+            "name": "Phonemic",
+            "value": ""
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": ""
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": "http://www.etymologiebank.nl/trefwoord/as3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:23-4-1",
+      "doculect_id": "iecor:23",
+      "meaning_ids": [
+        "iecor:4"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#23-4-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "øska",
+          "normalized": "œska",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "œ"
+            },
+            {
+              "kind": "segment",
+              "value": "s"
+            },
+            {
+              "kind": "segment",
+              "value": "k"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "øska",
+              "output": "øska",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "øska",
+              "output": "œska",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "23-4-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "23-4-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "23"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "4"
+          },
+          {
+            "name": "Value",
+            "value": "øska"
+          },
+          {
+            "name": "Form",
+            "value": "øska"
+          },
+          {
+            "name": "Segments",
+            "value": "œ s k a"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ˈœska"
+          },
+          {
+            "name": "Phonemic",
+            "value": "ˈœska"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "œ s k a"
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": "http://sleipnir.fo/obg/fob/fob.php?button_leita=&action=1&pageno=0&leitord=øska"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:7-6-1",
+      "doculect_id": "iecor:7",
+      "meaning_ids": [
+        "iecor:6"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#7-6-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "kṙnak",
+          "normalized": "ɡərnɑɡ",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ɡ"
+            },
+            {
+              "kind": "segment",
+              "value": "ə"
+            },
+            {
+              "kind": "segment",
+              "value": "r"
+            },
+            {
+              "kind": "segment",
+              "value": "n"
+            },
+            {
+              "kind": "segment",
+              "value": "ɑ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɡ"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "kṙnak",
+              "output": "kṙnak",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "kṙnak",
+              "output": "ɡərnɑɡ",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "7-6-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "7-6-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "7"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "6"
+          },
+          {
+            "name": "Value",
+            "value": "kṙnak"
+          },
+          {
+            "name": "Form",
+            "value": "kṙnak"
+          },
+          {
+            "name": "Segments",
+            "value": "ɡ ə r n ɑ ɡ"
+          },
+          {
+            "name": "Comment",
+            "value": "Apparently from կուռն kowṙ-n 'back' + -ակ -ak (forming diminutives from nominal stems)."
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ɡərˈnɑɡ"
+          },
+          {
+            "name": "Phonemic",
+            "value": "ɡurn(-)ɑɡ"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "ɡ u r n + ɑ ɡ"
+          },
+          {
+            "name": "native_script",
+            "value": "կռնակ"
+          },
+          {
+            "name": "url",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:8-7-1",
+      "doculect_id": "iecor:8",
+      "meaning_ids": [
+        "iecor:7"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#8-7-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "vat",
+          "normalized": "vɑt",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "v"
+            },
+            {
+              "kind": "segment",
+              "value": "ɑ"
+            },
+            {
+              "kind": "segment",
+              "value": "t"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "vat",
+              "output": "vat",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "vat",
+              "output": "vɑt",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "8-7-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "8-7-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "8"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "7"
+          },
+          {
+            "name": "Value",
+            "value": "vat"
+          },
+          {
+            "name": "Form",
+            "value": "vat"
+          },
+          {
+            "name": "Segments",
+            "value": "v ɑ t"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "vɑt"
+          },
+          {
+            "name": "Phonemic",
+            "value": "uɑt"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "u ɑ t"
+          },
+          {
+            "name": "native_script",
+            "value": "վատ"
+          },
+          {
+            "name": "url",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:10-6-1",
+      "doculect_id": "iecor:10",
+      "meaning_ids": [
+        "iecor:6"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#10-6-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "piṭh",
+          "normalized": "piʈʰ",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "p"
+            },
+            {
+              "kind": "segment",
+              "value": "i"
+            },
+            {
+              "kind": "segment",
+              "value": "ʈʰ"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "piṭh",
+              "output": "piṭh",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "piṭh",
+              "output": "piʈʰ",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "10-6-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "10-6-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "10"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "6"
+          },
+          {
+            "name": "Value",
+            "value": "piṭh"
+          },
+          {
+            "name": "Form",
+            "value": "piṭh"
+          },
+          {
+            "name": "Segments",
+            "value": "p i ʈʰ"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "piʈʰ"
+          },
+          {
+            "name": "Phonemic",
+            "value": ""
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": ""
+          },
+          {
+            "name": "native_script",
+            "value": "পিঠ"
+          },
+          {
+            "name": "url",
+            "value": "http://dsalsrv02.uchicago.edu/cgi-bin/app/biswas-bengali_query.py?searchhws=yes&qs=পিঠ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:15-7-1",
+      "doculect_id": "iecor:15",
+      "meaning_ids": [
+        "iecor:7"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#15-7-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "loš",
+          "normalized": "lˠɔʃ",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "lˠ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɔ"
+            },
+            {
+              "kind": "segment",
+              "value": "ʃ"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "loš",
+              "output": "loš",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "loš",
+              "output": "lˠɔʃ",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "15-7-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "15-7-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "15"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "7"
+          },
+          {
+            "name": "Value",
+            "value": "loš"
+          },
+          {
+            "name": "Form",
+            "value": "loš"
+          },
+          {
+            "name": "Segments",
+            "value": "lˠ ɔ ʃ"
+          },
+          {
+            "name": "Comment",
+            "value": "'зъл' means 'evil, malicious'."
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ɫɔʃ"
+          },
+          {
+            "name": "Phonemic",
+            "value": "loʃ"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "l o ʃ"
+          },
+          {
+            "name": "native_script",
+            "value": "лош"
+          },
+          {
+            "name": "url",
+            "value": "https://rechnik.chitanka.info/w/лош"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:16-7-1",
+      "doculect_id": "iecor:16",
+      "meaning_ids": [
+        "iecor:7"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#16-7-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "drenny",
+          "normalized": "dɾɛnːɨ",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "d"
+            },
+            {
+              "kind": "segment",
+              "value": "ɾ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɛ"
+            },
+            {
+              "kind": "segment",
+              "value": "nː"
+            },
+            {
+              "kind": "segment",
+              "value": "ɨ"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "drenny",
+              "output": "drenny",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "drenny",
+              "output": "dɾɛnːɨ",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "16-7-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "16-7-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "16"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "7"
+          },
+          {
+            "name": "Value",
+            "value": "drenny"
+          },
+          {
+            "name": "Form",
+            "value": "drenny"
+          },
+          {
+            "name": "Segments",
+            "value": "d ɾ ɛ nː ɨ"
+          },
+          {
+            "name": "Comment",
+            "value": "Alternative lexemes are 'кепскі' and 'благі'. They seem to have a more restricted usage. At least normally 'дрэнны' is given on the first place in dictionaries."
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ˈdɾɛnːɨ"
+          },
+          {
+            "name": "Phonemic",
+            "value": "ˈdrenni"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "d r e nː i"
+          },
+          {
+            "name": "native_script",
+            "value": "дрэнны"
+          },
+          {
+            "name": "url",
+            "value": "http://www.slounik.org/search?search=дрэнны"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:17-7-1",
+      "doculect_id": "iecor:17",
+      "meaning_ids": [
+        "iecor:7"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#17-7-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "mal",
+          "normalized": "malˠ",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "m"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "lˠ"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "mal",
+              "output": "mal",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "mal",
+              "output": "malˠ",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "17-7-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "17-7-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "17"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "7"
+          },
+          {
+            "name": "Value",
+            "value": "mal"
+          },
+          {
+            "name": "Form",
+            "value": "mal"
+          },
+          {
+            "name": "Segments",
+            "value": "m a lˠ"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "maɫ"
+          },
+          {
+            "name": "Phonemic",
+            "value": "mal"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "m a l"
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:18-7-1",
+      "doculect_id": "iecor:18",
+      "meaning_ids": [
+        "iecor:7"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#18-7-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "špatný",
+          "normalized": "ʃpɑ̈tniː",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ʃ"
+            },
+            {
+              "kind": "segment",
+              "value": "p"
+            },
+            {
+              "kind": "segment",
+              "value": "ɑ̈"
+            },
+            {
+              "kind": "segment",
+              "value": "t"
+            },
+            {
+              "kind": "segment",
+              "value": "n"
+            },
+            {
+              "kind": "segment",
+              "value": "iː"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "špatný",
+              "output": "špatný",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "špatný",
+              "output": "ʃpɑ̈tniː",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "18-7-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "18-7-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "18"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "7"
+          },
+          {
+            "name": "Value",
+            "value": "špatný"
+          },
+          {
+            "name": "Form",
+            "value": "špatný"
+          },
+          {
+            "name": "Segments",
+            "value": "ʃ p ɑ̈ t n iː"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ˈʃpɑ̈tniː"
+          },
+          {
+            "name": "Phonemic",
+            "value": "ˈʃpatniː"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "ʃ p a t n iː"
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": "http://ssjc.ujc.cas.cz/search.php?hledej=Hledat&hsubstr=no&heslo=špatný"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:20-6-1",
+      "doculect_id": "iecor:20",
+      "meaning_ids": [
+        "iecor:6"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#20-6-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "ryg",
+          "normalized": "ʁœɡ",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ʁ"
+            },
+            {
+              "kind": "segment",
+              "value": "œ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɡ"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "ryg",
+              "output": "ryg",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "ryg",
+              "output": "ʁœɡ",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "20-6-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "20-6-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "20"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "6"
+          },
+          {
+            "name": "Value",
+            "value": "ryg"
+          },
+          {
+            "name": "Form",
+            "value": "ryg"
+          },
+          {
+            "name": "Segments",
+            "value": "ʁ œ ɡ"
+          },
+          {
+            "name": "Comment",
+            "value": "removed baɡ."
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ˈʁœɡ"
+          },
+          {
+            "name": "Phonemic",
+            "value": ""
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": ""
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": "http://ordnet.dk/ddo/ordbog?query=ryg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:21-6-1",
+      "doculect_id": "iecor:21",
+      "meaning_ids": [
+        "iecor:6"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#21-6-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "rug",
+          "normalized": "rʏχ",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "r"
+            },
+            {
+              "kind": "segment",
+              "value": "ʏ"
+            },
+            {
+              "kind": "segment",
+              "value": "χ"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "rug",
+              "output": "rug",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "rug",
+              "output": "rʏχ",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "21-6-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "21-6-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "21"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "6"
+          },
+          {
+            "name": "Value",
+            "value": "rug"
+          },
+          {
+            "name": "Form",
+            "value": "rug"
+          },
+          {
+            "name": "Segments",
+            "value": "r ʏ χ"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "rʏχ"
+          },
+          {
+            "name": "Phonemic",
+            "value": ""
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": ""
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": "http://www.etymologiebank.nl/trefwoord/rug"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:23-6-1",
+      "doculect_id": "iecor:23",
+      "meaning_ids": [
+        "iecor:6"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#23-6-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "bak",
+          "normalized": "b̥ɛaːk",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "b̥"
+            },
+            {
+              "kind": "segment",
+              "value": "ɛ"
+            },
+            {
+              "kind": "segment",
+              "value": "aː"
+            },
+            {
+              "kind": "segment",
+              "value": "k"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "bak",
+              "output": "bak",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "bak",
+              "output": "b̥ɛaːk",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "23-6-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "23-6-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "23"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "6"
+          },
+          {
+            "name": "Value",
+            "value": "bak"
+          },
+          {
+            "name": "Form",
+            "value": "bak"
+          },
+          {
+            "name": "Segments",
+            "value": "b̥ ɛ aː k"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "b̥ɛaːk"
+          },
+          {
+            "name": "Phonemic",
+            "value": ""
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": ""
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": "http://sleipnir.fo/obg/fob/fob.php?button_leita=&action=1&pageno=0&leitord=bak"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:7-7-1",
+      "doculect_id": "iecor:7",
+      "meaning_ids": [
+        "iecor:7"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#7-7-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "gēš",
+          "normalized": "kʰɛʃ",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "kʰ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɛ"
+            },
+            {
+              "kind": "segment",
+              "value": "ʃ"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "gēš",
+              "output": "gēš",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "gēš",
+              "output": "kʰɛʃ",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "7-7-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "7-7-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "7"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "7"
+          },
+          {
+            "name": "Value",
+            "value": "gēš"
+          },
+          {
+            "name": "Form",
+            "value": "gēš"
+          },
+          {
+            "name": "Segments",
+            "value": "kʰ ɛ ʃ"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "kʰɛʃ"
+          },
+          {
+            "name": "Phonemic",
+            "value": "kʰɛʃ"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "kʰ ɛ ʃ"
+          },
+          {
+            "name": "native_script",
+            "value": "գէշ"
+          },
+          {
+            "name": "url",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:8-8-1",
+      "doculect_id": "iecor:8",
+      "meaning_ids": [
+        "iecor:8"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#8-8-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "kełew",
+          "normalized": "kɛʁɛv",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "k"
+            },
+            {
+              "kind": "segment",
+              "value": "ɛ"
+            },
+            {
+              "kind": "segment",
+              "value": "ʁ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɛ"
+            },
+            {
+              "kind": "segment",
+              "value": "v"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "kełew",
+              "output": "kełew",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "kełew",
+              "output": "kɛʁɛv",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "8-8-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "8-8-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "8"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "8"
+          },
+          {
+            "name": "Value",
+            "value": "kełew"
+          },
+          {
+            "name": "Form",
+            "value": "kełew"
+          },
+          {
+            "name": "Segments",
+            "value": "k ɛ ʁ ɛ v"
+          },
+          {
+            "name": "Comment",
+            "value": "Also spelled կեղեւ."
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "kɛʁɛv"
+          },
+          {
+            "name": "Phonemic",
+            "value": "kɛʁɛu"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "k ɛ ʁ ɛ u"
+          },
+          {
+            "name": "native_script",
+            "value": "կեղև"
+          },
+          {
+            "name": "url",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:10-7-1",
+      "doculect_id": "iecor:10",
+      "meaning_ids": [
+        "iecor:7"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#10-7-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "khārāp",
+          "normalized": "kʰarap",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "kʰ"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "r"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "p"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "khārāp",
+              "output": "khārāp",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "khārāp",
+              "output": "kʰarap",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "10-7-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "10-7-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "10"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "7"
+          },
+          {
+            "name": "Value",
+            "value": "khārāp"
+          },
+          {
+            "name": "Form",
+            "value": "khārāp"
+          },
+          {
+            "name": "Segments",
+            "value": "kʰ a r a p"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "kʰarap"
+          },
+          {
+            "name": "Phonemic",
+            "value": ""
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": ""
+          },
+          {
+            "name": "native_script",
+            "value": "খারাপ"
+          },
+          {
+            "name": "url",
+            "value": "http://dsalsrv02.uchicago.edu/cgi-bin/app/biswas-bengali_query.py?searchhws=yes&qs=খারাপ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:15-8-1",
+      "doculect_id": "iecor:15",
+      "meaning_ids": [
+        "iecor:8"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#15-8-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "kora",
+          "normalized": "kuɾɑ̈",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "k"
+            },
+            {
+              "kind": "segment",
+              "value": "u"
+            },
+            {
+              "kind": "segment",
+              "value": "ɾ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɑ̈"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "kora",
+              "output": "kora",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "kora",
+              "output": "kuɾɑ̈",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "15-8-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "15-8-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "15"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "8"
+          },
+          {
+            "name": "Value",
+            "value": "kora"
+          },
+          {
+            "name": "Form",
+            "value": "kora"
+          },
+          {
+            "name": "Segments",
+            "value": "k u ɾ ɑ̈"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "kuˈɾɑ̈"
+          },
+          {
+            "name": "Phonemic",
+            "value": "koˈra"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "k o r a"
+          },
+          {
+            "name": "native_script",
+            "value": "кора"
+          },
+          {
+            "name": "url",
+            "value": "https://rechnik.chitanka.info/w/кора"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:16-8-1",
+      "doculect_id": "iecor:16",
+      "meaning_ids": [
+        "iecor:8"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#16-8-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "kara",
+          "normalized": "kaɾɑ̈",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "k"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "ɾ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɑ̈"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "kara",
+              "output": "kara",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "kara",
+              "output": "kaɾɑ̈",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "16-8-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "16-8-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "16"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "8"
+          },
+          {
+            "name": "Value",
+            "value": "kara"
+          },
+          {
+            "name": "Form",
+            "value": "kara"
+          },
+          {
+            "name": "Segments",
+            "value": "k a ɾ ɑ̈"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "kaˈɾɑ̈"
+          },
+          {
+            "name": "Phonemic",
+            "value": "koˈra"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "k o r a"
+          },
+          {
+            "name": "native_script",
+            "value": "кара"
+          },
+          {
+            "name": "url",
+            "value": "http://www.slounik.org/search?search=кара"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:17-8-1",
+      "doculect_id": "iecor:17",
+      "meaning_ids": [
+        "iecor:8"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#17-8-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "escorça",
+          "normalized": "əskɔrsə",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ə"
+            },
+            {
+              "kind": "segment",
+              "value": "s"
+            },
+            {
+              "kind": "segment",
+              "value": "k"
+            },
+            {
+              "kind": "segment",
+              "value": "ɔ"
+            },
+            {
+              "kind": "segment",
+              "value": "r"
+            },
+            {
+              "kind": "segment",
+              "value": "s"
+            },
+            {
+              "kind": "segment",
+              "value": "ə"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "escorça",
+              "output": "escorça",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "escorça",
+              "output": "əskɔrsə",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "17-8-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "17-8-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "17"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "8"
+          },
+          {
+            "name": "Value",
+            "value": "escorça"
+          },
+          {
+            "name": "Form",
+            "value": "escorça"
+          },
+          {
+            "name": "Segments",
+            "value": "ə s k ɔ r s ə"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "əsˈkɔrsə"
+          },
+          {
+            "name": "Phonemic",
+            "value": "əsˈkɔrsə"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "ə s k ɔ r s ə"
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:18-8-1",
+      "doculect_id": "iecor:18",
+      "meaning_ids": [
+        "iecor:8"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#18-8-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "kůra",
+          "normalized": "kuːɾɑ̈",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "k"
+            },
+            {
+              "kind": "segment",
+              "value": "uː"
+            },
+            {
+              "kind": "segment",
+              "value": "ɾ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɑ̈"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "kůra",
+              "output": "kůra",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "kůra",
+              "output": "kuːɾɑ̈",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "18-8-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "18-8-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "18"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "8"
+          },
+          {
+            "name": "Value",
+            "value": "kůra"
+          },
+          {
+            "name": "Form",
+            "value": "kůra"
+          },
+          {
+            "name": "Segments",
+            "value": "k uː ɾ ɑ̈"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ˈkuːɾɑ̈"
+          },
+          {
+            "name": "Phonemic",
+            "value": "ˈkuːra"
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": "k uː r a"
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": "http://ssjc.ujc.cas.cz/search.php?hledej=Hledat&hsubstr=no&heslo=kůra"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:20-11-1",
+      "doculect_id": "iecor:20",
+      "meaning_ids": [
+        "iecor:11"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#20-11-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "stor",
+          "normalized": "sdoˀɐ̯",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "s"
+            },
+            {
+              "kind": "segment",
+              "value": "d"
+            },
+            {
+              "kind": "segment",
+              "value": "oˀ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɐ̯"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "stor",
+              "output": "stor",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "stor",
+              "output": "sdoˀɐ̯",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "20-11-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "20-11-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "20"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "11"
+          },
+          {
+            "name": "Value",
+            "value": "stor"
+          },
+          {
+            "name": "Form",
+            "value": "stor"
+          },
+          {
+            "name": "Segments",
+            "value": "s d oˀ ɐ̯"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ˈsdoˀɐ̯"
+          },
+          {
+            "name": "Phonemic",
+            "value": ""
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": ""
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": "http://ordnet.dk/ddo/ordbog?query=stor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:21-7-1",
+      "doculect_id": "iecor:21",
+      "meaning_ids": [
+        "iecor:7"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#21-7-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "slecht",
+          "normalized": "slɛχt",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "s"
+            },
+            {
+              "kind": "segment",
+              "value": "l"
+            },
+            {
+              "kind": "segment",
+              "value": "ɛ"
+            },
+            {
+              "kind": "segment",
+              "value": "χ"
+            },
+            {
+              "kind": "segment",
+              "value": "t"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "slecht",
+              "output": "slecht",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "slecht",
+              "output": "slɛχt",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "21-7-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "21-7-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "21"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "7"
+          },
+          {
+            "name": "Value",
+            "value": "slecht"
+          },
+          {
+            "name": "Form",
+            "value": "slecht"
+          },
+          {
+            "name": "Segments",
+            "value": "s l ɛ χ t"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "slɛχt"
+          },
+          {
+            "name": "Phonemic",
+            "value": ""
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": ""
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": "http://www.etymologiebank.nl/trefwoord/slecht"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iecor:23-7-1",
+      "doculect_id": "iecor:23",
+      "meaning_ids": [
+        "iecor:7"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "iecor:snapshot",
+          "locator": "forms.csv#23-7-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "illur",
+          "normalized": "ɪd̥lʊɹ",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ɪ"
+            },
+            {
+              "kind": "segment",
+              "value": "d̥"
+            },
+            {
+              "kind": "segment",
+              "value": "l"
+            },
+            {
+              "kind": "segment",
+              "value": "ʊ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɹ"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "illur",
+              "output": "illur",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "illur",
+              "output": "ɪd̥lʊɹ",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "iecor:snapshot",
+        "table": "forms.csv",
+        "row_id": "23-7-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "23-7-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "23"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "7"
+          },
+          {
+            "name": "Value",
+            "value": "illur"
+          },
+          {
+            "name": "Form",
+            "value": "illur"
+          },
+          {
+            "name": "Segments",
+            "value": "ɪ d̥ l ʊ ɹ"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": ""
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Gloss",
+            "value": ""
+          },
+          {
+            "name": "phon_form",
+            "value": "ˈɪd̥lʊɹ"
+          },
+          {
+            "name": "Phonemic",
+            "value": ""
+          },
+          {
+            "name": "Phonemic_Segments",
+            "value": ""
+          },
+          {
+            "name": "native_script",
+            "value": ""
+          },
+          {
+            "name": "url",
+            "value": "http://sleipnir.fo/obg/fob/fob.php?button_leita=&action=1&pageno=0&leitord=illur"
+          }
+        ]
+      }
+    }
+  ]
+}

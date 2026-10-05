@@ -1,0 +1,30 @@
+{
+  "milestone": "M1",
+  "criterion": "M1-review",
+  "status": "pending",
+  "core_records": 60,
+  "minimum_reviewed": 6,
+  "required_record_ids": [
+    "hillburmish:Atsi-1193_accomplishsucceed-1",
+    "hillburmish:Lashi-1666_achehead-1",
+    "hillburmish:Rangoon-1366_afraidbe-1",
+    "iecor:10-4-1",
+    "iecor:18-4-1",
+    "iecor:23-6-1"
+  ],
+  "reviewed_records": 0,
+  "coverage": 0.0,
+  "uncertain_records": 0,
+  "missing_record_ids": [
+    "hillburmish:Atsi-1193_accomplishsucceed-1",
+    "hillburmish:Lashi-1666_achehead-1",
+    "hillburmish:Rangoon-1366_afraidbe-1",
+    "iecor:10-4-1",
+    "iecor:18-4-1",
+    "iecor:23-6-1"
+  ],
+  "entries": [],
+  "errors": [],
+  "reviewer_id": null,
+  "limitation": "The script verifies recorded coverage and transcription agreement. Reviewer identity and independence are attestations; it cannot authenticate people or replace specialist review."
+}

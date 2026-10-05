@@ -20,3 +20,8 @@
 'Comparative.Patterns.missing_is_not_gap' does not depend on any axioms
 'Comparative.Patterns.missing_alone_is_not_support' does not depend on any axioms
 'Comparative.Patterns.independent_choices_overgenerate' depends on axioms: [propext, Quot.sound]
+'Historical.replay_iff_chain' depends on axioms: [propext]
+'Historical.renormalize_preserves_original' does not depend on any axioms
+'Historical.renormalize_preserves_choices' does not depend on any axioms
+'Historical.missing_ne_gap' does not depend on any axioms
+'Historical.cell_json_roundtrip' depends on axioms: [propext]

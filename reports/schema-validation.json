@@ -1,0 +1,1047 @@
+{
+  "milestone": "M1",
+  "schema_version": "1.0.0",
+  "engineering_checks_passed": true,
+  "valid_fixtures": 38,
+  "adversarial_fixtures": 44,
+  "cross_file_duplicate_rejected": true,
+  "json_key_order_and_bmp_escapes_preserved": true,
+  "pilots": [
+    {
+      "dataset": "iecor",
+      "records": 30,
+      "commit": "700b635a04786427b78841489c46eefbe2843509",
+      "cldf_valid": true,
+      "source_import_equal": true,
+      "roundtrip_equal": true,
+      "pilot_sha256": "7e47e1101b472bdb69f6bc618e86d3aebc078e2b39c566007db746e13c341e83"
+    },
+    {
+      "dataset": "hillburmish",
+      "records": 30,
+      "commit": "3d96cfa6b2ed4c59fd13e28ef5ae00db30247bb3",
+      "cldf_valid": true,
+      "source_import_equal": true,
+      "roundtrip_equal": true,
+      "pilot_sha256": "82192f28ef4588e9d2e1fd95f30fbb1540e2f08a665576287d37017f245e6442"
+    }
+  ],
+  "fixtures": [
+    {
+      "fixture": "valid/identity.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/combining-tone.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/superscript-tone.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/decomposed-voiceless.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/tibetan-script.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/chinese-script.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/supplementary-unicode.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/stress.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/aspiration.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/length.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/diphthong-token.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/punctuation.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/escaped-quote.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/stacked-diacritics.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/zero-width-joiner.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/right-to-left.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/unicode-nfc.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/boundary.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/alignment-gap.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/missing.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/unknown.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/partial-unknown.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/reconstructed.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/multiple-meanings.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/multiple-variants.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/joint-alternatives.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/coindexed-records.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/multiple-sources.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/dated-bce.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/dated-ce.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/whitespace-preserved.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/case-preserved.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/newline-preserved.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/multiple-normalizations.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/renamed-import-columns.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/orthographic.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/phonemic.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "valid/source-sha256.json",
+      "expected_accept": true,
+      "accepted": true,
+      "expected_error": null,
+      "error_codes": [],
+      "json_schema_accepts": true,
+      "roundtrip_equal": true,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/duplicate-record.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "DUPLICATE_ID",
+      "error_codes": [
+        "DUPLICATE_ID",
+        "DUPLICATE_GLOBAL_RECORD"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/duplicate-source.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "DUPLICATE_ID",
+      "error_codes": [
+        "DUPLICATE_ID"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/broken-source.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "BROKEN_SOURCE",
+      "error_codes": [
+        "BROKEN_SOURCE"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/missing-source.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "MISSING_SOURCE",
+      "error_codes": [
+        "MISSING_SOURCE"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/empty-locator.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "SOURCE_LOCATOR",
+      "error_codes": [
+        "SOURCE_LOCATOR"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/broken-doculect.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "BROKEN_DOCULECT",
+      "error_codes": [
+        "BROKEN_DOCULECT"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/broken-meaning.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "BROKEN_MEANING",
+      "error_codes": [
+        "BROKEN_MEANING"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/no-normalization.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "NORMALIZATION_MISSING",
+      "error_codes": [
+        "NORMALIZATION_MISSING"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/broken-chain.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "NORMALIZATION_CHAIN",
+      "error_codes": [
+        "NORMALIZATION_CHAIN",
+        "IDENTITY_CHANGED"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/unknown-method.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "NORMALIZATION_METHOD",
+      "error_codes": [
+        "NORMALIZATION_METHOD"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/wrong-method-version.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "NORMALIZATION_METHOD",
+      "error_codes": [
+        "NORMALIZATION_METHOD"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/identity-change.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "IDENTITY_CHANGED",
+      "error_codes": [
+        "IDENTITY_CHANGED"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/empty-original.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "PRESENT_CONTENT",
+      "error_codes": [
+        "EMPTY_CELL",
+        "PRESENT_CONTENT"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/gap-as-missing.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "MISSING_CONTENT",
+      "error_codes": [
+        "MISSING_CONTENT"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/unknown-unflagged.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "UNKNOWN_UNFLAGGED",
+      "error_codes": [
+        "UNKNOWN_UNFLAGGED",
+        "UNKNOWN_UNFLAGGED"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/unknown-as-segment.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "UNKNOWN_CELL",
+      "error_codes": [
+        "UNKNOWN_CELL"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/cell-output-mismatch.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "CELL_RENDER",
+      "error_codes": [
+        "CELL_RENDER"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/reconstruction-without-analysis.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "RECONSTRUCTION_ANALYSIS",
+      "error_codes": [
+        "RECONSTRUCTION_ANALYSIS"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/wrong-proto-node.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "PROTO_NODE",
+      "error_codes": [
+        "PROTO_NODE"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/attested-proto.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "ATTESTATION_NODE",
+      "error_codes": [
+        "ATTESTATION_NODE"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/attested-analysis.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "ATTESTED_ANALYSIS",
+      "error_codes": [
+        "ATTESTED_ANALYSIS"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/duplicate-reading.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "DUPLICATE_ID",
+      "error_codes": [
+        "DUPLICATE_ID"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/broken-choice.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "BROKEN_CHOICE",
+      "error_codes": [
+        "BROKEN_CHOICE"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/conflicting-binding.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "CHOICE_CONFLICT",
+      "error_codes": [
+        "CHOICE_CONFLICT"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/duplicate-choice-option.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "CHOICE_GROUP",
+      "error_codes": [
+        "CHOICE_GROUP",
+        "BROKEN_CHOICE"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/inverted-date.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "DATE_RANGE",
+      "error_codes": [
+        "DATE_RANGE"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/invalid-status.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "ATTESTATION",
+      "error_codes": [
+        "ATTESTATION"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/invalid-representation.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "REPRESENTATION",
+      "error_codes": [
+        "REPRESENTATION"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/uncertain-without-note.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "UNCERTAINTY_NOTE",
+      "error_codes": [
+        "UNCERTAINTY_NOTE"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/changed-import-row.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "IMPORT_ROW_ID",
+      "error_codes": [
+        "IMPORT_ROW_ID"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/changed-import-original.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "IMPORT_ORIGINAL",
+      "error_codes": [
+        "IMPORT_ORIGINAL"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/duplicate-raw-column.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "IMPORT_ORIGIN",
+      "error_codes": [
+        "IMPORT_ORIGIN"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/wrong-version.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "SCHEMA_VERSION",
+      "error_codes": [
+        "SCHEMA_VERSION"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/extra-field.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "JSON_SHAPE",
+      "error_codes": [
+        "JSON_SHAPE"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/nested-extra-field.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "JSON_SHAPE",
+      "error_codes": [
+        "JSON_SHAPE"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/wrong-type.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "JSON_SHAPE",
+      "error_codes": [
+        "JSON_SHAPE"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/omitted-null.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "JSON_SHAPE",
+      "error_codes": [
+        "JSON_SHAPE"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/gap-with-string.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "JSON_SHAPE",
+      "error_codes": [
+        "JSON_SHAPE"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/invalid-id.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "INVALID_ID",
+      "error_codes": [
+        "INVALID_ID"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/duplicate-json-key.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "DUPLICATE_JSON_KEY",
+      "error_codes": [
+        "DUPLICATE_JSON_KEY"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/escaped-duplicate-key.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "DUPLICATE_JSON_KEY",
+      "error_codes": [
+        "DUPLICATE_JSON_KEY"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/malformed-json.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "JSON_SYNTAX",
+      "error_codes": [
+        "JSON_SYNTAX"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/invalid-utf8.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "UTF8",
+      "error_codes": [
+        "UTF8"
+      ],
+      "json_schema_accepts": false,
+      "roundtrip_equal": null,
+      "passed": true
+    },
+    {
+      "fixture": "invalid/surrogate-escape.json",
+      "expected_accept": false,
+      "accepted": false,
+      "expected_error": "UNICODE_ESCAPE",
+      "error_codes": [
+        "UNICODE_ESCAPE"
+      ],
+      "json_schema_accepts": true,
+      "roundtrip_equal": null,
+      "passed": true
+    }
+  ],
+  "independent_review": "See reports/m1-review.json; software success is not independent review",
+  "limitations": [
+    "CLDF and JSON validation do not establish historical accuracy.",
+    "The Lean input parser and CLI are executable infrastructure, not a verified byte-level JSON parser.",
+    "Normalization-chain continuity is proved; linguistic correctness of upstream transformations is not.",
+    "Original Unicode strings survive structural round trips; JSON whitespace/key order need not."
+  ],
+  "input_hashes": {
+    "data/fixtures/invalid/attested-analysis.json": "01cb29dbddb876058042bdc6af4dfa43ab584e58868d73a1a8df01bd65619805",
+    "data/fixtures/invalid/attested-proto.json": "8c001a5ff1255ce369596e0869347cffa3ba4d07266e868ae3ab7e538673c537",
+    "data/fixtures/invalid/broken-chain.json": "0311ddc92d12e185e019f28a334f7a1e6f32692e4a00f8628780480260d2c405",
+    "data/fixtures/invalid/broken-choice.json": "2a89dffe6266a1ab17b2bbfdc4a97a4d48eeee3a5659878745344b3fd5bad0f2",
+    "data/fixtures/invalid/broken-doculect.json": "3f7fb94aaf4a883052eac5ddca79d39fae6797e02a1d2a0ef5cf879f45e1fbfd",
+    "data/fixtures/invalid/broken-meaning.json": "b77d35a8cb32f316cda092fc46112c736d18f89c20aeba594a6ab076402192ca",
+    "data/fixtures/invalid/broken-source.json": "c4e18c25e7b9e0b07095769a34e2e9c0416b7cd5ce0837e6ec84f77a8e2a4e89",
+    "data/fixtures/invalid/cell-output-mismatch.json": "5dd9672d76fa510a2318d7b7b50bd98f450c0d59f2642059c10cc3c70bbec3c6",
+    "data/fixtures/invalid/changed-import-original.json": "aa5c402a4ae024467ff80d17859b05d84320e5865a7240d9d40a043ae3ddd98c",
+    "data/fixtures/invalid/changed-import-row.json": "850679851f3aff88097d694bfe8fc933fd873ceee89fe89a3ac9b35cb2cf1a0d",
+    "data/fixtures/invalid/conflicting-binding.json": "acff51face1915d6c8f273301f85bee60b91d119dc05cd3ec9f128bd0470c472",
+    "data/fixtures/invalid/duplicate-choice-option.json": "8d32a5bc2a95829a0f3f83e56809a62bb1903cc4a21012c9e8861b70192d5b7e",
+    "data/fixtures/invalid/duplicate-json-key.json": "fcd68a5f1006c220d5c6271da6d8dbab114850a82715fb3c711aa52a3ccc7989",
+    "data/fixtures/invalid/duplicate-raw-column.json": "9a7d53b1d63fbd0ae23f303498622806f6b39b77daf1888a425c400f332e8a9c",
+    "data/fixtures/invalid/duplicate-reading.json": "892e6f94354a03c4073ece3135523755e37c9662317dc23272da11a9c5faecde",
+    "data/fixtures/invalid/duplicate-record.json": "c19c569d91a5673f54b818455b34806b5b4f9ad4b85cbd981a41baa2fd78a722",
+    "data/fixtures/invalid/duplicate-source.json": "b48f3756f1d44a16756be81e562be8faa28aef35e7d1054f5e7757fb7aae873c",
+    "data/fixtures/invalid/empty-locator.json": "afee96f4229757cbc22764ade3e7390b5d0ac22982d5cf2917e940fff53845d3",
+    "data/fixtures/invalid/empty-original.json": "29bc55d19420b23b3cd159789168fa7b8aea5bea2bfe10688ebd84d938231d90",
+    "data/fixtures/invalid/escaped-duplicate-key.json": "7602676919ee106e29d240f88e1598067dbb3074451192942324bb64806f8a4a",
+    "data/fixtures/invalid/extra-field.json": "b7142dc004b9c1c72d731c94ef3b7afdd29f94e4a9cf54931715c13b3fc9724c",
+    "data/fixtures/invalid/gap-as-missing.json": "d41acffddb4445fe0aef7583d629691a5c20cf340f8bc555c6d0e6484efaba4e",
+    "data/fixtures/invalid/gap-with-string.json": "7161eee69fb2b1e25f57d9c77611310cf459f1ca1bcf6392a20acebcb26fe305",
+    "data/fixtures/invalid/identity-change.json": "ff54ff2d0a465f8d3bec11ed19a9d0030ba817391d9272918bdd4fe845f6d883",
+    "data/fixtures/invalid/invalid-id.json": "76fa276a3c40ebec917c9c5c1193f33b141e5fe1b59c8787f78ffa108b19e7eb",
+    "data/fixtures/invalid/invalid-representation.json": "c7f3c524d30568b10480338bc89d186f7a4b294a859d901265e568a11567743a",
+    "data/fixtures/invalid/invalid-status.json": "0e3a87953686b108154f40644f1273af22c1075e61e42fd62a7562c142ca34da",
+    "data/fixtures/invalid/invalid-utf8.json": "9fca9945fef8b5ece3658b3bf2682968130b913028834ef05cb869922abf1b86",
+    "data/fixtures/invalid/inverted-date.json": "ed18126a7c4848d0c161455d118c3003368e296b86852c2c70b703242649b32a",
+    "data/fixtures/invalid/malformed-json.json": "cbdf3b1f91ae32fe1ea292ac6cccf19222f97929f531523f0d15d885052c00c4",
+    "data/fixtures/invalid/missing-source.json": "673711d9140380a92c59b1b2e56242d3b69c54d955a0839b17d1d087777922b7",
+    "data/fixtures/invalid/nested-extra-field.json": "f7b1f109d4ffa2fb504fb9a2866171dfba85deb2e253b7e43b7fc9145e2a3970",
+    "data/fixtures/invalid/no-normalization.json": "9bdcb9078f114df5121dbaa50f35f6e57a12a431c3d10d1bd44e599c544a4dbf",
+    "data/fixtures/invalid/omitted-null.json": "d14d48f39d499163010b1057f2a73f62977beb069b2f91a37a0d8a8f1431ba0d",
+    "data/fixtures/invalid/reconstruction-without-analysis.json": "310b38c7649e30c30b0aed5824909961697c07099b784e4f58eede056bca6ffb",
+    "data/fixtures/invalid/surrogate-escape.json": "4168097dc301286d3a541749e753f291f73dcffd8036a3e94466172b4724fad4",
+    "data/fixtures/invalid/uncertain-without-note.json": "c9af6ebeb9c66fbfdac89348bb8644883dc578ec6178aeb747437a735b32c60c",
+    "data/fixtures/invalid/unknown-as-segment.json": "4351e9eaebc29a55f9eaad631aaecdacb55fb749625e2b23053a10aaf9595d79",
+    "data/fixtures/invalid/unknown-method.json": "28e97f53137c3788145eb739d79205ce97b52071661c2a6041d806ae1b0fd62e",
+    "data/fixtures/invalid/unknown-unflagged.json": "3f924218c0bc7ef292aa2e79d91a42e5e4b2f25f19ca570318026223f9d0651f",
+    "data/fixtures/invalid/wrong-method-version.json": "4048c21aef58a0b19391036769f1ebc7bcffb616e209a1278e9b98e1062017fc",
+    "data/fixtures/invalid/wrong-proto-node.json": "ed3772cd8cdaf9edf025a1373a670e1dbb0185d8abe440633d9d8dd398dd56ba",
+    "data/fixtures/invalid/wrong-type.json": "90580271f60828bea9db43a6df93f1bf0f46d7ca7ecea2ab61324a6531c3c0ab",
+    "data/fixtures/invalid/wrong-version.json": "b3f177e1b42724f49083ae196ea451a300888ce7965bb8a38e79102c2ae3874e",
+    "data/fixtures/manifest.json": "c418c2188efe83d3e9ad111a2095188058c6c98443233890e1fb17e1c43f1b18",
+    "data/fixtures/valid/alignment-gap.json": "f6e9557f6c843df07858f3bd0e3ddc539136f58dca24a1cb67b35e13eed176c5",
+    "data/fixtures/valid/aspiration.json": "7f54072853bb5db73650b2be6dc7ff8171891364b2ce53a98ccc9c60c0bc2178",
+    "data/fixtures/valid/boundary.json": "bf9347b32137aab24fef307612e07cbb78dd2d591318bf0677232b1817c0195d",
+    "data/fixtures/valid/case-preserved.json": "e29f720e6bd02482af1c080589f88e29be41751fb2fd1efbd6f5f7486e65dea1",
+    "data/fixtures/valid/chinese-script.json": "d1eb2d7c396185eedd9e79b76e7481630809defc3b304e320cde533b9717e316",
+    "data/fixtures/valid/coindexed-records.json": "4a1010e137308d69a1eb9a0ba4d796d6b796e5b3dd45583c9560ae15faae927d",
+    "data/fixtures/valid/combining-tone.json": "3da660428ab7ac9c9ec222e890538e2df772d49064386101e636963b2ce3e8d2",
+    "data/fixtures/valid/dated-bce.json": "305ecb0ad56cb374722ce9ad6df1969a600728e79e97720f1161b39be3e31a33",
+    "data/fixtures/valid/dated-ce.json": "c691265b71785743ebe318355b0fd9b54063746c49a2ac586ef23a4d011bca71",
+    "data/fixtures/valid/decomposed-voiceless.json": "b52d95ade5761a33d51eaf69e1d38a058641f11d26f733a764aee0e6cebbd14d",
+    "data/fixtures/valid/diphthong-token.json": "ab7165f315d38b062bbe61d0dd8000845f624977fc52279bc6f1eeecee94177a",
+    "data/fixtures/valid/escaped-quote.json": "5c3c6a8f492b89156ba2e281001ccaa9cc3fedc6b6b7ae916bdf0de107d9c9ee",
+    "data/fixtures/valid/identity.json": "a3f58082e5718d0e23f69feaac0c6fd2e8e0c348fc2611f59ea992c2495ce7a6",
+    "data/fixtures/valid/joint-alternatives.json": "1df82347060fb069f301f61bc616f4be283d9761e36ebb5f7b9ada0dc1e19423",
+    "data/fixtures/valid/length.json": "970b1e8630aafad2c965c943d1220313722918ffa0471a825d0771473370f238",
+    "data/fixtures/valid/missing.json": "2ce37b2c5d120032189762cc7975d6ec9c2930683bbeef0d265fe08921c7c7c3",
+    "data/fixtures/valid/multiple-meanings.json": "106ea48607e0bb489f4567e59c224c6b96cc1498f5ee93912f9b95d799c379ad",
+    "data/fixtures/valid/multiple-normalizations.json": "e7290e0b0463ffa4191ce8e4075f78f98a41a2ec4c82a23761d0ece97d9e47d6",
+    "data/fixtures/valid/multiple-sources.json": "e32d2d207c2b5c181833f294411e8d2ac02aec1cd4ab6a8fefae2be0d8100652",
+    "data/fixtures/valid/multiple-variants.json": "51f82b778c8086fcc58a2ba0de2b67484670c6e464ff298dba13319681ae8961",
+    "data/fixtures/valid/newline-preserved.json": "10adcdc52e00b30b9576a225ced3118a2a888020b2a511ae70a8d76b8da8d788",
+    "data/fixtures/valid/orthographic.json": "d461f231a1eca4f0fcdfda1913f0056e95357f73ccdaf2b012b7c30250d3f427",
+    "data/fixtures/valid/partial-unknown.json": "4e488d08ac0c049619f36341c82380156364b15302f723b4cf39c52c0304ea27",
+    "data/fixtures/valid/phonemic.json": "59f1cf8ad492370bf818d9c0c0d884a22280047df89e09f42bcc6453b9717eb0",
+    "data/fixtures/valid/punctuation.json": "180bf1fad6c7b483d890766fba57afbc3db446528f8384906fdb9c911c8ba776",
+    "data/fixtures/valid/reconstructed.json": "b825191a7eb9246a7dc2300595933c911f7b6f354071b90c549155bb59000d7e",
+    "data/fixtures/valid/renamed-import-columns.json": "5ba9257dd1e4da3fcbb578913115b332ec81e377b17aaba468790157c52a3311",
+    "data/fixtures/valid/right-to-left.json": "b3bb43ea66116403fdb9101d558a33633d6f345cbf4163e40b35cdbadce17846",
+    "data/fixtures/valid/source-sha256.json": "45aa6eff41892942326ccef8151a5e2e9db091de20962f4cc36fb55feff3aeb0",
+    "data/fixtures/valid/stacked-diacritics.json": "d688e834a006e8192d9c55e8abfa426f4e1d39a5f6f6862b3d6068cfd07fbd09",
+    "data/fixtures/valid/stress.json": "d5f78d535eb6476659ddf5e850c16b35438e877d684c7500ea859fbaec0ac1ce",
+    "data/fixtures/valid/superscript-tone.json": "967b2f4aaec56cd210a588df70cabcb544fc4dc74e88a1386fc0dab956c2f809",
+    "data/fixtures/valid/supplementary-unicode.json": "d1a6b07c782d0d155287e05fdab2086bf0f0cfe3c339ea75aec045ad68fcd123",
+    "data/fixtures/valid/tibetan-script.json": "06ad62db2b6dfa642a1efdf1dd97daca509357ec3bd656ef1611816ee0acdaca",
+    "data/fixtures/valid/unicode-nfc.json": "076829c7cadcf7cdcfb779a92da5f396d3cc3327084a0fbc8ebebd948e9e8cbc",
+    "data/fixtures/valid/unknown.json": "feaca4f85d31c2c729d899163bb281d9f14c7b438d3e4219c73c636e0b7adc00",
+    "data/fixtures/valid/whitespace-preserved.json": "8542a7ecf08439726993661e07c98cde615ce28187ed79222185b21524370069",
+    "data/fixtures/valid/zero-width-joiner.json": "949125eb0effda383097a6949879a8ec0dee23f6631fe24f7e1922ddd8cbbb07",
+    "data/import-selection.json": "69f57f30b5aad9e1d893dd9b541cf46007a3bd6e03852de7edb6734f566084e0",
+    "data/pilots/hillburmish.json": "82192f28ef4588e9d2e1fd95f30fbb1540e2f08a665576287d37017f245e6442",
+    "data/pilots/iecor.json": "7e47e1101b472bdb69f6bc618e86d3aebc078e2b39c566007db746e13c341e83",
+    "data/upstream/manifest.json": "dcc3ab6ab8b2f99435e58beade977b6c0e698ab9dc16bb3c8e32522ffca38de9",
+    "lean/DossierCheck.lean": "ce6c1412b117e8aca536abbb1c61fe359533bb9660b28b0f0825e9329edd0bf2",
+    "lean/Historical/Evidence.lean": "adfab9a0073b8df312dc28895cd12094e5213de8c8544d2015543338980b5f9f",
+    "lean/Historical/JsonInput.lean": "4d2035c5bbed7c763d37b0dac8bcf8b403b95359ff0ed2b380adfe6f676190ad",
+    "lean/Historical/Validation.lean": "b7222532841e6d6ab06c269ce99e85c605a86ef9ebf56ea46644dbc613a8f18d",
+    "schema/v1/dossier.schema.json": "fb2795722efca89cb3556e65e74e647cdac4ceb36a81e2aba424372f3b568f51",
+    "scripts/import_cldf.py": "f2e1044aa6c3ca5e1668438c3aa6f3d1977547855cfc34adb191a293be9c8414",
+    "scripts/verify_m1.py": "a72af01a1e5f94119c01c11d6b65910ec4accd0a8deb3f736928c749afe9d994"
+  }
+}

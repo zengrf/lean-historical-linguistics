@@ -1,0 +1,4039 @@
+{
+  "schema_version": "1.0.0",
+  "id": "hillburmish-m1",
+  "description": "M1 representation/import pilot. Published data claims are retained; no historical reconstruction is verified here.",
+  "sources": [
+    {
+      "id": "hillburmish:snapshot",
+      "title": "CLDF dataset derived from Hill and Xun's \"Proto-Burmish Reconstruction\" from 2020",
+      "url": "https://github.com/lexibank/hillburmish/tree/3d96cfa6b2ed4c59fd13e28ef5ae00db30247bb3",
+      "version": "3d96cfa6b2ed4c59fd13e28ef5ae00db30247bb3",
+      "license": "CC BY 4.0",
+      "kind": "dataset",
+      "sha256": "7a6906044fb9337c894498e3936040dec86f34198f2ee1bd1ca282fb0f3e421f"
+    }
+  ],
+  "doculects": [
+    {
+      "id": "hillburmish:OldBurmese",
+      "name": "Old Burmese",
+      "family": "Sino-Tibetan",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "hillburmish:Rangoon",
+      "name": "Rangoon Burmese",
+      "family": "Sino-Tibetan",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "hillburmish:AchangLongchuan",
+      "name": "Achang",
+      "family": "Sino-Tibetan",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "hillburmish:Atsi",
+      "name": "Atsi",
+      "family": "Sino-Tibetan",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "hillburmish:Bola",
+      "name": "Bola",
+      "family": "Sino-Tibetan",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "hillburmish:Lashi",
+      "name": "Lashi",
+      "family": "Sino-Tibetan",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "hillburmish:Maru",
+      "name": "Maru",
+      "family": "Sino-Tibetan",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "hillburmish:Xiandao",
+      "name": "Xiandao",
+      "family": "Sino-Tibetan",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "attested",
+      "date_range": null
+    },
+    {
+      "id": "hillburmish:ProtoBurmish",
+      "name": "ProtoBurmish",
+      "family": "Sino-Tibetan",
+      "stage": "As distinguished in the pinned dataset; date unspecified",
+      "kind": "proto",
+      "date_range": null
+    }
+  ],
+  "meanings": [
+    {
+      "id": "hillburmish:928_i",
+      "label": "I"
+    },
+    {
+      "id": "hillburmish:1366_afraidbe",
+      "label": "afraid, be"
+    },
+    {
+      "id": "hillburmish:1193_accomplishsucceed",
+      "label": "accomplish / succeed"
+    },
+    {
+      "id": "hillburmish:1712_accustomedtobehabitofhaveve",
+      "label": "accustomed to, be / habit of, haveve"
+    },
+    {
+      "id": "hillburmish:104_ankle",
+      "label": "ankle"
+    },
+    {
+      "id": "hillburmish:1621_angrybetakeoffense",
+      "label": "angry, be / take offense"
+    },
+    {
+      "id": "hillburmish:1770_agreeonarrange",
+      "label": "agree on / arrange"
+    },
+    {
+      "id": "hillburmish:962_alleverything",
+      "label": "all / everything"
+    },
+    {
+      "id": "hillburmish:1666_achehead",
+      "label": "ache (head)"
+    },
+    {
+      "id": "hillburmish:105_arm",
+      "label": "arm"
+    },
+    {
+      "id": "hillburmish:1708_askquestion",
+      "label": "ask / question"
+    },
+    {
+      "id": "hillburmish:963_allwholethe",
+      "label": "all / whole, the"
+    }
+  ],
+  "analyses": [
+    {
+      "id": "hillburmish:analysis:ProtoBurmish",
+      "description": "Published reconstruction attributed to the pinned dataset, not independently validated",
+      "source_ids": [
+        "hillburmish:snapshot"
+      ],
+      "proto_node_id": "hillburmish:node:ProtoBurmish"
+    }
+  ],
+  "normalization_methods": [
+    {
+      "id": "cldf-form",
+      "version": "1",
+      "description": "Retain upstream Value-to-Form mapping without inferring its linguistic correctness"
+    },
+    {
+      "id": "cldf-segments",
+      "version": "1",
+      "description": "Concatenate upstream Segments tokens, preserving boundary and alias notation exactly"
+    }
+  ],
+  "choice_groups": [],
+  "records": [
+    {
+      "id": "hillburmish:OldBurmese-928_i-1",
+      "doculect_id": "hillburmish:OldBurmese",
+      "meaning_ids": [
+        "hillburmish:928_i"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#OldBurmese-928_i-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "ṅa",
+          "normalized": "ṅ/ŋa",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ṅ/ŋ"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "ṅa",
+              "output": "ṅa",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "ṅa",
+              "output": "ṅ/ŋa",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "OldBurmese-928_i-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "OldBurmese-928_i-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "OldBurmese"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "928_i"
+          },
+          {
+            "name": "Value",
+            "value": "ṅa"
+          },
+          {
+            "name": "Form",
+            "value": "ṅa"
+          },
+          {
+            "name": "Segments",
+            "value": "ṅ/ŋ a"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "665"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Rangoon-928_i-1",
+      "doculect_id": "hillburmish:Rangoon",
+      "meaning_ids": [
+        "hillburmish:928_i"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Rangoon-928_i-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "ŋɑ²²",
+          "normalized": "ŋɑ²²",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ŋ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɑ"
+            },
+            {
+              "kind": "segment",
+              "value": "²²"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "ŋɑ²²",
+              "output": "ŋɑ²²",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "ŋɑ²²",
+              "output": "ŋɑ²²",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Rangoon-928_i-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Rangoon-928_i-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Rangoon"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "928_i"
+          },
+          {
+            "name": "Value",
+            "value": "ŋɑ²²"
+          },
+          {
+            "name": "Form",
+            "value": "ŋɑ²²"
+          },
+          {
+            "name": "Segments",
+            "value": "ŋ ɑ ²²"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "665"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:AchangLongchuan-928_i-1",
+      "doculect_id": "hillburmish:AchangLongchuan",
+      "meaning_ids": [
+        "hillburmish:928_i"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#AchangLongchuan-928_i-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "ŋɔ⁵⁵",
+          "normalized": "ŋɔ⁵⁵",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ŋ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɔ"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "ŋɔ⁵⁵",
+              "output": "ŋɔ⁵⁵",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "ŋɔ⁵⁵",
+              "output": "ŋɔ⁵⁵",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "AchangLongchuan-928_i-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "AchangLongchuan-928_i-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "AchangLongchuan"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "928_i"
+          },
+          {
+            "name": "Value",
+            "value": "ŋɔ⁵⁵"
+          },
+          {
+            "name": "Form",
+            "value": "ŋɔ⁵⁵"
+          },
+          {
+            "name": "Segments",
+            "value": "ŋ ɔ ⁵⁵"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "665"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Atsi-928_i-1",
+      "doculect_id": "hillburmish:Atsi",
+      "meaning_ids": [
+        "hillburmish:928_i"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Atsi-928_i-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "ŋo⁵¹",
+          "normalized": "ŋo⁵¹",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ŋ"
+            },
+            {
+              "kind": "segment",
+              "value": "o"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵¹"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "ŋo⁵¹",
+              "output": "ŋo⁵¹",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "ŋo⁵¹",
+              "output": "ŋo⁵¹",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Atsi-928_i-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Atsi-928_i-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Atsi"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "928_i"
+          },
+          {
+            "name": "Value",
+            "value": "ŋo⁵¹"
+          },
+          {
+            "name": "Form",
+            "value": "ŋo⁵¹"
+          },
+          {
+            "name": "Segments",
+            "value": "ŋ o ⁵¹"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "665"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Bola-928_i-1",
+      "doculect_id": "hillburmish:Bola",
+      "meaning_ids": [
+        "hillburmish:928_i"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Bola-928_i-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "ŋa⁵⁵",
+          "normalized": "ŋa⁵⁵",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ŋ"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "ŋa⁵⁵",
+              "output": "ŋa⁵⁵",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "ŋa⁵⁵",
+              "output": "ŋa⁵⁵",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Bola-928_i-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Bola-928_i-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Bola"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "928_i"
+          },
+          {
+            "name": "Value",
+            "value": "ŋa⁵⁵"
+          },
+          {
+            "name": "Form",
+            "value": "ŋa⁵⁵"
+          },
+          {
+            "name": "Segments",
+            "value": "ŋ a ⁵⁵"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "665"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Lashi-928_i-1",
+      "doculect_id": "hillburmish:Lashi",
+      "meaning_ids": [
+        "hillburmish:928_i"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Lashi-928_i-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "ŋo³¹",
+          "normalized": "ŋo³¹",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ŋ"
+            },
+            {
+              "kind": "segment",
+              "value": "o"
+            },
+            {
+              "kind": "segment",
+              "value": "³¹"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "ŋo³¹",
+              "output": "ŋo³¹",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "ŋo³¹",
+              "output": "ŋo³¹",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Lashi-928_i-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Lashi-928_i-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Lashi"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "928_i"
+          },
+          {
+            "name": "Value",
+            "value": "ŋo³¹"
+          },
+          {
+            "name": "Form",
+            "value": "ŋo³¹"
+          },
+          {
+            "name": "Segments",
+            "value": "ŋ o ³¹"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "665"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Maru-928_i-1",
+      "doculect_id": "hillburmish:Maru",
+      "meaning_ids": [
+        "hillburmish:928_i"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Maru-928_i-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "ŋɔ³¹",
+          "normalized": "ŋɔ³¹",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ŋ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɔ"
+            },
+            {
+              "kind": "segment",
+              "value": "³¹"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "ŋɔ³¹",
+              "output": "ŋɔ³¹",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "ŋɔ³¹",
+              "output": "ŋɔ³¹",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Maru-928_i-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Maru-928_i-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Maru"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "928_i"
+          },
+          {
+            "name": "Value",
+            "value": "ŋɔ³¹"
+          },
+          {
+            "name": "Form",
+            "value": "ŋɔ³¹"
+          },
+          {
+            "name": "Segments",
+            "value": "ŋ ɔ ³¹"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "665"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Xiandao-928_i-1",
+      "doculect_id": "hillburmish:Xiandao",
+      "meaning_ids": [
+        "hillburmish:928_i"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Xiandao-928_i-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "ŋɔ⁵⁵",
+          "normalized": "ŋɔ⁵⁵",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ŋ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɔ"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "ŋɔ⁵⁵",
+              "output": "ŋɔ⁵⁵",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "ŋɔ⁵⁵",
+              "output": "ŋɔ⁵⁵",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Xiandao-928_i-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Xiandao-928_i-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Xiandao"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "928_i"
+          },
+          {
+            "name": "Value",
+            "value": "ŋɔ⁵⁵"
+          },
+          {
+            "name": "Form",
+            "value": "ŋɔ⁵⁵"
+          },
+          {
+            "name": "Segments",
+            "value": "ŋ ɔ ⁵⁵"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "665"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:ProtoBurmish-928_i-1",
+      "doculect_id": "hillburmish:ProtoBurmish",
+      "meaning_ids": [
+        "hillburmish:928_i"
+      ],
+      "representation": "mixed",
+      "attestation": "reconstructed",
+      "evidence_state": "present",
+      "analysis_id": "hillburmish:analysis:ProtoBurmish",
+      "proto_node_id": "hillburmish:node:ProtoBurmish",
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#ProtoBurmish-928_i-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "*ŋa",
+          "normalized": "ŋa¹",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ŋ"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "¹"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "*ŋa",
+              "output": "ŋa¹",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "ŋa¹",
+              "output": "ŋa¹",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "ProtoBurmish-928_i-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "ProtoBurmish-928_i-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "ProtoBurmish"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "928_i"
+          },
+          {
+            "name": "Value",
+            "value": "*ŋa"
+          },
+          {
+            "name": "Form",
+            "value": "ŋa¹"
+          },
+          {
+            "name": "Segments",
+            "value": "ŋ a ¹"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "665"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:OldBurmese-1366_afraidbe-1",
+      "doculect_id": "hillburmish:OldBurmese",
+      "meaning_ids": [
+        "hillburmish:1366_afraidbe"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#OldBurmese-1366_afraidbe-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "kro₂k",
+          "normalized": "kro₂/ɔk⁴",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "k"
+            },
+            {
+              "kind": "segment",
+              "value": "r"
+            },
+            {
+              "kind": "segment",
+              "value": "o₂/ɔ"
+            },
+            {
+              "kind": "segment",
+              "value": "k"
+            },
+            {
+              "kind": "segment",
+              "value": "⁴"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "kro₂k",
+              "output": "krOk",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "krOk",
+              "output": "kro₂/ɔk⁴",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "OldBurmese-1366_afraidbe-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "OldBurmese-1366_afraidbe-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "OldBurmese"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1366_afraidbe"
+          },
+          {
+            "name": "Value",
+            "value": "kro₂k"
+          },
+          {
+            "name": "Form",
+            "value": "krOk"
+          },
+          {
+            "name": "Segments",
+            "value": "k r o₂/ɔ k ⁴"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "197"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Rangoon-1366_afraidbe-1",
+      "doculect_id": "hillburmish:Rangoon",
+      "meaning_ids": [
+        "hillburmish:1366_afraidbe"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Rangoon-1366_afraidbe-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "tɕɑuʔ⁴",
+          "normalized": "tɕɑuʔ⁴",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "tɕ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɑu"
+            },
+            {
+              "kind": "segment",
+              "value": "ʔ"
+            },
+            {
+              "kind": "segment",
+              "value": "⁴"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "tɕɑuʔ⁴",
+              "output": "tɕɑuʔ⁴",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "tɕɑuʔ⁴",
+              "output": "tɕɑuʔ⁴",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Rangoon-1366_afraidbe-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Rangoon-1366_afraidbe-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Rangoon"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1366_afraidbe"
+          },
+          {
+            "name": "Value",
+            "value": "tɕɑuʔ⁴"
+          },
+          {
+            "name": "Form",
+            "value": "tɕɑuʔ⁴"
+          },
+          {
+            "name": "Segments",
+            "value": "tɕ ɑu ʔ ⁴"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "201"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:AchangLongchuan-1366_afraidbe-1",
+      "doculect_id": "hillburmish:AchangLongchuan",
+      "meaning_ids": [
+        "hillburmish:1366_afraidbe"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#AchangLongchuan-1366_afraidbe-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "ʐoʔ⁵⁵",
+          "normalized": "ʐoʔ⁵⁵",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ʐ"
+            },
+            {
+              "kind": "segment",
+              "value": "o"
+            },
+            {
+              "kind": "segment",
+              "value": "ʔ"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "ʐoʔ⁵⁵",
+              "output": "ʐoʔ⁵⁵",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "ʐoʔ⁵⁵",
+              "output": "ʐoʔ⁵⁵",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "AchangLongchuan-1366_afraidbe-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "AchangLongchuan-1366_afraidbe-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "AchangLongchuan"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1366_afraidbe"
+          },
+          {
+            "name": "Value",
+            "value": "ʐoʔ⁵⁵"
+          },
+          {
+            "name": "Form",
+            "value": "ʐoʔ⁵⁵"
+          },
+          {
+            "name": "Segments",
+            "value": "ʐ o ʔ ⁵⁵"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "342"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Atsi-1193_accomplishsucceed-1",
+      "doculect_id": "hillburmish:Atsi",
+      "meaning_ids": [
+        "hillburmish:1193_accomplishsucceed"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Atsi-1193_accomplishsucceed-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "pa̱n⁵⁵",
+          "normalized": "pa̱n⁵⁵",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "p"
+            },
+            {
+              "kind": "segment",
+              "value": "a̱"
+            },
+            {
+              "kind": "segment",
+              "value": "n"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "pa̱n⁵⁵",
+              "output": "pa̱n⁵⁵",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "pa̱n⁵⁵",
+              "output": "pa̱n⁵⁵",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Atsi-1193_accomplishsucceed-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Atsi-1193_accomplishsucceed-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Atsi"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1193_accomplishsucceed"
+          },
+          {
+            "name": "Value",
+            "value": "pa̱n⁵⁵"
+          },
+          {
+            "name": "Form",
+            "value": "pa̱n⁵⁵"
+          },
+          {
+            "name": "Segments",
+            "value": "p a̱ n ⁵⁵"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Bola-1193_accomplishsucceed-1",
+      "doculect_id": "hillburmish:Bola",
+      "meaning_ids": [
+        "hillburmish:1193_accomplishsucceed"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Bola-1193_accomplishsucceed-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "pɛ̃⁵⁵",
+          "normalized": "pɛ̃⁵⁵",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "p"
+            },
+            {
+              "kind": "segment",
+              "value": "ɛ̃"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "pɛ̃⁵⁵",
+              "output": "pɛ̃⁵⁵",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "pɛ̃⁵⁵",
+              "output": "pɛ̃⁵⁵",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Bola-1193_accomplishsucceed-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Bola-1193_accomplishsucceed-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Bola"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1193_accomplishsucceed"
+          },
+          {
+            "name": "Value",
+            "value": "pɛ̃⁵⁵"
+          },
+          {
+            "name": "Form",
+            "value": "pɛ̃⁵⁵"
+          },
+          {
+            "name": "Segments",
+            "value": "p ɛ̃ ⁵⁵"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Lashi-1712_accustomedtobehabitofhaveve-1",
+      "doculect_id": "hillburmish:Lashi",
+      "meaning_ids": [
+        "hillburmish:1712_accustomedtobehabitofhaveve"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Lashi-1712_accustomedtobehabitofhaveve-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "maːn⁵⁵",
+          "normalized": "maːn⁵⁵",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "m"
+            },
+            {
+              "kind": "segment",
+              "value": "aː"
+            },
+            {
+              "kind": "segment",
+              "value": "n"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "maːn⁵⁵",
+              "output": "maːn⁵⁵",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "maːn⁵⁵",
+              "output": "maːn⁵⁵",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Lashi-1712_accustomedtobehabitofhaveve-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Lashi-1712_accustomedtobehabitofhaveve-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Lashi"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1712_accustomedtobehabitofhaveve"
+          },
+          {
+            "name": "Value",
+            "value": "maːn⁵⁵"
+          },
+          {
+            "name": "Form",
+            "value": "maːn⁵⁵"
+          },
+          {
+            "name": "Segments",
+            "value": "m aː n ⁵⁵"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "384"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Maru-1193_accomplishsucceed-1",
+      "doculect_id": "hillburmish:Maru",
+      "meaning_ids": [
+        "hillburmish:1193_accomplishsucceed"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Maru-1193_accomplishsucceed-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "pəŋ³¹",
+          "normalized": "pəŋ³¹",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "p"
+            },
+            {
+              "kind": "segment",
+              "value": "ə"
+            },
+            {
+              "kind": "segment",
+              "value": "ŋ"
+            },
+            {
+              "kind": "segment",
+              "value": "³¹"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "pəŋ³¹",
+              "output": "pəŋ³¹",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "pəŋ³¹",
+              "output": "pəŋ³¹",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Maru-1193_accomplishsucceed-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Maru-1193_accomplishsucceed-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Maru"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1193_accomplishsucceed"
+          },
+          {
+            "name": "Value",
+            "value": "pəŋ³¹"
+          },
+          {
+            "name": "Form",
+            "value": "pəŋ³¹"
+          },
+          {
+            "name": "Segments",
+            "value": "p ə ŋ ³¹"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Xiandao-104_ankle-1",
+      "doculect_id": "hillburmish:Xiandao",
+      "meaning_ids": [
+        "hillburmish:104_ankle"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Xiandao-104_ankle-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "chi⁵⁵ tʂham³¹",
+          "normalized": "ch/tʃʰi⁵⁵+ʈʂʰam³¹",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "ch/tʃʰ"
+            },
+            {
+              "kind": "segment",
+              "value": "i"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            },
+            {
+              "kind": "boundary",
+              "value": "+"
+            },
+            {
+              "kind": "segment",
+              "value": "ʈʂʰ"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "m"
+            },
+            {
+              "kind": "segment",
+              "value": "³¹"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "chi⁵⁵ tʂham³¹",
+              "output": "chi⁵⁵+tʂham³¹",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "chi⁵⁵+tʂham³¹",
+              "output": "ch/tʃʰi⁵⁵+ʈʂʰam³¹",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Xiandao-104_ankle-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Xiandao-104_ankle-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Xiandao"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "104_ankle"
+          },
+          {
+            "name": "Value",
+            "value": "chi⁵⁵ tʂham³¹"
+          },
+          {
+            "name": "Form",
+            "value": "chi⁵⁵+tʂham³¹"
+          },
+          {
+            "name": "Segments",
+            "value": "ch/tʃʰ i ⁵⁵ + ʈʂʰ a m ³¹"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "280 1275"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:ProtoBurmish-1712_accustomedtobehabitofhaveve-1",
+      "doculect_id": "hillburmish:ProtoBurmish",
+      "meaning_ids": [
+        "hillburmish:1712_accustomedtobehabitofhaveve"
+      ],
+      "representation": "mixed",
+      "attestation": "reconstructed",
+      "evidence_state": "present",
+      "analysis_id": "hillburmish:analysis:ProtoBurmish",
+      "proto_node_id": "hillburmish:node:ProtoBurmish",
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#ProtoBurmish-1712_accustomedtobehabitofhaveve-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "*manX",
+          "normalized": "man³",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "m"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "n"
+            },
+            {
+              "kind": "segment",
+              "value": "³"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "*manX",
+              "output": "man³",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "man³",
+              "output": "man³",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "ProtoBurmish-1712_accustomedtobehabitofhaveve-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "ProtoBurmish-1712_accustomedtobehabitofhaveve-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "ProtoBurmish"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1712_accustomedtobehabitofhaveve"
+          },
+          {
+            "name": "Value",
+            "value": "*manX"
+          },
+          {
+            "name": "Form",
+            "value": "man³"
+          },
+          {
+            "name": "Segments",
+            "value": "m a n ³"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "384"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:OldBurmese-1621_angrybetakeoffense-1",
+      "doculect_id": "hillburmish:OldBurmese",
+      "meaning_ids": [
+        "hillburmish:1621_angrybetakeoffense"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#OldBurmese-1621_angrybetakeoffense-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "myak",
+          "normalized": "mjak⁴",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "m"
+            },
+            {
+              "kind": "segment",
+              "value": "j"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "k"
+            },
+            {
+              "kind": "segment",
+              "value": "⁴"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "myak",
+              "output": "mjak",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "mjak",
+              "output": "mjak⁴",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "OldBurmese-1621_angrybetakeoffense-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "OldBurmese-1621_angrybetakeoffense-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "OldBurmese"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1621_angrybetakeoffense"
+          },
+          {
+            "name": "Value",
+            "value": "myak"
+          },
+          {
+            "name": "Form",
+            "value": "mjak"
+          },
+          {
+            "name": "Segments",
+            "value": "m j a k ⁴"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "438"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Rangoon-1770_agreeonarrange-1",
+      "doculect_id": "hillburmish:Rangoon",
+      "meaning_ids": [
+        "hillburmish:1770_agreeonarrange"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Rangoon-1770_agreeonarrange-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "tɕhẽ⁵⁵",
+          "normalized": "tɕʰẽ⁵⁵",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "tɕʰ"
+            },
+            {
+              "kind": "segment",
+              "value": "ẽ"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "tɕhẽ⁵⁵",
+              "output": "tɕhẽ⁵⁵",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "tɕhẽ⁵⁵",
+              "output": "tɕʰẽ⁵⁵",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Rangoon-1770_agreeonarrange-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Rangoon-1770_agreeonarrange-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Rangoon"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1770_agreeonarrange"
+          },
+          {
+            "name": "Value",
+            "value": "tɕhẽ⁵⁵"
+          },
+          {
+            "name": "Form",
+            "value": "tɕhẽ⁵⁵"
+          },
+          {
+            "name": "Segments",
+            "value": "tɕʰ ẽ ⁵⁵"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "76"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:AchangLongchuan-962_alleverything-1",
+      "doculect_id": "hillburmish:AchangLongchuan",
+      "meaning_ids": [
+        "hillburmish:962_alleverything"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#AchangLongchuan-962_alleverything-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "pʐa⁵⁵ pʐa⁵⁵",
+          "normalized": "pʐa⁵⁵+pʐa⁵⁵",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "p"
+            },
+            {
+              "kind": "segment",
+              "value": "ʐ"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            },
+            {
+              "kind": "boundary",
+              "value": "+"
+            },
+            {
+              "kind": "segment",
+              "value": "p"
+            },
+            {
+              "kind": "segment",
+              "value": "ʐ"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "pʐa⁵⁵ pʐa⁵⁵",
+              "output": "pʐa⁵⁵+pʐa⁵⁵",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "pʐa⁵⁵+pʐa⁵⁵",
+              "output": "pʐa⁵⁵+pʐa⁵⁵",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "AchangLongchuan-962_alleverything-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "AchangLongchuan-962_alleverything-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "AchangLongchuan"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "962_alleverything"
+          },
+          {
+            "name": "Value",
+            "value": "pʐa⁵⁵ pʐa⁵⁵"
+          },
+          {
+            "name": "Form",
+            "value": "pʐa⁵⁵+pʐa⁵⁵"
+          },
+          {
+            "name": "Segments",
+            "value": "p ʐ a ⁵⁵ + p ʐ a ⁵⁵"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "3080 6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Atsi-1712_accustomedtobehabitofhaveve-1",
+      "doculect_id": "hillburmish:Atsi",
+      "meaning_ids": [
+        "hillburmish:1712_accustomedtobehabitofhaveve"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Atsi-1712_accustomedtobehabitofhaveve-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "man⁵⁵",
+          "normalized": "man⁵⁵",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "m"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "n"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "man⁵⁵",
+              "output": "man⁵⁵",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "man⁵⁵",
+              "output": "man⁵⁵",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Atsi-1712_accustomedtobehabitofhaveve-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Atsi-1712_accustomedtobehabitofhaveve-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Atsi"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1712_accustomedtobehabitofhaveve"
+          },
+          {
+            "name": "Value",
+            "value": "man⁵⁵"
+          },
+          {
+            "name": "Form",
+            "value": "man⁵⁵"
+          },
+          {
+            "name": "Segments",
+            "value": "m a n ⁵⁵"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "384"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Bola-1712_accustomedtobehabitofhaveve-1",
+      "doculect_id": "hillburmish:Bola",
+      "meaning_ids": [
+        "hillburmish:1712_accustomedtobehabitofhaveve"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Bola-1712_accustomedtobehabitofhaveve-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "mɛ̃³⁵",
+          "normalized": "mɛ̃³⁵",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "m"
+            },
+            {
+              "kind": "segment",
+              "value": "ɛ̃"
+            },
+            {
+              "kind": "segment",
+              "value": "³⁵"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "mɛ̃³⁵",
+              "output": "mɛ̃³⁵",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "mɛ̃³⁵",
+              "output": "mɛ̃³⁵",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Bola-1712_accustomedtobehabitofhaveve-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Bola-1712_accustomedtobehabitofhaveve-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Bola"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1712_accustomedtobehabitofhaveve"
+          },
+          {
+            "name": "Value",
+            "value": "mɛ̃³⁵"
+          },
+          {
+            "name": "Form",
+            "value": "mɛ̃³⁵"
+          },
+          {
+            "name": "Segments",
+            "value": "m ɛ̃ ³⁵"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "384"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Lashi-1666_achehead-1",
+      "doculect_id": "hillburmish:Lashi",
+      "meaning_ids": [
+        "hillburmish:1666_achehead"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Lashi-1666_achehead-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "nɔː³¹",
+          "normalized": "nɔː³¹",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "n"
+            },
+            {
+              "kind": "segment",
+              "value": "ɔː"
+            },
+            {
+              "kind": "segment",
+              "value": "³¹"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "nɔː³¹",
+              "output": "nɔː³¹",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "nɔː³¹",
+              "output": "nɔː³¹",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Lashi-1666_achehead-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Lashi-1666_achehead-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Lashi"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1666_achehead"
+          },
+          {
+            "name": "Value",
+            "value": "nɔː³¹"
+          },
+          {
+            "name": "Form",
+            "value": "nɔː³¹"
+          },
+          {
+            "name": "Segments",
+            "value": "n ɔː ³¹"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "467"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Maru-1712_accustomedtobehabitofhaveve-1",
+      "doculect_id": "hillburmish:Maru",
+      "meaning_ids": [
+        "hillburmish:1712_accustomedtobehabitofhaveve"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Maru-1712_accustomedtobehabitofhaveve-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "məŋ⁵⁵",
+          "normalized": "məŋ⁵⁵",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "m"
+            },
+            {
+              "kind": "segment",
+              "value": "ə"
+            },
+            {
+              "kind": "segment",
+              "value": "ŋ"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "məŋ⁵⁵",
+              "output": "məŋ⁵⁵",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "məŋ⁵⁵",
+              "output": "məŋ⁵⁵",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Maru-1712_accustomedtobehabitofhaveve-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Maru-1712_accustomedtobehabitofhaveve-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Maru"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1712_accustomedtobehabitofhaveve"
+          },
+          {
+            "name": "Value",
+            "value": "məŋ⁵⁵"
+          },
+          {
+            "name": "Form",
+            "value": "məŋ⁵⁵"
+          },
+          {
+            "name": "Segments",
+            "value": "m ə ŋ ⁵⁵"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "384"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Xiandao-105_arm-1",
+      "doculect_id": "hillburmish:Xiandao",
+      "meaning_ids": [
+        "hillburmish:105_arm"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Xiandao-105_arm-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "lɔʔ⁵⁵ ʐum³¹",
+          "normalized": "lɔʔ⁵⁵+ʐum³¹",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "l"
+            },
+            {
+              "kind": "segment",
+              "value": "ɔ"
+            },
+            {
+              "kind": "segment",
+              "value": "ʔ"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            },
+            {
+              "kind": "boundary",
+              "value": "+"
+            },
+            {
+              "kind": "segment",
+              "value": "ʐ"
+            },
+            {
+              "kind": "segment",
+              "value": "u"
+            },
+            {
+              "kind": "segment",
+              "value": "m"
+            },
+            {
+              "kind": "segment",
+              "value": "³¹"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "lɔʔ⁵⁵ ʐum³¹",
+              "output": "lɔʔ⁵⁵+ʐum³¹",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "lɔʔ⁵⁵+ʐum³¹",
+              "output": "lɔʔ⁵⁵+ʐum³¹",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Xiandao-105_arm-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Xiandao-105_arm-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Xiandao"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "105_arm"
+          },
+          {
+            "name": "Value",
+            "value": "lɔʔ⁵⁵ ʐum³¹"
+          },
+          {
+            "name": "Form",
+            "value": "lɔʔ⁵⁵+ʐum³¹"
+          },
+          {
+            "name": "Segments",
+            "value": "l ɔ ʔ ⁵⁵ + ʐ u m ³¹"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "334 2553"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:ProtoBurmish-1366_afraidbe-1",
+      "doculect_id": "hillburmish:ProtoBurmish",
+      "meaning_ids": [
+        "hillburmish:1366_afraidbe"
+      ],
+      "representation": "mixed",
+      "attestation": "reconstructed",
+      "evidence_state": "present",
+      "analysis_id": "hillburmish:analysis:ProtoBurmish",
+      "proto_node_id": "hillburmish:node:ProtoBurmish",
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#ProtoBurmish-1366_afraidbe-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "*gruk",
+          "normalized": "gruk⁴",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "g"
+            },
+            {
+              "kind": "segment",
+              "value": "r"
+            },
+            {
+              "kind": "segment",
+              "value": "u"
+            },
+            {
+              "kind": "segment",
+              "value": "k"
+            },
+            {
+              "kind": "segment",
+              "value": "⁴"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "*gruk",
+              "output": "gruk⁴",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "gruk⁴",
+              "output": "gruk⁴",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "ProtoBurmish-1366_afraidbe-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "ProtoBurmish-1366_afraidbe-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "ProtoBurmish"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1366_afraidbe"
+          },
+          {
+            "name": "Value",
+            "value": "*gruk"
+          },
+          {
+            "name": "Form",
+            "value": "gruk⁴"
+          },
+          {
+            "name": "Segments",
+            "value": "g r u k ⁴"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "197"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:OldBurmese-1708_askquestion-1",
+      "doculect_id": "hillburmish:OldBurmese",
+      "meaning_ids": [
+        "hillburmish:1708_askquestion"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#OldBurmese-1708_askquestion-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "miyḥ",
+          "normalized": "mijḥ/⁵",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "m"
+            },
+            {
+              "kind": "segment",
+              "value": "i"
+            },
+            {
+              "kind": "segment",
+              "value": "j"
+            },
+            {
+              "kind": "segment",
+              "value": "ḥ/⁵"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "miyḥ",
+              "output": "mijḥ",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "mijḥ",
+              "output": "mijḥ/⁵",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "OldBurmese-1708_askquestion-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "OldBurmese-1708_askquestion-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "OldBurmese"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "1708_askquestion"
+          },
+          {
+            "name": "Value",
+            "value": "miyḥ"
+          },
+          {
+            "name": "Form",
+            "value": "mijḥ"
+          },
+          {
+            "name": "Segments",
+            "value": "m i j ḥ/⁵"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "397"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:Rangoon-962_alleverything-1",
+      "doculect_id": "hillburmish:Rangoon",
+      "meaning_ids": [
+        "hillburmish:962_alleverything"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#Rangoon-962_alleverything-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "m̥ɑ̃²² tθɑ⁵³ m̥jɑ⁵³",
+          "normalized": "m̥ɑ̃²²+tθɑ⁵³+m̥jɑ⁵³",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "m̥"
+            },
+            {
+              "kind": "segment",
+              "value": "ɑ̃"
+            },
+            {
+              "kind": "segment",
+              "value": "²²"
+            },
+            {
+              "kind": "boundary",
+              "value": "+"
+            },
+            {
+              "kind": "segment",
+              "value": "tθ"
+            },
+            {
+              "kind": "segment",
+              "value": "ɑ"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵³"
+            },
+            {
+              "kind": "boundary",
+              "value": "+"
+            },
+            {
+              "kind": "segment",
+              "value": "m̥"
+            },
+            {
+              "kind": "segment",
+              "value": "j"
+            },
+            {
+              "kind": "segment",
+              "value": "ɑ"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵³"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "m̥ɑ̃²² tθɑ⁵³ m̥jɑ⁵³",
+              "output": "m̥ɑ̃²²+tθɑ⁵³+m̥jɑ⁵³",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "m̥ɑ̃²²+tθɑ⁵³+m̥jɑ⁵³",
+              "output": "m̥ɑ̃²²+tθɑ⁵³+m̥jɑ⁵³",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "Rangoon-962_alleverything-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "Rangoon-962_alleverything-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "Rangoon"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "962_alleverything"
+          },
+          {
+            "name": "Value",
+            "value": "m̥ɑ̃²² tθɑ⁵³ m̥jɑ⁵³"
+          },
+          {
+            "name": "Form",
+            "value": "m̥ɑ̃²²+tθɑ⁵³+m̥jɑ⁵³"
+          },
+          {
+            "name": "Segments",
+            "value": "m̥ ɑ̃ ²² + tθ ɑ ⁵³ + m̥ j ɑ ⁵³"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "3078 536 3079"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hillburmish:AchangLongchuan-963_allwholethe-1",
+      "doculect_id": "hillburmish:AchangLongchuan",
+      "meaning_ids": [
+        "hillburmish:963_allwholethe"
+      ],
+      "representation": "mixed",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "hillburmish:snapshot",
+          "locator": "forms.csv#AchangLongchuan-963_allwholethe-1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "source-reading",
+          "original": "pʐa⁵⁵ pʐa⁵⁵",
+          "normalized": "pʐa⁵⁵+pʐa⁵⁵",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "p"
+            },
+            {
+              "kind": "segment",
+              "value": "ʐ"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            },
+            {
+              "kind": "boundary",
+              "value": "+"
+            },
+            {
+              "kind": "segment",
+              "value": "p"
+            },
+            {
+              "kind": "segment",
+              "value": "ʐ"
+            },
+            {
+              "kind": "segment",
+              "value": "a"
+            },
+            {
+              "kind": "segment",
+              "value": "⁵⁵"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "cldf-form",
+              "method_version": "1",
+              "input": "pʐa⁵⁵ pʐa⁵⁵",
+              "output": "pʐa⁵⁵+pʐa⁵⁵",
+              "reason": "Upstream Form column at the cited pinned row"
+            },
+            {
+              "method_id": "cldf-segments",
+              "method_version": "1",
+              "input": "pʐa⁵⁵+pʐa⁵⁵",
+              "output": "pʐa⁵⁵+pʐa⁵⁵",
+              "reason": "Upstream Segments column at the cited pinned row; joining is a display convention"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": {
+        "dataset_id": "hillburmish:snapshot",
+        "table": "forms.csv",
+        "row_id": "AchangLongchuan-963_allwholethe-1",
+        "id_column": "ID",
+        "original_column": "Value",
+        "raw_columns": [
+          {
+            "name": "ID",
+            "value": "AchangLongchuan-963_allwholethe-1"
+          },
+          {
+            "name": "Local_ID",
+            "value": ""
+          },
+          {
+            "name": "Language_ID",
+            "value": "AchangLongchuan"
+          },
+          {
+            "name": "Parameter_ID",
+            "value": "963_allwholethe"
+          },
+          {
+            "name": "Value",
+            "value": "pʐa⁵⁵ pʐa⁵⁵"
+          },
+          {
+            "name": "Form",
+            "value": "pʐa⁵⁵+pʐa⁵⁵"
+          },
+          {
+            "name": "Segments",
+            "value": "p ʐ a ⁵⁵ + p ʐ a ⁵⁵"
+          },
+          {
+            "name": "Comment",
+            "value": ""
+          },
+          {
+            "name": "Source",
+            "value": "Huang1992"
+          },
+          {
+            "name": "Cognacy",
+            "value": ""
+          },
+          {
+            "name": "Loan",
+            "value": ""
+          },
+          {
+            "name": "Graphemes",
+            "value": ""
+          },
+          {
+            "name": "Profile",
+            "value": ""
+          },
+          {
+            "name": "Partial_Cognacy",
+            "value": "940 6"
+          }
+        ]
+      }
+    }
+  ]
+}

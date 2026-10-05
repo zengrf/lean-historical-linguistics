@@ -1,0 +1,456 @@
+[
+  {
+    "path": "valid/identity.json",
+    "accept": true,
+    "reason": "identity"
+  },
+  {
+    "path": "valid/combining-tone.json",
+    "accept": true,
+    "reason": "combining-tone"
+  },
+  {
+    "path": "valid/superscript-tone.json",
+    "accept": true,
+    "reason": "superscript-tone"
+  },
+  {
+    "path": "valid/decomposed-voiceless.json",
+    "accept": true,
+    "reason": "decomposed-voiceless"
+  },
+  {
+    "path": "valid/tibetan-script.json",
+    "accept": true,
+    "reason": "tibetan-script"
+  },
+  {
+    "path": "valid/chinese-script.json",
+    "accept": true,
+    "reason": "chinese-script"
+  },
+  {
+    "path": "valid/supplementary-unicode.json",
+    "accept": true,
+    "reason": "supplementary-unicode"
+  },
+  {
+    "path": "valid/stress.json",
+    "accept": true,
+    "reason": "stress"
+  },
+  {
+    "path": "valid/aspiration.json",
+    "accept": true,
+    "reason": "aspiration"
+  },
+  {
+    "path": "valid/length.json",
+    "accept": true,
+    "reason": "length"
+  },
+  {
+    "path": "valid/diphthong-token.json",
+    "accept": true,
+    "reason": "diphthong-token"
+  },
+  {
+    "path": "valid/punctuation.json",
+    "accept": true,
+    "reason": "punctuation"
+  },
+  {
+    "path": "valid/escaped-quote.json",
+    "accept": true,
+    "reason": "escaped-quote"
+  },
+  {
+    "path": "valid/stacked-diacritics.json",
+    "accept": true,
+    "reason": "stacked-diacritics"
+  },
+  {
+    "path": "valid/zero-width-joiner.json",
+    "accept": true,
+    "reason": "zero-width-joiner"
+  },
+  {
+    "path": "valid/right-to-left.json",
+    "accept": true,
+    "reason": "right-to-left"
+  },
+  {
+    "path": "valid/unicode-nfc.json",
+    "accept": true,
+    "reason": "unicode-nfc"
+  },
+  {
+    "path": "valid/boundary.json",
+    "accept": true,
+    "reason": "boundary"
+  },
+  {
+    "path": "valid/alignment-gap.json",
+    "accept": true,
+    "reason": "alignment-gap"
+  },
+  {
+    "path": "valid/missing.json",
+    "accept": true,
+    "reason": "missing"
+  },
+  {
+    "path": "valid/unknown.json",
+    "accept": true,
+    "reason": "unknown"
+  },
+  {
+    "path": "valid/partial-unknown.json",
+    "accept": true,
+    "reason": "partial-unknown"
+  },
+  {
+    "path": "valid/reconstructed.json",
+    "accept": true,
+    "reason": "reconstructed"
+  },
+  {
+    "path": "valid/multiple-meanings.json",
+    "accept": true,
+    "reason": "multiple-meanings"
+  },
+  {
+    "path": "valid/multiple-variants.json",
+    "accept": true,
+    "reason": "multiple-variants"
+  },
+  {
+    "path": "valid/joint-alternatives.json",
+    "accept": true,
+    "reason": "joint-alternatives"
+  },
+  {
+    "path": "valid/coindexed-records.json",
+    "accept": true,
+    "reason": "coindexed-records"
+  },
+  {
+    "path": "valid/multiple-sources.json",
+    "accept": true,
+    "reason": "multiple-sources"
+  },
+  {
+    "path": "valid/dated-bce.json",
+    "accept": true,
+    "reason": "dated-bce"
+  },
+  {
+    "path": "valid/dated-ce.json",
+    "accept": true,
+    "reason": "dated-ce"
+  },
+  {
+    "path": "valid/whitespace-preserved.json",
+    "accept": true,
+    "reason": "whitespace-preserved"
+  },
+  {
+    "path": "valid/case-preserved.json",
+    "accept": true,
+    "reason": "case-preserved"
+  },
+  {
+    "path": "valid/newline-preserved.json",
+    "accept": true,
+    "reason": "newline-preserved"
+  },
+  {
+    "path": "valid/multiple-normalizations.json",
+    "accept": true,
+    "reason": "multiple-normalizations"
+  },
+  {
+    "path": "valid/renamed-import-columns.json",
+    "accept": true,
+    "reason": "renamed-import-columns"
+  },
+  {
+    "path": "valid/orthographic.json",
+    "accept": true,
+    "reason": "orthographic"
+  },
+  {
+    "path": "valid/phonemic.json",
+    "accept": true,
+    "reason": "phonemic"
+  },
+  {
+    "path": "valid/source-sha256.json",
+    "accept": true,
+    "reason": "source-sha256"
+  },
+  {
+    "path": "invalid/duplicate-record.json",
+    "accept": false,
+    "code": "DUPLICATE_ID",
+    "reason": "duplicate-record"
+  },
+  {
+    "path": "invalid/duplicate-source.json",
+    "accept": false,
+    "code": "DUPLICATE_ID",
+    "reason": "duplicate-source"
+  },
+  {
+    "path": "invalid/broken-source.json",
+    "accept": false,
+    "code": "BROKEN_SOURCE",
+    "reason": "broken-source"
+  },
+  {
+    "path": "invalid/missing-source.json",
+    "accept": false,
+    "code": "MISSING_SOURCE",
+    "reason": "missing-source"
+  },
+  {
+    "path": "invalid/empty-locator.json",
+    "accept": false,
+    "code": "SOURCE_LOCATOR",
+    "reason": "empty-locator"
+  },
+  {
+    "path": "invalid/broken-doculect.json",
+    "accept": false,
+    "code": "BROKEN_DOCULECT",
+    "reason": "broken-doculect"
+  },
+  {
+    "path": "invalid/broken-meaning.json",
+    "accept": false,
+    "code": "BROKEN_MEANING",
+    "reason": "broken-meaning"
+  },
+  {
+    "path": "invalid/no-normalization.json",
+    "accept": false,
+    "code": "NORMALIZATION_MISSING",
+    "reason": "no-normalization"
+  },
+  {
+    "path": "invalid/broken-chain.json",
+    "accept": false,
+    "code": "NORMALIZATION_CHAIN",
+    "reason": "broken-chain"
+  },
+  {
+    "path": "invalid/unknown-method.json",
+    "accept": false,
+    "code": "NORMALIZATION_METHOD",
+    "reason": "unknown-method"
+  },
+  {
+    "path": "invalid/wrong-method-version.json",
+    "accept": false,
+    "code": "NORMALIZATION_METHOD",
+    "reason": "wrong-method-version"
+  },
+  {
+    "path": "invalid/identity-change.json",
+    "accept": false,
+    "code": "IDENTITY_CHANGED",
+    "reason": "identity-change"
+  },
+  {
+    "path": "invalid/empty-original.json",
+    "accept": false,
+    "code": "PRESENT_CONTENT",
+    "reason": "empty-original"
+  },
+  {
+    "path": "invalid/gap-as-missing.json",
+    "accept": false,
+    "code": "MISSING_CONTENT",
+    "reason": "gap-as-missing"
+  },
+  {
+    "path": "invalid/unknown-unflagged.json",
+    "accept": false,
+    "code": "UNKNOWN_UNFLAGGED",
+    "reason": "unknown-unflagged"
+  },
+  {
+    "path": "invalid/unknown-as-segment.json",
+    "accept": false,
+    "code": "UNKNOWN_CELL",
+    "reason": "unknown-as-segment"
+  },
+  {
+    "path": "invalid/cell-output-mismatch.json",
+    "accept": false,
+    "code": "CELL_RENDER",
+    "reason": "cell-output-mismatch"
+  },
+  {
+    "path": "invalid/reconstruction-without-analysis.json",
+    "accept": false,
+    "code": "RECONSTRUCTION_ANALYSIS",
+    "reason": "reconstruction-without-analysis"
+  },
+  {
+    "path": "invalid/wrong-proto-node.json",
+    "accept": false,
+    "code": "PROTO_NODE",
+    "reason": "wrong-proto-node"
+  },
+  {
+    "path": "invalid/attested-proto.json",
+    "accept": false,
+    "code": "ATTESTATION_NODE",
+    "reason": "attested-proto"
+  },
+  {
+    "path": "invalid/attested-analysis.json",
+    "accept": false,
+    "code": "ATTESTED_ANALYSIS",
+    "reason": "attested-analysis"
+  },
+  {
+    "path": "invalid/duplicate-reading.json",
+    "accept": false,
+    "code": "DUPLICATE_ID",
+    "reason": "duplicate-reading"
+  },
+  {
+    "path": "invalid/broken-choice.json",
+    "accept": false,
+    "code": "BROKEN_CHOICE",
+    "reason": "broken-choice"
+  },
+  {
+    "path": "invalid/conflicting-binding.json",
+    "accept": false,
+    "code": "CHOICE_CONFLICT",
+    "reason": "conflicting-binding"
+  },
+  {
+    "path": "invalid/duplicate-choice-option.json",
+    "accept": false,
+    "code": "CHOICE_GROUP",
+    "reason": "duplicate-choice-option"
+  },
+  {
+    "path": "invalid/inverted-date.json",
+    "accept": false,
+    "code": "DATE_RANGE",
+    "reason": "inverted-date"
+  },
+  {
+    "path": "invalid/invalid-status.json",
+    "accept": false,
+    "code": "ATTESTATION",
+    "reason": "invalid-status"
+  },
+  {
+    "path": "invalid/invalid-representation.json",
+    "accept": false,
+    "code": "REPRESENTATION",
+    "reason": "invalid-representation"
+  },
+  {
+    "path": "invalid/uncertain-without-note.json",
+    "accept": false,
+    "code": "UNCERTAINTY_NOTE",
+    "reason": "uncertain-without-note"
+  },
+  {
+    "path": "invalid/changed-import-row.json",
+    "accept": false,
+    "code": "IMPORT_ROW_ID",
+    "reason": "changed-import-row"
+  },
+  {
+    "path": "invalid/changed-import-original.json",
+    "accept": false,
+    "code": "IMPORT_ORIGINAL",
+    "reason": "changed-import-original"
+  },
+  {
+    "path": "invalid/duplicate-raw-column.json",
+    "accept": false,
+    "code": "IMPORT_ORIGIN",
+    "reason": "duplicate-raw-column"
+  },
+  {
+    "path": "invalid/wrong-version.json",
+    "accept": false,
+    "code": "SCHEMA_VERSION",
+    "reason": "wrong-version"
+  },
+  {
+    "path": "invalid/extra-field.json",
+    "accept": false,
+    "code": "JSON_SHAPE",
+    "reason": "extra-field"
+  },
+  {
+    "path": "invalid/nested-extra-field.json",
+    "accept": false,
+    "code": "JSON_SHAPE",
+    "reason": "nested-extra-field"
+  },
+  {
+    "path": "invalid/wrong-type.json",
+    "accept": false,
+    "code": "JSON_SHAPE",
+    "reason": "wrong-type"
+  },
+  {
+    "path": "invalid/omitted-null.json",
+    "accept": false,
+    "code": "JSON_SHAPE",
+    "reason": "omitted-null"
+  },
+  {
+    "path": "invalid/gap-with-string.json",
+    "accept": false,
+    "code": "JSON_SHAPE",
+    "reason": "gap-with-string"
+  },
+  {
+    "path": "invalid/invalid-id.json",
+    "accept": false,
+    "code": "INVALID_ID",
+    "reason": "invalid-id"
+  },
+  {
+    "path": "invalid/duplicate-json-key.json",
+    "accept": false,
+    "code": "DUPLICATE_JSON_KEY",
+    "reason": "duplicate-json-key"
+  },
+  {
+    "path": "invalid/escaped-duplicate-key.json",
+    "accept": false,
+    "code": "DUPLICATE_JSON_KEY",
+    "reason": "escaped-duplicate-key"
+  },
+  {
+    "path": "invalid/malformed-json.json",
+    "accept": false,
+    "code": "JSON_SYNTAX",
+    "reason": "malformed-json"
+  },
+  {
+    "path": "invalid/invalid-utf8.json",
+    "accept": false,
+    "code": "UTF8",
+    "reason": "invalid-utf8"
+  },
+  {
+    "path": "invalid/surrogate-escape.json",
+    "accept": false,
+    "code": "UNICODE_ESCAPE",
+    "reason": "surrogate-escape"
+  }
+]

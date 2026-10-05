@@ -28,7 +28,9 @@ def strip_comments(text):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('audit',type=Path);a=p.parse_args()
-    files=[ROOT/'lean/Comparative.lean',*(ROOT/'lean/Comparative').glob('*.lean')]
+    files=[p for p in (ROOT/'lean').glob('*.lean') if p.name != 'Audit.lean']
+    for directory in ['Comparative', 'Historical']:
+        files.extend((ROOT/'lean'/directory).rglob('*.lean'))
     banned=r'\b(sorry|admit|axiom|native_decide|unsafe|implemented_by)\b'
     count=0
     for path in files:

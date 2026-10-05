@@ -1,0 +1,37 @@
+{
+  "reviewer_id": "",
+  "independent_of_encoding": false,
+  "packet_sha256": "aae16253a527d0738397c7e92806c4c680ec16f07e118b388e759be2bbb5d3b5",
+  "entries": [
+    {
+      "record_id": "hillburmish:Atsi-1193_accomplishsucceed-1",
+      "original": "",
+      "resolution": null
+    },
+    {
+      "record_id": "hillburmish:Lashi-1666_achehead-1",
+      "original": "",
+      "resolution": null
+    },
+    {
+      "record_id": "hillburmish:Rangoon-1366_afraidbe-1",
+      "original": "",
+      "resolution": null
+    },
+    {
+      "record_id": "iecor:18-4-1",
+      "original": "",
+      "resolution": null
+    },
+    {
+      "record_id": "iecor:23-6-1",
+      "original": "",
+      "resolution": null
+    },
+    {
+      "record_id": "iecor:10-4-1",
+      "original": "",
+      "resolution": null
+    }
+  ]
+}

@@ -6,6 +6,8 @@
 
 This repository delivers a literature study, a retained research library, an executable proof of concept and a staged research plan for **Proto-Indo-European and Sino-Tibetan / Trans-Himalayan reconstruction**. The proof of concept uses synthetic examples. Source-backed linguistic case studies are specified future deliveries, not completed reconstructions.
 
+**M1 implementation is now available:** a versioned evidence schema, Lean dossier checker, 38 valid and 44 adversarial fixtures, and reproducible imports of 60 records from pinned Indo-European and Burmish datasets. Automated checks pass; the required six-entry independent transcription review remains pending. M1 is marked `in_review`. See [the delivery report](docs/07-m1-delivery.md) and [criterion-level status](reports/m1-delivery.json).
+
 ## Start reading
 
 | Document | Purpose |
@@ -16,6 +18,7 @@ This repository delivers a literature study, a retained research library, an exe
 | [Delivery plan](docs/04-delivery-plan.md) | Ten milestones, quantitative acceptance criteria, dependencies, staffing and decision gates |
 | [Prior-art source audit](docs/05-prior-art.md) | Pinned Lean/mathlib/linglib source inspections and reuse opportunities |
 | [Research and acquisition method](docs/06-research-method.md) | Reading depth, selection bias, access gaps, version handling and reproducibility |
+| [M1 implementation and verification](docs/07-m1-delivery.md) | Evidence schema, CLI, real CLDF imports, tests and independent-review gate |
 | [Annotated bibliography](bibliography/README.md) | 132 source-specific annotations, original links, reading scope and PDF locations |
 | [Milestone register](data/milestones.json) | Machine-readable delivery goals; only M0 is marked delivered |
 
@@ -24,7 +27,7 @@ This repository delivers a literature study, a retained research library, an exe
 - **127 PDFs, representing 122 qualifying distinct works**, retained locally: 5,184 pages and approximately 211 MB. Proposals, reviews/replies and a chapter already contained in a downloaded book do not count toward the 100-work floor. Five unsuccessful acquisitions are documented separately.
 - **64 PDFs are included in this public repository** under their recorded redistribution terms. The other 63 are retained in the ignored local library. The manifest and fetcher preserve their original source locations; continued remote availability is not guaranteed.
 - **132 annotated references**: 34 focused excerpt readings, 82 excerpt screenings, 10 visual excerpt readings, one decoded-abstract screening, two web-only excerpt readings and three access-gap notes. This is not a claim to have read 5,184 pages cover to cover.
-- **22 Lean theorem declarations** covering ordered rule execution, trace checking, bounded reconstruction, observation monotonicity, ambiguity after merger, missing-data compatibility and correlated alternatives. The audit permits Lean's standard logical axioms and rejects project axioms, proof placeholders and `native_decide`.
+- **27 Lean theorem declarations**: the original 22 plus five M1 results about normalization-chain continuity, source/choice preservation, cell distinctions and cell JSON round trips. The audit permits Lean's standard logical axioms and rejects project axioms, proof placeholders and `native_decide`.
 
 The [full local acquisition audit](reports/library-audit.json) records actual hash and page-count checks. Public CI validates the public PDFs and the acquisition ledger; it cannot verify copies absent from a public checkout. See [verification records](reports/README.md).
 
@@ -49,9 +52,15 @@ cd lean
 lake build
 lake env lean Audit.lean > ../reports/lean-axioms-current.txt
 python ../scripts/check_proofs.py ../reports/lean-axioms-current.txt
+lake exe dossier_check data/pilots --strict
+cd ..
+python scripts/verify_m1.py
+python -m unittest discover -s tests -v
+python scripts/review_m1.py
+python scripts/verify_m1_delivery.py
 ```
 
-The default toolchain is pinned in [lean-toolchain](lean/lean-toolchain). CI builds Lean **4.19.0 and 4.34.1** independently. The original local build used 4.19.0 because the 4.34.1 binary did not run on the host's macOS 10.15. If you need that compatibility path, replace `lake` with `lake +leanprover/lean4:v4.19.0` in both commands. CI results, rather than local compatibility claims, establish the newer-toolchain build status.
+The default toolchain is pinned in [lean-toolchain](lean/lean-toolchain). CI builds Lean **4.19.0 and 4.34.1** independently. The original local build used 4.19.0 because the 4.34.1 binary did not run on the host's macOS 10.15. If you need that compatibility path, replace `lake` with `lake +leanprover/lean4:v4.19.0` in each Lean command. CI results, rather than local compatibility claims, establish the newer-toolchain build status.
 
 To attempt to restore the complete acquired library from its original sources:
 
@@ -66,7 +75,7 @@ The fetcher skips matching cached PDFs, verifies acquired bytes against the reco
 
 ```text
 bibliography/     Curated source metadata, reading notes, hashes and BibTeX
-data/             Milestone register (future linguistic datasets are not invented)
+data/             Milestones, synthetic fixtures, pinned CLDF snapshots and imported pilots
 docs/             Literature synthesis, formal design and research protocols
 lean/             Compiling proof-of-concept library and theorem audit
 library/open/     Unmodified PDFs approved for public redistribution
@@ -74,7 +83,11 @@ library/downloads/ Local retained PDFs; ignored by Git
 library/text/     Local extracted text; ignored by Git
 library/metadata/ Local discovery/fetch records; ignored by Git
 reports/          Acquisition and proof verification records
+reviews/          Blinded M1 packet and independent review workflow
+schema/           Versioned evidence format and migration policy
 scripts/          Retrieval, catalogue generation and validation
 ```
 
 Original code and documentation use the [MIT license](LICENSE). Third-party publications retain their own copyright and licenses; consult [the individual notices](library/THIRD_PARTY_NOTICES.md) before reuse. The acquisition and literature cutoff is **5 October 2026 UTC**.
+
+The imported datasets and derived pilot records retain their source licenses; see [dataset attribution](data/THIRD_PARTY_NOTICES.md). The M1 representation pilot is not a verified PIE or Proto-Sino-Tibetan reconstruction.

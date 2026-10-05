@@ -1,6 +1,6 @@
 # Delivery plan with verifiable goals
 
-This is a research-and-engineering plan, not a promise that a complete prehistoric language will be recovered. **M0 is delivered in this repository. M1–M9 are planned.** The machine-readable register is [milestones.json](../data/milestones.json). Commands named for future modules below are acceptance-interface specifications; those commands do not exist yet.
+This is a research-and-engineering plan, not a promise that a complete prehistoric language will be recovered. **M0 is delivered. M1 is implemented and in independent review; M2–M9 are planned.** The machine-readable register is [milestones.json](../data/milestones.json). M1's checker and verification commands now exist; commands named for later modules remain acceptance-interface specifications.
 
 ## 1. Intended research contribution
 
@@ -20,7 +20,7 @@ The first publishable result could be the semantics and certificate checker plus
 | ID | Delivery and dependencies | Acceptance evidence | Planned effort |
 |---|---|---|---|
 | **M0** | Literature corpus, synthesis, proof-of-concept and public repository | At least 100 distinct qualifying retained works; checksums; annotated catalogue; general theorem and counterexample build; public CI | Delivered |
-| **M1** | Data contract and provenance; depends on M0 | Versioned schema; 30 valid and 20 adversarial fixtures; lossless handling of original strings, missing/gap/unknown and linked alternatives; validated CLDF adapter | 3–5 engineer-weeks + linguistic review |
+| **M1** | Data contract and provenance; depends on M0 | Implemented: schema, 38 valid / 44 adversarial fixtures, lossless source retention, CLDF adapter and 60 real imported records. Six independent source entries remain pending. | In review; original estimate 3–5 engineer-weeks + review |
 | **M2** | Restricted contextual rule semantics and trace checker; depends on M1 | Total reference interpreter; explicit pass convention; checker soundness/completeness theorems; 40 adversarial derivation fixtures; 10 independently hand-worked examples | 5–8 engineer-weeks |
 | **M3** | Alignment and correspondence verification; depends on M1–M2 | Alignment preservation theorem; clique-cover feasibility checker; missing-data non-transitivity handled; 100 checked sites including incomplete/conflicting cases | 4–6 engineer-weeks |
 | **M4** | Bounded inverse reconstruction and alternatives; depends on M2–M3 | Finite enumeration theorem; candidate soundness/completeness; ambiguity and monotonicity results; exhaustive small-domain reference comparisons | 4–7 engineer-weeks |
@@ -48,7 +48,7 @@ Reproduce the current checks using [the README](../README.md). A public checkout
 
 Create a schema version and a migration policy. Every imported record must have a stable ID, source, original form, representation type and attestation status. No source is silently normalized into a preferred reconstruction. Twenty deliberately invalid cases must be rejected for the intended reason; the valid set must include tone, combining characters, multiple meanings, multiple variants and linked alternatives.
 
-Acceptance command to implement: `lake exe dossier_check data/pilots --strict`. It must print counts and fail on broken source references, duplicate primary IDs and unrecorded normalizations. Independent double-entry checking must cover at least 10% of imported core forms and all records whose OCR or glyph interpretation is uncertain.
+Implemented acceptance command, run from `lean/`: `lake exe dossier_check data/pilots --strict`. It prints counts and fails on broken source references, duplicate primary IDs and unrecorded normalizations. Independent double-entry checking must cover at least 10% of imported core forms and all records whose OCR or glyph interpretation is uncertain. This final gate remains pending; see [M1 delivery and verification](07-m1-delivery.md).
 
 ### M2: prove the specified semantics
 

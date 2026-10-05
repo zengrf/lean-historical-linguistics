@@ -21,12 +21,12 @@ def visit(k):
 criteria=set()
 for m in items:
     visit(m['id'])
-    assert m['status'] in {'delivered','planned'}, 'unrecognized status'
+    assert m['status'] in {'delivered','in_review','planned'}, 'unrecognized status'
     assert m['owner_role'] and m['artifacts'] and m['acceptance'], 'incomplete milestone'
     for c in m['acceptance']:
         assert c['id'] not in criteria, 'duplicate acceptance ID'
         criteria.add(c['id'])
         assert c['test'] and c['pass_condition'], 'unverifiable criterion'
-    if m['status']=='delivered':
+    if m['status'] in {'delivered','in_review'}:
         for path in m['artifacts']:assert (ROOT/path).exists(), f'missing delivered artifact {path}'
 print(f'{len(items)} milestones, {len(criteria)} acceptance criteria; acyclic dependencies and delivered paths verified')

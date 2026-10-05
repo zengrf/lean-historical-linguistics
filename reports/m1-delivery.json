@@ -1,0 +1,56 @@
+{
+  "milestone": "M1",
+  "status": "in_review",
+  "all_deliverables_accepted": false,
+  "engineering_deliverables_accepted": true,
+  "criteria": [
+    {
+      "id": "M1-fixtures",
+      "status": "passed",
+      "evidence": "reports/schema-validation.json",
+      "result": "38 valid and 44 adversarial fixtures; intended rejection reasons checked"
+    },
+    {
+      "id": "M1-lossless",
+      "status": "passed",
+      "evidence": "reports/schema-validation.json",
+      "result": "Every valid fixture and all 60 imported records survive structural Lean JSON round trips; immutable source snapshots and exact original strings retained"
+    },
+    {
+      "id": "M1-cldf",
+      "status": "passed",
+      "evidence": [
+        "reports/cldf-iecor.json",
+        "reports/cldf-hillburmish.json",
+        "docs/07-m1-delivery.md"
+      ],
+      "result": "Both full upstream CLDF snapshots validate; 30 records from each imported reproducibly; unsupported fields/tables retained and explicitly reported"
+    },
+    {
+      "id": "M1-review",
+      "status": "pending",
+      "evidence": "reports/m1-review.json",
+      "result": "0 independently entered records; at least 6 required; 0 flagged imported readings"
+    }
+  ],
+  "artifacts": [
+    "schema/v1/dossier.schema.json",
+    "schema/v1/README.md",
+    "schema/MIGRATIONS.md",
+    "data/pilots",
+    "data/upstream/manifest.json",
+    "data/fixtures/manifest.json",
+    "lean/Historical/Evidence.lean",
+    "lean/Historical/Validation.lean",
+    "lean/Historical/JsonInput.lean",
+    "lean/DossierCheck.lean",
+    "scripts/import_cldf.py",
+    "scripts/verify_m1.py",
+    "reviews/m1-packet.json",
+    "reports/schema-validation.json",
+    "reports/m1-review.json",
+    "reports/m1-delivery.json",
+    "docs/07-m1-delivery.md"
+  ],
+  "next_action": "Independent reviewer completes reviews/m1-response-template.json as reviews/m1-responses.json; resolve/flag discrepancies, rerun review and delivery checks, and only then mark M1 delivered."
+}

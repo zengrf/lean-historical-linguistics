@@ -1,6 +1,13 @@
 name = "comparative"
 version = "0.1.0"
-defaultTargets = ["Comparative"]
+defaultTargets = ["Comparative", "Historical", "dossier_check"]
 
 [[lean_lib]]
 name = "Comparative"
+
+[[lean_lib]]
+name = "Historical"
+
+[[lean_exe]]
+name = "dossier_check"
+root = "DossierCheck"

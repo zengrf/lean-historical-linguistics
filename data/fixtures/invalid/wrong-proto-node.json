@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0.0",
+  "id": "reconstructed",
+  "description": "Synthetic M1 fixture: reconstructed; not a real attestation or reconstruction",
+  "sources": [
+    {
+      "id": "synthetic-source",
+      "title": "Constructed representation fixture",
+      "url": "urn:fixture:reconstructed",
+      "version": "1",
+      "license": "MIT",
+      "kind": "synthetic",
+      "sha256": null
+    }
+  ],
+  "doculects": [
+    {
+      "id": "fixture-language",
+      "name": "Synthetic variety",
+      "family": "Synthetic",
+      "stage": "Toy stage 1",
+      "kind": "proto",
+      "date_range": null
+    }
+  ],
+  "meanings": [
+    {
+      "id": "meaning-1",
+      "label": "synthetic meaning"
+    }
+  ],
+  "analyses": [
+    {
+      "id": "analysis-1",
+      "description": "Synthetic reconstruction hypothesis",
+      "source_ids": [
+        "synthetic-source"
+      ],
+      "proto_node_id": "proto-1"
+    }
+  ],
+  "normalization_methods": [
+    {
+      "id": "identity",
+      "version": "1",
+      "description": "Preserve the source exactly"
+    },
+    {
+      "id": "editorial",
+      "version": "1",
+      "description": "Explicit synthetic editorial change, not a sound law"
+    },
+    {
+      "id": "unicode-nfc",
+      "version": "15.0.0",
+      "description": "Unicode NFC; checked independently by Python"
+    }
+  ],
+  "choice_groups": [],
+  "records": [
+    {
+      "id": "reconstructed:record",
+      "doculect_id": "fixture-language",
+      "meaning_ids": [
+        "meaning-1"
+      ],
+      "representation": "phonetic",
+      "attestation": "reconstructed",
+      "evidence_state": "present",
+      "analysis_id": "analysis-1",
+      "proto_node_id": "wrong",
+      "citations": [
+        {
+          "source_id": "synthetic-source",
+          "locator": "fixture definition, record 1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "reading-1",
+          "original": "pa",
+          "normalized": "pa",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "pa"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "identity",
+              "method_version": "1",
+              "input": "pa",
+              "output": "pa",
+              "reason": "Exact synthetic source value"
+            }
+          ],
+          "choices": []
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": null
+    }
+  ]
+}

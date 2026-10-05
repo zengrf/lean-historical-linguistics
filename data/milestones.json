@@ -5,140 +5,414 @@
     "status": "delivered",
     "depends_on": [],
     "owner_role": "Research engineer",
-    "artifacts": ["README.md", "docs/01-literature-review.md", "docs/02-formal-architecture.md", "docs/03-case-studies-and-evaluation.md", "docs/04-delivery-plan.md", "docs/05-prior-art.md", "docs/06-research-method.md", "bibliography/README.md", "bibliography/references.bib", "bibliography/sources.json", "bibliography/downloads.json", "bibliography/reading-notes.json", "reports/library-audit.json", "lean/Comparative.lean", "lean/Audit.lean", ".github/workflows/ci.yml"],
+    "artifacts": [
+      "README.md",
+      "docs/01-literature-review.md",
+      "docs/02-formal-architecture.md",
+      "docs/03-case-studies-and-evaluation.md",
+      "docs/04-delivery-plan.md",
+      "docs/05-prior-art.md",
+      "docs/06-research-method.md",
+      "bibliography/README.md",
+      "bibliography/references.bib",
+      "bibliography/sources.json",
+      "bibliography/downloads.json",
+      "bibliography/reading-notes.json",
+      "reports/library-audit.json",
+      "lean/Comparative.lean",
+      "lean/Audit.lean",
+      ".github/workflows/ci.yml"
+    ],
     "acceptance": [
-      {"id": "M0-library", "test": "python scripts/verify_library.py --local", "pass_condition": "At least 100 qualifying distinct acquired works; every retained PDF matches its recorded hash, size and page count; no count or metadata errors."},
-      {"id": "M0-reading", "test": "Inspect bibliography/reading-notes.json and run the library validator", "pass_condition": "Every catalogue entry has source-specific findings, formalization use, caution and explicit reading scope; access gaps and duplicate-work exclusions are labeled."},
-      {"id": "M0-proofs", "test": "Build lean/ with Lean 4.19.0 and 4.34.1; run Audit.lean and scripts/check_proofs.py on the emitted output", "pass_condition": "All 22 declared theorems build; audit coverage is exact; no project axioms, proof placeholders, native_decide or unexpected logical dependencies."},
-      {"id": "M0-publication", "test": "Inspect GitHub visibility, remote commit and the CI run for that commit", "pass_condition": "Public zengrf/lean-historical-linguistics repository matches the local delivery commit; library-and-plan and both Lean jobs pass; only approved PDFs are tracked."},
-      {"id": "M0-plan", "test": "python scripts/check_plan.py; review docs/04-delivery-plan.md", "pass_condition": "Acyclic milestone graph with explicit artifacts, responsible roles and testable acceptance conditions; future work is marked planned."}
+      {
+        "id": "M0-library",
+        "test": "python scripts/verify_library.py --local",
+        "pass_condition": "At least 100 qualifying distinct acquired works; every retained PDF matches its recorded hash, size and page count; no count or metadata errors."
+      },
+      {
+        "id": "M0-reading",
+        "test": "Inspect bibliography/reading-notes.json and run the library validator",
+        "pass_condition": "Every catalogue entry has source-specific findings, formalization use, caution and explicit reading scope; access gaps and duplicate-work exclusions are labeled."
+      },
+      {
+        "id": "M0-proofs",
+        "test": "Build lean/ with Lean 4.19.0 and 4.34.1; run Audit.lean and scripts/check_proofs.py on the emitted output",
+        "pass_condition": "All 22 declared theorems build; audit coverage is exact; no project axioms, proof placeholders, native_decide or unexpected logical dependencies."
+      },
+      {
+        "id": "M0-publication",
+        "test": "Inspect GitHub visibility, remote commit and the CI run for that commit",
+        "pass_condition": "Public zengrf/lean-historical-linguistics repository matches the local delivery commit; library-and-plan and both Lean jobs pass; only approved PDFs are tracked."
+      },
+      {
+        "id": "M0-plan",
+        "test": "python scripts/check_plan.py; review docs/04-delivery-plan.md",
+        "pass_condition": "Acyclic milestone graph with explicit artifacts, responsible roles and testable acceptance conditions; future work is marked planned."
+      }
     ]
   },
   {
     "id": "M1",
     "title": "Evidence schema, provenance and import contract",
-    "status": "planned",
-    "depends_on": ["M0"],
+    "status": "in_review",
+    "depends_on": [
+      "M0"
+    ],
     "owner_role": "Research engineer with PIE and Sino-Tibetan reviewers",
-    "artifacts": ["schema/v1", "data/pilots", "Historical/Evidence.lean", "reports/schema-validation.json"],
+    "artifacts": [
+      "schema/v1/dossier.schema.json",
+      "schema/v1/README.md",
+      "schema/MIGRATIONS.md",
+      "data/pilots",
+      "data/upstream/manifest.json",
+      "data/fixtures/manifest.json",
+      "lean/Historical/Evidence.lean",
+      "lean/Historical/Validation.lean",
+      "lean/Historical/JsonInput.lean",
+      "lean/DossierCheck.lean",
+      "scripts/import_cldf.py",
+      "scripts/verify_m1.py",
+      "reviews/m1-packet.json",
+      "reports/schema-validation.json",
+      "reports/m1-review.json",
+      "reports/m1-delivery.json",
+      "docs/07-m1-delivery.md"
+    ],
     "acceptance": [
-      {"id": "M1-fixtures", "test": "Implement and run lake exe dossier_check data/pilots --strict", "pass_condition": "At least 30 valid fixtures accepted and 20 adversarial fixtures rejected for the specified reason; no broken references or duplicate primary IDs."},
-      {"id": "M1-lossless", "test": "Original-to-normalized-to-original round-trip and source audit", "pass_condition": "Original strings, tone, combining characters, attestation status, missing/gap/unknown, variants and linked alternatives are retained; every normalization has a versioned record."},
-      {"id": "M1-cldf", "test": "Validate a pinned CLDF import and reconcile imported IDs and counts", "pass_condition": "Every imported record maps to a source record; unsupported fields are reported; round-trip or explicit documented loss policy passes review."},
-      {"id": "M1-review", "test": "Independent double-entry review of core forms", "pass_condition": "At least 10 percent of imported core forms and all uncertain OCR/glyph records are independently checked; discrepancies resolved or explicitly flagged."}
-    ]
+      {
+        "id": "M1-fixtures",
+        "test": "From lean/: lake exe dossier_check data/pilots --strict; from repository root: python scripts/verify_m1.py",
+        "pass_condition": "At least 30 valid fixtures accepted and 20 adversarial fixtures rejected for the specified reason; no broken references or duplicate primary IDs."
+      },
+      {
+        "id": "M1-lossless",
+        "test": "python scripts/verify_m1.py (full structural Lean JSON round trips and source reconstruction)",
+        "pass_condition": "Original strings, tone, combining characters, attestation status, missing/gap/unknown, variants and linked alternatives are retained; every normalization has a versioned record."
+      },
+      {
+        "id": "M1-cldf",
+        "test": "python scripts/import_cldf.py --check; python scripts/verify_m1.py; review docs/07-m1-delivery.md mapping/loss policy",
+        "pass_condition": "Every imported record maps to a source record; unsupported fields are reported; round-trip or explicit documented loss policy passes review."
+      },
+      {
+        "id": "M1-review",
+        "test": "python scripts/review_m1.py --require-complete; python scripts/verify_m1_delivery.py --require-complete",
+        "pass_condition": "At least 10 percent of imported core forms and all uncertain OCR/glyph records are independently checked; discrepancies resolved or explicitly flagged."
+      }
+    ],
+    "delivery_note": "Implementation and automated verification delivered; independent double-entry review is pending. See reports/m1-delivery.json for criterion-level status."
   },
   {
     "id": "M2",
     "title": "Contextual sound-law semantics and certificates",
     "status": "planned",
-    "depends_on": ["M1"],
+    "depends_on": [
+      "M1"
+    ],
     "owner_role": "Lean engineer with phonological review",
-    "artifacts": ["Historical/Rules.lean", "Historical/Certificates.lean", "docs/rule-semantics.md", "reports/contextual-rules.json"],
+    "artifacts": [
+      "Historical/Rules.lean",
+      "Historical/Certificates.lean",
+      "docs/rule-semantics.md",
+      "reports/contextual-rules.json"
+    ],
     "acceptance": [
-      {"id": "M2-semantics", "test": "Build a total reference interpreter and compare hand-worked derivations", "pass_condition": "Published semantics specify boundaries, contexts, application direction, pass convention, substitution, deletion and rule order; at least 10 independently hand-worked examples match."},
-      {"id": "M2-checker", "test": "Implement lake build Historical.Rules Historical.Certificates and audit all public theorem dependencies", "pass_condition": "Kernel-checked soundness and completeness connect certificate acceptance exactly to the specified derivation relation; no unproved project axioms."},
-      {"id": "M2-adversarial", "test": "Implement lake exe verify_dossiers --suite contextual-rules", "pass_condition": "At least 40 adversarial fixtures exercise missing/extra stages, rule-order changes, context mismatches and feeding versus simultaneous application; each has the expected outcome."},
-      {"id": "M2-no-memorization", "test": "Review the rule grammar and pilot rule packages", "pass_condition": "No arbitrary unchecked word-specific substitution or hidden lexical lookup is accepted as a regular sound-law explanation."}
+      {
+        "id": "M2-semantics",
+        "test": "Build a total reference interpreter and compare hand-worked derivations",
+        "pass_condition": "Published semantics specify boundaries, contexts, application direction, pass convention, substitution, deletion and rule order; at least 10 independently hand-worked examples match."
+      },
+      {
+        "id": "M2-checker",
+        "test": "Implement lake build Historical.Rules Historical.Certificates and audit all public theorem dependencies",
+        "pass_condition": "Kernel-checked soundness and completeness connect certificate acceptance exactly to the specified derivation relation; no unproved project axioms."
+      },
+      {
+        "id": "M2-adversarial",
+        "test": "Implement lake exe verify_dossiers --suite contextual-rules",
+        "pass_condition": "At least 40 adversarial fixtures exercise missing/extra stages, rule-order changes, context mismatches and feeding versus simultaneous application; each has the expected outcome."
+      },
+      {
+        "id": "M2-no-memorization",
+        "test": "Review the rule grammar and pilot rule packages",
+        "pass_condition": "No arbitrary unchecked word-specific substitution or hidden lexical lookup is accepted as a regular sound-law explanation."
+      }
     ]
   },
   {
     "id": "M3",
     "title": "Alignment and correspondence verification",
     "status": "planned",
-    "depends_on": ["M1", "M2"],
+    "depends_on": [
+      "M1",
+      "M2"
+    ],
     "owner_role": "Lean engineer and comparative-data reviewer",
-    "artifacts": ["Historical/Alignment.lean", "Historical/Correspondence.lean", "reports/correspondence-sites.json"],
+    "artifacts": [
+      "Historical/Alignment.lean",
+      "Historical/Correspondence.lean",
+      "reports/correspondence-sites.json"
+    ],
     "acceptance": [
-      {"id": "M3-alignment", "test": "Build and audit the alignment checker and preservation theorem", "pass_condition": "Every accepted alignment recovers each original input row after removing alignment gaps; missing cells remain distinct from alignment gaps."},
-      {"id": "M3-patterns", "test": "Check correspondence-group certificates and synthetic counterexamples", "pass_condition": "Pairwise compatibility and positive support are verified; missing-only overlap supplies no support; non-transitive compatibility cannot be treated as equivalence."},
-      {"id": "M3-sites", "test": "Run the site suite and inspect the per-site report", "pass_condition": "At least 100 sites checked, including 20 incomplete and 10 conflicting cases; each reports group assignment, support, compatibility and checker outcome."},
-      {"id": "M3-optimality", "test": "Inspect all claims of minimal grouping", "pass_condition": "Any minimum-cover claim has a checked optimality certificate; otherwise the result is explicitly feasibility only."}
+      {
+        "id": "M3-alignment",
+        "test": "Build and audit the alignment checker and preservation theorem",
+        "pass_condition": "Every accepted alignment recovers each original input row after removing alignment gaps; missing cells remain distinct from alignment gaps."
+      },
+      {
+        "id": "M3-patterns",
+        "test": "Check correspondence-group certificates and synthetic counterexamples",
+        "pass_condition": "Pairwise compatibility and positive support are verified; missing-only overlap supplies no support; non-transitive compatibility cannot be treated as equivalence."
+      },
+      {
+        "id": "M3-sites",
+        "test": "Run the site suite and inspect the per-site report",
+        "pass_condition": "At least 100 sites checked, including 20 incomplete and 10 conflicting cases; each reports group assignment, support, compatibility and checker outcome."
+      },
+      {
+        "id": "M3-optimality",
+        "test": "Inspect all claims of minimal grouping",
+        "pass_condition": "Any minimum-cover claim has a checked optimality certificate; otherwise the result is explicitly feasibility only."
+      }
     ]
   },
   {
     "id": "M4",
     "title": "Bounded inverse reconstruction and ambiguity",
     "status": "planned",
-    "depends_on": ["M2", "M3"],
+    "depends_on": [
+      "M2",
+      "M3"
+    ],
     "owner_role": "Lean engineer",
-    "artifacts": ["Historical/Reconstruction.lean", "Historical/Identifiability.lean", "reports/exhaustive-small-domain.json"],
+    "artifacts": [
+      "Historical/Reconstruction.lean",
+      "Historical/Identifiability.lean",
+      "reports/exhaustive-small-domain.json"
+    ],
     "acceptance": [
-      {"id": "M4-enumeration", "test": "Build a finite enumeration theorem and inspect the declared hypothesis-space bounds", "pass_condition": "Inventory, maximum word length and any rule/model-choice bounds are explicit; enumeration covers precisely that space."},
-      {"id": "M4-correctness", "test": "Build and audit candidate soundness and relative completeness theorems", "pass_condition": "Every returned candidate fits and every fitting in-scope candidate is returned, relative to the proved executable/logical bridge."},
-      {"id": "M4-ambiguity", "test": "Build observation-monotonicity and observational-equivalence results; inspect alternative serialization", "pass_condition": "Observationally equivalent histories remain indistinguishable on the selected data; linked alternatives remain joint; monotonicity states fixed model and hypothesis-space assumptions."},
-      {"id": "M4-reference", "test": "Compare with independent exhaustive enumeration", "pass_condition": "Exact agreement on all words of length at most four over three symbols for at least ten cascades; timeout is distinguished from an empty completed search."}
+      {
+        "id": "M4-enumeration",
+        "test": "Build a finite enumeration theorem and inspect the declared hypothesis-space bounds",
+        "pass_condition": "Inventory, maximum word length and any rule/model-choice bounds are explicit; enumeration covers precisely that space."
+      },
+      {
+        "id": "M4-correctness",
+        "test": "Build and audit candidate soundness and relative completeness theorems",
+        "pass_condition": "Every returned candidate fits and every fitting in-scope candidate is returned, relative to the proved executable/logical bridge."
+      },
+      {
+        "id": "M4-ambiguity",
+        "test": "Build observation-monotonicity and observational-equivalence results; inspect alternative serialization",
+        "pass_condition": "Observationally equivalent histories remain indistinguishable on the selected data; linked alternatives remain joint; monotonicity states fixed model and hypothesis-space assumptions."
+      },
+      {
+        "id": "M4-reference",
+        "test": "Compare with independent exhaustive enumeration",
+        "pass_condition": "Exact agreement on all words of length at most four over three symbols for at least ten cascades; timeout is distinguished from an empty completed search."
+      }
     ]
   },
   {
     "id": "M5",
     "title": "Source-backed Indo-European pilot",
     "status": "planned",
-    "depends_on": ["M1", "M2", "M3", "M4"],
+    "depends_on": [
+      "M1",
+      "M2",
+      "M3",
+      "M4"
+    ],
     "owner_role": "PIE specialist and research engineer; independent PIE reviewer",
-    "artifacts": ["data/pie", "reports/pie-evaluation.json", "reviews/pie-signoff.md"],
+    "artifacts": [
+      "data/pie",
+      "reports/pie-evaluation.json",
+      "reviews/pie-signoff.md"
+    ],
     "acceptance": [
-      {"id": "M5-core", "test": "Review the source dossiers and check every core derivation", "pass_condition": "20 cognate sets form an independently reviewed core with source forms, references, chronology, normalization and explicit uncertainty."},
-      {"id": "M5-scale", "test": "Validate frozen dataset and derivation counts", "pass_condition": "At least 200 cognate sets and 600 reflex records; failed derivations and disagreements remain in the report; numerical targets do not license fabricated data."},
-      {"id": "M5-analyses", "test": "Compare named source-defined rule packages", "pass_condition": "Relative chronology, Anatolian laryngeal evidence and a small morphological dossier have explicit scope; competing analyses and their different predictions are preserved."},
-      {"id": "M5-evaluation", "test": "Run the frozen reproduction/generalization protocol from docs/03-case-studies-and-evaluation.md", "pass_condition": "Split manifests are frozen before model revision; reconstruction accuracy, ambiguity, coverage and failure categories are reported separately with leakage checks."},
-      {"id": "M5-signoff", "test": "Obtain independent family-specialist review", "pass_condition": "A reviewer who did not perform the encoding signs off or records unresolved objections; linguistically unreviewed output cannot pass this gate."}
+      {
+        "id": "M5-core",
+        "test": "Review the source dossiers and check every core derivation",
+        "pass_condition": "20 cognate sets form an independently reviewed core with source forms, references, chronology, normalization and explicit uncertainty."
+      },
+      {
+        "id": "M5-scale",
+        "test": "Validate frozen dataset and derivation counts",
+        "pass_condition": "At least 200 cognate sets and 600 reflex records; failed derivations and disagreements remain in the report; numerical targets do not license fabricated data."
+      },
+      {
+        "id": "M5-analyses",
+        "test": "Compare named source-defined rule packages",
+        "pass_condition": "Relative chronology, Anatolian laryngeal evidence and a small morphological dossier have explicit scope; competing analyses and their different predictions are preserved."
+      },
+      {
+        "id": "M5-evaluation",
+        "test": "Run the frozen reproduction/generalization protocol from docs/03-case-studies-and-evaluation.md",
+        "pass_condition": "Split manifests are frozen before model revision; reconstruction accuracy, ambiguity, coverage and failure categories are reported separately with leakage checks."
+      },
+      {
+        "id": "M5-signoff",
+        "test": "Obtain independent family-specialist review",
+        "pass_condition": "A reviewer who did not perform the encoding signs off or records unresolved objections; linguistically unreviewed output cannot pass this gate."
+      }
     ]
   },
   {
     "id": "M6",
     "title": "Sino-Tibetan subgroup and cross-branch pilot",
     "status": "planned",
-    "depends_on": ["M1", "M2", "M3", "M4"],
+    "depends_on": [
+      "M1",
+      "M2",
+      "M3",
+      "M4"
+    ],
     "owner_role": "Sino-Tibetan specialist and research engineer; independent family reviewer",
-    "artifacts": ["data/kuki-chin", "data/cross-branch", "reports/sino-tibetan-evaluation.json", "reviews/sino-tibetan-signoff.md"],
+    "artifacts": [
+      "data/kuki-chin",
+      "data/cross-branch",
+      "reports/sino-tibetan-evaluation.json",
+      "reviews/sino-tibetan-signoff.md"
+    ],
     "acceptance": [
-      {"id": "M6-core", "test": "Validate and independently review the subgroup core", "pass_condition": "50 source-backed Kuki-Chin cognate sets checked with source-specific reconstruction levels and exact language/variety identities."},
-      {"id": "M6-scale", "test": "Validate frozen subgroup data and per-record provenance", "pass_condition": "At least 100 subgroup cognate sets and 300 reflex records; all failed and ambiguous analyses retained."},
-      {"id": "M6-cross-branch", "test": "Review and execute cross-branch dossiers", "pass_condition": "30 dossiers record topology assumptions, written versus reconstructed evidence, morphology and relevant competing accounts; unresolved outcomes remain valid results."},
-      {"id": "M6-sensitivity", "test": "Run frozen evaluation and alternative-analysis comparisons", "pass_condition": "Topology and source-analysis sensitivity are reported; Proto-Tibeto-Burman, Proto-Sino-Tibetan and subgroup nodes are not silently equated."},
-      {"id": "M6-signoff", "test": "Obtain independent family-specialist review", "pass_condition": "A reviewer outside the original encoding signs off or records unresolved objections; absent specialist review, the gate remains unpassed."}
+      {
+        "id": "M6-core",
+        "test": "Validate and independently review the subgroup core",
+        "pass_condition": "50 source-backed Kuki-Chin cognate sets checked with source-specific reconstruction levels and exact language/variety identities."
+      },
+      {
+        "id": "M6-scale",
+        "test": "Validate frozen subgroup data and per-record provenance",
+        "pass_condition": "At least 100 subgroup cognate sets and 300 reflex records; all failed and ambiguous analyses retained."
+      },
+      {
+        "id": "M6-cross-branch",
+        "test": "Review and execute cross-branch dossiers",
+        "pass_condition": "30 dossiers record topology assumptions, written versus reconstructed evidence, morphology and relevant competing accounts; unresolved outcomes remain valid results."
+      },
+      {
+        "id": "M6-sensitivity",
+        "test": "Run frozen evaluation and alternative-analysis comparisons",
+        "pass_condition": "Topology and source-analysis sensitivity are reported; Proto-Tibeto-Burman, Proto-Sino-Tibetan and subgroup nodes are not silently equated."
+      },
+      {
+        "id": "M6-signoff",
+        "test": "Obtain independent family-specialist review",
+        "pass_condition": "A reviewer outside the original encoding signs off or records unresolved objections; absent specialist review, the gate remains unpassed."
+      }
     ]
   },
   {
     "id": "M7",
     "title": "Verified optimization and external proposal interface",
     "status": "planned",
-    "depends_on": ["M2", "M3", "M4", "M5", "M6"],
+    "depends_on": [
+      "M2",
+      "M3",
+      "M4",
+      "M5",
+      "M6"
+    ],
     "owner_role": "Lean engineer and computational linguist",
-    "artifacts": ["Historical/Compile.lean", "adapters", "benchmarks", "reports/benchmark.json"],
+    "artifacts": [
+      "Historical/Compile.lean",
+      "adapters",
+      "benchmarks",
+      "reports/benchmark.json"
+    ],
     "acceptance": [
-      {"id": "M7-compilation", "test": "Build and audit a semantics-preservation theorem", "pass_condition": "Optimized execution equals the reference semantics for a precisely declared fragment; unsupported rules are rejected or handled by the reference interpreter."},
-      {"id": "M7-proposers", "test": "Execute one deterministic baseline and one external proposer", "pass_condition": "Every reported accepted proposal carries a verified certificate; generation success, certificate acceptance and reference-analysis agreement are separate metrics."},
-      {"id": "M7-performance", "test": "Benchmark 1000 bounded certificates on a documented ordinary laptop", "pass_condition": "Under 60 seconds and under 2 GB peak memory, with software, hardware and bounds recorded; otherwise the target is unpassed and supported batch size is limited."},
-      {"id": "M7-trust", "test": "Audit the checker boundary and serialized certificate parser", "pass_condition": "External solver, neural or generated-code outputs cannot bypass the verified checker; malformed and corrupted certificates are rejected."}
+      {
+        "id": "M7-compilation",
+        "test": "Build and audit a semantics-preservation theorem",
+        "pass_condition": "Optimized execution equals the reference semantics for a precisely declared fragment; unsupported rules are rejected or handled by the reference interpreter."
+      },
+      {
+        "id": "M7-proposers",
+        "test": "Execute one deterministic baseline and one external proposer",
+        "pass_condition": "Every reported accepted proposal carries a verified certificate; generation success, certificate acceptance and reference-analysis agreement are separate metrics."
+      },
+      {
+        "id": "M7-performance",
+        "test": "Benchmark 1000 bounded certificates on a documented ordinary laptop",
+        "pass_condition": "Under 60 seconds and under 2 GB peak memory, with software, hardware and bounds recorded; otherwise the target is unpassed and supported batch size is limited."
+      },
+      {
+        "id": "M7-trust",
+        "test": "Audit the checker boundary and serialized certificate parser",
+        "pass_condition": "External solver, neural or generated-code outputs cannot bypass the verified checker; malformed and corrupted certificates are rejected."
+      }
     ]
   },
   {
     "id": "M8",
     "title": "Morphology, analogy and contact mechanisms",
     "status": "planned",
-    "depends_on": ["M5", "M6", "M7"],
+    "depends_on": [
+      "M5",
+      "M6",
+      "M7"
+    ],
     "owner_role": "Family specialists and Lean engineer",
-    "artifacts": ["Historical/Paradigm.lean", "Historical/Mechanisms.lean", "data/extended-cases", "reports/mechanism-review.json"],
+    "artifacts": [
+      "Historical/Paradigm.lean",
+      "Historical/Mechanisms.lean",
+      "data/extended-cases",
+      "reports/mechanism-review.json"
+    ],
     "acceptance": [
-      {"id": "M8-types", "test": "Build paradigm-aware derivations and typed historical-mechanism witnesses", "pass_condition": "Analogy identifies model forms and affected paradigm relations; borrowing identifies donor/recipient stages and adaptation analysis."},
-      {"id": "M8-cases", "test": "Independently review and execute the extended case suite", "pass_condition": "At least 20 reviewed cases, including at least five with competing explanations; unresolved cases and initial sound-law failures stay visible."},
-      {"id": "M8-boundary", "test": "Review expressivity and non-identifiability statements", "pass_condition": "No unrestricted exception mechanism forces every word to fit; absence of a unique history is represented explicitly; unrestricted semantic/syntactic reconstruction remains out of scope."}
+      {
+        "id": "M8-types",
+        "test": "Build paradigm-aware derivations and typed historical-mechanism witnesses",
+        "pass_condition": "Analogy identifies model forms and affected paradigm relations; borrowing identifies donor/recipient stages and adaptation analysis."
+      },
+      {
+        "id": "M8-cases",
+        "test": "Independently review and execute the extended case suite",
+        "pass_condition": "At least 20 reviewed cases, including at least five with competing explanations; unresolved cases and initial sound-law failures stay visible."
+      },
+      {
+        "id": "M8-boundary",
+        "test": "Review expressivity and non-identifiability statements",
+        "pass_condition": "No unrestricted exception mechanism forces every word to fit; absence of a unique history is represented explicitly; unrestricted semantic/syntactic reconstruction remains out of scope."
+      }
     ]
   },
   {
     "id": "M9",
     "title": "Independent research release",
     "status": "planned",
-    "depends_on": ["M7", "M8"],
+    "depends_on": [
+      "M7",
+      "M8"
+    ],
     "owner_role": "Research lead, independent reproducer and release maintainer",
-    "artifacts": ["release-manifest.json", "paper", "reports/independent-reproduction.md", "docs/release-guide.md"],
+    "artifacts": [
+      "release-manifest.json",
+      "paper",
+      "reports/independent-reproduction.md",
+      "docs/release-guide.md"
+    ],
     "acceptance": [
-      {"id": "M9-reproduction", "test": "One-command clean-environment reproduction by a second person in a second environment", "pass_condition": "Main theorem audits and frozen case-study results reproduce with documented resource use and no unrecorded local inputs."},
-      {"id": "M9-archive", "test": "Inspect tagged artifact archive and manifest", "pass_condition": "Code, toolchains, datasets, source versions, rules, splits, checksums and permissions are frozen and documented."},
-      {"id": "M9-claims", "test": "Review the release paper against evidence and acceptance reports", "pass_condition": "Claims distinguish mathematical correctness, empirical reproduction, prediction and interpretation; unpassed gates and unresolved analyses remain explicit."},
-      {"id": "M9-optional-probability", "test": "If the optional probability module is pursued, audit its finite rational posterior theorem and empirical calibration report", "pass_condition": "Either explicitly deferred without blocking the core release, or normalization/calculation proved with priors, likelihood assumptions, sensitivity and calibration evaluated separately."}
+      {
+        "id": "M9-reproduction",
+        "test": "One-command clean-environment reproduction by a second person in a second environment",
+        "pass_condition": "Main theorem audits and frozen case-study results reproduce with documented resource use and no unrecorded local inputs."
+      },
+      {
+        "id": "M9-archive",
+        "test": "Inspect tagged artifact archive and manifest",
+        "pass_condition": "Code, toolchains, datasets, source versions, rules, splits, checksums and permissions are frozen and documented."
+      },
+      {
+        "id": "M9-claims",
+        "test": "Review the release paper against evidence and acceptance reports",
+        "pass_condition": "Claims distinguish mathematical correctness, empirical reproduction, prediction and interpretation; unpassed gates and unresolved analyses remain explicit."
+      },
+      {
+        "id": "M9-optional-probability",
+        "test": "If the optional probability module is pursued, audit its finite rational posterior theorem and empirical calibration report",
+        "pass_condition": "Either explicitly deferred without blocking the core release, or normalization/calculation proved with priors, likelihood assumptions, sensitivity and calibration evaluated separately."
+      }
     ]
   }
 ]

@@ -1,0 +1,175 @@
+[
+  {
+    "id": "iecor",
+    "repository": "https://github.com/lexibank/iecor",
+    "commit": "700b635a04786427b78841489c46eefbe2843509",
+    "license": "CC BY 4.0",
+    "files": [
+      {
+        "path": "CONTRIBUTORS.md",
+        "sha256": "32bb75b58ef951617d00108ab163306be766cc87f6af6994ff30de6d56712fdf",
+        "bytes": 505
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "945fbcb37deca05bccd7c3ca0e261679f1f5373515504fdbad68f6f3cf6f49b9",
+        "bytes": 18652
+      },
+      {
+        "path": "README.md",
+        "sha256": "c6175d8dc15c5394a0400e80d666d36308d709b4dc789f74866ec9cd382286cf",
+        "bytes": 2954
+      },
+      {
+        "path": "cldf/.gitattributes.upstream",
+        "sha256": "9ebfe081d56a414fc1008021d455e31c22068e671f88938c3c3f90fbbe80227b",
+        "bytes": 19,
+        "upstream_path": "cldf/.gitattributes"
+      },
+      {
+        "path": "cldf/.transcription-report.json",
+        "sha256": "d04bd6042c2dc6bca8fc2de8cf4ec53e41ac88a92021da0bbbfd57080165a853",
+        "bytes": 9395520
+      },
+      {
+        "path": "cldf/README.md",
+        "sha256": "a4340049e8f49304c68066a85c9dfbfeb1e1eb085e51c07fa02e563e29980c8c",
+        "bytes": 9303
+      },
+      {
+        "path": "cldf/authors.csv",
+        "sha256": "3e2fc49dd8b71598ca9abe5a9055596a8cf1183ba5d727a6bb5a40c54dfb7ce2",
+        "bytes": 2510
+      },
+      {
+        "path": "cldf/clades.csv",
+        "sha256": "7174a3cb7b69c5632edbdd6fb333ccad704c11e1b51b402407af99d835c797b6",
+        "bytes": 1796
+      },
+      {
+        "path": "cldf/cldf-metadata.json",
+        "sha256": "f527ca762ef17dfa9e139db470d519fc4c5999c59be594d0ac1d0106f0807cd9",
+        "bytes": 23567
+      },
+      {
+        "path": "cldf/cognates.csv",
+        "sha256": "08473d6c668d266cb2477d2941a18563b219e8979d9b7e38a87b243b22a7fd34",
+        "bytes": 968651
+      },
+      {
+        "path": "cldf/cognatesets.csv",
+        "sha256": "983e3bd5d1f1dc5b834d449a627b0cd7a0722946cf7915aa6c8522883d26d850",
+        "bytes": 3329288
+      },
+      {
+        "path": "cldf/forms.csv",
+        "sha256": "055ce127b4033d6b96f5589228bf9a63b20564a0c0d19e5b9e97fe80b1a77202",
+        "bytes": 2650749
+      },
+      {
+        "path": "cldf/languages.csv",
+        "sha256": "fe9669ee3535889612e64a2d57ce407a1dca488891abe26a31ba3871b956a33a",
+        "bytes": 63823
+      },
+      {
+        "path": "cldf/lingpy-rcParams.json",
+        "sha256": "f3f52d59052f6bb9d8b1eca0f61f5029efcfa94c223e9f46d798173cedf8b208",
+        "bytes": 7637
+      },
+      {
+        "path": "cldf/loans.csv",
+        "sha256": "9ff104f0b5a2f6f9d65d2ed7c0e293aa09cdb70674a38b1a250c3340e0ba7c26",
+        "bytes": 45008
+      },
+      {
+        "path": "cldf/parameters.csv",
+        "sha256": "7a337d989e8398238568925cd718862bf1ac84105761f82bd6e9c335a4a328cb",
+        "bytes": 18182
+      },
+      {
+        "path": "cldf/requirements.txt",
+        "sha256": "e06c4c2f0691e75a8a8c48ffb8f33d125fc0ac3354e1dc39c40e4015978eca66",
+        "bytes": 882
+      },
+      {
+        "path": "cldf/sources.bib",
+        "sha256": "1f1eebddc31e5cf9b28116cb882a24d08f2508386a4af90a9437021a48152fbe",
+        "bytes": 133272
+      }
+    ]
+  },
+  {
+    "id": "hillburmish",
+    "repository": "https://github.com/lexibank/hillburmish",
+    "commit": "3d96cfa6b2ed4c59fd13e28ef5ae00db30247bb3",
+    "license": "CC BY 4.0",
+    "files": [
+      {
+        "path": "CONTRIBUTORS.md",
+        "sha256": "004ed78c8c8195accba5cab7482e7413a7c78791e6473d32025b315294185df1",
+        "bytes": 203
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "945fbcb37deca05bccd7c3ca0e261679f1f5373515504fdbad68f6f3cf6f49b9",
+        "bytes": 18652
+      },
+      {
+        "path": "README.md",
+        "sha256": "5cf17734b53e6ed0f455dc5f27da345dcf1e7f3f17dd1dbe83ebb82b7b584e5f",
+        "bytes": 1639
+      },
+      {
+        "path": "cldf/.gitattributes.upstream",
+        "sha256": "9ebfe081d56a414fc1008021d455e31c22068e671f88938c3c3f90fbbe80227b",
+        "bytes": 19,
+        "upstream_path": "cldf/.gitattributes"
+      },
+      {
+        "path": "cldf/.transcription-report.json",
+        "sha256": "24d00bb6cf85c5da0ada9ab85b6298ee8d414dad134298f3b9b642f46e831c2a",
+        "bytes": 174709
+      },
+      {
+        "path": "cldf/README.md",
+        "sha256": "1ca6566bda07eacde81807558505c7057e2a6884f5ba9c58be8eddae473ca9d9",
+        "bytes": 4664
+      },
+      {
+        "path": "cldf/cldf-metadata.json",
+        "sha256": "a6ce4e8d11727a6455508c3ce18c72aa2da40d9d47011e2ff91ba033662a57a7",
+        "bytes": 10465
+      },
+      {
+        "path": "cldf/forms.csv",
+        "sha256": "7a6906044fb9337c894498e3936040dec86f34198f2ee1bd1ca282fb0f3e421f",
+        "bytes": 479039
+      },
+      {
+        "path": "cldf/languages.csv",
+        "sha256": "ee03d5ca7980fe4390f86eb0f87ee2808e7382ee11cbfa64887fecad024c9ab1",
+        "bytes": 581
+      },
+      {
+        "path": "cldf/lingpy-rcParams.json",
+        "sha256": "f5e682ce55c7a5f565e6f1d1c62e35c9eafcff49945f95e7fac6c8c16f6174b1",
+        "bytes": 7637
+      },
+      {
+        "path": "cldf/parameters.csv",
+        "sha256": "c423cca414ace21749c379bb029269d370dd8580024e786072520f4cfdacaad6",
+        "bytes": 38018
+      },
+      {
+        "path": "cldf/requirements.txt",
+        "sha256": "02c131647dcc99bc6d7a3603dd2de58805e9d80a052abe2282764868e49f5e59",
+        "bytes": 1257
+      },
+      {
+        "path": "cldf/sources.bib",
+        "sha256": "de55eb7cc212d4acb13143198e67e2e4ae7d1a23fbe00ca7dc5044f5001a33cf",
+        "bytes": 824
+      }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 # Formal architecture and theorem contracts
 
-Status: **design**, except the explicitly identified prototype results. This document specifies what future implementations must prove; it does not claim those modules already exist.
+Status: **design**, except the explicitly identified prototype results and the implemented [M1 evidence schema/checker](07-m1-delivery.md). This document specifies what future implementations must prove; it does not claim those later modules already exist.
 
 ## 1. The object of verification
 
@@ -133,7 +133,7 @@ The current files use `Std`, with no mathlib or linglib dependency.
 | Identifiability up to a declared equivalence | Planned beyond toy examples | M4 / M9 |
 | Probabilistic inference correctness and calibration | Planned, optional | M9 |
 
-There are **22 audited theorem declarations**, including general theorems and concrete examples. This is an architectural feasibility result. The abstract `Rule` is currently any total word-to-word function; the code does not yet enforce phonological locality, stage typing, a finite alphabet, or historical plausibility.
+There are **22 M0 theorem declarations**, plus five M1 evidence results, for **27 audited declarations** in total. The abstract `Rule` is currently any total word-to-word function; the code does not yet enforce phonological locality, a finite alphabet, or historical plausibility. M1 adds stage/source metadata and consistency checks to evidence records; it does not yet enforce stages in rule execution.
 
 ## 7. Uncertainty, scores and explanations
 

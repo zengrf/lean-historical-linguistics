@@ -2,6 +2,8 @@
 
 Status: proposed protocol. The current Lean examples are synthetic. No real-language benchmark, expert review or historical accuracy result is claimed in this release.
 
+M1 now imports 60 real Indo-European/Burmish records for representation and provenance testing. These are not the M5/M6 reconstruction benchmarks; see [M1 scope and status](07-m1-delivery.md).
+
 ## 1. Three different evaluation questions
 
 | Question | Evidence | Success does not establish |

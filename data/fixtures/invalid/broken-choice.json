@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "id": "joint-alternatives",
+  "description": "Synthetic M1 fixture: joint-alternatives; not a real attestation or reconstruction",
+  "sources": [
+    {
+      "id": "synthetic-source",
+      "title": "Constructed representation fixture",
+      "url": "urn:fixture:joint-alternatives",
+      "version": "1",
+      "license": "MIT",
+      "kind": "synthetic",
+      "sha256": null
+    }
+  ],
+  "doculects": [
+    {
+      "id": "fixture-language",
+      "name": "Synthetic variety",
+      "family": "Synthetic",
+      "stage": "Toy stage 1",
+      "kind": "attested",
+      "date_range": null
+    }
+  ],
+  "meanings": [
+    {
+      "id": "meaning-1",
+      "label": "synthetic meaning"
+    }
+  ],
+  "analyses": [],
+  "normalization_methods": [
+    {
+      "id": "identity",
+      "version": "1",
+      "description": "Preserve the source exactly"
+    },
+    {
+      "id": "editorial",
+      "version": "1",
+      "description": "Explicit synthetic editorial change, not a sound law"
+    },
+    {
+      "id": "unicode-nfc",
+      "version": "15.0.0",
+      "description": "Unicode NFC; checked independently by Python"
+    }
+  ],
+  "choice_groups": [
+    {
+      "id": "joint",
+      "options": [
+        "a",
+        "b"
+      ],
+      "description": "Coindexed whole-form alternatives"
+    }
+  ],
+  "records": [
+    {
+      "id": "joint-alternatives:record",
+      "doculect_id": "fixture-language",
+      "meaning_ids": [
+        "meaning-1"
+      ],
+      "representation": "phonetic",
+      "attestation": "attested",
+      "evidence_state": "present",
+      "analysis_id": null,
+      "proto_node_id": null,
+      "citations": [
+        {
+          "source_id": "synthetic-source",
+          "locator": "fixture definition, record 1"
+        }
+      ],
+      "readings": [
+        {
+          "id": "a",
+          "original": "pat",
+          "normalized": "pat",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "pat"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "identity",
+              "method_version": "1",
+              "input": "pat",
+              "output": "pat",
+              "reason": "Exact synthetic source value"
+            }
+          ],
+          "choices": [
+            {
+              "group_id": "joint",
+              "option_id": "absent"
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "original": "pid",
+          "normalized": "pid",
+          "cells": [
+            {
+              "kind": "segment",
+              "value": "pid"
+            }
+          ],
+          "normalization": [
+            {
+              "method_id": "identity",
+              "method_version": "1",
+              "input": "pid",
+              "output": "pid",
+              "reason": "Exact synthetic source value"
+            }
+          ],
+          "choices": [
+            {
+              "group_id": "joint",
+              "option_id": "b"
+            }
+          ]
+        }
+      ],
+      "uncertain": false,
+      "uncertainty_note": null,
+      "imported_from": null
+    }
+  ]
+}

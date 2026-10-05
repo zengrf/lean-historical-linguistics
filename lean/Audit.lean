@@ -1,4 +1,5 @@
 import Comparative
+import Historical
 
 #print axioms Comparative.run_append
 #print axioms Comparative.derives_iff_run
@@ -22,3 +23,9 @@ import Comparative
 #print axioms Comparative.Patterns.missing_is_not_gap
 #print axioms Comparative.Patterns.missing_alone_is_not_support
 #print axioms Comparative.Patterns.independent_choices_overgenerate
+
+#print axioms Historical.replay_iff_chain
+#print axioms Historical.renormalize_preserves_original
+#print axioms Historical.renormalize_preserves_choices
+#print axioms Historical.missing_ne_gap
+#print axioms Historical.cell_json_roundtrip
