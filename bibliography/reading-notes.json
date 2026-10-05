@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "D07-1093",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "Stochastic edits on a phylogeny jointly support reconstruction and phonological-change inference.",
+    "formalization_use": "Use a probabilistic generator outside the proof kernel, with explicit tree and edit parameters.",
+    "caution": "An inferred high-probability form is conditional on the model and cognate inputs."
+  },
+  {
+    "id": "N09-1008",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      8
+    ],
+    "finding": "Markedness and cross-language features improve earlier probabilistic reconstruction on several families.",
+    "formalization_use": "Separate well-formedness priors from evidence for historical correspondence.",
+    "caution": "Known cognate groups and phylogenies are supplied; borrowing and reduplication remain outside this model."
+  },
+  {
+    "id": "P10-1105",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "A generative phylogenetic model induces cognate groups and approximates weighted automata during inference.",
+    "formalization_use": "Keep approximation error separate from correctness of a checked candidate.",
+    "caution": "Approximated search is not a completeness certificate."
+  },
+  {
+    "id": "D11-1032",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      10
+    ],
+    "finding": "Scalable cognate recovery trades cluster purity against recall on large Oceanic wordlists.",
+    "formalization_use": "Report both false merges and missed cognates; retain intermediate clusters.",
+    "caution": "High purity alone can hide excessive splitting."
+  },
+  {
+    "id": "W05-0606",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      7
+    ],
+    "finding": "Pair HMMs learn word-pair similarities from training examples.",
+    "formalization_use": "Implement an alignment baseline and a verifiable alignment witness.",
+    "caution": "Surface similarity is evidence, not a definition of historical cognacy."
+  },
+  {
+    "id": "W07-1303",
+    "reading_level": "visual-excerpts",
+    "pdf_pages_examined": [
+      1
+    ],
+    "finding": "Bayesian scoring joins proposed cognates and regular correspondences; an implementation tests Polish and Russian.",
+    "formalization_use": "Make latent cognacy and correspondence parameters explicit.",
+    "caution": "The study's small model and pairwise evaluation do not settle family-wide reconstruction."
+  },
+  {
+    "id": "W11-4634",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1
+    ],
+    "finding": "Etymological alignments are evaluated through probabilistic description of internal consistency.",
+    "formalization_use": "Distinguish a reproducible objective function from historical validity.",
+    "caution": "Absence of hand-coded vowel preferences does not make an algorithm assumption-free."
+  },
+  {
+    "id": "W12-0215",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1
+    ],
+    "finding": "Context and phonetic features improve etymological alignment and imputation.",
+    "formalization_use": "Give rule contexts and feature encodings explicit semantics.",
+    "caution": "Better imputation is not proof that a supplied etymological database is correct."
+  },
+  {
+    "id": "W12-0216",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      8
+    ],
+    "finding": "LexStat learns language-specific scoring schemes for multilingual cognate detection.",
+    "formalization_use": "Use a pinned LexStat implementation as a candidate generator and baseline.",
+    "caution": "Do not promote heuristic clusters to premises without provenance and review."
+  },
+  {
+    "id": "P13-4003",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      5
+    ],
+    "finding": "LingPy organizes comparison, alignment, cognacy and evaluation workflows.",
+    "formalization_use": "Interoperate through exported data and certificates rather than reimplementing the whole toolkit in Lean.",
+    "caution": "Tool execution and algorithmic correctness are distinct validation layers."
+  },
+  {
+    "id": "P15-2071",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      5
+    ],
+    "finding": "Orthographic features help discriminate Romance cognates from borrowings.",
+    "formalization_use": "Preserve distinct inherited and borrowed relation types.",
+    "caution": "Writing conventions and the tested language pairs limit transfer to prehistoric data."
+  },
+  {
+    "id": "P16-2097",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1
+    ],
+    "finding": "Similarity networks identify partially cognate morphemes in Sino-Tibetan data.",
+    "formalization_use": "Represent cognacy on morpheme occurrences, not only whole words.",
+    "caution": "A compound can share one inherited component without sharing an entire lexical ancestor."
+  },
+  {
+    "id": "E17-1113",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1
+    ],
+    "finding": "SVMs combine alignment-based cognacy features across typologically diverse wordlists.",
+    "formalization_use": "Include a strong non-neural cognacy baseline.",
+    "caution": "Supervised generalization requires a split that prevents cognate-family leakage."
+  },
+  {
+    "id": "E17-3003",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      4
+    ],
+    "finding": "EDICTOR supports manual segmentation, alignment, cognacy and correspondence inspection.",
+    "formalization_use": "Use an expert-facing editor around a small verified core.",
+    "caution": "An editable judgment needs versioned provenance; the interface does not certify it."
+  },
+  {
+    "id": "P17-1181",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      8
+    ],
+    "finding": "Global rescoring and reranking improve cognate-detection score matrices.",
+    "formalization_use": "Express global consistency constraints separately from pair scores.",
+    "caution": "The operational NLP notion of cognate must be reconciled with strict historical inheritance."
+  },
+  {
+    "id": "D17-1267",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "Dictionary-based cognate discovery combines sound correspondences with semantic representations.",
+    "formalization_use": "Retain gloss evidence and semantic candidates alongside phonological evidence.",
+    "caution": "Semantic embeddings propose comparisons; they cannot establish inherited meaning."
+  },
+  {
+    "id": "N18-2063",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      5
+    ],
+    "finding": "Trees inferred from automatic cognates approach but generally lag expert-annotated inputs.",
+    "formalization_use": "Evaluate cognate detection and phylogeny separately.",
+    "caution": "Expert gold standards can also contain errors and must remain revisable."
+  },
+  {
+    "id": "J19-1004",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      7,
+      8,
+      9,
+      21
+    ],
+    "finding": "Compatible alignment sites form a graph; correspondence inference becomes a clique-cover problem.",
+    "formalization_use": "Verify proposed pattern groups and preserve missing-data alternatives. The prototype proves compatibility need not be transitive.",
+    "caution": "Compatibility requires shared non-gap evidence and no conflicts; connected components are not valid substitutes for cliques."
+  },
+  {
+    "id": "J19-4003",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      33
+    ],
+    "finding": "A broad related-word pipeline covers cognate detection, borrowing discrimination and word production.",
+    "formalization_use": "Separate relation classification from generated-word verification.",
+    "caution": "Orthographic production is not the same task as phonological reconstruction."
+  },
+  {
+    "id": "P19-1627",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "BipSkip and MAPLE provide fast cognate and tree inference for exploration.",
+    "formalization_use": "Treat speed-oriented inference as an interchangeable front end.",
+    "caution": "A MAP tree is a model-dependent estimate, not a proved genealogy."
+  },
+  {
+    "id": "W19-4708",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      3
+    ],
+    "finding": "A stochastic splitting-and-merging model connects markedness with frequency distributions.",
+    "formalization_use": "Provide explicit merger examples and optional probabilistic priors.",
+    "caution": "Inventory-level frequency patterns do not uniquely identify lexical histories."
+  },
+  {
+    "id": "W19-4732",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1
+    ],
+    "finding": "Gaussian processes model covariance between Indo-Aryan sound-change outcomes.",
+    "formalization_use": "Test independence assumptions instead of silently multiplying scores.",
+    "caution": "Posterior predictive adequacy is an empirical property outside the kernel proof."
+  },
+  {
+    "id": "2020.conll-1.38",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "An EM framework jointly estimates cognacy and sound-correspondence parameters.",
+    "formalization_use": "Separate latent variables, observations and update algorithms.",
+    "caution": "Convergence of a fitting procedure would not establish correctness of its linguistic model."
+  },
+  {
+    "id": "2020.lt4hala-1.5",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      8
+    ],
+    "finding": "DiaSim runs ordered sound-change cascades and diagnoses Latin-to-French errors.",
+    "formalization_use": "Prioritize traceable forward derivation and useful mismatch reports.",
+    "caution": "A cascade tuned on observed reflexes needs fresh held-out evaluation."
+  },
+  {
+    "id": "2020.lt4hala-1.12",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      5
+    ],
+    "finding": "Statistical and neural correspondence learners behave differently with data size, ambiguity and direction.",
+    "formalization_use": "Benchmark forward and inverse tasks separately on synthetic and real data.",
+    "caution": "Perfect artificial rules remove several difficulties present in historical evidence."
+  },
+  {
+    "id": "2021.naacl-main.353",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "Supervised neural reconstruction uses a large Romance dataset and analyzes phonological error types.",
+    "formalization_use": "Use withheld attested ancestors as one evaluation track.",
+    "caution": "The authors distinguish this supervised task from the harder work of historical reconstruction."
+  },
+  {
+    "id": "2022.acl-long.99",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "South Asian historical data are often scattered rather than wholly absent.",
+    "formalization_use": "Budget for source reconciliation and language-variety identifiers.",
+    "caution": "Digitization does not automatically yield comparable transcriptions or licenses."
+  },
+  {
+    "id": "2022.acl-long.463",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "Character-distribution change can detect some sound changes through historical spelling.",
+    "formalization_use": "Model spelling as an observation channel over phonology.",
+    "caution": "Orthographic change and sound change must not be equated."
+  },
+  {
+    "id": "2022.sigtyp-1.7",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1
+    ],
+    "finding": "A shared task evaluates missing cognate reflex prediction across standardized families.",
+    "formalization_use": "Reuse transparent splits, baselines and exact task definitions.",
+    "caution": "Predicting a missing daughter word differs from reconstructing an unattested ancestor."
+  },
+  {
+    "id": "2022.sigtyp-1.8",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1
+    ],
+    "finding": "Bayesian phylogenetic ancestral-state methods are adapted to cognate reflex prediction.",
+    "formalization_use": "Make all intermediate cognacy, tree and alignment decisions inspectable.",
+    "caution": "Uncertainty compounds across pipeline stages."
+  },
+  {
+    "id": "2022.sigtyp-1.9",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      8
+    ],
+    "finding": "Transformer and convolutional inpainting models predict missing reflexes from cognate sets.",
+    "formalization_use": "Compare architecture choices without changing the evaluation target.",
+    "caution": "Matrix position and missing-data conventions can encode unintended information."
+  },
+  {
+    "id": "2022.sigtyp-1.10",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      5
+    ],
+    "finding": "A transformer does not consistently outperform the rule-based shared-task baseline.",
+    "formalization_use": "Require simple baselines before adding complex inference machinery.",
+    "caution": "Small sparse datasets can favor simpler methods."
+  },
+  {
+    "id": "2023.acl-long.91",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1
+    ],
+    "finding": "Neural unsupervised reconstruction retains monotonic alignment and controlled underfitting biases.",
+    "formalization_use": "Record alignment monotonicity as an assumption in the model configuration.",
+    "caution": "A monotonic alignment model needs an explicit treatment of metathesis."
+  },
+  {
+    "id": "2023.acl-short.3",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      5
+    ],
+    "finding": "Transformer reconstruction is tested on Romance and Chinese comparative datasets.",
+    "formalization_use": "Use neural predictions as candidate sets, with language-family-specific evaluation.",
+    "caution": "Performance against published labels does not make those labels historical ground truth."
+  },
+  {
+    "id": "2023.emnlp-main.423",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "Cognate Transformer adapts aligned-sequence modeling; pretraining helps scarce-data settings.",
+    "formalization_use": "Add an aligned neural proposer only after deterministic baselines.",
+    "caution": "The reported limitations include metathesis, restricted families and weak small-data performance without pretraining."
+  },
+  {
+    "id": "2023.sigmorphon-1.8",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      5
+    ],
+    "finding": "Jambu combines numerous South Asian etymological sources and tests reflex prediction.",
+    "formalization_use": "Use source-aware imports and retain borrowing annotations.",
+    "caution": "Large dictionary aggregates contain heterogeneous analyses, not a uniform sound-law theory."
+  },
+  {
+    "id": "2023.sigtyp-1.6",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "Trimming gap-heavy alignment sites increases the regularity of inferred correspondence patterns.",
+    "formalization_use": "Save both original and trimmed alignments with an explicit transformation log.",
+    "caution": "Improved regularity can partly result from discarding difficult evidence."
+  },
+  {
+    "id": "2023.sigtyp-1.13",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      5
+    ],
+    "finding": "The cognate-and-derivative shared task separates supervised and unsupervised settings.",
+    "formalization_use": "Keep derivative relations distinct from cognacy in schemas and scores.",
+    "caution": "A benchmark's combined label inventory may differ from comparative-method categories."
+  },
+  {
+    "id": "2024.acl-long.788",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9,
+      10
+    ],
+    "finding": "Bidirectional semisupervised reconstruction benefits from deriving daughters from candidate ancestors.",
+    "formalization_use": "Check reflex derivability as a necessary consistency condition.",
+    "caution": "The authors explicitly lack evidence that model reasoning matches linguists; wrong ancestors can still predict daughters well."
+  },
+  {
+    "id": "2024.eacl-long.58",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "Cognate Transformer frames cognacy as supervised link prediction over alignments.",
+    "formalization_use": "Preserve edge scores and make cluster construction a separate operation.",
+    "caution": "Pairwise links do not automatically define a coherent historical equivalence relation."
+  },
+  {
+    "id": "2024.lrec-main.762",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "Reflex prediction reranks proposed protoforms and improves several benchmark results.",
+    "formalization_use": "Use forward checking to filter or rerank proposals.",
+    "caution": "A better forward score is not sufficient for unique inverse identification."
+  },
+  {
+    "id": "2024.lrec-main.1108",
+    "reading_level": "visual-excerpts",
+    "pdf_pages_examined": [
+      1,
+      10
+    ],
+    "finding": "Graphic and phonetic features distinguish cognates and borrowings in major Romance languages.",
+    "formalization_use": "Audit borrowed, inherited and learned forms separately.",
+    "caution": "The paper identifies oral versus written Latin and restricted language coverage as limitations."
+  },
+  {
+    "id": "2024.scil-1.16",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "Selecting one synonym can change inferred tree topology; alternative encodings retain synonyms.",
+    "formalization_use": "Preserve all attested synonyms and record the sampling policy.",
+    "caution": "A single preferred lexeme per concept is an analytical decision, not neutral preprocessing."
+  },
+  {
+    "id": "2025.acl-long.1432",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      9
+    ],
+    "finding": "Sound-law induction is formulated as programming by examples with LLM-generated programs.",
+    "formalization_use": "Use untrusted program synthesis with a restricted verified checker.",
+    "caution": "Only 85 benchmark instances are reported; unrestricted Python programs can memorize examples and are not sound-law proofs."
+  },
+  {
+    "id": "2026.acl-long.831",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "Ancestor-informed LLM tasks induce sound-change rules and transcribe Chinese dialect pronunciations.",
+    "formalization_use": "Treat executable rule proposals as testable artifacts.",
+    "caution": "Middle Chinese representations and modern dialect prediction do not directly validate Proto-Sino-Tibetan reconstruction."
+  },
+  {
+    "id": "W17-0234",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "finding": "PIE Lexicon already uses ordered foma sound-law scripts to generate Indo-European forms.",
+    "formalization_use": "Acknowledge direct finite-state reconstruction prior art and compare rule semantics.",
+    "caution": "Its Glottal Fricative Theory and reported generation accuracy are project-specific claims; matching encoded data does not establish a unique PIE system."
+  },
+  {
+    "id": "2020.lrec-1.392",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      8
+    ],
+    "finding": "EtymDB-2.0 models fine-grained etymological relationships extracted from Wiktionary.",
+    "formalization_use": "Import typed relations with source/version identifiers.",
+    "caution": "Automatically extracted etymologies require source and philological validation."
+  },
+  {
+    "id": "2020.lrec-1.394",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      5
+    ],
+    "finding": "Sequence labeling predicts missing Romanian cognates and unattested Latin forms.",
+    "formalization_use": "Test gap-filling without converting predictions into attestation records.",
+    "caution": "An unattested predicted word remains a hypothesis."
+  },
+  {
+    "id": "2023.emnlp-main.473",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      9
+    ],
+    "finding": "RoBoCoP supplies a Romance cognate/borrowing database and benchmark.",
+    "formalization_use": "Use borrowing discrimination as a separate measurable task.",
+    "caution": "Dictionary-based labels and language coverage constrain generalization."
+  },
+  {
+    "id": "rankin2003",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      3,
+      5,
+      10,
+      17,
+      23,
+      26
+    ],
+    "finding": "The comparative method includes correspondence classification, complementary distribution, phonetic interpretation and morphology; syntax poses distinct problems.",
+    "formalization_use": "Formalize a sequence of justified judgments and distinguish structural correspondence from phonetic realization.",
+    "caution": "Cognacy, typology and philological interpretation are substantive empirical inputs, not universally decidable facts."
+  },
+  {
+    "id": "jaeger-list2016",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "Computational elaborations split classical work into sequence comparison and language-classification problems within an iterative workflow.",
+    "formalization_use": "Keep cognate proposals, alignments, correspondences and phylogeny as separate interfaces.",
+    "caution": "No one fixed algorithm exhausts the comparative method."
+  },
+  {
+    "id": "list2016-calc",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "An ERC proposal motivates computer-assisted comparison and expert-computational cooperation.",
+    "formalization_use": "Useful project-design context only.",
+    "caution": "This is a proposal, not a research paper; excluded from the 100-work floor."
+  },
+  {
+    "id": "garrett2014",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      4
+    ],
+    "finding": "Sound change includes contested mechanisms; phonologization, analogy and contact must be distinguished.",
+    "formalization_use": "Give each mechanism a separate typed explanation and scope.",
+    "caution": "A deterministic rewrite formalism describes outcomes without by itself explaining actuation."
+  },
+  {
+    "id": "garrett-johnson2011",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      4
+    ],
+    "finding": "The chapter relates directional sound-change biases to production, perception and phonologization.",
+    "formalization_use": "Treat phonetic naturalness as defeasible model preference.",
+    "caution": "A common pathway is not a universal axiom that rules out all other histories."
+  },
+  {
+    "id": "benedict1972",
+    "reading_level": "visual-excerpts",
+    "pdf_pages_examined": [
+      14,
+      18
+    ],
+    "finding": "The classic Conspectus presents a taxonomy separating Chinese, Karen and Tibeto-Burman, with uncertain internal groupings.",
+    "formalization_use": "Version historical taxonomies rather than importing their names as fixed types.",
+    "caution": "Scanned PDF; only selected taxonomy pages were visually examined. Its taxonomy must not be silently treated as current consensus."
+  },
+  {
+    "id": "matisoff1978",
+    "reading_level": "visual-excerpts",
+    "pdf_pages_examined": [
+      8,
+      9,
+      10,
+      11,
+      20
+    ],
+    "finding": "The organic approach connects lexical variation and semantics while acknowledging uncertain higher subgrouping.",
+    "formalization_use": "Preserve semantic variation and competing etymological groupings.",
+    "caution": "Scanned monograph; selected introductory pages examined, not all lexical analyses."
+  },
+  {
+    "id": "matisoff1982",
+    "reading_level": "visual-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      3,
+      4,
+      31,
+      32
+    ],
+    "finding": "The critique distinguishes explanatory insight from symbolization and disputes overfilled protoforms and chronology.",
+    "formalization_use": "Demand explanatory constraints and transparent alternatives in addition to formal derivations.",
+    "caution": "This polemical exchange is evidence about methodological disagreement, not a verdict on every disputed etymology."
+  },
+  {
+    "id": "matisoff1995",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "finding": "Numeral reconstruction involves prefixes, uneven documentary evidence and revised subgroup assumptions.",
+    "formalization_use": "Include numerals as structured morphology with explicit borrowing and source checks.",
+    "caution": "Numerals are not automatically immune to borrowing or analogical replacement."
+  },
+  {
+    "id": "matisoff2003",
+    "reading_level": "access-gap",
+    "pdf_pages_examined": [],
+    "finding": "A major systematic reference for Proto-Tibeto-Burman reconstruction and allofamic variation.",
+    "formalization_use": "Required reference for future detailed model comparison; publisher description and scholarly reviews supply context here.",
+    "caution": "Full PDF acquisition failed; the book is not counted or claimed as directly read."
+  },
+  {
+    "id": "vanbik2009",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      7,
+      9
+    ],
+    "finding": "A substantial lower-level reconstruction separates Kuki-Chin, Central Chin, Northern Chin and Maraic sets.",
+    "formalization_use": "Use a bounded subgroup pilot with taxonomic level stored for every protoform.",
+    "caution": "A subgroup reconstruction is not a reconstruction of the whole Sino-Tibetan ancestor."
+  },
+  {
+    "id": "button2011",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      5
+    ],
+    "finding": "Northern Chin reconstruction combines internal evidence with Old Burmese and Old Chinese comparisons.",
+    "formalization_use": "Compare alternative evidence paths without merging their assumptions.",
+    "caution": "External comparisons and broader two-vowel hypotheses require separate validation."
+  },
+  {
+    "id": "namkung1996",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      8
+    ],
+    "finding": "The inventory reference documents language-specific transcription systems and phonetic interpretations.",
+    "formalization_use": "Build explicit transcription adapters before comparing segment strings.",
+    "caution": "The introductory count and the later website description differ; this study does not harmonize them into a false exact count."
+  },
+  {
+    "id": "jacques-halshs-00408281",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "Secondary Tibetan -wa from syllable fusion is proposed to reconcile apparent counterexamples to monophthongization.",
+    "formalization_use": "Test chronological layers and coalescence rather than exempting individual words.",
+    "caution": "Observed -wa and reconstructed *-wa need not belong to the same historical stage."
+  },
+  {
+    "id": "jacques-halshs-03507197",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      12
+    ],
+    "finding": "A review of Hill stresses contact, philological detail, analogy and unresolved correspondences.",
+    "formalization_use": "Maintain multiple models and mark explicitly unexplained residues.",
+    "caution": "The author praises methodological progress without endorsing a single completed Proto-Trans-Himalayan reconstruction."
+  },
+  {
+    "id": "jacques-halshs-00351738",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      9
+    ],
+    "finding": "Tangut vowel alternations are analyzed through coalescence with a third-person patient suffix.",
+    "formalization_use": "Model paradigms and morpheme boundaries before applying phonology.",
+    "caution": "Similar surface alternations can reflect different historical morphological structures."
+  },
+  {
+    "id": "jacques-halshs-00173948",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      17
+    ],
+    "finding": "A comparative morphology manuscript argues against treating tonal isolating typology as necessarily ancestral.",
+    "formalization_use": "Keep synchronic typology separate from hypotheses about proto-morphology.",
+    "caution": "Conference manuscript; reconstruction depends on better-established sound correspondences."
+  },
+  {
+    "id": "jacques-halshs-00610385",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      20
+    ],
+    "finding": "Tangut verbal templates can resemble Rgyalrong through independent grammaticalization.",
+    "formalization_use": "Represent inherited structure and parallel innovation as different hypotheses.",
+    "caution": "Structural resemblance alone is insufficient to infer common inherited templates."
+  },
+  {
+    "id": "jacques-hal-05215238",
+    "reading_level": "visual-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "Old Chinese tonal derivation is compared with diverse suffixes in morphologically rich Trans-Himalayan languages.",
+    "formalization_use": "Allow several historical sources for one later tonal distinction.",
+    "caution": "Chinese-language paper; first substantive page visually checked because text extraction damages characters."
+  },
+  {
+    "id": "jacques-halshs-01566036",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      13
+    ],
+    "finding": "Several historical suffixes are proposed behind Old Chinese departing-tone derivation.",
+    "formalization_use": "Keep homophonous suffixes and their functions distinct in reconstruction.",
+    "caution": "The comparisons differ in strength; a single modern reflex need not imply one proto-morpheme."
+  },
+  {
+    "id": "jacques-halshs-01486954",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      21
+    ],
+    "finding": "Khaling tone alternations partly follow coda loss and syllable reduction, with a remaining unexplained residue.",
+    "formalization_use": "Represent tone as structured data and preserve residual failures.",
+    "caution": "Do not manufacture an exceptionless account by deleting unexplained paradigm cells."
+  },
+  {
+    "id": "jacques-halshs-00605893",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      30
+    ],
+    "finding": "Multiple diachronic pathways can yield aspirated fricatives, including Pumi evidence.",
+    "formalization_use": "Use phonetic-feature models with multiple permitted histories.",
+    "caution": "A feature analysis or typological pathway is not a unique inverse reconstruction."
+  },
+  {
+    "id": "jacques-halshs-03926631",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      19
+    ],
+    "finding": "Historical sound glosses bear on Old Chinese morphology and syntax.",
+    "formalization_use": "Attach dated gloss evidence to phonological analyses and syntactic claims.",
+    "caution": "Later glosses are mediated observations with their own phonological systems."
+  },
+  {
+    "id": "jacques-halshs-01244869",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      29
+    ],
+    "finding": "Japhug causative and abilitative derivations motivate grammaticalization hypotheses relevant to Sino-Tibetan prefixes.",
+    "formalization_use": "Distinguish a shared-looking prefix from the history of its functions.",
+    "caution": "Consensus about a prefix does not remove uncertainty about its origin and development."
+  },
+  {
+    "id": "jacques-halshs-01287468",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      5
+    ],
+    "finding": "The *sr- comparison is reassessed with philological exclusions and an additional etymology.",
+    "formalization_use": "A small explicit cluster correspondence makes a useful cross-branch pilot.",
+    "caution": "Rejecting weak comparisons is as important as collecting supporting examples."
+  },
+  {
+    "id": "jacques2012-internal",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "finding": "Tibetan stem alternations are explained by hypothetical directional prefixes and ordered sound changes.",
+    "formalization_use": "Represent internal reconstruction as a separate source of constraints and coindexed alternatives.",
+    "caution": "Several prefix shapes remain underdetermined; comparison with Rgyalrong is not identity of historical systems."
+  },
+  {
+    "id": "jacques2012-agreement",
+    "reading_level": "visual-excerpts",
+    "pdf_pages_examined": [
+      1
+    ],
+    "finding": "Rgyalrongic and Kiranti agreement are compared amid competing inheritance and innovation accounts.",
+    "formalization_use": "Use paradigmatic evidence with explicit comparison units.",
+    "caution": "Scanned article; the first-page argument was examined, not the full proof of each morphological comparison."
+  },
+  {
+    "id": "sagart-halshs-00103359",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "Intransitive nasal prefixation is compared across Sino-Tibetan languages.",
+    "formalization_use": "Require prefix segmentation and derivational-function evidence.",
+    "caution": "Matching nasal segments without morphology does not establish one inherited prefix."
+  },
+  {
+    "id": "sagart-halshs-00094374",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      15
+    ],
+    "finding": "The HPTB review asks for explicit, testable correspondences while recognizing useful rhyme reconstruction.",
+    "formalization_use": "Make every correspondence retrievable and testable against counterexamples.",
+    "caution": "A critical review does not substitute for direct inspection of the reviewed monograph; excluded from the conservative count."
+  },
+  {
+    "id": "sagart-hal-03099839",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "A 250-concept Old Chinese list retains 301 forms because some concepts have competing lexical candidates.",
+    "formalization_use": "Preserve multiple lexemes and identify the Baxter-Sagart reconstruction version.",
+    "caution": "Old Chinese reconstructed forms are analyses, even when the underlying written words are attested."
+  },
+  {
+    "id": "sagart-hal-00780992",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "A reply continues the disagreement over the testability of HPTB comparisons.",
+    "formalization_use": "Archive disagreements at the level of particular claims and assumptions.",
+    "caution": "A short methodological reply is excluded from the conservative 100-work count."
+  },
+  {
+    "id": "sagart-hal-03892358",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "finding": "The sketch distinguishes rhyme, script, Middle Chinese, loanword and dialect evidence for Old Chinese.",
+    "formalization_use": "Keep observation types separate from a selected phonological reconstruction system.",
+    "caution": "Baxter-Sagart is the sketch's adopted analysis, not a theory-independent transcription of Old Chinese speech."
+  },
+  {
+    "id": "sagart-hal-00781153",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      29
+    ],
+    "finding": "Competing accounts of *s- prefix effects differ on voicing, sonorants and derivational functions.",
+    "formalization_use": "Build separately named rule sets and compare their predicted reflexes.",
+    "caution": "A formally consistent system can still compete with a different consistent analysis."
+  },
+  {
+    "id": "kloekhorst2006-laryngeals",
+    "reading_level": "visual-excerpts",
+    "pdf_pages_examined": [
+      1,
+      3
+    ],
+    "finding": "Initial laryngeal reflexes interact with syllabification and paradigmatic remodeling in Anatolian.",
+    "formalization_use": "Use environment-specific and paradigm-aware laryngeal case studies.",
+    "caution": "Scanned two-page spreads; selected examples do not establish a universal Hittite laryngeal rule."
+  },
+  {
+    "id": "kloekhorst2011-weise",
+    "reading_level": "visual-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      3,
+      4,
+      7
+    ],
+    "finding": "The work targets the conditioning of Sanskrit palatovelar depalatalization before r.",
+    "formalization_use": "Reserve a named-law dossier for context and chronology tests.",
+    "caution": "The article examines conditioning and apparent counterexamples; selected scanned pages were inspected, not every etymology."
+  },
+  {
+    "id": "kloekhorst2013-ablaut",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "Anatolian evidence is used to compare competing nominal accent-ablaut reconstructions.",
+    "formalization_use": "Represent accent, stem, suffix and ending as separate structured components.",
+    "caution": "Do not encode one contested paradigm theory as the definition of PIE morphology."
+  },
+  {
+    "id": "kloekhorst2014-thorn",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "Anatolian and Tocharian evidence changes the analysis of thorn correspondences toward dental-velar clusters and metathesis.",
+    "formalization_use": "Include a bounded metathesis extension after local substitution/deletion.",
+    "caution": "Simple monotonic segment alignment cannot represent every proposed correspondence history."
+  },
+  {
+    "id": "kloekhorst2016-stops",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      28
+    ],
+    "finding": "A length-based Anatolian stop interpretation motivates an Indo-Hittite reconstruction argument.",
+    "formalization_use": "Separate observed spellings from phonetic interpretation and phylogenetic conclusions.",
+    "caution": "The direction of typological reasoning is a scholarly hypothesis, not a Lean axiom."
+  },
+  {
+    "id": "kloekhorst2017-aspect",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "Old Hittite narrative aspect is compared with competing accounts of early PIE verbal categories.",
+    "formalization_use": "Add morphological and semantic category reconstruction only with explicit textual evidence.",
+    "caution": "An interpretive tense-aspect proposal requires more than sound-string derivations."
+  },
+  {
+    "id": "kloekhorst2018-hi",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      5
+    ],
+    "finding": "The origin of Hittite hi-conjugation is debated through perfect and h2e-conjugation theories.",
+    "formalization_use": "Treat rival morphological histories as alternative model packages.",
+    "caution": "The common mi-conjugation comparison does not settle the contested hi-conjugation."
+  },
+  {
+    "id": "kloekhorst2022-anatolian",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "A branch overview situates Anatolian languages, attestation and subgroup evidence.",
+    "formalization_use": "Use it to define the scope and dates of an Anatolian pilot.",
+    "caution": "Also contained in the downloaded Olander volume; this separate PDF is not counted as an additional work."
+  },
+  {
+    "id": "kloekhorst2023-split",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "The chapter links linguistic arguments for the Anatolian split with migration and ancient-DNA debates.",
+    "formalization_use": "Keep linguistic derivations separate from archaeological and demographic arguments.",
+    "caution": "Genetic populations and reconstructed speech communities are not interchangeable formal objects."
+  },
+  {
+    "id": "kloekhorst2024-law",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      10
+    ],
+    "finding": "A proposed pre-PIE final em-to-om law is evaluated against morphology, counterexamples and chronology.",
+    "formalization_use": "Use a disputed law as a model-comparison test, preserving its exceptions and assumptions.",
+    "caution": "This is a proposal to be tested, not settled background for all PIE derivations."
+  },
+  {
+    "id": "iecor2025",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      3,
+      12,
+      20
+    ],
+    "finding": "IE-CoR distinguishes cognate relations, borrowing, morphological complexity and disagreements about protoforms.",
+    "formalization_use": "Use source-rich cognate data without presuming a unique reconstructed string.",
+    "caution": "The paper's abstract and body differ on total lexeme count; pin a dataset release and compute counts from files."
+  },
+  {
+    "id": "olandervol2022",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      7,
+      19,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "finding": "Methodological and branch chapters distinguish shared innovation, retention, contact and limits of cladistics.",
+    "formalization_use": "Anchor the PIE pilot in multiple authors and compare explicit chronologies.",
+    "caution": "The full book is retained, but selected introduction, methodology and cladistics passages were studied, not all chapters."
+  },
+  {
+    "id": "moura2015",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      4
+    ],
+    "finding": "Lean's small trusted kernel checks explicit proofs while automation constructs them.",
+    "formalization_use": "Place untrusted inference outside a proof-producing boundary.",
+    "caution": "This describes an earlier Lean generation; implementation guidance must use the pinned Lean 4 release."
+  },
+  {
+    "id": "moura-ullrich2021",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      9
+    ],
+    "finding": "Lean 4 integrates an extensible prover with a functional programming language.",
+    "formalization_use": "Use executable definitions with proved correspondence to declarative semantics.",
+    "caution": "Extensible elaboration and compiled execution are not automatically part of a trusted proof."
+  },
+  {
+    "id": "mathlib2020",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      13
+    ],
+    "finding": "Mathlib's shared abstractions and automation support a reusable formal library.",
+    "formalization_use": "Reuse established finite sets, relations, graphs and automata where APIs fit.",
+    "caution": "Historical architecture descriptions are not guarantees about current module names."
+  },
+  {
+    "id": "vandoorn2020",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      14
+    ],
+    "finding": "Maintenance and linting address errors and usability beyond logical consistency.",
+    "formalization_use": "Audit theorem statements, dependencies and documentation in CI.",
+    "caution": "A kernel-accepted theorem can still formalize an unintended or vacuous statement."
+  },
+  {
+    "id": "baanen2022",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      18
+    ],
+    "finding": "Typeclass design has tradeoffs involving bundled structures, inference and hierarchy complexity.",
+    "formalization_use": "Pass empirical reconstructions as explicit parameters, not globally inferred instances.",
+    "caution": "Competing historical assumptions should not be selected invisibly by typeclass search."
+  },
+  {
+    "id": "growingmathlib2025",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      17
+    ],
+    "finding": "Deprecation, linting and review tools help maintain a growing formal library.",
+    "formalization_use": "Pin dependencies, budget migrations and keep a small stable public interface.",
+    "caution": "Library growth and upstream changes impose ongoing engineering costs."
+  },
+  {
+    "id": "doczkal2013",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      16
+    ],
+    "finding": "Coq formalizations connect regular expressions, automata and decidable equivalence constructively.",
+    "formalization_use": "Borrow proof architecture for verified finite-state compilation and counterexamples.",
+    "caution": "A formalization of acceptors does not immediately supply two-tape transducers."
+  },
+  {
+    "id": "paulson2015",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      14
+    ],
+    "finding": "Isabelle/HOL formalizes automata using hereditarily finite sets to manage state constructions.",
+    "formalization_use": "Compare state-representation choices before committing to transducer infrastructure.",
+    "caution": "The set-theoretic representation is a design alternative, not a directly importable Lean module."
+  },
+  {
+    "id": "nipkow2013",
+    "reading_level": "access-gap",
+    "pdf_pages_examined": [],
+    "finding": "A verified MSO-on-words decision procedure is relevant to future logical transduction work.",
+    "formalization_use": "Record as related work requiring direct acquisition before technical reliance.",
+    "caution": "Download failed; not counted and not claimed as read."
+  },
+  {
+    "id": "mohri1997",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      37
+    ],
+    "finding": "Sequential transducers and weighted determinization have specific applicability conditions.",
+    "formalization_use": "State determinization hypotheses and distinguish functions from relations.",
+    "caution": "Not every finite-state relation is a deterministic sequential function."
+  },
+  {
+    "id": "mohri2009",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      38
+    ],
+    "finding": "Weighted automata algorithms depend on semiring structure and algorithm-specific conditions.",
+    "formalization_use": "Start with Boolean or finite rational cases before infinite weighted-path sums.",
+    "caution": "Composition, epsilon behavior and path multiplicity require explicit treatment."
+  },
+  {
+    "id": "mohri-riley2016",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      22
+    ],
+    "finding": "Weighted disambiguation has sufficient applicability conditions, including a weak twins property in the tropical case.",
+    "formalization_use": "Require an applicability certificate before using a transformation as semantics-preserving.",
+    "caution": "Termination and correctness do not hold without the stated restrictions."
+  },
+  {
+    "id": "list2014",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      5,
+      6,
+      96,
+      105,
+      128,
+      231,
+      235
+    ],
+    "finding": "Sequence comparison requires precise alignment objectives; pairwise and multiple alignment differ computationally.",
+    "formalization_use": "Formalize alignment validity first, and prove optimality only for a specified algorithm and scoring scheme.",
+    "caution": "An optimal edit alignment can remain linguistically implausible; heuristics and analysis must stay distinct."
+  },
+  {
+    "id": "bouchardcote2013",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "Probabilistic models reconstruct Austronesian protoforms at large scale and compare with expert reconstructions.",
+    "formalization_use": "Use model-based reconstruction as a serious baseline and source of candidates.",
+    "caution": "Distance to an expert reconstruction measures agreement with that analysis, not direct access to ancient speech."
+  },
+  {
+    "id": "sagart2019",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "A curated Sino-Tibetan cognate database supports dated phylogenetic inference.",
+    "formalization_use": "Keep cognacy coding, topology and dating priors as separately versioned artifacts.",
+    "caution": "A dated tree is not a completed phonological reconstruction of the root language."
+  },
+  {
+    "id": "chang2015",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      4
+    ],
+    "finding": "Ancestry constraints and coding choices affect Indo-European phylogenetic dating.",
+    "formalization_use": "Include sensitivity analysis for sampled ancestors and lexical coding.",
+    "caution": "This paper and Heggarty et al. use different assumptions; their conclusions must not be merged into a single proved homeland."
+  },
+  {
+    "id": "heggarty2023",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      20
+    ],
+    "finding": "Sampled-ancestor phylogenies support a proposed hybrid account of Indo-European origins.",
+    "formalization_use": "Compare assumptions and data with ancestry-constrained alternatives.",
+    "caution": "The downloaded author manuscript has a different title from the final article; geographic conclusions are model-dependent."
+  },
+  {
+    "id": "ringe2002",
+    "reading_level": "screened-decoded-abstract",
+    "pdf_pages_examined": [
+      1
+    ],
+    "finding": "Perfect-phylogeny-based cladistics uses explicit character coding to study Indo-European subgrouping.",
+    "formalization_use": "Specify character validity and tree compatibility independently.",
+    "caution": "The phylogenetic target is distinct from reconstructing word forms; decoding PDF glyph names was needed for the abstract."
+  },
+  {
+    "id": "nakhleh2005-networks",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      26
+    ],
+    "finding": "Phylogenetic networks extend trees with contact edges and fit an Indo-European character dataset.",
+    "formalization_use": "Provide a future inheritance/contact graph layer with typed edges.",
+    "caution": "An optimized contact network is conditional on character coding and optimization criteria."
+  },
+  {
+    "id": "barbancon2013",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      3,
+      22
+    ],
+    "finding": "Simulation compares linguistic phylogenetic reconstruction methods under controlled scenarios.",
+    "formalization_use": "Use synthetic histories with known latent structure as one evaluation track.",
+    "caution": "Simulation accuracy depends on how realistic the generating process is."
+  },
+  {
+    "id": "erdem2003",
+    "reading_level": "visual-excerpts",
+    "pdf_pages_examined": [
+      1
+    ],
+    "finding": "Answer set programming searches for a small number of contact edges on a phylogenetic tree.",
+    "formalization_use": "Use solver-produced witnesses checked by an independent formal verifier.",
+    "caution": "Solver output is not itself a Lean proof, and minimality needs additional evidence."
+  },
+  {
+    "id": "evans-warnow2004",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      11
+    ],
+    "finding": "A rates-across-sites model can make different divergence times observationally indistinguishable.",
+    "formalization_use": "Treat identifiability as a theorem obligation rather than assuming more data settles every parameter.",
+    "caution": "The result concerns a particular statistical model, not a universal impossibility theorem for linguistic dating."
+  },
+  {
+    "id": "braibant-pous2012",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      36
+    ],
+    "finding": "A proved reflective Coq tactic decides Kleene-algebra equations and returns counterexamples.",
+    "formalization_use": "Emulate reflection and counterexample-producing checking for a restricted sound-rule language.",
+    "caution": "A substantial algebraic formalization is needed; this is not an off-the-shelf Lean transducer checker."
+  },
+  {
+    "id": "kaplan-kay1994",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      46
+    ],
+    "finding": "Restricted ordered phonological rewriting and two-level constraints admit finite-state treatments.",
+    "formalization_use": "Define application semantics first, then prove compilation for a restricted fragment.",
+    "caution": "Self-feeding and unrestricted rewriting need care; inverse relations can be ambiguous even when forward rules are deterministic."
+  },
+  {
+    "id": "chandlee2014",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      168
+    ],
+    "finding": "Input/output strictly local functions capture several local phonological processes and support learnability results.",
+    "formalization_use": "Choose a small input-local fragment and make locality bounds explicit.",
+    "caution": "Locality is a restriction to justify and test, not a claim that all historical changes fit one fragment."
+  },
+  {
+    "id": "koskenniemi1983",
+    "reading_level": "access-gap",
+    "pdf_pages_examined": [],
+    "finding": "Two-level morphology is foundational background for relation-based phonological descriptions.",
+    "formalization_use": "Track as an acquisition gap; Kaplan and Kay supply directly examined related formal analysis.",
+    "caution": "The full original book was not downloaded or read here."
+  },
+  {
+    "id": "forkel2018-cldf",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "CLDF provides interoperable tabular formats, reference vocabularies and validation.",
+    "formalization_use": "Use CLDF as interchange while adding proof and provenance metadata.",
+    "caution": "Syntactically valid CLDF does not ensure accurate cognacy or phonology."
+  },
+  {
+    "id": "list2022-lexibank",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2
+    ],
+    "finding": "Lexibank standardizes heterogeneous wordlists and derives reusable features.",
+    "formalization_use": "Pin dataset versions and preserve original versus normalized transcriptions.",
+    "caution": "Standardization can lose distinctions unless transformation records remain available."
+  },
+  {
+    "id": "2024.sigtyp-1.11",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      8
+    ],
+    "finding": "Sound-correspondence-based phylogenies do not consistently beat cognate-based ones on the examined datasets.",
+    "formalization_use": "Evaluate the value of each evidence type rather than presuming phonological input improves every tree.",
+    "caution": "A more detailed representation can still perform worse under a particular inference model."
+  },
+  {
+    "id": "2022.lchange-1.9",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      5
+    ],
+    "finding": "Trimmed alignments and correspondence patterns support fast supervised reconstruction.",
+    "formalization_use": "Adopt a transparent correspondence-based baseline before neural extensions.",
+    "caution": "Training reconstructions are supplied labels, not independently verified ancestors."
+  },
+  {
+    "id": "2023.lchange-1.3",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      9
+    ],
+    "finding": "Fuzzy protoforms represent alternatives; the paper explicitly warns that position-wise alternatives take a Cartesian product.",
+    "formalization_use": "Preserve joint candidate sets or coindexed constraints; the prototype exhibits spurious hybrid forms.",
+    "caution": "Agreement across perturbed predictors is a stability measure, not a calibrated posterior probability."
+  },
+  {
+    "id": "2024.lchange-1.1",
+    "reading_level": "screened-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      9
+    ],
+    "finding": "EDICTOR 3 integrates automated proposals with manual annotation and inspection.",
+    "formalization_use": "Design exportable, editable dossiers around the verified core.",
+    "caution": "An integrated workflow still needs a boundary between observed evidence and revised analyses."
+  },
+  {
+    "id": "fellner-hill2023",
+    "reading_level": "web-excerpts-only",
+    "pdf_pages_examined": [],
+    "finding": "A methodological response argues that reconstructions in the two families have different evidential maturity.",
+    "formalization_use": "Avoid assuming that a PIE-oriented method transfers unchanged to Trans-Himalayan data.",
+    "caution": "Web PDF abstract examined; filesystem download denied, so not counted as a retained PDF."
+  },
+  {
+    "id": "lai2022",
+    "reading_level": "web-excerpts-only",
+    "pdf_pages_examined": [],
+    "finding": "A proposed analysis links West Gyalrongic lenition with stress and compression in monosyllabicization.",
+    "formalization_use": "Consider stress and intermediate stages in a later Sino-Tibetan rule extension.",
+    "caution": "Only web-indexed introductory passages examined; download denied and metadata needs final publication verification."
+  },
+  {
+    "id": "garrett-blevins2009",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      4
+    ],
+    "finding": "Morphophonological patterns can arise through analogy and become restricted to parts of paradigms.",
+    "formalization_use": "Represent analogical replacement with its paradigm and model form, not as an arbitrary lexical exception.",
+    "caution": "The same synchronic mapping can have distinct historical origins."
+  },
+  {
+    "id": "garrett2012-syntax",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      4
+    ],
+    "finding": "Reanalysis alone can restate rather than explain syntactic change; analogy and grammaticalization provide alternative accounts.",
+    "formalization_use": "Keep syntactic reconstruction a separately motivated extension with its own evidence.",
+    "caution": "A verified tree transformation is not an explanation of historical directionality."
+  },
+  {
+    "id": "J94-3004",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      10,
+      12,
+      20,
+      25,
+      27,
+      28,
+      29,
+      30,
+      31,
+      33
+    ],
+    "finding": "The Reconstruction Engine already implements bidirectional comparison with contextual correspondences, syllable structure, semantic filtering and controlled imprecision.",
+    "formalization_use": "Use this as direct prior art for a verified reconstruction checker, including its explicit residual class and distinction between correspondence and rule.",
+    "caution": "A computer implementation is not a machine-checked correctness proof; user-supplied semantic and correspondence assumptions remain substantive."
+  },
+  {
+    "id": "meelen-hill-fellner2022",
+    "reading_level": "focused-excerpts",
+    "pdf_pages_examined": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      10,
+      12,
+      13,
+      14,
+      20,
+      25,
+      27,
+      28,
+      29,
+      30
+    ],
+    "finding": "The paper proposes diagnostics and a graded typology of cognacy based on phonological form, morphology, meaning and function.",
+    "formalization_use": "Specify the unit and level of cognacy; keep candidate comparisons distinct from judgments relative to a changing correspondence system.",
+    "caution": "The proposed categories and semantic measures are methodological proposals, not a universally accepted decidable definition of historical inheritance."
+  }
+]

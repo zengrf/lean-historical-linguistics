@@ -1,0 +1,22 @@
+'Comparative.run_append' does not depend on any axioms
+'Comparative.derives_iff_run' does not depend on any axioms
+'Comparative.checkTrace_sound' depends on axioms: [propext]
+'Comparative.checkTrace_complete' depends on axioms: [propext]
+'Comparative.fits_mono' does not depend on any axioms
+'Comparative.fits_of_equivalent' does not depend on any axioms
+'Comparative.mem_reconstruct_iff' depends on axioms: [propext]
+'Comparative.reconstruction_correct' depends on axioms: [propext]
+'Comparative.reconstruct_mono' depends on axioms: [propext]
+'Comparative.Examples.rule_order_matters' does not depend on any axioms
+'Comparative.Examples.valid_certificate' does not depend on any axioms
+'Comparative.Examples.corrupted_certificate_rejected' does not depend on any axioms
+'Comparative.Examples.missing_step_rejected' does not depend on any axioms
+'Comparative.Examples.extra_step_rejected' does not depend on any axioms
+'Comparative.Examples.distinct_protoforms' does not depend on any axioms
+'Comparative.Examples.merger_ambiguity' does not depend on any axioms
+'Comparative.Examples.finite_reconstruction_keeps_ambiguity' does not depend on any axioms
+'Comparative.Examples.fits_checker_reflects' depends on axioms: [propext, Quot.sound]
+'Comparative.Patterns.compatible_is_not_transitive' does not depend on any axioms
+'Comparative.Patterns.missing_is_not_gap' does not depend on any axioms
+'Comparative.Patterns.missing_alone_is_not_support' does not depend on any axioms
+'Comparative.Patterns.independent_choices_overgenerate' depends on axioms: [propext, Quot.sound]

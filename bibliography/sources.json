@@ -1,0 +1,2843 @@
+[
+  {
+    "id": "D07-1093",
+    "title": "A Probabilistic Approach to Diachronic Phonology",
+    "authors": [
+      "Alexandre Bouchard",
+      "Percy Liang",
+      "Thomas Griffiths",
+      "Dan Klein"
+    ],
+    "year": "2007",
+    "abstract": "",
+    "doi": null,
+    "venue": "Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (",
+    "url": "https://aclanthology.org/D07-1093/",
+    "pdf_url": "https://aclanthology.org/D07-1093.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC-SA 3.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "N09-1008",
+    "title": "Improved Reconstruction of Protolanguage Word Forms",
+    "authors": [
+      "Alexandre Bouchard-Côté",
+      "Thomas L. Griffiths",
+      "Dan Klein"
+    ],
+    "year": "2009",
+    "abstract": "",
+    "doi": null,
+    "venue": "Proceedings of Human Language Technologies: The 2009 Annual Conference of the North ",
+    "url": "https://aclanthology.org/N09-1008/",
+    "pdf_url": "https://aclanthology.org/N09-1008.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC-SA 3.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "P10-1105",
+    "title": "Finding Cognate Groups Using Phylogenies",
+    "authors": [
+      "David Hall",
+      "Dan Klein"
+    ],
+    "year": "2010",
+    "abstract": "",
+    "doi": null,
+    "venue": "Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics",
+    "url": "https://aclanthology.org/P10-1105/",
+    "pdf_url": "https://aclanthology.org/P10-1105.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC-SA 3.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "D11-1032",
+    "title": "Large-Scale Cognate Recovery",
+    "authors": [
+      "David Hall",
+      "Dan Klein"
+    ],
+    "year": "2011",
+    "abstract": "",
+    "doi": null,
+    "venue": "Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing",
+    "url": "https://aclanthology.org/D11-1032/",
+    "pdf_url": "https://aclanthology.org/D11-1032.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC-SA 3.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "W05-0606",
+    "title": "Computing Word Similarity and Identifying Cognates with Pair Hidden Markov Models",
+    "authors": [
+      "Wesley Mackay",
+      "Grzegorz Kondrak"
+    ],
+    "year": "2005",
+    "abstract": "",
+    "doi": null,
+    "venue": "Proceedings of the Ninth Conference on Computational Natural Language Learning (",
+    "url": "https://aclanthology.org/W05-0606/",
+    "pdf_url": "https://aclanthology.org/W05-0606.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC-SA 3.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "W07-1303",
+    "title": "Bayesian Identification of Cognates and Correspondences",
+    "authors": [
+      "T. Mark Ellison"
+    ],
+    "year": "2007",
+    "abstract": "",
+    "doi": null,
+    "venue": "Proceedings of Ninth Meeting of the ",
+    "url": "https://aclanthology.org/W07-1303/",
+    "pdf_url": "https://aclanthology.org/W07-1303.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC-SA 3.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true,
+    "text_quality_note": "Embedded font encoding impairs extraction; see reading notes for visual/alternative extraction scope."
+  },
+  {
+    "id": "W11-4634",
+    "title": "Probabilistic Models for Alignment of Etymological Data",
+    "authors": [
+      "Hannes Wettig",
+      "Roman Yangarber"
+    ],
+    "year": "2011",
+    "abstract": "",
+    "doi": null,
+    "venue": "Proceedings of the 18th Nordic Conference of Computational Linguistics (",
+    "url": "https://aclanthology.org/W11-4634/",
+    "pdf_url": "https://aclanthology.org/W11-4634.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "No redistribution permission established; retained locally only",
+    "redistribute": false,
+    "source_provider": "ACL Anthology",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "W12-0215",
+    "title": "Using context and phonetic features in models of etymological sound change",
+    "authors": [
+      "Hannes Wettig",
+      "Kirill Reshetnikov",
+      "Roman Yangarber"
+    ],
+    "year": "2012",
+    "abstract": "",
+    "doi": null,
+    "venue": "Proceedings of the ",
+    "url": "https://aclanthology.org/W12-0215/",
+    "pdf_url": "https://aclanthology.org/W12-0215.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC-SA 3.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "W12-0216",
+    "title": "LexStat: Automatic Detection of Cognates in Multilingual Wordlists",
+    "authors": [
+      "Johann-Mattis List"
+    ],
+    "year": "2012",
+    "abstract": "",
+    "doi": null,
+    "venue": "Proceedings of the ",
+    "url": "https://aclanthology.org/W12-0216/",
+    "pdf_url": "https://aclanthology.org/W12-0216.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC-SA 3.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "P13-4003",
+    "title": "An Open Source Toolkit for Quantitative Historical Linguistics",
+    "authors": [
+      "Johann-Mattis List",
+      "Steven Moran"
+    ],
+    "year": "2013",
+    "abstract": "",
+    "doi": null,
+    "venue": "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics: System Demonstrations",
+    "url": "https://aclanthology.org/P13-4003/",
+    "pdf_url": "https://aclanthology.org/P13-4003.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC-SA 3.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "P15-2071",
+    "title": "Automatic Discrimination between Cognates and Borrowings",
+    "authors": [
+      "Alina Maria Ciobanu",
+      "Liviu P. Dinu"
+    ],
+    "year": "2015",
+    "abstract": "",
+    "doi": "10.3115/v1/P15-2071",
+    "venue": "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+    "url": "https://aclanthology.org/P15-2071/",
+    "pdf_url": "https://aclanthology.org/P15-2071.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC-SA 3.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "P16-2097",
+    "title": "Using Sequence Similarity Networks to Identify Partial Cognates in Multilingual Wordlists",
+    "authors": [
+      "Johann-Mattis List",
+      "Philippe Lopez",
+      "Eric Bapteste"
+    ],
+    "year": "2016",
+    "abstract": "",
+    "doi": "10.18653/v1/P16-2097",
+    "venue": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    "url": "https://aclanthology.org/P16-2097/",
+    "pdf_url": "https://aclanthology.org/P16-2097.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "E17-1113",
+    "title": "Using support vector machines and state-of-the-art algorithms for phonetic alignment to identify cognates in multi-lingual wordlists",
+    "authors": [
+      "Gerhard Jäger",
+      "Johann-Mattis List",
+      "Pavel Sofroniev"
+    ],
+    "year": "2017",
+    "abstract": "Most current approaches in phylogenetic linguistics require as input multilingual word lists partitioned into sets of etymologically related words (cognates). Cognate identification is so far done manually by experts, which is time consuming and as of yet only available for a small number of well-studied language families. Automatizing this step will greatly expand the empirical scope of phylogenetic methods in linguistics, as raw wordlists (in phonetic transcription) are much easier to obtain than wordlists in which cognate words have been fully identified and annotated, even for under-studied languages. A couple of different methods have been proposed in the past, but they are either disappointing regarding their performance or not applicable to larger datasets. Here we present a new approach that uses support vector machines to unify different state-of-the-art methods for phonetic alignment and cognate detection within a single framework. Training and evaluating these method on a typologically broad collection of gold-standard data shows it to be superior to the existing state of the art.",
+    "doi": null,
+    "venue": "Proceedings of the 15th Conference of the ",
+    "url": "https://aclanthology.org/E17-1113/",
+    "pdf_url": "https://aclanthology.org/E17-1113.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "E17-3003",
+    "title": "A Web-Based Interactive Tool for Creating, Inspecting, Editing, and Publishing Etymological Datasets",
+    "authors": [
+      "Johann-Mattis List"
+    ],
+    "year": "2017",
+    "abstract": "The paper presents the Etymological DICtionary ediTOR (EDICTOR), a free, interactive, web-based tool designed to aid historical linguists in creating, editing, analysing, and publishing etymological datasets. The EDICTOR offers interactive solutions for important tasks in historical linguistics, including facilitated input and segmentation of phonetic transcriptions, quantitative and qualitative analyses of phonetic and morphological data, enhanced interfaces for cognate class assignment and multiple word alignment, and automated evaluation of regular sound correspondences. As a web-based tool written in JavaScript, the EDICTOR can be used in standard web browsers across all major platforms.",
+    "doi": null,
+    "venue": "Proceedings of the Software Demonstrations of the 15th Conference of the ",
+    "url": "https://aclanthology.org/E17-3003/",
+    "pdf_url": "https://aclanthology.org/E17-3003.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "P17-1181",
+    "title": "Using Global Constraints and Reranking to Improve Cognates Detection",
+    "authors": [
+      "Michael Bloodgood",
+      "Benjamin Strauss"
+    ],
+    "year": "2017",
+    "abstract": "Global constraints and reranking have not been used in cognates detection research to date. We propose methods for using global constraints by performing rescoring of the score matrices produced by state of the art cognates detection systems. Using global constraints to perform rescoring is complementary to state of the art methods for performing cognates detection and results in significant performance improvements beyond current state of the art performance on publicly available datasets with different language pairs and various conditions such as different levels of baseline state of the art performance and different data size conditions, including with more realistic large data size conditions than have been evaluated with in the past.",
+    "doi": "10.18653/v1/P17-1181",
+    "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/P17-1181/",
+    "pdf_url": "https://aclanthology.org/P17-1181.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "D17-1267",
+    "title": "Identifying Cognate Sets Across Dictionaries of Related Languages",
+    "authors": [
+      "Adam St Arnaud",
+      "David Beck",
+      "Grzegorz Kondrak"
+    ],
+    "year": "2017",
+    "abstract": "We present a system for identifying cognate sets across dictionaries of related languages. The likelihood of a cognate relationship is calculated on the basis of a rich set of features that capture both phonetic and semantic similarity, as well as the presence of regular sound correspondences. The similarity scores are used to cluster words from different languages that may originate from a common proto-word. When tested on the Algonquian language family, our system detects 63% of cognate sets while maintaining cluster purity of 70%.",
+    "doi": "10.18653/v1/D17-1267",
+    "venue": "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+    "url": "https://aclanthology.org/D17-1267/",
+    "pdf_url": "https://aclanthology.org/D17-1267.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "N18-2063",
+    "title": "Are Automatic Methods for Cognate Detection Good Enough for Phylogenetic Reconstruction in Historical Linguistics?",
+    "authors": [
+      "Taraka Rama",
+      "Johann-Mattis List",
+      "Johannes Wahle",
+      "Gerhard Jäger"
+    ],
+    "year": "2018",
+    "abstract": "We evaluate the performance of state-of-the-art algorithms for automatic cognate detection by comparing how useful automatically inferred cognates are for the task of phylogenetic inference compared to classical manually annotated cognate sets. Our findings suggest that phylogenies inferred from automated cognate sets come close to phylogenies inferred from expert-annotated ones, although on average, the latter are still superior. We conclude that future work on phylogenetic reconstruction can profit much from automatic cognate detection. Especially where scholars are merely interested in exploring the bigger picture of a language family’s phylogeny, algorithms for automatic cognate detection are a useful complement for current research on language phylogenies.",
+    "doi": "10.18653/v1/N18-2063",
+    "venue": "Proceedings of the 2018 Conference of the North ",
+    "url": "https://aclanthology.org/N18-2063/",
+    "pdf_url": "https://aclanthology.org/N18-2063.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "J19-1004",
+    "title": "Automatic Inference of Sound Correspondence Patterns across Multiple Languages",
+    "authors": [
+      "Johann-Mattis List"
+    ],
+    "year": "2019",
+    "abstract": "Sound correspondence patterns play a crucial role for linguistic reconstruction. Linguists use them to prove language relationship, to reconstruct proto-forms, and for classical phylogenetic reconstruction based on shared innovations. Cognate words that fail to conform with expected patterns can further point to various kinds of exceptions in sound change, such as analogy or assimilation of frequent words. Here I present an automatic method for the inference of sound correspondence patterns across multiple languages based on a network approach. The core idea is to represent all columns in aligned cognate sets as nodes in a network with edges representing the degree of compatibility between the nodes. The task of inferring all compatible correspondence sets can then be handled as the well-known minimum clique cover problem in graph theory, which essentially seeks to split the graph into the smallest number of cliques in which each node is represented by exactly one clique. The resulting partitions represent all correspondence patterns that can be inferred for a given data set. By excluding those patterns that occur in only a few cognate sets, the core of regularly recurring sound correspondences can be inferred. Based on this idea, the article presents a method for automatic correspondence pattern recognition, which is implemented as part of a Python library which supplements the article. To illustrate the usefulness of the method, I present how the inferred patterns can be used to predict words that have not been observed before.",
+    "doi": "10.1162/coli_a_00344",
+    "venue": "Computational Linguistics, Volume 45, Issue 1 - March 2019",
+    "url": "https://aclanthology.org/J19-1004/",
+    "pdf_url": "https://aclanthology.org/J19-1004.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC-ND 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "Article license explicitly printed in PDF, page 1; original PDF unmodified",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "J19-4003",
+    "title": "Automatic Identification and Production of Related Words for Historical Linguistics",
+    "authors": [
+      "Alina Maria Ciobanu",
+      "Liviu P. Dinu"
+    ],
+    "year": "2019",
+    "abstract": "Language change across space and time is one of the main concerns in historical linguistics. In this article, we develop tools to assist researchers and domain experts in the study of language evolution. First, we introduce a method to automatically determine whether two words are cognates. We propose an algorithm for extracting cognates from electronic dictionaries that contain etymological information. Having built a data set of related words, we further develop machine learning methods based on orthographic alignment for identifying cognates. We use aligned subsequences as features for classification algorithms in order to infer rules for linguistic changes undergone by words when entering new languages and to discriminate between cognates and non-cognates. Second, we extend the method to a finer-grained level, to identify the type of relationship between words. Discriminating between cognates and borrowings provides a deeper insight into the history of a language and allows a better characterization of language relatedness. We show that orthographic features have discriminative power and we analyze the underlying linguistic factors that prove relevant in the classification task. To our knowledge, this is the first attempt of this kind. Third, we develop a machine learning method for automatically producing related words. We focus on reconstructing proto-words, but we also address two related sub-problems, producing modern word forms and producing cognates. The task of reconstructing proto-words consists of recreating the words in an ancient language from its modern daughter languages. Having modern word forms in multiple Romance languages, we infer the form of their common Latin ancestors. Our approach relies on the regularities that occurred when words entered the modern languages. We leverage information from several modern languages, building an ensemble system for reconstructing proto-words. We apply our method to multiple data sets, showing that our approach improves on previous results, also having the advantage of requiring less input data, which is essential in historical linguistics, where resources are generally scarce.",
+    "doi": "10.1162/coli_a_00361",
+    "venue": "Computational Linguistics, Volume 45, Issue 4 - December 2019",
+    "url": "https://aclanthology.org/J19-4003/",
+    "pdf_url": "https://aclanthology.org/J19-4003.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC-ND 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "Article license explicitly printed in PDF, page 1; original PDF unmodified",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "P19-1627",
+    "title": "An Automated Framework for Fast Cognate Detection and Bayesian Phylogenetic Inference in Computational Historical Linguistics",
+    "authors": [
+      "Taraka Rama",
+      "Johann-Mattis List"
+    ],
+    "year": "2019",
+    "abstract": "We present a fully automated workflow for phylogenetic reconstruction on large datasets, consisting of two novel methods, one for fast detection of cognates and one for fast Bayesian phylogenetic inference. Our results show that the methods take less than a few minutes to process language families that have so far required large amounts of time and computational power. Moreover, the cognates and the trees inferred from the method are quite close, both to gold standard cognate judgments and to expert language family trees. Given its speed and ease of application, our framework is specifically useful for the exploration of very large datasets in historical linguistics.",
+    "doi": "10.18653/v1/P19-1627",
+    "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    "url": "https://aclanthology.org/P19-1627/",
+    "pdf_url": "https://aclanthology.org/P19-1627.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "W19-4708",
+    "title": "Modeling Markedness with a Split-and-Merger Model of Sound Change",
+    "authors": [
+      "Andrea Ceolin",
+      "Ollie Sayeed"
+    ],
+    "year": "2019",
+    "abstract": "The concept of ‘markedness’ has been influential in phonology for almost a century. Theoretical phonology has found it useful to describe some segments as more ‘marked’ than others, referring to a cluster of language-internal and -external properties (Jakobson 1968, Haspelmath 2006). We argue, using a simple mathematical model based on Evolutionary Phonology (Blevins 2004), that markedness is an epiphenomenon of phonetically grounded sound change.",
+    "doi": "10.18653/v1/W19-4708",
+    "venue": "Proceedings of the 1st International Workshop on Computational Approaches to Historical Language Change",
+    "url": "https://aclanthology.org/W19-4708/",
+    "pdf_url": "https://aclanthology.org/W19-4708.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "W19-4732",
+    "title": "Gaussian Process Models of Sound Change in Indo-Aryan Dialectology",
+    "authors": [
+      "Chundra Cathcart"
+    ],
+    "year": "2019",
+    "abstract": "This paper proposes a Gaussian Process model of sound change targeted toward questions in Indo-Aryan dialectology. Gaussian Processes (GPs) provide a flexible means of expressing covariance between outcomes, and can be extended to a wide variety of probability distributions. We find that GP models fare better in terms of some key posterior predictive checks than models that do not express covariance between sound changes, and outline directions for future work.",
+    "doi": "10.18653/v1/W19-4732",
+    "venue": "Proceedings of the 1st International Workshop on Computational Approaches to Historical Language Change",
+    "url": "https://aclanthology.org/W19-4732/",
+    "pdf_url": "https://aclanthology.org/W19-4732.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2020.conll-1.38",
+    "title": "An Expectation Maximisation Algorithm for Automated Cognate Detection",
+    "authors": [
+      "Roddy MacSween",
+      "Andrew Caines"
+    ],
+    "year": "2020",
+    "abstract": "In historical linguistics, cognate detection is the task of determining whether sets of words have common etymological roots. Inspired by the comparative method used by human linguists, we develop a system for automated cognate detection that frames the task as an inference problem for a general statistical model consisting of observed data (potentially cognate pairs of words), latent variables (the cognacy status of pairs) and unknown global parameters (which sounds correspond between languages). We then give a specific instance of such a model along with an expectation-maximisation algorithm to infer its parameters. We evaluate our system on a corpus of 8140 cognate sets, finding the performance of our method to be comparable to the state of the art. We additionally carry out qualitative analysis demonstrating advantages it has over existing systems. We also suggest several ways our work could be extended within the general theoretical framework we propose.",
+    "doi": "10.18653/v1/2020.conll-1.38",
+    "venue": "Proceedings of the 24th Conference on Computational Natural Language Learning",
+    "url": "https://aclanthology.org/2020.conll-1.38/",
+    "pdf_url": "https://aclanthology.org/2020.conll-1.38.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2020.lt4hala-1.5",
+    "title": "Computerized Forward Reconstruction for Analysis in Diachronic Phonology, and Latin to French Reflex Prediction",
+    "authors": [
+      "Clayton Marr",
+      "David R. Mortensen"
+    ],
+    "year": "2020",
+    "abstract": "Traditionally, historical phonologists have relied on tedious manual derivations to calibrate the sequences of sound changes that shaped the phonological evolution of languages. However, humans are prone to errors, and cannot track thousands of parallel word derivations in any efficient manner. We propose to instead automatically derive each lexical item in parallel, and we demonstrate forward reconstruction as both a computational task with metrics to optimize, and as an empirical tool for inquiry. For this end we present DiaSim, a user-facing application that simulates “cascades” of diachronic developments over a language’s lexicon and provides diagnostics for “debugging” those cascades. We test our methodology on a Latin-to-French reflex prediction task, using a newly compiled dataset FLLex with 1368 paired Latin/French forms. We also present, FLLAPS, which maps 310 Latin reflexes through five stages until Modern French, derived from Pope (1934)’s sound tables. Our publicly available rule cascades include the baselines BaseCLEF and BaseCLEF*, representing the received view of Latin to French development, and DiaCLEF, build by incremental corrections to BaseCLEF aided by DiaSim’s diagnostics. DiaCLEF vastly outperforms the baselines, improving final accuracy on FLLex from 3.2%to 84.9%, and similar improvements across FLLAPS’ stages.",
+    "doi": null,
+    "venue": "Proceedings of LT4HALA 2020 - 1st Workshop on Language Technologies for Historical and Ancient Languages",
+    "url": "https://aclanthology.org/2020.lt4hala-1.5/",
+    "pdf_url": "https://aclanthology.org/2020.lt4hala-1.5.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC (version unspecified in PDF)",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ELRA explicitly licenses the PDF CC-BY-NC on page 1; retained unmodified for noncommercial research.",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2020.lt4hala-1.12",
+    "title": "Comparing Statistical and Neural Models for Learning Sound Correspondences",
+    "authors": [
+      "Clémentine Fourrier",
+      "Benoît Sagot"
+    ],
+    "year": "2020",
+    "abstract": "Cognate prediction and proto-form reconstruction are key tasks in computational historical linguistics that rely on the study of sound change regularity. Solving these tasks appears to be very similar to machine translation, though methods from that field have barely been applied to historical linguistics. Therefore, in this paper, we investigate the learnability of sound correspondences between a proto-language and daughter languages for two machine-translation-inspired models, one statistical, the other neural. We first carry out our experiments on plausible artificial languages, without noise, in order to study the role of each parameter on the algorithms respective performance under almost perfect conditions. We then study real languages, namely Latin, Italian and Spanish, to see if those performances generalise well. We show that both model types manage to learn sound changes despite data scarcity, although the best performing model type depends on several parameters such as the size of the training data, the ambiguity, and the prediction direction.",
+    "doi": null,
+    "venue": "Proceedings of LT4HALA 2020 - 1st Workshop on Language Technologies for Historical and Ancient Languages",
+    "url": "https://aclanthology.org/2020.lt4hala-1.12/",
+    "pdf_url": "https://aclanthology.org/2020.lt4hala-1.12.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC (version unspecified in PDF)",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ELRA explicitly licenses the PDF CC-BY-NC on page 1; retained unmodified for noncommercial research.",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2021.naacl-main.353",
+    "title": "Ab Antiquo: Neural Proto-language Reconstruction",
+    "authors": [
+      "Carlo Meloni",
+      "Shauli Ravfogel",
+      "Yoav Goldberg"
+    ],
+    "year": "2021",
+    "abstract": "Historical linguists have identified regularities in the process of historic sound change. The comparative method utilizes those regularities to reconstruct proto-words based on observed forms in daughter languages. Can this process be efficiently automated? We address the task of proto-word reconstruction, in which the model is exposed to cognates in contemporary daughter languages, and has to predict the proto word in the ancestor language. We provide a novel dataset for this task, encompassing over 8,000 comparative entries, and show that neural sequence models outperform conventional methods applied to this task so far. Error analysis reveals a variability in the ability of neural model to capture different phonological changes, correlating with the complexity of the changes. Analysis of learned embeddings reveals the models learn phonologically meaningful generalizations, corresponding to well-attested phonological shifts documented by historical linguistics.",
+    "doi": "10.18653/v1/2021.naacl-main.353",
+    "venue": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "url": "https://aclanthology.org/2021.naacl-main.353/",
+    "pdf_url": "https://aclanthology.org/2021.naacl-main.353.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2022.acl-long.99",
+    "title": "Computational Historical Linguistics and Language Diversity in South Asia",
+    "authors": [
+      "Aryaman Arora",
+      "Adam Farris",
+      "Samopriya Basu",
+      "Suresh Kolichala"
+    ],
+    "year": "2022",
+    "abstract": "South Asia is home to a plethora of languages, many of which severely lack access to new language technologies. This linguistic diversity also results in a research environment conducive to the study of comparative, contact, and historical linguistics–fields which necessitate the gathering of extensive data from many languages. We claim that data scatteredness (rather than scarcity) is the primary obstacle in the development of South Asian language technology, and suggest that the study of language history is uniquely aligned with surmounting this obstacle. We review recent developments in and at the intersection of South Asian NLP and historical-comparative linguistics, describing our and others’ current efforts in this area. We also offer new strategies towards breaking the data barrier.",
+    "doi": "10.18653/v1/2022.acl-long.99",
+    "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2022.acl-long.99/",
+    "pdf_url": "https://aclanthology.org/2022.acl-long.99.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2022.acl-long.463",
+    "title": "Letters From the Past: Modeling Historical Sound Change Through Diachronic Character Embeddings",
+    "authors": [
+      "Sidsel Boldsen",
+      "Patrizia Paggio"
+    ],
+    "year": "2022",
+    "abstract": "While a great deal of work has been done on NLP approaches to lexical semantic change detection, other aspects of language change have received less attention from the NLP community. In this paper, we address the detection of sound change through historical spelling. We propose that a sound change can be captured by comparing the relative distance through time between the distributions of the characters involved before and after the change has taken place. We model these distributions using PPMI character embeddings. We verify this hypothesis in synthetic data and then test the method’s ability to trace the well-known historical change of lenition of plosives in Danish historical sources. We show that the models are able to identify several of the changes under consideration and to uncover meaningful contexts in which they appeared. The methodology has the potential to contribute to the study of open questions such as the relative chronology of sound shifts and their geographical distribution.",
+    "doi": "10.18653/v1/2022.acl-long.463",
+    "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2022.acl-long.463/",
+    "pdf_url": "https://aclanthology.org/2022.acl-long.463.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2022.sigtyp-1.7",
+    "title": "The SIGTYP 2022 Shared Task on the Prediction of Cognate Reflexes",
+    "authors": [
+      "Johann-Mattis List",
+      "Ekaterina Vylomova",
+      "Robert Forkel",
+      "Nathan Hill",
+      "Ryan Cotterell"
+    ],
+    "year": "2022",
+    "abstract": "This study describes the structure and the results of the SIGTYP 2022 shared task on the prediction of cognate reflexes from multilingual wordlists. We asked participants to submit systems that would predict words in individual languages with the help of cognate words from related languages. Training and surprise data were based on standardized multilingual wordlists from several language families. Four teams submitted a total of eight systems, including both neural and non-neural systems, as well as systems adjusted to the task and systems using more general settings. While all systems showed a rather promising performance, reflecting the overwhelming regularity of sound change, the best performance throughout was achieved by a system based on convolutional networks originally designed for image restoration.",
+    "doi": "10.18653/v1/2022.sigtyp-1.7",
+    "venue": "Proceedings of the 4th Workshop on Research in Computational Linguistic Typology and Multilingual NLP",
+    "url": "https://aclanthology.org/2022.sigtyp-1.7/",
+    "pdf_url": "https://aclanthology.org/2022.sigtyp-1.7.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2022.sigtyp-1.8",
+    "title": "Bayesian Phylogenetic Cognate Prediction",
+    "authors": [
+      "Gerhard Jäger"
+    ],
+    "year": "2022",
+    "abstract": "In Jäger (2019) a computational framework was defined to start from parallel word lists of related languages and infer the corresponding vocabulary of the shared proto-language. The SIGTYP 2022 Shared Task is closely related. The main difference is that what is to be reconstructed is not the proto-form but an unknown word from an extant language. The system described here is a re-implementation of the tools used in the mentioned paper, adapted to the current task.",
+    "doi": "10.18653/v1/2022.sigtyp-1.8",
+    "venue": "Proceedings of the 4th Workshop on Research in Computational Linguistic Typology and Multilingual NLP",
+    "url": "https://aclanthology.org/2022.sigtyp-1.8/",
+    "pdf_url": "https://aclanthology.org/2022.sigtyp-1.8.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2022.sigtyp-1.9",
+    "title": "Mockingbird at the SIGTYP 2022 Shared Task: Two Types of Models for the Prediction of Cognate Reflexes",
+    "authors": [
+      "Christo Kirov",
+      "Richard Sproat",
+      "Alexander Gutkin"
+    ],
+    "year": "2022",
+    "abstract": "The SIGTYP 2022 shared task concerns the problem of word reflex generation in a target language, given cognate words from a subset of related languages. We present two systems to tackle this problem, covering two very different modeling approaches. The first model extends transformer-based encoder-decoder sequence-to-sequence modeling, by encoding all available input cognates in parallel, and having the decoder attend to the resulting joint representation during inference. The second approach takes inspiration from the field of image restoration, where models are tasked with recovering pixels in an image that have been masked out. For reflex generation, the missing reflexes are treated as “masked pixels” in an “image” which is a representation of an entire cognate set across a language family. As in the image restoration case, cognate restoration is performed with a convolutional network.",
+    "doi": "10.18653/v1/2022.sigtyp-1.9",
+    "venue": "Proceedings of the 4th Workshop on Research in Computational Linguistic Typology and Multilingual NLP",
+    "url": "https://aclanthology.org/2022.sigtyp-1.9/",
+    "pdf_url": "https://aclanthology.org/2022.sigtyp-1.9.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2022.sigtyp-1.10",
+    "title": "A Transformer Architecture for the Prediction of Cognate Reflexes",
+    "authors": [
+      "Giuseppe G. A. Celano"
+    ],
+    "year": "2022",
+    "abstract": "This paper presents the transformer model built to participate in the SIGTYP 2022 Shared Task on the Prediction of Cognate Reflexes. It consists of an encoder-decoder architecture with multi-head attention mechanism. Its output is concatenated with the one hot encoding of the language label of an input character sequence to predict a target character sequence. The results show that the transformer outperforms the baseline rule-based system only partially.",
+    "doi": "10.18653/v1/2022.sigtyp-1.10",
+    "venue": "Proceedings of the 4th Workshop on Research in Computational Linguistic Typology and Multilingual NLP",
+    "url": "https://aclanthology.org/2022.sigtyp-1.10/",
+    "pdf_url": "https://aclanthology.org/2022.sigtyp-1.10.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2023.acl-long.91",
+    "title": "Neural Unsupervised Reconstruction of Protolanguage Word Forms",
+    "authors": [
+      "Andre He",
+      "Nicholas Tomlin",
+      "Dan Klein"
+    ],
+    "year": "2023",
+    "abstract": "We present a state-of-the-art neural approach to the unsupervised reconstruction of ancient word forms. Previous work in this domain used expectation-maximization to predict simple phonological changes between ancient word forms and their cognates in modern languages. We extend this work with neural models that can capture more complicated phonological and morphological changes. At the same time, we preserve the inductive biases from classical methods by building monotonic alignment constraints into the model and deliberately underfitting during the maximization step. We evaluate our performance on the task of reconstructing Latin from a dataset of cognates across five Romance languages, achieving a notable reduction in edit distance from the target word forms compared to previous methods.",
+    "doi": "10.18653/v1/2023.acl-long.91",
+    "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2023.acl-long.91/",
+    "pdf_url": "https://aclanthology.org/2023.acl-long.91.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2023.acl-short.3",
+    "title": "Transformed Protoform Reconstruction",
+    "authors": [
+      "Young Min Kim",
+      "Kalvin Chang",
+      "Chenxuan Cui",
+      "David R. Mortensen"
+    ],
+    "year": "2023",
+    "abstract": "Protoform reconstruction is the task of inferring what morphemes or words appeared like in the ancestral languages of a set of daughter languages. Meloni et al (2021) achieved the state-of-the-art on Latin protoform reconstruction with an RNN-based encoder-decoder with attention model. We update their model with the state-of-the-art seq2seq model: the Transformer. Our model outperforms their model on a suite of different metrics on two different datasets: their Romance data of 8,000 cognates spanning 5 languages and a Chinese dataset (Hou 2004) of 800+ cognates spanning 39 varieties. We also probe our model for potential phylogenetic signal contained in the model. Our code is publicly available at https://github.com/cmu-llab/acl-2023.",
+    "doi": "10.18653/v1/2023.acl-short.3",
+    "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    "url": "https://aclanthology.org/2023.acl-short.3/",
+    "pdf_url": "https://aclanthology.org/2023.acl-short.3.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2023.emnlp-main.423",
+    "title": "Cognate Transformer for Automated Phonological Reconstruction and Cognate Reflex Prediction",
+    "authors": [
+      "V.S.D.S.Mahesh Akavarapu",
+      "Arnab Bhattacharya"
+    ],
+    "year": "2023",
+    "abstract": "Phonological reconstruction is one of the central problems in historical linguistics where a proto-word of an ancestral language is determined from the observed cognate words of daughter languages. Computational approaches to historical linguistics attempt to automate the task by learning models on available linguistic data. Several ideas and techniques drawn from computational biology have been successfully applied in this area of computational historical linguistics. Following these lines, we adapt MSA Transformer, a protein language model, to the problem of automated phonological reconstruction. MSA Transformer trains on multiple sequence alignments as input and is, thus, apt for application on aligned cognate words. We, hence, name our model as Cognate Transformer. We also apply the model on another associated task, namely, cognate reflex prediction where a reflex word in a daughter language is predicted based on cognate words from other daughter languages. We show that our model outperforms the existing models on both the tasks, especially when it is pre-trained on masked word prediction task.",
+    "doi": "10.18653/v1/2023.emnlp-main.423",
+    "venue": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "url": "https://aclanthology.org/2023.emnlp-main.423/",
+    "pdf_url": "https://aclanthology.org/2023.emnlp-main.423.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2023.sigmorphon-1.8",
+    "title": "Jambu: A historical linguistic database for South Asian languages",
+    "authors": [
+      "Aryaman Arora",
+      "Adam Farris",
+      "Samopriya Basu",
+      "Suresh Kolichala"
+    ],
+    "year": "2023",
+    "abstract": "We introduce JAMBU, a cognate database of South Asian languages which unifies dozens of previous sources in a structured and accessible format. The database includes nearly 287k lemmata from 602 lects, grouped together in 23k sets of cognates. We outline the data wrangling necessary to compile the dataset and train neural models for reflex prediction on the Indo- Aryan subset of the data. We hope that JAMBU is an invaluable resource for all historical linguists and Indologists, and look towards further improvement and expansion of the database.",
+    "doi": "10.18653/v1/2023.sigmorphon-1.8",
+    "venue": "Proceedings of the 20th SIGMORPHON workshop on Computational Research in Phonetics, Phonology, and Morphology",
+    "url": "https://aclanthology.org/2023.sigmorphon-1.8/",
+    "pdf_url": "https://aclanthology.org/2023.sigmorphon-1.8.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2023.sigtyp-1.6",
+    "title": "Trimming Phonetic Alignments Improves the Inference of Sound Correspondence Patterns from Multilingual Wordlists",
+    "authors": [
+      "Frederic Blum",
+      "Johann-Mattis List"
+    ],
+    "year": "2023",
+    "abstract": "Sound correspondence patterns form the basis of cognate detection and phonological reconstruction in historical language comparison. Methods for the automatic inference of correspondence patterns from phonetically aligned cognate sets have been proposed, but their application to multilingual wordlists requires extremely well annotated datasets. Since annotation is tedious and time consuming, it would be desirable to find ways to improve aligned cognate data automatically. Taking inspiration from trimming techniques in evolutionary biology, which improve alignments by excluding problematic sites, we propose a workflow that trims phonetic alignments in comparative linguistics prior to the inference of correspondence patterns. Testing these techniques on a large standardized collection of ten datasets with expert annotations from different language families, we find that the best trimming technique substantially improves the overall consistency of the alignments, showing a clear increase in the proportion of frequent correspondence patterns and words exhibiting regular cognate relations.",
+    "doi": "10.18653/v1/2023.sigtyp-1.6",
+    "venue": "Proceedings of the 5th Workshop on Research in Computational Linguistic Typology and Multilingual NLP",
+    "url": "https://aclanthology.org/2023.sigtyp-1.6/",
+    "pdf_url": "https://aclanthology.org/2023.sigtyp-1.6.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2023.sigtyp-1.13",
+    "title": "Findings of the SIGTYP 2023 Shared task on Cognate and Derivative Detection For Low-Resourced Languages",
+    "authors": [
+      "Priya Rani",
+      "Koustava Goswami",
+      "Adrian Doyle",
+      "Theodorus Fransen",
+      "Bernardo Stearns",
+      "John P. McCrae"
+    ],
+    "year": "2023",
+    "abstract": "This paper describes the structure and findings of the SIGTYP 2023 shared task on cognate and derivative detection for low-resourced languages, broken down into a supervised and unsupervised sub-task. The participants were asked to submit the test data’s final prediction. A total of nine teams registered for the shared task where seven teams registered for both sub-tasks. Only two participants ended up submitting system descriptions, with only one submitting systems for both sub-tasks. While all systems show a rather promising performance, all could be within the baseline score for the supervised sub-task. However, the system submitted for the unsupervised sub-task outperforms the baseline score.",
+    "doi": "10.18653/v1/2023.sigtyp-1.13",
+    "venue": "Proceedings of the 5th Workshop on Research in Computational Linguistic Typology and Multilingual NLP",
+    "url": "https://aclanthology.org/2023.sigtyp-1.13/",
+    "pdf_url": "https://aclanthology.org/2023.sigtyp-1.13.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2024.acl-long.788",
+    "title": "Semisupervised Neural Proto-Language Reconstruction",
+    "authors": [
+      "Liang Lu",
+      "Peirong Xie",
+      "David Mortensen"
+    ],
+    "year": "2024",
+    "abstract": "Existing work implementing comparative reconstruction of ancestral languages (proto-languages) has usually required full supervision. However, historical reconstruction models are only of practical value if they can be trained with a limited amount of labeled data. We propose a semisupervised historical reconstruction task in which the model is trained on only a small amount of labeled data (cognate sets with proto-forms) and a large amount of unlabeled data (cognate sets without proto-forms). We propose a neural architecture for comparative reconstruction (DPD-BiReconstructor) incorporating an essential insight from linguists’ comparative method: that reconstructed words should not only be reconstructable from their daughter words, but also deterministically transformable back into their daughter words. We show that this architecture is able to leverage unlabeled cognate sets to outperform strong semisupervised baselines on this novel task.",
+    "doi": "10.18653/v1/2024.acl-long.788",
+    "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2024.acl-long.788/",
+    "pdf_url": "https://aclanthology.org/2024.acl-long.788.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2024.eacl-long.58",
+    "title": "Automated Cognate Detection as a Supervised Link Prediction Task with Cognate Transformer",
+    "authors": [
+      "V.S.D.S.Mahesh Akavarapu",
+      "Arnab Bhattacharya"
+    ],
+    "year": "2024",
+    "abstract": "Identification of cognates across related languages is one of the primary problems in historical linguistics. Automated cognate identification is helpful for several downstream tasks including identifying sound correspondences, proto-language reconstruction, phylogenetic classification, etc. Previous state-of-the-art methods are mostly based on distributions of phonemes computed across multilingual wordlists and make little use of the cognacy labels that define links among cognate clusters. In this paper, we present a transformer-based architecture inspired by computational biology for the task of automated cognate detection. Beyond a certain amount of supervision, this method performs better than the existing methods, and shows steady improvement with further increase in supervision proving the efficacy of utilizing the labeled information. We also demonstrate that accepting multiple sequence alignments as input and having an end-to-end architecture with link prediction head saves much computation time while simultaneously yielding superior performance.",
+    "doi": "10.18653/v1/2024.eacl-long.58",
+    "venue": "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2024.eacl-long.58/",
+    "pdf_url": "https://aclanthology.org/2024.eacl-long.58.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2024.lrec-main.762",
+    "title": "Improved Neural Protoform Reconstruction via Reflex Prediction",
+    "authors": [
+      "Liang Lu",
+      "Jingzhi Wang",
+      "David R. Mortensen"
+    ],
+    "year": "2024",
+    "abstract": "Protolanguage reconstruction is central to historical linguistics. The comparative method, one of the most influential theoretical and methodological frameworks in the history of the language sciences, allows linguists to infer protoforms (reconstructed ancestral words) from their reflexes (related modern words) based on the assumption of regular sound change. Not surprisingly, numerous computational linguists have attempted to operationalize comparative reconstruction through various computational models, the most successful of which have been supervised encoder-decoder models, which treat the problem of predicting protoforms given sets of reflexes as a sequence-to-sequence problem. We argue that this framework ignores one of the most important aspects of the comparative method: not only should protoforms be inferable from cognate sets (sets of related reflexes) but the reflexes should also be inferable from the protoforms. Leveraging another line of research—reflex prediction—we propose a system in which candidate protoforms from a reconstruction model are reranked by a reflex prediction model. We show that this more complete implementation of the comparative method allows us to surpass state-of-the-art protoform reconstruction methods on three of four Chinese and Romance datasets.",
+    "doi": null,
+    "venue": "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    "url": "https://aclanthology.org/2024.lrec-main.762/",
+    "pdf_url": "https://aclanthology.org/2024.lrec-main.762.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "Article license explicitly printed in PDF, page 1; original PDF unmodified",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2024.lrec-main.1108",
+    "title": "Pater Incertus? There Is a Solution: Automatic Discrimination between Cognates and Borrowings for Romance Languages",
+    "authors": [
+      "Liviu P. Dinu",
+      "Ana Sabina Uban",
+      "Ioan-Bogdan Iordache",
+      "Alina Maria Cristea",
+      "Simona Georgescu",
+      "Laurentiu Zoicas"
+    ],
+    "year": "2024",
+    "abstract": "Identifying the type of relationship between words (cognates, borrowings, inherited) provides a deeper insight into the history of a language and allows for a better characterization of language relatedness. In this paper, we propose a computational approach for discriminating between cognates and borrowings, one of the most difficult tasks in historical linguistics. We compare the discriminative power of graphic and phonetic features and we analyze the underlying linguistic factors that prove relevant in the classification task. We perform experiments for pairs of languages in the Romance language family (French, Italian, Spanish, Portuguese, and Romanian), based on a comprehensive database of Romance cognates and borrowings. To our knowledge, this is one of the first attempts of this kind and the most comprehensive in terms of covered languages.",
+    "doi": null,
+    "venue": "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    "url": "https://aclanthology.org/2024.lrec-main.1108/",
+    "pdf_url": "https://aclanthology.org/2024.lrec-main.1108.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "Article license explicitly printed in PDF, page 1; original PDF unmodified",
+    "qualifies_for_download_floor": true,
+    "text_quality_note": "pypdf extraction failed on pages; PyMuPDF and visual inspection used for selected passages."
+  },
+  {
+    "id": "2024.scil-1.16",
+    "title": "Computational Approaches for Integrating out Subjectivity in Cognate Synonym Selection",
+    "authors": [
+      "Luise Häuser",
+      "Gerhard Jäger",
+      "Alexandros Stamatakis"
+    ],
+    "year": "2024",
+    "abstract": "",
+    "doi": null,
+    "venue": "Proceedings of the Society for Computation in Linguistics 2024",
+    "url": "https://aclanthology.org/2024.scil-1.16/",
+    "pdf_url": "https://aclanthology.org/2024.scil-1.16.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "No redistribution permission established; retained locally only",
+    "redistribute": false,
+    "source_provider": "ACL Anthology",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2025.acl-long.1432",
+    "title": "Programming by Example meets Historical Linguistics: A Large Language Model Based Approach to Sound Law Induction",
+    "authors": [
+      "Atharva Naik",
+      "Darsh Agrawal",
+      "Hong Sng",
+      "Clayton Marr",
+      "Kexun Zhang",
+      "Nathaniel Romney Robinson",
+      "Kalvin Chang",
+      "Rebecca Byrnes",
+      "Aravind Mysore",
+      "Carolyn Rose",
+      "David R. Mortensen"
+    ],
+    "year": "2025",
+    "abstract": "Historical linguists have long written “programs” that convert reconstructed words in an ancestor language into their attested descendants via ordered string rewrite functions (called sound laws) However, writing these programs is time-consuming, motivating the development of automated Sound Law Induction (SLI) which we formulate as Programming by Examples (PBE) with Large Language Models (LLMs) in this paper. While LLMs have been effective for code generation, recent work has shown that PBE is challenging but improvable by fine-tuning, especially with training data drawn from the same distribution as evaluation data. In this paper, we create a conceptual framework of what constitutes a “similar distribution” for SLI and propose four kinds of synthetic data generation methods with varying amounts of inductive bias to investigate what leads to the best performance. Based on the results, we create a SOTA open-source model for SLI as PBE (+6% pass rate with a third of the parameters of the second-best LLM) and also highlight exciting future directions for PBE research.",
+    "doi": "10.18653/v1/2025.acl-long.1432",
+    "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2025.acl-long.1432/",
+    "pdf_url": "https://aclanthology.org/2025.acl-long.1432.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2026.acl-long.831",
+    "title": "Would LLMs be Good Historical Linguists and Chinese Dialect Learners?",
+    "authors": [
+      "Yicheng Liu",
+      "Shumin Shi",
+      "Youchao Zhou",
+      "Xingchen Zhang"
+    ],
+    "year": "2026",
+    "abstract": "Large language models (LLMs) perform well on Standard Chinese but struggle with low-resource Chinese dialects due to substantial phonological divergence. We investigate whether incorporating Middle Chinese, the common historical ancestor of most of the modern Chinese dialects, can improve dialectal pronunciation modeling in a linguistically interpretable manner. We focus on two specific task variants: (1) conditional sound change rule induction (a variant of Sound Law Induction, SLI), where models infer executable phonological transformation rules from Middle Chinese to modern dialects, and (2) sentence-level dialectal pronunciation transcription (a variant of Grapheme-to-Phoneme, G2P), requiring dialect-specific International Phonetic Alphabet (IPA) generation. We construct a multi-source dataset covering Middle Chinese and 12 modern Chinese dialects, including character-level correspondences, rule exemplars, and sentence-level IPA transcription. We adopt a parameter-efficient training framework combining LoRA-based supervised fine-tuning and reinforcement learning via Group Relative Policy Optimization (GRPO) for the first task. Across both tasks and a wide range of dialects and evaluation metrics, our approach achieves overall improvements over strong baselines, including DeepSeek-V3.2 and ChatGPT-5.2, while revealing variation across dialects. These results demonstrate the value of leveraging historical linguistic knowledge for modeling low-resource Chinese dialects.",
+    "doi": "10.18653/v1/2026.acl-long.831",
+    "venue": "Proceedings of the 64th Annual Meeting of the ",
+    "url": "https://aclanthology.org/2026.acl-long.831/",
+    "pdf_url": "https://aclanthology.org/2026.acl-long.831.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "W17-0234",
+    "title": "Proto-Indo-European Lexicon: The Generative Etymological Dictionary of Indo-European Languages",
+    "authors": [
+      "Jouna Pyysalo"
+    ],
+    "year": "2017",
+    "abstract": "",
+    "doi": null,
+    "venue": "Proceedings of the 21st Nordic Conference on Computational Linguistics",
+    "url": "https://aclanthology.org/W17-0234/",
+    "pdf_url": "https://aclanthology.org/W17-0234.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "No redistribution permission established; retained locally only",
+    "redistribute": false,
+    "source_provider": "ACL Anthology",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2020.lrec-1.392",
+    "title": "Methodological Aspects of Developing and Managing an Etymological Lexical Resource: Introducing EtymDB-2.0",
+    "authors": [
+      "Clémentine Fourrier",
+      "Benoît Sagot"
+    ],
+    "year": "2020",
+    "abstract": "Diachronic lexical information is not only important in the field of historical linguistics, but is also increasingly used in NLP, most recently for machine translation of low resource languages. Therefore, there is a need for fine-grained, large-coverage and accurate etymological lexical resources. In this paper, we propose a set of guidelines to generate such resources, for each step of the life-cycle of an etymological lexicon: creation, update, evaluation, dissemination, and exploitation. To illustrate the guidelines, we introduce EtymDB 2.0, an etymological database automatically generated from the Wiktionary, which contains 1.8 million lexemes, linked by more than 700,000 fine-grained etymological relations, across 2,536 living and dead languages. We also introduce use cases for which EtymDB 2.0 could represent a key resource, such as phylogenetic tree generation, low resource machine translation or medieval languages study.",
+    "doi": null,
+    "venue": "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+    "url": "https://aclanthology.org/2020.lrec-1.392/",
+    "pdf_url": "https://aclanthology.org/2020.lrec-1.392.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC (version unspecified in PDF)",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ELRA explicitly licenses the PDF CC-BY-NC on page 1; retained unmodified for noncommercial research.",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2020.lrec-1.394",
+    "title": "Automatic Reconstruction of Missing Romanian Cognates and Unattested Latin Words",
+    "authors": [
+      "Alina Maria Ciobanu",
+      "Liviu P. Dinu",
+      "Laurentiu Zoicas"
+    ],
+    "year": "2020",
+    "abstract": "Producing related words is a key concern in historical linguistics. Given an input word, the task is to automatically produce either its proto-word, a cognate pair or a modern word derived from it. In this paper, we apply a method for producing related words based on sequence labeling, aiming to fill in the gaps in incomplete cognate sets in Romance languages with Latin etymology (producing Romanian cognates that are missing) and to reconstruct uncertified Latin words. We further investigate an ensemble-based aggregation for combining and re-ranking the word productions of multiple languages.",
+    "doi": null,
+    "venue": "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+    "url": "https://aclanthology.org/2020.lrec-1.394/",
+    "pdf_url": "https://aclanthology.org/2020.lrec-1.394.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY-NC (version unspecified in PDF)",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ELRA explicitly licenses the PDF CC-BY-NC on page 1; retained unmodified for noncommercial research.",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2023.emnlp-main.473",
+    "title": "RoBoCoP: A Comprehensive ROmance BOrrowing COgnate Package and Benchmark for Multilingual Cognate Identification",
+    "authors": [
+      "Liviu Dinu",
+      "Ana Uban",
+      "Alina Cristea",
+      "Anca Dinu",
+      "Ioan-Bogdan Iordache",
+      "Simona Georgescu",
+      "Laurentiu Zoicas"
+    ],
+    "year": "2023",
+    "abstract": "The identification of cognates is a fundamental process in historical linguistics, on which any further research is based. Even though there are several cognate databases for Romance languages, they are rather scattered, incomplete, noisy, contain unreliable information, or have uncertain availability. In this paper we introduce a comprehensive database of Romance cognates and borrowings based on the etymological information provided by the dictionaries. We extract pairs of cognates between any two Romance languages by parsing electronic dictionaries of Romanian, Italian, Spanish, Portuguese and French. Based on this resource, we propose a strong benchmark for the automatic detection of cognates, by applying machine learning and deep learning based methods on any two pairs of Romance languages. We find that automatic identification of cognates is possible with accuracy averaging around 94% for the more difficult task formulations.",
+    "doi": "10.18653/v1/2023.emnlp-main.473",
+    "venue": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "url": "https://aclanthology.org/2023.emnlp-main.473/",
+    "pdf_url": "https://aclanthology.org/2023.emnlp-main.473.pdf",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "source_provider": "ACL Anthology",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "rankin2003",
+    "title": "The Comparative Method",
+    "authors": [
+      "Robert L. Rankin"
+    ],
+    "year": "2003",
+    "areas": [
+      "theory"
+    ],
+    "kind": "chapter",
+    "url": "https://lx.berkeley.edu/sites/default/files/rankin_comparative_method.pdf",
+    "pdf_url": "https://lx.berkeley.edu/sites/default/files/rankin_comparative_method.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": "10.1002/9780470756393.ch1",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "jaeger-list2016",
+    "title": "Statistical and computational elaborations of the classical comparative method",
+    "authors": [
+      "Gerhard Jäger",
+      "Johann-Mattis List"
+    ],
+    "year": "2016",
+    "areas": [
+      "theory",
+      "computational"
+    ],
+    "kind": "preprint",
+    "url": "https://lingulist.de/documents/papers/jaeger-list-2016-computational-elaborations-comparative-method.pdf",
+    "pdf_url": "https://lingulist.de/documents/papers/jaeger-list-2016-computational-elaborations-comparative-method.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "list2016-calc",
+    "title": "Computer-Assisted Language Comparison: Reconciling Computational and Classical Approaches in Historical Linguistics",
+    "authors": [
+      "Johann-Mattis List"
+    ],
+    "year": "2016",
+    "areas": [
+      "theory",
+      "computational"
+    ],
+    "kind": "proposal",
+    "url": "https://lingulist.de/documents/papers/list-2016-computer-assisted-language-comparison.pdf",
+    "pdf_url": "https://lingulist.de/documents/papers/list-2016-computer-assisted-language-comparison.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": false,
+    "count_exclusion": "Proposal, review, or short reply; conservatively excluded"
+  },
+  {
+    "id": "garrett2014",
+    "title": "Sound change",
+    "authors": [
+      "Andrew Garrett"
+    ],
+    "year": "2015",
+    "areas": [
+      "theory"
+    ],
+    "kind": "chapter",
+    "url": "https://escholarship.org/uc/item/2wp689vj",
+    "pdf_url": "https://linguistics.berkeley.edu/~garrett/garrett-soundchangechapter.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "version_note": "Author chapter manuscript; repository record dated 2014, handbook published 2015. Stable ID retains deposit year.",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "garrett-johnson2011",
+    "title": "Phonetic bias in sound change",
+    "authors": [
+      "Andrew Garrett",
+      "Keith Johnson"
+    ],
+    "year": "2013",
+    "areas": [
+      "theory"
+    ],
+    "kind": "chapter",
+    "url": "https://escholarship.org/uc/item/8587g0jg",
+    "pdf_url": "https://linguistics.berkeley.edu/~kjohnson/papers/Garrett-Johnson_2012.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "version_note": "Uncorrected author proof dated 2011; Origins of Sound Change volume published 2013. ID retains original preprint year.",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "benedict1972",
+    "title": "Sino-Tibetan: A Conspectus",
+    "authors": [
+      "Paul K. Benedict"
+    ],
+    "year": "1972",
+    "areas": [
+      "sino-tibetan",
+      "theory"
+    ],
+    "kind": "book",
+    "url": "https://stedt.berkeley.edu/pubs.html",
+    "pdf_url": "https://stedt.berkeley.edu/pubs_and_prods/Benedict_1972_Sino-Tibetan-Conspectus.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true,
+    "text_quality_note": "Scanned or substantially image-based substantive pages; automated extraction is incomplete."
+  },
+  {
+    "id": "matisoff1978",
+    "title": "Variational Semantics in Tibeto-Burman: The organic approach to linguistic comparison",
+    "authors": [
+      "James A. Matisoff"
+    ],
+    "year": "1978",
+    "areas": [
+      "sino-tibetan",
+      "theory"
+    ],
+    "kind": "book",
+    "url": "https://stedt.berkeley.edu/pubs.html",
+    "pdf_url": "https://stedt.berkeley.edu/pubs_and_prods/Matisoff_1978_Variational-Semantics-TB.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true,
+    "text_quality_note": "Scanned or substantially image-based substantive pages; automated extraction is incomplete."
+  },
+  {
+    "id": "matisoff1982",
+    "title": "Proto-Languages and Proto-Sprachgefühl",
+    "authors": [
+      "James A. Matisoff"
+    ],
+    "year": "1982",
+    "areas": [
+      "sino-tibetan",
+      "theory"
+    ],
+    "kind": "paper",
+    "url": "https://stedt.berkeley.edu/pdf/JAM/matisoff1982proto.pdf",
+    "pdf_url": "https://stedt.berkeley.edu/pdf/JAM/matisoff1982proto.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true,
+    "text_quality_note": "Scanned or substantially image-based substantive pages; automated extraction is incomplete."
+  },
+  {
+    "id": "matisoff1995",
+    "title": "Sino-Tibetan numerals and the play of prefixes",
+    "authors": [
+      "James A. Matisoff"
+    ],
+    "year": "1995",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://stedt.berkeley.edu/pdf/JAM/Matisoff_1995_ST-numerals.pdf",
+    "pdf_url": "https://stedt.berkeley.edu/pdf/JAM/Matisoff_1995_ST-numerals.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "matisoff2003",
+    "title": "Handbook of Proto-Tibeto-Burman: System and Philosophy of Sino-Tibetan Reconstruction",
+    "authors": [
+      "James A. Matisoff"
+    ],
+    "year": "2003",
+    "areas": [
+      "sino-tibetan",
+      "theory"
+    ],
+    "kind": "book",
+    "url": "https://escholarship.org/uc/item/19d79619",
+    "pdf_url": "https://escholarship.org/content/qt19d79619/qt19d79619.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "vanbik2009",
+    "title": "Proto-Kuki-Chin: A Reconstructed Ancestor of the Kuki-Chin Languages",
+    "authors": [
+      "Kenneth VanBik"
+    ],
+    "year": "2009",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "book",
+    "url": "https://stedt.berkeley.edu/pubs.html",
+    "pdf_url": "https://stedt.berkeley.edu/pubs_and_prods/STEDT_Monograph8_Proto-Kuki-Chin.pdf",
+    "license": "STEDT academic noncommercial unmodified redistribution",
+    "redistribute": true,
+    "rights_basis": "STEDT monograph research and academic distribution permission at https://stedt.berkeley.edu/pubs.html",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "button2011",
+    "title": "Proto Northern Chin",
+    "authors": [
+      "Christopher Button"
+    ],
+    "year": "2011",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "book",
+    "url": "https://stedt.berkeley.edu/pubs.html",
+    "pdf_url": "https://stedt.berkeley.edu/pubs_and_prods/STEDT_Monograph10_Proto-Northern-Chin.pdf",
+    "license": "STEDT academic noncommercial unmodified redistribution",
+    "redistribute": true,
+    "rights_basis": "STEDT monograph research and academic distribution permission at https://stedt.berkeley.edu/pubs.html",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "namkung1996",
+    "title": "Phonological Inventories of Tibeto-Burman Languages",
+    "authors": [
+      "Ju Namkung (editor)"
+    ],
+    "year": "1996",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "book",
+    "url": "https://stedt.berkeley.edu/pubs.html",
+    "pdf_url": "https://stedt.berkeley.edu/pubs_and_prods/STEDT_Monograph3_Phonological-Inv-TB.pdf",
+    "license": "STEDT academic noncommercial unmodified redistribution",
+    "redistribute": true,
+    "rights_basis": "STEDT monograph research and academic distribution permission at https://stedt.berkeley.edu/pubs.html",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "jacques-halshs-00408281",
+    "title": "TIBETAN WA-ZUR AND LAUFER'S LAW",
+    "authors": [
+      "Guillaume Jacques"
+    ],
+    "year": "2009",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://shs.hal.science/halshs-00408281/document",
+    "pdf_url": "https://shs.hal.science/halshs-00408281/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": null,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "jacques-halshs-03507197",
+    "title": "Trans-Himalayan comparative linguistics and the Neogrammarian model",
+    "authors": [
+      "Guillaume Jacques"
+    ],
+    "year": "2021",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "review-article",
+    "url": "https://shs.hal.science/halshs-03507197/document",
+    "pdf_url": "https://shs.hal.science/halshs-03507197/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": "10.1075/jhl.20001.jac",
+    "version_note": "HAL metadata year 2021; deposited manuscript dated 3 January 2022",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": false,
+    "count_exclusion": "Proposal, review, or short reply; conservatively excluded"
+  },
+  {
+    "id": "jacques-halshs-00351738",
+    "title": "The origin of vowel alternations in the Tangut verb",
+    "authors": [
+      "Guillaume Jacques"
+    ],
+    "year": "2009",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://shs.hal.science/halshs-00351738/document",
+    "pdf_url": "https://shs.hal.science/halshs-00351738/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": null,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "jacques-halshs-00173948",
+    "title": "La morphologie du sino-tibétain",
+    "authors": [
+      "Guillaume Jacques"
+    ],
+    "year": "2006",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://shs.hal.science/halshs-00173948/document",
+    "pdf_url": "https://shs.hal.science/halshs-00173948/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": null,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "jacques-halshs-00610385",
+    "title": "The Structure of the Tangut verb",
+    "authors": [
+      "Guillaume Jacques"
+    ],
+    "year": "2011",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://shs.hal.science/halshs-00610385/document",
+    "pdf_url": "https://shs.hal.science/halshs-00610385/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": null,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "jacques-hal-05215238",
+    "title": "Analyzing the Traces of Morphology in Old Chinese from the Perspective of Trans-Himalayan Comparative Evidence: The Case of Tonal Alternations",
+    "authors": [
+      "Guillaume Jacques"
+    ],
+    "year": "2023",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://hal.science/hal-05215238/document",
+    "pdf_url": "https://hal.science/hal-05215238/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": "10.30184/BCL.202312_16(2).0002",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true,
+    "text_quality_note": "Embedded font encoding impairs extraction; see reading notes for visual/alternative extraction scope."
+  },
+  {
+    "id": "jacques-halshs-01566036",
+    "title": "How many *-s suffixes in Old Chinese?",
+    "authors": [
+      "Guillaume Jacques"
+    ],
+    "year": "2016",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://shs.hal.science/halshs-01566036/document",
+    "pdf_url": "https://shs.hal.science/halshs-01566036/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": "10.1163/2405478X-00902014",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "jacques-halshs-01486954",
+    "title": "Tonogenesis and tonal alternations in Khaling",
+    "authors": [
+      "Guillaume Jacques"
+    ],
+    "year": "2016",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "chapter",
+    "url": "https://shs.hal.science/halshs-01486954/document",
+    "pdf_url": "https://shs.hal.science/halshs-01486954/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": "10.1515/9783110452754-003",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "jacques-halshs-00605893",
+    "title": "A panchronic study of aspirated fricatives, with new evidence from Pumi",
+    "authors": [
+      "Guillaume Jacques"
+    ],
+    "year": "2011",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://shs.hal.science/halshs-00605893/document",
+    "pdf_url": "https://shs.hal.science/halshs-00605893/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": "10.1016/j.lingua.2011.04.003",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "jacques-halshs-03926631",
+    "title": "On the nature of morphological alternations in Archaic Chinese and their relevance to morphosyntax",
+    "authors": [
+      "Guillaume Jacques"
+    ],
+    "year": "2022",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://shs.hal.science/halshs-03926631/document",
+    "pdf_url": "https://shs.hal.science/halshs-03926631/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": "10.1017/S0041977X22000854",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "jacques-halshs-01244869",
+    "title": "The origin of the causative prefix in Rgyalrong languages and its implication for proto-Sino-Tibetan reconstruction",
+    "authors": [
+      "Guillaume Jacques"
+    ],
+    "year": "2015",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://shs.hal.science/halshs-01244869/document",
+    "pdf_url": "https://shs.hal.science/halshs-01244869/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": null,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "jacques-halshs-01287468",
+    "title": "On the cluster *sr– in Sino-Tibetan",
+    "authors": [
+      "Guillaume Jacques"
+    ],
+    "year": "2015",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://shs.hal.science/halshs-01287468/document",
+    "pdf_url": "https://shs.hal.science/halshs-01287468/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": "10.1353/jcl.2015.0001",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "jacques2012-internal",
+    "title": "An Internal Reconstruction of Tibetan Stem Alternations",
+    "authors": [
+      "Guillaume Jacques"
+    ],
+    "year": "2012",
+    "areas": [
+      "sino-tibetan",
+      "theory"
+    ],
+    "kind": "paper",
+    "url": "https://crlao.cnrs.fr/wp-content/uploads/2025/02/jacques_2012_tibetan_internal_reconstruction_libre.pdf",
+    "pdf_url": "https://crlao.cnrs.fr/wp-content/uploads/2025/02/jacques_2012_tibetan_internal_reconstruction_libre.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "jacques2012-agreement",
+    "title": "Agreement morphology: the case of Rgyalrongic and Kiranti",
+    "authors": [
+      "Guillaume Jacques"
+    ],
+    "year": "2012",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://crlao.cnrs.fr/wp-content/uploads/2025/02/agreement_morphology2_libre.pdf",
+    "pdf_url": "https://crlao.cnrs.fr/wp-content/uploads/2025/02/agreement_morphology2_libre.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true,
+    "text_quality_note": "Scanned or substantially image-based substantive pages; automated extraction is incomplete."
+  },
+  {
+    "id": "sagart-halshs-00103359",
+    "title": "On intransitive nasal prefixation in Sino-Tibetan languages",
+    "authors": [
+      "Laurent Sagart"
+    ],
+    "year": "2006",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://shs.hal.science/halshs-00103359/document",
+    "pdf_url": "https://shs.hal.science/halshs-00103359/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": null,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "sagart-halshs-00094374",
+    "title": "Review: James A. Matisoff (2003) Handbook of Proto-Tibeto-Burman. System and philosophy of Sino-Tibeto-Burman Reconstruction.",
+    "authors": [
+      "Laurent Sagart"
+    ],
+    "year": "2006",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "review",
+    "url": "https://shs.hal.science/halshs-00094374/document",
+    "pdf_url": "https://shs.hal.science/halshs-00094374/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": null,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": false,
+    "count_exclusion": "Proposal, review, or short reply; conservatively excluded"
+  },
+  {
+    "id": "sagart-hal-03099839",
+    "title": "A 250-item list of Old Chinese vocabulary in the Baxter-Sagart reconstruction",
+    "authors": [
+      "Laurent Sagart",
+      "Kun Ma"
+    ],
+    "year": "2020",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://hal.science/hal-03099839/document",
+    "pdf_url": "https://hal.science/hal-03099839/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": "10.1163/19606028-bja10002",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "sagart-hal-00780992",
+    "title": "Reply to Matisoff on the Handbook of Proto-Tibeto-Burman: System and philosophy of Sino-Tibetan reconstruction",
+    "authors": [
+      "Laurent Sagart"
+    ],
+    "year": "2008",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://hal.science/hal-00780992/document",
+    "pdf_url": "https://hal.science/hal-00780992/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": "10.1075/dia.25.1.13.sag",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": false,
+    "count_exclusion": "Proposal, review, or short reply; conservatively excluded"
+  },
+  {
+    "id": "sagart-hal-03892358",
+    "title": "Old Chinese Phonology: a sketch",
+    "authors": [
+      "Laurent Sagart",
+      "William H Baxter"
+    ],
+    "year": "2017",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://hal.science/hal-03892358/document",
+    "pdf_url": "https://hal.science/hal-03892358/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": null,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true,
+    "text_quality_note": "Embedded font encoding impairs extraction; see reading notes for visual/alternative extraction scope."
+  },
+  {
+    "id": "sagart-hal-00781153",
+    "title": "Reconstructing the *s- prefix in Old Chinese",
+    "authors": [
+      "Laurent Sagart",
+      "Baxter H. William"
+    ],
+    "year": "2012",
+    "areas": [
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://hal.science/hal-00781153/document",
+    "pdf_url": "https://hal.science/hal-00781153/document",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": null,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "kloekhorst2006-laryngeals",
+    "title": "Initial laryngeals in Anatolian",
+    "authors": [
+      "Alwin Kloekhorst"
+    ],
+    "year": "2006",
+    "areas": [
+      "indo-european"
+    ],
+    "kind": "paper",
+    "url": "https://www.kloekhorst.nl/Publications.html",
+    "pdf_url": "https://www.kloekhorst.nl/KloekhorstInitLar.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true,
+    "text_quality_note": "Scanned or substantially image-based substantive pages; automated extraction is incomplete."
+  },
+  {
+    "id": "kloekhorst2011-weise",
+    "title": "Weise’s Law: Depalatalization of palatovelars before *r in Sanskrit",
+    "authors": [
+      "Alwin Kloekhorst"
+    ],
+    "year": "2011",
+    "areas": [
+      "indo-european"
+    ],
+    "kind": "paper",
+    "url": "https://www.kloekhorst.nl/Publications.html",
+    "pdf_url": "https://www.kloekhorst.nl/KloekhorstWeisesLaw.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true,
+    "text_quality_note": "Scanned or substantially image-based substantive pages; automated extraction is incomplete."
+  },
+  {
+    "id": "kloekhorst2013-ablaut",
+    "title": "Indo-European nominal ablaut patterns: The Anatolian evidence",
+    "authors": [
+      "Alwin Kloekhorst"
+    ],
+    "year": "2013",
+    "areas": [
+      "indo-european"
+    ],
+    "kind": "paper",
+    "url": "https://www.kloekhorst.nl/Publications.html",
+    "pdf_url": "https://www.kloekhorst.nl/KloekhorstIENominalAblautPatterns.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "kloekhorst2014-thorn",
+    "title": "Proto-Indo-European thorn-clusters",
+    "authors": [
+      "Alwin Kloekhorst"
+    ],
+    "year": "2014",
+    "areas": [
+      "indo-european"
+    ],
+    "kind": "paper",
+    "url": "https://www.kloekhorst.nl/Publications.html",
+    "pdf_url": "https://www.kloekhorst.nl/KloekhorstPIEThornClusters.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "kloekhorst2016-stops",
+    "title": "The Anatolian stop system and the Indo-Hittite hypothesis",
+    "authors": [
+      "Alwin Kloekhorst"
+    ],
+    "year": "2016",
+    "areas": [
+      "indo-european"
+    ],
+    "kind": "paper",
+    "url": "https://www.kloekhorst.nl/Publications.html",
+    "pdf_url": "https://www.kloekhorst.nl/KloekhorstTheAnatolianStopSystemAndTheIndoHittiteHypothesis.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "kloekhorst2017-aspect",
+    "title": "The Old Hittite and the Proto-Indo-European tense-aspect system",
+    "authors": [
+      "Alwin Kloekhorst"
+    ],
+    "year": "2017",
+    "areas": [
+      "indo-european"
+    ],
+    "kind": "paper",
+    "url": "https://www.kloekhorst.nl/Publications.html",
+    "pdf_url": "https://www.kloekhorst.nl/KloekhorstOHandPIETenseAspect.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "kloekhorst2018-hi",
+    "title": "The origin of the Hittite ḫi-conjugation",
+    "authors": [
+      "Alwin Kloekhorst"
+    ],
+    "year": "2018",
+    "areas": [
+      "indo-european"
+    ],
+    "kind": "paper",
+    "url": "https://www.kloekhorst.nl/Publications.html",
+    "pdf_url": "https://www.kloekhorst.nl/KloekhorstOriginOfHiConjugation.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "kloekhorst2022-anatolian",
+    "title": "Anatolian",
+    "authors": [
+      "Alwin Kloekhorst"
+    ],
+    "year": "2022",
+    "areas": [
+      "indo-european"
+    ],
+    "kind": "chapter",
+    "url": "https://www.kloekhorst.nl/Publications.html",
+    "pdf_url": "https://www.kloekhorst.nl/Kloekhorst-Anatolian-Olander2022.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "included_in": "olandervol2022",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": false,
+    "count_exclusion": "Chapter also present in olandervol2022"
+  },
+  {
+    "id": "kloekhorst2023-split",
+    "title": "Proto-Indo-Anatolian, the Anatolian split and the Anatolian trek: A comparative linguistic perspective",
+    "authors": [
+      "Alwin Kloekhorst"
+    ],
+    "year": "2023",
+    "areas": [
+      "indo-european"
+    ],
+    "kind": "chapter",
+    "url": "https://www.kloekhorst.nl/Publications.html",
+    "pdf_url": "https://www.kloekhorst.nl/Kloekhorst_Protoindoanatolian_the_Anatolian_Split_and_the_Anatolian_Trek_a_comparative_linguistic_perspective.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "kloekhorst2024-law",
+    "title": "Evidence for a new pre-Proto-Indo-European sound law *-em > PIE *-om",
+    "authors": [
+      "Alwin Kloekhorst"
+    ],
+    "year": "2024",
+    "areas": [
+      "indo-european"
+    ],
+    "kind": "paper",
+    "url": "https://www.kloekhorst.nl/Publications.html",
+    "pdf_url": "https://www.kloekhorst.nl/Kloekhorst_Evidence_for_a_new_pre-Proto-Indo-European_sound_law.pdf",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "rights_basis": "Article license explicitly printed in PDF, page 1; original PDF unmodified",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "iecor2025",
+    "title": "The Indo-European Cognate Relationships dataset",
+    "authors": [
+      "Cormac Anderson",
+      "others"
+    ],
+    "year": "2025",
+    "areas": [
+      "indo-european",
+      "data"
+    ],
+    "kind": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12405575/",
+    "pdf_url": "https://www.edit.fis.uni-hamburg.de/ws/files/66958667/Anderson_Farridnejad_et_al._2025_The_Indo-European_Cognate_Relationships_dataset.pdf",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "rights_basis": "Article license explicitly printed in PDF, page 25; original PDF unmodified",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true,
+    "doi": "10.1038/s41597-025-05445-3"
+  },
+  {
+    "id": "olandervol2022",
+    "title": "The Indo-European Language Family: A Phylogenetic Perspective",
+    "authors": [
+      "Thomas Olander (editor)"
+    ],
+    "year": "2022",
+    "areas": [
+      "indo-european",
+      "theory"
+    ],
+    "kind": "book",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4B44B5ACF0D3BBA89B9408050F112A52/9781108499798AR.pdf/The_Indo-European_Language_Family.pdf",
+    "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4B44B5ACF0D3BBA89B9408050F112A52/9781108499798AR.pdf/The_Indo-European_Language_Family.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "moura2015",
+    "title": "The Lean Theorem Prover (System Description)",
+    "authors": [
+      "Leonardo de Moura",
+      "Soonho Kong",
+      "Jeremy Avigad",
+      "Floris van Doorn",
+      "Jakob von Raumer"
+    ],
+    "year": "2015",
+    "areas": [
+      "formal"
+    ],
+    "kind": "paper",
+    "url": "https://leanprover.github.io/papers/lean.pdf",
+    "pdf_url": "https://www.contrib.andrew.cmu.edu/~avigad/Papers/lean_system.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "moura-ullrich2021",
+    "title": "The Lean 4 Theorem Prover and Programming Language",
+    "authors": [
+      "Leonardo de Moura",
+      "Sebastian Ullrich"
+    ],
+    "year": "2021",
+    "areas": [
+      "formal"
+    ],
+    "kind": "paper",
+    "url": "https://lean-lang.org/papers/lean4.pdf",
+    "pdf_url": "https://lean-lang.org/papers/lean4.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "mathlib2020",
+    "title": "The Lean mathematical library",
+    "authors": [
+      "The mathlib Community"
+    ],
+    "year": "2020",
+    "areas": [
+      "formal"
+    ],
+    "kind": "paper",
+    "url": "https://arxiv.org/abs/1910.09336",
+    "pdf_url": "https://arxiv.org/pdf/1910.09336",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "vandoorn2020",
+    "title": "Maintaining a Library of Formal Mathematics",
+    "authors": [
+      "Floris van Doorn",
+      "Gabriel Ebner",
+      "Robert Y. Lewis"
+    ],
+    "year": "2020",
+    "areas": [
+      "formal"
+    ],
+    "kind": "paper",
+    "url": "https://arxiv.org/abs/2004.03673",
+    "pdf_url": "https://arxiv.org/pdf/2004.03673",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "baanen2022",
+    "title": "Use and abuse of instance parameters in the Lean mathematical library",
+    "authors": [
+      "Anne Baanen"
+    ],
+    "year": "2022",
+    "areas": [
+      "formal"
+    ],
+    "kind": "paper",
+    "url": "https://arxiv.org/abs/2202.01629",
+    "pdf_url": "https://arxiv.org/pdf/2202.01629",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "rights_basis": "Article license explicitly printed in PDF, page 1; original PDF unmodified",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "growingmathlib2025",
+    "title": "Growing Mathlib: maintenance of a large scale mathematical library",
+    "authors": [
+      "Anne Baanen",
+      "Matthew Robert Ballard",
+      "Johan Commelin",
+      "Bryan Gin-ge Chen",
+      "Michael Rothgang",
+      "Damiano Testa"
+    ],
+    "year": "2025",
+    "areas": [
+      "formal"
+    ],
+    "kind": "paper",
+    "url": "https://arxiv.org/abs/2508.21593",
+    "pdf_url": "https://arxiv.org/pdf/2508.21593",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "doczkal2013",
+    "title": "A Constructive Theory of Regular Languages in Coq",
+    "authors": [
+      "Christian Doczkal",
+      "Jan-Oliver Kaiser",
+      "Gert Smolka"
+    ],
+    "year": "2013",
+    "areas": [
+      "formal"
+    ],
+    "kind": "paper",
+    "url": "https://www.ps.uni-saarland.de/~doczkal/regular/ConstructiveRegularLanguages.pdf",
+    "pdf_url": "https://www.ps.uni-saarland.de/~doczkal/regular/ConstructiveRegularLanguages.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "paulson2015",
+    "title": "A Formalisation of Finite Automata using Hereditarily Finite Sets",
+    "authors": [
+      "Lawrence C. Paulson"
+    ],
+    "year": "2015",
+    "areas": [
+      "formal"
+    ],
+    "kind": "paper",
+    "url": "https://www.cl.cam.ac.uk/~lp15/papers/Formath/automata.pdf",
+    "pdf_url": "https://www.cl.cam.ac.uk/~lp15/papers/Formath/automata.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "nipkow2013",
+    "title": "A Verified Decision Procedure for MSO on Words Based on Derivatives of Regular Expressions",
+    "authors": [
+      "Dmitriy Traytel",
+      "Tobias Nipkow"
+    ],
+    "year": "2013",
+    "areas": [
+      "formal"
+    ],
+    "kind": "paper",
+    "url": "https://www21.in.tum.de/~nipkow/pubs/icfp13.html",
+    "pdf_url": "https://www21.in.tum.de/~nipkow/pubs/icfp13.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "mohri1997",
+    "title": "Finite-State Transducers in Language and Speech Processing",
+    "authors": [
+      "Mehryar Mohri"
+    ],
+    "year": "1997",
+    "areas": [
+      "formal",
+      "computational"
+    ],
+    "kind": "paper",
+    "url": "https://aclanthology.org/J97-2003/",
+    "pdf_url": "https://aclanthology.org/J97-2003.pdf",
+    "license": "CC BY-NC-SA 3.0",
+    "redistribute": true,
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "mohri2009",
+    "title": "Weighted Automata Algorithms",
+    "authors": [
+      "Mehryar Mohri"
+    ],
+    "year": "2009",
+    "areas": [
+      "formal"
+    ],
+    "kind": "chapter",
+    "url": "https://www.cs.brandeis.edu/~cs136a/CS136a_docs/Mohri_WeightedAutomataAlgorithms_Handbook.pdf",
+    "pdf_url": "https://www.cs.brandeis.edu/~cs136a/CS136a_docs/Mohri_WeightedAutomataAlgorithms_Handbook.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "mohri-riley2016",
+    "title": "A Disambiguation Algorithm for Weighted Automata",
+    "authors": [
+      "Mehryar Mohri",
+      "Michael D. Riley"
+    ],
+    "year": "2016",
+    "areas": [
+      "formal"
+    ],
+    "kind": "paper",
+    "url": "https://cs.nyu.edu/~mohri/pub/wdisj.pdf",
+    "pdf_url": "https://cs.nyu.edu/~mohri/pub/wdisj.pdf",
+    "license": "Author-hosted copy; redistribution permission not established",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "list2014",
+    "title": "Sequence Comparison in Historical Linguistics",
+    "authors": [
+      "Johann-Mattis List"
+    ],
+    "year": "2014",
+    "areas": [
+      "theory",
+      "computational"
+    ],
+    "kind": "book",
+    "url": "https://doi.org/10.5281/zenodo.11879",
+    "pdf_url": "https://zenodo.org/api/records/11879/files/list-2014-thesis-with-cover.pdf/content",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "bouchardcote2013",
+    "title": "Automated reconstruction of ancient languages using probabilistic models of sound change",
+    "authors": [
+      "Alexandre Bouchard-Côté",
+      "David Hall",
+      "Thomas L. Griffiths",
+      "Dan Klein"
+    ],
+    "year": "2013",
+    "areas": [
+      "computational",
+      "theory"
+    ],
+    "kind": "paper",
+    "url": "https://cocosci.princeton.edu/tom/papers/LabPublications/AutoProtolanguage.pdf",
+    "pdf_url": "https://cocosci.princeton.edu/tom/papers/LabPublications/AutoProtolanguage.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": "10.1073/pnas.1204678110",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "sagart2019",
+    "title": "Dated language phylogenies shed light on the ancestry of Sino-Tibetan",
+    "authors": [
+      "Laurent Sagart",
+      "Guillaume Jacques",
+      "Yunfan Lai",
+      "Robin J. Ryder",
+      "Valentin Thouzeau",
+      "Simon J. Greenhill",
+      "Johann-Mattis List"
+    ],
+    "year": "2019",
+    "areas": [
+      "sino-tibetan",
+      "computational"
+    ],
+    "kind": "paper",
+    "url": "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/c5535e72-39f1-4c9e-84b7-28df79d6c0bc/content",
+    "pdf_url": "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/c5535e72-39f1-4c9e-84b7-28df79d6c0bc/content",
+    "license": "CC BY-NC-ND 4.0",
+    "redistribute": true,
+    "doi": "10.1073/pnas.1817972116",
+    "rights_basis": "Article license explicitly printed in PDF, page 1; original PDF unmodified",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "chang2015",
+    "title": "Ancestry-constrained phylogenetic analysis supports the Indo-European steppe hypothesis",
+    "authors": [
+      "Will Chang",
+      "Chundra Cathcart",
+      "David Hall",
+      "Andrew Garrett"
+    ],
+    "year": "2015",
+    "areas": [
+      "indo-european",
+      "computational"
+    ],
+    "kind": "paper",
+    "url": "https://www.ling.upenn.edu/courses/Fall_2019/ling001/LanguageIE_Phylogeny2015.pdf",
+    "pdf_url": "https://linguistics.berkeley.edu/~garrett/ChangEtAl-2015.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": "10.1353/lan.2015.0005",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "heggarty2023",
+    "title": "Language trees with sampled ancestors support a hybrid model for the origin of Indo-European languages",
+    "authors": [
+      "Paul Heggarty",
+      "et al."
+    ],
+    "year": "2023",
+    "areas": [
+      "indo-european",
+      "computational"
+    ],
+    "kind": "paper",
+    "url": "https://repositori.uji.es/server/api/core/bitstreams/4f2daaa2-73b3-4a55-b42b-f3399d6d1017/content",
+    "pdf_url": "https://repositori.uji.es/server/api/core/bitstreams/4f2daaa2-73b3-4a55-b42b-f3399d6d1017/content",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "doi": "10.1126/science.abg0818",
+    "version_note": "Author manuscript titled Language trees with sampled ancestors support an early origin of the Indo-European languages; linked DOI is the final Science article.",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "ringe2002",
+    "title": "Indo-European and Computational Cladistics",
+    "authors": [
+      "Don Ringe",
+      "Tandy Warnow",
+      "Ann Taylor"
+    ],
+    "year": "2002",
+    "areas": [
+      "indo-european",
+      "formal"
+    ],
+    "kind": "paper",
+    "url": "https://www.cs.utexas.edu/~tandy/histling.html",
+    "pdf_url": "https://www.cs.rice.edu/~nakhleh/CPHL/RWT02.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true,
+    "text_quality_note": "Embedded font encoding impairs extraction; see reading notes for visual/alternative extraction scope."
+  },
+  {
+    "id": "nakhleh2005-networks",
+    "title": "Perfect Phylogenetic Networks: A New Methodology for Reconstructing the Evolutionary History of Natural Languages",
+    "authors": [
+      "Luay Nakhleh",
+      "Don Ringe",
+      "Tandy Warnow"
+    ],
+    "year": "2005",
+    "areas": [
+      "indo-european",
+      "formal"
+    ],
+    "kind": "paper",
+    "url": "https://www.cs.utexas.edu/~tandy/histling.html",
+    "pdf_url": "https://www.cs.rice.edu/~nakhleh/Papers/81.2nakhleh.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "barbancon2013",
+    "title": "An experimental study comparing linguistic phylogenetic reconstruction methods",
+    "authors": [
+      "François Barbançon",
+      "Steven N. Evans",
+      "Luay Nakhleh",
+      "Don Ringe",
+      "Tandy Warnow"
+    ],
+    "year": "2013",
+    "areas": [
+      "theory",
+      "computational"
+    ],
+    "kind": "paper",
+    "url": "https://www.cs.utexas.edu/~tandy/Diachronica-barbanson.pdf",
+    "pdf_url": "https://www.cs.utexas.edu/~tandy/Diachronica-barbanson.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "erdem2003",
+    "title": "Reconstructing the evolutionary history of Indo-European languages using answer set programming",
+    "authors": [
+      "Esra Erdem",
+      "Vladimir Lifschitz",
+      "Luay Nakhleh",
+      "Don Ringe"
+    ],
+    "year": "2003",
+    "areas": [
+      "indo-european",
+      "formal"
+    ],
+    "kind": "paper",
+    "url": "https://www.cs.utexas.edu/~tandy/histling.html",
+    "pdf_url": "https://www.cs.rice.edu/~nakhleh/Papers/padl03.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true,
+    "text_quality_note": "Embedded font encoding impairs extraction; see reading notes for visual/alternative extraction scope."
+  },
+  {
+    "id": "evans-warnow2004",
+    "title": "Unidentifiable divergence times in rates-across-sites models",
+    "authors": [
+      "Steven N. Evans",
+      "Tandy Warnow"
+    ],
+    "year": "2004",
+    "areas": [
+      "formal",
+      "theory"
+    ],
+    "kind": "paper",
+    "url": "https://www.cs.utexas.edu/~tandy/histling.html",
+    "pdf_url": "https://www.stat.berkeley.edu/~evans/668.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true,
+    "version_note": "Author manuscript; stable ID uses manuscript-era year. Consult linked manuscript rather than interpreting this ID as a verified final journal year."
+  },
+  {
+    "id": "braibant-pous2012",
+    "title": "Deciding Kleene Algebras in Coq",
+    "authors": [
+      "Thomas Braibant",
+      "Damien Pous"
+    ],
+    "year": "2012",
+    "areas": [
+      "formal"
+    ],
+    "kind": "paper",
+    "url": "https://arxiv.org/pdf/1105.4537",
+    "pdf_url": "https://arxiv.org/pdf/1105.4537",
+    "license": "CC BY-ND 2.0",
+    "redistribute": true,
+    "doi": "10.2168/LMCS-8(1:16)2012",
+    "rights_basis": "Article license explicitly printed in PDF, page 42; original PDF unmodified",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "kaplan-kay1994",
+    "title": "Regular Models of Phonological Rule Systems",
+    "authors": [
+      "Ronald M. Kaplan",
+      "Martin Kay"
+    ],
+    "year": "1994",
+    "areas": [
+      "formal",
+      "theory"
+    ],
+    "kind": "paper",
+    "url": "https://aclanthology.org/J94-3001/",
+    "pdf_url": "https://aclanthology.org/J94-3001.pdf",
+    "license": "CC BY-NC-SA 3.0",
+    "redistribute": true,
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "chandlee2014",
+    "title": "Strictly Local Phonological Processes",
+    "authors": [
+      "Jane Chandlee"
+    ],
+    "year": "2014",
+    "areas": [
+      "formal",
+      "theory"
+    ],
+    "kind": "thesis",
+    "url": "https://udspace.udel.edu/items/232382d5-e433-4c19-8791-d671afc0708e",
+    "pdf_url": "https://udspace.udel.edu/server/api/core/bitstreams/2552d413-efdd-4b50-ad95-b362c0482ff4/content",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "koskenniemi1983",
+    "title": "Two-Level Morphology: A General Computational Model for Word-Form Recognition and Production",
+    "authors": [
+      "Kimmo Koskenniemi"
+    ],
+    "year": "1983",
+    "areas": [
+      "formal",
+      "theory"
+    ],
+    "kind": "book",
+    "url": "https://www.ling.helsinki.fi/~koskenni/doc/Two-LevelMorphology.pdf",
+    "pdf_url": "https://www.ling.helsinki.fi/~koskenni/doc/Two-LevelMorphology.pdf",
+    "license": "not established; local research copy only",
+    "redistribute": false,
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "forkel2018-cldf",
+    "title": "Cross-Linguistic Data Formats, advancing data sharing and re-use in comparative linguistics",
+    "authors": [
+      "Robert Forkel",
+      "Johann-Mattis List",
+      "Simon J. Greenhill",
+      "Christoph Rzymski",
+      "Sebastian Bank",
+      "Michael Cysouw",
+      "Harald Hammarström",
+      "Martin Haspelmath",
+      "Gereon A. Kaiping",
+      "Russell D. Gray"
+    ],
+    "year": "2018",
+    "areas": [
+      "data"
+    ],
+    "kind": "paper",
+    "url": "https://www.nature.com/articles/sdata2018205.pdf",
+    "pdf_url": "https://www.nature.com/articles/sdata2018205.pdf",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "doi": "10.1038/sdata.2018.205",
+    "rights_basis": "Article license explicitly printed in PDF, page 10; original PDF unmodified",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "list2022-lexibank",
+    "title": "Lexibank, A public repository of standardized wordlists with computed phonological and lexical features",
+    "authors": [
+      "Johann-Mattis List",
+      "Robert Forkel",
+      "Simon J. Greenhill",
+      "Christoph Rzymski",
+      "Johannes Englisch",
+      "Russell D. Gray"
+    ],
+    "year": "2022",
+    "areas": [
+      "data"
+    ],
+    "kind": "paper",
+    "url": "https://www.nature.com/articles/s41597-022-01432-0.pdf",
+    "pdf_url": "https://www.nature.com/articles/s41597-022-01432-0.pdf",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "doi": "10.1038/s41597-022-01432-0",
+    "rights_basis": "Article license explicitly printed in PDF, page 16; original PDF unmodified",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2024.sigtyp-1.11",
+    "title": "Are Sounds Sound for Phylogenetic Reconstruction?",
+    "authors": [
+      "Luise Häuser",
+      "Gerhard Jäger",
+      "Johann-Mattis List",
+      "Taraka Rama",
+      "Alexandros Stamatakis"
+    ],
+    "year": "2024",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "url": "https://aclanthology.org/2024.sigtyp-1.11/",
+    "pdf_url": "https://aclanthology.org/2024.sigtyp-1.11.pdf",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "doi": "10.18653/v1/2024.sigtyp-1.11",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2022.lchange-1.9",
+    "title": "A New Framework for Fast Automated Phonological Reconstruction Using Trimmed Alignments and Sound Correspondence Patterns",
+    "authors": [
+      "Johann-Mattis List",
+      "Robert Forkel",
+      "Nathan Hill"
+    ],
+    "year": "2022",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "url": "https://aclanthology.org/2022.lchange-1.9/",
+    "pdf_url": "https://aclanthology.org/2022.lchange-1.9.pdf",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "doi": "10.18653/v1/2022.lchange-1.9",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2023.lchange-1.3",
+    "title": "Representing and Computing Uncertainty in Phonological Reconstruction",
+    "authors": [
+      "Johann-Mattis List",
+      "Nathan Hill",
+      "Robert Forkel",
+      "Frederic Blum"
+    ],
+    "year": "2023",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "url": "https://aclanthology.org/2023.lchange-1.3/",
+    "pdf_url": "https://aclanthology.org/2023.lchange-1.3.pdf",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "doi": "10.18653/v1/2023.lchange-1.3",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "2024.lchange-1.1",
+    "title": "Invited paper: Computer-Assisted Language Comparison with EDICTOR 3",
+    "authors": [
+      "Johann-Mattis List",
+      "Kellen van Dam"
+    ],
+    "year": "2024",
+    "areas": [
+      "computational"
+    ],
+    "kind": "paper",
+    "url": "https://aclanthology.org/2024.lchange-1.1/",
+    "pdf_url": "https://aclanthology.org/2024.lchange-1.1.pdf",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "doi": "10.18653/v1/2024.lchange-1.1",
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "fellner-hill2023",
+    "title": "The differing status of reconstruction in Trans-Himalayan and Indo-European",
+    "authors": [
+      "Hannes A. Fellner",
+      "Nathan W. Hill"
+    ],
+    "year": "2023",
+    "url": "https://www.tara.tcd.ie/bitstreams/c18faf5a-558b-4783-b832-7d38a4f6b205/download",
+    "pdf_url": "https://www.tara.tcd.ie/bitstreams/c18faf5a-558b-4783-b832-7d38a4f6b205/download",
+    "areas": [
+      "comparative-method",
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "license": "No redistribution permission established; retained locally only",
+    "redistribute": false,
+    "source_provider": "Author / institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "lai2022",
+    "title": "Lenition alternation in West Gyalrongic and its implications for the reconstruction of Sino-Tibetan",
+    "authors": [
+      "Yunfan Lai"
+    ],
+    "year": "2022",
+    "url": "https://www.tara.tcd.ie/bitstreams/21414b0f-1486-48a5-9f59-9fc5e2553a48/download",
+    "pdf_url": "https://www.tara.tcd.ie/bitstreams/21414b0f-1486-48a5-9f59-9fc5e2553a48/download",
+    "areas": [
+      "sino-tibetan",
+      "sound-change"
+    ],
+    "kind": "paper",
+    "license": "No redistribution permission established; retained locally only",
+    "redistribute": false,
+    "source_provider": "Author / institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "garrett-blevins2009",
+    "title": "Analogical morphophonology",
+    "authors": [
+      "Andrew Garrett",
+      "Juliette Blevins"
+    ],
+    "year": "2009",
+    "url": "https://linguistics.berkeley.edu/~garrett/FsKiparsky.pdf",
+    "pdf_url": "https://linguistics.berkeley.edu/~garrett/FsKiparsky.pdf",
+    "areas": [
+      "comparative-method",
+      "morphology"
+    ],
+    "kind": "chapter",
+    "license": "No redistribution permission established; retained locally only",
+    "redistribute": false,
+    "source_provider": "Author / institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "garrett2012-syntax",
+    "title": "The historical syntax problem: Reanalysis and directionality",
+    "authors": [
+      "Andrew Garrett"
+    ],
+    "year": "2012",
+    "url": "https://linguistics.berkeley.edu/~garrett/garrett-2012.pdf",
+    "pdf_url": "https://linguistics.berkeley.edu/~garrett/garrett-2012.pdf",
+    "areas": [
+      "comparative-method",
+      "syntax"
+    ],
+    "kind": "chapter",
+    "license": "No redistribution permission established; retained locally only",
+    "redistribute": false,
+    "source_provider": "Author / institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "J94-3004",
+    "title": "The Reconstruction Engine: A Computer Implementation of the Comparative Method",
+    "authors": [
+      "John B. Lowe",
+      "Martine Mazaudon"
+    ],
+    "year": "1994",
+    "areas": [
+      "computational",
+      "sino-tibetan",
+      "theory"
+    ],
+    "kind": "paper",
+    "url": "https://aclanthology.org/J94-3004/",
+    "pdf_url": "https://aclanthology.org/J94-3004.pdf",
+    "license": "CC BY-NC-SA 3.0",
+    "redistribute": true,
+    "rights_basis": "ACL ownership printed in PDF; https://aclanthology.org/faq/copyright/",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  },
+  {
+    "id": "meelen-hill-fellner2022",
+    "title": "What are cognates?",
+    "authors": [
+      "Marieke Meelen",
+      "Nathan W. Hill",
+      "Hannes Fellner"
+    ],
+    "year": "2022",
+    "doi": "10.2218/pihph.7.2022.7405",
+    "areas": [
+      "theory",
+      "indo-european",
+      "sino-tibetan"
+    ],
+    "kind": "paper",
+    "url": "https://journals.ed.ac.uk/pihph/article/view/7405",
+    "pdf_url": "https://journals.ed.ac.uk/pihph/article/download/7405/11916/30330",
+    "license": "CC BY 4.0",
+    "redistribute": true,
+    "rights_basis": "License explicitly printed on PDF page 1",
+    "source_provider": "Author, publisher, or institutional repository",
+    "qualifies_for_download_floor": true
+  }
+]

@@ -1,0 +1,52 @@
+name: Checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  library-and-plan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python scripts/verify_library.py
+      - run: python scripts/check_plan.py
+      - name: Check generated catalogue and attribution notices
+        run: |
+          python scripts/build_catalogue.py
+          git diff --exit-code -- bibliography/README.md bibliography/references.bib library/THIRD_PARTY_NOTICES.md
+
+  lean:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        lean: ['v4.19.0', 'v4.34.1']
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Install pinned elan
+        shell: bash
+        run: |
+          curl --fail --location --retry 3 https://github.com/leanprover/elan/releases/download/v4.2.4/elan-x86_64-unknown-linux-gnu.tar.gz --output "$RUNNER_TEMP/elan.tar.gz"
+          echo "42b94d4244e8353142c456ec0e4ca6528fd898a6c604d4059f494e706e431f63  $RUNNER_TEMP/elan.tar.gz" | sha256sum --check
+          tar -xzf "$RUNNER_TEMP/elan.tar.gz" -C "$RUNNER_TEMP"
+          "$RUNNER_TEMP/elan-init" -y --default-toolchain "leanprover/lean4:${{ matrix.lean }}"
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Build
+        working-directory: lean
+        run: lake +leanprover/lean4:${{ matrix.lean }} build
+      - name: Audit all theorem dependencies
+        working-directory: lean
+        run: |
+          lake +leanprover/lean4:${{ matrix.lean }} env lean Audit.lean > "$RUNNER_TEMP/axioms.txt"
+          cat "$RUNNER_TEMP/axioms.txt"
+          python3 ../scripts/check_proofs.py "$RUNNER_TEMP/axioms.txt"

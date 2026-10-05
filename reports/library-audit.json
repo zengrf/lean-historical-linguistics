@@ -1,0 +1,67 @@
+{
+  "checked_at_utc": "2026-10-05T05:18:21.657437+00:00",
+  "mode": "full-local",
+  "catalogue_entries": 132,
+  "downloaded_pdfs_recorded": 127,
+  "qualifying_distinct_works_recorded": 122,
+  "qualifying_works_verified_on_disk": 122,
+  "all_pdfs_verified_on_disk": 127,
+  "public_pdfs": 64,
+  "retained_bytes_recorded": 211275019,
+  "retained_pages_recorded": 5184,
+  "coverage_overlapping": {
+    "comparative-method": 2,
+    "computational": 62,
+    "data": 3,
+    "formal": 18,
+    "indo-european": 17,
+    "morphology": 1,
+    "sino-tibetan": 27,
+    "syntax": 1,
+    "theory": 17
+  },
+  "reading_levels": {
+    "screened-excerpts": 82,
+    "visual-excerpts": 10,
+    "focused-excerpts": 34,
+    "access-gap": 3,
+    "screened-decoded-abstract": 1,
+    "web-excerpts-only": 2
+  },
+  "count_exclusions": [
+    {
+      "id": "jacques-halshs-03507197",
+      "reason": "Proposal, review, or short reply; conservatively excluded"
+    },
+    {
+      "id": "kloekhorst2022-anatolian",
+      "reason": "Chapter also present in olandervol2022"
+    },
+    {
+      "id": "list2016-calc",
+      "reason": "Proposal, review, or short reply; conservatively excluded"
+    },
+    {
+      "id": "sagart-hal-00780992",
+      "reason": "Proposal, review, or short reply; conservatively excluded"
+    },
+    {
+      "id": "sagart-halshs-00094374",
+      "reason": "Proposal, review, or short reply; conservatively excluded"
+    }
+  ],
+  "failed_acquisitions": [
+    "fellner-hill2023",
+    "koskenniemi1983",
+    "lai2022",
+    "matisoff2003",
+    "nipkow2013"
+  ],
+  "errors": [],
+  "passed": true,
+  "limitations": [
+    "PDF validity, page counts and hashes do not prove bibliographic completeness or that every page has been read.",
+    "Reading notes record selected excerpts. Scanned and font-encoded PDFs may have incomplete extracted text.",
+    "A public checkout can verify only files actually present; the full-local audit is separate."
+  ]
+}

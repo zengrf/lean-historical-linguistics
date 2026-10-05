@@ -1,0 +1,11 @@
+.venv/
+.tools/
+.lake/
+lean/.lake/
+library/downloads/
+library/text/
+library/metadata/
+__pycache__/
+.DS_Store
+*.tmp
+reports/lean-axioms-current.txt
