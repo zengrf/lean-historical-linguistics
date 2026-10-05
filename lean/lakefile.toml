@@ -1,6 +1,6 @@
 name = "comparative"
 version = "0.1.0"
-defaultTargets = ["Comparative", "Historical", "dossier_check", "verify_dossiers", "correspondence_check"]
+defaultTargets = ["Comparative", "Historical", "dossier_check", "verify_dossiers", "correspondence_check", "reconstruct"]
 
 [[lean_lib]]
 name = "Comparative"
@@ -19,3 +19,7 @@ root = "VerifyDossiers"
 [[lean_exe]]
 name = "correspondence_check"
 root = "CorrespondenceCheck"
+
+[[lean_exe]]
+name = "reconstruct"
+root = "Reconstruct"

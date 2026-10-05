@@ -6,3 +6,6 @@ import Historical.RuleInput
 import Historical.Alignment
 import Historical.Correspondence
 import Historical.CorrespondenceInput
+import Historical.Reconstruction
+import Historical.Identifiability
+import Historical.ReconstructionInput

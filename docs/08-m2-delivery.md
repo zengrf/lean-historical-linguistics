@@ -10,7 +10,7 @@ acceptance criteria and the exact source hashes used for verification.
 | Criterion | Delivered evidence |
 | --- | --- |
 | M2-semantics | Atomic segments, explicit morpheme/word boundaries, bounded contexts, both directions, simultaneous/feeding passes, replacement/deletion and ordered stages; 20 independently hand-worked examples covering 22 passes |
-| M2-checker | 17 new Lean theorems, including equivalence between Boolean acceptance and the entire inductively licensed trace; all 44 declarations present at M2 delivery audited (79 after M3) |
+| M2-checker | 17 new Lean theorems, including equivalence between Boolean acceptance and the entire inductively licensed trace; all 44 declarations present at M2 delivery audited; the current audit also covers later milestones |
 | M2-adversarial | 25 valid and 88 adversarial fixtures, each with a named expected outcome and rejection reason |
 | M2-no-memorization | Restricted typed grammar, finite declared inventory and two-token context bounds; no callback, lexical lookup, word-specific exception or whole-word replacement operation |
 

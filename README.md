@@ -12,6 +12,8 @@ This repository delivers a literature study, a retained research library, an exe
 
 **M3 is delivered:** proved alignment preservation and correspondence-partition checking; 140 synthetic sites, including 125 incomplete and 20 conflicting; 49 accepted and 86 rejected fixtures; exact agreement with a Python evaluator on 67,081 column pairs and 6,392 partition proposals. Every site retains its group assignment, support and compatibility diagnostics. Results certify feasibility only. See [M3 delivery](docs/09-m3-delivery.md), [alignment/correspondence semantics](docs/alignment-correspondence-semantics.md) and [per-site evidence](reports/correspondence-sites.json).
 
+**M4 is delivered:** bounded inverse reconstruction with proved enumeration, candidate soundness and relative completeness, observational equivalence, and preservation of joint alternatives. All 1,936 inverse sets match a separate Python evaluator over 121 words and 16 cascades (234,256 membership decisions). The 82 fixtures distinguish complete, incomplete and invalid searches; candidates retain M2 certificates and optional checked M3 source links. See [M4 delivery](docs/10-m4-delivery.md), [bounded-search semantics](docs/bounded-reconstruction-semantics.md) and [exact inverse-set evidence](reports/exhaustive-small-domain.json). The models and examples remain synthetic.
+
 ## Start reading
 
 | Document | Purpose |
@@ -25,15 +27,16 @@ This repository delivers a literature study, a retained research library, an exe
 | [M1 implementation and verification](docs/07-m1-delivery.md) | Evidence schema, CLI, real CLDF imports, tests and independent-review gate |
 | [M2 implementation and verification](docs/08-m2-delivery.md) | Contextual rule semantics, proved trace checker, independent examples and adversarial tests |
 | [M3 implementation and verification](docs/09-m3-delivery.md) | Row preservation, pairwise compatibility, distinct-unit support and feasible partitions |
+| [M4 implementation and verification](docs/10-m4-delivery.md) | Complete bounded inverse sets, joint alternatives, ambiguity and explicit incomplete searches |
 | [Annotated bibliography](bibliography/README.md) | 132 source-specific annotations, original links, reading scope and PDF locations |
-| [Milestone register](data/milestones.json) | Machine-readable delivery goals; M0–M3 delivered, M4–M9 planned |
+| [Milestone register](data/milestones.json) | Machine-readable delivery goals; M0–M4 delivered, M5–M9 planned |
 
 ## What is retained and checked
 
 - **127 PDFs, representing 122 qualifying distinct works**, retained locally: 5,184 pages and approximately 211 MB. Proposals, reviews/replies and a chapter already contained in a downloaded book do not count toward the 100-work floor. Five unsuccessful acquisitions are documented separately.
 - **64 PDFs are included in this public repository** under their recorded redistribution terms. The other 63 are retained in the ignored local library. The manifest and fetcher preserve their original source locations; continued remote availability is not guaranteed.
 - **132 annotated references**: 34 focused excerpt readings, 82 excerpt screenings, 10 visual excerpt readings, one decoded-abstract screening, two web-only excerpt readings and three access-gap notes. This is not a claim to have read 5,184 pages cover to cover.
-- **79 Lean theorem declarations**: 22 M0 results, five M1 evidence results, 17 M2 contextual-rule results and 35 M3 alignment/correspondence results. The audit permits Lean's standard logical axioms and rejects project axioms, proof placeholders and `native_decide`.
+- **127 Lean theorem declarations**: 22 M0 results, five M1 evidence results, 17 M2 contextual-rule results, 35 M3 alignment/correspondence results and 48 M4 reconstruction/ambiguity results. The audit permits Lean's standard logical axioms and rejects project axioms, proof placeholders and `native_decide`.
 
 The [full local acquisition audit](reports/library-audit.json) records actual hash and page-count checks. Public CI validates the public PDFs and the acquisition ledger; it cannot verify copies absent from a public checkout. See [verification records](reports/README.md).
 
@@ -61,6 +64,7 @@ python ../scripts/check_proofs.py ../reports/lean-axioms-current.txt
 lake exe dossier_check data/pilots --strict
 lake exe verify_dossiers --suite contextual-rules
 lake exe correspondence_check --suite correspondence-sites
+lake exe reconstruct --suite bounded-reconstruction
 cd ..
 python scripts/verify_m1.py
 python -m unittest discover -s tests -v
@@ -72,6 +76,9 @@ python scripts/verify_m2.py --check-report
 python scripts/build_m3_fixtures.py --check
 python scripts/verify_m3.py --audit reports/lean-axioms-current.txt
 python scripts/verify_m3.py --check-report
+python scripts/build_m4_fixtures.py --check
+python scripts/verify_m4.py --audit reports/lean-axioms-current.txt
+python scripts/verify_m4.py --check-report
 ```
 
 The default toolchain is pinned in [lean-toolchain](lean/lean-toolchain). CI builds Lean **4.19.0 and 4.34.1** independently. The original local build used 4.19.0 because the 4.34.1 binary did not run on the host's macOS 10.15. If you need that compatibility path, replace `lake` with `lake +leanprover/lean4:v4.19.0` in each Lean command. CI results, rather than local compatibility claims, establish the newer-toolchain build status.

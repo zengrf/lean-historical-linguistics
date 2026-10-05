@@ -1,0 +1,1032 @@
+{
+  "schema_version": "1.0.0",
+  "suite": "bounded-reconstruction",
+  "fixtures": [
+    {
+      "path": "complete/identity.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "identity",
+          "protoform": [
+            "a"
+          ]
+        }
+      ],
+      "category": "inverse",
+      "rationale": "An identity model retains exactly the observed word."
+    },
+    {
+      "path": "complete/merger.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "merger",
+          "protoform": [
+            "a"
+          ]
+        },
+        {
+          "analysis_id": "merger",
+          "protoform": [
+            "b"
+          ]
+        }
+      ],
+      "category": "ambiguity",
+      "rationale": "A merger preserves both possible ancestors."
+    },
+    {
+      "path": "complete/deletion.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "delete",
+          "protoform": []
+        },
+        {
+          "analysis_id": "delete",
+          "protoform": [
+            "a"
+          ]
+        },
+        {
+          "analysis_id": "delete",
+          "protoform": [
+            "b"
+          ]
+        },
+        {
+          "analysis_id": "delete",
+          "protoform": [
+            "a",
+            "a"
+          ]
+        },
+        {
+          "analysis_id": "delete",
+          "protoform": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "analysis_id": "delete",
+          "protoform": [
+            "b",
+            "a"
+          ]
+        },
+        {
+          "analysis_id": "delete",
+          "protoform": [
+            "b",
+            "b"
+          ]
+        }
+      ],
+      "category": "inverse",
+      "rationale": "Every bounded word, including empty, derives the empty reflex."
+    },
+    {
+      "path": "complete/conflicting-observations.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [],
+      "category": "inverse",
+      "rationale": "A completed empty set reflects inconsistent observations under this fixed identity model."
+    },
+    {
+      "path": "complete/absent-first.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "missing",
+          "protoform": [
+            "b"
+          ]
+        }
+      ],
+      "category": "inverse",
+      "rationale": "An absent branch provides no word constraint."
+    },
+    {
+      "path": "complete/empty-is-observed.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "empty",
+          "protoform": []
+        }
+      ],
+      "category": "inverse",
+      "rationale": "Present empty requires an empty output and differs from absence."
+    },
+    {
+      "path": "complete/all-missing.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "missing",
+          "protoform": []
+        },
+        {
+          "analysis_id": "missing",
+          "protoform": [
+            "a"
+          ]
+        },
+        {
+          "analysis_id": "missing",
+          "protoform": [
+            "b"
+          ]
+        }
+      ],
+      "category": "absence",
+      "rationale": "With no observations the entire bounded space remains visible; no unique ancestor is selected."
+    },
+    {
+      "path": "complete/unknown-one-segment.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "unknown",
+          "protoform": [
+            "a"
+          ]
+        },
+        {
+          "analysis_id": "unknown",
+          "protoform": [
+            "b"
+          ]
+        }
+      ],
+      "category": "uncertainty",
+      "rationale": "An unknown is exactly one segment, not an arbitrary string or an empty word."
+    },
+    {
+      "path": "complete/unknown-with-known-context.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "unknown",
+          "protoform": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "analysis_id": "unknown",
+          "protoform": [
+            "b",
+            "b"
+          ]
+        }
+      ],
+      "category": "uncertainty",
+      "rationale": "Unknown masks retain length and known neighboring cells."
+    },
+    {
+      "path": "complete/length-zero-excludes-observed.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [],
+      "category": "inverse",
+      "rationale": "A length bound may exclude an otherwise fitting ancestor; emptiness is relative to that bound."
+    },
+    {
+      "path": "complete/empty-inventory.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "empty-alphabet",
+          "protoform": []
+        }
+      ],
+      "category": "inverse",
+      "rationale": "The empty alphabet has precisely the empty word."
+    },
+    {
+      "path": "complete/unicode-atoms.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "unicode",
+          "protoform": [
+            "a̱"
+          ]
+        }
+      ],
+      "category": "inverse",
+      "rationale": "Combining-mark and aspirated strings remain atomic Unicode symbols."
+    },
+    {
+      "path": "complete/supplementary-literal.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "supplementary",
+          "protoform": [
+            "𐀀"
+          ]
+        }
+      ],
+      "category": "inverse",
+      "rationale": "Literal supplementary UTF-8 is retained through enumeration and certificates."
+    },
+    {
+      "path": "complete/same-word-distinct-analyses.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "model-1",
+          "protoform": [
+            "a"
+          ]
+        },
+        {
+          "analysis_id": "model-2",
+          "protoform": [
+            "a"
+          ]
+        }
+      ],
+      "category": "ambiguity",
+      "rationale": "Equal word strings under distinct named analyses are not silently collapsed."
+    },
+    {
+      "path": "complete/linked-readings-no-hybrid.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [],
+      "category": "joint-alternatives",
+      "rationale": "Neither AB nor BA fits identity; marginal AA/BB combinations must not be invented."
+    },
+    {
+      "path": "complete/joint-model-alternatives.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "history-a",
+          "protoform": [
+            "a"
+          ]
+        },
+        {
+          "analysis_id": "history-b",
+          "protoform": [
+            "b"
+          ]
+        }
+      ],
+      "category": "joint-alternatives",
+      "rationale": "Alternative ancestors and branch packages remain attached to their original joint analyses."
+    },
+    {
+      "path": "complete/morpheme-enumeration.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "boundary",
+          "protoform": [
+            "a",
+            "+",
+            "b"
+          ]
+        }
+      ],
+      "category": "enumeration",
+      "rationale": "A declared morpheme atom participates in the length bound and survives derivation."
+    },
+    {
+      "path": "complete/morpheme-excluded.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [],
+      "category": "inverse",
+      "rationale": "A model that cannot create boundaries has no candidate when the proto alphabet excludes them."
+    },
+    {
+      "path": "complete/boundary-shape-filter.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "shape",
+          "protoform": []
+        },
+        {
+          "analysis_id": "shape",
+          "protoform": [
+            "a"
+          ]
+        },
+        {
+          "analysis_id": "shape",
+          "protoform": [
+            "a",
+            "a"
+          ]
+        },
+        {
+          "analysis_id": "shape",
+          "protoform": [
+            "a",
+            "a",
+            "a"
+          ]
+        },
+        {
+          "analysis_id": "shape",
+          "protoform": [
+            "a",
+            "+",
+            "a"
+          ]
+        }
+      ],
+      "category": "enumeration",
+      "rationale": "Leading, trailing and adjacent boundaries are outside the explicitly defined proto-word space."
+    },
+    {
+      "path": "complete/ordered.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "ordered",
+          "protoform": [
+            "a"
+          ]
+        },
+        {
+          "analysis_id": "ordered",
+          "protoform": [
+            "b"
+          ]
+        },
+        {
+          "analysis_id": "ordered",
+          "protoform": [
+            "c"
+          ]
+        }
+      ],
+      "category": "chronology",
+      "rationale": "Inverse candidates respect the named M2 cascade order."
+    },
+    {
+      "path": "complete/reversed.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "reversed",
+          "protoform": [
+            "b"
+          ]
+        },
+        {
+          "analysis_id": "reversed",
+          "protoform": [
+            "c"
+          ]
+        }
+      ],
+      "category": "chronology",
+      "rationale": "Inverse candidates respect the named M2 cascade order."
+    },
+    {
+      "path": "complete/weak-evidence.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "fixed-model",
+          "protoform": [
+            "a"
+          ]
+        },
+        {
+          "analysis_id": "fixed-model",
+          "protoform": [
+            "b"
+          ]
+        }
+      ],
+      "category": "monotonicity",
+      "rationale": "The weak observation permits two ancestors under a fixed model and space."
+    },
+    {
+      "path": "complete/strong-evidence.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "fixed-model",
+          "protoform": [
+            "b"
+          ]
+        }
+      ],
+      "category": "monotonicity",
+      "rationale": "Adding a second observation removes a candidate without changing the model or space."
+    },
+    {
+      "path": "complete/m3-bridge.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "m3-linked",
+          "protoform": [
+            "p"
+          ]
+        }
+      ],
+      "category": "m3-integration",
+      "rationale": "Original observations and citations exactly match a fully checked M3 alignment."
+    },
+    {
+      "path": "complete/budget-exact-space.json",
+      "status": "complete",
+      "code": null,
+      "reason": "exhausted",
+      "candidates": [
+        {
+          "analysis_id": "identity",
+          "protoform": [
+            "a"
+          ]
+        }
+      ],
+      "category": "completion",
+      "rationale": "A budget equal to the entire scope is complete, not exhausted early."
+    },
+    {
+      "path": "incomplete/zero-budget.json",
+      "status": "incomplete",
+      "code": null,
+      "reason": "candidate-budget",
+      "candidates": [],
+      "category": "resource-limit",
+      "rationale": "Unexamined hypotheses prevent a completeness or no-candidate claim, even when the retained prefix is empty."
+    },
+    {
+      "path": "incomplete/empty-prefix.json",
+      "status": "incomplete",
+      "code": null,
+      "reason": "candidate-budget",
+      "candidates": [],
+      "category": "resource-limit",
+      "rationale": "Unexamined hypotheses prevent a completeness or no-candidate claim, even when the retained prefix is empty."
+    },
+    {
+      "path": "incomplete/nonempty-prefix.json",
+      "status": "incomplete",
+      "code": null,
+      "reason": "candidate-budget",
+      "candidates": [
+        {
+          "analysis_id": "identity",
+          "protoform": [
+            "a"
+          ]
+        }
+      ],
+      "category": "resource-limit",
+      "rationale": "Unexamined hypotheses prevent a completeness or no-candidate claim, even when the retained prefix is empty."
+    },
+    {
+      "path": "incomplete/absent-prefix.json",
+      "status": "incomplete",
+      "code": null,
+      "reason": "candidate-budget",
+      "candidates": [
+        {
+          "analysis_id": "missing",
+          "protoform": []
+        }
+      ],
+      "category": "resource-limit",
+      "rationale": "Unexamined hypotheses prevent a completeness or no-candidate claim, even when the retained prefix is empty."
+    },
+    {
+      "path": "incomplete/zero-deadline.json",
+      "status": "incomplete",
+      "code": null,
+      "reason": "time-limit",
+      "candidates": [],
+      "category": "resource-limit",
+      "rationale": "Unexamined hypotheses prevent a completeness or no-candidate claim, even when the retained prefix is empty."
+    },
+    {
+      "path": "incomplete/space-ceiling.json",
+      "status": "incomplete",
+      "code": null,
+      "reason": "space-limit",
+      "candidates": [],
+      "category": "resource-limit",
+      "rationale": "Unexamined hypotheses prevent a completeness or no-candidate claim, even when the retained prefix is empty."
+    },
+    {
+      "path": "invalid/duplicate-inventory.json",
+      "status": "invalid",
+      "code": "PROTO_INVENTORY",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Duplicate alphabet members cannot multiply histories."
+    },
+    {
+      "path": "invalid/whitespace.json",
+      "status": "invalid",
+      "code": "PROTO_INVENTORY",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Proto atoms follow the exact M2 symbol contract."
+    },
+    {
+      "path": "invalid/reserved.json",
+      "status": "invalid",
+      "code": "PROTO_INVENTORY",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Proto atoms follow the exact M2 symbol contract."
+    },
+    {
+      "path": "invalid/empty-symbol.json",
+      "status": "invalid",
+      "code": "PROTO_INVENTORY",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Proto atoms follow the exact M2 symbol contract."
+    },
+    {
+      "path": "invalid/wrong-version.json",
+      "status": "invalid",
+      "code": "SCHEMA_VERSION",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Unknown schema versions fail closed."
+    },
+    {
+      "path": "invalid/bad-source-kind.json",
+      "status": "invalid",
+      "code": "QUERY_METADATA",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Source scope must be explicit."
+    },
+    {
+      "path": "invalid/profile-max_length.json",
+      "status": "invalid",
+      "code": "PROFILE_LIMIT",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Unsupported execution limits are invalid input, not a completed empty space."
+    },
+    {
+      "path": "invalid/profile-analysis_bound.json",
+      "status": "invalid",
+      "code": "PROFILE_LIMIT",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Unsupported execution limits are invalid input, not a completed empty space."
+    },
+    {
+      "path": "invalid/profile-max_rules_per_branch.json",
+      "status": "invalid",
+      "code": "PROFILE_LIMIT",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Unsupported execution limits are invalid input, not a completed empty space."
+    },
+    {
+      "path": "invalid/profile-candidate_budget.json",
+      "status": "invalid",
+      "code": "PROFILE_LIMIT",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Unsupported execution limits are invalid input, not a completed empty space."
+    },
+    {
+      "path": "invalid/profile-time_limit_ms.json",
+      "status": "invalid",
+      "code": "PROFILE_LIMIT",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Unsupported execution limits are invalid input, not a completed empty space."
+    },
+    {
+      "path": "invalid/claim-unique-ancestor.json",
+      "status": "invalid",
+      "code": "UNSUPPORTED_CLAIM",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "The checker only claims bounded relative completeness."
+    },
+    {
+      "path": "invalid/claim-global-completeness.json",
+      "status": "invalid",
+      "code": "UNSUPPORTED_CLAIM",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "The checker only claims bounded relative completeness."
+    },
+    {
+      "path": "invalid/claim-optimal.json",
+      "status": "invalid",
+      "code": "UNSUPPORTED_CLAIM",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "The checker only claims bounded relative completeness."
+    },
+    {
+      "path": "invalid/claim-best-only.json",
+      "status": "invalid",
+      "code": "UNSUPPORTED_CLAIM",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "The checker only claims bounded relative completeness."
+    },
+    {
+      "path": "invalid/empty-analyses.json",
+      "status": "invalid",
+      "code": "ANALYSIS_SPACE",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "At least one explicit joint analysis is required."
+    },
+    {
+      "path": "invalid/analysis-bound.json",
+      "status": "invalid",
+      "code": "ANALYSIS_SPACE",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Actual analyses must fit the declared choice bound."
+    },
+    {
+      "path": "invalid/duplicate-analysis-id.json",
+      "status": "invalid",
+      "code": "ANALYSIS_SPACE",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Analysis identity cannot be reused."
+    },
+    {
+      "path": "invalid/invalid-proto-node.json",
+      "status": "invalid",
+      "code": "ANALYSIS_METADATA",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Every candidate names a valid proto node."
+    },
+    {
+      "path": "invalid/missing-branch.json",
+      "status": "invalid",
+      "code": "DOCULECT_AXIS",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "The full declared branch model is required."
+    },
+    {
+      "path": "invalid/reordered-observations.json",
+      "status": "invalid",
+      "code": "DOCULECT_AXIS",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Observation positions follow a common explicit axis."
+    },
+    {
+      "path": "invalid/duplicate-doculect.json",
+      "status": "invalid",
+      "code": "DOCULECT_AXIS",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Doculect identities are distinct."
+    },
+    {
+      "path": "invalid/missing-source.json",
+      "status": "invalid",
+      "code": "SOURCE_REF",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Observation sources remain explicit."
+    },
+    {
+      "path": "invalid/bad-form-gap.json",
+      "status": "invalid",
+      "code": "OBSERVATION_SHAPE",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Original evidence cannot silently become a gap, missing cell, malformed boundary or empty unknown value."
+    },
+    {
+      "path": "invalid/bad-form-missing.json",
+      "status": "invalid",
+      "code": "OBSERVATION_SHAPE",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Original evidence cannot silently become a gap, missing cell, malformed boundary or empty unknown value."
+    },
+    {
+      "path": "invalid/bad-form-boundary.json",
+      "status": "invalid",
+      "code": "OBSERVATION_SHAPE",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Original evidence cannot silently become a gap, missing cell, malformed boundary or empty unknown value."
+    },
+    {
+      "path": "invalid/bad-form-unknown.json",
+      "status": "invalid",
+      "code": "OBSERVATION_SHAPE",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Original evidence cannot silently become a gap, missing cell, malformed boundary or empty unknown value."
+    },
+    {
+      "path": "invalid/unknown-observed-segment.json",
+      "status": "invalid",
+      "code": "OBSERVATION_INVENTORY",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Known observations belong to the named branch inventory."
+    },
+    {
+      "path": "invalid/proto-not-in-package.json",
+      "status": "invalid",
+      "code": "PROTO_PACKAGE_INVENTORY",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Every possible proto segment belongs to each forward package."
+    },
+    {
+      "path": "invalid/wrong-root-stage.json",
+      "status": "invalid",
+      "code": "PROTO_STAGE",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "All branches start at the candidate's proto node."
+    },
+    {
+      "path": "invalid/rule-count-bound.json",
+      "status": "invalid",
+      "code": "RULE_BOUND",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Rules cannot exceed the declared complexity bound."
+    },
+    {
+      "path": "invalid/broken-stage-chain.json",
+      "status": "invalid",
+      "code": "STAGE_CHAIN",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "M2 chronological package validation remains in the acceptance path."
+    },
+    {
+      "path": "invalid/package-identity-collision.json",
+      "status": "invalid",
+      "code": "PACKAGE_COLLISION",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "A package identity/version cannot conceal different models."
+    },
+    {
+      "path": "invalid/missing-joint-binding.json",
+      "status": "invalid",
+      "code": "JOINT_BINDINGS",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Each listed tuple binds every shared choice."
+    },
+    {
+      "path": "invalid/unknown-choice-option.json",
+      "status": "invalid",
+      "code": "JOINT_BINDINGS",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Only declared reading alternatives are licensed."
+    },
+    {
+      "path": "invalid/duplicate-choice-group.json",
+      "status": "invalid",
+      "code": "CHOICE_GROUP",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Linked choice identities are unique."
+    },
+    {
+      "path": "invalid/m3-corrupt-alignment.json",
+      "status": "invalid",
+      "code": "M3_CERTIFICATE",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "The evidence bridge cannot bypass alignment or correspondence checking."
+    },
+    {
+      "path": "invalid/m3-unknown-target.json",
+      "status": "invalid",
+      "code": "M3_ALIGNMENT",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "A bridge must identify an actual checked alignment."
+    },
+    {
+      "path": "invalid/m3-changed-original.json",
+      "status": "invalid",
+      "code": "M3_OBSERVATIONS",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "Claimed observations must match the M3 original values exactly."
+    },
+    {
+      "path": "invalid/m3-changed-source.json",
+      "status": "invalid",
+      "code": "M3_OBSERVATIONS",
+      "reason": "input",
+      "candidates": [],
+      "category": "validation",
+      "rationale": "The bridge retains the source identity as well as the cells."
+    },
+    {
+      "path": "invalid/hidden-candidate-list.json",
+      "status": "invalid",
+      "code": "JSON_SHAPE",
+      "reason": "input",
+      "candidates": [],
+      "category": "parser",
+      "rationale": "Undeclared fields or invalid scalar shapes cannot change the finite search contract."
+    },
+    {
+      "path": "invalid/hidden-score.json",
+      "status": "invalid",
+      "code": "JSON_SHAPE",
+      "reason": "input",
+      "candidates": [],
+      "category": "parser",
+      "rationale": "Undeclared fields or invalid scalar shapes cannot change the finite search contract."
+    },
+    {
+      "path": "invalid/positional-alternatives.json",
+      "status": "invalid",
+      "code": "JSON_SHAPE",
+      "reason": "input",
+      "candidates": [],
+      "category": "parser",
+      "rationale": "Undeclared fields or invalid scalar shapes cannot change the finite search contract."
+    },
+    {
+      "path": "invalid/omitted-null.json",
+      "status": "invalid",
+      "code": "JSON_SHAPE",
+      "reason": "input",
+      "candidates": [],
+      "category": "parser",
+      "rationale": "Undeclared fields or invalid scalar shapes cannot change the finite search contract."
+    },
+    {
+      "path": "invalid/negative-bound.json",
+      "status": "invalid",
+      "code": "JSON_SHAPE",
+      "reason": "input",
+      "candidates": [],
+      "category": "parser",
+      "rationale": "Undeclared fields or invalid scalar shapes cannot change the finite search contract."
+    },
+    {
+      "path": "invalid/float-budget.json",
+      "status": "invalid",
+      "code": "JSON_SHAPE",
+      "reason": "input",
+      "candidates": [],
+      "category": "parser",
+      "rationale": "Undeclared fields or invalid scalar shapes cannot change the finite search contract."
+    },
+    {
+      "path": "invalid/duplicate-key.json",
+      "status": "invalid",
+      "code": "DUPLICATE_JSON_KEY",
+      "reason": "input",
+      "candidates": [],
+      "category": "parser",
+      "rationale": "Malformed or ambiguous bytes are rejected before search."
+    },
+    {
+      "path": "invalid/escaped-duplicate-key.json",
+      "status": "invalid",
+      "code": "DUPLICATE_JSON_KEY",
+      "reason": "input",
+      "candidates": [],
+      "category": "parser",
+      "rationale": "Malformed or ambiguous bytes are rejected before search."
+    },
+    {
+      "path": "invalid/invalid-utf8.json",
+      "status": "invalid",
+      "code": "UTF8",
+      "reason": "input",
+      "candidates": [],
+      "category": "parser",
+      "rationale": "Malformed or ambiguous bytes are rejected before search."
+    },
+    {
+      "path": "invalid/invalid-json.json",
+      "status": "invalid",
+      "code": "JSON_SYNTAX",
+      "reason": "input",
+      "candidates": [],
+      "category": "parser",
+      "rationale": "Malformed or ambiguous bytes are rejected before search."
+    },
+    {
+      "path": "invalid/surrogate-escape.json",
+      "status": "invalid",
+      "code": "UNICODE_ESCAPE",
+      "reason": "input",
+      "candidates": [],
+      "category": "parser",
+      "rationale": "Malformed or ambiguous bytes are rejected before search."
+    }
+  ]
+}

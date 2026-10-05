@@ -1,6 +1,6 @@
 # Formal architecture and theorem contracts
 
-Status: **design**, except the explicitly identified prototype results, implemented [M1 evidence schema/checker](07-m1-delivery.md), and [M2 contextual semantics/certificates](08-m2-delivery.md). This document specifies what future implementations must prove; it does not claim those later modules already exist.
+Status: **design**, except the explicitly identified prototype results and implemented [M1 evidence schema/checker](07-m1-delivery.md), [M2 contextual semantics/certificates](08-m2-delivery.md), [M3 alignment/correspondence checker](09-m3-delivery.md), and [M4 bounded reconstruction](10-m4-delivery.md). Contracts for later modules remain future work.
 
 ## 1. The object of verification
 
@@ -14,6 +14,14 @@ Recon(P, F, D) := { h in P | Fits(F, D, h) }
 ```
 
 `P` must be an explicit finite pool or come from a proved finite enumeration with declared bounds. A theorem about `Recon` does not establish that the true ancestor is in `P`. If laws are inferred as part of `h`, their complexity and permitted operations must also be bounded; otherwise memorizing the observed lexicon is easy.
+
+M4 now proves exact enumeration by alphabet and maximum word length, subject to
+an explicit morpheme shape filter, paired with a finite list of whole joint
+analyses. It returns every fitting history, with M2 branch certificates and
+optional checked M3 evidence links. Known cells match exactly, null rows are
+unconstrained, and unknown cells occupy one segment. Incomplete prefixes remain
+distinct from complete empty inverse sets. See the
+[versioned bounded-search contract](bounded-reconstruction-semantics.md).
 
 For nondeterministic histories, replace equality by membership in the model's licensed output relation. Declare whether alternatives represent real historical variation, uncertainty about the analyst's model, or a lossy observation. These interpretations should not be conflated.
 
@@ -131,12 +139,12 @@ The current files use `Std`, with no mathlib or linglib dependency.
 | Context-sensitive rule interpreter and certificate correctness | **Proved** | `Historical.Rules`, `Historical.Certificates`, `Historical.RuleInput.checkDossier_iff`; M2 |
 | Restricted rule compiler correctness | Planned | M7 |
 | Alignment validity and feasible correspondence-partition checker correctness | **Proved** | `Historical.Alignment`, `Historical.Correspondence`, `Historical.CorrespondenceInput.dossierAccepted_iff`; M3 |
-| Exhaustive enumeration by segment inventory and length bound | Planned | M4; current pool is supplied explicitly |
+| Exhaustive enumeration by inventory/length and candidate soundness/completeness | **Proved** | `Historical.Reconstruction.mem_wordsUpTo`, `mem_space`, `reconstruction_correct`; M4 |
 | Verified real PIE or Sino-Tibetan etymology | **Not yet delivered** | M5 and M6 |
-| Identifiability up to a declared equivalence | Planned beyond toy examples | M4 / M9 |
+| Observational equivalence and fixed-model monotonicity/refinement | **Proved** | `Historical.Identifiability.equivalent_fits`, `equivalent_membership`, `reconstruction_refinement`; M4 |
 | Probabilistic inference correctness and calibration | Planned, optional | M9 |
 
-There are **22 M0 theorem declarations**, five M1 evidence results, 17 M2 results and 35 M3 results, for **79 audited declarations** in total. The M0 abstract `Comparative.Rule` remains any total word-to-word function for generic theorems. M2 uses a distinct data-only `Historical.Rules.Rule` grammar; its accepted packages enforce local context bounds, a finite declared inventory and chronological stage continuity. M3 verifies alignment preservation and feasible correspondence partitions. M1 retains sourced evidence independently. These representation and execution checks do not establish historical plausibility.
+There are **22 M0 theorem declarations**, five M1 evidence results, 17 M2 results, 35 M3 results and 48 M4 results, for **127 audited declarations** in total. The M0 abstract `Comparative.Rule` remains any total word-to-word function for generic theorems. M2 uses a distinct data-only `Historical.Rules.Rule` grammar; its accepted packages enforce local context bounds, a finite declared inventory and chronological stage continuity. M3 verifies alignment preservation and feasible correspondence partitions. M4 proves bounded inverse reconstruction through the M2 semantics and preserves joint alternatives. M1 retains sourced evidence independently. These conditional results do not establish historical plausibility.
 
 ## 7. Uncertainty, scores and explanations
 

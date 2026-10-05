@@ -1,0 +1,289 @@
+{
+  "schema_version": "1.0.0",
+  "id": "m3-corrupt-alignment",
+  "description": "Synthetic bounded reconstruction: m3-bridge",
+  "source_kind": "synthetic",
+  "claim": "bounded-relative-completeness",
+  "proto_inventory": [
+    "p",
+    "b"
+  ],
+  "allow_morphemes": false,
+  "max_length": 1,
+  "analysis_bound": 16,
+  "max_rules_per_branch": 16,
+  "doculects": [
+    "synthetic-A",
+    "synthetic-B",
+    "synthetic-C",
+    "synthetic-D"
+  ],
+  "choice_groups": [],
+  "analyses": [
+    {
+      "id": "m3-linked",
+      "description": "Constructed joint analysis: m3-linked",
+      "proto_node_id": "s0",
+      "choice_bindings": [],
+      "alignment_evidence": {
+        "dossier": {
+          "alignment_data": {
+            "schema_version": "1.0.0",
+            "id": "shared-01",
+            "description": "Constructed M3 contract example: shared-01",
+            "source_kind": "synthetic",
+            "doculects": [
+              "synthetic-A",
+              "synthetic-B",
+              "synthetic-C",
+              "synthetic-D"
+            ],
+            "alignments": [
+              {
+                "id": "shared-01-a",
+                "evidence_unit": "shared-01-a-root",
+                "width": 1,
+                "rows": [
+                  {
+                    "doculect_id": "synthetic-A",
+                    "source_ref": "synthetic:shared-01-a:synthetic-A",
+                    "original": [
+                      {
+                        "kind": "segment",
+                        "value": "p"
+                      }
+                    ],
+                    "aligned": [
+                      {
+                        "kind": "segment",
+                        "value": "b"
+                      }
+                    ]
+                  },
+                  {
+                    "doculect_id": "synthetic-B",
+                    "source_ref": "synthetic:shared-01-a:synthetic-B",
+                    "original": [
+                      {
+                        "kind": "segment",
+                        "value": "b"
+                      }
+                    ],
+                    "aligned": [
+                      {
+                        "kind": "segment",
+                        "value": "b"
+                      }
+                    ]
+                  },
+                  {
+                    "doculect_id": "synthetic-C",
+                    "source_ref": "synthetic:shared-01-a:synthetic-C",
+                    "original": null,
+                    "aligned": null
+                  },
+                  {
+                    "doculect_id": "synthetic-D",
+                    "source_ref": "synthetic:shared-01-a:synthetic-D",
+                    "original": null,
+                    "aligned": null
+                  }
+                ]
+              },
+              {
+                "id": "shared-01-b",
+                "evidence_unit": "shared-01-b-root",
+                "width": 1,
+                "rows": [
+                  {
+                    "doculect_id": "synthetic-A",
+                    "source_ref": "synthetic:shared-01-b:synthetic-A",
+                    "original": [
+                      {
+                        "kind": "segment",
+                        "value": "p"
+                      }
+                    ],
+                    "aligned": [
+                      {
+                        "kind": "segment",
+                        "value": "p"
+                      }
+                    ]
+                  },
+                  {
+                    "doculect_id": "synthetic-B",
+                    "source_ref": "synthetic:shared-01-b:synthetic-B",
+                    "original": null,
+                    "aligned": null
+                  },
+                  {
+                    "doculect_id": "synthetic-C",
+                    "source_ref": "synthetic:shared-01-b:synthetic-C",
+                    "original": [
+                      {
+                        "kind": "segment",
+                        "value": "a̱"
+                      }
+                    ],
+                    "aligned": [
+                      {
+                        "kind": "segment",
+                        "value": "a̱"
+                      }
+                    ]
+                  },
+                  {
+                    "doculect_id": "synthetic-D",
+                    "source_ref": "synthetic:shared-01-b:synthetic-D",
+                    "original": null,
+                    "aligned": null
+                  }
+                ]
+              }
+            ]
+          },
+          "sites": [
+            {
+              "id": "shared-01-a-c0",
+              "alignment_id": "shared-01-a",
+              "column_index": 0
+            },
+            {
+              "id": "shared-01-b-c0",
+              "alignment_id": "shared-01-b",
+              "column_index": 0
+            }
+          ],
+          "groups": [
+            {
+              "id": "group-0",
+              "members": [
+                "shared-01-a-c0",
+                "shared-01-b-c0"
+              ],
+              "claimed_support": 2
+            }
+          ],
+          "support_policy": "distinct-evidence-units-v1",
+          "claim": "feasibility-only"
+        },
+        "alignment_id": "shared-01-a"
+      },
+      "branches": [
+        {
+          "doculect_id": "synthetic-A",
+          "package": {
+            "id": "synthetic-m3-linked-synthetic-A",
+            "version": "1.0.0",
+            "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+            "inventory": [
+              "p",
+              "b"
+            ],
+            "initial_stage": "s0",
+            "final_stage": "s0",
+            "laws": []
+          }
+        },
+        {
+          "doculect_id": "synthetic-B",
+          "package": {
+            "id": "synthetic-m3-linked-synthetic-B",
+            "version": "1.0.0",
+            "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+            "inventory": [
+              "p",
+              "b"
+            ],
+            "initial_stage": "s0",
+            "final_stage": "s1",
+            "laws": [
+              {
+                "id": "law-1",
+                "input_stage": "s0",
+                "output_stage": "s1",
+                "rule": {
+                  "target": [
+                    "p"
+                  ],
+                  "replacement": "b",
+                  "left": [],
+                  "right": [],
+                  "left_edge": false,
+                  "right_edge": false,
+                  "direction": "left-to-right",
+                  "mode": "simultaneous"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "doculect_id": "synthetic-C",
+          "package": {
+            "id": "synthetic-m3-linked-synthetic-C",
+            "version": "1.0.0",
+            "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+            "inventory": [
+              "p",
+              "b"
+            ],
+            "initial_stage": "s0",
+            "final_stage": "s0",
+            "laws": []
+          }
+        },
+        {
+          "doculect_id": "synthetic-D",
+          "package": {
+            "id": "synthetic-m3-linked-synthetic-D",
+            "version": "1.0.0",
+            "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+            "inventory": [
+              "p",
+              "b"
+            ],
+            "initial_stage": "s0",
+            "final_stage": "s0",
+            "laws": []
+          }
+        }
+      ],
+      "observations": [
+        {
+          "doculect_id": "synthetic-A",
+          "source_ref": "synthetic:shared-01-a:synthetic-A",
+          "form": [
+            {
+              "kind": "segment",
+              "value": "p"
+            }
+          ]
+        },
+        {
+          "doculect_id": "synthetic-B",
+          "source_ref": "synthetic:shared-01-a:synthetic-B",
+          "form": [
+            {
+              "kind": "segment",
+              "value": "b"
+            }
+          ]
+        },
+        {
+          "doculect_id": "synthetic-C",
+          "source_ref": "synthetic:shared-01-a:synthetic-C",
+          "form": null
+        },
+        {
+          "doculect_id": "synthetic-D",
+          "source_ref": "synthetic:shared-01-a:synthetic-D",
+          "form": null
+        }
+      ]
+    }
+  ],
+  "candidate_budget": 20000,
+  "time_limit_ms": null
+}

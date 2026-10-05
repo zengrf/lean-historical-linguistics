@@ -37,6 +37,10 @@ jobs:
         run: |
           python scripts/build_m3_fixtures.py --check
           python scripts/verify_m3.py --check-report
+      - name: Check M4 finite reconstruction evidence and delivery hashes
+        run: |
+          python scripts/build_m4_fixtures.py --check
+          python scripts/verify_m4.py --check-report
       - name: Check generated catalogue and attribution notices
         run: |
           python scripts/build_catalogue.py
@@ -88,3 +92,8 @@ jobs:
           python scripts/verify_m3.py --audit "$RUNNER_TEMP/axioms.txt"
           python scripts/verify_m3.py --check-report
           git diff --exit-code -- reports/correspondence-sites.json
+      - name: M4 bounded reconstruction, ambiguity and exact inverse sets
+        run: |
+          python scripts/verify_m4.py --audit "$RUNNER_TEMP/axioms.txt"
+          python scripts/verify_m4.py --check-report
+          git diff --exit-code -- reports/exhaustive-small-domain.json

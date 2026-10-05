@@ -206,39 +206,51 @@
   {
     "id": "M4",
     "title": "Bounded inverse reconstruction and ambiguity",
-    "status": "planned",
+    "status": "delivered",
     "depends_on": [
       "M2",
       "M3"
     ],
     "owner_role": "Lean engineer",
     "artifacts": [
-      "Historical/Reconstruction.lean",
-      "Historical/Identifiability.lean",
+      "lean/Historical/Reconstruction.lean",
+      "lean/Historical/Identifiability.lean",
+      "lean/Historical/ReconstructionInput.lean",
+      "lean/Reconstruct.lean",
+      "docs/bounded-reconstruction-semantics.md",
+      "docs/10-m4-delivery.md",
+      "data/reconstruction/README.md",
+      "data/reconstruction/manifest.json",
+      "scripts/build_m4_fixtures.py",
+      "scripts/reference_reconstruction.py",
+      "scripts/run_reconstruction.py",
+      "scripts/verify_m4.py",
+      "tests/test_m4_contracts.py",
       "reports/exhaustive-small-domain.json"
     ],
     "acceptance": [
       {
         "id": "M4-enumeration",
-        "test": "Build a finite enumeration theorem and inspect the declared hypothesis-space bounds",
+        "test": "Build Lean; emit Audit.lean; run scripts/check_proofs.py on the fresh audit; inspect docs/bounded-reconstruction-semantics.md",
         "pass_condition": "Inventory, maximum word length and any rule/model-choice bounds are explicit; enumeration covers precisely that space."
       },
       {
         "id": "M4-correctness",
-        "test": "Build and audit candidate soundness and relative completeness theorems",
+        "test": "From lean/: lake build Historical.Reconstruction Historical.Identifiability Historical.ReconstructionInput; lake env lean Audit.lean; python scripts/verify_m4.py --audit PATH from root",
         "pass_condition": "Every returned candidate fits and every fitting in-scope candidate is returned, relative to the proved executable/logical bridge."
       },
       {
         "id": "M4-ambiguity",
-        "test": "Build observation-monotonicity and observational-equivalence results; inspect alternative serialization",
+        "test": "From lean/: lake exe reconstruct --suite bounded-reconstruction; inspect joint-model/linked-reading fixtures; python scripts/verify_m4.py --audit PATH",
         "pass_condition": "Observationally equivalent histories remain indistinguishable on the selected data; linked alternatives remain joint; monotonicity states fixed model and hypothesis-space assumptions."
       },
       {
         "id": "M4-reference",
-        "test": "Compare with independent exhaustive enumeration",
+        "test": "python scripts/verify_m4.py --audit PATH; python scripts/verify_m4.py --check-report; inspect reports/exhaustive-small-domain.json",
         "pass_condition": "Exact agreement on all words of length at most four over three symbols for at least ten cascades; timeout is distinguished from an empty completed search."
       }
-    ]
+    ],
+    "delivery_note": "All four criteria pass: 48 new Lean theorems; 25 complete, six incomplete and 51 invalid fixtures; exact agreement on 1936 inverse sets across 121 words and 16 cascades (234256 membership decisions); 121 fixed-model observation refinements. Joint alternatives and M2 certificates are retained, optional M3 evidence is checked, and cooperative/process timeouts are distinct from completed empty searches. Synthetic results are complete only relative to declared bounds and models. See docs/10-m4-delivery.md and reports/exhaustive-small-domain.json."
   },
   {
     "id": "M5",

@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0.0",
+  "id": "length-zero",
+  "description": "Synthetic bounded reconstruction: length-zero",
+  "source_kind": "synthetic",
+  "claim": "bounded-relative-completeness",
+  "proto_inventory": [
+    "a",
+    "b"
+  ],
+  "allow_morphemes": false,
+  "max_length": 0,
+  "analysis_bound": 16,
+  "max_rules_per_branch": 16,
+  "doculects": [
+    "A",
+    "B"
+  ],
+  "choice_groups": [],
+  "analyses": [
+    {
+      "id": "identity",
+      "description": "Constructed joint analysis: identity",
+      "proto_node_id": "s0",
+      "choice_bindings": [],
+      "alignment_evidence": null,
+      "branches": [
+        {
+          "doculect_id": "A",
+          "package": {
+            "id": "synthetic-identity-A",
+            "version": "1.0.0",
+            "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+            "inventory": [
+              "a",
+              "b"
+            ],
+            "initial_stage": "s0",
+            "final_stage": "s0",
+            "laws": []
+          }
+        },
+        {
+          "doculect_id": "B",
+          "package": {
+            "id": "synthetic-identity-B",
+            "version": "1.0.0",
+            "description": "Synthetic semantics fixture; no historical reconstruction claim.",
+            "inventory": [
+              "a",
+              "b"
+            ],
+            "initial_stage": "s0",
+            "final_stage": "s0",
+            "laws": []
+          }
+        }
+      ],
+      "observations": [
+        {
+          "doculect_id": "A",
+          "source_ref": "synthetic:identity:A",
+          "form": [
+            {
+              "kind": "segment",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "doculect_id": "B",
+          "source_ref": "synthetic:identity:B",
+          "form": [
+            {
+              "kind": "segment",
+              "value": "a"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "candidate_budget": 20000,
+  "time_limit_ms": null
+}
