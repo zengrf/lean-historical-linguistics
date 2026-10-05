@@ -1,0 +1,172 @@
+{
+  "alignment_data": {
+    "schema_version": "1.0.0",
+    "id": "shared-05",
+    "description": "Constructed M3 contract example: shared-05",
+    "source_kind": "synthetic",
+    "doculects": [
+      "synthetic-A",
+      "synthetic-B",
+      "synthetic-C",
+      "synthetic-D"
+    ],
+    "alignments": [
+      {
+        "id": "shared-05-a",
+        "evidence_unit": "shared-05-a-root",
+        "width": 1,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:shared-05-a:synthetic-A",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "p"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "p"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:shared-05-a:synthetic-B",
+            "original": [
+              {
+                "kind": "unknown",
+                "value": "unread"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "unknown",
+                "value": "unread"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:shared-05-a:synthetic-C",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "a̱"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "a̱"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:shared-05-a:synthetic-D",
+            "original": null,
+            "aligned": null
+          }
+        ]
+      },
+      {
+        "id": "shared-05-b",
+        "evidence_unit": "shared-05-b-root",
+        "width": 1,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:shared-05-b:synthetic-A",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "p"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "p"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:shared-05-b:synthetic-B",
+            "original": [
+              {
+                "kind": "unknown",
+                "value": "unclear-glyph"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "unknown",
+                "value": "unclear-glyph"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:shared-05-b:synthetic-C",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "a̱"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "a̱"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:shared-05-b:synthetic-D",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "⁵¹"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "⁵¹"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sites": [
+    {
+      "id": "shared-05-a-c0",
+      "alignment_id": "shared-05-a",
+      "column_index": 0
+    },
+    {
+      "id": "shared-05-b-c0",
+      "alignment_id": "shared-05-b",
+      "column_index": 0
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-0",
+      "members": [
+        "shared-05-a-c0",
+        "shared-05-b-c0"
+      ],
+      "claimed_support": 2
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1",
+  "claim": "feasibility-only"
+}

@@ -33,6 +33,10 @@ jobs:
         run: |
           python scripts/build_m2_fixtures.py --check
           python scripts/verify_m2.py --check-report
+      - name: Check M3 generated fixtures, site evidence and delivery hashes
+        run: |
+          python scripts/build_m3_fixtures.py --check
+          python scripts/verify_m3.py --check-report
       - name: Check generated catalogue and attribution notices
         run: |
           python scripts/build_catalogue.py
@@ -79,3 +83,8 @@ jobs:
           python scripts/verify_m2.py --audit "$RUNNER_TEMP/axioms.txt"
           python scripts/verify_m2.py --check-report
           git diff --exit-code -- reports/contextual-rules.json
+      - name: M3 alignment, correspondence and finite reference comparisons
+        run: |
+          python scripts/verify_m3.py --audit "$RUNNER_TEMP/axioms.txt"
+          python scripts/verify_m3.py --check-report
+          git diff --exit-code -- reports/correspondence-sites.json

@@ -1,0 +1,182 @@
+{
+  "alignment_data": {
+    "schema_version": "1.0.0",
+    "id": "shared-06",
+    "description": "Constructed M3 contract example: shared-06",
+    "source_kind": "synthetic",
+    "doculects": [
+      "synthetic-A",
+      "synthetic-B",
+      "synthetic-C",
+      "synthetic-D"
+    ],
+    "alignments": [
+      {
+        "id": "shared-06-a",
+        "evidence_unit": "shared-06-a-root",
+        "width": 1,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:shared-06-a:synthetic-A",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "t"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "t"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:shared-06-a:synthetic-B",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "d"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "d"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:shared-06-a:synthetic-C",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "tʰ"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "tʰ"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:shared-06-a:synthetic-D",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "⁵¹"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "⁵¹"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shared-06-b",
+        "evidence_unit": "shared-06-b-root",
+        "width": 1,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:shared-06-b:synthetic-A",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "t"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "t"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:shared-06-b:synthetic-B",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "d"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "d"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:shared-06-b:synthetic-C",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "tʰ"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "tʰ"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:shared-06-b:synthetic-D",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "⁵¹"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "⁵¹"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sites": [
+    {
+      "id": "shared-06-a-c0",
+      "alignment_id": "shared-06-a",
+      "column_index": 0
+    },
+    {
+      "id": "shared-06-b-c0",
+      "alignment_id": "shared-06-b",
+      "column_index": 0
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-0",
+      "members": [
+        "shared-06-a-c0",
+        "shared-06-b-c0"
+      ],
+      "claimed_support": 2
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1",
+  "claim": "feasibility-only"
+}

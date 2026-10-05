@@ -1,0 +1,213 @@
+{
+  "alignment_data": {
+    "schema_version": "1.0.0",
+    "id": "two-columns-06",
+    "description": "Constructed M3 contract example: two-columns-06",
+    "source_kind": "synthetic",
+    "doculects": [
+      "synthetic-A",
+      "synthetic-B",
+      "synthetic-C",
+      "synthetic-D"
+    ],
+    "alignments": [
+      {
+        "id": "two-columns-06-a",
+        "evidence_unit": "two-columns-06-a-root",
+        "width": 2,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:two-columns-06-a:synthetic-A",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "t"
+              },
+              {
+                "kind": "segment",
+                "value": "t"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "t"
+              },
+              {
+                "kind": "segment",
+                "value": "t"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:two-columns-06-a:synthetic-B",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "d"
+              },
+              {
+                "kind": "segment",
+                "value": "d"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "d"
+              },
+              {
+                "kind": "segment",
+                "value": "d"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:two-columns-06-a:synthetic-C",
+            "original": null,
+            "aligned": null
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:two-columns-06-a:synthetic-D",
+            "original": [],
+            "aligned": [
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "gap",
+                "value": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "two-columns-06-b",
+        "evidence_unit": "two-columns-06-b-root",
+        "width": 2,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:two-columns-06-b:synthetic-A",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "t"
+              },
+              {
+                "kind": "segment",
+                "value": "t"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "t"
+              },
+              {
+                "kind": "segment",
+                "value": "t"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:two-columns-06-b:synthetic-B",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "d"
+              },
+              {
+                "kind": "segment",
+                "value": "d"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "d"
+              },
+              {
+                "kind": "segment",
+                "value": "d"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:two-columns-06-b:synthetic-C",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "a̱"
+              },
+              {
+                "kind": "segment",
+                "value": "a̱"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "a̱"
+              },
+              {
+                "kind": "segment",
+                "value": "a̱"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:two-columns-06-b:synthetic-D",
+            "original": null,
+            "aligned": null
+          }
+        ]
+      }
+    ]
+  },
+  "sites": [
+    {
+      "id": "two-columns-06-a-c0",
+      "alignment_id": "two-columns-06-a",
+      "column_index": 0
+    },
+    {
+      "id": "two-columns-06-a-c1",
+      "alignment_id": "two-columns-06-a",
+      "column_index": 1
+    },
+    {
+      "id": "two-columns-06-b-c0",
+      "alignment_id": "two-columns-06-b",
+      "column_index": 0
+    },
+    {
+      "id": "two-columns-06-b-c1",
+      "alignment_id": "two-columns-06-b",
+      "column_index": 1
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-0",
+      "members": [
+        "two-columns-06-a-c0",
+        "two-columns-06-a-c1",
+        "two-columns-06-b-c0",
+        "two-columns-06-b-c1"
+      ],
+      "claimed_support": 2
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1",
+  "claim": "feasibility-only"
+}

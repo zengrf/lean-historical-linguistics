@@ -1,0 +1,139 @@
+{
+  "alignment_data": {
+    "schema_version": "1.0.0",
+    "id": "adjacent-boundaries",
+    "description": "Constructed M3 contract example: adjacent-boundaries",
+    "source_kind": "synthetic",
+    "doculects": [
+      "synthetic-A",
+      "synthetic-B",
+      "synthetic-C",
+      "synthetic-D"
+    ],
+    "alignments": [
+      {
+        "id": "adjacent-boundaries",
+        "evidence_unit": "adjacent-boundaries-root",
+        "width": 4,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:adjacent-boundaries:synthetic-A",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "p"
+              },
+              {
+                "kind": "boundary",
+                "value": "+"
+              },
+              {
+                "kind": "boundary",
+                "value": "+"
+              },
+              {
+                "kind": "segment",
+                "value": "t"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "p"
+              },
+              {
+                "kind": "boundary",
+                "value": "+"
+              },
+              {
+                "kind": "boundary",
+                "value": "+"
+              },
+              {
+                "kind": "segment",
+                "value": "t"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:adjacent-boundaries:synthetic-B",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "p"
+              },
+              {
+                "kind": "boundary",
+                "value": "+"
+              },
+              {
+                "kind": "boundary",
+                "value": "+"
+              },
+              {
+                "kind": "segment",
+                "value": "t"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "p"
+              },
+              {
+                "kind": "boundary",
+                "value": "+"
+              },
+              {
+                "kind": "boundary",
+                "value": "+"
+              },
+              {
+                "kind": "segment",
+                "value": "t"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:adjacent-boundaries:synthetic-C",
+            "original": null,
+            "aligned": null
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:adjacent-boundaries:synthetic-D",
+            "original": null,
+            "aligned": null
+          }
+        ]
+      }
+    ]
+  },
+  "sites": [
+    {
+      "id": "adjacent-boundaries-c0",
+      "alignment_id": "adjacent-boundaries",
+      "column_index": 0
+    },
+    {
+      "id": "adjacent-boundaries-c3",
+      "alignment_id": "adjacent-boundaries",
+      "column_index": 3
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-0",
+      "members": [
+        "adjacent-boundaries-c0",
+        "adjacent-boundaries-c3"
+      ],
+      "claimed_support": 1
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1",
+  "claim": "feasibility-only"
+}

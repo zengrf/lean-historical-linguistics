@@ -1,0 +1,1221 @@
+{
+  "schema_version": "1.0.0",
+  "suite": "correspondence-sites",
+  "fixtures": [
+    {
+      "path": "sites/shared-00.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-01.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-02.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-03.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-04.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-05.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-06.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-07.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-08.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-09.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-10.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-11.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-12.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-13.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-14.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-15.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-16.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-17.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-18.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-19.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-20.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-21.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-22.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-23.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-24.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-25.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-26.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-27.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-28.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/shared-29.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "positive-overlap",
+      "rationale": "Two units share observed segments; unavailable cells add neither conflict nor evidence.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/two-columns-00.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "multiple-sites-per-unit",
+      "rationale": "Two columns per alignment; repeated positions retain two distinct evidence units.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/two-columns-01.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "multiple-sites-per-unit",
+      "rationale": "Two columns per alignment; repeated positions retain two distinct evidence units.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/two-columns-02.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "multiple-sites-per-unit",
+      "rationale": "Two columns per alignment; repeated positions retain two distinct evidence units.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/two-columns-03.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "multiple-sites-per-unit",
+      "rationale": "Two columns per alignment; repeated positions retain two distinct evidence units.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/two-columns-04.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "multiple-sites-per-unit",
+      "rationale": "Two columns per alignment; repeated positions retain two distinct evidence units.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/two-columns-05.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "multiple-sites-per-unit",
+      "rationale": "Two columns per alignment; repeated positions retain two distinct evidence units.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/two-columns-06.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "multiple-sites-per-unit",
+      "rationale": "Two columns per alignment; repeated positions retain two distinct evidence units.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/two-columns-07.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "multiple-sites-per-unit",
+      "rationale": "Two columns per alignment; repeated positions retain two distinct evidence units.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/two-columns-08.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "multiple-sites-per-unit",
+      "rationale": "Two columns per alignment; repeated positions retain two distinct evidence units.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/two-columns-09.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "multiple-sites-per-unit",
+      "rationale": "Two columns per alignment; repeated positions retain two distinct evidence units.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/conflict-00.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PAIR_CONFLICT",
+      "category": "observed-conflict",
+      "rationale": "A shared sound does not excuse a conflict at another observed position.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/conflict-01.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PAIR_CONFLICT",
+      "category": "observed-conflict",
+      "rationale": "A shared sound does not excuse a conflict at another observed position.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/conflict-02.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PAIR_CONFLICT",
+      "category": "observed-conflict",
+      "rationale": "A shared sound does not excuse a conflict at another observed position.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/conflict-03.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PAIR_CONFLICT",
+      "category": "observed-conflict",
+      "rationale": "A shared sound does not excuse a conflict at another observed position.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/conflict-04.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PAIR_CONFLICT",
+      "category": "observed-conflict",
+      "rationale": "A shared sound does not excuse a conflict at another observed position.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/conflict-05.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PAIR_CONFLICT",
+      "category": "observed-conflict",
+      "rationale": "A shared sound does not excuse a conflict at another observed position.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/conflict-06.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PAIR_CONFLICT",
+      "category": "observed-conflict",
+      "rationale": "A shared sound does not excuse a conflict at another observed position.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/conflict-07.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PAIR_CONFLICT",
+      "category": "observed-conflict",
+      "rationale": "A shared sound does not excuse a conflict at another observed position.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/conflict-08.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PAIR_CONFLICT",
+      "category": "observed-conflict",
+      "rationale": "A shared sound does not excuse a conflict at another observed position.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/conflict-09.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PAIR_CONFLICT",
+      "category": "observed-conflict",
+      "rationale": "A shared sound does not excuse a conflict at another observed position.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/disjoint-00.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "NO_SHARED_SEGMENT",
+      "category": "missing-only-overlap",
+      "rationale": "Disjoint observations and even an equal gap provide no shared segment.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/disjoint-01.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "NO_SHARED_SEGMENT",
+      "category": "missing-only-overlap",
+      "rationale": "Disjoint observations and even an equal gap provide no shared segment.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/disjoint-02.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "NO_SHARED_SEGMENT",
+      "category": "missing-only-overlap",
+      "rationale": "Disjoint observations and even an equal gap provide no shared segment.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/disjoint-03.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "NO_SHARED_SEGMENT",
+      "category": "missing-only-overlap",
+      "rationale": "Disjoint observations and even an equal gap provide no shared segment.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/disjoint-04.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "NO_SHARED_SEGMENT",
+      "category": "missing-only-overlap",
+      "rationale": "Disjoint observations and even an equal gap provide no shared segment.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/disjoint-05.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "NO_SHARED_SEGMENT",
+      "category": "missing-only-overlap",
+      "rationale": "Disjoint observations and even an equal gap provide no shared segment.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/disjoint-06.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "NO_SHARED_SEGMENT",
+      "category": "missing-only-overlap",
+      "rationale": "Disjoint observations and even an equal gap provide no shared segment.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/disjoint-07.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "NO_SHARED_SEGMENT",
+      "category": "missing-only-overlap",
+      "rationale": "Disjoint observations and even an equal gap provide no shared segment.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/disjoint-08.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "NO_SHARED_SEGMENT",
+      "category": "missing-only-overlap",
+      "rationale": "Disjoint observations and even an equal gap provide no shared segment.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "sites/disjoint-09.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "NO_SHARED_SEGMENT",
+      "category": "missing-only-overlap",
+      "rationale": "Disjoint observations and even an equal gap provide no shared segment.",
+      "counts_toward_site_suite": true
+    },
+    {
+      "path": "invalid/substituted-segment.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ROW_RECOVERY",
+      "category": "structural",
+      "rationale": "Substitution is not gap insertion.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/duplicated-segment.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ROW_RECOVERY",
+      "category": "structural",
+      "rationale": "An inserted segment must not be erased as a gap.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/omitted-segment.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ROW_RECOVERY",
+      "category": "structural",
+      "rationale": "An observed original cannot disappear.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/missing-to-empty.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ROW_RECOVERY",
+      "category": "structural",
+      "rationale": "Absent and present empty words are distinct.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/empty-to-missing.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ROW_RECOVERY",
+      "category": "structural",
+      "rationale": "A present empty word cannot become absent.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/original-gap.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ORIGINAL_SHAPE",
+      "category": "structural",
+      "rationale": "Gaps are alignment operations, not original symbols.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/present-missing-cell.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ALIGNED_SHAPE",
+      "category": "structural",
+      "rationale": "Missing data belongs to absent rows, not present sequences.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/ragged-row.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ALIGNED_SHAPE",
+      "category": "structural",
+      "rationale": "Gap-only present rows still require the declared width.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/zero-width.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ALIGNMENT_DIMENSIONS",
+      "category": "structural",
+      "rationale": "The width must be positive.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/one-row.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ALIGNMENT_DIMENSIONS",
+      "category": "structural",
+      "rationale": "An alignment requires at least two rows.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/axis-reordered.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "DOCULECT_AXIS",
+      "category": "structural",
+      "rationale": "Positional compatibility requires one common ordered axis.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/axis-duplicate.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "DOCULECT_AXIS",
+      "category": "structural",
+      "rationale": "Duplicate doculect identities are rejected.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/empty-source.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "SOURCE_REF",
+      "category": "structural",
+      "rationale": "Absence also needs a declared source reference.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/empty-description.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "DATA_METADATA",
+      "category": "structural",
+      "rationale": "The document must describe its source scope.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/wrong-version.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "SCHEMA_VERSION",
+      "category": "structural",
+      "rationale": "Unrecognized schema versions fail closed.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/duplicate-alignment.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ALIGNMENT_IDS",
+      "category": "structural",
+      "rationale": "An alignment identity cannot be reused.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/invalid-unit.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ALIGNMENT_METADATA",
+      "category": "structural",
+      "rationale": "Empty unit labels cannot support a group.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/unknown-alignment.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "SITE_REFERENCE",
+      "category": "structural",
+      "rationale": "Every site refers to a supplied alignment.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/out-of-range.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "SITE_REFERENCE",
+      "category": "structural",
+      "rationale": "Column indices are zero-based and bounded.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/duplicate-position.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "DUPLICATE_SITE_POSITION",
+      "category": "structural",
+      "rationale": "Aliases cannot multiply one observation.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/omitted-site.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "SITE_COVERAGE",
+      "category": "structural",
+      "rationale": "All segment-bearing columns must be registered.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/duplicate-site-id.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "SITE_IDS",
+      "category": "structural",
+      "rationale": "Distinct coordinates require distinct site IDs.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/unknown-member.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "UNKNOWN_SITE",
+      "category": "structural",
+      "rationale": "A certificate cannot invent an observation.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/duplicate-member.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "DUPLICATE_MEMBER",
+      "category": "structural",
+      "rationale": "Within-group repetitions are rejected.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/double-assignment.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PARTITION_COVERAGE",
+      "category": "structural",
+      "rationale": "A required site appears once across all groups.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/unassigned-site.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PARTITION_COVERAGE",
+      "category": "structural",
+      "rationale": "A required site cannot be left out.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/empty-group.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "EMPTY_GROUP",
+      "category": "structural",
+      "rationale": "Empty groups are not feasible certificates.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/duplicate-group-id.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "GROUP_IDS",
+      "category": "structural",
+      "rationale": "Group IDs are unique.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/wrong-support.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "SUPPORT_COUNT",
+      "category": "structural",
+      "rationale": "Reported support must match the distinct-unit count.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/zero-support.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "NO_GROUP_SUPPORT",
+      "category": "structural",
+      "rationale": "Positive support is required.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/repeated-source-inflation.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "SUPPORT_COUNT",
+      "category": "structural",
+      "rationale": "Two alignment records with one unit label count once.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/unknown-support-policy.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "SUPPORT_POLICY",
+      "category": "structural",
+      "rationale": "Undeclared support policies cannot change the count.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/claim-minimum.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "UNSUPPORTED_OPTIMALITY",
+      "category": "optimality-boundary",
+      "rationale": "This milestone verifies feasibility only.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/claim-optimal.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "UNSUPPORTED_OPTIMALITY",
+      "category": "optimality-boundary",
+      "rationale": "This milestone verifies feasibility only.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/claim-maximal.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "UNSUPPORTED_OPTIMALITY",
+      "category": "optimality-boundary",
+      "rationale": "This milestone verifies feasibility only.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/claim-minimum-cover.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "UNSUPPORTED_OPTIMALITY",
+      "category": "optimality-boundary",
+      "rationale": "This milestone verifies feasibility only.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/claim-score-based.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "UNSUPPORTED_OPTIMALITY",
+      "category": "optimality-boundary",
+      "rationale": "This milestone verifies feasibility only.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/hidden-optimality.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "JSON_SHAPE",
+      "category": "parser",
+      "rationale": "Unknown optimization claims cannot enter through ignored JSON fields.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/external-site-cells.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "JSON_SHAPE",
+      "category": "parser",
+      "rationale": "Site observations must be derived from the alignment.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/undeclared-spans.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "JSON_SHAPE",
+      "category": "parser",
+      "rationale": "The profile uses explicit boundary cells, not undeclared spans.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/omitted-null.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "JSON_SHAPE",
+      "category": "parser",
+      "rationale": "Even nullable fields must be explicit.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/negative-column.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "JSON_SHAPE",
+      "category": "parser",
+      "rationale": "Natural-number coordinates reject negatives.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/empty-unknown.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "CELL_VALUE",
+      "category": "structural",
+      "rationale": "Unknown readings need an explicit nonempty value.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/bad-boundary-value.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "CELL_VALUE",
+      "category": "structural",
+      "rationale": "Only the declared morpheme marker is accepted.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/symbol-ascii-space.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "CELL_VALUE",
+      "category": "unicode",
+      "rationale": "Atomic segments obey the M2 Unicode and marker restrictions.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/symbol-narrow-nbsp.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "CELL_VALUE",
+      "category": "unicode",
+      "rationale": "Atomic segments obey the M2 Unicode and marker restrictions.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/symbol-nel.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "CELL_VALUE",
+      "category": "unicode",
+      "rationale": "Atomic segments obey the M2 Unicode and marker restrictions.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/symbol-control.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "CELL_VALUE",
+      "category": "unicode",
+      "rationale": "Atomic segments obey the M2 Unicode and marker restrictions.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/symbol-reserved-boundary.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "CELL_VALUE",
+      "category": "unicode",
+      "rationale": "Atomic segments obey the M2 Unicode and marker restrictions.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/duplicate-json-key.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "DUPLICATE_JSON_KEY",
+      "category": "parser",
+      "rationale": "Malformed or ambiguous byte input is rejected before semantic checking.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/escaped-duplicate-key.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "DUPLICATE_JSON_KEY",
+      "category": "parser",
+      "rationale": "Malformed or ambiguous byte input is rejected before semantic checking.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/invalid-utf8.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "UTF8",
+      "category": "parser",
+      "rationale": "Malformed or ambiguous byte input is rejected before semantic checking.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/invalid-json.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "JSON_SYNTAX",
+      "category": "parser",
+      "rationale": "Malformed or ambiguous byte input is rejected before semantic checking.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/surrogate-escape.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "UNICODE_ESCAPE",
+      "category": "parser",
+      "rationale": "Malformed or ambiguous byte input is rejected before semantic checking.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "valid/boundaries.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "structural",
+      "rationale": "Internal morpheme boundaries and present empty rows are preserved; only segment columns become sites.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "valid/standalone-boundaries.json",
+      "kind": "alignment",
+      "accept": true,
+      "code": null,
+      "category": "structural",
+      "rationale": "Alignment preservation can be checked without a grouping certificate.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/reordered-original.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ROW_RECOVERY",
+      "category": "alignment",
+      "rationale": "A permutation with the same multiset is rejected.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/mixed-boundary-column.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "BOUNDARY_COLUMN",
+      "category": "alignment",
+      "rationale": "A morpheme boundary column cannot mix with a segment.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/boundary-promoted-to-site.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "SITE_COVERAGE",
+      "category": "registry",
+      "rationale": "A boundary is preserved but not promoted to a sound correspondence.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/leading-boundary.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ORIGINAL_SHAPE",
+      "category": "alignment",
+      "rationale": "Boundaries separate nonempty original spans.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/trailing-boundary.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ORIGINAL_SHAPE",
+      "category": "alignment",
+      "rationale": "Boundaries separate nonempty original spans.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/adjacent-boundaries.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "ORIGINAL_SHAPE",
+      "category": "alignment",
+      "rationale": "Boundaries separate nonempty original spans.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/all-gap-column.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "VOID_COLUMN",
+      "category": "alignment",
+      "rationale": "A column with only gaps and absence has no original material.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/all-missing-column.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "VOID_COLUMN",
+      "category": "alignment",
+      "rationale": "A column with only gaps and absence has no original material.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "valid/unknown-only-alignment.json",
+      "kind": "alignment",
+      "accept": true,
+      "code": null,
+      "category": "structural",
+      "rationale": "Unknown readings remain in a valid alignment.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/unknown-only-dossier.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "NO_SITES",
+      "category": "support",
+      "rationale": "Unknown readings alone cannot supply a correspondence site.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "valid/repeated-source-counted-once.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "structural",
+      "rationale": "One declared unit counts once even through two alignment records.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "valid/nonminimum-feasible-partition.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "structural",
+      "rationale": "Two singleton groups are feasible even though this data also permits one group; no minimum is asserted.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "valid/one-group-feasible-partition.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "structural",
+      "rationale": "The same observations also permit one group; feasibility alone selects neither partition.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/nontransitive-merge.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PAIR_CONFLICT",
+      "category": "nontransitivity",
+      "rationale": "AB and BC are compatible but AC conflicts; a connected component is not a clique.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "valid/nontransitive-partition-ab.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "structural",
+      "rationale": "Each group is checked pairwise; an alternative feasible partition is retained.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "valid/nontransitive-partition-bc.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "structural",
+      "rationale": "Each group is checked pairwise; an alternative feasible partition is retained.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/gap-is-observed.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PAIR_CONFLICT",
+      "category": "missing-gap",
+      "rationale": "Unlike absence, a gap conflicts with a segment in the same position.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "valid/unicode-literal.json",
+      "kind": "dossier",
+      "accept": true,
+      "code": null,
+      "category": "structural",
+      "rationale": "Combining marks and literal supplementary characters are atomic and preserved.",
+      "counts_toward_site_suite": false
+    },
+    {
+      "path": "invalid/no-silent-normalization.json",
+      "kind": "dossier",
+      "accept": false,
+      "code": "PAIR_CONFLICT",
+      "category": "unicode",
+      "rationale": "Canonically related Unicode spellings remain distinct unless evidence normalization explicitly records a change.",
+      "counts_toward_site_suite": false
+    }
+  ]
+}

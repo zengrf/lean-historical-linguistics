@@ -75,9 +75,9 @@ These are proposed statements, not existing Lean declarations. The restrictions 
 
 ## 4. Alignment and correspondence contracts
 
-An alignment certificate should prove that removing gaps from each row yields exactly the supplied segment sequence. It should reject all-gap columns, duplicated or omitted segments and malformed morpheme spans, under the chosen representation. Monotonic alignment is a property of the base fragment; bounded metathesis needs an explicit extension.
+M3 proves that removing gaps from each accepted present row yields exactly the supplied original sequence, and that absent rows remain absent. It rejects all-gap/missing columns, duplicated or omitted segments, and malformed explicit morpheme boundaries. Present empty words remain distinct from absent words. Monotonic alignment is a property of this fragment; bounded metathesis needs an explicit extension. The [versioned semantics](alignment-correspondence-semantics.md) specify the representation and [M3 delivery](09-m3-delivery.md) gives the commands and evidence.
 
-A correspondence group certificate should prove:
+A checked M3 correspondence partition establishes:
 
 1. Every member refers to an existing alignment site.
 2. Every pair satisfies the declared compatibility predicate.
@@ -85,7 +85,7 @@ A correspondence group certificate should prove:
 4. Every required site appears in exactly one group, if a partition is claimed.
 5. Support counts are computed from distinct evidence units under the declared policy.
 
-Minimum clique cover is a separate optimization claim. An arbitrary valid cover only proves feasibility. A claim of optimality needs a lower bound or a complete finite search certificate. Distinct words from the same root or copies of the same dictionary entry must not inflate independent support.
+Minimum clique cover is a separate optimization claim. M3 accepts only `feasibility-only` certificates. A claim of optimality would need a lower bound or a complete finite search certificate. Distinct positions or alignments with the same declared evidence unit count once; authenticating whether the unit labels represent independent historical evidence remains a data-review obligation.
 
 ## 5. Certificates and the trust boundary
 
@@ -130,13 +130,13 @@ The current files use `Std`, with no mathlib or linglib dependency.
 | Independent positional alternatives can overgenerate | **Proved example** | `Comparative.Patterns.independent_choices_overgenerate` |
 | Context-sensitive rule interpreter and certificate correctness | **Proved** | `Historical.Rules`, `Historical.Certificates`, `Historical.RuleInput.checkDossier_iff`; M2 |
 | Restricted rule compiler correctness | Planned | M7 |
-| Alignment validity, correspondence-cover checker correctness | Planned | M3 |
+| Alignment validity and feasible correspondence-partition checker correctness | **Proved** | `Historical.Alignment`, `Historical.Correspondence`, `Historical.CorrespondenceInput.dossierAccepted_iff`; M3 |
 | Exhaustive enumeration by segment inventory and length bound | Planned | M4; current pool is supplied explicitly |
 | Verified real PIE or Sino-Tibetan etymology | **Not yet delivered** | M5 and M6 |
 | Identifiability up to a declared equivalence | Planned beyond toy examples | M4 / M9 |
 | Probabilistic inference correctness and calibration | Planned, optional | M9 |
 
-There are **22 M0 theorem declarations**, five M1 evidence results and 17 M2 results, for **44 audited declarations** in total. The M0 abstract `Comparative.Rule` remains any total word-to-word function for generic theorems. M2 uses a distinct data-only `Historical.Rules.Rule` grammar; its accepted packages enforce local context bounds, a finite declared inventory and chronological stage continuity. M1 retains sourced evidence independently. These representation and execution checks do not establish historical plausibility.
+There are **22 M0 theorem declarations**, five M1 evidence results, 17 M2 results and 35 M3 results, for **79 audited declarations** in total. The M0 abstract `Comparative.Rule` remains any total word-to-word function for generic theorems. M2 uses a distinct data-only `Historical.Rules.Rule` grammar; its accepted packages enforce local context bounds, a finite declared inventory and chronological stage continuity. M3 verifies alignment preservation and feasible correspondence partitions. M1 retains sourced evidence independently. These representation and execution checks do not establish historical plausibility.
 
 ## 7. Uncertainty, scores and explanations
 

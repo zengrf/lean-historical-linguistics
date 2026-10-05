@@ -1,0 +1,195 @@
+{
+  "alignment_data": {
+    "schema_version": "1.0.0",
+    "id": "nontransitive-partition-bc",
+    "description": "Constructed M3 contract example: nontransitive-partition-bc",
+    "source_kind": "synthetic",
+    "doculects": [
+      "synthetic-A",
+      "synthetic-B",
+      "synthetic-C",
+      "synthetic-D"
+    ],
+    "alignments": [
+      {
+        "id": "chain-a",
+        "evidence_unit": "chain-a-root",
+        "width": 1,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:chain-a:synthetic-A",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "p"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "p"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:chain-a:synthetic-B",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "t"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "t"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:chain-a:synthetic-C",
+            "original": null,
+            "aligned": null
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:chain-a:synthetic-D",
+            "original": null,
+            "aligned": null
+          }
+        ]
+      },
+      {
+        "id": "chain-b",
+        "evidence_unit": "chain-b-root",
+        "width": 1,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:chain-b:synthetic-A",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "p"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "p"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:chain-b:synthetic-B",
+            "original": null,
+            "aligned": null
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:chain-b:synthetic-C",
+            "original": null,
+            "aligned": null
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:chain-b:synthetic-D",
+            "original": null,
+            "aligned": null
+          }
+        ]
+      },
+      {
+        "id": "chain-c",
+        "evidence_unit": "chain-c-root",
+        "width": 1,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:chain-c:synthetic-A",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "p"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "p"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:chain-c:synthetic-B",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "k"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "k"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:chain-c:synthetic-C",
+            "original": null,
+            "aligned": null
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:chain-c:synthetic-D",
+            "original": null,
+            "aligned": null
+          }
+        ]
+      }
+    ]
+  },
+  "sites": [
+    {
+      "id": "chain-a-c0",
+      "alignment_id": "chain-a",
+      "column_index": 0
+    },
+    {
+      "id": "chain-b-c0",
+      "alignment_id": "chain-b",
+      "column_index": 0
+    },
+    {
+      "id": "chain-c-c0",
+      "alignment_id": "chain-c",
+      "column_index": 0
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-0",
+      "members": [
+        "chain-a-c0"
+      ],
+      "claimed_support": 1
+    },
+    {
+      "id": "group-1",
+      "members": [
+        "chain-b-c0",
+        "chain-c-c0"
+      ],
+      "claimed_support": 2
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1",
+  "claim": "feasibility-only"
+}

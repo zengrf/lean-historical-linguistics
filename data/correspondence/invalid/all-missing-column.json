@@ -1,0 +1,57 @@
+{
+  "alignment_data": {
+    "schema_version": "1.0.0",
+    "id": "all-missing-column",
+    "description": "Constructed M3 contract example: all-missing-column",
+    "source_kind": "synthetic",
+    "doculects": [
+      "synthetic-A",
+      "synthetic-B",
+      "synthetic-C",
+      "synthetic-D"
+    ],
+    "alignments": [
+      {
+        "id": "all-missing-column",
+        "evidence_unit": "all-missing-column-root",
+        "width": 1,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:all-missing-column:synthetic-A",
+            "original": null,
+            "aligned": null
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:all-missing-column:synthetic-B",
+            "original": null,
+            "aligned": null
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:all-missing-column:synthetic-C",
+            "original": null,
+            "aligned": null
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:all-missing-column:synthetic-D",
+            "original": null,
+            "aligned": null
+          }
+        ]
+      }
+    ]
+  },
+  "sites": [],
+  "groups": [
+    {
+      "id": "group-0",
+      "members": [],
+      "claimed_support": 1
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1",
+  "claim": "feasibility-only"
+}

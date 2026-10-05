@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "id": "unknown-only",
+  "description": "Constructed M3 contract example: unknown-only",
+  "source_kind": "synthetic",
+  "doculects": [
+    "synthetic-A",
+    "synthetic-B",
+    "synthetic-C",
+    "synthetic-D"
+  ],
+  "alignments": [
+    {
+      "id": "unknown-only",
+      "evidence_unit": "unknown-only-root",
+      "width": 1,
+      "rows": [
+        {
+          "doculect_id": "synthetic-A",
+          "source_ref": "synthetic:unknown-only:synthetic-A",
+          "original": [
+            {
+              "kind": "unknown",
+              "value": "unread"
+            }
+          ],
+          "aligned": [
+            {
+              "kind": "unknown",
+              "value": "unread"
+            }
+          ]
+        },
+        {
+          "doculect_id": "synthetic-B",
+          "source_ref": "synthetic:unknown-only:synthetic-B",
+          "original": [
+            {
+              "kind": "unknown",
+              "value": "unread"
+            }
+          ],
+          "aligned": [
+            {
+              "kind": "unknown",
+              "value": "unread"
+            }
+          ]
+        },
+        {
+          "doculect_id": "synthetic-C",
+          "source_ref": "synthetic:unknown-only:synthetic-C",
+          "original": null,
+          "aligned": null
+        },
+        {
+          "doculect_id": "synthetic-D",
+          "source_ref": "synthetic:unknown-only:synthetic-D",
+          "original": null,
+          "aligned": null
+        }
+      ]
+    }
+  ]
+}

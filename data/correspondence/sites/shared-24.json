@@ -1,0 +1,182 @@
+{
+  "alignment_data": {
+    "schema_version": "1.0.0",
+    "id": "shared-24",
+    "description": "Constructed M3 contract example: shared-24",
+    "source_kind": "synthetic",
+    "doculects": [
+      "synthetic-A",
+      "synthetic-B",
+      "synthetic-C",
+      "synthetic-D"
+    ],
+    "alignments": [
+      {
+        "id": "shared-24-a",
+        "evidence_unit": "shared-24-a-root",
+        "width": 1,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:shared-24-a:synthetic-A",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "s"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "s"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:shared-24-a:synthetic-B",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "z"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "z"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:shared-24-a:synthetic-C",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "ɕ"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "ɕ"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:shared-24-a:synthetic-D",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "⁵¹"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "⁵¹"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shared-24-b",
+        "evidence_unit": "shared-24-b-root",
+        "width": 1,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:shared-24-b:synthetic-A",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "s"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "s"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:shared-24-b:synthetic-B",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "z"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "z"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:shared-24-b:synthetic-C",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "ɕ"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "ɕ"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:shared-24-b:synthetic-D",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "⁵¹"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "⁵¹"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sites": [
+    {
+      "id": "shared-24-a-c0",
+      "alignment_id": "shared-24-a",
+      "column_index": 0
+    },
+    {
+      "id": "shared-24-b-c0",
+      "alignment_id": "shared-24-b",
+      "column_index": 0
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-0",
+      "members": [
+        "shared-24-a-c0",
+        "shared-24-b-c0"
+      ],
+      "claimed_support": 2
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1",
+  "claim": "feasibility-only"
+}

@@ -1,6 +1,6 @@
 # Delivery plan with verifiable goals
 
-This is a research-and-engineering plan, not a promise that a complete prehistoric language will be recovered. **M0–M2 are delivered; M3–M9 are planned.** Separate AI reviewers completed M1's source-entry gate and M2's independent hand-worked examples; specialist review of historical analyses remains part of the later case studies. The machine-readable register is [milestones.json](../data/milestones.json). M1/M2's checkers and verification commands now exist; commands named for later modules remain acceptance-interface specifications.
+This is a research-and-engineering plan, not a promise that a complete prehistoric language will be recovered. **M0–M3 are delivered; M4–M9 are planned.** Separate AI reviewers completed M1's source-entry gate and M2's independent hand-worked examples; specialist review of historical analyses remains part of the later case studies. The machine-readable register is [milestones.json](../data/milestones.json). M1/M2/M3's checkers and verification commands now exist; commands named for later modules remain acceptance-interface specifications.
 
 ## 1. Intended research contribution
 
@@ -22,7 +22,7 @@ The first publishable result could be the semantics and certificate checker plus
 | **M0** | Literature corpus, synthesis, proof-of-concept and public repository | At least 100 distinct qualifying retained works; checksums; annotated catalogue; general theorem and counterexample build; public CI | Delivered |
 | **M1** | Data contract and provenance; depends on M0 | Schema, 38 valid / 44 adversarial fixtures, lossless source retention, CLDF adapter and 60 real imported records. Six source entries independently checked by a separate AI agent, with exact agreement. | Delivered; original estimate 3–5 engineer-weeks + review |
 | **M2** | Restricted contextual rule semantics and trace checker; depends on M1 | Total interpreter; explicit pass conventions; 17 new theorems including checker soundness/completeness; 25 valid / 88 adversarial fixtures; 20 independently hand-worked AI examples; 9,284 further comparisons | Delivered; original estimate 5–8 engineer-weeks |
-| **M3** | Alignment and correspondence verification; depends on M1–M2 | Alignment preservation theorem; clique-cover feasibility checker; missing-data non-transitivity handled; 100 checked sites including incomplete/conflicting cases | 4–6 engineer-weeks |
+| **M3** | Alignment and correspondence verification; depends on M1–M2 | 35 new theorems; feasible partition checker; 140 synthetic sites, including 125 incomplete / 20 conflicting; 135 fixtures; 67,081 pair and 6,392 partition comparisons | Delivered; original estimate 4–6 engineer-weeks |
 | **M4** | Bounded inverse reconstruction and alternatives; depends on M2–M3 | Finite enumeration theorem; candidate soundness/completeness; ambiguity and monotonicity results; exhaustive small-domain reference comparisons | 4–7 engineer-weeks |
 | **M5** | PIE case study; depends on M1–M4 | 20-set reviewed core expanding to 200 sets / 600 reflex records; named rule packages; chronology and morphology dossiers; frozen evaluation and independent sign-off | 6–10 engineer-weeks + 6–10 specialist-weeks |
 | **M6** | Sino-Tibetan subgroup and cross-branch study; depends on M1–M4 | 50-set reviewed Kuki-Chin core expanding to 100 sets / 300 reflex records; 30 cross-branch dossiers; competing analyses and unresolved outcomes preserved | 8–12 engineer-weeks + 8–12 specialist-weeks |
@@ -61,6 +61,8 @@ Implemented acceptance commands: `lake build Historical.Rules Historical.Certifi
 Prove row preservation when removing alignment gaps. Verify correspondence groups pairwise, with no positive support from missing cells. Give counterexamples for treating compatibility as transitive. A minimum-cover claim is optional; if made, add a checked optimality certificate. The first 100-site suite must include at least 20 incomplete and 10 conflicting sites.
 
 Acceptance artifact: a report listing every site's assigned group, support and compatibility outcome, with a theorem-backed validity result. A heuristic score alone fails this milestone.
+
+Implemented commands: `lake exe correspondence_check --suite correspondence-sites` and `python scripts/verify_m3.py --audit PATH` after a fresh build/audit. The [M3 delivery](09-m3-delivery.md) and [per-site report](../reports/correspondence-sites.json) document all four passing criteria. The implementation accepts feasibility-only claims and rejects unsupported optimality. Distinct evidence-unit labels prevent repeated positions from inflating support; their historical independence is an empirical assumption. The current suite is synthetic and does not replace M5/M6 review.
 
 ### M4: finish the bounded inverse problem
 

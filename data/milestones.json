@@ -158,39 +158,50 @@
   {
     "id": "M3",
     "title": "Alignment and correspondence verification",
-    "status": "planned",
+    "status": "delivered",
     "depends_on": [
       "M1",
       "M2"
     ],
     "owner_role": "Lean engineer and comparative-data reviewer",
     "artifacts": [
-      "Historical/Alignment.lean",
-      "Historical/Correspondence.lean",
+      "lean/Historical/Alignment.lean",
+      "lean/Historical/Correspondence.lean",
+      "lean/Historical/CorrespondenceInput.lean",
+      "lean/CorrespondenceCheck.lean",
+      "docs/alignment-correspondence-semantics.md",
+      "docs/09-m3-delivery.md",
+      "data/correspondence/README.md",
+      "data/correspondence/manifest.json",
+      "scripts/build_m3_fixtures.py",
+      "scripts/reference_correspondence.py",
+      "scripts/verify_m3.py",
+      "tests/test_m3_contracts.py",
       "reports/correspondence-sites.json"
     ],
     "acceptance": [
       {
         "id": "M3-alignment",
-        "test": "Build and audit the alignment checker and preservation theorem",
+        "test": "Build Lean; emit Audit.lean; run scripts/check_proofs.py on the emitted audit; python scripts/verify_m3.py --audit PATH",
         "pass_condition": "Every accepted alignment recovers each original input row after removing alignment gaps; missing cells remain distinct from alignment gaps."
       },
       {
         "id": "M3-patterns",
-        "test": "Check correspondence-group certificates and synthetic counterexamples",
+        "test": "From lean/: lake exe correspondence_check --suite correspondence-sites; from root: python scripts/verify_m3.py --audit PATH",
         "pass_condition": "Pairwise compatibility and positive support are verified; missing-only overlap supplies no support; non-transitive compatibility cannot be treated as equivalence."
       },
       {
         "id": "M3-sites",
-        "test": "Run the site suite and inspect the per-site report",
+        "test": "python scripts/verify_m3.py --audit PATH; python scripts/verify_m3.py --check-report; inspect reports/correspondence-sites.json",
         "pass_condition": "At least 100 sites checked, including 20 incomplete and 10 conflicting cases; each reports group assignment, support, compatibility and checker outcome."
       },
       {
         "id": "M3-optimality",
-        "test": "Inspect all claims of minimal grouping",
+        "test": "Inspect docs/alignment-correspondence-semantics.md and run the optimality-boundary fixtures in the correspondence-sites suite",
         "pass_condition": "Any minimum-cover claim has a checked optimality certificate; otherwise the result is explicitly feasibility only."
       }
-    ]
+    ],
+    "delivery_note": "All four criteria pass: 35 new Lean theorems, 49 accepted and 86 rejected fixtures; 140 counted synthetic sites including 125 incomplete and 20 conflicting; 67,081 column-pair and 6,392 partition comparisons. Only feasibility is certified. Support counts distinct declared evidence units without authenticating historical independence. See docs/09-m3-delivery.md and reports/correspondence-sites.json."
   },
   {
     "id": "M4",

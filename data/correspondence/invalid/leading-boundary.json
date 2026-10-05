@@ -1,0 +1,101 @@
+{
+  "alignment_data": {
+    "schema_version": "1.0.0",
+    "id": "leading-boundary",
+    "description": "Constructed M3 contract example: leading-boundary",
+    "source_kind": "synthetic",
+    "doculects": [
+      "synthetic-A",
+      "synthetic-B",
+      "synthetic-C",
+      "synthetic-D"
+    ],
+    "alignments": [
+      {
+        "id": "leading-boundary",
+        "evidence_unit": "leading-boundary-root",
+        "width": 2,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:leading-boundary:synthetic-A",
+            "original": [
+              {
+                "kind": "boundary",
+                "value": "+"
+              },
+              {
+                "kind": "segment",
+                "value": "p"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "boundary",
+                "value": "+"
+              },
+              {
+                "kind": "segment",
+                "value": "p"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:leading-boundary:synthetic-B",
+            "original": [
+              {
+                "kind": "boundary",
+                "value": "+"
+              },
+              {
+                "kind": "segment",
+                "value": "p"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "boundary",
+                "value": "+"
+              },
+              {
+                "kind": "segment",
+                "value": "p"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:leading-boundary:synthetic-C",
+            "original": null,
+            "aligned": null
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:leading-boundary:synthetic-D",
+            "original": null,
+            "aligned": null
+          }
+        ]
+      }
+    ]
+  },
+  "sites": [
+    {
+      "id": "leading-boundary-c1",
+      "alignment_id": "leading-boundary",
+      "column_index": 1
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-0",
+      "members": [
+        "leading-boundary-c1"
+      ],
+      "claimed_support": 1
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1",
+  "claim": "feasibility-only"
+}

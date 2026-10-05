@@ -1,0 +1,101 @@
+{
+  "alignment_data": {
+    "schema_version": "1.0.0",
+    "id": "trailing-boundary",
+    "description": "Constructed M3 contract example: trailing-boundary",
+    "source_kind": "synthetic",
+    "doculects": [
+      "synthetic-A",
+      "synthetic-B",
+      "synthetic-C",
+      "synthetic-D"
+    ],
+    "alignments": [
+      {
+        "id": "trailing-boundary",
+        "evidence_unit": "trailing-boundary-root",
+        "width": 2,
+        "rows": [
+          {
+            "doculect_id": "synthetic-A",
+            "source_ref": "synthetic:trailing-boundary:synthetic-A",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "p"
+              },
+              {
+                "kind": "boundary",
+                "value": "+"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "p"
+              },
+              {
+                "kind": "boundary",
+                "value": "+"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-B",
+            "source_ref": "synthetic:trailing-boundary:synthetic-B",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "p"
+              },
+              {
+                "kind": "boundary",
+                "value": "+"
+              }
+            ],
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "p"
+              },
+              {
+                "kind": "boundary",
+                "value": "+"
+              }
+            ]
+          },
+          {
+            "doculect_id": "synthetic-C",
+            "source_ref": "synthetic:trailing-boundary:synthetic-C",
+            "original": null,
+            "aligned": null
+          },
+          {
+            "doculect_id": "synthetic-D",
+            "source_ref": "synthetic:trailing-boundary:synthetic-D",
+            "original": null,
+            "aligned": null
+          }
+        ]
+      }
+    ]
+  },
+  "sites": [
+    {
+      "id": "trailing-boundary-c0",
+      "alignment_id": "trailing-boundary",
+      "column_index": 0
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-0",
+      "members": [
+        "trailing-boundary-c0"
+      ],
+      "claimed_support": 1
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1",
+  "claim": "feasibility-only"
+}
