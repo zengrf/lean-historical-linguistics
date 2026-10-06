@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "id": "m6-design-before-fitting",
+  "selection": "100 sets from VanBik's initial-consonant sections; 50 designated core sets",
+  "minimum_scale": {"sets": 100, "reflex_records": 300, "core_sets": 50},
+  "evaluation": "Retrospective family-grouped train/development/test evaluation, approximately 60/20/20 by family count",
+  "models": [
+    "Identity of the declared transcription tokens",
+    "Train-only unit-edit substitution/deletion baseline, tied by frequency, identity, then lexical order"
+  ],
+  "normalization": "Retain each PDF string. Separate labelled stem cells only when both reconstruction and reflex identify the same cell. Exclude tone from the segmental baseline and retain every removed mark. Reject opaque alternatives, optional material and compounds rather than choosing a convenient reading. Missing proto-tone is not a zero tone.",
+  "inverse_search": "Complete within the supplied finite reference pool, separately for each named stem cell. The pool and inventory include held-out reference labels; this is a closed-set retrieval experiment.",
+  "source_analyses": "Published initial correspondences and cross-branch phonological or morphological fragments are reproduction exercises. They are separate from the learned baseline and have no held-out-discovery claim.",
+  "sensitivity": "Compare source-qualified reconstruction levels, branch coverage, composed sound-change paths, and named alternative source analyses. Report candidate sets and observations that fail to distinguish alternatives. Mere rebracketing with unchanged branch functions must leave predictions unchanged.",
+  "reporting": "All sampled records remain in the denominator. Retain unsupported, mismatching, ambiguous and empty results; publish coverage and conditional accuracy separately. No accuracy threshold is an acceptance criterion.",
+  "review": "An independent human family specialist must assess all 50 core sets and all 30 cross-branch dossiers. Formal validity and an AI assessment cannot close this requirement."
+}

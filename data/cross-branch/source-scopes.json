@@ -1,0 +1,169 @@
+{
+  "doculect_identity": "VanBik's Falam Lai is also called Zahao in his abbreviation list. Button's Zahau remains a separate source dataset; no row-level identity is assumed.",
+  "identity_policy": "Source-qualified nodes are distinct. Similar names and overlapping language coverage do not authorize a cast between reconstructions.",
+  "nodes": [
+    {
+      "id": "vanbik-2009-PKC",
+      "label": "Proto-Kuki-Chin",
+      "locator": "printed pp. 18, 23, 58",
+      "scope": [
+        "Peripheral",
+        "Central",
+        "Maraic"
+      ],
+      "source": "vanbik2009"
+    },
+    {
+      "id": "vanbik-2009-PCC",
+      "label": "Proto-Central-Chin",
+      "locator": "printed pp. 39–50",
+      "scope": [
+        "Laamtuk Thet",
+        "Lai",
+        "Mizo"
+      ],
+      "source": "vanbik2009"
+    },
+    {
+      "id": "vanbik-2009-PNC",
+      "label": "Proto-Northern-Chin",
+      "locator": "printed pp. 25–31",
+      "scope": [
+        "Northern Zo group"
+      ],
+      "source": "vanbik2009"
+    },
+    {
+      "id": "vanbik-2009-PM",
+      "label": "Proto-Maraic",
+      "locator": "printed pp. 51–54",
+      "scope": [
+        "Mara",
+        "Zotung",
+        "Senthang"
+      ],
+      "source": "vanbik2009"
+    },
+    {
+      "id": "button-2011-PNC",
+      "label": "Proto Northern Chin",
+      "locator": "printed pp. 11–14, 27",
+      "scope": [
+        "Mizo",
+        "Zahau",
+        "Thado",
+        "Zo",
+        "Tedim",
+        "Sizang"
+      ],
+      "source": "button2011"
+    },
+    {
+      "id": "PST-unspecified",
+      "label": "Proto-Sino-Tibetan",
+      "locator": null,
+      "scope": [
+        "family ancestor under the chosen topology"
+      ],
+      "source": null
+    },
+    {
+      "id": "PTB-assumed",
+      "label": "Proto-Tibeto-Burman",
+      "locator": null,
+      "scope": [
+        "non-Sinitic branches only if their common exclusive node is assumed"
+      ],
+      "source": null
+    }
+  ],
+  "schema_version": "1.0.0",
+  "tone_conventions": [
+    {
+      "description": "Pitch diacritics in reflexes; numeral markers for Tedim. H. Lai checked-syllable tones are predictable and unmarked. No chapter-6 proto-tone is inferred from an untoned chapter-4 entry.",
+      "locator": "printed p. 9 n. 6 and chapter 6",
+      "source": "vanbik2009"
+    },
+    {
+      "description": "Tone categories I, II, III; II splits into IIA/IIB in Mizo and Zahau. These are correspondence categories, not universal pitches. Button inverts Luce's II/III labels.",
+      "locator": "printed p. 27 and n. 33",
+      "source": "button2011"
+    }
+  ],
+  "topologies": [
+    {
+      "edges": [
+        [
+          "PST-unspecified",
+          "Sinitic"
+        ],
+        [
+          "PST-unspecified",
+          "Tibetic"
+        ],
+        [
+          "PST-unspecified",
+          "Gyalrongic"
+        ],
+        [
+          "PST-unspecified",
+          "Kiranti"
+        ],
+        [
+          "PST-unspecified",
+          "Burmish"
+        ],
+        [
+          "PST-unspecified",
+          "Naic"
+        ],
+        [
+          "PST-unspecified",
+          "Kuki-Chin"
+        ]
+      ],
+      "id": "unresolved-ST-polytomy",
+      "interpretation": "Withhold a non-Sinitic clade; equal branch predictions alone cannot resolve topology.",
+      "kind": "sensitivity-assumption"
+    },
+    {
+      "edges": [
+        [
+          "PST-unspecified",
+          "Sinitic"
+        ],
+        [
+          "PST-unspecified",
+          "PTB-assumed"
+        ],
+        [
+          "PTB-assumed",
+          "Tibetic"
+        ],
+        [
+          "PTB-assumed",
+          "Gyalrongic"
+        ],
+        [
+          "PTB-assumed",
+          "Kiranti"
+        ],
+        [
+          "PTB-assumed",
+          "Burmish"
+        ],
+        [
+          "PTB-assumed",
+          "Naic"
+        ],
+        [
+          "PTB-assumed",
+          "Kuki-Chin"
+        ]
+      ],
+      "id": "ST-with-TB-node",
+      "interpretation": "A shared non-Sinitic change can be assigned to one edge only conditionally on this topology and on its inheritance.",
+      "kind": "sensitivity-assumption"
+    }
+  ]
+}

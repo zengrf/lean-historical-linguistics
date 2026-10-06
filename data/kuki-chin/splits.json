@@ -1,0 +1,514 @@
+{
+  "assignments": [
+    {
+      "family_id": "vb-family-1",
+      "set_id": "1",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-2",
+      "set_id": "2",
+      "split": "test"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "3",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-60",
+      "set_id": "60",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-62",
+      "set_id": "62",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-63",
+      "set_id": "63",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-117",
+      "set_id": "117",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-118",
+      "set_id": "118",
+      "split": "test"
+    },
+    {
+      "family_id": "vb-family-119",
+      "set_id": "119",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-170",
+      "set_id": "170",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "171",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-172",
+      "set_id": "172",
+      "split": "test"
+    },
+    {
+      "family_id": "vb-family-247",
+      "set_id": "247",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-248",
+      "set_id": "248",
+      "split": "test"
+    },
+    {
+      "family_id": "vb-family-249",
+      "set_id": "249",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-52",
+      "set_id": "325",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-326",
+      "set_id": "326",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-327",
+      "set_id": "327",
+      "split": "test"
+    },
+    {
+      "family_id": "vb-family-369",
+      "set_id": "369",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-229",
+      "set_id": "370",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-371",
+      "set_id": "371",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-420",
+      "set_id": "420",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-421",
+      "set_id": "421",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-420",
+      "set_id": "422",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-463",
+      "set_id": "463",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-7",
+      "set_id": "464",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-465",
+      "set_id": "465",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "520",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-521",
+      "set_id": "521",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "522",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-578",
+      "set_id": "578",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-579",
+      "set_id": "579",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "581",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-23",
+      "set_id": "612",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-614",
+      "set_id": "614",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-542",
+      "set_id": "615",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "637",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-639",
+      "set_id": "639",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-640",
+      "set_id": "640",
+      "split": "test"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "686",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "687",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "688",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-695",
+      "set_id": "695",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-696",
+      "set_id": "696",
+      "split": "test"
+    },
+    {
+      "family_id": "vb-family-697",
+      "set_id": "697",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-750",
+      "set_id": "750",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-751",
+      "set_id": "751",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-752",
+      "set_id": "752",
+      "split": "test"
+    },
+    {
+      "family_id": "vb-family-799",
+      "set_id": "799",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "800",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "801",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-846",
+      "set_id": "846",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-7",
+      "set_id": "847",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-848",
+      "set_id": "848",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-760",
+      "set_id": "872",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "873",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-770",
+      "set_id": "874",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "884",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-885",
+      "set_id": "885",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-886",
+      "set_id": "886",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "914",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-915",
+      "set_id": "915",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-7",
+      "set_id": "916",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-919",
+      "set_id": "919",
+      "split": "test"
+    },
+    {
+      "family_id": "vb-family-921",
+      "set_id": "921",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-922",
+      "set_id": "922",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-985",
+      "set_id": "985",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-986",
+      "set_id": "986",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-987",
+      "set_id": "987",
+      "split": "test"
+    },
+    {
+      "family_id": "vb-family-1073",
+      "set_id": "1073",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-945",
+      "set_id": "1074",
+      "split": "test"
+    },
+    {
+      "family_id": "vb-family-1075",
+      "set_id": "1075",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "1103",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1104",
+      "set_id": "1104",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "1105",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "1130",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1132",
+      "set_id": "1132",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-10",
+      "set_id": "1134",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "1181",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "1182",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1184",
+      "set_id": "1184",
+      "split": "test"
+    },
+    {
+      "family_id": "vb-family-1247",
+      "set_id": "1247",
+      "split": "test"
+    },
+    {
+      "family_id": "vb-family-1248",
+      "set_id": "1248",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1249",
+      "set_id": "1249",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1254",
+      "set_id": "1254",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "1255",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-7",
+      "set_id": "1256",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-7",
+      "set_id": "1276",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-1277",
+      "set_id": "1277",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1277",
+      "set_id": "1278",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1311",
+      "set_id": "1311",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-578",
+      "set_id": "1312",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1313",
+      "set_id": "1313",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-7",
+      "set_id": "1315",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "1337",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1",
+      "set_id": "1338",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-1339",
+      "set_id": "1339",
+      "split": "test"
+    },
+    {
+      "family_id": "vb-family-1340",
+      "set_id": "1340",
+      "split": "development"
+    },
+    {
+      "family_id": "vb-family-1341",
+      "set_id": "1341",
+      "split": "train"
+    },
+    {
+      "family_id": "vb-family-7",
+      "set_id": "1342",
+      "split": "development"
+    }
+  ],
+  "evaluation_kind": "retrospective grouped baseline evaluation, not blind historical discovery",
+  "family_counts": {
+    "development": 14,
+    "test": 14,
+    "train": 41
+  },
+  "grouping": "Transitive closure across all parsed entries in chapter 4: explicit See-entry links, equal accent-stripped reconstructed stems or compound components (including possible homonyms and across source levels), and identical source strings within a doculect. Unrecorded lexical relations require specialist review.",
+  "schema_version": "1.0.0",
+  "seed": "m6-vanbik-lexical-families-v1",
+  "selection_sha256": "0d942463e7ab83fa55ab71d2279ea5aa72f3a7f4dbda3ec13631e1afea9be041"
+}

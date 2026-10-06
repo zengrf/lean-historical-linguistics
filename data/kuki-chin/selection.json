@@ -1,0 +1,5229 @@
+{
+  "core_set_ids": [
+    "1",
+    "60",
+    "117",
+    "170",
+    "247",
+    "325",
+    "369",
+    "420",
+    "463",
+    "520",
+    "578",
+    "612",
+    "637",
+    "686",
+    "695",
+    "750",
+    "799",
+    "846",
+    "872",
+    "884",
+    "914",
+    "919",
+    "985",
+    "1073",
+    "1103",
+    "1130",
+    "1181",
+    "1247",
+    "1254",
+    "1276",
+    "1311",
+    "1312",
+    "1337",
+    "1340",
+    "2",
+    "62",
+    "118",
+    "171",
+    "248",
+    "326",
+    "370",
+    "421",
+    "464",
+    "521",
+    "579",
+    "614",
+    "639",
+    "687",
+    "696",
+    "751"
+  ],
+  "counts": {
+    "eligible_entries": 1036,
+    "parsed_entries": 1344
+  },
+  "extraction_omissions": [
+    {
+      "entry_id": "32",
+      "pdf_page": 98,
+      "reason": "header-not-parsed"
+    },
+    {
+      "entry_id": "461",
+      "language": "Paite",
+      "reason": "no-opening-gloss-quote"
+    },
+    {
+      "entry_id": "513",
+      "pdf_page": 184,
+      "reason": "header-not-parsed"
+    },
+    {
+      "entry_id": "677",
+      "pdf_page": 212,
+      "reason": "header-not-parsed"
+    },
+    {
+      "entry_id": "1151",
+      "pdf_page": 303,
+      "reason": "header-not-parsed"
+    },
+    {
+      "entry_id": "1246",
+      "language": "M. Cho",
+      "reason": "no-opening-gloss-quote"
+    },
+    {
+      "entry_id": "1246",
+      "language": "Asho",
+      "reason": "no-opening-gloss-quote"
+    },
+    {
+      "entry_id": "1246",
+      "language": "M. Cho",
+      "reason": "no-opening-gloss-quote"
+    },
+    {
+      "entry_id": "1246",
+      "language": "Asho",
+      "reason": "no-opening-gloss-quote"
+    },
+    {
+      "entry_id": "1296",
+      "pdf_page": 329,
+      "reason": "header-not-parsed"
+    }
+  ],
+  "policy": "Round-robin by printed initial-consonant subsection, retaining source entry order within each section. First 100 eligible PKC entries; first 50 in that order form the review core. At least three distinct source doculects in at least two of VanBik's Peripheral, Central and Maraic groups. No model outcome is consulted.",
+  "schema_version": "1.0.0",
+  "section_counts": {
+    "h": 3,
+    "hl": 3,
+    "hm": 3,
+    "hn": 3,
+    "hr": 3,
+    "hŋ": 3,
+    "k": 3,
+    "kh": 3,
+    "khl": 3,
+    "khr": 3,
+    "kl": 3,
+    "kr": 3,
+    "l": 3,
+    "m": 3,
+    "n": 3,
+    "p": 3,
+    "ph": 3,
+    "phr": 3,
+    "pl": 3,
+    "pr": 1,
+    "r": 3,
+    "s": 3,
+    "sh": 3,
+    "t": 3,
+    "th": 3,
+    "ts": 3,
+    "tsh": 3,
+    "w": 3,
+    "y": 3,
+    "ŋ": 3,
+    "ɓ": 3,
+    "ɗ": 3,
+    "ʔ": 3,
+    "θ": 3
+  },
+  "set_ids": [
+    "1",
+    "2",
+    "3",
+    "60",
+    "62",
+    "63",
+    "117",
+    "118",
+    "119",
+    "170",
+    "171",
+    "172",
+    "247",
+    "248",
+    "249",
+    "325",
+    "326",
+    "327",
+    "369",
+    "370",
+    "371",
+    "420",
+    "421",
+    "422",
+    "463",
+    "464",
+    "465",
+    "520",
+    "521",
+    "522",
+    "578",
+    "579",
+    "581",
+    "612",
+    "614",
+    "615",
+    "637",
+    "639",
+    "640",
+    "686",
+    "687",
+    "688",
+    "695",
+    "696",
+    "697",
+    "750",
+    "751",
+    "752",
+    "799",
+    "800",
+    "801",
+    "846",
+    "847",
+    "848",
+    "872",
+    "873",
+    "874",
+    "884",
+    "885",
+    "886",
+    "914",
+    "915",
+    "916",
+    "919",
+    "921",
+    "922",
+    "985",
+    "986",
+    "987",
+    "1073",
+    "1074",
+    "1075",
+    "1103",
+    "1104",
+    "1105",
+    "1130",
+    "1132",
+    "1134",
+    "1181",
+    "1182",
+    "1184",
+    "1247",
+    "1248",
+    "1249",
+    "1254",
+    "1255",
+    "1256",
+    "1276",
+    "1277",
+    "1278",
+    "1311",
+    "1312",
+    "1313",
+    "1315",
+    "1337",
+    "1338",
+    "1339",
+    "1340",
+    "1341",
+    "1342"
+  ],
+  "source_pdf_sha256": "fb1ddf78261db19c5cb2e2698242939b2f952d390b2a3961b3b867b939598406",
+  "unselected": [
+    {
+      "id": "4",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "5",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "6",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "7",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "8",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "9",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "10",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "11",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "12",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "13",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "14",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "15",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "16",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "17",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "18",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "19",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "20",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "21",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "22",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "23",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "24",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "25",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "26",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "27",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "28",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "29",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "30",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "31",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "33",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "34",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "35",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "36",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "37",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "38",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "39",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "40",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "41",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "42",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "43",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "44",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "45",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "46",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "47",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "48",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "49",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "50",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "51",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "52",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "53",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "54",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "55",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "56",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "57",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "58",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "59",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "61",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "64",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "65",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "66",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "67",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "68",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "69",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "70",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "71",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "72",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "73",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "74",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "75",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "76",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "77",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "78",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "79",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "80",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "81",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "82",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "83",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "84",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "85",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "86",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "87",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "88",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "89",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "90",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "91",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "92",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "93",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "94",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "95",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "96",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "97",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "98",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "99",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "100",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "101",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "102",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "103",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "104",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "105",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "106",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "107",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "108",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "109",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "110",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "111",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "112",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "113",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "114",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "115",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "116",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "120",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "122",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "123",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "124",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "125",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "126",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "127",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "128",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "129",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "130",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "131",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "132",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "133",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "134",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "135",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "136",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "137",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "138",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "139",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "140",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "141",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "142",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "143",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "144",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "145",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "146",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "147",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "148",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "149",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "150",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "151",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "152",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "153",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "154",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "155",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "156",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "157",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "158",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "159",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "160",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "161",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "162",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "163",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "164",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "165",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "166",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "167",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "168",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "169",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "173",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "174",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "175",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "176",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "177",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "178",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "179",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "180",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "181",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "182",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "183",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "184",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "185",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "186",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "187",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "188",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "189",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "190",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "191",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "192",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "193",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "194",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "195",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "196",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "197",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "198",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "199",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "200",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "201",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "202",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "203",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "204",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "205",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "206",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "207",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "208",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "209",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "210",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "211",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "212",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "213",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "214",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "215",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "216",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "217",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "218",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "219",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "220",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "221",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "222",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "223",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "224",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "225",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "226",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "227",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "228",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "229",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "230",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "231",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "232",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "233",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "234",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "235",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "236",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "237",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "238",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "239",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "240",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "241",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "242",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "243",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "244",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "245",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "246",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "250",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "251",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "252",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "253",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "254",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "255",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "256",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "257",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "258",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "259",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "260",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "261",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "262",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "263",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "264",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "265",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "266",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "267",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "268",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "269",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "270",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "271",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "272",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "273",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "274",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "275",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "276",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "277",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "278",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "279",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "280",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "281",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "282",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "283",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "284",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "285",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "286",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "287",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "288",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "289",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "290",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "291",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "292",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "293",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "294",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "295",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "296",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "297",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "298",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "299",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "300",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "301",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "302",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "303",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "304",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "305",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "306",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "307",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "308",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "309",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "310",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "311",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "312",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "313",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "314",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "315",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "316",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "317",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "318",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "319",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "320",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "321",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "322",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "323",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "324",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "328",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "329",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "330",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "331",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "332",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "333",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "334",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "335",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "336",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "337",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "338",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "339",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "341",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "342",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "343",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "344",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "345",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "346",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "347",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "348",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "349",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "350",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "351",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "352",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "353",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "354",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "355",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "356",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "357",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "358",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "359",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "360",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "361",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "362",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "363",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "364",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "365",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "366",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "367",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "368",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "372",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "373",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "374",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "375",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "376",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "377",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "378",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "379",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "380",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "381",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "382",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "383",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "384",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "385",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "386",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "387",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "388",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "389",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "390",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "391",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "392",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "393",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "394",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "395",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "396",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "397",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "398",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "399",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "400",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "401",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "402",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "403",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "404",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "405",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "406",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "407",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "408",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "409",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "410",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "411",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "412",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "413",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "414",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "415",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "416",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "417",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "418",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "419",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "423",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "424",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "425",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "426",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "427",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "428",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "429",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "430",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "431",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "432",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "433",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "434",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "435",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "436",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "437",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "438",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "439",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "440",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "441",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "442",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "443",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "444",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "445",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "446",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "447",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "448",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "449",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "450",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "451",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "452",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "453",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "454",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "455",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "456",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "457",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "458",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "459",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "460",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "461",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "462",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "466",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "467",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "468",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "469",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "470",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "471",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "472",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "473",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "474",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "475",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "476",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "477",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "478",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "479",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "480",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "481",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "482",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "483",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "484",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "485",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "486",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "487",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "488",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "489",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "490",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "491",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "492",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "493",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "494",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "495",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "496",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "497",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "498",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "499",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "500",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "501",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "502",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "503",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "504",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "505",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "506",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "507",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "508",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "509",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "510",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "511",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "512",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "514",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "515",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "516",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "517",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "518",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "519",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "523",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "524",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "525",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "526",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "527",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "528",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "529",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "530",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "531",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "532",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "533",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "534",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "535",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "536",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "537",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "538",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "539",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "540",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "541",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "542",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "543",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "544",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "545",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "546",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "547",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "548",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "549",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "550",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "551",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "552",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "553",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "554",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "555",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "556",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "557",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "558",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "559",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "560",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "561",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "562",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "563",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "564",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "565",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "566",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "567",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "568",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "569",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "570",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "571",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "572",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "573",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "574",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "575",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "576",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "577",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "580",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "582",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "583",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "584",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "585",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "586",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "587",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "588",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "589",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "590",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "591",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "592",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "593",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "594",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "595",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "596",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "597",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "598",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "599",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "600",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "601",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "602",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "603",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "604",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "605",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "606",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "607",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "608",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "609",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "610",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "611",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "613",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "616",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "617",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "618",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "619",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "620",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "621",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "622",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "623",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "624",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "625",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "626",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "627",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "628",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "629",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "630",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "631",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "632",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "633",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "634",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "635",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "636",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "638",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "641",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "642",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "643",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "644",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "645",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "646",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "647",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "648",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "649",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "650",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "651",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "652",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "653",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "654",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "655",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "656",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "657",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "658",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "659",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "660",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "661",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "662",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "663",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "664",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "665",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "666",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "667",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "668",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "669",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "670",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "671",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "672",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "673",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "674",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "675",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "676",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "678",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "679",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "680",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "681",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "682",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "683",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "684",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "685",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "689",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "690",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "691",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "692",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "693",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "694",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "698",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "699",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "700",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "701",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "702",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "703",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "704",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "705",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "706",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "707",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "708",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "709",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "710",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "711",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "712",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "713",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "714",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "715",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "716",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "717",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "718",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "719",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "720",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "721",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "722",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "723",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "724",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "725",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "726",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "727",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "728",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "729",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "730",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "731",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "732",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "733",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "734",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "735",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "736",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "737",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "738",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "739",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "740",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "741",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "742",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "743",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "744",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "745",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "746",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "747",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "748",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "749",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "753",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "754",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "755",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "756",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "757",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "758",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "759",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "760",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "761",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "762",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "763",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "764",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "765",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "766",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "767",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "768",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "769",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "770",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "771",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "772",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "773",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "774",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "775",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "776",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "777",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "778",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "779",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "780",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "781",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "782",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "783",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "784",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "785",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "786",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "787",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "788",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "789",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "790",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "791",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "792",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "793",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "794",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "795",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "796",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "797",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "798",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "802",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "803",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "804",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "805",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "806",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "807",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "808",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "809",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "810",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "811",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "812",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "813",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "814",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "815",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "816",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "817",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "818",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "819",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "820",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "821",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "822",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "823",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "824",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "825",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "826",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "827",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "828",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "829",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "830",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "831",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "832",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "833",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "834",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "835",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "836",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "837",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "838",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "839",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "840",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "841",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "842",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "843",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "844",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "845",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "849",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "850",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "851",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "852",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "853",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "854",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "855",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "856",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "857",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "858",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "859",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "860",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "861",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "862",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "863",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "864",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "865",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "866",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "867",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "868",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "869",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "870",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "871",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "875",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "876",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "877",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "878",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "879",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "880",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "881",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "882",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "883",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "887",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "888",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "889",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "890",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "891",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "892",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "893",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "894",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "895",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "896",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "897",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "898",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "899",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "900",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "901",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "902",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "903",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "904",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "905",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "906",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "907",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "908",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "909",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "910",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "911",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "912",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "913",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "917",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "918",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "920",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "923",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "924",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "925",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "926",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "927",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "928",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "929",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "930",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "931",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "932",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "933",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "934",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "935",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "936",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "937",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "938",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "939",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "940",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "941",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "942",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "943",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "944",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "945",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "946",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "947",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "948",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "949",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "950",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "951",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "952",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "953",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "954",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "955",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "956",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "957",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "958",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "959",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "960",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "961",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "962",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "963",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "964",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "965",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "966",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "967",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "968",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "969",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "970",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "971",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "972",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "973",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "974",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "975",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "976",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "977",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "978",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "979",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "980",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "981",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "982",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "983",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "984",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "988",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "989",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "990",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "991",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "992",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "993",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "994",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "995",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "996",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "997",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "998",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "999",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1000",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1001",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1002",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1003",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1004",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1005",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1006",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1007",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1008",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1009",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1010",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1011",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1012",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1013",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1014",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1015",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1016",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1017",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1018",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1019",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1020",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1021",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1022",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1023",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1024",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1025",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1026",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1027",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1028",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1029",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1030",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1031",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1032",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1033",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1034",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1035",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1036",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1037",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1038",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1039",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1040",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1041",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1042",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1043",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1044",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1045",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1046",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1047",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1048",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1049",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1050",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1051",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1052",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1053",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1054",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1055",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1056",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1057",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1058",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1059",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1060",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1061",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1062",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1063",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1064",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1065",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1066",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1067",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1068",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1069",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1070",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1071",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1072",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1076",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1077",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1078",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1079",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1080",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1081",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1082",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1083",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1084",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1085",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1086",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1087",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1088",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1089",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1090",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1091",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1092",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1093",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1094",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1095",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1096",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1097",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1098",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1099",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1100",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1101",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1102",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1106",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1107",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1108",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1109",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1110",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1111",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1112",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1113",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1114",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1115",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1116",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1117",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1118",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1119",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1120",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1121",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1122",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1123",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1124",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1125",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1126",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1127",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1128",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1129",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1131",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1133",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1135",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1136",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1137",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1138",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1139",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1140",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1141",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1142",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1143",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1144",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1145",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1146",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1147",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1148",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1149",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1150",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1152",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1153",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1154",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1155",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1156",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1157",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1158",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1159",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1160",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1161",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1162",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1163",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1164",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1165",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1166",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1167",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1168",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1169",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1170",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1171",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1172",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1173",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1174",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1175",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1176",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1177",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1178",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1179",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1180",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1183",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1185",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1186",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1187",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1188",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1189",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1190",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1191",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1192",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1193",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1194",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1195",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1196",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1197",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1198",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1199",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1200",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1201",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1202",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1203",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1204",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1205",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1206",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1207",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1208",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1209",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1210",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1211",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1212",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1213",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1214",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1215",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1216",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1217",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1218",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1219",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1220",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1221",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1222",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1223",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1224",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1225",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1226",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1227",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1228",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1229",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1230",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1231",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1232",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1233",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1234",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1235",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1236",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1237",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1238",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1239",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1240",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1241",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1242",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1243",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1244",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1245",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1246",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1250",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1251",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1252",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1253",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1257",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1258",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1259",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1260",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1261",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1262",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1263",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1264",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1265",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1266",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1267",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1268",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1269",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1270",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1271",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1272",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1273",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1274",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1275",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1279",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1280",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1281",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1282",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1283",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1284",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1285",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1286",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1287",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1288",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1289",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1290",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1291",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1292",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1293",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1294",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1295",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1297",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1298",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1299",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1300",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1301",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1302",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1303",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1304",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1305",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1306",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1307",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1308",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1309",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1310",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1314",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1316",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1317",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1318",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1319",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1320",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1321",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1322",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1323",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1324",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1325",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1326",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1327",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1328",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1329",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1330",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1331",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1332",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1333",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1334",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1335",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1336",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1343",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1344",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1345",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1346",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1347",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1348",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1349",
+      "reason": "outside-stratified-sample"
+    },
+    {
+      "id": "1350",
+      "reason": "not-PKC-or-insufficient-parsed-coverage"
+    },
+    {
+      "id": "1351",
+      "reason": "outside-stratified-sample"
+    }
+  ]
+}

@@ -1,0 +1,2882 @@
+{
+  "dossiers": [
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The louse comparison is cognate"
+          ],
+          "attribution": "primary-paper",
+          "claim": "The three branches support an inherited sr-cluster.",
+          "id": "inherited-sr",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Presyllable vowels distinguish the inputs"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Tibetan sr in other words may continue sə-r rather than sr.",
+          "id": "separate-syllables",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Additional independently established sr : ɕ : s correspondences"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "ṣit",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*srik",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Baxter–Sagart 2014, as cited by Jacques",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "蝨"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "蝨",
+          "meaning": "louse",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Tibetan in Jacques's IPA transcription",
+          "form": "ɕig",
+          "meaning": "louse",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        },
+        {
+          "branch": "Kiranti",
+          "chinese": null,
+          "doculect": "Limbu",
+          "form": "siʔ",
+          "meaning": "louse",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [
+        "sr-louse"
+      ],
+      "id": "sr-louse",
+      "morphology": "No productive Tibetan causative is inferred from the initial s.",
+      "non_discriminating_evidence": [
+        "An onset match alone cannot establish every vowel and coda correspondence"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "sr",
+      "title": "Louse: Chinese sr, Tibetan palatal fricative and Kiranti s",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The compared words are inherited",
+            "The vowel contrast predates the change"
+          ],
+          "attribution": "Jacques's proposed revision of Handel (2002)",
+          "claim": "Loss of r outside Chinese before a (possibly o), but not ə.",
+          "id": "restricted-r-loss",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "The unattested uninfixed Chinese bases existed"
+          ],
+          "attribution": "Jacques, drawing on Sagart and Baxter–Sagart",
+          "claim": "Chinese r is secondary in the s : sr comparisons.",
+          "id": "Chinese-r-infix",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Middle Chinese second division or retroflexion need not always reflect r"
+          ],
+          "attribution": "Jacques's third possibility",
+          "claim": "Some Chinese r-clusters are reconstruction artefacts.",
+          "id": "OC-r-overreconstruction",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "The treaty inscription is relevant to the semantic history"
+          ],
+          "attribution": "primary-paper",
+          "claim": "The Tibetan confess comparison is weakened by the older meaning declare.",
+          "id": "Tibetan-semantic-objection",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            4,
+            5
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "The treaty inscription's use of the Tibetan verb",
+        "Independent examples with original ə"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "ṣik",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*srək",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Baxter–Sagart 2014, as cited by Jacques",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "色"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "色",
+          "meaning": "colour; shame",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Written Burmese",
+          "form": "hrak",
+          "meaning": "shame",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "formal_fragments": [
+        "sr-shame"
+      ],
+      "id": "sr-shame",
+      "morphology": "The Tibetan verbal comparison is not treated as an attested instance of a productive shame derivation.",
+      "non_discriminating_evidence": [
+        "Modern confess and shame glosses alone do not establish cognacy"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "sr",
+      "title": "Shame and the disputed Tibetan comparison",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "Baxter–Sagart's reading-specific reconstruction"
+          ],
+          "attribution": "Baxter–Sagart as reported by Jacques",
+          "claim": "Chinese is reconstructed with u.",
+          "id": "OC-u",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "The medicinal plant meaning continues the root noun"
+          ],
+          "attribution": "Jacques, following Schuessler",
+          "claim": "Chinese ə gives the proposed cross-branch vowel correspondence.",
+          "id": "OC-schwa",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "The compared words are inherited",
+            "The vowel contrast predates the change"
+          ],
+          "attribution": "Jacques's proposed revision of Handel (2002)",
+          "claim": "Loss of r outside Chinese before a (possibly o), but not ə.",
+          "id": "restricted-r-loss",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "The unattested uninfixed Chinese bases existed"
+          ],
+          "attribution": "Jacques, drawing on Sagart and Baxter–Sagart",
+          "claim": "Chinese r is secondary in the s : sr comparisons.",
+          "id": "Chinese-r-infix",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Middle Chinese second division or retroflexion need not always reflect r"
+          ],
+          "attribution": "Jacques's third possibility",
+          "claim": "Some Chinese r-clusters are reconstruction artefacts.",
+          "id": "OC-r-overreconstruction",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            3,
+            4,
+            5
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Chinese loans or phonetic-series evidence distinguishing u and ə",
+        "Inherited versus borrowed Japhug variants"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "ṣim",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*srum / *srəm",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Baxter–Sagart 2014 / Schuessler 2009, as cited by Jacques",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "參"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "參",
+          "meaning": "medicinal rhizome",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Kiranti",
+          "chinese": null,
+          "doculect": "Kulung",
+          "form": "sam",
+          "meaning": "root",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        },
+        {
+          "branch": "Kiranti",
+          "chinese": null,
+          "doculect": "Proto-Kiranti in Jacques",
+          "form": "*sam",
+          "meaning": "root",
+          "reconstruction_node": "jacques-sr:PKiranti",
+          "representation": "source-reconstruction"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "tɤ-zrɤm",
+          "meaning": "plant root",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [
+        "sr-root"
+      ],
+      "id": "sr-root",
+      "morphology": "Japhug tɤ- is the indefinite possessor prefix. The abstract lineage variant is treated as a possible Situ loan, not merged with the inherited noun.",
+      "non_discriminating_evidence": [
+        "The Chinese evidence cited here does not choose between u and ə"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "sr",
+      "title": "Plant root and Chinese 參",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The compared words are inherited",
+            "The vowel contrast predates the change"
+          ],
+          "attribution": "Jacques's proposed revision of Handel (2002)",
+          "claim": "Loss of r outside Chinese before a (possibly o), but not ə.",
+          "id": "restricted-r-loss",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "The unattested uninfixed Chinese bases existed"
+          ],
+          "attribution": "Jacques, drawing on Sagart and Baxter–Sagart",
+          "claim": "Chinese r is secondary in the s : sr comparisons.",
+          "id": "Chinese-r-infix",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Middle Chinese second division or retroflexion need not always reflect r"
+          ],
+          "attribution": "Jacques's third possibility",
+          "claim": "Some Chinese r-clusters are reconstruction artefacts.",
+          "id": "OC-r-overreconstruction",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Chinese word-family evidence for infixation",
+        "More examples establishing the vowel condition"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "ṣɛt",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*srat",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Baxter–Sagart 2014, as cited by Jacques",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "殺"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "殺",
+          "meaning": "kill",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "gsod, bsad",
+          "meaning": "kill",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "sat",
+          "meaning": "kill",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [
+        "sr-kill"
+      ],
+      "id": "sr-kill",
+      "morphology": "Chinese infixation is a competing historical analysis; Tibetan present and past belong to one paradigm.",
+      "non_discriminating_evidence": [
+        "The small comparison set fits more than one historical account"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "sr",
+      "title": "Kill: alternative origins of Chinese r",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The compared words are inherited",
+            "The vowel contrast predates the change"
+          ],
+          "attribution": "Jacques's proposed revision of Handel (2002)",
+          "claim": "Loss of r outside Chinese before a (possibly o), but not ə.",
+          "id": "restricted-r-loss",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "The unattested uninfixed Chinese bases existed"
+          ],
+          "attribution": "Jacques, drawing on Sagart and Baxter–Sagart",
+          "claim": "Chinese r is secondary in the s : sr comparisons.",
+          "id": "Chinese-r-infix",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Middle Chinese second division or retroflexion need not always reflect r"
+          ],
+          "attribution": "Jacques's third possibility",
+          "claim": "Some Chinese r-clusters are reconstruction artefacts.",
+          "id": "OC-r-overreconstruction",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Chinese word-family evidence for infixation",
+        "More examples establishing the vowel condition"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "ṣæ",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*srˤaj",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Baxter–Sagart 2014, as cited by Jacques",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "沙"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "沙",
+          "meaning": "sand / place",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "sa",
+          "meaning": "sand / place",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "formal_fragments": [
+        "sr-sand"
+      ],
+      "id": "sr-sand",
+      "morphology": "The Chinese r-infix hypothesis requires a lost base; the relevant morphology is not directly observed.",
+      "non_discriminating_evidence": [
+        "The small comparison set fits more than one historical account"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "sr",
+      "title": "Sand / place: alternative origins of Chinese r",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The compared words are inherited",
+            "The vowel contrast predates the change"
+          ],
+          "attribution": "Jacques's proposed revision of Handel (2002)",
+          "claim": "Loss of r outside Chinese before a (possibly o), but not ə.",
+          "id": "restricted-r-loss",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "The unattested uninfixed Chinese bases existed"
+          ],
+          "attribution": "Jacques, drawing on Sagart and Baxter–Sagart",
+          "claim": "Chinese r is secondary in the s : sr comparisons.",
+          "id": "Chinese-r-infix",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Middle Chinese second division or retroflexion need not always reflect r"
+          ],
+          "attribution": "Jacques's third possibility",
+          "claim": "Some Chinese r-clusters are reconstruction artefacts.",
+          "id": "OC-r-overreconstruction",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Chinese word-family evidence for infixation",
+        "More examples establishing the vowel condition"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "ṣæwk",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*srˤok",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Baxter–Sagart 2014, as cited by Jacques",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "欶"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "欶",
+          "meaning": "suck / drink",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Written Burmese",
+          "form": "sok",
+          "meaning": "suck / drink",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "formal_fragments": [
+        "sr-suck"
+      ],
+      "id": "sr-suck",
+      "morphology": "The Chinese r-infix hypothesis requires a lost base; the relevant morphology is not directly observed.",
+      "non_discriminating_evidence": [
+        "The small comparison set fits more than one historical account"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "sr",
+      "title": "Suck / drink: alternative origins of Chinese r",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The kinship comparison is valid"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Retained Tibetan sr may reflect sə-r rather than the cluster sr.",
+          "id": "presyllable",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "A larger correspondence set is needed"
+          ],
+          "attribution": "primary-paper",
+          "claim": "The correspondence need not yet determine a unique ancestral onset.",
+          "id": "unresolved-cluster",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            5
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Presyllable evidence and the vowel correspondence discussed under Dempsey's law"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": null,
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": null,
+            "old_chinese_status": "not specified in this dossier",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Jacques's discussion of Baxter–Sagart; only the initial sr is encoded",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "甥"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "甥",
+          "meaning": "sister's son",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Tibetan in Jacques's transcription",
+          "form": "sriŋ.mo",
+          "meaning": "sister",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [
+        "sr-presyllable"
+      ],
+      "id": "sr-nephew",
+      "morphology": "Tibetan -mo is retained in the evidence; it is not projected as part of the compared root onset.",
+      "non_discriminating_evidence": [
+        "A matching pair of written initial letters does not settle the proto-cluster"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "sr",
+      "title": "Nephew and sister: cluster versus presyllable",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "Similar meanings and surface forms"
+          ],
+          "attribution": "Coblin as reported by Jacques",
+          "claim": "Compare Chinese pair with Tibetan zung.",
+          "id": "surface-comparison",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "The pre-Tibetan affricate-to-fricative change"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Tibetan z continues dz and invalidates the proposed sr comparison.",
+          "id": "affricate-origin-objection",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            4
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Regular pre-Tibetan dz > z and the actual Chinese initial history"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": null,
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": null,
+            "old_chinese_status": "not specified in this dossier",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Chinese r-cluster analysis discussed by Jacques",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "雙"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "雙",
+          "meaning": "pair",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "zung",
+          "meaning": "pair",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "formal_fragments": [],
+      "id": "sr-pair-rejected",
+      "morphology": "No morphology is supplied that would repair the initial correspondence.",
+      "non_discriminating_evidence": [
+        "Identical glosses do not repair an irregular correspondence"
+      ],
+      "outcome": "rejected-in-primary-source",
+      "specialist_review": "pending",
+      "theme": "sr",
+      "title": "The rejected Chinese–Tibetan pair comparison",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The source's rhyme and prefix analysis"
+          ],
+          "attribution": "Peiros–Starostin 1996 as reported by Jacques",
+          "claim": "Source etymon: *Gʷa (s-)",
+          "id": "Peiros-Starostin",
+          "linked_forms": {
+            "etymon": "*Gʷa (s-)"
+          }
+        },
+        {
+          "assumptions": [
+            "The source's rhyme reconstruction"
+          ],
+          "attribution": "Matisoff 2003 as reported by Jacques",
+          "claim": "Source rhyme: *-wa",
+          "id": "Matisoff",
+          "linked_forms": {
+            "rhyme": "*-wa"
+          }
+        },
+        {
+          "assumptions": [
+            "Nominal fusion occurred after Laufer's law"
+          ],
+          "attribution": "Jacques 2009",
+          "claim": "Some Tibetan wa is younger than wa > o, from u + ba.",
+          "id": "late-nominal-fusion",
+          "linked_forms": {
+            "angle": [
+              "*gru-ba",
+              "*grua",
+              "grwa"
+            ],
+            "hat": [
+              "*zyu-ba",
+              "*zyua",
+              "zhwa"
+            ],
+            "horn": [
+              "*ru-ba",
+              "*rua",
+              "rwa"
+            ]
+          }
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Burmese rhymes distinguish several sources of Tibetan o",
+        "Old Tibetan doublets and the restriction of fusion to early nominal formations"
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Old Tibetan as cited",
+          "form": "so",
+          "meaning": "tooth",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Burmese as cited in Table 1",
+          "form": "swa³",
+          "meaning": "tooth",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "formal_fragments": [
+        "wa-tooth"
+      ],
+      "id": "wa-tooth",
+      "morphology": "Prefixes and suffixes belong to the complete source analysis. The horn/angle/hat doublets are internal Tibetan controls, not extra cross-branch etyma.",
+      "non_discriminating_evidence": [
+        "Modern Tibetan o alone cannot select a unique proto-rhyme",
+        "Later yu-ba and verbal zhu-ba do not license unrestricted fusion"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "wa-fusion",
+      "title": "Tooth: more than one origin of Tibetan o",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The source's rhyme and prefix analysis"
+          ],
+          "attribution": "Peiros–Starostin 1996 as reported by Jacques",
+          "claim": "Source etymon: *Tua",
+          "id": "Peiros-Starostin",
+          "linked_forms": {
+            "etymon": "*Tua"
+          }
+        },
+        {
+          "assumptions": [
+            "The source's rhyme reconstruction"
+          ],
+          "attribution": "Matisoff 2003 as reported by Jacques",
+          "claim": "Source rhyme: *-wa",
+          "id": "Matisoff",
+          "linked_forms": {
+            "rhyme": "*-wa"
+          }
+        },
+        {
+          "assumptions": [
+            "Nominal fusion occurred after Laufer's law"
+          ],
+          "attribution": "Jacques 2009",
+          "claim": "Some Tibetan wa is younger than wa > o, from u + ba.",
+          "id": "late-nominal-fusion",
+          "linked_forms": {
+            "angle": [
+              "*gru-ba",
+              "*grua",
+              "grwa"
+            ],
+            "hat": [
+              "*zyu-ba",
+              "*zyua",
+              "zhwa"
+            ],
+            "horn": [
+              "*ru-ba",
+              "*rua",
+              "rwa"
+            ]
+          }
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Burmese rhymes distinguish several sources of Tibetan o",
+        "Old Tibetan doublets and the restriction of fusion to early nominal formations"
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Old Tibetan as cited",
+          "form": "mtho",
+          "meaning": "handspan",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Burmese as cited in Table 1",
+          "form": "thwa³",
+          "meaning": "handspan",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "formal_fragments": [
+        "wa-handspan"
+      ],
+      "id": "wa-handspan",
+      "morphology": "Prefixes and suffixes belong to the complete source analysis. The horn/angle/hat doublets are internal Tibetan controls, not extra cross-branch etyma.",
+      "non_discriminating_evidence": [
+        "Modern Tibetan o alone cannot select a unique proto-rhyme",
+        "Later yu-ba and verbal zhu-ba do not license unrestricted fusion"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "wa-fusion",
+      "title": "Handspan: more than one origin of Tibetan o",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The source's rhyme and prefix analysis"
+          ],
+          "attribution": "Peiros–Starostin 1996 as reported by Jacques",
+          "claim": "Source etymon: *chāw",
+          "id": "Peiros-Starostin",
+          "linked_forms": {
+            "etymon": "*chāw"
+          }
+        },
+        {
+          "assumptions": [
+            "The source's rhyme reconstruction"
+          ],
+          "attribution": "Matisoff 2003 as reported by Jacques",
+          "claim": "Source rhyme: *-ow",
+          "id": "Matisoff",
+          "linked_forms": {
+            "rhyme": "*-ow"
+          }
+        },
+        {
+          "assumptions": [
+            "Nominal fusion occurred after Laufer's law"
+          ],
+          "attribution": "Jacques 2009",
+          "claim": "Some Tibetan wa is younger than wa > o, from u + ba.",
+          "id": "late-nominal-fusion",
+          "linked_forms": {
+            "angle": [
+              "*gru-ba",
+              "*grua",
+              "grwa"
+            ],
+            "hat": [
+              "*zyu-ba",
+              "*zyua",
+              "zhwa"
+            ],
+            "horn": [
+              "*ru-ba",
+              "*rua",
+              "rwa"
+            ]
+          }
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Burmese rhymes distinguish several sources of Tibetan o",
+        "Old Tibetan doublets and the restriction of fusion to early nominal formations"
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Old Tibetan as cited",
+          "form": "tsho",
+          "meaning": "fat",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Burmese as cited in Table 1",
+          "form": "chu²",
+          "meaning": "fat",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "formal_fragments": [],
+      "id": "wa-fat",
+      "morphology": "Prefixes and suffixes belong to the complete source analysis. The horn/angle/hat doublets are internal Tibetan controls, not extra cross-branch etyma.",
+      "non_discriminating_evidence": [
+        "Modern Tibetan o alone cannot select a unique proto-rhyme",
+        "Later yu-ba and verbal zhu-ba do not license unrestricted fusion"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "wa-fusion",
+      "title": "Fat: more than one origin of Tibetan o",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The source's rhyme and prefix analysis"
+          ],
+          "attribution": "Peiros–Starostin 1996 as reported by Jacques",
+          "claim": "Source etymon: *rɨ̄w(H)",
+          "id": "Peiros-Starostin",
+          "linked_forms": {
+            "etymon": "*rɨ̄w(H)"
+          }
+        },
+        {
+          "assumptions": [
+            "The source's rhyme reconstruction"
+          ],
+          "attribution": "Matisoff 2003 as reported by Jacques",
+          "claim": "Source rhyme: *-aw",
+          "id": "Matisoff",
+          "linked_forms": {
+            "rhyme": "*-aw"
+          }
+        },
+        {
+          "assumptions": [
+            "Nominal fusion occurred after Laufer's law"
+          ],
+          "attribution": "Jacques 2009",
+          "claim": "Some Tibetan wa is younger than wa > o, from u + ba.",
+          "id": "late-nominal-fusion",
+          "linked_forms": {
+            "angle": [
+              "*gru-ba",
+              "*grua",
+              "grwa"
+            ],
+            "hat": [
+              "*zyu-ba",
+              "*zyua",
+              "zhwa"
+            ],
+            "horn": [
+              "*ru-ba",
+              "*rua",
+              "rwa"
+            ]
+          }
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Burmese rhymes distinguish several sources of Tibetan o",
+        "Old Tibetan doublets and the restriction of fusion to early nominal formations"
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Old Tibetan as cited",
+          "form": "ro",
+          "meaning": "corpse / withered",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Burmese as cited in Table 1",
+          "form": "raw²",
+          "meaning": "corpse / withered",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "formal_fragments": [],
+      "id": "wa-corpse",
+      "morphology": "Prefixes and suffixes belong to the complete source analysis. The horn/angle/hat doublets are internal Tibetan controls, not extra cross-branch etyma.",
+      "non_discriminating_evidence": [
+        "Modern Tibetan o alone cannot select a unique proto-rhyme",
+        "Later yu-ba and verbal zhu-ba do not license unrestricted fusion"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "wa-fusion",
+      "title": "Corpse / withered: more than one origin of Tibetan o",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The source's rhyme and prefix analysis"
+          ],
+          "attribution": "Peiros–Starostin 1996 as reported by Jacques",
+          "claim": "Source etymon: *phrɨw",
+          "id": "Peiros-Starostin",
+          "linked_forms": {
+            "etymon": "*phrɨw"
+          }
+        },
+        {
+          "assumptions": [
+            "The source's rhyme reconstruction"
+          ],
+          "attribution": "Matisoff 2003 as reported by Jacques",
+          "claim": "Source rhyme: *-o",
+          "id": "Matisoff",
+          "linked_forms": {
+            "rhyme": "*-o"
+          }
+        },
+        {
+          "assumptions": [
+            "Nominal fusion occurred after Laufer's law"
+          ],
+          "attribution": "Jacques 2009",
+          "claim": "Some Tibetan wa is younger than wa > o, from u + ba.",
+          "id": "late-nominal-fusion",
+          "linked_forms": {
+            "angle": [
+              "*gru-ba",
+              "*grua",
+              "grwa"
+            ],
+            "hat": [
+              "*zyu-ba",
+              "*zyua",
+              "zhwa"
+            ],
+            "horn": [
+              "*ru-ba",
+              "*rua",
+              "rwa"
+            ]
+          }
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Burmese rhymes distinguish several sources of Tibetan o",
+        "Old Tibetan doublets and the restriction of fusion to early nominal formations"
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Old Tibetan as cited",
+          "form": "spro",
+          "meaning": "be pleased",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Burmese as cited in Table 1",
+          "form": "pyau²",
+          "meaning": "be pleased",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "formal_fragments": [],
+      "id": "wa-pleased",
+      "morphology": "Prefixes and suffixes belong to the complete source analysis. The horn/angle/hat doublets are internal Tibetan controls, not extra cross-branch etyma.",
+      "non_discriminating_evidence": [
+        "Modern Tibetan o alone cannot select a unique proto-rhyme",
+        "Later yu-ba and verbal zhu-ba do not license unrestricted fusion"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "wa-fusion",
+      "title": "Be pleased: more than one origin of Tibetan o",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "Japhug prenasalization is conservative"
+          ],
+          "attribution": "primary-paper",
+          "claim": "ndzam > dzam > zam in pre-Tibetan.",
+          "id": "nasal-attrition",
+          "linked_forms": {
+            "pre-Tibetan": [
+              "*ndzam",
+              "*dzam",
+              "zam"
+            ]
+          }
+        },
+        {
+          "assumptions": [
+            "The earlier nasal requires comparative evidence"
+          ],
+          "attribution": "primary-paper",
+          "claim": "The last Tibetan change alone only establishes dzam > zam.",
+          "id": "plain-affricate",
+          "linked_forms": {
+            "pre-Tibetan": [
+              "*dzam",
+              "zam"
+            ]
+          }
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "source_id": "jacques2012-internal"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "The Japhug prenasalized cognate and the wider voiced/prenasalized correspondence"
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "zam",
+          "meaning": "bridge",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "ndzom",
+          "meaning": "bridge",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [
+        "tib-bridge"
+      ],
+      "id": "tib-bridge",
+      "morphology": "The initial nasal's lexical origin is not identified solely by the word for bridge.",
+      "non_discriminating_evidence": [
+        "Tibetan zam alone cannot distinguish dzam from earlier ndzam"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "tibetan-morphophonology",
+      "title": "Bridge and loss of prenasalization",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The prenasalized Japhug form preserves the older onset"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Pre-Tibetan ndug loses prenasalization.",
+          "id": "nasal-loss",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Lexical and grammatical nasals must be distinguished"
+          ],
+          "attribution": "primary-paper",
+          "claim": "The pair does not by itself establish the age or morphological function of every nasal.",
+          "id": "unresolved-nasal-origin",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "source_id": "jacques2012-internal"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Additional cognates and the phonology of the nasal attrition cycle"
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "dug",
+          "meaning": "poison",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "tɤ-ndɤɣ",
+          "meaning": "poison",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [
+        "tib-poison"
+      ],
+      "id": "tib-poison",
+      "morphology": "Japhug tɤ- is a nominal prefix; neither it nor the nasal is silently identified with the Tibetan present prefix.",
+      "non_discriminating_evidence": [
+        "Two similar nouns alone do not recover the whole prefix system"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "tibetan-morphophonology",
+      "title": "Poison and the proposed nasal attrition cycle",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "Its vowel is not recoverable from Tibetan alone"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Reconstruct a velar presyllable in pre-Tibetan.",
+          "id": "velar-presyllable",
+          "linked_forms": {
+            "pre-Tibetan": "*gV-lak"
+          }
+        },
+        {
+          "assumptions": [
+            "Dental/velar preinitials merge conditionally"
+          ],
+          "attribution": "primary-paper",
+          "claim": "A dental presyllable has the same Tibetan outcome.",
+          "id": "dental-presyllable",
+          "linked_forms": {
+            "pre-Tibetan": "*dV-lak"
+          }
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "source_id": "jacques2012-internal"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Other branches preserving presyllable vowels and uvular/velar contrasts"
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "glag",
+          "meaning": "eagle",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "qaliaʁ",
+          "meaning": "eagle",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [
+        "tib-eagle"
+      ],
+      "id": "tib-eagle",
+      "morphology": "A lost nominal presyllable is distinguished from a productive verbal TAM prefix.",
+      "non_discriminating_evidence": [
+        "Tibetan g- alone cannot recover the lost dental/velar or vowel contrast"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "tibetan-morphophonology",
+      "title": "Eagle and merged presyllable contrasts",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The comparative affricate correspondence"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Tibetan z reflects dz.",
+          "id": "affricate-origin",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "The analysis attributed to Jacques 2010 applies"
+          ],
+          "attribution": "Jacques 2010 as reported by Jacques 2012",
+          "claim": "The irregular a/o alternation may preserve agreement morphology.",
+          "id": "old-agreement",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "source_id": "jacques2012-internal"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Comparative paradigm morphology and historical uses of both stems"
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "za; zos",
+          "meaning": "eat: present; past",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "ndza",
+          "meaning": "eat",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        },
+        {
+          "branch": "Lolo-Burmese",
+          "chinese": null,
+          "doculect": "Proto-Lolo-Burmese as cited",
+          "form": "*dza²",
+          "meaning": "eat",
+          "reconstruction_node": "bradley-1979:PLB",
+          "representation": "source-reconstruction"
+        }
+      ],
+      "formal_fragments": [
+        "tib-eat"
+      ],
+      "id": "tib-eat",
+      "morphology": "Present za and past zos are linked cells. Recovering the onset does not explain the past stem or prove the agreement analysis.",
+      "non_discriminating_evidence": [
+        "The initial correspondence does not distinguish proposed sources of the irregular vowel alternation"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "tibetan-morphophonology",
+      "title": "Eat: lexical affricate history and an irregular paradigm",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "Go/Do causes rounding; BV marks the past"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Tibetan alternations could derive from directional prefixes.",
+          "id": "directional-origin",
+          "linked_forms": {
+            "past": [
+              "*BV-sat-s"
+            ],
+            "present": [
+              "*Go-sat",
+              "*Do-sat"
+            ]
+          }
+        },
+        {
+          "assumptions": [
+            "Directional TAM systems can develop through contact",
+            "Japhug down differs from other Gyalrongic languages"
+          ],
+          "attribution": "primary-paper",
+          "claim": "The similar Tibetan and Japhug prefixes may have arisen independently.",
+          "id": "independent-innovation",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Coblin's alternative sound history"
+          ],
+          "attribution": "Coblin 1976 as reported by Jacques",
+          "claim": "A labiovelar prefix rather than an o vowel could cause rounding.",
+          "id": "labiovelar-rounding",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "source_id": "jacques2012-internal"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Other Gyalrongic directional forms",
+        "Tibetan dialect and textual paradigms",
+        "Independent evidence for the vowel of the lost prefix"
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "gsod; bsad; gsad; sod",
+          "meaning": "kill: present; past; future; imperative",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "ku-sat; pɯ-a-sat",
+          "meaning": "kill: present; aorist",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [
+        "tib-kill-paradigm"
+      ],
+      "id": "tib-kill-paradigm",
+      "morphology": "The four Tibetan cells form one paradigm. Go/Do and BV alternatives must be chosen as whole analyses, not segment by segment. The Japhug aorist a is a transitive direct marker.",
+      "non_discriminating_evidence": [
+        "The two similar-looking prefix pairs do not establish inherited PST verbal morphology"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "tibetan-morphophonology",
+      "title": "Kill: Tibetan TAM prefixes and Japhug directional prefixes",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "Ink is the unaffixed noun"
+          ],
+          "attribution": "Mei 2010 as discussed by Sagart–Baxter",
+          "claim": "Black is derived from the nominal root ink with s-.",
+          "id": "denominal-s",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "The early Tai loan points to an additional consonant in ink"
+          ],
+          "attribution": "Sagart–Baxter",
+          "claim": "OC black has a voiceless nasal; the prefix/function remain uncertain.",
+          "id": "voiceless-nasal",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "source_id": "sagart-hal-00781153"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Early loans and Chinese-internal evidence for the preinitial in ink"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": null,
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*m̥ˤək; *C.mˤək",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Sagart–Baxter 2012",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "黑; 墨"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "黑; 墨",
+          "meaning": "black; ink",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "smag",
+          "meaning": "dark",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "formal_fragments": [],
+      "id": "prefix-black",
+      "morphology": "The direction noun > adjective is disputed; a Tibetan s-cluster does not establish a Chinese denominal prefix.",
+      "non_discriminating_evidence": [
+        "The Tibetan cluster alone cannot date a Chinese s-prefix"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "oc-prefixes",
+      "title": "Black, ink and the function of a proposed s-prefix",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The semantics are causative"
+          ],
+          "attribution": "Mei as reported by Sagart–Baxter",
+          "claim": "Treat the Chinese initial as a causative s-cluster.",
+          "id": "Chinese-causative",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Escape is not automatically a causative of loose"
+          ],
+          "attribution": "Sagart–Baxter",
+          "claim": "Burmese has a clear causative; the Chinese meanings do not establish the same derivation.",
+          "id": "semantic-objection",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            8
+          ],
+          "source_id": "sagart-hal-00781153"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Actual argument structure in Chinese texts",
+        "Chinese-internal evidence for the initial"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "thwat; ywet",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*l̥ˤot; *lot",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Sagart–Baxter 2012",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "脫; 悅"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "脫; 悅",
+          "meaning": "escape; pleased",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Written Burmese",
+          "form": "lwat; hluat",
+          "meaning": "be free; set free",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "formal_fragments": [],
+      "id": "prefix-loose",
+      "morphology": "The Burmese pair is one linked intransitive/causative paradigm; it is not copied into Chinese by assumption.",
+      "non_discriminating_evidence": [
+        "A Burmese s-causative does not prove an identical affix in the compared Chinese word"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "oc-prefixes",
+      "title": "Loose, escape and the Burmese causative",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The hypothetical pre-OC scheme holds"
+          ],
+          "attribution": "Sagart–Baxter hypothetical scheme",
+          "claim": "A tight s-n cluster may underlie the voiceless nasal before OC.",
+          "id": "early-tight-cluster",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "No Chinese-internal s evidence for this word"
+          ],
+          "attribution": "Sagart–Baxter",
+          "claim": "At the OC stage reconstruct the voiceless nasal without importing a TB prefix.",
+          "id": "OC-voiceless-nasal",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            19
+          ],
+          "source_id": "sagart-hal-00781153"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Evidence dating the loss of s relative to the OC stage"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "than",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*n̥ˤar",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Sagart–Baxter 2012",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "嘆; 歎"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "嘆; 歎",
+          "meaning": "sigh",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Kuki-Chin",
+          "chinese": null,
+          "doculect": "Proto-Northern-Chin in Button as cited",
+          "form": "*ʰnarᴵ; *ʰnarᴵᴵᴵ",
+          "meaning": "nose; breathe, snore",
+          "reconstruction_node": "button-2009:PNC",
+          "representation": "source-reconstruction"
+        },
+        {
+          "branch": "Tibeto-Burman-assumed",
+          "chinese": null,
+          "doculect": "Proto-Tibeto-Burman in Matisoff as cited",
+          "form": "*s-naːr",
+          "meaning": "nose",
+          "reconstruction_node": "matisoff-2003:PTB",
+          "representation": "source-reconstruction"
+        }
+      ],
+      "formal_fragments": [
+        "prefix-nose"
+      ],
+      "id": "prefix-nose",
+      "morphology": "Button's tone categories distinguish the noun and verb. They are not phonetic pitch values or VanBik's proto-tone labels.",
+      "non_discriminating_evidence": [
+        "A possible pre-OC cluster and an OC voiceless nasal are compatible at different dates"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "oc-prefixes",
+      "title": "Nose, breathing and Chinese voiceless nasals",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The two verbs and their prefixes are cognate"
+          ],
+          "attribution": "Mei as reported by Sagart–Baxter",
+          "claim": "Project a nasal from Tibetan and Naxi to PTB and PST.",
+          "id": "inherited-nasal",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Tibetan inflection need not be the OC intransitive prefix",
+            "The Naxi root may be a different etymon"
+          ],
+          "attribution": "Sagart–Baxter",
+          "claim": "Neither prefix identity nor obligatory attachment at the family ancestor follows.",
+          "id": "scope-objection",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            27,
+            28
+          ],
+          "source_id": "sagart-hal-00781153"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Naxi etymology",
+        "Min evidence for a minor syllable",
+        "Distribution and function of nasal morphology"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "pj+j",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*Cə.pər",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Sagart–Baxter 2012",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "飛"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "飛",
+          "meaning": "fly",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan in the discussion",
+          "form": "N-phur",
+          "meaning": "fly",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Naic",
+          "chinese": null,
+          "doculect": "Naxi as cited",
+          "form": "mbi",
+          "meaning": "fly",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [],
+      "id": "prefix-fly",
+      "morphology": "A present prefix, an intransitive prefix and a lexical prenasalized onset are distinct hypotheses.",
+      "non_discriminating_evidence": [
+        "A hypothetical binary tree alone cannot promote a prefix from two daughter forms to every ancestral cell"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "oc-prefixes",
+      "title": "Fly and the limits of projecting a nasal to PTB or PST",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "Eastern nasal forms are inherited at both nodes"
+          ],
+          "attribution": "Mei as reported by Sagart–Baxter",
+          "claim": "Project N-kuw beside d-kuw to PTB and PST.",
+          "id": "PTB-nasal-alternation",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Distribution of the nasal is restricted"
+          ],
+          "attribution": "Sagart–Baxter",
+          "claim": "Nasal preinitials may be an eastern innovation; OC may lack them.",
+          "id": "local-nasal",
+          "linked_forms": {
+            "OC": [
+              "*kuʔ",
+              "*tə.kuʔ"
+            ]
+          }
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            28
+          ],
+          "source_id": "sagart-hal-00781153"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Distribution of nasal forms",
+        "Oracle-bone use of the elbow graph for nine"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "kjuwX",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*kuʔ / *tə.kuʔ",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Sagart–Baxter 2012",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "九"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "九",
+          "meaning": "nine",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "dgu",
+          "meaning": "nine",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Tibeto-Burman-assumed",
+          "chinese": null,
+          "doculect": "PTB in Benedict as reported",
+          "form": "*d-kuw",
+          "meaning": "nine",
+          "reconstruction_node": "benedict-1972:PTB",
+          "representation": "source-reconstruction"
+        }
+      ],
+      "formal_fragments": [],
+      "id": "prefix-nine",
+      "morphology": "The dental minor syllable and nasal preinitial are alternatives, not interchangeable phonetic spellings.",
+      "non_discriminating_evidence": [
+        "Tibetan dgu alone cannot establish a PST nasal"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "oc-prefixes",
+      "title": "Nine: alternative preinitials and ancestral scope",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The voiced member is basic"
+          ],
+          "attribution": "Mei/Matisoff account as reported by Sagart–Baxter",
+          "claim": "Derive the transitive from a voiced intransitive with s-.",
+          "id": "s-devoicing",
+          "linked_forms": {
+            "Chinese": [
+              "*brjat",
+              "*s-brjat"
+            ]
+          }
+        },
+        {
+          "assumptions": [
+            "Japhug anticausative morphology informs the comparison"
+          ],
+          "attribution": "Sagart–Baxter",
+          "claim": "Derive the intransitive from a voiceless transitive with N-.",
+          "id": "N-anticausative",
+          "linked_forms": {
+            "Chinese": [
+              "*pret",
+              "*N-pret"
+            ]
+          }
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            28,
+            29
+          ],
+          "source_id": "sagart-hal-00781153"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Japhug derivational productivity",
+        "Early loans showing nasality on the intransitive member",
+        "Chinese-internal voicing evidence"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "pjet; bjet",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*pret; *N-pret",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Sagart–Baxter 2012",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "別"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "別",
+          "meaning": "separate; be separated",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Written Burmese",
+          "form": "phrat; prat",
+          "meaning": "cut; be cut",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "prɤt; mbrɤt",
+          "meaning": "cut; be cut",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [
+        "prefix-separate"
+      ],
+      "id": "prefix-separate",
+      "morphology": "Transitive and intransitive members are linked. A mixed pair from the two analyses is not a third source analysis.",
+      "non_discriminating_evidence": [
+        "A p/b alternation by itself does not establish derivational direction"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "oc-prefixes",
+      "title": "Separate: competing directions of voice derivation",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The lexical roots are cognate"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Compare Chinese departing-tone nominalization and Tibetan nominal s.",
+          "id": "s-nominalizer",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Coda mergers and other suffixes must be considered"
+          ],
+          "attribution": "primary-paper",
+          "claim": "The ending of every Chinese departing-tone word need not be the same morpheme.",
+          "id": "multiple-sources",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "source_id": "jacques-halshs-01566036"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Lexical correspondence plus matched derivational function",
+        "Historical readings in Chinese"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "tɕik; tɕiH",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": null,
+            "old_chinese_status": "not specified in this dossier",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Jacques's IPA adaptation of Baxter MC; OC -s hypothesis",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "織"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "織",
+          "meaning": "weave; cloth",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Tibetan in Jacques's transcription",
+          "form": "ɴtʰag, btags; tʰags",
+          "meaning": "weave: present, past; textile",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [
+        "suffix-coda"
+      ],
+      "id": "suffix-weave",
+      "morphology": "The Tibetan past s and nominal s are recorded in separate cells; shared letters alone do not identify them.",
+      "non_discriminating_evidence": [
+        "Departing tone by itself does not identify a nominalizer rather than another suffix"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "oc-suffixes",
+      "title": "Weave and textile: nominalization and departing tone",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "Root and derivational function are cognate"
+          ],
+          "attribution": "primary-paper",
+          "claim": "The motion verb pair supports an old applicative t.",
+          "id": "inherited-t",
+          "linked_forms": {
+            "Japhug": [
+              "*wi",
+              "*wit"
+            ],
+            "Khaling": [
+              "|pi|",
+              "|pit|"
+            ]
+          }
+        },
+        {
+          "assumptions": [
+            "The proposed t > s change and analogy apply"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Some Chinese s may reflect t after codas and subsequent analogical extension.",
+          "id": "Chinese-extension",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "source_id": "jacques-halshs-01566036"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Kiranti distinctions and matching Gyalrongic roots",
+        "Chinese evidence for final clusters"
+      ],
+      "evidence": [
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "ɣi; ɣɯt",
+          "meaning": "come; bring",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        },
+        {
+          "branch": "Kiranti",
+          "chinese": null,
+          "doculect": "Khaling abstract verb roots",
+          "form": "|pi|; |pit|",
+          "meaning": "come; bring",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [
+        "suffix-coda"
+      ],
+      "id": "suffix-bring",
+      "morphology": "Applicative and causative are kept distinct; Limbu has separate s-causative and t-applicative morphology.",
+      "non_discriminating_evidence": [
+        "The come/bring pair alone does not prove the origin of all Chinese departing tones"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "oc-suffixes",
+      "title": "Come and bring: the applicative t suffix",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The cited reading is correctly identified"
+          ],
+          "attribution": "primary-paper",
+          "claim": "The fanqie reading with final t is a direct applicative trace.",
+          "id": "applicative-t",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Tibetan l comparisons and cluster restrictions support it"
+          ],
+          "attribution": "Jacques's proposal versus Baxter–Sagart",
+          "claim": "Final l is an explicit amendment to the Baxter–Sagart system.",
+          "id": "coda-r-or-l",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            7
+          ],
+          "source_id": "jacques-halshs-01566036"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "The fanqie 女乙反 versus 女夷切",
+        "The original textual context and its argument structure"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "ɳij; ɳit",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*n<r>ɨl; *n<r>əl-t",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Jacques modifies Baxter–Sagart's final r to l",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "尼"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "尼",
+          "meaning": "rest; stop someone",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Tibetan in Jacques's transcription",
+          "form": "ɲal",
+          "meaning": "lie down; sleep",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "nɯna",
+          "meaning": "rest",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [
+        "suffix-l-control"
+      ],
+      "id": "suffix-lie",
+      "morphology": "The proposed t > s change does not apply after l. Analogy is a separate explanation where s nevertheless occurs.",
+      "non_discriminating_evidence": [
+        "An undifferentiated departing-tone label would erase the relevant final-t evidence"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "oc-suffixes",
+      "title": "Lie down, rest and the exceptional Chinese t reading",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The derivations, not the different lexical roots, are compared"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Chinese s may continue syllabic si with middle functions.",
+          "id": "middle-si",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Independent grammatical developments remain possible"
+          ],
+          "attribution": "primary-paper",
+          "claim": "The shared function is compatible with inheritance but does not prove it.",
+          "id": "functional-parallel",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            8,
+            9,
+            10
+          ],
+          "source_id": "jacques-halshs-01566036"
+        }
+      ],
+      "comparison_kind": "morphological-comparison",
+      "discriminating_evidence": [
+        "Distribution and syntax of the middle derivation",
+        "Evidence for loss of suffix vowels"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "ʔik; ʔiH",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": null,
+            "old_chinese_status": "not specified in this dossier",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Jacques's MC transcription; OC suffix hypothesis",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "憶; 意"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "憶; 意",
+          "meaning": "remember; think",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Kiranti",
+          "chinese": null,
+          "doculect": "Khaling abstract verb roots",
+          "form": "|mimt|; |mimt-si|",
+          "meaning": "remember; think that",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [
+        "suffix-middle"
+      ],
+      "id": "suffix-remember",
+      "morphology": "The two lexical roots are explicitly different. The Tibetan kak-si > khegs proposal is another hypothesis, not an attested preform.",
+      "non_discriminating_evidence": [
+        "Identical meanings of derivations do not establish lexical cognacy"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "oc-suffixes",
+      "title": "Remember and think: a comparison of middle derivation",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The nominal and verbal roots are cognate"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Khaling retains a denominal t added to the inherited noun root.",
+          "id": "denominal-t",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "A corresponding Chinese root and the proposed sound change would need evidence"
+          ],
+          "attribution": "primary-paper",
+          "claim": "This type of t derivation may be relevant to Chinese departing-tone denominals.",
+          "id": "Chinese-t-to-s",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            11
+          ],
+          "source_id": "jacques-halshs-01566036"
+        }
+      ],
+      "comparison_kind": "lexical-comparison",
+      "discriminating_evidence": [
+        "Nominal cognates and productive t morphology in Kiranti"
+      ],
+      "evidence": [
+        {
+          "branch": "Kiranti",
+          "chinese": null,
+          "doculect": "Khaling abstract verb root",
+          "form": "|kakt|",
+          "meaning": "hoe (verb)",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "qaʁ",
+          "meaning": "hoe (noun)",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [
+        "suffix-coda"
+      ],
+      "id": "suffix-hoe",
+      "morphology": "No Chinese lexical cognate is supplied here. The cited Limbu comparison has unexplained initial voicing and is not used as confirmation.",
+      "non_discriminating_evidence": [
+        "The pair does not establish a specific Chinese etymology"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "oc-suffixes",
+      "title": "Hoe: a noun and a denominal t verb",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The clausal-linker-to-adverbializer development occurred"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Some Chinese adverbial s may come from a locative used in subordination.",
+          "id": "locative-origin",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Formal mergers can conceal distinct morphological sources"
+          ],
+          "attribution": "primary-paper",
+          "claim": "The adverbial, middle and nominal uses need not descend from one suffix.",
+          "id": "distinct-suffixes",
+          "linked_forms": {}
+        }
+      ],
+      "citations": [
+        {
+          "pdf_pages": [
+            3,
+            11,
+            12,
+            13
+          ],
+          "source_id": "jacques-halshs-01566036"
+        }
+      ],
+      "comparison_kind": "morphological-comparison",
+      "discriminating_evidence": [
+        "Early Chinese distribution and readings",
+        "Gyalrongic and Tibetan locative constructions"
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "sam; samH",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": null,
+            "old_chinese_status": "not specified in this dossier",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Jacques's MC transcription; OC suffix hypothesis",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "三"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "三",
+          "meaning": "three; thrice",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "yas; -las; -nas",
+          "meaning": "from above; ablative; elative",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "zɯ",
+          "meaning": "locative clitic",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "formal_fragments": [],
+      "id": "suffix-adverb",
+      "morphology": "This dossier compares grammatical functions and morphemes, not the numeral three with the Tibetan words.",
+      "non_discriminating_evidence": [
+        "A final s or departing tone alone does not select the morphological source"
+      ],
+      "outcome": "unresolved",
+      "specialist_review": "pending",
+      "theme": "oc-suffixes",
+      "title": "Adverbialization and a possible locative s",
+      "topology_assumptions": [
+        "unresolved-ST-polytomy",
+        "ST-with-TB-node"
+      ],
+      "topology_scope": "The grouping of the cited branches is an assumption. A node named PTB in a source is not silently identified with PST or a subgroup ancestor."
+    }
+  ],
+  "id": "m6-cross-branch-v1",
+  "schema_version": "1.0.0",
+  "scope": "30 source-backed comparisons, including morphological comparisons and rejected etymologies; no family-wide wordlist or settled PST reconstruction.",
+  "sources": [
+    {
+      "catalogue_year": "2015",
+      "id": "jacques-halshs-01287468",
+      "pages_examined": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pdf_pages": 7,
+      "pdf_sha256": "cfde6b549f40ac2f5d7a31a45e19d30463b8ecd77acefb72d1422335085ee70c",
+      "reading_scope": "Selected arguments, tables and examples listed here; no claim of reading every cited secondary work.",
+      "title": "On the cluster *sr– in Sino-Tibetan",
+      "transcription_method": "Manual lexical transcription checked against PDF text and, for broken font encodings, rendered pages; independent specialist review pending.",
+      "url": "https://shs.hal.science/halshs-01287468/document"
+    },
+    {
+      "catalogue_year": "2009",
+      "id": "jacques-halshs-00408281",
+      "pages_examined": [
+        2,
+        3,
+        4
+      ],
+      "pdf_pages": 5,
+      "pdf_sha256": "8cd1aebd0365d4f5d5ed3751fc243ea9692d10bf7d194538652d6da9cc20a33d",
+      "reading_scope": "Selected arguments, tables and examples listed here; no claim of reading every cited secondary work.",
+      "title": "TIBETAN WA-ZUR AND LAUFER'S LAW",
+      "transcription_method": "Manual lexical transcription checked against PDF text and, for broken font encodings, rendered pages; independent specialist review pending.",
+      "url": "https://shs.hal.science/halshs-00408281/document"
+    },
+    {
+      "catalogue_year": "2012",
+      "id": "jacques2012-internal",
+      "pages_examined": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "pdf_pages": 13,
+      "pdf_sha256": "2e1fe514dc894ca3e79733a7b06abfb0d9a047fa7c8d667b708a0671a6690c0e",
+      "reading_scope": "Selected arguments, tables and examples listed here; no claim of reading every cited secondary work.",
+      "title": "An Internal Reconstruction of Tibetan Stem Alternations",
+      "transcription_method": "Manual lexical transcription checked against PDF text and, for broken font encodings, rendered pages; independent specialist review pending.",
+      "url": "https://crlao.cnrs.fr/wp-content/uploads/2025/02/jacques_2012_tibetan_internal_reconstruction_libre.pdf"
+    },
+    {
+      "catalogue_year": "2012",
+      "id": "sagart-hal-00781153",
+      "pages_examined": [
+        6,
+        7,
+        8,
+        19,
+        27,
+        28,
+        29
+      ],
+      "pdf_pages": 34,
+      "pdf_sha256": "be35d22fa16e5d137f5a3799cde60f37ec6e44513afd57da3d6e8dd8adf94458",
+      "reading_scope": "Selected arguments, tables and examples listed here; no claim of reading every cited secondary work.",
+      "title": "Reconstructing the *s- prefix in Old Chinese",
+      "transcription_method": "Manual lexical transcription checked against PDF text and, for broken font encodings, rendered pages; independent specialist review pending.",
+      "url": "https://hal.science/hal-00781153/document"
+    },
+    {
+      "catalogue_year": "2016",
+      "id": "jacques-halshs-01566036",
+      "pages_examined": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": 17,
+      "pdf_sha256": "cdd585ef02fab14b42bf23e586a84465edc8650d143f7aa3474d315afc7d526b",
+      "reading_scope": "Selected arguments, tables and examples listed here; no claim of reading every cited secondary work.",
+      "title": "How many *-s suffixes in Old Chinese?",
+      "transcription_method": "Manual lexical transcription checked against PDF text and, for broken font encodings, rendered pages; independent specialist review pending.",
+      "url": "https://shs.hal.science/halshs-01566036/document"
+    },
+    {
+      "catalogue_year": "2009",
+      "id": "vanbik2009",
+      "pages_examined": [
+        25,
+        26,
+        29,
+        30,
+        37,
+        38,
+        46,
+        51,
+        67,
+        68,
+        69,
+        70,
+        71,
+        79,
+        80,
+        81,
+        85,
+        86,
+        90,
+        91,
+        92,
+        93
+      ],
+      "pdf_pages": 626,
+      "pdf_sha256": "fb1ddf78261db19c5cb2e2698242939b2f952d390b2a3961b3b867b939598406",
+      "reading_scope": "Selected arguments, tables and examples listed here; no claim of reading every cited secondary work.",
+      "title": "Proto-Kuki-Chin: A Reconstructed Ancestor of the Kuki-Chin Languages",
+      "transcription_method": "Manual lexical transcription checked against PDF text and, for broken font encodings, rendered pages; independent specialist review pending.",
+      "url": "https://stedt.berkeley.edu/pubs_and_prods/STEDT_Monograph8_Proto-Kuki-Chin.pdf"
+    },
+    {
+      "catalogue_year": "2011",
+      "id": "button2011",
+      "pages_examined": [
+        11,
+        15,
+        16,
+        17,
+        19,
+        31,
+        35,
+        37,
+        39
+      ],
+      "pdf_pages": 200,
+      "pdf_sha256": "3b8568326148ecc1d799a3f2db63f689d27b61d19c4485c7caaa51fc43906221",
+      "reading_scope": "Selected arguments, tables and examples listed here; no claim of reading every cited secondary work.",
+      "title": "Proto Northern Chin",
+      "transcription_method": "Manual lexical transcription checked against PDF text and, for broken font encodings, rendered pages; independent specialist review pending.",
+      "url": "https://stedt.berkeley.edu/pubs_and_prods/STEDT_Monograph10_Proto-Northern-Chin.pdf"
+    }
+  ]
+}
