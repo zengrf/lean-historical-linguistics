@@ -1,0 +1,201 @@
+{
+  "allow_morphemes": false,
+  "analyses": [
+    {
+      "alignment_evidence": null,
+      "branches": [
+        {
+          "doculect_id": "MC-transitive",
+          "package": {
+            "description": "Paradigm-cell onset projection, not a full lexical history",
+            "final_stage": "basic-onset-projection",
+            "id": "N-anticausative-MC-transitive",
+            "initial_stage": "basic-onset-projection",
+            "inventory": [
+              "b",
+              "p"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          }
+        },
+        {
+          "doculect_id": "MC-intransitive",
+          "package": {
+            "description": "Paradigm-cell onset projection, not a full lexical history",
+            "final_stage": "N-anticausative-MC-intransitive-stage-1",
+            "id": "N-anticausative-MC-intransitive",
+            "initial_stage": "basic-onset-projection",
+            "inventory": [
+              "b",
+              "p"
+            ],
+            "laws": [
+              {
+                "id": "N-anticausative-MC-intransitive-law-1",
+                "input_stage": "basic-onset-projection",
+                "output_stage": "N-anticausative-MC-intransitive-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "b",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "p"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        }
+      ],
+      "choice_bindings": [
+        {
+          "group_id": "voice-analysis",
+          "option_id": "N-anticausative"
+        }
+      ],
+      "description": "Onset projection of the complete N-anticausative analysis of 別; affix-conditioned change is supplied by the selected paradigm cell",
+      "id": "N-anticausative",
+      "observations": [
+        {
+          "doculect_id": "MC-transitive",
+          "form": [
+            {
+              "kind": "segment",
+              "value": "p"
+            }
+          ],
+          "source_ref": "Sagart–Baxter2012:PDF28–29:MC-onset"
+        },
+        {
+          "doculect_id": "MC-intransitive",
+          "form": [
+            {
+              "kind": "segment",
+              "value": "b"
+            }
+          ],
+          "source_ref": "Sagart–Baxter2012:PDF28–29:MC-onset"
+        }
+      ],
+      "proto_node_id": "basic-onset-projection"
+    },
+    {
+      "alignment_evidence": null,
+      "branches": [
+        {
+          "doculect_id": "MC-transitive",
+          "package": {
+            "description": "Paradigm-cell onset projection, not a full lexical history",
+            "final_stage": "s-devoicing-MC-transitive-stage-1",
+            "id": "s-devoicing-MC-transitive",
+            "initial_stage": "basic-onset-projection",
+            "inventory": [
+              "b",
+              "p"
+            ],
+            "laws": [
+              {
+                "id": "s-devoicing-MC-transitive-law-1",
+                "input_stage": "basic-onset-projection",
+                "output_stage": "s-devoicing-MC-transitive-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "p",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "b"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        },
+        {
+          "doculect_id": "MC-intransitive",
+          "package": {
+            "description": "Paradigm-cell onset projection, not a full lexical history",
+            "final_stage": "basic-onset-projection",
+            "id": "s-devoicing-MC-intransitive",
+            "initial_stage": "basic-onset-projection",
+            "inventory": [
+              "b",
+              "p"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          }
+        }
+      ],
+      "choice_bindings": [
+        {
+          "group_id": "voice-analysis",
+          "option_id": "s-devoicing"
+        }
+      ],
+      "description": "Onset projection of the complete s-devoicing analysis of 別; affix-conditioned change is supplied by the selected paradigm cell",
+      "id": "s-devoicing",
+      "observations": [
+        {
+          "doculect_id": "MC-transitive",
+          "form": [
+            {
+              "kind": "segment",
+              "value": "p"
+            }
+          ],
+          "source_ref": "Sagart–Baxter2012:PDF28–29:MC-onset"
+        },
+        {
+          "doculect_id": "MC-intransitive",
+          "form": [
+            {
+              "kind": "segment",
+              "value": "b"
+            }
+          ],
+          "source_ref": "Sagart–Baxter2012:PDF28–29:MC-onset"
+        }
+      ],
+      "proto_node_id": "basic-onset-projection"
+    }
+  ],
+  "analysis_bound": 2,
+  "candidate_budget": 100,
+  "choice_groups": [
+    {
+      "description": "Whole derivational analyses, not independent choices for the two cells",
+      "id": "voice-analysis",
+      "options": [
+        "N-anticausative",
+        "s-devoicing"
+      ]
+    }
+  ],
+  "claim": "bounded-relative-completeness",
+  "description": "Source-inspired bounded onset control. Observation axes are two paradigm cells; this does not claim two daughter languages.",
+  "doculects": [
+    "MC-transitive",
+    "MC-intransitive"
+  ],
+  "id": "m6-voice-paradigm-projection",
+  "max_length": 1,
+  "max_rules_per_branch": 1,
+  "proto_inventory": [
+    "p",
+    "b"
+  ],
+  "schema_version": "1.0.0",
+  "source_kind": "synthetic",
+  "time_limit_ms": null
+}

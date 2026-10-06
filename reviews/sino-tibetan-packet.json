@@ -1,0 +1,1867 @@
+{
+  "core": [
+    {
+      "id": "core-1",
+      "record_ids": [
+        "vb-1-mara-1",
+        "vb-1-hakha-lai-2",
+        "vb-1-falam-lai-3",
+        "vb-1-mizo-4",
+        "vb-1-tedim-5",
+        "vb-1-thado-kuki-6",
+        "vb-1-paite-7",
+        "vb-1-sizang-8",
+        "vb-1-mindat-cho-9",
+        "vb-1-asho-10",
+        "vb-1-khumi-11"
+      ],
+      "set_id": "1",
+      "source_locator": {
+        "entry": "1",
+        "pdf_page": 93,
+        "printed_page": 65,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-2",
+      "record_ids": [
+        "vb-2-mara-1",
+        "vb-2-hakha-lai-2",
+        "vb-2-falam-lai-3",
+        "vb-2-mizo-4",
+        "vb-2-tedim-5",
+        "vb-2-thado-kuki-6",
+        "vb-2-paite-7"
+      ],
+      "set_id": "2",
+      "source_locator": {
+        "entry": "2",
+        "pdf_page": 93,
+        "printed_page": 65,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-60",
+      "record_ids": [
+        "vb-60-mara-1",
+        "vb-60-hakha-lai-2",
+        "vb-60-tedim-3",
+        "vb-60-sizang-4",
+        "vb-60-khumi-5"
+      ],
+      "set_id": "60",
+      "source_locator": {
+        "entry": "60",
+        "pdf_page": 103,
+        "printed_page": 75,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-62",
+      "record_ids": [
+        "vb-62-hakha-lai-1",
+        "vb-62-falam-lai-2",
+        "vb-62-mizo-3",
+        "vb-62-paite-4",
+        "vb-62-mindat-cho-5"
+      ],
+      "set_id": "62",
+      "source_locator": {
+        "entry": "62",
+        "pdf_page": 103,
+        "printed_page": 75,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-117",
+      "record_ids": [
+        "vb-117-mara-1",
+        "vb-117-hakha-lai-2",
+        "vb-117-falam-lai-3"
+      ],
+      "set_id": "117",
+      "source_locator": {
+        "entry": "117",
+        "pdf_page": 112,
+        "printed_page": 84,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-118",
+      "record_ids": [
+        "vb-118-hakha-lai-1",
+        "vb-118-tedim-2",
+        "vb-118-paite-3",
+        "vb-118-sizang-4"
+      ],
+      "set_id": "118",
+      "source_locator": {
+        "entry": "118",
+        "pdf_page": 112,
+        "printed_page": 84,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-170",
+      "record_ids": [
+        "vb-170-hakha-lai-1",
+        "vb-170-falam-lai-2",
+        "vb-170-mizo-3",
+        "vb-170-tedim-4",
+        "vb-170-thado-kuki-5",
+        "vb-170-paite-6",
+        "vb-170-sizang-7",
+        "vb-170-khumi-8"
+      ],
+      "set_id": "170",
+      "source_locator": {
+        "entry": "170",
+        "pdf_page": 122,
+        "printed_page": 94,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-171",
+      "record_ids": [
+        "vb-171-hakha-lai-1",
+        "vb-171-falam-lai-2",
+        "vb-171-mizo-3",
+        "vb-171-tedim-4",
+        "vb-171-thado-kuki-5",
+        "vb-171-paite-6",
+        "vb-171-sizang-7"
+      ],
+      "set_id": "171",
+      "source_locator": {
+        "entry": "171",
+        "pdf_page": 122,
+        "printed_page": 94,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-247",
+      "record_ids": [
+        "vb-247-hakha-lai-1",
+        "vb-247-falam-lai-2",
+        "vb-247-mizo-3",
+        "vb-247-mindat-cho-4"
+      ],
+      "set_id": "247",
+      "source_locator": {
+        "entry": "247",
+        "pdf_page": 134,
+        "printed_page": 106,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-248",
+      "record_ids": [
+        "vb-248-hakha-lai-1",
+        "vb-248-falam-lai-2",
+        "vb-248-mizo-3",
+        "vb-248-thado-kuki-4",
+        "vb-248-paite-5"
+      ],
+      "set_id": "248",
+      "source_locator": {
+        "entry": "248",
+        "pdf_page": 134,
+        "printed_page": 106,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-325",
+      "record_ids": [
+        "vb-325-mizo-1",
+        "vb-325-tedim-2",
+        "vb-325-thado-kuki-3",
+        "vb-325-paite-4"
+      ],
+      "set_id": "325",
+      "source_locator": {
+        "entry": "325",
+        "pdf_page": 147,
+        "printed_page": 119,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-326",
+      "record_ids": [
+        "vb-326-mara-1",
+        "vb-326-hakha-lai-2",
+        "vb-326-mizo-3",
+        "vb-326-tedim-4",
+        "vb-326-paite-5",
+        "vb-326-mindat-cho-6",
+        "vb-326-asho-7",
+        "vb-326-khumi-8"
+      ],
+      "set_id": "326",
+      "source_locator": {
+        "entry": "326",
+        "pdf_page": 148,
+        "printed_page": 120,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-369",
+      "record_ids": [
+        "vb-369-mara-1",
+        "vb-369-hakha-lai-2",
+        "vb-369-falam-lai-3",
+        "vb-369-mizo-4",
+        "vb-369-tedim-5",
+        "vb-369-thado-kuki-6",
+        "vb-369-paite-7",
+        "vb-369-mindat-cho-8",
+        "vb-369-sizang-9",
+        "vb-369-khumi-10"
+      ],
+      "set_id": "369",
+      "source_locator": {
+        "entry": "369",
+        "pdf_page": 156,
+        "printed_page": 128,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-370",
+      "record_ids": [
+        "vb-370-hakha-lai-1",
+        "vb-370-falam-lai-2",
+        "vb-370-mizo-3",
+        "vb-370-tedim-4",
+        "vb-370-thado-kuki-5",
+        "vb-370-paite-6"
+      ],
+      "set_id": "370",
+      "source_locator": {
+        "entry": "370",
+        "pdf_page": 157,
+        "printed_page": 129,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-420",
+      "record_ids": [
+        "vb-420-mara-1",
+        "vb-420-hakha-lai-2",
+        "vb-420-falam-lai-3",
+        "vb-420-mizo-4",
+        "vb-420-tedim-5",
+        "vb-420-thado-kuki-6",
+        "vb-420-paite-7",
+        "vb-420-mindat-cho-8"
+      ],
+      "set_id": "420",
+      "source_locator": {
+        "entry": "420",
+        "pdf_page": 166,
+        "printed_page": 138,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-421",
+      "record_ids": [
+        "vb-421-mara-1",
+        "vb-421-hakha-lai-2",
+        "vb-421-falam-lai-3",
+        "vb-421-mizo-4",
+        "vb-421-tedim-5",
+        "vb-421-thado-kuki-6",
+        "vb-421-paite-7",
+        "vb-421-sizang-8",
+        "vb-421-khumi-9"
+      ],
+      "set_id": "421",
+      "source_locator": {
+        "entry": "421",
+        "pdf_page": 167,
+        "printed_page": 139,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-463",
+      "record_ids": [
+        "vb-463-hakha-lai-1",
+        "vb-463-falam-lai-2",
+        "vb-463-tedim-3",
+        "vb-463-paite-4"
+      ],
+      "set_id": "463",
+      "source_locator": {
+        "entry": "463",
+        "pdf_page": 176,
+        "printed_page": 148,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-464",
+      "record_ids": [
+        "vb-464-mara-1",
+        "vb-464-hakha-lai-2",
+        "vb-464-falam-lai-3",
+        "vb-464-mizo-4",
+        "vb-464-paite-5",
+        "vb-464-khumi-6"
+      ],
+      "set_id": "464",
+      "source_locator": {
+        "entry": "464",
+        "pdf_page": 176,
+        "printed_page": 148,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-520",
+      "record_ids": [
+        "vb-520-hakha-lai-1",
+        "vb-520-falam-lai-2",
+        "vb-520-mizo-3",
+        "vb-520-tedim-4",
+        "vb-520-thado-kuki-5",
+        "vb-520-paite-6"
+      ],
+      "set_id": "520",
+      "source_locator": {
+        "entry": "520",
+        "pdf_page": 186,
+        "printed_page": 158,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-521",
+      "record_ids": [
+        "vb-521-mara-1",
+        "vb-521-hakha-lai-2",
+        "vb-521-falam-lai-3",
+        "vb-521-mizo-4",
+        "vb-521-tedim-5",
+        "vb-521-thado-kuki-6",
+        "vb-521-paite-7",
+        "vb-521-khumi-8"
+      ],
+      "set_id": "521",
+      "source_locator": {
+        "entry": "521",
+        "pdf_page": 186,
+        "printed_page": 158,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-578",
+      "record_ids": [
+        "vb-578-mara-1",
+        "vb-578-hakha-lai-2",
+        "vb-578-falam-lai-3",
+        "vb-578-mizo-4",
+        "vb-578-tedim-5",
+        "vb-578-thado-kuki-6",
+        "vb-578-paite-7",
+        "vb-578-asho-8"
+      ],
+      "set_id": "578",
+      "source_locator": {
+        "entry": "578",
+        "pdf_page": 196,
+        "printed_page": 168,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-579",
+      "record_ids": [
+        "vb-579-hakha-lai-1",
+        "vb-579-falam-lai-2",
+        "vb-579-mizo-3",
+        "vb-579-tedim-4",
+        "vb-579-thado-kuki-5"
+      ],
+      "set_id": "579",
+      "source_locator": {
+        "entry": "579",
+        "pdf_page": 196,
+        "printed_page": 168,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-612",
+      "record_ids": [
+        "vb-612-mara-1",
+        "vb-612-hakha-lai-2",
+        "vb-612-falam-lai-3",
+        "vb-612-mizo-4",
+        "vb-612-tedim-5",
+        "vb-612-thado-kuki-6",
+        "vb-612-paite-7",
+        "vb-612-mindat-cho-8",
+        "vb-612-asho-9",
+        "vb-612-khumi-10"
+      ],
+      "set_id": "612",
+      "source_locator": {
+        "entry": "612",
+        "pdf_page": 202,
+        "printed_page": 174,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-614",
+      "record_ids": [
+        "vb-614-hakha-lai-1",
+        "vb-614-falam-lai-2",
+        "vb-614-tedim-3",
+        "vb-614-paite-4"
+      ],
+      "set_id": "614",
+      "source_locator": {
+        "entry": "614",
+        "pdf_page": 203,
+        "printed_page": 175,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-637",
+      "record_ids": [
+        "vb-637-hakha-lai-1",
+        "vb-637-falam-lai-2",
+        "vb-637-tedim-3",
+        "vb-637-thado-kuki-4",
+        "vb-637-paite-5",
+        "vb-637-sizang-6"
+      ],
+      "set_id": "637",
+      "source_locator": {
+        "entry": "637",
+        "pdf_page": 207,
+        "printed_page": 179,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-639",
+      "record_ids": [
+        "vb-639-mara-1",
+        "vb-639-hakha-lai-2",
+        "vb-639-mizo-3"
+      ],
+      "set_id": "639",
+      "source_locator": {
+        "entry": "639",
+        "pdf_page": 207,
+        "printed_page": 179,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-686",
+      "record_ids": [
+        "vb-686-mara-1",
+        "vb-686-hakha-lai-2",
+        "vb-686-falam-lai-3",
+        "vb-686-mizo-4",
+        "vb-686-tedim-5",
+        "vb-686-thado-kuki-6",
+        "vb-686-sizang-7",
+        "vb-686-mindat-cho-8",
+        "vb-686-daai-9",
+        "vb-686-asho-10"
+      ],
+      "set_id": "686",
+      "source_locator": {
+        "entry": "686",
+        "pdf_page": 214,
+        "printed_page": 186,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-687",
+      "record_ids": [
+        "vb-687-mara-1",
+        "vb-687-hakha-lai-2",
+        "vb-687-falam-lai-3",
+        "vb-687-mizo-4",
+        "vb-687-thado-kuki-5",
+        "vb-687-sizang-6",
+        "vb-687-mindat-cho-7"
+      ],
+      "set_id": "687",
+      "source_locator": {
+        "entry": "687",
+        "pdf_page": 215,
+        "printed_page": 187,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-695",
+      "record_ids": [
+        "vb-695-mara-1",
+        "vb-695-hakha-lai-2",
+        "vb-695-mizo-3",
+        "vb-695-paite-4",
+        "vb-695-khumi-5"
+      ],
+      "set_id": "695",
+      "source_locator": {
+        "entry": "695",
+        "pdf_page": 217,
+        "printed_page": 189,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-696",
+      "record_ids": [
+        "vb-696-mizo-1",
+        "vb-696-tedim-2",
+        "vb-696-thado-kuki-3"
+      ],
+      "set_id": "696",
+      "source_locator": {
+        "entry": "696",
+        "pdf_page": 217,
+        "printed_page": 189,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-750",
+      "record_ids": [
+        "vb-750-mara-1",
+        "vb-750-hakha-lai-2",
+        "vb-750-falam-lai-3",
+        "vb-750-mizo-4",
+        "vb-750-tedim-5",
+        "vb-750-thado-kuki-6",
+        "vb-750-paite-7"
+      ],
+      "set_id": "750",
+      "source_locator": {
+        "entry": "750",
+        "pdf_page": 226,
+        "printed_page": 198,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-751",
+      "record_ids": [
+        "vb-751-falam-lai-1",
+        "vb-751-mizo-2",
+        "vb-751-tedim-3"
+      ],
+      "set_id": "751",
+      "source_locator": {
+        "entry": "751",
+        "pdf_page": 226,
+        "printed_page": 198,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-799",
+      "record_ids": [
+        "vb-799-hakha-lai-1",
+        "vb-799-falam-lai-2",
+        "vb-799-tedim-3"
+      ],
+      "set_id": "799",
+      "source_locator": {
+        "entry": "799",
+        "pdf_page": 235,
+        "printed_page": 207,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-846",
+      "record_ids": [
+        "vb-846-falam-lai-1",
+        "vb-846-mizo-2",
+        "vb-846-tedim-3",
+        "vb-846-paite-4",
+        "vb-846-sizang-5"
+      ],
+      "set_id": "846",
+      "source_locator": {
+        "entry": "846",
+        "pdf_page": 244,
+        "printed_page": 216,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-872",
+      "record_ids": [
+        "vb-872-hakha-lai-1",
+        "vb-872-falam-lai-2",
+        "vb-872-mizo-3",
+        "vb-872-tedim-4",
+        "vb-872-thado-kuki-5",
+        "vb-872-sizang-6"
+      ],
+      "set_id": "872",
+      "source_locator": {
+        "entry": "872",
+        "pdf_page": 249,
+        "printed_page": 221,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-884",
+      "record_ids": [
+        "vb-884-mizo-1",
+        "vb-884-tedim-2",
+        "vb-884-thado-kuki-3",
+        "vb-884-sizang-4"
+      ],
+      "set_id": "884",
+      "source_locator": {
+        "entry": "884",
+        "pdf_page": 252,
+        "printed_page": 224,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-914",
+      "record_ids": [
+        "vb-914-hakha-lai-1",
+        "vb-914-falam-lai-2",
+        "vb-914-mizo-3",
+        "vb-914-sizang-4"
+      ],
+      "set_id": "914",
+      "source_locator": {
+        "entry": "914",
+        "pdf_page": 258,
+        "printed_page": 230,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-919",
+      "record_ids": [
+        "vb-919-mara-1",
+        "vb-919-hakha-lai-2",
+        "vb-919-falam-lai-3",
+        "vb-919-mizo-4",
+        "vb-919-tedim-5",
+        "vb-919-thado-kuki-6",
+        "vb-919-sizang-7",
+        "vb-919-mindat-cho-8",
+        "vb-919-asho-9"
+      ],
+      "set_id": "919",
+      "source_locator": {
+        "entry": "919",
+        "pdf_page": 260,
+        "printed_page": 232,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-985",
+      "record_ids": [
+        "vb-985-hakha-lai-1",
+        "vb-985-falam-lai-2",
+        "vb-985-mizo-3",
+        "vb-985-tedim-4",
+        "vb-985-paite-5",
+        "vb-985-sizang-6"
+      ],
+      "set_id": "985",
+      "source_locator": {
+        "entry": "985",
+        "pdf_page": 272,
+        "printed_page": 244,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-1073",
+      "record_ids": [
+        "vb-1073-mara-1",
+        "vb-1073-hakha-lai-2",
+        "vb-1073-falam-lai-3",
+        "vb-1073-mizo-4",
+        "vb-1073-tedim-5",
+        "vb-1073-thado-kuki-6",
+        "vb-1073-paite-7",
+        "vb-1073-mindat-cho-8",
+        "vb-1073-sizang-9"
+      ],
+      "set_id": "1073",
+      "source_locator": {
+        "entry": "1073",
+        "pdf_page": 288,
+        "printed_page": 260,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-1103",
+      "record_ids": [
+        "vb-1103-mara-1",
+        "vb-1103-hakha-lai-2",
+        "vb-1103-falam-lai-3",
+        "vb-1103-mizo-4",
+        "vb-1103-mindat-cho-5"
+      ],
+      "set_id": "1103",
+      "source_locator": {
+        "entry": "1103",
+        "pdf_page": 294,
+        "printed_page": 266,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-1130",
+      "record_ids": [
+        "vb-1130-hakha-lai-1",
+        "vb-1130-falam-lai-2",
+        "vb-1130-mizo-3",
+        "vb-1130-thado-kuki-4",
+        "vb-1130-mindat-cho-5",
+        "vb-1130-sizang-6"
+      ],
+      "set_id": "1130",
+      "source_locator": {
+        "entry": "1130",
+        "pdf_page": 299,
+        "printed_page": 271,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-1181",
+      "record_ids": [
+        "vb-1181-falam-lai-1",
+        "vb-1181-mizo-2",
+        "vb-1181-tedim-3",
+        "vb-1181-khumi-4"
+      ],
+      "set_id": "1181",
+      "source_locator": {
+        "entry": "1181",
+        "pdf_page": 308,
+        "printed_page": 280,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-1247",
+      "record_ids": [
+        "vb-1247-mara-1",
+        "vb-1247-hakha-lai-2",
+        "vb-1247-falam-lai-3",
+        "vb-1247-tedim-4",
+        "vb-1247-mindat-cho-5",
+        "vb-1247-asho-6"
+      ],
+      "set_id": "1247",
+      "source_locator": {
+        "entry": "1247",
+        "pdf_page": 319,
+        "printed_page": 291,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-1254",
+      "record_ids": [
+        "vb-1254-hakha-lai-1",
+        "vb-1254-falam-lai-2",
+        "vb-1254-tedim-3",
+        "vb-1254-thado-kuki-4"
+      ],
+      "set_id": "1254",
+      "source_locator": {
+        "entry": "1254",
+        "pdf_page": 320,
+        "printed_page": 292,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-1276",
+      "record_ids": [
+        "vb-1276-mara-1",
+        "vb-1276-hakha-lai-2",
+        "vb-1276-falam-lai-3",
+        "vb-1276-mizo-4",
+        "vb-1276-mindat-cho-5",
+        "vb-1276-daai-6",
+        "vb-1276-asho-7",
+        "vb-1276-khumi-8"
+      ],
+      "set_id": "1276",
+      "source_locator": {
+        "entry": "1276",
+        "pdf_page": 326,
+        "printed_page": 298,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-1311",
+      "record_ids": [
+        "vb-1311-mara-1",
+        "vb-1311-hakha-lai-2",
+        "vb-1311-falam-lai-3",
+        "vb-1311-tedim-4",
+        "vb-1311-thado-kuki-5",
+        "vb-1311-khumi-6"
+      ],
+      "set_id": "1311",
+      "source_locator": {
+        "entry": "1311",
+        "pdf_page": 332,
+        "printed_page": 304,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-1312",
+      "record_ids": [
+        "vb-1312-hakha-lai-1",
+        "vb-1312-mizo-2",
+        "vb-1312-thado-kuki-3",
+        "vb-1312-asho-4"
+      ],
+      "set_id": "1312",
+      "source_locator": {
+        "entry": "1312",
+        "pdf_page": 333,
+        "printed_page": 305,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-1337",
+      "record_ids": [
+        "vb-1337-mara-1",
+        "vb-1337-hakha-lai-2",
+        "vb-1337-mizo-3",
+        "vb-1337-thado-kuki-4",
+        "vb-1337-khumi-5"
+      ],
+      "set_id": "1337",
+      "source_locator": {
+        "entry": "1337",
+        "pdf_page": 337,
+        "printed_page": 309,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    },
+    {
+      "id": "core-1340",
+      "record_ids": [
+        "vb-1340-hakha-lai-1",
+        "vb-1340-falam-lai-2",
+        "vb-1340-mizo-3",
+        "vb-1340-thado-kuki-4",
+        "vb-1340-asho-5"
+      ],
+      "set_id": "1340",
+      "source_locator": {
+        "entry": "1340",
+        "pdf_page": 338,
+        "printed_page": 310,
+        "source_id": "vanbik2009"
+      },
+      "tasks": [
+        "Check every extracted form, gloss and doculect against the PDF",
+        "Check source discussion, allofams and possible loans",
+        "Assess normalization, tone, stem cells and unsupported records",
+        "Assess the derivation attempts without treating baseline matches as established histories"
+      ]
+    }
+  ],
+  "disputed": [
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "id": "cross-sr-louse",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            4,
+            5
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "id": "cross-sr-shame",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            3,
+            4,
+            5
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "id": "cross-sr-root",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "id": "cross-sr-kill",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "id": "cross-sr-sand",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "id": "cross-sr-suck",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            5
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "id": "cross-sr-nephew",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            4
+          ],
+          "source_id": "jacques-halshs-01287468"
+        }
+      ],
+      "id": "cross-sr-pair-rejected",
+      "outcome": "rejected-in-primary-source",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ],
+      "id": "cross-wa-tooth",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ],
+      "id": "cross-wa-handspan",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ],
+      "id": "cross-wa-fat",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ],
+      "id": "cross-wa-corpse",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ],
+      "id": "cross-wa-pleased",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "source_id": "jacques2012-internal"
+        }
+      ],
+      "id": "cross-tib-bridge",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "source_id": "jacques2012-internal"
+        }
+      ],
+      "id": "cross-tib-poison",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "source_id": "jacques2012-internal"
+        }
+      ],
+      "id": "cross-tib-eagle",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "source_id": "jacques2012-internal"
+        }
+      ],
+      "id": "cross-tib-eat",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "source_id": "jacques2012-internal"
+        }
+      ],
+      "id": "cross-tib-kill-paradigm",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "source_id": "sagart-hal-00781153"
+        }
+      ],
+      "id": "cross-prefix-black",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            8
+          ],
+          "source_id": "sagart-hal-00781153"
+        }
+      ],
+      "id": "cross-prefix-loose",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            19
+          ],
+          "source_id": "sagart-hal-00781153"
+        }
+      ],
+      "id": "cross-prefix-nose",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            27,
+            28
+          ],
+          "source_id": "sagart-hal-00781153"
+        }
+      ],
+      "id": "cross-prefix-fly",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            28
+          ],
+          "source_id": "sagart-hal-00781153"
+        }
+      ],
+      "id": "cross-prefix-nine",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            28,
+            29
+          ],
+          "source_id": "sagart-hal-00781153"
+        }
+      ],
+      "id": "cross-prefix-separate",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "source_id": "jacques-halshs-01566036"
+        }
+      ],
+      "id": "cross-suffix-weave",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "source_id": "jacques-halshs-01566036"
+        }
+      ],
+      "id": "cross-suffix-bring",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            7
+          ],
+          "source_id": "jacques-halshs-01566036"
+        }
+      ],
+      "id": "cross-suffix-lie",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            8,
+            9,
+            10
+          ],
+          "source_id": "jacques-halshs-01566036"
+        }
+      ],
+      "id": "cross-suffix-remember",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            11
+          ],
+          "source_id": "jacques-halshs-01566036"
+        }
+      ],
+      "id": "cross-suffix-hoe",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    },
+    {
+      "citations": [
+        {
+          "pdf_pages": [
+            3,
+            11,
+            12,
+            13
+          ],
+          "source_id": "jacques-halshs-01566036"
+        }
+      ],
+      "id": "cross-suffix-adverb",
+      "outcome": "unresolved",
+      "tasks": [
+        "Check transcription, including Chinese written versus reconstructed evidence",
+        "Assess all named analyses and their attribution",
+        "Check topology and the limits of each formal projection",
+        "Record unresolved claims and any objection to releasing this restricted study"
+      ]
+    }
+  ],
+  "encoder": "Codex AI assistant in the primary implementation session",
+  "global_checks": [
+    "Verify the sample and conservative family grouping, including compounds and repeated source rows",
+    "Keep VanBik and Button reconstruction levels and tone labels separate",
+    "Check whether the declared fragment is sufficient for the milestone's empirical scope",
+    "Check all source-defined controls and whole-paradigm choices",
+    "Distinguish an unresolved historical hypothesis from an unresolved objection to release"
+  ],
+  "id": "m6-sino-tibetan-specialist-review-v1",
+  "input_hashes": {
+    "data/cross-branch/dossiers.json": "32a84990c95a15b73b5c6ade13b5af263c378c23c198bd544ea7e9963ee85296",
+    "data/cross-branch/source-scopes.json": "549329b9882baa8fe9d478b1a9cfca29d3ea456fd8cd8f901b89f76083ee66d7",
+    "data/kuki-chin/alignments/1.json": "eb6aa10039ff6b86b5cc2eab193c31bed52cf5085229b6d203a4baeb88ad19de",
+    "data/kuki-chin/alignments/1073.json": "f6189210010b0d61d0ee0e8808f8c851727e8ac191c100995ee4d224a45388e6",
+    "data/kuki-chin/alignments/1103.json": "ac96cecd6521d77892faa66e7965cc6334015c87eeab1a7c6b8e8cb0d6930532",
+    "data/kuki-chin/alignments/1130.json": "95bc9e9650ccd0f8001cb25d3bced10036af171ebaf3d47a86dc60bb0503f66f",
+    "data/kuki-chin/alignments/117.json": "dab8906e10623a4cac09c70a84ef7a9546922bc448dae6bd78267b761d3079d6",
+    "data/kuki-chin/alignments/118.json": "027be5c67b320e0e79b2340000a843253097515692fec71d9333f88e6a6d8dae",
+    "data/kuki-chin/alignments/1181.json": "7a3fb5ff6836edf2237a0cd73680a3b43dd03e62249e263033c97a03deaea8a8",
+    "data/kuki-chin/alignments/1247.json": "3844c823611239f51f364fd54f597bd0406a31b45552a920384183e5c5f9f133",
+    "data/kuki-chin/alignments/1254.json": "8afdad840f022305ad21350c427852007fe2a26176fdd99dbab33e1099fc6222",
+    "data/kuki-chin/alignments/1276.json": "217954c1e63881cbc87e37979f2cb44b20d9dbb22fe23b01ef71e340e7e0fced",
+    "data/kuki-chin/alignments/1311.json": "429421349d0bbac76b1be0937e9ed5afed0fc1ccdd11c007c245fa14fc0a81f6",
+    "data/kuki-chin/alignments/1312.json": "654e720d0c9fe67e01fb279ab80aeffcade1c4b00880f2a608fbd55371941d40",
+    "data/kuki-chin/alignments/1337.json": "de1ef02af87ed5ec5f52af7f06ef5b7006c4ca9fcc620a48ea2a87405db17d79",
+    "data/kuki-chin/alignments/1340.json": "36db4d0e3a543ce4cc5813b77a108e3b27e296dfe9b5fba649aee6dd864f1aaa",
+    "data/kuki-chin/alignments/170.json": "1e304aba6644c1605fb6e4a7261c23b22902f57f5b0d1659d79ed5ba6dbff18a",
+    "data/kuki-chin/alignments/171.json": "b5e8bf1071483a560e187c5e4a6ca5fbb1f31722dddcdf844432605d720bef6b",
+    "data/kuki-chin/alignments/2.json": "541d912a2dc1b8c8343b91d7318923a4eddde912b2e46d376704674277033fc3",
+    "data/kuki-chin/alignments/247.json": "9f722d56505ea3c856dcf70514b1970d79536541501988a51801f0e727a08833",
+    "data/kuki-chin/alignments/248.json": "0e1291ad9f854b5b9897919201284750cbe6b21756d3a9ad6c4f8b1abf06467e",
+    "data/kuki-chin/alignments/325.json": "15e170b149d9ab7ba5d88ec16748aca841edda1279e1795d8c729831f3890558",
+    "data/kuki-chin/alignments/326.json": "0bbf2a6d40f96de562c5b84599a917aba9a7322bd291d66945182d4783457395",
+    "data/kuki-chin/alignments/369.json": "7c7ca991660c57b04f378fa417960ee9a5d1ad7f9d502d1d966a427cf7574876",
+    "data/kuki-chin/alignments/370.json": "25a64c67ef1b387641db017ff9a06701bdb74aeed87472dfbc5a606e1814e246",
+    "data/kuki-chin/alignments/420.json": "596123fd045889770bafea31d7a67311514b964fd975007b83f1766d4ff6573c",
+    "data/kuki-chin/alignments/421.json": "3327bf320991b1e38e60ba6152155f18d33d1d5a7395b3f4c3253dba74b2a081",
+    "data/kuki-chin/alignments/463.json": "163e6164c3d59f4bd8d534aa2267023874187ebc23e759005462e4f654b7a7bd",
+    "data/kuki-chin/alignments/464.json": "850746d42752b4ebb3e8f72d2d06bc99be28fe42fce9bc74039dfa11e78fff2c",
+    "data/kuki-chin/alignments/520.json": "36b8043e981a89fcc0307dbce15f1095dc34e72ec574ad94e8e774e4141db901",
+    "data/kuki-chin/alignments/521.json": "06b44aaea0d7191ffd76af71e33842dec2dabcb5fd3f27f44e423a7cafd41579",
+    "data/kuki-chin/alignments/578.json": "59e562379d31f02b2cf18f8799414927f8e590e7ec3780ee14714bd1e4effc96",
+    "data/kuki-chin/alignments/579.json": "d78030887e46ff230cef1cce2d759a4b1c6591d12eae3d5dcffdd5aa2d8ca7a6",
+    "data/kuki-chin/alignments/60.json": "b6e3557be349ee6b4b5f41851c9c7d7dfd922bb1955d00d4afee8ed2f9d81d81",
+    "data/kuki-chin/alignments/612.json": "58f5620c8de940427a68bbb8af92c9d95bc3e6c34fe1042a1a4ee0d5b92a5087",
+    "data/kuki-chin/alignments/614.json": "ca38b4c7debea7161e34b5f642d5cab2d7dd43becc2fcb5c8437ffa54cc2e678",
+    "data/kuki-chin/alignments/62.json": "3600b5bfad578c498863873f1981536771831911ac5992c389fac27343f32ea4",
+    "data/kuki-chin/alignments/637.json": "1ae4bfcbbc560c7420008d190d8cfe37fbf614cd67634543f52c1bd8628086f0",
+    "data/kuki-chin/alignments/639.json": "d33ba4509738ebf2cb3e9df9145551385fd07935d1b021060287fc656e3b7560",
+    "data/kuki-chin/alignments/686.json": "9742229893b0664a9938bfb6674283fff9c07226a7268e7e5d427d96ffa1d75c",
+    "data/kuki-chin/alignments/687.json": "cd30810c642637ae7778651aa866ebded7d79d1a5590fa2eb15fbf51142de1d6",
+    "data/kuki-chin/alignments/695.json": "c83ae20bdc94d87e7d6ac850e767ea54502079ec4600f2b75cafe4cf1157a10d",
+    "data/kuki-chin/alignments/696.json": "97593e06f5272e6ef838c6fdf12df4f47dfc98eb2a55299b0f0c33127284cd3b",
+    "data/kuki-chin/alignments/750.json": "9412ac38124c3609c95e3d6c73c9e2666415ed41b72b1708cf5560c2ce78b6bb",
+    "data/kuki-chin/alignments/751.json": "4134f62abac8a97f31694dc88c0f6f65c8cf98991de533778c09ec05a8f8ae43",
+    "data/kuki-chin/alignments/799.json": "e5631796af8dd08150e70f46085ab1eaeb5e8307994000c7e58545b1434ed986",
+    "data/kuki-chin/alignments/846.json": "94ce38a4edba639cd4e78abe85e5ddf81bacfe62376837ab395466525ee347b7",
+    "data/kuki-chin/alignments/872.json": "592339f1476e6c1bb60863fba7d87cb4b8cc75683ec85ada6c71fb69402f3caf",
+    "data/kuki-chin/alignments/884.json": "0e2167da478ca604a38f4122717cb1b7f76413ed024bcbede3a1886dcd410f2c",
+    "data/kuki-chin/alignments/914.json": "2cefa645475cef98bccd59054be12caf86d467613e0dc12b4a8e21090f20d5d8",
+    "data/kuki-chin/alignments/919.json": "cfb480d67c941dee5ca4fd18e12bfaaff51536991c6212dc7d5e9af97e3ca414",
+    "data/kuki-chin/alignments/985.json": "c61fa1d0fe44a2b57924cd6272545e8398ef767a33c7a417e17744a226d3a50b",
+    "data/kuki-chin/corpus.json": "ca1657b7ee017c5e2fa06a08fa2a3ee7c38aa62faad20ea58a2fcdcf224b13b0",
+    "data/kuki-chin/cross-evidence.json": "5221084d5b1353f30ab3c74c607c6459219c428861028fbbdb7b50295b201e9b",
+    "data/kuki-chin/diagnostic-input.json": "ba925191655664d102247f8d7ae843b842d8d23dc8de98218ca16416e3a894d4",
+    "data/kuki-chin/evidence.json": "8c77d51bdb5a52a8c776a6050b586ad324cb77a25c7940ad6d518c88c5e082b8",
+    "data/kuki-chin/experiment.json": "251435c40d119abec1182069f05cb7f64b8a6fd4289061dfd9cc33d8aba6d72f",
+    "data/kuki-chin/joint-analysis-input.json": "1227498fbfb36b1f023c40f14505b7aee4ebf6ac15dcdede0dad85c38e2a0c6a",
+    "data/kuki-chin/lexical-input.json": "3aab83fcb6de49aca3de5f19d14b9e5ac5cd23ec1180d1c4a8a75e2231c4ed48",
+    "data/kuki-chin/morphology.json": "117a9c6ac409677ce08a4c747228713fe25e1b4f8565076aacb05299289fcec9",
+    "data/kuki-chin/selection.json": "0d942463e7ab83fa55ab71d2279ea5aa72f3a7f4dbda3ec13631e1afea9be041",
+    "data/kuki-chin/source-fragments.json": "d5c70654e859fecde793cd04153c697c7a7badb996d377041caf4ab43e3a4e12",
+    "data/kuki-chin/splits.json": "a5ee478fb7fd00e6fd7e1a1236c588053906f601377ba4ecb8a62b6c733560fc",
+    "data/kuki-chin/study-design.json": "e460d63644bf02ca08d31a80f74167a42e29de1fa9c591c11a726c0cb5b42a1b",
+    "reports/sino-tibetan-diagnostic-execution.json": "0074a28836a897584e46a6e0f45c9a9902577071d3276c8971db35bcab0381d6",
+    "reports/sino-tibetan-joint-execution.json": "6cf31f5a21adbde673098a5025da7b124f5eabd3be08ab00dd0ac94a5e9b8393",
+    "reports/sino-tibetan-lexical-execution.json": "dc076511ae824b4fbb80ef7d59e0b59be7cc48cd3c1165de871a413346abe9f5"
+  },
+  "required_reviewer": "Independent human specialist in Sino-Tibetan historical linguistics with relevant Kuki-Chin expertise; no role in the original encoding. Additional specialists may review particular branches.",
+  "response_policy": "Bind a dated response to this packet's SHA-256. Each of the 50 core sets and 30 cross-branch dossiers requires a decision and rationale. Unresolved historical results are allowed, but absent review or an unresolved release objection keeps the gate open.",
+  "schema_version": "1.0.0"
+}

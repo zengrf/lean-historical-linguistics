@@ -163,7 +163,7 @@ remain unresolved; no string certificate is claimed to prove the analysis.
 finite-pool retrieval, soundness, relative completeness, fixed-model observation
 monotonicity, empty-pool-result characterization, and accepted forward traces.
 They use M4's inductive observation semantics and M2's licensed trace relation.
-All **133 project theorem declarations** appear in the dependency audit; project
+All **137 project theorem declarations**, including the later M6 results, appear in the dependency audit; project
 axioms, proof placeholders and `native_decide` are rejected.
 
 [PieCheck.lean](../lean/PieCheck.lean) supplies strict JSON input, package/stage
@@ -173,11 +173,11 @@ training and I/O remain executable trust boundaries. Every one of the **1,308
 forward certificates and 310 inverse sets** is compared against the separate
 Python interpreter. Ten invalid executable inputs and fourteen Python failure
 tests exercise leakage, missing outcomes, corrupted certificates and review
-misclassification. The repository has 67 Python tests in total.
+misclassification. The repository has 80 Python tests in total, including the later M6 tests.
 
 The [local benchmark](../reports/pie-benchmark-local.json) measures 1,000
 three-token certificates with 31 rules each in a fresh process, including parsing,
-validation and serialization: approximately 1.94 seconds and 51 MiB peak resident
+validation and serialization: approximately 2.47 seconds and 51 MiB peak resident
 memory on the recorded Darwin x86_64 host. This meets the declared 60-second /
 2-GiB budget for that workload. CI measures its own runner separately.
 

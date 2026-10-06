@@ -1,0 +1,972 @@
+{
+  "cases": [
+    {
+      "dossier_ids": [],
+      "expected": [
+        "b"
+      ],
+      "id": "implosive-central",
+      "input": [
+        "ɓ"
+      ],
+      "job_ids": [
+        "implosive-central--vanbik-central"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "vanbik-central"
+      ],
+      "pdf_pages": [
+        93
+      ],
+      "projection": "Initial only; source table phonetic value used for Mindat, not inferred from orthographic b/d",
+      "source_id": "vanbik2009"
+    },
+    {
+      "dossier_ids": [],
+      "expected": [
+        "ɓ"
+      ],
+      "id": "implosive-mindat",
+      "input": [
+        "ɓ"
+      ],
+      "job_ids": [
+        "implosive-mindat--vanbik-mindat"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "vanbik-mindat"
+      ],
+      "pdf_pages": [
+        93
+      ],
+      "projection": "Initial only; source table phonetic value used for Mindat, not inferred from orthographic b/d",
+      "source_id": "vanbik2009"
+    },
+    {
+      "dossier_ids": [],
+      "expected": [
+        "d"
+      ],
+      "id": "dental-central",
+      "input": [
+        "ɗ"
+      ],
+      "job_ids": [
+        "dental-central--vanbik-central"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "vanbik-central"
+      ],
+      "pdf_pages": [
+        102
+      ],
+      "projection": "Initial only; source table phonetic value used for Mindat, not inferred from orthographic b/d",
+      "source_id": "vanbik2009"
+    },
+    {
+      "dossier_ids": [],
+      "expected": [
+        "ɗ"
+      ],
+      "id": "dental-mindat",
+      "input": [
+        "ɗ"
+      ],
+      "job_ids": [
+        "dental-mindat--vanbik-mindat"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "vanbik-mindat"
+      ],
+      "pdf_pages": [
+        102
+      ],
+      "projection": "Initial only; source table phonetic value used for Mindat, not inferred from orthographic b/d",
+      "source_id": "vanbik2009"
+    },
+    {
+      "dossier_ids": [],
+      "expected": [
+        "r"
+      ],
+      "id": "r-central",
+      "input": [
+        "r"
+      ],
+      "job_ids": [
+        "r-central--vanbik-central"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "vanbik-central"
+      ],
+      "pdf_pages": [
+        51
+      ],
+      "projection": "Initial only; source table phonetic value used for Mindat, not inferred from orthographic b/d",
+      "source_id": "vanbik2009"
+    },
+    {
+      "dossier_ids": [],
+      "expected": [
+        "g"
+      ],
+      "id": "r-peripheral",
+      "input": [
+        "r"
+      ],
+      "job_ids": [
+        "r-peripheral--vanbik-northern"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "vanbik-northern"
+      ],
+      "pdf_pages": [
+        51
+      ],
+      "projection": "Initial only; source table phonetic value used for Mindat, not inferred from orthographic b/d",
+      "source_id": "vanbik2009"
+    },
+    {
+      "dossier_ids": [],
+      "expected": [
+        "v"
+      ],
+      "id": "w-central",
+      "input": [
+        "w"
+      ],
+      "job_ids": [
+        "w-central--vanbik-central"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "vanbik-central"
+      ],
+      "pdf_pages": [
+        90
+      ],
+      "projection": "Initial only; source table phonetic value used for Mindat, not inferred from orthographic b/d",
+      "source_id": "vanbik2009"
+    },
+    {
+      "dossier_ids": [],
+      "expected": [
+        "v"
+      ],
+      "id": "w-northern",
+      "input": [
+        "w"
+      ],
+      "job_ids": [
+        "w-northern--vanbik-northern"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "vanbik-northern"
+      ],
+      "pdf_pages": [
+        90
+      ],
+      "projection": "Initial only; source table phonetic value used for Mindat, not inferred from orthographic b/d",
+      "source_id": "vanbik2009"
+    },
+    {
+      "dossier_ids": [],
+      "expected": [
+        "z"
+      ],
+      "id": "y-central",
+      "input": [
+        "y"
+      ],
+      "job_ids": [
+        "y-central--vanbik-central"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "vanbik-central"
+      ],
+      "pdf_pages": [
+        71
+      ],
+      "projection": "Initial only; source table phonetic value used for Mindat, not inferred from orthographic b/d",
+      "source_id": "vanbik2009"
+    },
+    {
+      "dossier_ids": [],
+      "expected": [
+        "f"
+      ],
+      "id": "dental-fricative",
+      "input": [
+        "θ"
+      ],
+      "job_ids": [
+        "dental-fricative--vanbik-central"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "vanbik-central"
+      ],
+      "pdf_pages": [
+        202
+      ],
+      "projection": "Initial only; source table phonetic value used for Mindat, not inferred from orthographic b/d",
+      "source_id": "vanbik2009"
+    },
+    {
+      "dossier_ids": [],
+      "expected": [
+        "ɓ"
+      ],
+      "id": "plain-stop-mindat",
+      "input": [
+        "b"
+      ],
+      "job_ids": [
+        "plain-stop-mindat--plain-stop-retention-control"
+      ],
+      "kind": "counteranalysis-control",
+      "package_ids": [
+        "plain-stop-retention-control"
+      ],
+      "pdf_pages": [
+        92,
+        93
+      ],
+      "projection": "Plain b plus retention fails to recover the recorded implosive; an extra historical change could make this alternative fit",
+      "source_id": "vanbik2009"
+    },
+    {
+      "dossier_ids": [
+        "sr-kill"
+      ],
+      "expected": [
+        "s",
+        "a"
+      ],
+      "id": "sr-kill",
+      "input": [
+        "s",
+        "r",
+        "a"
+      ],
+      "job_ids": [
+        "sr-kill--sr-broad",
+        "sr-kill--sr-restricted"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "sr-broad",
+        "sr-restricted"
+      ],
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "projection": "Projected retention or loss of r at the hypothesized non-Sinitic intermediate stage; subsequent reflex changes and word endings omitted",
+      "source_id": "jacques-halshs-01287468"
+    },
+    {
+      "dossier_ids": [
+        "sr-suck"
+      ],
+      "expected": [
+        "s",
+        "o"
+      ],
+      "id": "sr-suck",
+      "input": [
+        "s",
+        "r",
+        "o"
+      ],
+      "job_ids": [
+        "sr-suck--sr-broad",
+        "sr-suck--sr-restricted"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "sr-broad",
+        "sr-restricted"
+      ],
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "projection": "Projected retention or loss of r at the hypothesized non-Sinitic intermediate stage; subsequent reflex changes and word endings omitted",
+      "source_id": "jacques-halshs-01287468"
+    },
+    {
+      "dossier_ids": [
+        "sr-shame"
+      ],
+      "expected": [
+        "s",
+        "r",
+        "ə"
+      ],
+      "id": "sr-shame",
+      "input": [
+        "s",
+        "r",
+        "ə"
+      ],
+      "job_ids": [
+        "sr-shame--sr-broad",
+        "sr-shame--sr-restricted"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "sr-broad",
+        "sr-restricted"
+      ],
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "projection": "Projected retention or loss of r at the hypothesized non-Sinitic intermediate stage; subsequent reflex changes and word endings omitted",
+      "source_id": "jacques-halshs-01287468"
+    },
+    {
+      "dossier_ids": [
+        "sr-root"
+      ],
+      "expected": [
+        "s",
+        "r",
+        "ə"
+      ],
+      "id": "sr-root",
+      "input": [
+        "s",
+        "r",
+        "ə"
+      ],
+      "job_ids": [
+        "sr-root--sr-broad",
+        "sr-root--sr-restricted"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "sr-broad",
+        "sr-restricted"
+      ],
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "projection": "Projected retention or loss of r at the hypothesized non-Sinitic intermediate stage; subsequent reflex changes and word endings omitted",
+      "source_id": "jacques-halshs-01287468"
+    },
+    {
+      "dossier_ids": [
+        "sr-louse"
+      ],
+      "expected": [
+        "ɕ"
+      ],
+      "id": "sr-louse",
+      "input": [
+        "s",
+        "r"
+      ],
+      "job_ids": [
+        "sr-louse--Tibetan-sr-cluster"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "Tibetan-sr-cluster"
+      ],
+      "pdf_pages": [
+        2
+      ],
+      "projection": "Initial only",
+      "source_id": "jacques-halshs-01287468"
+    },
+    {
+      "dossier_ids": [
+        "sr-nephew"
+      ],
+      "expected": [
+        "s",
+        "r"
+      ],
+      "id": "sr-presyllable",
+      "input": [
+        "s",
+        "ə",
+        "r"
+      ],
+      "job_ids": [
+        "sr-presyllable--Tibetan-syllabic-prefix"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "Tibetan-syllabic-prefix"
+      ],
+      "pdf_pages": [
+        2
+      ],
+      "projection": "Initial only; lost vowel is a hypothesis",
+      "source_id": "jacques-halshs-01287468"
+    },
+    {
+      "dossier_ids": [
+        "wa-tooth"
+      ],
+      "expected": [
+        "s",
+        "o"
+      ],
+      "id": "wa-tooth",
+      "input": [
+        "s",
+        "w",
+        "a"
+      ],
+      "job_ids": [
+        "wa-tooth--early-wa-late-fusion",
+        "wa-tooth--fusion-before-wa-control"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "early-wa-late-fusion",
+        "fusion-before-wa-control"
+      ],
+      "pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "projection": "Rhyme/fusion projection: supplied nominal concatenation, no '+' boundary is deleted. Handspan m- and aspiration are outside scope.",
+      "source_id": "jacques-halshs-00408281"
+    },
+    {
+      "dossier_ids": [
+        "wa-handspan"
+      ],
+      "expected": [
+        "t",
+        "o"
+      ],
+      "id": "wa-handspan",
+      "input": [
+        "t",
+        "w",
+        "a"
+      ],
+      "job_ids": [
+        "wa-handspan--early-wa-late-fusion",
+        "wa-handspan--fusion-before-wa-control"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "early-wa-late-fusion",
+        "fusion-before-wa-control"
+      ],
+      "pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "projection": "Rhyme/fusion projection: supplied nominal concatenation, no '+' boundary is deleted. Handspan m- and aspiration are outside scope.",
+      "source_id": "jacques-halshs-00408281"
+    },
+    {
+      "dossier_ids": [
+        "wa-tooth"
+      ],
+      "expected": [
+        "r",
+        "w",
+        "a"
+      ],
+      "id": "wa-horn",
+      "input": [
+        "r",
+        "u",
+        "b",
+        "a"
+      ],
+      "job_ids": [
+        "wa-horn--early-wa-late-fusion",
+        "wa-horn--fusion-before-wa-control"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "early-wa-late-fusion",
+        "fusion-before-wa-control"
+      ],
+      "pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "projection": "Rhyme/fusion projection: supplied nominal concatenation, no '+' boundary is deleted. Handspan m- and aspiration are outside scope.",
+      "source_id": "jacques-halshs-00408281"
+    },
+    {
+      "dossier_ids": [
+        "wa-tooth"
+      ],
+      "expected": [
+        "g",
+        "r",
+        "w",
+        "a"
+      ],
+      "id": "wa-angle",
+      "input": [
+        "g",
+        "r",
+        "u",
+        "b",
+        "a"
+      ],
+      "job_ids": [
+        "wa-angle--early-wa-late-fusion",
+        "wa-angle--fusion-before-wa-control"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "early-wa-late-fusion",
+        "fusion-before-wa-control"
+      ],
+      "pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "projection": "Rhyme/fusion projection: supplied nominal concatenation, no '+' boundary is deleted. Handspan m- and aspiration are outside scope.",
+      "source_id": "jacques-halshs-00408281"
+    },
+    {
+      "dossier_ids": [
+        "tib-bridge"
+      ],
+      "expected": [
+        "z"
+      ],
+      "id": "tib-bridge",
+      "input": [
+        "ndz"
+      ],
+      "job_ids": [
+        "tib-bridge--nasal-attrition"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "nasal-attrition"
+      ],
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "projection": "Initial only; morphology, rhyme and the age of prenasalization remain separate claims",
+      "source_id": "jacques2012-internal"
+    },
+    {
+      "dossier_ids": [
+        "tib-poison"
+      ],
+      "expected": [
+        "d"
+      ],
+      "id": "tib-poison",
+      "input": [
+        "nd"
+      ],
+      "job_ids": [
+        "tib-poison--nasal-attrition"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "nasal-attrition"
+      ],
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "projection": "Initial only; morphology, rhyme and the age of prenasalization remain separate claims",
+      "source_id": "jacques2012-internal"
+    },
+    {
+      "dossier_ids": [
+        "tib-eat"
+      ],
+      "expected": [
+        "z"
+      ],
+      "id": "tib-eat",
+      "input": [
+        "dz"
+      ],
+      "job_ids": [
+        "tib-eat--nasal-attrition"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "nasal-attrition"
+      ],
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "projection": "Initial only; morphology, rhyme and the age of prenasalization remain separate claims",
+      "source_id": "jacques2012-internal"
+    },
+    {
+      "dossier_ids": [
+        "tib-eagle"
+      ],
+      "expected": [
+        "g",
+        "l"
+      ],
+      "id": "tib-eagle-G",
+      "input": [
+        "G",
+        "V",
+        "l"
+      ],
+      "job_ids": [
+        "tib-eagle-G--prefix-merger"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "prefix-merger"
+      ],
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "projection": "Merged presyllable projection",
+      "source_id": "jacques2012-internal"
+    },
+    {
+      "dossier_ids": [
+        "tib-eagle"
+      ],
+      "expected": [
+        "g",
+        "l"
+      ],
+      "id": "tib-eagle-D",
+      "input": [
+        "D",
+        "V",
+        "l"
+      ],
+      "job_ids": [
+        "tib-eagle-D--prefix-merger"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "prefix-merger"
+      ],
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "projection": "Merged presyllable projection",
+      "source_id": "jacques2012-internal"
+    },
+    {
+      "dossier_ids": [
+        "tib-kill-paradigm"
+      ],
+      "expected": [
+        "g",
+        "s",
+        "o",
+        "d"
+      ],
+      "id": "tib-kill-G",
+      "input": [
+        "G",
+        "o",
+        "s",
+        "a",
+        "t"
+      ],
+      "job_ids": [
+        "tib-kill-G--TAM-rounding"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "TAM-rounding"
+      ],
+      "pdf_pages": [
+        8,
+        9,
+        11
+      ],
+      "projection": "Present cell only; past/future/imperative preserved jointly in morphology.json",
+      "source_id": "jacques2012-internal"
+    },
+    {
+      "dossier_ids": [
+        "tib-kill-paradigm"
+      ],
+      "expected": [
+        "g",
+        "s",
+        "o",
+        "d"
+      ],
+      "id": "tib-kill-D",
+      "input": [
+        "D",
+        "o",
+        "s",
+        "a",
+        "t"
+      ],
+      "job_ids": [
+        "tib-kill-D--TAM-rounding"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "TAM-rounding"
+      ],
+      "pdf_pages": [
+        8,
+        9,
+        11
+      ],
+      "projection": "Present cell only; past/future/imperative preserved jointly in morphology.json",
+      "source_id": "jacques2012-internal"
+    },
+    {
+      "dossier_ids": [
+        "prefix-nose"
+      ],
+      "expected": [
+        "n̥"
+      ],
+      "id": "prefix-nose",
+      "input": [
+        "s",
+        "n"
+      ],
+      "job_ids": [
+        "prefix-nose--early-tight-sn"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "early-tight-sn"
+      ],
+      "pdf_pages": [
+        19
+      ],
+      "projection": "Initial only, and only at the hypothetical pre-OC date",
+      "source_id": "sagart-hal-00781153"
+    },
+    {
+      "dossier_ids": [
+        "prefix-separate"
+      ],
+      "expected": [
+        "p"
+      ],
+      "id": "N-transitive",
+      "input": [
+        "p"
+      ],
+      "job_ids": [
+        "N-transitive--N-voicing"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "N-voicing"
+      ],
+      "pdf_pages": [
+        28,
+        29
+      ],
+      "projection": "The p/b contrast alone fits both whole derivational analyses; evidence for nasality and direction is external to this projection",
+      "source_id": "sagart-hal-00781153"
+    },
+    {
+      "dossier_ids": [
+        "prefix-separate"
+      ],
+      "expected": [
+        "b"
+      ],
+      "id": "N-intransitive",
+      "input": [
+        "N",
+        "p"
+      ],
+      "job_ids": [
+        "N-intransitive--N-voicing"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "N-voicing"
+      ],
+      "pdf_pages": [
+        28,
+        29
+      ],
+      "projection": "The p/b contrast alone fits both whole derivational analyses; evidence for nasality and direction is external to this projection",
+      "source_id": "sagart-hal-00781153"
+    },
+    {
+      "dossier_ids": [
+        "prefix-separate"
+      ],
+      "expected": [
+        "p"
+      ],
+      "id": "s-transitive",
+      "input": [
+        "s",
+        "b"
+      ],
+      "job_ids": [
+        "s-transitive--s-devoicing-control"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "s-devoicing-control"
+      ],
+      "pdf_pages": [
+        28,
+        29
+      ],
+      "projection": "The p/b contrast alone fits both whole derivational analyses; evidence for nasality and direction is external to this projection",
+      "source_id": "sagart-hal-00781153"
+    },
+    {
+      "dossier_ids": [
+        "prefix-separate"
+      ],
+      "expected": [
+        "b"
+      ],
+      "id": "s-intransitive",
+      "input": [
+        "b"
+      ],
+      "job_ids": [
+        "s-intransitive--s-devoicing-control"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "s-devoicing-control"
+      ],
+      "pdf_pages": [
+        28,
+        29
+      ],
+      "projection": "The p/b contrast alone fits both whole derivational analyses; evidence for nasality and direction is external to this projection",
+      "source_id": "sagart-hal-00781153"
+    },
+    {
+      "dossier_ids": [
+        "suffix-weave",
+        "suffix-bring",
+        "suffix-lie",
+        "suffix-hoe"
+      ],
+      "expected": [
+        "k",
+        "s"
+      ],
+      "id": "suffix-coda",
+      "input": [
+        "k",
+        "t"
+      ],
+      "job_ids": [
+        "suffix-coda--grave-coda-t-to-s",
+        "suffix-coda--unconditioned-t-to-s-control"
+      ],
+      "kind": "synthetic-source-rule-control",
+      "package_ids": [
+        "grave-coda-t-to-s",
+        "unconditioned-t-to-s-control"
+      ],
+      "pdf_pages": [
+        5,
+        7
+      ],
+      "projection": "Coda window only. Analogy and the later creation of departing tone are not computed.",
+      "source_id": "jacques-halshs-01566036"
+    },
+    {
+      "dossier_ids": [
+        "suffix-weave",
+        "suffix-bring",
+        "suffix-lie",
+        "suffix-hoe"
+      ],
+      "expected": [
+        "l",
+        "t"
+      ],
+      "id": "suffix-l-control",
+      "input": [
+        "l",
+        "t"
+      ],
+      "job_ids": [
+        "suffix-l-control--grave-coda-t-to-s",
+        "suffix-l-control--unconditioned-t-to-s-control"
+      ],
+      "kind": "synthetic-source-rule-control",
+      "package_ids": [
+        "grave-coda-t-to-s",
+        "unconditioned-t-to-s-control"
+      ],
+      "pdf_pages": [
+        5,
+        7
+      ],
+      "projection": "Coda window only. Analogy and the later creation of departing tone are not computed.",
+      "source_id": "jacques-halshs-01566036"
+    },
+    {
+      "dossier_ids": [
+        "suffix-remember"
+      ],
+      "expected": [
+        "s"
+      ],
+      "id": "suffix-middle",
+      "input": [
+        "s",
+        "i"
+      ],
+      "job_ids": [
+        "suffix-middle--middle-i-loss"
+      ],
+      "kind": "source-backed-projection",
+      "package_ids": [
+        "middle-i-loss"
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "projection": "Suffix only; does not assert cognacy of the different Chinese and Khaling roots",
+      "source_id": "jacques-halshs-01566036"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "scope": "Source-defined projections and labelled controls; certificate acceptance proves execution only. Full derivations and wider empirical validity remain under review."
+}

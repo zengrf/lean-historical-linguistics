@@ -8,7 +8,7 @@ python scripts/verify_library.py --local --output reports/library-audit.json
 
 It records the time, count decisions, source coverage, access gaps and actual checks of all 127 retained PDF files. It attests to the files checked at that time. It does not establish exhaustive literature coverage or cover-to-cover reading. A public clone contains 64 PDFs; its ordinary audit therefore has a different on-disk count.
 
-`lean-axioms-local.txt` records `#print axioms` for all 133 theorem declarations after a successful local build with **Lean 4.19.0 on macOS 10.15 x86_64**. Its reported dependencies are `propext`, `Quot.sound` and `Classical.choice`. There are no project axioms or proof placeholders in the audited source.
+`lean-axioms-local.txt` records `#print axioms` for all 137 theorem declarations after a successful local build with **Lean 4.19.0 on macOS 10.15 x86_64**. Its reported dependencies are `propext`, `Quot.sound` and `Classical.choice`. There are no project axioms or proof placeholders in the audited source.
 
 The local host could not run the Lean 4.34.1 binary because its system C++ library lacks a required symbol. [GitHub Actions](https://github.com/zengrf/lean-historical-linguistics/actions/workflows/ci.yml) independently builds the source on Linux with both 4.19.0 and the pinned 4.34.1, then checks each generated theorem audit. Consult the run for the commit being evaluated; a committed old report alone does not validate changed source.
 
@@ -63,3 +63,13 @@ the local 1,000-certificate performance measurement. [pie-review.json](pie-revie
 explicitly records pending independent specialist review; M5 is **in review**.
 See [M5 delivery](../docs/11-m5-delivery.md) for reproduction and limitations.
 `verify_m5.py --require-complete` cannot pass without actual specialist sign-off.
+
+[sino-tibetan-evaluation.json](sino-tibetan-evaluation.json) records M6's 100-set,
+580-reflex Kuki-Chin study and 30 cross-branch dossiers. It retains every
+unsupported result, mismatch, scoped inverse set and alternative analysis.
+The three `sino-tibetan-*-execution.json` files contain 740 forward certificates,
+199 finite-pool results and a bounded comparison of two whole paradigms.
+[sino-tibetan-benchmark-local.json](sino-tibetan-benchmark-local.json) records
+the 1,000-certificate measurement. The [specialist status](sino-tibetan-review.json)
+remains pending. See [M6 delivery](../docs/12-m6-delivery.md);
+`verify_m6.py --require-complete` enforces the outstanding review requirement.

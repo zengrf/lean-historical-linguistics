@@ -1,0 +1,179 @@
+{
+  "alignment_data": {
+    "alignments": [
+      {
+        "evidence_unit": "vb-family-696",
+        "id": "vb-core-696",
+        "rows": [
+          {
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "U000068"
+              },
+              {
+                "kind": "segment",
+                "value": "U000075"
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "segment",
+                "value": "U000300"
+              },
+              {
+                "kind": "segment",
+                "value": "U000069"
+              }
+            ],
+            "doculect_id": "vb-696-mizo-1",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "U000068"
+              },
+              {
+                "kind": "segment",
+                "value": "U000075"
+              },
+              {
+                "kind": "segment",
+                "value": "U000300"
+              },
+              {
+                "kind": "segment",
+                "value": "U000069"
+              }
+            ],
+            "source_ref": "VanBik2009:[696]:Mizo"
+          },
+          {
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "U000068"
+              },
+              {
+                "kind": "segment",
+                "value": "U000075"
+              },
+              {
+                "kind": "segment",
+                "value": "U000069"
+              },
+              {
+                "kind": "segment",
+                "value": "U00003F"
+              },
+              {
+                "kind": "segment",
+                "value": "U000033"
+              }
+            ],
+            "doculect_id": "vb-696-tedim-2",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "U000068"
+              },
+              {
+                "kind": "segment",
+                "value": "U000075"
+              },
+              {
+                "kind": "segment",
+                "value": "U000069"
+              },
+              {
+                "kind": "segment",
+                "value": "U00003F"
+              },
+              {
+                "kind": "segment",
+                "value": "U000033"
+              }
+            ],
+            "source_ref": "VanBik2009:[696]:Tedim"
+          }
+        ],
+        "width": 5
+      }
+    ],
+    "description": "Display-character unit-edit alignment using reversible Uxxxxxx Unicode scalar IDs; preserves spaces and tone marks, without certifying phonological homology",
+    "doculects": [
+      "vb-696-mizo-1",
+      "vb-696-tedim-2"
+    ],
+    "id": "vb-core-696",
+    "schema_version": "1.0.0",
+    "source_kind": "sourced"
+  },
+  "claim": "feasibility-only",
+  "groups": [
+    {
+      "claimed_support": 1,
+      "id": "column-0",
+      "members": [
+        "vb-core-696-c0"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-1",
+      "members": [
+        "vb-core-696-c1"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-2",
+      "members": [
+        "vb-core-696-c2"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-3",
+      "members": [
+        "vb-core-696-c3"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-4",
+      "members": [
+        "vb-core-696-c4"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "alignment_id": "vb-core-696",
+      "column_index": 0,
+      "id": "vb-core-696-c0"
+    },
+    {
+      "alignment_id": "vb-core-696",
+      "column_index": 1,
+      "id": "vb-core-696-c1"
+    },
+    {
+      "alignment_id": "vb-core-696",
+      "column_index": 2,
+      "id": "vb-core-696-c2"
+    },
+    {
+      "alignment_id": "vb-core-696",
+      "column_index": 3,
+      "id": "vb-core-696-c3"
+    },
+    {
+      "alignment_id": "vb-core-696",
+      "column_index": 4,
+      "id": "vb-core-696-c4"
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1"
+}

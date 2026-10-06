@@ -1,0 +1,24 @@
+{
+  "certificates": 1000,
+  "elapsed_seconds": 1.7936748859938234,
+  "input_hashes": {
+    "data/kuki-chin/lexical-input.json": "3aab83fcb6de49aca3de5f19d14b9e5ac5cd23ec1180d1c4a8a75e2231c4ed48",
+    "lean/Historical/Batch.lean": "5cad833b718db40cc93958c84a9295b3447c1b80b6c811f4ea9cb8d95307ade1",
+    "lean/Historical/SourceScope.lean": "c4cfcc4160cdeea904c0d7a01c4922531cc402ad962356c1151a961b6fac6ff6",
+    "lean/SinoTibetanCheck.lean": "bc7b235c8543215593f25303c3873d7d23fcc5929d58c0faac986bbd6a0a5b66",
+    "scripts/benchmark_m6.py": "701ff923e799fdf14e4418af31334fa72f8442075de229486ef9c2f19f82aac2"
+  },
+  "memory_limit_bytes": 2147483648,
+  "passed": true,
+  "peak_resident_bytes": 49655808,
+  "platform": {
+    "machine": "x86_64",
+    "release": "19.6.0",
+    "system": "Darwin"
+  },
+  "request_sha256": "296fd22a6699a5441735767dc73049e2903e4e7eb1039ba9fd9889f07bd8190f",
+  "rules_per_certificate": 22,
+  "scope": "Fresh Lean process including strict decoding, scope and package validation, trace generation, certificate checking and serialization; timing is not a linguistic accuracy measure.",
+  "seconds_limit": 60,
+  "word_length": 5
+}

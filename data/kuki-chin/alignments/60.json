@@ -1,0 +1,179 @@
+{
+  "alignment_data": {
+    "alignments": [
+      {
+        "evidence_unit": "vb-family-60",
+        "id": "vb-core-60",
+        "rows": [
+          {
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "U000064"
+              },
+              {
+                "kind": "segment",
+                "value": "U000061"
+              },
+              {
+                "kind": "segment",
+                "value": "U000300"
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "segment",
+                "value": "U000069"
+              }
+            ],
+            "doculect_id": "vb-60-mara-1",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "U000064"
+              },
+              {
+                "kind": "segment",
+                "value": "U000061"
+              },
+              {
+                "kind": "segment",
+                "value": "U000300"
+              },
+              {
+                "kind": "segment",
+                "value": "U000069"
+              }
+            ],
+            "source_ref": "VanBik2009:[60]:Mara"
+          },
+          {
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "U000064"
+              },
+              {
+                "kind": "segment",
+                "value": "U000065"
+              },
+              {
+                "kind": "segment",
+                "value": "U000300"
+              },
+              {
+                "kind": "segment",
+                "value": "U000065"
+              },
+              {
+                "kind": "segment",
+                "value": "U00014B"
+              }
+            ],
+            "doculect_id": "vb-60-hakha-lai-2",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "U000064"
+              },
+              {
+                "kind": "segment",
+                "value": "U000065"
+              },
+              {
+                "kind": "segment",
+                "value": "U000300"
+              },
+              {
+                "kind": "segment",
+                "value": "U000065"
+              },
+              {
+                "kind": "segment",
+                "value": "U00014B"
+              }
+            ],
+            "source_ref": "VanBik2009:[60]:H. Lai"
+          }
+        ],
+        "width": 5
+      }
+    ],
+    "description": "Display-character unit-edit alignment using reversible Uxxxxxx Unicode scalar IDs; preserves spaces and tone marks, without certifying phonological homology",
+    "doculects": [
+      "vb-60-mara-1",
+      "vb-60-hakha-lai-2"
+    ],
+    "id": "vb-core-60",
+    "schema_version": "1.0.0",
+    "source_kind": "sourced"
+  },
+  "claim": "feasibility-only",
+  "groups": [
+    {
+      "claimed_support": 1,
+      "id": "column-0",
+      "members": [
+        "vb-core-60-c0"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-1",
+      "members": [
+        "vb-core-60-c1"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-2",
+      "members": [
+        "vb-core-60-c2"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-3",
+      "members": [
+        "vb-core-60-c3"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-4",
+      "members": [
+        "vb-core-60-c4"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "alignment_id": "vb-core-60",
+      "column_index": 0,
+      "id": "vb-core-60-c0"
+    },
+    {
+      "alignment_id": "vb-core-60",
+      "column_index": 1,
+      "id": "vb-core-60-c1"
+    },
+    {
+      "alignment_id": "vb-core-60",
+      "column_index": 2,
+      "id": "vb-core-60-c2"
+    },
+    {
+      "alignment_id": "vb-core-60",
+      "column_index": 3,
+      "id": "vb-core-60-c3"
+    },
+    {
+      "alignment_id": "vb-core-60",
+      "column_index": 4,
+      "id": "vb-core-60-c4"
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1"
+}

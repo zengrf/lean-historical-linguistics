@@ -1,0 +1,439 @@
+{
+  "alignment_data": {
+    "alignments": [
+      {
+        "evidence_unit": "vb-family-62",
+        "id": "vb-core-62",
+        "rows": [
+          {
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "U000064"
+              },
+              {
+                "kind": "segment",
+                "value": "U000075"
+              },
+              {
+                "kind": "segment",
+                "value": "U000302"
+              },
+              {
+                "kind": "segment",
+                "value": "U00006D"
+              },
+              {
+                "kind": "segment",
+                "value": "U00002D"
+              },
+              {
+                "kind": "segment",
+                "value": "U000049"
+              },
+              {
+                "kind": "segment",
+                "value": "U00002C"
+              },
+              {
+                "kind": "segment",
+                "value": "U000020"
+              },
+              {
+                "kind": "segment",
+                "value": "U000064"
+              },
+              {
+                "kind": "segment",
+                "value": "U000075"
+              },
+              {
+                "kind": "segment",
+                "value": "U00030C"
+              },
+              {
+                "kind": "segment",
+                "value": "U00006D"
+              },
+              {
+                "kind": "segment",
+                "value": "U00002D"
+              },
+              {
+                "kind": "segment",
+                "value": "U000020"
+              },
+              {
+                "kind": "segment",
+                "value": "U000049"
+              },
+              {
+                "kind": "segment",
+                "value": "U000049"
+              }
+            ],
+            "doculect_id": "vb-62-hakha-lai-1",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "U000064"
+              },
+              {
+                "kind": "segment",
+                "value": "U000075"
+              },
+              {
+                "kind": "segment",
+                "value": "U000302"
+              },
+              {
+                "kind": "segment",
+                "value": "U00006D"
+              },
+              {
+                "kind": "segment",
+                "value": "U00002D"
+              },
+              {
+                "kind": "segment",
+                "value": "U000049"
+              },
+              {
+                "kind": "segment",
+                "value": "U00002C"
+              },
+              {
+                "kind": "segment",
+                "value": "U000020"
+              },
+              {
+                "kind": "segment",
+                "value": "U000064"
+              },
+              {
+                "kind": "segment",
+                "value": "U000075"
+              },
+              {
+                "kind": "segment",
+                "value": "U00030C"
+              },
+              {
+                "kind": "segment",
+                "value": "U00006D"
+              },
+              {
+                "kind": "segment",
+                "value": "U00002D"
+              },
+              {
+                "kind": "segment",
+                "value": "U000020"
+              },
+              {
+                "kind": "segment",
+                "value": "U000049"
+              },
+              {
+                "kind": "segment",
+                "value": "U000049"
+              }
+            ],
+            "source_ref": "VanBik2009:[62]:H. Lai"
+          },
+          {
+            "aligned": [
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "segment",
+                "value": "U000064"
+              },
+              {
+                "kind": "segment",
+                "value": "U000075"
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "segment",
+                "value": "U00006D"
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "gap",
+                "value": null
+              }
+            ],
+            "doculect_id": "vb-62-paite-4",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "U000064"
+              },
+              {
+                "kind": "segment",
+                "value": "U000075"
+              },
+              {
+                "kind": "segment",
+                "value": "U00006D"
+              }
+            ],
+            "source_ref": "VanBik2009:[62]:Paite"
+          }
+        ],
+        "width": 16
+      }
+    ],
+    "description": "Display-character unit-edit alignment using reversible Uxxxxxx Unicode scalar IDs; preserves spaces and tone marks, without certifying phonological homology",
+    "doculects": [
+      "vb-62-hakha-lai-1",
+      "vb-62-paite-4"
+    ],
+    "id": "vb-core-62",
+    "schema_version": "1.0.0",
+    "source_kind": "sourced"
+  },
+  "claim": "feasibility-only",
+  "groups": [
+    {
+      "claimed_support": 1,
+      "id": "column-0",
+      "members": [
+        "vb-core-62-c0"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-1",
+      "members": [
+        "vb-core-62-c1"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-2",
+      "members": [
+        "vb-core-62-c2"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-3",
+      "members": [
+        "vb-core-62-c3"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-4",
+      "members": [
+        "vb-core-62-c4"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-5",
+      "members": [
+        "vb-core-62-c5"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-6",
+      "members": [
+        "vb-core-62-c6"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-7",
+      "members": [
+        "vb-core-62-c7"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-8",
+      "members": [
+        "vb-core-62-c8"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-9",
+      "members": [
+        "vb-core-62-c9"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-10",
+      "members": [
+        "vb-core-62-c10"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-11",
+      "members": [
+        "vb-core-62-c11"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-12",
+      "members": [
+        "vb-core-62-c12"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-13",
+      "members": [
+        "vb-core-62-c13"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-14",
+      "members": [
+        "vb-core-62-c14"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-15",
+      "members": [
+        "vb-core-62-c15"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 0,
+      "id": "vb-core-62-c0"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 1,
+      "id": "vb-core-62-c1"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 2,
+      "id": "vb-core-62-c2"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 3,
+      "id": "vb-core-62-c3"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 4,
+      "id": "vb-core-62-c4"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 5,
+      "id": "vb-core-62-c5"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 6,
+      "id": "vb-core-62-c6"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 7,
+      "id": "vb-core-62-c7"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 8,
+      "id": "vb-core-62-c8"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 9,
+      "id": "vb-core-62-c9"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 10,
+      "id": "vb-core-62-c10"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 11,
+      "id": "vb-core-62-c11"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 12,
+      "id": "vb-core-62-c12"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 13,
+      "id": "vb-core-62-c13"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 14,
+      "id": "vb-core-62-c14"
+    },
+    {
+      "alignment_id": "vb-core-62",
+      "column_index": 15,
+      "id": "vb-core-62-c15"
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1"
+}

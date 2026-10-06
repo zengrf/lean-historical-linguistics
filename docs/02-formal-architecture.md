@@ -1,6 +1,6 @@
 # Formal architecture and correctness statements
 
-Status: **design**, except the explicitly identified prototype results and implemented [M1 evidence schema/checker](07-m1-delivery.md), [M2 contextual semantics/certificates](08-m2-delivery.md), [M3 alignment/correspondence checker](09-m3-delivery.md), [M4 bounded reconstruction](10-m4-delivery.md), and [M5 computational pilot](11-m5-delivery.md). M5's independent specialist review is pending; contracts for later modules remain future work.
+Status: **design**, except the explicitly identified prototype results and implemented [M1 evidence schema/checker](07-m1-delivery.md), [M2 contextual semantics/certificates](08-m2-delivery.md), [M3 alignment/correspondence checker](09-m3-delivery.md), [M4 bounded reconstruction](10-m4-delivery.md), [M5 computational pilot](11-m5-delivery.md), and [M6 source scopes and comparative pilot](12-m6-delivery.md). The family-specialist reviews for M5 and M6 remain pending; contracts for later modules remain future work.
 
 ## 1. The object of verification
 
@@ -144,7 +144,7 @@ The current files use `Std`, with no mathlib or linglib dependency.
 | Observational equivalence and fixed-model monotonicity/refinement | **Proved** | `Historical.Identifiability.equivalent_fits`, `equivalent_membership`, `reconstruction_refinement`; M4 |
 | Probabilistic inference correctness and calibration | Planned, optional | M9 |
 
-There are **22 M0 theorem declarations**, five M1 evidence results, 17 M2 results, 35 M3 results, 48 M4 results and six M5 case-study results, for **133 audited declarations** in total. The M0 abstract `Comparative.Rule` remains any total word-to-word function for generic theorems. M2 uses a distinct data-only `Historical.Rules.Rule` grammar; its accepted packages enforce local context bounds, a finite declared inventory and chronological stage continuity. M3 verifies alignment preservation and feasible correspondence partitions. M4 proves bounded inverse reconstruction through the M2 semantics and preserves joint alternatives. M5 checks supplied reference-pool retrieval and forward certificates for an empirical baseline pilot. M1 retains sourced evidence independently. These conditional results do not establish historical plausibility.
+There are **22 M0 theorem declarations**, five M1 evidence results, 17 M2 results, 35 M3 results, 48 M4 results, six M5 case-study results and four M6 path/scope results, for **137 audited declarations** in total. The M0 abstract `Comparative.Rule` remains any total word-to-word function for generic theorems. M2 uses a distinct data-only `Historical.Rules.Rule` grammar; its accepted packages enforce local context bounds, a finite declared inventory and chronological stage continuity. M3 verifies alignment preservation and feasible correspondence partitions. M4 proves bounded inverse reconstruction through the M2 semantics and preserves joint alternatives. M5 checks supplied reference-pool retrieval and forward certificates. M6 proves composition of paths with source-qualified endpoints and checks that inverse queries use one declared source ancestor. M1 retains sourced evidence independently. These conditional results do not establish historical plausibility.
 
 ## 7. Uncertainty, scores and explanations
 

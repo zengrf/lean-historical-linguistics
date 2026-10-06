@@ -1,15 +1,16 @@
 {
   "certificates": 1000,
-  "elapsed_seconds": 1.9449797119013965,
+  "elapsed_seconds": 2.4651570150163025,
   "input_hashes": {
     "data/pie/diagnostic-input.json": "dc58b47fface956f78b5752779e85f8b577ccdb21fc53230b66789889e05ea90",
+    "lean/Historical/Batch.lean": "5cad833b718db40cc93958c84a9295b3447c1b80b6c811f4ea9cb8d95307ade1",
     "lean/Historical/CaseStudy.lean": "56321998a56f142dee89158ffc24603c3d9298d11612748e05681e245d072d61",
-    "lean/PieCheck.lean": "20ad5855580f00907c93f8d900a3b2938741d8818fcd473f786ffd86121521db",
-    "scripts/benchmark_pie.py": "8d0270b2ecda1dc21831289c56dd5e67bbba096a8a469af2711921501ca6a8f1"
+    "lean/PieCheck.lean": "0ba6286fa0bbc8b3f77772b48bbb275d4428317130d530da168a2a1d5e78f7e7",
+    "scripts/benchmark_pie.py": "6d9922f9b8e22c623b7870bf23ca477c5c27d27e7628a826950abc46979131c9"
   },
   "memory_limit_bytes": 2147483648,
   "passed": true,
-  "peak_resident_bytes": 53366784,
+  "peak_resident_bytes": 53399552,
   "platform": {
     "machine": "x86_64",
     "release": "19.6.0",

@@ -210,7 +210,7 @@ def summaries(corpus,design,executions,alignment_results,evidence,adversarial):
                     dict(id="M5-signoff",status="passed" if review["passed"] else "pending",evidence="Independent human family-specialist approval is required; computational checks cannot supply it.")],
                 lexical=metrics(corpus,design,executions["lexical"]),source_analysis_comparison=package_scores,latin_control=latin,
                 leakage=leakage,review=review,evidence=evidence,alignments=alignment_results,adversarial=adversarial,benchmark=benchmark,
-                proof_audit=dict(declarations=133,new_case_study_theorems=6,project_axioms=False,proof_placeholders=False),
+                proof_audit=dict(declarations=137,new_case_study_theorems=6,project_axioms=False,proof_placeholders=False),
                 limitations=["This is an empirical baseline pilot with low full-word coverage, not a completed PIE sound-law reconstruction.",
                              "Root-to-lexeme morphology and many sound changes are outside the lexical baselines; exact matches alone are not validated etymologies.",
                              "Eight laryngeal cases test projected onsets, not full-word reflexes. Ten chronology controls are synthetic.",

@@ -1,0 +1,121 @@
+{
+  "candidates": [
+    {
+      "analysis_id": "N-anticausative",
+      "branches": [
+        {
+          "certificate_accepted": true,
+          "doculect_id": "MC-transitive",
+          "input": [
+            "p"
+          ],
+          "observation_satisfied": true,
+          "output": [
+            "p"
+          ],
+          "package_id": "N-anticausative-MC-transitive",
+          "package_version": "1.0.0",
+          "steps": []
+        },
+        {
+          "certificate_accepted": true,
+          "doculect_id": "MC-intransitive",
+          "input": [
+            "p"
+          ],
+          "observation_satisfied": true,
+          "output": [
+            "b"
+          ],
+          "package_id": "N-anticausative-MC-intransitive",
+          "package_version": "1.0.0",
+          "steps": [
+            {
+              "input_stage": "basic-onset-projection",
+              "output": [
+                "b"
+              ],
+              "output_stage": "N-anticausative-MC-intransitive-stage-1",
+              "rule_id": "N-anticausative-MC-intransitive-law-1"
+            }
+          ]
+        }
+      ],
+      "choice_bindings": [
+        {
+          "group_id": "voice-analysis",
+          "option_id": "N-anticausative"
+        }
+      ],
+      "proto_node_id": "basic-onset-projection",
+      "protoform": [
+        "p"
+      ]
+    },
+    {
+      "analysis_id": "s-devoicing",
+      "branches": [
+        {
+          "certificate_accepted": true,
+          "doculect_id": "MC-transitive",
+          "input": [
+            "b"
+          ],
+          "observation_satisfied": true,
+          "output": [
+            "p"
+          ],
+          "package_id": "s-devoicing-MC-transitive",
+          "package_version": "1.0.0",
+          "steps": [
+            {
+              "input_stage": "basic-onset-projection",
+              "output": [
+                "p"
+              ],
+              "output_stage": "s-devoicing-MC-transitive-stage-1",
+              "rule_id": "s-devoicing-MC-transitive-law-1"
+            }
+          ]
+        },
+        {
+          "certificate_accepted": true,
+          "doculect_id": "MC-intransitive",
+          "input": [
+            "b"
+          ],
+          "observation_satisfied": true,
+          "output": [
+            "b"
+          ],
+          "package_id": "s-devoicing-MC-intransitive",
+          "package_version": "1.0.0",
+          "steps": []
+        }
+      ],
+      "choice_bindings": [
+        {
+          "group_id": "voice-analysis",
+          "option_id": "s-devoicing"
+        }
+      ],
+      "proto_node_id": "basic-onset-projection",
+      "protoform": [
+        "b"
+      ]
+    }
+  ],
+  "claim": "bounded-relative-completeness",
+  "complete": true,
+  "distinct_protoform_count": 2,
+  "examined": 6,
+  "history_count": 2,
+  "id": "m6-voice-paradigm-projection",
+  "input_valid": true,
+  "issues": [],
+  "no_candidate_in_scope": false,
+  "raw_hypothesis_upper_bound": 6,
+  "reason": "exhausted",
+  "scope_size": 6,
+  "status": "complete"
+}

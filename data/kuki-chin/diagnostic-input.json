@@ -1,0 +1,3093 @@
+{
+  "batch": {
+    "forward": [
+      {
+        "expected": [
+          "b"
+        ],
+        "id": "implosive-central--vanbik-central",
+        "input": [
+          "ɓ"
+        ],
+        "package_id": "vanbik-central"
+      },
+      {
+        "expected": [
+          "ɓ"
+        ],
+        "id": "implosive-mindat--vanbik-mindat",
+        "input": [
+          "ɓ"
+        ],
+        "package_id": "vanbik-mindat"
+      },
+      {
+        "expected": [
+          "d"
+        ],
+        "id": "dental-central--vanbik-central",
+        "input": [
+          "ɗ"
+        ],
+        "package_id": "vanbik-central"
+      },
+      {
+        "expected": [
+          "ɗ"
+        ],
+        "id": "dental-mindat--vanbik-mindat",
+        "input": [
+          "ɗ"
+        ],
+        "package_id": "vanbik-mindat"
+      },
+      {
+        "expected": [
+          "r"
+        ],
+        "id": "r-central--vanbik-central",
+        "input": [
+          "r"
+        ],
+        "package_id": "vanbik-central"
+      },
+      {
+        "expected": [
+          "g"
+        ],
+        "id": "r-peripheral--vanbik-northern",
+        "input": [
+          "r"
+        ],
+        "package_id": "vanbik-northern"
+      },
+      {
+        "expected": [
+          "v"
+        ],
+        "id": "w-central--vanbik-central",
+        "input": [
+          "w"
+        ],
+        "package_id": "vanbik-central"
+      },
+      {
+        "expected": [
+          "v"
+        ],
+        "id": "w-northern--vanbik-northern",
+        "input": [
+          "w"
+        ],
+        "package_id": "vanbik-northern"
+      },
+      {
+        "expected": [
+          "z"
+        ],
+        "id": "y-central--vanbik-central",
+        "input": [
+          "y"
+        ],
+        "package_id": "vanbik-central"
+      },
+      {
+        "expected": [
+          "f"
+        ],
+        "id": "dental-fricative--vanbik-central",
+        "input": [
+          "θ"
+        ],
+        "package_id": "vanbik-central"
+      },
+      {
+        "expected": [
+          "ɓ"
+        ],
+        "id": "plain-stop-mindat--plain-stop-retention-control",
+        "input": [
+          "b"
+        ],
+        "package_id": "plain-stop-retention-control"
+      },
+      {
+        "expected": [
+          "s",
+          "a"
+        ],
+        "id": "sr-kill--sr-broad",
+        "input": [
+          "s",
+          "r",
+          "a"
+        ],
+        "package_id": "sr-broad"
+      },
+      {
+        "expected": [
+          "s",
+          "a"
+        ],
+        "id": "sr-kill--sr-restricted",
+        "input": [
+          "s",
+          "r",
+          "a"
+        ],
+        "package_id": "sr-restricted"
+      },
+      {
+        "expected": [
+          "s",
+          "o"
+        ],
+        "id": "sr-suck--sr-broad",
+        "input": [
+          "s",
+          "r",
+          "o"
+        ],
+        "package_id": "sr-broad"
+      },
+      {
+        "expected": [
+          "s",
+          "o"
+        ],
+        "id": "sr-suck--sr-restricted",
+        "input": [
+          "s",
+          "r",
+          "o"
+        ],
+        "package_id": "sr-restricted"
+      },
+      {
+        "expected": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "id": "sr-shame--sr-broad",
+        "input": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "package_id": "sr-broad"
+      },
+      {
+        "expected": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "id": "sr-shame--sr-restricted",
+        "input": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "package_id": "sr-restricted"
+      },
+      {
+        "expected": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "id": "sr-root--sr-broad",
+        "input": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "package_id": "sr-broad"
+      },
+      {
+        "expected": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "id": "sr-root--sr-restricted",
+        "input": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "package_id": "sr-restricted"
+      },
+      {
+        "expected": [
+          "ɕ"
+        ],
+        "id": "sr-louse--Tibetan-sr-cluster",
+        "input": [
+          "s",
+          "r"
+        ],
+        "package_id": "Tibetan-sr-cluster"
+      },
+      {
+        "expected": [
+          "s",
+          "r"
+        ],
+        "id": "sr-presyllable--Tibetan-syllabic-prefix",
+        "input": [
+          "s",
+          "ə",
+          "r"
+        ],
+        "package_id": "Tibetan-syllabic-prefix"
+      },
+      {
+        "expected": [
+          "s",
+          "o"
+        ],
+        "id": "wa-tooth--early-wa-late-fusion",
+        "input": [
+          "s",
+          "w",
+          "a"
+        ],
+        "package_id": "early-wa-late-fusion"
+      },
+      {
+        "expected": [
+          "s",
+          "o"
+        ],
+        "id": "wa-tooth--fusion-before-wa-control",
+        "input": [
+          "s",
+          "w",
+          "a"
+        ],
+        "package_id": "fusion-before-wa-control"
+      },
+      {
+        "expected": [
+          "t",
+          "o"
+        ],
+        "id": "wa-handspan--early-wa-late-fusion",
+        "input": [
+          "t",
+          "w",
+          "a"
+        ],
+        "package_id": "early-wa-late-fusion"
+      },
+      {
+        "expected": [
+          "t",
+          "o"
+        ],
+        "id": "wa-handspan--fusion-before-wa-control",
+        "input": [
+          "t",
+          "w",
+          "a"
+        ],
+        "package_id": "fusion-before-wa-control"
+      },
+      {
+        "expected": [
+          "r",
+          "w",
+          "a"
+        ],
+        "id": "wa-horn--early-wa-late-fusion",
+        "input": [
+          "r",
+          "u",
+          "b",
+          "a"
+        ],
+        "package_id": "early-wa-late-fusion"
+      },
+      {
+        "expected": [
+          "r",
+          "w",
+          "a"
+        ],
+        "id": "wa-horn--fusion-before-wa-control",
+        "input": [
+          "r",
+          "u",
+          "b",
+          "a"
+        ],
+        "package_id": "fusion-before-wa-control"
+      },
+      {
+        "expected": [
+          "g",
+          "r",
+          "w",
+          "a"
+        ],
+        "id": "wa-angle--early-wa-late-fusion",
+        "input": [
+          "g",
+          "r",
+          "u",
+          "b",
+          "a"
+        ],
+        "package_id": "early-wa-late-fusion"
+      },
+      {
+        "expected": [
+          "g",
+          "r",
+          "w",
+          "a"
+        ],
+        "id": "wa-angle--fusion-before-wa-control",
+        "input": [
+          "g",
+          "r",
+          "u",
+          "b",
+          "a"
+        ],
+        "package_id": "fusion-before-wa-control"
+      },
+      {
+        "expected": [
+          "z"
+        ],
+        "id": "tib-bridge--nasal-attrition",
+        "input": [
+          "ndz"
+        ],
+        "package_id": "nasal-attrition"
+      },
+      {
+        "expected": [
+          "d"
+        ],
+        "id": "tib-poison--nasal-attrition",
+        "input": [
+          "nd"
+        ],
+        "package_id": "nasal-attrition"
+      },
+      {
+        "expected": [
+          "z"
+        ],
+        "id": "tib-eat--nasal-attrition",
+        "input": [
+          "dz"
+        ],
+        "package_id": "nasal-attrition"
+      },
+      {
+        "expected": [
+          "g",
+          "l"
+        ],
+        "id": "tib-eagle-G--prefix-merger",
+        "input": [
+          "G",
+          "V",
+          "l"
+        ],
+        "package_id": "prefix-merger"
+      },
+      {
+        "expected": [
+          "g",
+          "l"
+        ],
+        "id": "tib-eagle-D--prefix-merger",
+        "input": [
+          "D",
+          "V",
+          "l"
+        ],
+        "package_id": "prefix-merger"
+      },
+      {
+        "expected": [
+          "g",
+          "s",
+          "o",
+          "d"
+        ],
+        "id": "tib-kill-G--TAM-rounding",
+        "input": [
+          "G",
+          "o",
+          "s",
+          "a",
+          "t"
+        ],
+        "package_id": "TAM-rounding"
+      },
+      {
+        "expected": [
+          "g",
+          "s",
+          "o",
+          "d"
+        ],
+        "id": "tib-kill-D--TAM-rounding",
+        "input": [
+          "D",
+          "o",
+          "s",
+          "a",
+          "t"
+        ],
+        "package_id": "TAM-rounding"
+      },
+      {
+        "expected": [
+          "n̥"
+        ],
+        "id": "prefix-nose--early-tight-sn",
+        "input": [
+          "s",
+          "n"
+        ],
+        "package_id": "early-tight-sn"
+      },
+      {
+        "expected": [
+          "p"
+        ],
+        "id": "N-transitive--N-voicing",
+        "input": [
+          "p"
+        ],
+        "package_id": "N-voicing"
+      },
+      {
+        "expected": [
+          "b"
+        ],
+        "id": "N-intransitive--N-voicing",
+        "input": [
+          "N",
+          "p"
+        ],
+        "package_id": "N-voicing"
+      },
+      {
+        "expected": [
+          "p"
+        ],
+        "id": "s-transitive--s-devoicing-control",
+        "input": [
+          "s",
+          "b"
+        ],
+        "package_id": "s-devoicing-control"
+      },
+      {
+        "expected": [
+          "b"
+        ],
+        "id": "s-intransitive--s-devoicing-control",
+        "input": [
+          "b"
+        ],
+        "package_id": "s-devoicing-control"
+      },
+      {
+        "expected": [
+          "k",
+          "s"
+        ],
+        "id": "suffix-coda--grave-coda-t-to-s",
+        "input": [
+          "k",
+          "t"
+        ],
+        "package_id": "grave-coda-t-to-s"
+      },
+      {
+        "expected": [
+          "k",
+          "s"
+        ],
+        "id": "suffix-coda--unconditioned-t-to-s-control",
+        "input": [
+          "k",
+          "t"
+        ],
+        "package_id": "unconditioned-t-to-s-control"
+      },
+      {
+        "expected": [
+          "l",
+          "t"
+        ],
+        "id": "suffix-l-control--grave-coda-t-to-s",
+        "input": [
+          "l",
+          "t"
+        ],
+        "package_id": "grave-coda-t-to-s"
+      },
+      {
+        "expected": [
+          "l",
+          "t"
+        ],
+        "id": "suffix-l-control--unconditioned-t-to-s-control",
+        "input": [
+          "l",
+          "t"
+        ],
+        "package_id": "unconditioned-t-to-s-control"
+      },
+      {
+        "expected": [
+          "s"
+        ],
+        "id": "suffix-middle--middle-i-loss",
+        "input": [
+          "s",
+          "i"
+        ],
+        "package_id": "middle-i-loss"
+      }
+    ],
+    "id": "m6-source-fragments",
+    "inverse": [
+      {
+        "branches": [
+          {
+            "doculect_id": "onset-a",
+            "expected": [
+              "z"
+            ],
+            "package_id": "merger-daughter-a"
+          },
+          {
+            "doculect_id": "onset-b",
+            "expected": [
+              "z"
+            ],
+            "package_id": "merger-daughter-b"
+          }
+        ],
+        "id": "merged-affricate-pool",
+        "pool": [
+          [
+            "ndz"
+          ],
+          [
+            "dz"
+          ],
+          [
+            "p"
+          ]
+        ],
+        "reference": [
+          [
+            "ndz"
+          ]
+        ]
+      }
+    ],
+    "packages": [
+      {
+        "description": "VanBik's cited initial correspondence only; no full-word derivation",
+        "final_stage": "vanbik-central-stage-5",
+        "id": "vanbik-central",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "vanbik-central-law-1",
+            "input_stage": "published-root",
+            "output_stage": "vanbik-central-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "b",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "ɓ"
+              ]
+            }
+          },
+          {
+            "id": "vanbik-central-law-2",
+            "input_stage": "vanbik-central-stage-1",
+            "output_stage": "vanbik-central-stage-2",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "d",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "ɗ"
+              ]
+            }
+          },
+          {
+            "id": "vanbik-central-law-3",
+            "input_stage": "vanbik-central-stage-2",
+            "output_stage": "vanbik-central-stage-3",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "v",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "w"
+              ]
+            }
+          },
+          {
+            "id": "vanbik-central-law-4",
+            "input_stage": "vanbik-central-stage-3",
+            "output_stage": "vanbik-central-stage-4",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "z",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "y"
+              ]
+            }
+          },
+          {
+            "id": "vanbik-central-law-5",
+            "input_stage": "vanbik-central-stage-4",
+            "output_stage": "vanbik-central-stage-5",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "f",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "θ"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "VanBik's cited initial correspondence only; no full-word derivation",
+        "final_stage": "vanbik-northern-stage-5",
+        "id": "vanbik-northern",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "vanbik-northern-law-1",
+            "input_stage": "published-root",
+            "output_stage": "vanbik-northern-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "b",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "ɓ"
+              ]
+            }
+          },
+          {
+            "id": "vanbik-northern-law-2",
+            "input_stage": "vanbik-northern-stage-1",
+            "output_stage": "vanbik-northern-stage-2",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "d",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "ɗ"
+              ]
+            }
+          },
+          {
+            "id": "vanbik-northern-law-3",
+            "input_stage": "vanbik-northern-stage-2",
+            "output_stage": "vanbik-northern-stage-3",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "g",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "r"
+              ]
+            }
+          },
+          {
+            "id": "vanbik-northern-law-4",
+            "input_stage": "vanbik-northern-stage-3",
+            "output_stage": "vanbik-northern-stage-4",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "v",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "w"
+              ]
+            }
+          },
+          {
+            "id": "vanbik-northern-law-5",
+            "input_stage": "vanbik-northern-stage-4",
+            "output_stage": "vanbik-northern-stage-5",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "z",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "y"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "VanBik's cited initial correspondence only; no full-word derivation",
+        "final_stage": "vanbik-mindat-stage-2",
+        "id": "vanbik-mindat",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "vanbik-mindat-law-1",
+            "input_stage": "published-root",
+            "output_stage": "vanbik-mindat-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "g",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "r"
+              ]
+            }
+          },
+          {
+            "id": "vanbik-mindat-law-2",
+            "input_stage": "vanbik-mindat-stage-1",
+            "output_stage": "vanbik-mindat-stage-2",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "v",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "w"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Alternative plain-stop input with retention; a diagnostic control, not a complete attribution to Khoi",
+        "final_stage": "published-root",
+        "id": "plain-stop-retention-control",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Handel's non-front condition as reported by Jacques; includes ə",
+        "final_stage": "sr-broad-stage-1",
+        "id": "sr-broad",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "sr-broad-law-1",
+            "input_stage": "published-root",
+            "output_stage": "sr-broad-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "s"
+                ]
+              ],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": null,
+              "right": [
+                [
+                  "a",
+                  "o",
+                  "ə"
+                ]
+              ],
+              "right_edge": false,
+              "target": [
+                "r"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Jacques's possible narrower condition; this alone is not a complete daughter-language history",
+        "final_stage": "sr-restricted-stage-1",
+        "id": "sr-restricted",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "sr-restricted-law-1",
+            "input_stage": "published-root",
+            "output_stage": "sr-restricted-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "s"
+                ]
+              ],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": null,
+              "right": [
+                [
+                  "a",
+                  "o"
+                ]
+              ],
+              "right_edge": false,
+              "target": [
+                "r"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Cluster sr > ɕ, expressed by two atomic edits",
+        "final_stage": "Tibetan-sr-cluster-stage-2",
+        "id": "Tibetan-sr-cluster",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "Tibetan-sr-cluster-law-1",
+            "input_stage": "published-root",
+            "output_stage": "Tibetan-sr-cluster-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "s"
+                ]
+              ],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": null,
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "r"
+              ]
+            }
+          },
+          {
+            "id": "Tibetan-sr-cluster-law-2",
+            "input_stage": "Tibetan-sr-cluster-stage-1",
+            "output_stage": "Tibetan-sr-cluster-stage-2",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "ɕ",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "s"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "sə-r loses the vowel and preserves sr",
+        "final_stage": "Tibetan-syllabic-prefix-stage-1",
+        "id": "Tibetan-syllabic-prefix",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "Tibetan-syllabic-prefix-law-1",
+            "input_stage": "published-root",
+            "output_stage": "Tibetan-syllabic-prefix-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "s"
+                ]
+              ],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": null,
+              "right": [
+                [
+                  "r"
+                ]
+              ],
+              "right_edge": false,
+              "target": [
+                "ə"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Jacques's relative chronology, restricted to the nominal u-ba fragment",
+        "final_stage": "early-wa-late-fusion-stage-4",
+        "id": "early-wa-late-fusion",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "early-wa-late-fusion-law-1",
+            "input_stage": "published-root",
+            "output_stage": "early-wa-late-fusion-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "w"
+                ]
+              ],
+              "left_edge": false,
+              "mode": "simultaneous",
+              "replacement": "o",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "a"
+              ]
+            }
+          },
+          {
+            "id": "early-wa-late-fusion-law-2",
+            "input_stage": "early-wa-late-fusion-stage-1",
+            "output_stage": "early-wa-late-fusion-stage-2",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": false,
+              "mode": "simultaneous",
+              "replacement": null,
+              "right": [
+                [
+                  "o"
+                ]
+              ],
+              "right_edge": false,
+              "target": [
+                "w"
+              ]
+            }
+          },
+          {
+            "id": "early-wa-late-fusion-law-3",
+            "input_stage": "early-wa-late-fusion-stage-2",
+            "output_stage": "early-wa-late-fusion-stage-3",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "u"
+                ]
+              ],
+              "left_edge": false,
+              "mode": "simultaneous",
+              "replacement": null,
+              "right": [
+                [
+                  "a"
+                ]
+              ],
+              "right_edge": false,
+              "target": [
+                "b"
+              ]
+            }
+          },
+          {
+            "id": "early-wa-late-fusion-law-4",
+            "input_stage": "early-wa-late-fusion-stage-3",
+            "output_stage": "early-wa-late-fusion-stage-4",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": false,
+              "mode": "simultaneous",
+              "replacement": "w",
+              "right": [
+                [
+                  "a"
+                ]
+              ],
+              "right_edge": false,
+              "target": [
+                "u"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Wrong-order diagnostic control",
+        "final_stage": "fusion-before-wa-control-stage-4",
+        "id": "fusion-before-wa-control",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "fusion-before-wa-control-law-1",
+            "input_stage": "published-root",
+            "output_stage": "fusion-before-wa-control-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "u"
+                ]
+              ],
+              "left_edge": false,
+              "mode": "simultaneous",
+              "replacement": null,
+              "right": [
+                [
+                  "a"
+                ]
+              ],
+              "right_edge": false,
+              "target": [
+                "b"
+              ]
+            }
+          },
+          {
+            "id": "fusion-before-wa-control-law-2",
+            "input_stage": "fusion-before-wa-control-stage-1",
+            "output_stage": "fusion-before-wa-control-stage-2",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": false,
+              "mode": "simultaneous",
+              "replacement": "w",
+              "right": [
+                [
+                  "a"
+                ]
+              ],
+              "right_edge": false,
+              "target": [
+                "u"
+              ]
+            }
+          },
+          {
+            "id": "fusion-before-wa-control-law-3",
+            "input_stage": "fusion-before-wa-control-stage-2",
+            "output_stage": "fusion-before-wa-control-stage-3",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "w"
+                ]
+              ],
+              "left_edge": false,
+              "mode": "simultaneous",
+              "replacement": "o",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "a"
+              ]
+            }
+          },
+          {
+            "id": "fusion-before-wa-control-law-4",
+            "input_stage": "fusion-before-wa-control-stage-3",
+            "output_stage": "fusion-before-wa-control-stage-4",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": false,
+              "mode": "simultaneous",
+              "replacement": null,
+              "right": [
+                [
+                  "o"
+                ]
+              ],
+              "right_edge": false,
+              "target": [
+                "w"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Two ordered onset changes from Jacques's nasal attrition account",
+        "final_stage": "nasal-attrition-stage-3",
+        "id": "nasal-attrition",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "nasal-attrition-law-1",
+            "input_stage": "published-root",
+            "output_stage": "nasal-attrition-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "dz",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "ndz"
+              ]
+            }
+          },
+          {
+            "id": "nasal-attrition-law-2",
+            "input_stage": "nasal-attrition-stage-1",
+            "output_stage": "nasal-attrition-stage-2",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "d",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "nd"
+              ]
+            }
+          },
+          {
+            "id": "nasal-attrition-law-3",
+            "input_stage": "nasal-attrition-stage-2",
+            "output_stage": "nasal-attrition-stage-3",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "z",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "dz"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Abstract G/D and unspecified non-o vowel V; merger diagnostic, not a choice of their phonetic values",
+        "final_stage": "prefix-merger-stage-2",
+        "id": "prefix-merger",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "prefix-merger-law-1",
+            "input_stage": "published-root",
+            "output_stage": "prefix-merger-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "g",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "G",
+                "D"
+              ]
+            }
+          },
+          {
+            "id": "prefix-merger-law-2",
+            "input_stage": "prefix-merger-stage-1",
+            "output_stage": "prefix-merger-stage-2",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "g"
+                ]
+              ],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": null,
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "V"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Present Go/Do-sat > gsod fragment. Does not implement the whole verbal paradigm.",
+        "final_stage": "TAM-rounding-stage-4",
+        "id": "TAM-rounding",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "TAM-rounding-law-1",
+            "input_stage": "published-root",
+            "output_stage": "TAM-rounding-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "s"
+                ],
+                [
+                  "o"
+                ]
+              ],
+              "left_edge": false,
+              "mode": "simultaneous",
+              "replacement": "o",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "a"
+              ]
+            }
+          },
+          {
+            "id": "TAM-rounding-law-2",
+            "input_stage": "TAM-rounding-stage-1",
+            "output_stage": "TAM-rounding-stage-2",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "G",
+                  "D"
+                ]
+              ],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": null,
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "o"
+              ]
+            }
+          },
+          {
+            "id": "TAM-rounding-law-3",
+            "input_stage": "TAM-rounding-stage-2",
+            "output_stage": "TAM-rounding-stage-3",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "g",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "G",
+                "D"
+              ]
+            }
+          },
+          {
+            "id": "TAM-rounding-law-4",
+            "input_stage": "TAM-rounding-stage-3",
+            "output_stage": "TAM-rounding-stage-4",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": false,
+              "mode": "simultaneous",
+              "replacement": "d",
+              "right": [],
+              "right_edge": true,
+              "target": [
+                "t"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Hypothetical pre-OC sn > voiceless n; this is not an OC s-cluster claim",
+        "final_stage": "early-tight-sn-stage-2",
+        "id": "early-tight-sn",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "early-tight-sn-law-1",
+            "input_stage": "published-root",
+            "output_stage": "early-tight-sn-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "s"
+                ]
+              ],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "n̥",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "n"
+              ]
+            }
+          },
+          {
+            "id": "early-tight-sn-law-2",
+            "input_stage": "early-tight-sn-stage-1",
+            "output_stage": "early-tight-sn-stage-2",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": null,
+              "right": [
+                [
+                  "n̥"
+                ]
+              ],
+              "right_edge": false,
+              "target": [
+                "s"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Post-OC nasal-induced voicing, onset projection",
+        "final_stage": "N-voicing-stage-2",
+        "id": "N-voicing",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "N-voicing-law-1",
+            "input_stage": "published-root",
+            "output_stage": "N-voicing-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "N"
+                ]
+              ],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "b",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "p"
+              ]
+            }
+          },
+          {
+            "id": "N-voicing-law-2",
+            "input_stage": "N-voicing-stage-1",
+            "output_stage": "N-voicing-stage-2",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": null,
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "N"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Reported competing derivational direction, onset projection",
+        "final_stage": "s-devoicing-control-stage-2",
+        "id": "s-devoicing-control",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "s-devoicing-control-law-1",
+            "input_stage": "published-root",
+            "output_stage": "s-devoicing-control-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "s"
+                ]
+              ],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "p",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "b"
+              ]
+            }
+          },
+          {
+            "id": "s-devoicing-control-law-2",
+            "input_stage": "s-devoicing-control-stage-1",
+            "output_stage": "s-devoicing-control-stage-2",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": null,
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "s"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Jacques's proposed t > s after a subset of codas, instantiated here only for labial/velar codas",
+        "final_stage": "grave-coda-t-to-s-stage-1",
+        "id": "grave-coda-t-to-s",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "grave-coda-t-to-s-law-1",
+            "input_stage": "published-root",
+            "output_stage": "grave-coda-t-to-s-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "p",
+                  "m",
+                  "k",
+                  "ŋ"
+                ]
+              ],
+              "left_edge": false,
+              "mode": "simultaneous",
+              "replacement": "s",
+              "right": [],
+              "right_edge": true,
+              "target": [
+                "t"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Overgeneralized control; wrongly changes t after l",
+        "final_stage": "unconditioned-t-to-s-control-stage-1",
+        "id": "unconditioned-t-to-s-control",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "unconditioned-t-to-s-control-law-1",
+            "input_stage": "published-root",
+            "output_stage": "unconditioned-t-to-s-control-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": false,
+              "mode": "simultaneous",
+              "replacement": "s",
+              "right": [],
+              "right_edge": true,
+              "target": [
+                "t"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Hypothesized loss of the vowel in a middle si suffix, without deriving an entire lexical form",
+        "final_stage": "middle-i-loss-stage-1",
+        "id": "middle-i-loss",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "middle-i-loss-law-1",
+            "input_stage": "published-root",
+            "output_stage": "middle-i-loss-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [
+                [
+                  "s"
+                ]
+              ],
+              "left_edge": false,
+              "mode": "simultaneous",
+              "replacement": null,
+              "right": [],
+              "right_edge": true,
+              "target": [
+                "i"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Replicated merger functions as a synthetic identifiability control",
+        "final_stage": "merger-daughter-a-stage-2",
+        "id": "merger-daughter-a",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "merger-daughter-a-law-1",
+            "input_stage": "published-root",
+            "output_stage": "merger-daughter-a-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "dz",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "ndz"
+              ]
+            }
+          },
+          {
+            "id": "merger-daughter-a-law-2",
+            "input_stage": "merger-daughter-a-stage-1",
+            "output_stage": "merger-daughter-a-stage-2",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "z",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "dz"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      },
+      {
+        "description": "Replicated merger functions as a synthetic identifiability control",
+        "final_stage": "merger-daughter-b-stage-2",
+        "id": "merger-daughter-b",
+        "initial_stage": "published-root",
+        "inventory": [
+          "B",
+          "D",
+          "G",
+          "N",
+          "T1",
+          "T2",
+          "T3",
+          "TC-I",
+          "TC-IIA",
+          "TC-IIB",
+          "TC-III",
+          "V",
+          "a",
+          "b",
+          "d",
+          "dz",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "k",
+          "l",
+          "m",
+          "n",
+          "nd",
+          "ndz",
+          "n̥",
+          "o",
+          "p",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "y",
+          "z",
+          "ŋ",
+          "ɓ",
+          "ɕ",
+          "ɗ",
+          "ə",
+          "ɤ",
+          "ɯ",
+          "ʔ",
+          "ʰ",
+          "θ"
+        ],
+        "laws": [
+          {
+            "id": "merger-daughter-b-law-1",
+            "input_stage": "published-root",
+            "output_stage": "merger-daughter-b-stage-1",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "dz",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "ndz"
+              ]
+            }
+          },
+          {
+            "id": "merger-daughter-b-law-2",
+            "input_stage": "merger-daughter-b-stage-1",
+            "output_stage": "merger-daughter-b-stage-2",
+            "rule": {
+              "direction": "left-to-right",
+              "left": [],
+              "left_edge": true,
+              "mode": "simultaneous",
+              "replacement": "z",
+              "right": [],
+              "right_edge": false,
+              "target": [
+                "dz"
+              ]
+            }
+          }
+        ],
+        "version": "1.0.0"
+      }
+    ],
+    "schema_version": "1.0.0"
+  },
+  "nodes": [
+    {
+      "node_id": "vanbik-2009-PKC",
+      "source_id": "vanbik2009"
+    },
+    {
+      "node_id": "central",
+      "source_id": "vanbik2009"
+    },
+    {
+      "node_id": "northern",
+      "source_id": "vanbik2009"
+    },
+    {
+      "node_id": "mindat",
+      "source_id": "vanbik2009"
+    },
+    {
+      "node_id": "PST-sr-hypothesis",
+      "source_id": "jacques-halshs-01287468"
+    },
+    {
+      "node_id": "non-Sinitic-projection",
+      "source_id": "jacques-halshs-01287468"
+    },
+    {
+      "node_id": "pre-Tibetan-sr",
+      "source_id": "jacques-halshs-01287468"
+    },
+    {
+      "node_id": "Tibetan-onset",
+      "source_id": "jacques-halshs-01287468"
+    },
+    {
+      "node_id": "pre-Tibetan-wa",
+      "source_id": "jacques-halshs-00408281"
+    },
+    {
+      "node_id": "Tibetan-projection",
+      "source_id": "jacques-halshs-00408281"
+    },
+    {
+      "node_id": "pre-Tibetan",
+      "source_id": "jacques2012-internal"
+    },
+    {
+      "node_id": "Tibetan-onset",
+      "source_id": "jacques2012-internal"
+    },
+    {
+      "node_id": "Tibetan-present-projection",
+      "source_id": "jacques2012-internal"
+    },
+    {
+      "node_id": "pre-OC",
+      "source_id": "sagart-hal-00781153"
+    },
+    {
+      "node_id": "OC-onset",
+      "source_id": "sagart-hal-00781153"
+    },
+    {
+      "node_id": "OC",
+      "source_id": "sagart-hal-00781153"
+    },
+    {
+      "node_id": "MC-onset",
+      "source_id": "sagart-hal-00781153"
+    },
+    {
+      "node_id": "Mei-OC-as-reported",
+      "source_id": "sagart-hal-00781153"
+    },
+    {
+      "node_id": "pre-OC-suffix",
+      "source_id": "jacques-halshs-01566036"
+    },
+    {
+      "node_id": "OC-coda",
+      "source_id": "jacques-halshs-01566036"
+    },
+    {
+      "node_id": "onset-a",
+      "source_id": "jacques2012-internal"
+    },
+    {
+      "node_id": "onset-b",
+      "source_id": "jacques2012-internal"
+    }
+  ],
+  "package_scopes": [
+    {
+      "ancestor": {
+        "node_id": "vanbik-2009-PKC",
+        "source_id": "vanbik2009"
+      },
+      "descendant": {
+        "node_id": "central",
+        "source_id": "vanbik2009"
+      },
+      "package_id": "vanbik-central"
+    },
+    {
+      "ancestor": {
+        "node_id": "vanbik-2009-PKC",
+        "source_id": "vanbik2009"
+      },
+      "descendant": {
+        "node_id": "northern",
+        "source_id": "vanbik2009"
+      },
+      "package_id": "vanbik-northern"
+    },
+    {
+      "ancestor": {
+        "node_id": "vanbik-2009-PKC",
+        "source_id": "vanbik2009"
+      },
+      "descendant": {
+        "node_id": "mindat",
+        "source_id": "vanbik2009"
+      },
+      "package_id": "vanbik-mindat"
+    },
+    {
+      "ancestor": {
+        "node_id": "vanbik-2009-PKC",
+        "source_id": "vanbik2009"
+      },
+      "descendant": {
+        "node_id": "mindat",
+        "source_id": "vanbik2009"
+      },
+      "package_id": "plain-stop-retention-control"
+    },
+    {
+      "ancestor": {
+        "node_id": "PST-sr-hypothesis",
+        "source_id": "jacques-halshs-01287468"
+      },
+      "descendant": {
+        "node_id": "non-Sinitic-projection",
+        "source_id": "jacques-halshs-01287468"
+      },
+      "package_id": "sr-broad"
+    },
+    {
+      "ancestor": {
+        "node_id": "PST-sr-hypothesis",
+        "source_id": "jacques-halshs-01287468"
+      },
+      "descendant": {
+        "node_id": "non-Sinitic-projection",
+        "source_id": "jacques-halshs-01287468"
+      },
+      "package_id": "sr-restricted"
+    },
+    {
+      "ancestor": {
+        "node_id": "pre-Tibetan-sr",
+        "source_id": "jacques-halshs-01287468"
+      },
+      "descendant": {
+        "node_id": "Tibetan-onset",
+        "source_id": "jacques-halshs-01287468"
+      },
+      "package_id": "Tibetan-sr-cluster"
+    },
+    {
+      "ancestor": {
+        "node_id": "pre-Tibetan-sr",
+        "source_id": "jacques-halshs-01287468"
+      },
+      "descendant": {
+        "node_id": "Tibetan-onset",
+        "source_id": "jacques-halshs-01287468"
+      },
+      "package_id": "Tibetan-syllabic-prefix"
+    },
+    {
+      "ancestor": {
+        "node_id": "pre-Tibetan-wa",
+        "source_id": "jacques-halshs-00408281"
+      },
+      "descendant": {
+        "node_id": "Tibetan-projection",
+        "source_id": "jacques-halshs-00408281"
+      },
+      "package_id": "early-wa-late-fusion"
+    },
+    {
+      "ancestor": {
+        "node_id": "pre-Tibetan-wa",
+        "source_id": "jacques-halshs-00408281"
+      },
+      "descendant": {
+        "node_id": "Tibetan-projection",
+        "source_id": "jacques-halshs-00408281"
+      },
+      "package_id": "fusion-before-wa-control"
+    },
+    {
+      "ancestor": {
+        "node_id": "pre-Tibetan",
+        "source_id": "jacques2012-internal"
+      },
+      "descendant": {
+        "node_id": "Tibetan-onset",
+        "source_id": "jacques2012-internal"
+      },
+      "package_id": "nasal-attrition"
+    },
+    {
+      "ancestor": {
+        "node_id": "pre-Tibetan",
+        "source_id": "jacques2012-internal"
+      },
+      "descendant": {
+        "node_id": "Tibetan-onset",
+        "source_id": "jacques2012-internal"
+      },
+      "package_id": "prefix-merger"
+    },
+    {
+      "ancestor": {
+        "node_id": "pre-Tibetan",
+        "source_id": "jacques2012-internal"
+      },
+      "descendant": {
+        "node_id": "Tibetan-present-projection",
+        "source_id": "jacques2012-internal"
+      },
+      "package_id": "TAM-rounding"
+    },
+    {
+      "ancestor": {
+        "node_id": "pre-OC",
+        "source_id": "sagart-hal-00781153"
+      },
+      "descendant": {
+        "node_id": "OC-onset",
+        "source_id": "sagart-hal-00781153"
+      },
+      "package_id": "early-tight-sn"
+    },
+    {
+      "ancestor": {
+        "node_id": "OC",
+        "source_id": "sagart-hal-00781153"
+      },
+      "descendant": {
+        "node_id": "MC-onset",
+        "source_id": "sagart-hal-00781153"
+      },
+      "package_id": "N-voicing"
+    },
+    {
+      "ancestor": {
+        "node_id": "Mei-OC-as-reported",
+        "source_id": "sagart-hal-00781153"
+      },
+      "descendant": {
+        "node_id": "MC-onset",
+        "source_id": "sagart-hal-00781153"
+      },
+      "package_id": "s-devoicing-control"
+    },
+    {
+      "ancestor": {
+        "node_id": "pre-OC-suffix",
+        "source_id": "jacques-halshs-01566036"
+      },
+      "descendant": {
+        "node_id": "OC-coda",
+        "source_id": "jacques-halshs-01566036"
+      },
+      "package_id": "grave-coda-t-to-s"
+    },
+    {
+      "ancestor": {
+        "node_id": "pre-OC-suffix",
+        "source_id": "jacques-halshs-01566036"
+      },
+      "descendant": {
+        "node_id": "OC-coda",
+        "source_id": "jacques-halshs-01566036"
+      },
+      "package_id": "unconditioned-t-to-s-control"
+    },
+    {
+      "ancestor": {
+        "node_id": "pre-OC-suffix",
+        "source_id": "jacques-halshs-01566036"
+      },
+      "descendant": {
+        "node_id": "OC-coda",
+        "source_id": "jacques-halshs-01566036"
+      },
+      "package_id": "middle-i-loss"
+    },
+    {
+      "ancestor": {
+        "node_id": "pre-Tibetan",
+        "source_id": "jacques2012-internal"
+      },
+      "descendant": {
+        "node_id": "onset-a",
+        "source_id": "jacques2012-internal"
+      },
+      "package_id": "merger-daughter-a"
+    },
+    {
+      "ancestor": {
+        "node_id": "pre-Tibetan",
+        "source_id": "jacques2012-internal"
+      },
+      "descendant": {
+        "node_id": "onset-b",
+        "source_id": "jacques2012-internal"
+      },
+      "package_id": "merger-daughter-b"
+    }
+  ],
+  "query_scopes": [
+    {
+      "ancestor": {
+        "node_id": "pre-Tibetan",
+        "source_id": "jacques2012-internal"
+      },
+      "query_id": "merged-affricate-pool"
+    }
+  ],
+  "schema_version": "1.0.0"
+}

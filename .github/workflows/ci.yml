@@ -55,6 +55,11 @@ jobs:
         run: |
           python scripts/build_catalogue.py
           git diff --exit-code -- bibliography/README.md bibliography/references.bib library/THIRD_PARTY_NOTICES.md
+      - name: Check M6 frozen sources, experiments and specialist-review status
+        run: |
+          python scripts/verify_m6.py --check-report
+          python scripts/review_sino_tibetan.py
+          git diff --exit-code -- reports/sino-tibetan-review.json
 
   lean:
     runs-on: ubuntu-latest
@@ -115,3 +120,9 @@ jobs:
           python scripts/verify_m5.py --check-report
           python scripts/benchmark_pie.py --output "$RUNNER_TEMP/pie-benchmark.json"
           git diff --exit-code -- reports/pie-evaluation.json reports/pie-lexical-execution.json reports/pie-diagnostic-execution.json reports/pie-latin-control-execution.json
+      - name: M6 source scopes, comparative data and complete inverse sets
+        run: |
+          python scripts/verify_m6.py --audit "$RUNNER_TEMP/axioms.txt"
+          python scripts/verify_m6.py --check-report
+          python scripts/benchmark_m6.py --output "$RUNNER_TEMP/sino-tibetan-benchmark.json"
+          git diff --exit-code -- reports/sino-tibetan-evaluation.json reports/sino-tibetan-lexical-execution.json reports/sino-tibetan-diagnostic-execution.json reports/sino-tibetan-joint-execution.json

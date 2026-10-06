@@ -1,0 +1,2049 @@
+{
+  "result": {
+    "forward": [
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "b"
+        ],
+        "id": "implosive-central--vanbik-central",
+        "input": [
+          "ɓ"
+        ],
+        "output": [
+          "b"
+        ],
+        "package_id": "vanbik-central",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "b"
+            ],
+            "output_stage": "vanbik-central-stage-1",
+            "rule_id": "vanbik-central-law-1"
+          },
+          {
+            "input_stage": "vanbik-central-stage-1",
+            "output": [
+              "b"
+            ],
+            "output_stage": "vanbik-central-stage-2",
+            "rule_id": "vanbik-central-law-2"
+          },
+          {
+            "input_stage": "vanbik-central-stage-2",
+            "output": [
+              "b"
+            ],
+            "output_stage": "vanbik-central-stage-3",
+            "rule_id": "vanbik-central-law-3"
+          },
+          {
+            "input_stage": "vanbik-central-stage-3",
+            "output": [
+              "b"
+            ],
+            "output_stage": "vanbik-central-stage-4",
+            "rule_id": "vanbik-central-law-4"
+          },
+          {
+            "input_stage": "vanbik-central-stage-4",
+            "output": [
+              "b"
+            ],
+            "output_stage": "vanbik-central-stage-5",
+            "rule_id": "vanbik-central-law-5"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "ɓ"
+        ],
+        "id": "implosive-mindat--vanbik-mindat",
+        "input": [
+          "ɓ"
+        ],
+        "output": [
+          "ɓ"
+        ],
+        "package_id": "vanbik-mindat",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "ɓ"
+            ],
+            "output_stage": "vanbik-mindat-stage-1",
+            "rule_id": "vanbik-mindat-law-1"
+          },
+          {
+            "input_stage": "vanbik-mindat-stage-1",
+            "output": [
+              "ɓ"
+            ],
+            "output_stage": "vanbik-mindat-stage-2",
+            "rule_id": "vanbik-mindat-law-2"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "d"
+        ],
+        "id": "dental-central--vanbik-central",
+        "input": [
+          "ɗ"
+        ],
+        "output": [
+          "d"
+        ],
+        "package_id": "vanbik-central",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "ɗ"
+            ],
+            "output_stage": "vanbik-central-stage-1",
+            "rule_id": "vanbik-central-law-1"
+          },
+          {
+            "input_stage": "vanbik-central-stage-1",
+            "output": [
+              "d"
+            ],
+            "output_stage": "vanbik-central-stage-2",
+            "rule_id": "vanbik-central-law-2"
+          },
+          {
+            "input_stage": "vanbik-central-stage-2",
+            "output": [
+              "d"
+            ],
+            "output_stage": "vanbik-central-stage-3",
+            "rule_id": "vanbik-central-law-3"
+          },
+          {
+            "input_stage": "vanbik-central-stage-3",
+            "output": [
+              "d"
+            ],
+            "output_stage": "vanbik-central-stage-4",
+            "rule_id": "vanbik-central-law-4"
+          },
+          {
+            "input_stage": "vanbik-central-stage-4",
+            "output": [
+              "d"
+            ],
+            "output_stage": "vanbik-central-stage-5",
+            "rule_id": "vanbik-central-law-5"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "ɗ"
+        ],
+        "id": "dental-mindat--vanbik-mindat",
+        "input": [
+          "ɗ"
+        ],
+        "output": [
+          "ɗ"
+        ],
+        "package_id": "vanbik-mindat",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "ɗ"
+            ],
+            "output_stage": "vanbik-mindat-stage-1",
+            "rule_id": "vanbik-mindat-law-1"
+          },
+          {
+            "input_stage": "vanbik-mindat-stage-1",
+            "output": [
+              "ɗ"
+            ],
+            "output_stage": "vanbik-mindat-stage-2",
+            "rule_id": "vanbik-mindat-law-2"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "r"
+        ],
+        "id": "r-central--vanbik-central",
+        "input": [
+          "r"
+        ],
+        "output": [
+          "r"
+        ],
+        "package_id": "vanbik-central",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "r"
+            ],
+            "output_stage": "vanbik-central-stage-1",
+            "rule_id": "vanbik-central-law-1"
+          },
+          {
+            "input_stage": "vanbik-central-stage-1",
+            "output": [
+              "r"
+            ],
+            "output_stage": "vanbik-central-stage-2",
+            "rule_id": "vanbik-central-law-2"
+          },
+          {
+            "input_stage": "vanbik-central-stage-2",
+            "output": [
+              "r"
+            ],
+            "output_stage": "vanbik-central-stage-3",
+            "rule_id": "vanbik-central-law-3"
+          },
+          {
+            "input_stage": "vanbik-central-stage-3",
+            "output": [
+              "r"
+            ],
+            "output_stage": "vanbik-central-stage-4",
+            "rule_id": "vanbik-central-law-4"
+          },
+          {
+            "input_stage": "vanbik-central-stage-4",
+            "output": [
+              "r"
+            ],
+            "output_stage": "vanbik-central-stage-5",
+            "rule_id": "vanbik-central-law-5"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "g"
+        ],
+        "id": "r-peripheral--vanbik-northern",
+        "input": [
+          "r"
+        ],
+        "output": [
+          "g"
+        ],
+        "package_id": "vanbik-northern",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "r"
+            ],
+            "output_stage": "vanbik-northern-stage-1",
+            "rule_id": "vanbik-northern-law-1"
+          },
+          {
+            "input_stage": "vanbik-northern-stage-1",
+            "output": [
+              "r"
+            ],
+            "output_stage": "vanbik-northern-stage-2",
+            "rule_id": "vanbik-northern-law-2"
+          },
+          {
+            "input_stage": "vanbik-northern-stage-2",
+            "output": [
+              "g"
+            ],
+            "output_stage": "vanbik-northern-stage-3",
+            "rule_id": "vanbik-northern-law-3"
+          },
+          {
+            "input_stage": "vanbik-northern-stage-3",
+            "output": [
+              "g"
+            ],
+            "output_stage": "vanbik-northern-stage-4",
+            "rule_id": "vanbik-northern-law-4"
+          },
+          {
+            "input_stage": "vanbik-northern-stage-4",
+            "output": [
+              "g"
+            ],
+            "output_stage": "vanbik-northern-stage-5",
+            "rule_id": "vanbik-northern-law-5"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "v"
+        ],
+        "id": "w-central--vanbik-central",
+        "input": [
+          "w"
+        ],
+        "output": [
+          "v"
+        ],
+        "package_id": "vanbik-central",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "w"
+            ],
+            "output_stage": "vanbik-central-stage-1",
+            "rule_id": "vanbik-central-law-1"
+          },
+          {
+            "input_stage": "vanbik-central-stage-1",
+            "output": [
+              "w"
+            ],
+            "output_stage": "vanbik-central-stage-2",
+            "rule_id": "vanbik-central-law-2"
+          },
+          {
+            "input_stage": "vanbik-central-stage-2",
+            "output": [
+              "v"
+            ],
+            "output_stage": "vanbik-central-stage-3",
+            "rule_id": "vanbik-central-law-3"
+          },
+          {
+            "input_stage": "vanbik-central-stage-3",
+            "output": [
+              "v"
+            ],
+            "output_stage": "vanbik-central-stage-4",
+            "rule_id": "vanbik-central-law-4"
+          },
+          {
+            "input_stage": "vanbik-central-stage-4",
+            "output": [
+              "v"
+            ],
+            "output_stage": "vanbik-central-stage-5",
+            "rule_id": "vanbik-central-law-5"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "v"
+        ],
+        "id": "w-northern--vanbik-northern",
+        "input": [
+          "w"
+        ],
+        "output": [
+          "v"
+        ],
+        "package_id": "vanbik-northern",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "w"
+            ],
+            "output_stage": "vanbik-northern-stage-1",
+            "rule_id": "vanbik-northern-law-1"
+          },
+          {
+            "input_stage": "vanbik-northern-stage-1",
+            "output": [
+              "w"
+            ],
+            "output_stage": "vanbik-northern-stage-2",
+            "rule_id": "vanbik-northern-law-2"
+          },
+          {
+            "input_stage": "vanbik-northern-stage-2",
+            "output": [
+              "w"
+            ],
+            "output_stage": "vanbik-northern-stage-3",
+            "rule_id": "vanbik-northern-law-3"
+          },
+          {
+            "input_stage": "vanbik-northern-stage-3",
+            "output": [
+              "v"
+            ],
+            "output_stage": "vanbik-northern-stage-4",
+            "rule_id": "vanbik-northern-law-4"
+          },
+          {
+            "input_stage": "vanbik-northern-stage-4",
+            "output": [
+              "v"
+            ],
+            "output_stage": "vanbik-northern-stage-5",
+            "rule_id": "vanbik-northern-law-5"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "z"
+        ],
+        "id": "y-central--vanbik-central",
+        "input": [
+          "y"
+        ],
+        "output": [
+          "z"
+        ],
+        "package_id": "vanbik-central",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "y"
+            ],
+            "output_stage": "vanbik-central-stage-1",
+            "rule_id": "vanbik-central-law-1"
+          },
+          {
+            "input_stage": "vanbik-central-stage-1",
+            "output": [
+              "y"
+            ],
+            "output_stage": "vanbik-central-stage-2",
+            "rule_id": "vanbik-central-law-2"
+          },
+          {
+            "input_stage": "vanbik-central-stage-2",
+            "output": [
+              "y"
+            ],
+            "output_stage": "vanbik-central-stage-3",
+            "rule_id": "vanbik-central-law-3"
+          },
+          {
+            "input_stage": "vanbik-central-stage-3",
+            "output": [
+              "z"
+            ],
+            "output_stage": "vanbik-central-stage-4",
+            "rule_id": "vanbik-central-law-4"
+          },
+          {
+            "input_stage": "vanbik-central-stage-4",
+            "output": [
+              "z"
+            ],
+            "output_stage": "vanbik-central-stage-5",
+            "rule_id": "vanbik-central-law-5"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "f"
+        ],
+        "id": "dental-fricative--vanbik-central",
+        "input": [
+          "θ"
+        ],
+        "output": [
+          "f"
+        ],
+        "package_id": "vanbik-central",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "θ"
+            ],
+            "output_stage": "vanbik-central-stage-1",
+            "rule_id": "vanbik-central-law-1"
+          },
+          {
+            "input_stage": "vanbik-central-stage-1",
+            "output": [
+              "θ"
+            ],
+            "output_stage": "vanbik-central-stage-2",
+            "rule_id": "vanbik-central-law-2"
+          },
+          {
+            "input_stage": "vanbik-central-stage-2",
+            "output": [
+              "θ"
+            ],
+            "output_stage": "vanbik-central-stage-3",
+            "rule_id": "vanbik-central-law-3"
+          },
+          {
+            "input_stage": "vanbik-central-stage-3",
+            "output": [
+              "θ"
+            ],
+            "output_stage": "vanbik-central-stage-4",
+            "rule_id": "vanbik-central-law-4"
+          },
+          {
+            "input_stage": "vanbik-central-stage-4",
+            "output": [
+              "f"
+            ],
+            "output_stage": "vanbik-central-stage-5",
+            "rule_id": "vanbik-central-law-5"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": false,
+        "expected": [
+          "ɓ"
+        ],
+        "id": "plain-stop-mindat--plain-stop-retention-control",
+        "input": [
+          "b"
+        ],
+        "output": [
+          "b"
+        ],
+        "package_id": "plain-stop-retention-control",
+        "steps": []
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "s",
+          "a"
+        ],
+        "id": "sr-kill--sr-broad",
+        "input": [
+          "s",
+          "r",
+          "a"
+        ],
+        "output": [
+          "s",
+          "a"
+        ],
+        "package_id": "sr-broad",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s",
+              "a"
+            ],
+            "output_stage": "sr-broad-stage-1",
+            "rule_id": "sr-broad-law-1"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "s",
+          "a"
+        ],
+        "id": "sr-kill--sr-restricted",
+        "input": [
+          "s",
+          "r",
+          "a"
+        ],
+        "output": [
+          "s",
+          "a"
+        ],
+        "package_id": "sr-restricted",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s",
+              "a"
+            ],
+            "output_stage": "sr-restricted-stage-1",
+            "rule_id": "sr-restricted-law-1"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "s",
+          "o"
+        ],
+        "id": "sr-suck--sr-broad",
+        "input": [
+          "s",
+          "r",
+          "o"
+        ],
+        "output": [
+          "s",
+          "o"
+        ],
+        "package_id": "sr-broad",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s",
+              "o"
+            ],
+            "output_stage": "sr-broad-stage-1",
+            "rule_id": "sr-broad-law-1"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "s",
+          "o"
+        ],
+        "id": "sr-suck--sr-restricted",
+        "input": [
+          "s",
+          "r",
+          "o"
+        ],
+        "output": [
+          "s",
+          "o"
+        ],
+        "package_id": "sr-restricted",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s",
+              "o"
+            ],
+            "output_stage": "sr-restricted-stage-1",
+            "rule_id": "sr-restricted-law-1"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": false,
+        "expected": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "id": "sr-shame--sr-broad",
+        "input": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "output": [
+          "s",
+          "ə"
+        ],
+        "package_id": "sr-broad",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s",
+              "ə"
+            ],
+            "output_stage": "sr-broad-stage-1",
+            "rule_id": "sr-broad-law-1"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "id": "sr-shame--sr-restricted",
+        "input": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "output": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "package_id": "sr-restricted",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s",
+              "r",
+              "ə"
+            ],
+            "output_stage": "sr-restricted-stage-1",
+            "rule_id": "sr-restricted-law-1"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": false,
+        "expected": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "id": "sr-root--sr-broad",
+        "input": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "output": [
+          "s",
+          "ə"
+        ],
+        "package_id": "sr-broad",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s",
+              "ə"
+            ],
+            "output_stage": "sr-broad-stage-1",
+            "rule_id": "sr-broad-law-1"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "id": "sr-root--sr-restricted",
+        "input": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "output": [
+          "s",
+          "r",
+          "ə"
+        ],
+        "package_id": "sr-restricted",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s",
+              "r",
+              "ə"
+            ],
+            "output_stage": "sr-restricted-stage-1",
+            "rule_id": "sr-restricted-law-1"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "ɕ"
+        ],
+        "id": "sr-louse--Tibetan-sr-cluster",
+        "input": [
+          "s",
+          "r"
+        ],
+        "output": [
+          "ɕ"
+        ],
+        "package_id": "Tibetan-sr-cluster",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s"
+            ],
+            "output_stage": "Tibetan-sr-cluster-stage-1",
+            "rule_id": "Tibetan-sr-cluster-law-1"
+          },
+          {
+            "input_stage": "Tibetan-sr-cluster-stage-1",
+            "output": [
+              "ɕ"
+            ],
+            "output_stage": "Tibetan-sr-cluster-stage-2",
+            "rule_id": "Tibetan-sr-cluster-law-2"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "s",
+          "r"
+        ],
+        "id": "sr-presyllable--Tibetan-syllabic-prefix",
+        "input": [
+          "s",
+          "ə",
+          "r"
+        ],
+        "output": [
+          "s",
+          "r"
+        ],
+        "package_id": "Tibetan-syllabic-prefix",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s",
+              "r"
+            ],
+            "output_stage": "Tibetan-syllabic-prefix-stage-1",
+            "rule_id": "Tibetan-syllabic-prefix-law-1"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "s",
+          "o"
+        ],
+        "id": "wa-tooth--early-wa-late-fusion",
+        "input": [
+          "s",
+          "w",
+          "a"
+        ],
+        "output": [
+          "s",
+          "o"
+        ],
+        "package_id": "early-wa-late-fusion",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s",
+              "w",
+              "o"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-1",
+            "rule_id": "early-wa-late-fusion-law-1"
+          },
+          {
+            "input_stage": "early-wa-late-fusion-stage-1",
+            "output": [
+              "s",
+              "o"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-2",
+            "rule_id": "early-wa-late-fusion-law-2"
+          },
+          {
+            "input_stage": "early-wa-late-fusion-stage-2",
+            "output": [
+              "s",
+              "o"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-3",
+            "rule_id": "early-wa-late-fusion-law-3"
+          },
+          {
+            "input_stage": "early-wa-late-fusion-stage-3",
+            "output": [
+              "s",
+              "o"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-4",
+            "rule_id": "early-wa-late-fusion-law-4"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "s",
+          "o"
+        ],
+        "id": "wa-tooth--fusion-before-wa-control",
+        "input": [
+          "s",
+          "w",
+          "a"
+        ],
+        "output": [
+          "s",
+          "o"
+        ],
+        "package_id": "fusion-before-wa-control",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s",
+              "w",
+              "a"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-1",
+            "rule_id": "fusion-before-wa-control-law-1"
+          },
+          {
+            "input_stage": "fusion-before-wa-control-stage-1",
+            "output": [
+              "s",
+              "w",
+              "a"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-2",
+            "rule_id": "fusion-before-wa-control-law-2"
+          },
+          {
+            "input_stage": "fusion-before-wa-control-stage-2",
+            "output": [
+              "s",
+              "w",
+              "o"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-3",
+            "rule_id": "fusion-before-wa-control-law-3"
+          },
+          {
+            "input_stage": "fusion-before-wa-control-stage-3",
+            "output": [
+              "s",
+              "o"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-4",
+            "rule_id": "fusion-before-wa-control-law-4"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "t",
+          "o"
+        ],
+        "id": "wa-handspan--early-wa-late-fusion",
+        "input": [
+          "t",
+          "w",
+          "a"
+        ],
+        "output": [
+          "t",
+          "o"
+        ],
+        "package_id": "early-wa-late-fusion",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "t",
+              "w",
+              "o"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-1",
+            "rule_id": "early-wa-late-fusion-law-1"
+          },
+          {
+            "input_stage": "early-wa-late-fusion-stage-1",
+            "output": [
+              "t",
+              "o"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-2",
+            "rule_id": "early-wa-late-fusion-law-2"
+          },
+          {
+            "input_stage": "early-wa-late-fusion-stage-2",
+            "output": [
+              "t",
+              "o"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-3",
+            "rule_id": "early-wa-late-fusion-law-3"
+          },
+          {
+            "input_stage": "early-wa-late-fusion-stage-3",
+            "output": [
+              "t",
+              "o"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-4",
+            "rule_id": "early-wa-late-fusion-law-4"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "t",
+          "o"
+        ],
+        "id": "wa-handspan--fusion-before-wa-control",
+        "input": [
+          "t",
+          "w",
+          "a"
+        ],
+        "output": [
+          "t",
+          "o"
+        ],
+        "package_id": "fusion-before-wa-control",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "t",
+              "w",
+              "a"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-1",
+            "rule_id": "fusion-before-wa-control-law-1"
+          },
+          {
+            "input_stage": "fusion-before-wa-control-stage-1",
+            "output": [
+              "t",
+              "w",
+              "a"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-2",
+            "rule_id": "fusion-before-wa-control-law-2"
+          },
+          {
+            "input_stage": "fusion-before-wa-control-stage-2",
+            "output": [
+              "t",
+              "w",
+              "o"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-3",
+            "rule_id": "fusion-before-wa-control-law-3"
+          },
+          {
+            "input_stage": "fusion-before-wa-control-stage-3",
+            "output": [
+              "t",
+              "o"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-4",
+            "rule_id": "fusion-before-wa-control-law-4"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "r",
+          "w",
+          "a"
+        ],
+        "id": "wa-horn--early-wa-late-fusion",
+        "input": [
+          "r",
+          "u",
+          "b",
+          "a"
+        ],
+        "output": [
+          "r",
+          "w",
+          "a"
+        ],
+        "package_id": "early-wa-late-fusion",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "r",
+              "u",
+              "b",
+              "a"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-1",
+            "rule_id": "early-wa-late-fusion-law-1"
+          },
+          {
+            "input_stage": "early-wa-late-fusion-stage-1",
+            "output": [
+              "r",
+              "u",
+              "b",
+              "a"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-2",
+            "rule_id": "early-wa-late-fusion-law-2"
+          },
+          {
+            "input_stage": "early-wa-late-fusion-stage-2",
+            "output": [
+              "r",
+              "u",
+              "a"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-3",
+            "rule_id": "early-wa-late-fusion-law-3"
+          },
+          {
+            "input_stage": "early-wa-late-fusion-stage-3",
+            "output": [
+              "r",
+              "w",
+              "a"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-4",
+            "rule_id": "early-wa-late-fusion-law-4"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": false,
+        "expected": [
+          "r",
+          "w",
+          "a"
+        ],
+        "id": "wa-horn--fusion-before-wa-control",
+        "input": [
+          "r",
+          "u",
+          "b",
+          "a"
+        ],
+        "output": [
+          "r",
+          "o"
+        ],
+        "package_id": "fusion-before-wa-control",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "r",
+              "u",
+              "a"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-1",
+            "rule_id": "fusion-before-wa-control-law-1"
+          },
+          {
+            "input_stage": "fusion-before-wa-control-stage-1",
+            "output": [
+              "r",
+              "w",
+              "a"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-2",
+            "rule_id": "fusion-before-wa-control-law-2"
+          },
+          {
+            "input_stage": "fusion-before-wa-control-stage-2",
+            "output": [
+              "r",
+              "w",
+              "o"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-3",
+            "rule_id": "fusion-before-wa-control-law-3"
+          },
+          {
+            "input_stage": "fusion-before-wa-control-stage-3",
+            "output": [
+              "r",
+              "o"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-4",
+            "rule_id": "fusion-before-wa-control-law-4"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "g",
+          "r",
+          "w",
+          "a"
+        ],
+        "id": "wa-angle--early-wa-late-fusion",
+        "input": [
+          "g",
+          "r",
+          "u",
+          "b",
+          "a"
+        ],
+        "output": [
+          "g",
+          "r",
+          "w",
+          "a"
+        ],
+        "package_id": "early-wa-late-fusion",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "g",
+              "r",
+              "u",
+              "b",
+              "a"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-1",
+            "rule_id": "early-wa-late-fusion-law-1"
+          },
+          {
+            "input_stage": "early-wa-late-fusion-stage-1",
+            "output": [
+              "g",
+              "r",
+              "u",
+              "b",
+              "a"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-2",
+            "rule_id": "early-wa-late-fusion-law-2"
+          },
+          {
+            "input_stage": "early-wa-late-fusion-stage-2",
+            "output": [
+              "g",
+              "r",
+              "u",
+              "a"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-3",
+            "rule_id": "early-wa-late-fusion-law-3"
+          },
+          {
+            "input_stage": "early-wa-late-fusion-stage-3",
+            "output": [
+              "g",
+              "r",
+              "w",
+              "a"
+            ],
+            "output_stage": "early-wa-late-fusion-stage-4",
+            "rule_id": "early-wa-late-fusion-law-4"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": false,
+        "expected": [
+          "g",
+          "r",
+          "w",
+          "a"
+        ],
+        "id": "wa-angle--fusion-before-wa-control",
+        "input": [
+          "g",
+          "r",
+          "u",
+          "b",
+          "a"
+        ],
+        "output": [
+          "g",
+          "r",
+          "o"
+        ],
+        "package_id": "fusion-before-wa-control",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "g",
+              "r",
+              "u",
+              "a"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-1",
+            "rule_id": "fusion-before-wa-control-law-1"
+          },
+          {
+            "input_stage": "fusion-before-wa-control-stage-1",
+            "output": [
+              "g",
+              "r",
+              "w",
+              "a"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-2",
+            "rule_id": "fusion-before-wa-control-law-2"
+          },
+          {
+            "input_stage": "fusion-before-wa-control-stage-2",
+            "output": [
+              "g",
+              "r",
+              "w",
+              "o"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-3",
+            "rule_id": "fusion-before-wa-control-law-3"
+          },
+          {
+            "input_stage": "fusion-before-wa-control-stage-3",
+            "output": [
+              "g",
+              "r",
+              "o"
+            ],
+            "output_stage": "fusion-before-wa-control-stage-4",
+            "rule_id": "fusion-before-wa-control-law-4"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "z"
+        ],
+        "id": "tib-bridge--nasal-attrition",
+        "input": [
+          "ndz"
+        ],
+        "output": [
+          "z"
+        ],
+        "package_id": "nasal-attrition",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "dz"
+            ],
+            "output_stage": "nasal-attrition-stage-1",
+            "rule_id": "nasal-attrition-law-1"
+          },
+          {
+            "input_stage": "nasal-attrition-stage-1",
+            "output": [
+              "dz"
+            ],
+            "output_stage": "nasal-attrition-stage-2",
+            "rule_id": "nasal-attrition-law-2"
+          },
+          {
+            "input_stage": "nasal-attrition-stage-2",
+            "output": [
+              "z"
+            ],
+            "output_stage": "nasal-attrition-stage-3",
+            "rule_id": "nasal-attrition-law-3"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "d"
+        ],
+        "id": "tib-poison--nasal-attrition",
+        "input": [
+          "nd"
+        ],
+        "output": [
+          "d"
+        ],
+        "package_id": "nasal-attrition",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "nd"
+            ],
+            "output_stage": "nasal-attrition-stage-1",
+            "rule_id": "nasal-attrition-law-1"
+          },
+          {
+            "input_stage": "nasal-attrition-stage-1",
+            "output": [
+              "d"
+            ],
+            "output_stage": "nasal-attrition-stage-2",
+            "rule_id": "nasal-attrition-law-2"
+          },
+          {
+            "input_stage": "nasal-attrition-stage-2",
+            "output": [
+              "d"
+            ],
+            "output_stage": "nasal-attrition-stage-3",
+            "rule_id": "nasal-attrition-law-3"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "z"
+        ],
+        "id": "tib-eat--nasal-attrition",
+        "input": [
+          "dz"
+        ],
+        "output": [
+          "z"
+        ],
+        "package_id": "nasal-attrition",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "dz"
+            ],
+            "output_stage": "nasal-attrition-stage-1",
+            "rule_id": "nasal-attrition-law-1"
+          },
+          {
+            "input_stage": "nasal-attrition-stage-1",
+            "output": [
+              "dz"
+            ],
+            "output_stage": "nasal-attrition-stage-2",
+            "rule_id": "nasal-attrition-law-2"
+          },
+          {
+            "input_stage": "nasal-attrition-stage-2",
+            "output": [
+              "z"
+            ],
+            "output_stage": "nasal-attrition-stage-3",
+            "rule_id": "nasal-attrition-law-3"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "g",
+          "l"
+        ],
+        "id": "tib-eagle-G--prefix-merger",
+        "input": [
+          "G",
+          "V",
+          "l"
+        ],
+        "output": [
+          "g",
+          "l"
+        ],
+        "package_id": "prefix-merger",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "g",
+              "V",
+              "l"
+            ],
+            "output_stage": "prefix-merger-stage-1",
+            "rule_id": "prefix-merger-law-1"
+          },
+          {
+            "input_stage": "prefix-merger-stage-1",
+            "output": [
+              "g",
+              "l"
+            ],
+            "output_stage": "prefix-merger-stage-2",
+            "rule_id": "prefix-merger-law-2"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "g",
+          "l"
+        ],
+        "id": "tib-eagle-D--prefix-merger",
+        "input": [
+          "D",
+          "V",
+          "l"
+        ],
+        "output": [
+          "g",
+          "l"
+        ],
+        "package_id": "prefix-merger",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "g",
+              "V",
+              "l"
+            ],
+            "output_stage": "prefix-merger-stage-1",
+            "rule_id": "prefix-merger-law-1"
+          },
+          {
+            "input_stage": "prefix-merger-stage-1",
+            "output": [
+              "g",
+              "l"
+            ],
+            "output_stage": "prefix-merger-stage-2",
+            "rule_id": "prefix-merger-law-2"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "g",
+          "s",
+          "o",
+          "d"
+        ],
+        "id": "tib-kill-G--TAM-rounding",
+        "input": [
+          "G",
+          "o",
+          "s",
+          "a",
+          "t"
+        ],
+        "output": [
+          "g",
+          "s",
+          "o",
+          "d"
+        ],
+        "package_id": "TAM-rounding",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "G",
+              "o",
+              "s",
+              "o",
+              "t"
+            ],
+            "output_stage": "TAM-rounding-stage-1",
+            "rule_id": "TAM-rounding-law-1"
+          },
+          {
+            "input_stage": "TAM-rounding-stage-1",
+            "output": [
+              "G",
+              "s",
+              "o",
+              "t"
+            ],
+            "output_stage": "TAM-rounding-stage-2",
+            "rule_id": "TAM-rounding-law-2"
+          },
+          {
+            "input_stage": "TAM-rounding-stage-2",
+            "output": [
+              "g",
+              "s",
+              "o",
+              "t"
+            ],
+            "output_stage": "TAM-rounding-stage-3",
+            "rule_id": "TAM-rounding-law-3"
+          },
+          {
+            "input_stage": "TAM-rounding-stage-3",
+            "output": [
+              "g",
+              "s",
+              "o",
+              "d"
+            ],
+            "output_stage": "TAM-rounding-stage-4",
+            "rule_id": "TAM-rounding-law-4"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "g",
+          "s",
+          "o",
+          "d"
+        ],
+        "id": "tib-kill-D--TAM-rounding",
+        "input": [
+          "D",
+          "o",
+          "s",
+          "a",
+          "t"
+        ],
+        "output": [
+          "g",
+          "s",
+          "o",
+          "d"
+        ],
+        "package_id": "TAM-rounding",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "D",
+              "o",
+              "s",
+              "o",
+              "t"
+            ],
+            "output_stage": "TAM-rounding-stage-1",
+            "rule_id": "TAM-rounding-law-1"
+          },
+          {
+            "input_stage": "TAM-rounding-stage-1",
+            "output": [
+              "D",
+              "s",
+              "o",
+              "t"
+            ],
+            "output_stage": "TAM-rounding-stage-2",
+            "rule_id": "TAM-rounding-law-2"
+          },
+          {
+            "input_stage": "TAM-rounding-stage-2",
+            "output": [
+              "g",
+              "s",
+              "o",
+              "t"
+            ],
+            "output_stage": "TAM-rounding-stage-3",
+            "rule_id": "TAM-rounding-law-3"
+          },
+          {
+            "input_stage": "TAM-rounding-stage-3",
+            "output": [
+              "g",
+              "s",
+              "o",
+              "d"
+            ],
+            "output_stage": "TAM-rounding-stage-4",
+            "rule_id": "TAM-rounding-law-4"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "n̥"
+        ],
+        "id": "prefix-nose--early-tight-sn",
+        "input": [
+          "s",
+          "n"
+        ],
+        "output": [
+          "n̥"
+        ],
+        "package_id": "early-tight-sn",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s",
+              "n̥"
+            ],
+            "output_stage": "early-tight-sn-stage-1",
+            "rule_id": "early-tight-sn-law-1"
+          },
+          {
+            "input_stage": "early-tight-sn-stage-1",
+            "output": [
+              "n̥"
+            ],
+            "output_stage": "early-tight-sn-stage-2",
+            "rule_id": "early-tight-sn-law-2"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "p"
+        ],
+        "id": "N-transitive--N-voicing",
+        "input": [
+          "p"
+        ],
+        "output": [
+          "p"
+        ],
+        "package_id": "N-voicing",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "p"
+            ],
+            "output_stage": "N-voicing-stage-1",
+            "rule_id": "N-voicing-law-1"
+          },
+          {
+            "input_stage": "N-voicing-stage-1",
+            "output": [
+              "p"
+            ],
+            "output_stage": "N-voicing-stage-2",
+            "rule_id": "N-voicing-law-2"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "b"
+        ],
+        "id": "N-intransitive--N-voicing",
+        "input": [
+          "N",
+          "p"
+        ],
+        "output": [
+          "b"
+        ],
+        "package_id": "N-voicing",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "N",
+              "b"
+            ],
+            "output_stage": "N-voicing-stage-1",
+            "rule_id": "N-voicing-law-1"
+          },
+          {
+            "input_stage": "N-voicing-stage-1",
+            "output": [
+              "b"
+            ],
+            "output_stage": "N-voicing-stage-2",
+            "rule_id": "N-voicing-law-2"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "p"
+        ],
+        "id": "s-transitive--s-devoicing-control",
+        "input": [
+          "s",
+          "b"
+        ],
+        "output": [
+          "p"
+        ],
+        "package_id": "s-devoicing-control",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s",
+              "p"
+            ],
+            "output_stage": "s-devoicing-control-stage-1",
+            "rule_id": "s-devoicing-control-law-1"
+          },
+          {
+            "input_stage": "s-devoicing-control-stage-1",
+            "output": [
+              "p"
+            ],
+            "output_stage": "s-devoicing-control-stage-2",
+            "rule_id": "s-devoicing-control-law-2"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "b"
+        ],
+        "id": "s-intransitive--s-devoicing-control",
+        "input": [
+          "b"
+        ],
+        "output": [
+          "b"
+        ],
+        "package_id": "s-devoicing-control",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "b"
+            ],
+            "output_stage": "s-devoicing-control-stage-1",
+            "rule_id": "s-devoicing-control-law-1"
+          },
+          {
+            "input_stage": "s-devoicing-control-stage-1",
+            "output": [
+              "b"
+            ],
+            "output_stage": "s-devoicing-control-stage-2",
+            "rule_id": "s-devoicing-control-law-2"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "k",
+          "s"
+        ],
+        "id": "suffix-coda--grave-coda-t-to-s",
+        "input": [
+          "k",
+          "t"
+        ],
+        "output": [
+          "k",
+          "s"
+        ],
+        "package_id": "grave-coda-t-to-s",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "k",
+              "s"
+            ],
+            "output_stage": "grave-coda-t-to-s-stage-1",
+            "rule_id": "grave-coda-t-to-s-law-1"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "k",
+          "s"
+        ],
+        "id": "suffix-coda--unconditioned-t-to-s-control",
+        "input": [
+          "k",
+          "t"
+        ],
+        "output": [
+          "k",
+          "s"
+        ],
+        "package_id": "unconditioned-t-to-s-control",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "k",
+              "s"
+            ],
+            "output_stage": "unconditioned-t-to-s-control-stage-1",
+            "rule_id": "unconditioned-t-to-s-control-law-1"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "l",
+          "t"
+        ],
+        "id": "suffix-l-control--grave-coda-t-to-s",
+        "input": [
+          "l",
+          "t"
+        ],
+        "output": [
+          "l",
+          "t"
+        ],
+        "package_id": "grave-coda-t-to-s",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "l",
+              "t"
+            ],
+            "output_stage": "grave-coda-t-to-s-stage-1",
+            "rule_id": "grave-coda-t-to-s-law-1"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": false,
+        "expected": [
+          "l",
+          "t"
+        ],
+        "id": "suffix-l-control--unconditioned-t-to-s-control",
+        "input": [
+          "l",
+          "t"
+        ],
+        "output": [
+          "l",
+          "s"
+        ],
+        "package_id": "unconditioned-t-to-s-control",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "l",
+              "s"
+            ],
+            "output_stage": "unconditioned-t-to-s-control-stage-1",
+            "rule_id": "unconditioned-t-to-s-control-law-1"
+          }
+        ]
+      },
+      {
+        "certificate_accepted": true,
+        "exact": true,
+        "expected": [
+          "s"
+        ],
+        "id": "suffix-middle--middle-i-loss",
+        "input": [
+          "s",
+          "i"
+        ],
+        "output": [
+          "s"
+        ],
+        "package_id": "middle-i-loss",
+        "steps": [
+          {
+            "input_stage": "published-root",
+            "output": [
+              "s"
+            ],
+            "output_stage": "middle-i-loss-stage-1",
+            "rule_id": "middle-i-loss-law-1"
+          }
+        ]
+      }
+    ],
+    "id": "m6-source-fragments",
+    "input_valid": true,
+    "inverse": [
+      {
+        "ambiguous": true,
+        "candidates": [
+          [
+            "ndz"
+          ],
+          [
+            "dz"
+          ]
+        ],
+        "complete": true,
+        "empty_in_scope": false,
+        "examined": 3,
+        "id": "merged-affricate-pool",
+        "reference": [
+          [
+            "ndz"
+          ]
+        ],
+        "reference_recalled": true,
+        "scope": "declared-published-reference-pool"
+      }
+    ]
+  },
+  "scope_valid": true
+}

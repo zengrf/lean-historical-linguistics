@@ -35,7 +35,7 @@ def main():
                 passed=elapsed<60 and peak<2*1024**3,platform=dict(system=platform.system(),release=platform.release(),machine=platform.machine()),
                 scope="One fresh Lean process, including JSON parsing, package validation, trace generation, checking and serialization. This is a bounded engineering control, not a historical-accuracy metric.",
                 request_sha256=digest(req),input_hashes={n:hashlib.sha256((ROOT/n).read_bytes()).hexdigest() for n in
-                    ["lean/PieCheck.lean","lean/Historical/CaseStudy.lean","scripts/benchmark_pie.py","data/pie/diagnostic-input.json"]})
+                    ["lean/PieCheck.lean","lean/Historical/Batch.lean","lean/Historical/CaseStudy.lean","scripts/benchmark_pie.py","data/pie/diagnostic-input.json"]})
     a.output.write_bytes(encoded(report));print(json.dumps(report,sort_keys=True))
     if not report["passed"]:raise SystemExit(1)
 

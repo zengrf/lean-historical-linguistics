@@ -5,6 +5,7 @@
 | M1 | Independent transcription of six source entries by a separate AI agent | Complete; six exact matches |
 | M2 | Twenty synthetic derivations worked by a separate AI agent before implementation comparison | Complete; all intermediate forms agree |
 | M5 | PIE specialist assessment of the comparative data and analyses | [Pending](pie-signoff.md) |
+| M6 | Sino-Tibetan specialist assessment of 50 Kuki-Chin core sets and 30 cross-branch dossiers | [Pending](sino-tibetan-signoff.md) |
 
 The M1 and M2 reviews concern transcription and formal rule application. Family
 specialists separately assess the linguistic analyses in M5 and M6.

@@ -1,0 +1,836 @@
+{
+  "choice_policy": "An analysis selects all its listed cells jointly. No segment-wise Cartesian product is permitted.",
+  "dossiers": [
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The source's rhyme and prefix analysis"
+          ],
+          "attribution": "Peiros–Starostin 1996 as reported by Jacques",
+          "claim": "Source etymon: *Gʷa (s-)",
+          "id": "Peiros-Starostin",
+          "linked_forms": {
+            "etymon": "*Gʷa (s-)"
+          }
+        },
+        {
+          "assumptions": [
+            "The source's rhyme reconstruction"
+          ],
+          "attribution": "Matisoff 2003 as reported by Jacques",
+          "claim": "Source rhyme: *-wa",
+          "id": "Matisoff",
+          "linked_forms": {
+            "rhyme": "*-wa"
+          }
+        },
+        {
+          "assumptions": [
+            "Nominal fusion occurred after Laufer's law"
+          ],
+          "attribution": "Jacques 2009",
+          "claim": "Some Tibetan wa is younger than wa > o, from u + ba.",
+          "id": "late-nominal-fusion",
+          "linked_forms": {
+            "angle": [
+              "*gru-ba",
+              "*grua",
+              "grwa"
+            ],
+            "hat": [
+              "*zyu-ba",
+              "*zyua",
+              "zhwa"
+            ],
+            "horn": [
+              "*ru-ba",
+              "*rua",
+              "rwa"
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Old Tibetan as cited",
+          "form": "so",
+          "meaning": "tooth",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Burmese as cited in Table 1",
+          "form": "swa³",
+          "meaning": "tooth",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "id": "wa-tooth",
+      "morphology": "Prefixes and suffixes belong to the complete source analysis. The horn/angle/hat doublets are internal Tibetan controls, not extra cross-branch etyma.",
+      "source": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ]
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The source's rhyme and prefix analysis"
+          ],
+          "attribution": "Peiros–Starostin 1996 as reported by Jacques",
+          "claim": "Source etymon: *Tua",
+          "id": "Peiros-Starostin",
+          "linked_forms": {
+            "etymon": "*Tua"
+          }
+        },
+        {
+          "assumptions": [
+            "The source's rhyme reconstruction"
+          ],
+          "attribution": "Matisoff 2003 as reported by Jacques",
+          "claim": "Source rhyme: *-wa",
+          "id": "Matisoff",
+          "linked_forms": {
+            "rhyme": "*-wa"
+          }
+        },
+        {
+          "assumptions": [
+            "Nominal fusion occurred after Laufer's law"
+          ],
+          "attribution": "Jacques 2009",
+          "claim": "Some Tibetan wa is younger than wa > o, from u + ba.",
+          "id": "late-nominal-fusion",
+          "linked_forms": {
+            "angle": [
+              "*gru-ba",
+              "*grua",
+              "grwa"
+            ],
+            "hat": [
+              "*zyu-ba",
+              "*zyua",
+              "zhwa"
+            ],
+            "horn": [
+              "*ru-ba",
+              "*rua",
+              "rwa"
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Old Tibetan as cited",
+          "form": "mtho",
+          "meaning": "handspan",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Burmese as cited in Table 1",
+          "form": "thwa³",
+          "meaning": "handspan",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "id": "wa-handspan",
+      "morphology": "Prefixes and suffixes belong to the complete source analysis. The horn/angle/hat doublets are internal Tibetan controls, not extra cross-branch etyma.",
+      "source": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ]
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The source's rhyme and prefix analysis"
+          ],
+          "attribution": "Peiros–Starostin 1996 as reported by Jacques",
+          "claim": "Source etymon: *chāw",
+          "id": "Peiros-Starostin",
+          "linked_forms": {
+            "etymon": "*chāw"
+          }
+        },
+        {
+          "assumptions": [
+            "The source's rhyme reconstruction"
+          ],
+          "attribution": "Matisoff 2003 as reported by Jacques",
+          "claim": "Source rhyme: *-ow",
+          "id": "Matisoff",
+          "linked_forms": {
+            "rhyme": "*-ow"
+          }
+        },
+        {
+          "assumptions": [
+            "Nominal fusion occurred after Laufer's law"
+          ],
+          "attribution": "Jacques 2009",
+          "claim": "Some Tibetan wa is younger than wa > o, from u + ba.",
+          "id": "late-nominal-fusion",
+          "linked_forms": {
+            "angle": [
+              "*gru-ba",
+              "*grua",
+              "grwa"
+            ],
+            "hat": [
+              "*zyu-ba",
+              "*zyua",
+              "zhwa"
+            ],
+            "horn": [
+              "*ru-ba",
+              "*rua",
+              "rwa"
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Old Tibetan as cited",
+          "form": "tsho",
+          "meaning": "fat",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Burmese as cited in Table 1",
+          "form": "chu²",
+          "meaning": "fat",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "id": "wa-fat",
+      "morphology": "Prefixes and suffixes belong to the complete source analysis. The horn/angle/hat doublets are internal Tibetan controls, not extra cross-branch etyma.",
+      "source": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ]
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The source's rhyme and prefix analysis"
+          ],
+          "attribution": "Peiros–Starostin 1996 as reported by Jacques",
+          "claim": "Source etymon: *rɨ̄w(H)",
+          "id": "Peiros-Starostin",
+          "linked_forms": {
+            "etymon": "*rɨ̄w(H)"
+          }
+        },
+        {
+          "assumptions": [
+            "The source's rhyme reconstruction"
+          ],
+          "attribution": "Matisoff 2003 as reported by Jacques",
+          "claim": "Source rhyme: *-aw",
+          "id": "Matisoff",
+          "linked_forms": {
+            "rhyme": "*-aw"
+          }
+        },
+        {
+          "assumptions": [
+            "Nominal fusion occurred after Laufer's law"
+          ],
+          "attribution": "Jacques 2009",
+          "claim": "Some Tibetan wa is younger than wa > o, from u + ba.",
+          "id": "late-nominal-fusion",
+          "linked_forms": {
+            "angle": [
+              "*gru-ba",
+              "*grua",
+              "grwa"
+            ],
+            "hat": [
+              "*zyu-ba",
+              "*zyua",
+              "zhwa"
+            ],
+            "horn": [
+              "*ru-ba",
+              "*rua",
+              "rwa"
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Old Tibetan as cited",
+          "form": "ro",
+          "meaning": "corpse / withered",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Burmese as cited in Table 1",
+          "form": "raw²",
+          "meaning": "corpse / withered",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "id": "wa-corpse",
+      "morphology": "Prefixes and suffixes belong to the complete source analysis. The horn/angle/hat doublets are internal Tibetan controls, not extra cross-branch etyma.",
+      "source": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ]
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The source's rhyme and prefix analysis"
+          ],
+          "attribution": "Peiros–Starostin 1996 as reported by Jacques",
+          "claim": "Source etymon: *phrɨw",
+          "id": "Peiros-Starostin",
+          "linked_forms": {
+            "etymon": "*phrɨw"
+          }
+        },
+        {
+          "assumptions": [
+            "The source's rhyme reconstruction"
+          ],
+          "attribution": "Matisoff 2003 as reported by Jacques",
+          "claim": "Source rhyme: *-o",
+          "id": "Matisoff",
+          "linked_forms": {
+            "rhyme": "*-o"
+          }
+        },
+        {
+          "assumptions": [
+            "Nominal fusion occurred after Laufer's law"
+          ],
+          "attribution": "Jacques 2009",
+          "claim": "Some Tibetan wa is younger than wa > o, from u + ba.",
+          "id": "late-nominal-fusion",
+          "linked_forms": {
+            "angle": [
+              "*gru-ba",
+              "*grua",
+              "grwa"
+            ],
+            "hat": [
+              "*zyu-ba",
+              "*zyua",
+              "zhwa"
+            ],
+            "horn": [
+              "*ru-ba",
+              "*rua",
+              "rwa"
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Old Tibetan as cited",
+          "form": "spro",
+          "meaning": "be pleased",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Burmese as cited in Table 1",
+          "form": "pyau²",
+          "meaning": "be pleased",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        }
+      ],
+      "id": "wa-pleased",
+      "morphology": "Prefixes and suffixes belong to the complete source analysis. The horn/angle/hat doublets are internal Tibetan controls, not extra cross-branch etyma.",
+      "source": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "source_id": "jacques-halshs-00408281"
+        }
+      ]
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "Japhug prenasalization is conservative"
+          ],
+          "attribution": "primary-paper",
+          "claim": "ndzam > dzam > zam in pre-Tibetan.",
+          "id": "nasal-attrition",
+          "linked_forms": {
+            "pre-Tibetan": [
+              "*ndzam",
+              "*dzam",
+              "zam"
+            ]
+          }
+        },
+        {
+          "assumptions": [
+            "The earlier nasal requires comparative evidence"
+          ],
+          "attribution": "primary-paper",
+          "claim": "The last Tibetan change alone only establishes dzam > zam.",
+          "id": "plain-affricate",
+          "linked_forms": {
+            "pre-Tibetan": [
+              "*dzam",
+              "zam"
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "zam",
+          "meaning": "bridge",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "ndzom",
+          "meaning": "bridge",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "id": "tib-bridge",
+      "morphology": "The initial nasal's lexical origin is not identified solely by the word for bridge.",
+      "source": [
+        {
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "source_id": "jacques2012-internal"
+        }
+      ]
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "Its vowel is not recoverable from Tibetan alone"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Reconstruct a velar presyllable in pre-Tibetan.",
+          "id": "velar-presyllable",
+          "linked_forms": {
+            "pre-Tibetan": "*gV-lak"
+          }
+        },
+        {
+          "assumptions": [
+            "Dental/velar preinitials merge conditionally"
+          ],
+          "attribution": "primary-paper",
+          "claim": "A dental presyllable has the same Tibetan outcome.",
+          "id": "dental-presyllable",
+          "linked_forms": {
+            "pre-Tibetan": "*dV-lak"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "glag",
+          "meaning": "eagle",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "qaliaʁ",
+          "meaning": "eagle",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "id": "tib-eagle",
+      "morphology": "A lost nominal presyllable is distinguished from a productive verbal TAM prefix.",
+      "source": [
+        {
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "source_id": "jacques2012-internal"
+        }
+      ]
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "Go/Do causes rounding; BV marks the past"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Tibetan alternations could derive from directional prefixes.",
+          "id": "directional-origin",
+          "linked_forms": {
+            "past": [
+              "*BV-sat-s"
+            ],
+            "present": [
+              "*Go-sat",
+              "*Do-sat"
+            ]
+          }
+        },
+        {
+          "assumptions": [
+            "Directional TAM systems can develop through contact",
+            "Japhug down differs from other Gyalrongic languages"
+          ],
+          "attribution": "primary-paper",
+          "claim": "The similar Tibetan and Japhug prefixes may have arisen independently.",
+          "id": "independent-innovation",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Coblin's alternative sound history"
+          ],
+          "attribution": "Coblin 1976 as reported by Jacques",
+          "claim": "A labiovelar prefix rather than an o vowel could cause rounding.",
+          "id": "labiovelar-rounding",
+          "linked_forms": {}
+        }
+      ],
+      "evidence": [
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "gsod; bsad; gsad; sod",
+          "meaning": "kill: present; past; future; imperative",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "ku-sat; pɯ-a-sat",
+          "meaning": "kill: present; aorist",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "id": "tib-kill-paradigm",
+      "morphology": "The four Tibetan cells form one paradigm. Go/Do and BV alternatives must be chosen as whole analyses, not segment by segment. The Japhug aorist a is a transitive direct marker.",
+      "source": [
+        {
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "source_id": "jacques2012-internal"
+        }
+      ]
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "Eastern nasal forms are inherited at both nodes"
+          ],
+          "attribution": "Mei as reported by Sagart–Baxter",
+          "claim": "Project N-kuw beside d-kuw to PTB and PST.",
+          "id": "PTB-nasal-alternation",
+          "linked_forms": {}
+        },
+        {
+          "assumptions": [
+            "Distribution of the nasal is restricted"
+          ],
+          "attribution": "Sagart–Baxter",
+          "claim": "Nasal preinitials may be an eastern innovation; OC may lack them.",
+          "id": "local-nasal",
+          "linked_forms": {
+            "OC": [
+              "*kuʔ",
+              "*tə.kuʔ"
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "kjuwX",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*kuʔ / *tə.kuʔ",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Sagart–Baxter 2012",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "九"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "九",
+          "meaning": "nine",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Tibetic",
+          "chinese": null,
+          "doculect": "Written Tibetan",
+          "form": "dgu",
+          "meaning": "nine",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Tibeto-Burman-assumed",
+          "chinese": null,
+          "doculect": "PTB in Benedict as reported",
+          "form": "*d-kuw",
+          "meaning": "nine",
+          "reconstruction_node": "benedict-1972:PTB",
+          "representation": "source-reconstruction"
+        }
+      ],
+      "id": "prefix-nine",
+      "morphology": "The dental minor syllable and nasal preinitial are alternatives, not interchangeable phonetic spellings.",
+      "source": [
+        {
+          "pdf_pages": [
+            28
+          ],
+          "source_id": "sagart-hal-00781153"
+        }
+      ]
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "The voiced member is basic"
+          ],
+          "attribution": "Mei/Matisoff account as reported by Sagart–Baxter",
+          "claim": "Derive the transitive from a voiced intransitive with s-.",
+          "id": "s-devoicing",
+          "linked_forms": {
+            "Chinese": [
+              "*brjat",
+              "*s-brjat"
+            ]
+          }
+        },
+        {
+          "assumptions": [
+            "Japhug anticausative morphology informs the comparison"
+          ],
+          "attribution": "Sagart–Baxter",
+          "claim": "Derive the intransitive from a voiceless transitive with N-.",
+          "id": "N-anticausative",
+          "linked_forms": {
+            "Chinese": [
+              "*pret",
+              "*N-pret"
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "branch": "Sinitic",
+          "chinese": {
+            "middle_chinese": "pjet; bjet",
+            "middle_chinese_status": "source transcription, not a recording of historical speech",
+            "old_chinese": "*pret; *N-pret",
+            "old_chinese_status": "source reconstruction",
+            "philological_scope": "No independent collation of rhyme texts, phonetic series or manuscript witnesses. Those arguments must be checked in the cited paper and its references.",
+            "reconstruction_system": "Sagart–Baxter 2012",
+            "rhyme_and_phonetic_series": null,
+            "written_character": "別"
+          },
+          "doculect": "Chinese as analysed in the cited paper",
+          "form": "別",
+          "meaning": "separate; be separated",
+          "reconstruction_node": null,
+          "representation": "written-character"
+        },
+        {
+          "branch": "Burmish",
+          "chinese": null,
+          "doculect": "Written Burmese",
+          "form": "phrat; prat",
+          "meaning": "cut; be cut",
+          "reconstruction_node": null,
+          "representation": "written-transliteration"
+        },
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "prɤt; mbrɤt",
+          "meaning": "cut; be cut",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "id": "prefix-separate",
+      "morphology": "Transitive and intransitive members are linked. A mixed pair from the two analyses is not a third source analysis.",
+      "source": [
+        {
+          "pdf_pages": [
+            28,
+            29
+          ],
+          "source_id": "sagart-hal-00781153"
+        }
+      ]
+    },
+    {
+      "analyses": [
+        {
+          "assumptions": [
+            "Root and derivational function are cognate"
+          ],
+          "attribution": "primary-paper",
+          "claim": "The motion verb pair supports an old applicative t.",
+          "id": "inherited-t",
+          "linked_forms": {
+            "Japhug": [
+              "*wi",
+              "*wit"
+            ],
+            "Khaling": [
+              "|pi|",
+              "|pit|"
+            ]
+          }
+        },
+        {
+          "assumptions": [
+            "The proposed t > s change and analogy apply"
+          ],
+          "attribution": "primary-paper",
+          "claim": "Some Chinese s may reflect t after codas and subsequent analogical extension.",
+          "id": "Chinese-extension",
+          "linked_forms": {}
+        }
+      ],
+      "evidence": [
+        {
+          "branch": "Gyalrongic",
+          "chinese": null,
+          "doculect": "Japhug",
+          "form": "ɣi; ɣɯt",
+          "meaning": "come; bring",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        },
+        {
+          "branch": "Kiranti",
+          "chinese": null,
+          "doculect": "Khaling abstract verb roots",
+          "form": "|pi|; |pit|",
+          "meaning": "come; bring",
+          "reconstruction_node": null,
+          "representation": "source-transcription"
+        }
+      ],
+      "id": "suffix-bring",
+      "morphology": "Applicative and causative are kept distinct; Limbu has separate s-causative and t-applicative morphology.",
+      "source": [
+        {
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "source_id": "jacques-halshs-01566036"
+        }
+      ]
+    }
+  ],
+  "schema_version": "1.0.0"
+}

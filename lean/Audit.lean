@@ -1,5 +1,10 @@
 import Comparative
 import Historical
+
+#print axioms Historical.SourceScope.run_append
+#print axioms Historical.SourceScope.path_composition
+#print axioms Historical.SourceScope.path_associativity
+#print axioms Historical.SourceScope.indistinguishable_paths
 #print axioms Historical.CaseStudy.retrieval_correct
 #print axioms Historical.CaseStudy.retrieval_sound
 #print axioms Historical.CaseStudy.retrieval_complete

@@ -314,7 +314,7 @@
   {
     "id": "M6",
     "title": "Sino-Tibetan subgroup and cross-branch pilot",
-    "status": "planned",
+    "status": "in_review",
     "depends_on": [
       "M1",
       "M2",

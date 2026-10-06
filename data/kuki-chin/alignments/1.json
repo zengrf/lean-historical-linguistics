@@ -1,0 +1,175 @@
+{
+  "alignment_data": {
+    "alignments": [
+      {
+        "evidence_unit": "vb-family-1",
+        "id": "vb-core-1",
+        "rows": [
+          {
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "U000062"
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "segment",
+                "value": "U000061"
+              },
+              {
+                "kind": "segment",
+                "value": "U000301"
+              }
+            ],
+            "doculect_id": "vb-1-mara-1",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "U000062"
+              },
+              {
+                "kind": "segment",
+                "value": "U000061"
+              },
+              {
+                "kind": "segment",
+                "value": "U000301"
+              }
+            ],
+            "source_ref": "VanBik2009:[1]:Mara"
+          },
+          {
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "U000062"
+              },
+              {
+                "kind": "segment",
+                "value": "U000061"
+              },
+              {
+                "kind": "segment",
+                "value": "U000302"
+              },
+              {
+                "kind": "segment",
+                "value": "U000061"
+              },
+              {
+                "kind": "segment",
+                "value": "U00006E"
+              }
+            ],
+            "doculect_id": "vb-1-hakha-lai-2",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "U000062"
+              },
+              {
+                "kind": "segment",
+                "value": "U000061"
+              },
+              {
+                "kind": "segment",
+                "value": "U000302"
+              },
+              {
+                "kind": "segment",
+                "value": "U000061"
+              },
+              {
+                "kind": "segment",
+                "value": "U00006E"
+              }
+            ],
+            "source_ref": "VanBik2009:[1]:H. Lai"
+          }
+        ],
+        "width": 5
+      }
+    ],
+    "description": "Display-character unit-edit alignment using reversible Uxxxxxx Unicode scalar IDs; preserves spaces and tone marks, without certifying phonological homology",
+    "doculects": [
+      "vb-1-mara-1",
+      "vb-1-hakha-lai-2"
+    ],
+    "id": "vb-core-1",
+    "schema_version": "1.0.0",
+    "source_kind": "sourced"
+  },
+  "claim": "feasibility-only",
+  "groups": [
+    {
+      "claimed_support": 1,
+      "id": "column-0",
+      "members": [
+        "vb-core-1-c0"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-1",
+      "members": [
+        "vb-core-1-c1"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-2",
+      "members": [
+        "vb-core-1-c2"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-3",
+      "members": [
+        "vb-core-1-c3"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-4",
+      "members": [
+        "vb-core-1-c4"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "alignment_id": "vb-core-1",
+      "column_index": 0,
+      "id": "vb-core-1-c0"
+    },
+    {
+      "alignment_id": "vb-core-1",
+      "column_index": 1,
+      "id": "vb-core-1-c1"
+    },
+    {
+      "alignment_id": "vb-core-1",
+      "column_index": 2,
+      "id": "vb-core-1-c2"
+    },
+    {
+      "alignment_id": "vb-core-1",
+      "column_index": 3,
+      "id": "vb-core-1-c3"
+    },
+    {
+      "alignment_id": "vb-core-1",
+      "column_index": 4,
+      "id": "vb-core-1-c4"
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1"
+}

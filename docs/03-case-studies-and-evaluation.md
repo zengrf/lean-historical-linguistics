@@ -1,6 +1,6 @@
 # Case studies and evaluation protocol
 
-Status: the acceptance protocol below remains in force. M5 now has a [source-backed computational pilot](11-m5-delivery.md), including frozen evaluation, explicit failures and a separate Latin control. Its independent PIE-specialist review is pending; it is not linguistically validated. M6 remains planned. The earlier formal-contract fixtures remain synthetic.
+Status: the acceptance protocol below remains in force. M5 has a [source-backed computational pilot](11-m5-delivery.md), including frozen evaluation, explicit failures and a separate Latin control. M6 has a [Kuki-Chin and cross-branch pilot](12-m6-delivery.md), with source-qualified reconstruction levels and retained competing analyses. Both independent family-specialist reviews remain pending. The earlier formal-contract fixtures remain synthetic.
 
 M1 now imports 60 real Indo-European/Burmish records for representation and provenance testing. These are not the M5/M6 reconstruction benchmarks; see [M1 scope and status](07-m1-delivery.md).
 

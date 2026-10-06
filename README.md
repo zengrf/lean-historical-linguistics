@@ -23,11 +23,13 @@ and [formal architecture](docs/02-formal-architecture.md) for these distinctions
 | [M3: alignments and correspondences](docs/09-m3-delivery.md) | Row preservation and feasible correspondence partitions; 140 synthetic sites; 67,081 pair and 6,392 partition comparisons | Delivered |
 | [M4: reconstruction](docs/10-m4-delivery.md) | Soundness and relative completeness for bounded search; 1,936 inverse sets; joint alternatives and incomplete searches | Delivered |
 | [M5: Indo-European](docs/11-m5-delivery.md) | 200 IE-CoR cognate sets, 843 reflexes, a 20-set review sample, published analyses and a Latin control | Computational checks passed; specialist review pending |
+| [M6: Kuki-Chin and cross-branch comparison](docs/12-m6-delivery.md) | 100 VanBik sets, 580 reflex records, a 50-set review core and 30 cross-branch dossiers; source-qualified paths and competing analyses | Computational checks passed; specialist review pending |
 
 M1's source-entry review and M2's worked derivations were completed by separate
 AI agents. They assess transcription and rule application. M5 requires a PIE
 specialist's assessment of the linguistic analyses; its [review record](reviews/pie-signoff.md)
-is pending. The M2–M4 test cases are synthetic.
+is pending. M6's [Sino-Tibetan specialist review](reviews/sino-tibetan-signoff.md)
+is also pending. The M2–M4 test cases are synthetic.
 
 The M5 correspondence baseline reproduces 1 of 79 supported test reflexes;
 54 further test reflexes are unsupported by its transcription or rule model.
@@ -54,7 +56,7 @@ published reference forms within a declared candidate pool.
 - **127 PDFs, representing 122 qualifying distinct works**, retained locally: 5,184 pages and approximately 211 MB. Proposals, reviews/replies and a chapter already contained in a downloaded book do not count toward the 100-work floor. Five unsuccessful acquisitions are documented separately.
 - **64 PDFs are included in this public repository** under their recorded redistribution terms. The other 63 are retained in the ignored local library. The manifest and fetcher preserve their original source locations; continued remote availability is not guaranteed.
 - **132 annotated references**: 34 focused excerpt readings, 82 excerpt screenings, 10 visual excerpt readings, one decoded-abstract screening, two web-only excerpt readings and three access-gap notes. The reading notes identify the examined pages.
-- **133 Lean theorem declarations**: 22 M0 results, five M1 evidence results, 17 M2 contextual-rule results, 35 M3 alignment/correspondence results, 48 M4 reconstruction/ambiguity results and six M5 case-study results. The audit permits Lean's standard logical axioms and rejects project axioms, proof placeholders and `native_decide`.
+- **137 Lean theorem declarations**: 22 M0 results, five M1 evidence results, 17 M2 contextual-rule results, 35 M3 alignment/correspondence results, 48 M4 reconstruction/ambiguity results, six M5 case-study results and four M6 path/scope results. The audit permits Lean's standard logical axioms and rejects project axioms, proof placeholders and `native_decide`.
 
 The [full local acquisition audit](reports/library-audit.json) records actual hash and page-count checks. Public CI validates the public PDFs and the acquisition ledger; it cannot verify copies absent from a public checkout. See [verification records](reports/README.md).
 
@@ -100,6 +102,9 @@ python scripts/verify_m4.py --check-report
 python scripts/verify_m5.py --audit reports/lean-axioms-current.txt
 python scripts/verify_m5.py --check-report
 python scripts/review_pie.py
+python scripts/verify_m6.py --audit reports/lean-axioms-current.txt
+python scripts/verify_m6.py --check-report
+python scripts/review_sino_tibetan.py
 ```
 
 The default toolchain is pinned in [lean-toolchain](lean/lean-toolchain). CI builds Lean **4.19.0 and 4.34.1** independently. The original local build used 4.19.0 because the 4.34.1 binary did not run on the host's macOS 10.15. If you need that compatibility path, replace `lake` with `lake +leanprover/lean4:v4.19.0` in each Lean command. CI results, rather than local compatibility claims, establish the newer-toolchain build status.

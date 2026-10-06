@@ -1,3 +1,7 @@
+'Historical.SourceScope.run_append' depends on axioms: [propext]
+'Historical.SourceScope.path_composition' depends on axioms: [propext]
+'Historical.SourceScope.path_associativity' depends on axioms: [propext]
+'Historical.SourceScope.indistinguishable_paths' depends on axioms: [propext, Quot.sound]
 'Historical.CaseStudy.retrieval_correct' depends on axioms: [propext, Quot.sound]
 'Historical.CaseStudy.retrieval_sound' depends on axioms: [propext, Quot.sound]
 'Historical.CaseStudy.retrieval_complete' depends on axioms: [propext, Quot.sound]

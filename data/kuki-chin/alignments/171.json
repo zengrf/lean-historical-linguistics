@@ -1,0 +1,151 @@
+{
+  "alignment_data": {
+    "alignments": [
+      {
+        "evidence_unit": "vb-family-1",
+        "id": "vb-core-171",
+        "rows": [
+          {
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "U000074"
+              },
+              {
+                "kind": "segment",
+                "value": "U000061"
+              },
+              {
+                "kind": "segment",
+                "value": "U00006B"
+              },
+              {
+                "kind": "gap",
+                "value": null
+              }
+            ],
+            "doculect_id": "vb-171-hakha-lai-1",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "U000074"
+              },
+              {
+                "kind": "segment",
+                "value": "U000061"
+              },
+              {
+                "kind": "segment",
+                "value": "U00006B"
+              }
+            ],
+            "source_ref": "VanBik2009:[171]:H. Lai"
+          },
+          {
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "U000074"
+              },
+              {
+                "kind": "segment",
+                "value": "U000061"
+              },
+              {
+                "kind": "segment",
+                "value": "U00006B"
+              },
+              {
+                "kind": "segment",
+                "value": "U000033"
+              }
+            ],
+            "doculect_id": "vb-171-tedim-4",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "U000074"
+              },
+              {
+                "kind": "segment",
+                "value": "U000061"
+              },
+              {
+                "kind": "segment",
+                "value": "U00006B"
+              },
+              {
+                "kind": "segment",
+                "value": "U000033"
+              }
+            ],
+            "source_ref": "VanBik2009:[171]:Tedim"
+          }
+        ],
+        "width": 4
+      }
+    ],
+    "description": "Display-character unit-edit alignment using reversible Uxxxxxx Unicode scalar IDs; preserves spaces and tone marks, without certifying phonological homology",
+    "doculects": [
+      "vb-171-hakha-lai-1",
+      "vb-171-tedim-4"
+    ],
+    "id": "vb-core-171",
+    "schema_version": "1.0.0",
+    "source_kind": "sourced"
+  },
+  "claim": "feasibility-only",
+  "groups": [
+    {
+      "claimed_support": 1,
+      "id": "column-0",
+      "members": [
+        "vb-core-171-c0"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-1",
+      "members": [
+        "vb-core-171-c1"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-2",
+      "members": [
+        "vb-core-171-c2"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-3",
+      "members": [
+        "vb-core-171-c3"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "alignment_id": "vb-core-171",
+      "column_index": 0,
+      "id": "vb-core-171-c0"
+    },
+    {
+      "alignment_id": "vb-core-171",
+      "column_index": 1,
+      "id": "vb-core-171-c1"
+    },
+    {
+      "alignment_id": "vb-core-171",
+      "column_index": 2,
+      "id": "vb-core-171-c2"
+    },
+    {
+      "alignment_id": "vb-core-171",
+      "column_index": 3,
+      "id": "vb-core-171-c3"
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1"
+}

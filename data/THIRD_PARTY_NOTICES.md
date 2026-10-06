@@ -11,6 +11,8 @@ Heggarty, Paul; Anderson, Cormac; Scarborough, Matthew. *Indo-European Cognate R
 - Commit: `700b635a04786427b78841489c46eefbe2843509`
 - [Derived pilot](pilots/iecor.json): 30 selected records; original values and all raw form columns preserved, representations wrapped in the project's evidence schema.
 - [M5 derived PIE pilot](pie/README.md): 200 source cognate sets and 843 distinct form rows, plus a separate 20-set Latin/Romance control. Original records, cognacy notes, licenses and exact source locators remain attached. Added selection, normalization, models and splits are explicitly identified; specialist linguistic review is pending. These derivatives retain CC BY 4.0 attribution.
+- [M6 Kuki-Chin corpus](kuki-chin/README.md): lexical forms, glosses and source claims from Kenneth VanBik (2009), *Proto-Kuki-Chin*, STEDT Monograph 8, with exact PDF pages and entry numbers. The source PDF remains unmodified under STEDT's academic noncommercial redistribution permission. This extraction is separately labelled and has not received specialist review.
+- [M6 cross-branch comparisons](cross-branch/README.md): selected lexical facts and original summaries of arguments from Guillaume Jacques's papers and Sagart and Baxter (2012), with page locators, source URLs and PDF hashes. Button (2011), *Proto Northern Chin*, supplies the distinct reconstruction scope and tone notation. Local research PDFs without established redistribution permission remain outside Git. Source papers retain their copyrights; the generated analyses do not imply their authors' endorsement.
 
 ## Hill–Gong Burmish data
 
