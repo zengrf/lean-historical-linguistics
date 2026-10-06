@@ -1,6 +1,6 @@
 # Delivery plan with verifiable goals
 
-This is a research-and-engineering plan, not a promise that a complete prehistoric language will be recovered. **M0–M4 are delivered; M5 is in review; M6–M9 are planned.** Separate AI reviewers completed M1's source-entry gate and M2's independent hand-worked examples. M5's computational pilot is implemented, but its independent PIE-specialist assessment remains pending. The machine-readable register is [milestones.json](../data/milestones.json). M1–M5's checkers and verification commands now exist; commands named for later modules remain acceptance-interface specifications.
+**M0–M4 are delivered; M5 is in review; M6–M9 are planned.** Separate AI reviewers completed M1's source-entry gate and M2's independent hand-worked examples. M5's computational pilot is implemented, but its independent PIE-specialist assessment remains pending. The machine-readable register is [milestones.json](../data/milestones.json). M1–M5's checkers and verification commands now exist; commands named for later modules remain acceptance-interface specifications.
 
 ## 1. Intended research contribution
 
@@ -13,7 +13,7 @@ Deliver a Lean library and accompanying comparative datasets that support:
 5. Source-backed PIE and Sino-Tibetan subgroup dossiers, with independently reviewed empirical claims.
 6. Reproducible interfaces for expert, statistical, constraint-based and neural proposal systems.
 
-The first publishable result could be the semantics and certificate checker plus two carefully delimited comparative dossiers. The full program should not be held hostage to solving all of PIE morphology or a unified Proto-Sino-Tibetan phonology.
+An initial publication could present the rule semantics, certificate checker and two comparative case studies. General morphology and reconstruction across the whole Sino-Tibetan family are later research questions.
 
 ## 2. Milestones
 
@@ -60,7 +60,7 @@ Implemented acceptance commands: `lake build Historical.Rules Historical.Certifi
 
 Prove row preservation when removing alignment gaps. Verify correspondence groups pairwise, with no positive support from missing cells. Give counterexamples for treating compatibility as transitive. A minimum-cover claim is optional; if made, add a checked optimality certificate. The first 100-site suite must include at least 20 incomplete and 10 conflicting sites.
 
-Acceptance artifact: a report listing every site's assigned group, support and compatibility outcome, with a theorem-backed validity result. A heuristic score alone fails this milestone.
+Acceptance artifact: a report listing every site's assigned group, support and compatibility outcome, with a result linked to the checker-correctness theorem. A heuristic score alone fails this milestone.
 
 Implemented commands: `lake exe correspondence_check --suite correspondence-sites` and `python scripts/verify_m3.py --audit PATH` after a fresh build/audit. The [M3 delivery](09-m3-delivery.md) and [per-site report](../reports/correspondence-sites.json) document all four passing criteria. The implementation accepts feasibility-only claims and rejects unsupported optimality. Distinct evidence-unit labels prevent repeated positions from inflating support; their historical independence is an empirical assumption. The current suite is synthetic and does not replace M5/M6 review.
 
@@ -83,7 +83,7 @@ these synthetic checks do not close the empirical M5/M6 gates.
 
 Follow the detailed [case-study protocol](03-case-studies-and-evaluation.md). Deliver the small independently reviewed core before scaling. Store all failures and disagreement records. Require a reviewer with the relevant family expertise who did not perform the original encoding. If specialist review is unavailable, label the release **computationally checked, linguistically unreviewed**; do not mark this gate passed.
 
-The evidence must include multiple source-defined analysis packages. A successful outcome may show that two theories fit the same data, or that the selected sources do not support a proposed law. Those are legitimate results. Inventing extra etymologies or dropping contradictions to meet a numerical target is not.
+The evidence must include multiple source-defined analysis packages. A successful outcome may show that two theories fit the same data, or that the selected sources do not support a proposed law. Retain these outcomes and report any shortfall against the sample targets.
 
 ### M7: optimize behind a fixed contract
 
@@ -112,15 +112,15 @@ An optional finite rational probability module may prove posterior normalization
 | 5–6 | Restricted interpreter and chronology | Executable examples with all intermediate stages |
 | 7–8 | Certificate reflection and adversarial tests | M2 theorem audit and failure diagnostics |
 | 9–10 | Alignment validity and correspondence groups | First M3 site report; no unsupported transitive grouping |
-| 11–12 | Bounded candidate reconstruction on the small dossiers | A vertical-slice release with explicit ambiguity and a plan adjustment based on observed effort |
+| 11–12 | Bounded candidate reconstruction on the small dossiers | An initial implementation of the complete checking procedure, with ambiguity and effort recorded |
 
-This schedule targets a vertical slice, not completed 200-set and 100-set pilots. A single developer unfamiliar with Lean or historical linguistics should lengthen it substantially.
+This schedule covers an initial implementation of the checking procedure. The 200-set and 100-set studies require further data preparation and review. A single developer unfamiliar with Lean or historical linguistics should lengthen it substantially.
 
 ## 5. Staffing and cost model
 
 A realistic starting team is one full-time Lean engineer/researcher, a PIE specialist and a Sino-Tibetan specialist each contributing roughly one day per week, and limited data-engineering support. For that team, **12–18 months** is a reasonable planning envelope for M1–M9's core; novel transducer proofs, difficult morphology or unavailable specialist time can extend it. One person developing both disciplinary expertise and infrastructure should plan for a longer research project.
 
-Budget primarily for time. The core checker and small pilots should run on a laptop. GPU work is optional and should be budgeted only after deterministic baselines establish a reason for it. Use local salary/day rates to price roughly 46–76 engineer-weeks plus specialist and annotation time; no fabricated dollar estimate is needed.
+Budget primarily for time. The core checker and small pilots should run on a laptop. GPU work is optional and should be budgeted only after deterministic baselines establish a reason for it. Use local salary/day rates to price roughly 46–76 engineer-weeks plus specialist and annotation time; costs depend on the participating institutions and staffing arrangements.
 
 ## 6. Decision gates and failure handling
 
@@ -146,4 +146,4 @@ Budget primarily for time. The core checker and small pilots should run on a lap
 - Can a certificate interface expose mistakes in existing reconstruction pipelines without recreating their search algorithms?
 - Does an explicit representation of morphology and borrowing reduce apparent sound-law exceptions on independently reviewed cases?
 
-The project succeeds by making these questions answerable with inspectable evidence, not by maximizing the number of theorem names or forcing a single reconstruction.
+The results should identify which observations distinguish the proposed histories and which remain unexplained.

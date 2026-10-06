@@ -150,9 +150,9 @@ Alexandre Bouchard; Percy Liang; Thomas Griffiths; Dan Klein (2007). paper. [Sou
 
 **Reading scope:** screened-excerpts; PDF pages 1, 9.
 
-**Finding:** Stochastic edits on a phylogeny jointly support reconstruction and phonological-change inference.
-**Formalization use:** Use a probabilistic generator outside the proof kernel, with explicit tree and edit parameters.
-**Boundary:** An inferred high-probability form is conditional on the model and cognate inputs.
+**Finding:** Stochastic edits along a phylogeny support joint inference of protoforms and sound changes.
+**Proposed use:** Use a probabilistic generator outside the proof kernel, with explicit tree and edit parameters.
+**Limitations:** An inferred high-probability form is conditional on the model and cognate inputs.
 
 **Rights:** CC BY-NC-SA 3.0.
 
@@ -166,8 +166,8 @@ Alexandre Bouchard-Côté; Thomas L. Griffiths; Dan Klein (2009). paper. [Source
 **Reading scope:** screened-excerpts; PDF pages 1, 8.
 
 **Finding:** Markedness and cross-language features improve earlier probabilistic reconstruction on several families.
-**Formalization use:** Separate well-formedness priors from evidence for historical correspondence.
-**Boundary:** Known cognate groups and phylogenies are supplied; borrowing and reduplication remain outside this model.
+**Proposed use:** Separate well-formedness priors from evidence for historical correspondence.
+**Limitations:** Known cognate groups and phylogenies are supplied; borrowing and reduplication remain outside this model.
 
 **Rights:** CC BY-NC-SA 3.0.
 
@@ -181,8 +181,8 @@ David Hall; Dan Klein (2010). paper. [Source](https://aclanthology.org/P10-1105/
 **Reading scope:** screened-excerpts; PDF pages 1, 9.
 
 **Finding:** A generative phylogenetic model induces cognate groups and approximates weighted automata during inference.
-**Formalization use:** Keep approximation error separate from correctness of a checked candidate.
-**Boundary:** Approximated search is not a completeness certificate.
+**Proposed use:** Keep approximation error separate from correctness of a checked candidate.
+**Limitations:** Approximated search is not a completeness certificate.
 
 **Rights:** CC BY-NC-SA 3.0.
 
@@ -196,8 +196,8 @@ David Hall; Dan Klein (2011). paper. [Source](https://aclanthology.org/D11-1032/
 **Reading scope:** screened-excerpts; PDF pages 1, 10.
 
 **Finding:** Scalable cognate recovery trades cluster purity against recall on large Oceanic wordlists.
-**Formalization use:** Report both false merges and missed cognates; retain intermediate clusters.
-**Boundary:** High purity alone can hide excessive splitting.
+**Proposed use:** Report both false merges and missed cognates; retain intermediate clusters.
+**Limitations:** High purity alone can hide excessive splitting.
 
 **Rights:** CC BY-NC-SA 3.0.
 
@@ -211,8 +211,8 @@ Wesley Mackay; Grzegorz Kondrak (2005). paper. [Source](https://aclanthology.org
 **Reading scope:** screened-excerpts; PDF pages 1, 7.
 
 **Finding:** Pair HMMs learn word-pair similarities from training examples.
-**Formalization use:** Implement an alignment baseline and a verifiable alignment witness.
-**Boundary:** Surface similarity is evidence, not a definition of historical cognacy.
+**Proposed use:** Implement an alignment baseline and a verifiable alignment witness.
+**Limitations:** Surface similarity is evidence, not a definition of historical cognacy.
 
 **Rights:** CC BY-NC-SA 3.0.
 
@@ -226,8 +226,8 @@ T. Mark Ellison (2007). paper. [Source](https://aclanthology.org/W07-1303/) · [
 **Reading scope:** visual-excerpts; PDF pages 1.
 
 **Finding:** Bayesian scoring joins proposed cognates and regular correspondences; an implementation tests Polish and Russian.
-**Formalization use:** Make latent cognacy and correspondence parameters explicit.
-**Boundary:** The study's small model and pairwise evaluation do not settle family-wide reconstruction.
+**Proposed use:** Make latent cognacy and correspondence parameters explicit.
+**Limitations:** The study's small model and pairwise evaluation do not settle family-wide reconstruction.
 
 **Rights:** CC BY-NC-SA 3.0.
 
@@ -243,8 +243,8 @@ Local path: `library/downloads/W11-4634.pdf` (not in public Git). 8 PDF pages; 5
 **Reading scope:** screened-excerpts; PDF pages 1.
 
 **Finding:** Etymological alignments are evaluated through probabilistic description of internal consistency.
-**Formalization use:** Distinguish a reproducible objective function from historical validity.
-**Boundary:** Absence of hand-coded vowel preferences does not make an algorithm assumption-free.
+**Proposed use:** Distinguish a reproducible objective function from historical validity.
+**Limitations:** Absence of hand-coded vowel preferences does not make an algorithm assumption-free.
 
 **Rights:** No redistribution permission established; retained locally only.
 
@@ -258,8 +258,8 @@ Hannes Wettig; Kirill Reshetnikov; Roman Yangarber (2012). paper. [Source](https
 **Reading scope:** screened-excerpts; PDF pages 1.
 
 **Finding:** Context and phonetic features improve etymological alignment and imputation.
-**Formalization use:** Give rule contexts and feature encodings explicit semantics.
-**Boundary:** Better imputation is not proof that a supplied etymological database is correct.
+**Proposed use:** Give rule contexts and feature encodings explicit semantics.
+**Limitations:** Better imputation is not proof that a supplied etymological database is correct.
 
 **Rights:** CC BY-NC-SA 3.0.
 
@@ -273,8 +273,8 @@ Johann-Mattis List (2012). paper. [Source](https://aclanthology.org/W12-0216/) �
 **Reading scope:** screened-excerpts; PDF pages 1, 8.
 
 **Finding:** LexStat learns language-specific scoring schemes for multilingual cognate detection.
-**Formalization use:** Use a pinned LexStat implementation as a candidate generator and baseline.
-**Boundary:** Do not promote heuristic clusters to premises without provenance and review.
+**Proposed use:** Use a pinned LexStat implementation as a candidate generator and baseline.
+**Limitations:** Heuristic cognate sets require source references and linguistic review.
 
 **Rights:** CC BY-NC-SA 3.0.
 
@@ -288,8 +288,8 @@ Johann-Mattis List; Steven Moran (2013). paper. [Source](https://aclanthology.or
 **Reading scope:** screened-excerpts; PDF pages 1, 5.
 
 **Finding:** LingPy organizes comparison, alignment, cognacy and evaluation workflows.
-**Formalization use:** Interoperate through exported data and certificates rather than reimplementing the whole toolkit in Lean.
-**Boundary:** Tool execution and algorithmic correctness are distinct validation layers.
+**Proposed use:** Interoperate through exported data and certificates rather than reimplementing the whole toolkit in Lean.
+**Limitations:** Tool execution and algorithmic correctness are distinct validation layers.
 
 **Rights:** CC BY-NC-SA 3.0.
 
@@ -303,8 +303,8 @@ Alina Maria Ciobanu; Liviu P. Dinu (2015). paper. [Source](https://aclanthology.
 **Reading scope:** screened-excerpts; PDF pages 1, 5.
 
 **Finding:** Orthographic features help discriminate Romance cognates from borrowings.
-**Formalization use:** Preserve distinct inherited and borrowed relation types.
-**Boundary:** Writing conventions and the tested language pairs limit transfer to prehistoric data.
+**Proposed use:** Preserve distinct inherited and borrowed relation types.
+**Limitations:** Writing conventions and the tested language pairs limit transfer to prehistoric data.
 
 **Rights:** CC BY-NC-SA 3.0.
 
@@ -318,8 +318,8 @@ Johann-Mattis List; Philippe Lopez; Eric Bapteste (2016). paper. [Source](https:
 **Reading scope:** screened-excerpts; PDF pages 1.
 
 **Finding:** Similarity networks identify partially cognate morphemes in Sino-Tibetan data.
-**Formalization use:** Represent cognacy on morpheme occurrences, not only whole words.
-**Boundary:** A compound can share one inherited component without sharing an entire lexical ancestor.
+**Proposed use:** Represent cognacy on morpheme occurrences, not only whole words.
+**Limitations:** A compound can share one inherited component without sharing an entire lexical ancestor.
 
 **Rights:** CC BY 4.0.
 
@@ -333,8 +333,8 @@ Gerhard Jäger; Johann-Mattis List; Pavel Sofroniev (2017). paper. [Source](http
 **Reading scope:** screened-excerpts; PDF pages 1.
 
 **Finding:** SVMs combine alignment-based cognacy features across typologically diverse wordlists.
-**Formalization use:** Include a strong non-neural cognacy baseline.
-**Boundary:** Supervised generalization requires a split that prevents cognate-family leakage.
+**Proposed use:** Include a strong non-neural cognacy baseline.
+**Limitations:** Supervised generalization requires a split that prevents cognate-family leakage.
 
 **Rights:** CC BY 4.0.
 
@@ -348,8 +348,8 @@ Johann-Mattis List (2017). paper. [Source](https://aclanthology.org/E17-3003/) �
 **Reading scope:** screened-excerpts; PDF pages 1, 4.
 
 **Finding:** EDICTOR supports manual segmentation, alignment, cognacy and correspondence inspection.
-**Formalization use:** Use an expert-facing editor around a small verified core.
-**Boundary:** An editable judgment needs versioned provenance; the interface does not certify it.
+**Proposed use:** Use an expert-facing editor around a small verified core.
+**Limitations:** An editable judgment needs versioned provenance; the interface does not certify it.
 
 **Rights:** CC BY 4.0.
 
@@ -363,8 +363,8 @@ Michael Bloodgood; Benjamin Strauss (2017). paper. [Source](https://aclanthology
 **Reading scope:** screened-excerpts; PDF pages 1, 8.
 
 **Finding:** Global rescoring and reranking improve cognate-detection score matrices.
-**Formalization use:** Express global consistency constraints separately from pair scores.
-**Boundary:** The operational NLP notion of cognate must be reconciled with strict historical inheritance.
+**Proposed use:** Express global consistency constraints separately from pair scores.
+**Limitations:** The operational NLP notion of cognate must be reconciled with strict historical inheritance.
 
 **Rights:** CC BY 4.0.
 
@@ -378,8 +378,8 @@ Adam St Arnaud; David Beck; Grzegorz Kondrak (2017). paper. [Source](https://acl
 **Reading scope:** screened-excerpts; PDF pages 1, 9.
 
 **Finding:** Dictionary-based cognate discovery combines sound correspondences with semantic representations.
-**Formalization use:** Retain gloss evidence and semantic candidates alongside phonological evidence.
-**Boundary:** Semantic embeddings propose comparisons; they cannot establish inherited meaning.
+**Proposed use:** Retain gloss evidence and semantic candidates alongside phonological evidence.
+**Limitations:** Semantic embeddings propose comparisons; they cannot establish inherited meaning.
 
 **Rights:** CC BY 4.0.
 
@@ -393,8 +393,8 @@ Taraka Rama; Johann-Mattis List; Johannes Wahle; Gerhard Jäger (2018). paper. [
 **Reading scope:** screened-excerpts; PDF pages 1, 5.
 
 **Finding:** Trees inferred from automatic cognates approach but generally lag expert-annotated inputs.
-**Formalization use:** Evaluate cognate detection and phylogeny separately.
-**Boundary:** Expert gold standards can also contain errors and must remain revisable.
+**Proposed use:** Evaluate cognate detection and phylogeny separately.
+**Limitations:** Expert gold standards can also contain errors and must remain revisable.
 
 **Rights:** CC BY 4.0.
 
@@ -408,10 +408,12 @@ Johann-Mattis List (2019). paper. [Source](https://aclanthology.org/J19-1004/) �
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 7, 8, 9, 21.
 
 **Finding:** Compatible alignment sites form a graph; correspondence inference becomes a clique-cover problem.
-**Formalization use:** Verify proposed pattern groups and preserve missing-data alternatives. The prototype proves compatibility need not be transitive.
-**Boundary:** Compatibility requires shared non-gap evidence and no conflicts; connected components are not valid substitutes for cliques.
+**Proposed use:** Verify proposed pattern groups and preserve missing-data alternatives. The prototype proves compatibility need not be transitive.
+**Limitations:** Compatibility requires shared non-gap evidence and no conflicts; connected components are not valid substitutes for cliques.
 
 **Rights:** CC BY-NC-ND 4.0.
+
+**Additional reading for terminology revision:** PDF pages 1, 8, 9; see the [reading record](terminology-readings.json).
 
 <a id="j19-4003"></a>
 ## J19-4003 — Automatic Identification and Production of Related Words for Historical Linguistics
@@ -423,8 +425,8 @@ Alina Maria Ciobanu; Liviu P. Dinu (2019). paper. [Source](https://aclanthology.
 **Reading scope:** screened-excerpts; PDF pages 1, 33.
 
 **Finding:** A broad related-word pipeline covers cognate detection, borrowing discrimination and word production.
-**Formalization use:** Separate relation classification from generated-word verification.
-**Boundary:** Orthographic production is not the same task as phonological reconstruction.
+**Proposed use:** Separate relation classification from generated-word verification.
+**Limitations:** Orthographic production is not the same task as phonological reconstruction.
 
 **Rights:** CC BY-NC-ND 4.0.
 
@@ -438,8 +440,8 @@ Taraka Rama; Johann-Mattis List (2019). paper. [Source](https://aclanthology.org
 **Reading scope:** screened-excerpts; PDF pages 1, 9.
 
 **Finding:** BipSkip and MAPLE provide fast cognate and tree inference for exploration.
-**Formalization use:** Treat speed-oriented inference as an interchangeable front end.
-**Boundary:** A MAP tree is a model-dependent estimate, not a proved genealogy.
+**Proposed use:** Treat speed-oriented inference as an interchangeable front end.
+**Limitations:** A MAP tree is a model-dependent estimate, not a proved genealogy.
 
 **Rights:** CC BY 4.0.
 
@@ -453,8 +455,8 @@ Andrea Ceolin; Ollie Sayeed (2019). paper. [Source](https://aclanthology.org/W19
 **Reading scope:** screened-excerpts; PDF pages 1, 3.
 
 **Finding:** A stochastic splitting-and-merging model connects markedness with frequency distributions.
-**Formalization use:** Provide explicit merger examples and optional probabilistic priors.
-**Boundary:** Inventory-level frequency patterns do not uniquely identify lexical histories.
+**Proposed use:** Provide explicit merger examples and optional probabilistic priors.
+**Limitations:** Inventory-level frequency patterns do not uniquely identify lexical histories.
 
 **Rights:** CC BY 4.0.
 
@@ -468,8 +470,8 @@ Chundra Cathcart (2019). paper. [Source](https://aclanthology.org/W19-4732/) · 
 **Reading scope:** screened-excerpts; PDF pages 1.
 
 **Finding:** Gaussian processes model covariance between Indo-Aryan sound-change outcomes.
-**Formalization use:** Test independence assumptions instead of silently multiplying scores.
-**Boundary:** Posterior predictive adequacy is an empirical property outside the kernel proof.
+**Proposed use:** Test the independence assumptions used when combining scores.
+**Limitations:** Posterior predictive adequacy is an empirical property outside the kernel proof.
 
 **Rights:** CC BY 4.0.
 
@@ -483,8 +485,8 @@ Roddy MacSween; Andrew Caines (2020). paper. [Source](https://aclanthology.org/2
 **Reading scope:** screened-excerpts; PDF pages 1, 9.
 
 **Finding:** An EM framework jointly estimates cognacy and sound-correspondence parameters.
-**Formalization use:** Separate latent variables, observations and update algorithms.
-**Boundary:** Convergence of a fitting procedure would not establish correctness of its linguistic model.
+**Proposed use:** Separate latent variables, observations and update algorithms.
+**Limitations:** Convergence of a fitting procedure would not establish correctness of its linguistic model.
 
 **Rights:** CC BY 4.0.
 
@@ -498,8 +500,8 @@ Clayton Marr; David R. Mortensen (2020). paper. [Source](https://aclanthology.or
 **Reading scope:** screened-excerpts; PDF pages 1, 8.
 
 **Finding:** DiaSim runs ordered sound-change cascades and diagnoses Latin-to-French errors.
-**Formalization use:** Prioritize traceable forward derivation and useful mismatch reports.
-**Boundary:** A cascade tuned on observed reflexes needs fresh held-out evaluation.
+**Proposed use:** Prioritize traceable forward derivation and useful mismatch reports.
+**Limitations:** A cascade tuned on observed reflexes needs fresh held-out evaluation.
 
 **Rights:** CC BY-NC (version unspecified in PDF).
 
@@ -513,8 +515,8 @@ Clémentine Fourrier; Benoît Sagot (2020). paper. [Source](https://aclanthology
 **Reading scope:** screened-excerpts; PDF pages 1, 5.
 
 **Finding:** Statistical and neural correspondence learners behave differently with data size, ambiguity and direction.
-**Formalization use:** Benchmark forward and inverse tasks separately on synthetic and real data.
-**Boundary:** Perfect artificial rules remove several difficulties present in historical evidence.
+**Proposed use:** Benchmark forward and inverse tasks separately on synthetic and real data.
+**Limitations:** Perfect artificial rules remove several difficulties present in historical evidence.
 
 **Rights:** CC BY-NC (version unspecified in PDF).
 
@@ -528,8 +530,8 @@ Carlo Meloni; Shauli Ravfogel; Yoav Goldberg (2021). paper. [Source](https://acl
 **Reading scope:** focused-excerpts; PDF pages 1, 9.
 
 **Finding:** Supervised neural reconstruction uses a large Romance dataset and analyzes phonological error types.
-**Formalization use:** Use withheld attested ancestors as one evaluation track.
-**Boundary:** The authors distinguish this supervised task from the harder work of historical reconstruction.
+**Proposed use:** Use withheld attested ancestors as one evaluation track.
+**Limitations:** The authors distinguish this supervised task from the harder work of historical reconstruction.
 
 **Rights:** CC BY 4.0.
 
@@ -543,8 +545,8 @@ Aryaman Arora; Adam Farris; Samopriya Basu; Suresh Kolichala (2022). paper. [Sou
 **Reading scope:** screened-excerpts; PDF pages 1, 9.
 
 **Finding:** South Asian historical data are often scattered rather than wholly absent.
-**Formalization use:** Budget for source reconciliation and language-variety identifiers.
-**Boundary:** Digitization does not automatically yield comparable transcriptions or licenses.
+**Proposed use:** Budget for source reconciliation and language-variety identifiers.
+**Limitations:** Digitization does not automatically yield comparable transcriptions or licenses.
 
 **Rights:** CC BY 4.0.
 
@@ -558,8 +560,8 @@ Sidsel Boldsen; Patrizia Paggio (2022). paper. [Source](https://aclanthology.org
 **Reading scope:** screened-excerpts; PDF pages 1, 9.
 
 **Finding:** Character-distribution change can detect some sound changes through historical spelling.
-**Formalization use:** Model spelling as an observation channel over phonology.
-**Boundary:** Orthographic change and sound change must not be equated.
+**Proposed use:** Model spelling as an observation channel over phonology.
+**Limitations:** Orthographic change and sound change must not be equated.
 
 **Rights:** CC BY 4.0.
 
@@ -573,8 +575,8 @@ Johann-Mattis List; Ekaterina Vylomova; Robert Forkel; Nathan Hill; Ryan Cottere
 **Reading scope:** screened-excerpts; PDF pages 1.
 
 **Finding:** A shared task evaluates missing cognate reflex prediction across standardized families.
-**Formalization use:** Reuse transparent splits, baselines and exact task definitions.
-**Boundary:** Predicting a missing daughter word differs from reconstructing an unattested ancestor.
+**Proposed use:** Reuse transparent splits, baselines and exact task definitions.
+**Limitations:** Predicting a missing daughter word differs from reconstructing an unattested ancestor.
 
 **Rights:** CC BY 4.0.
 
@@ -588,8 +590,8 @@ Gerhard Jäger (2022). paper. [Source](https://aclanthology.org/2022.sigtyp-1.8/
 **Reading scope:** screened-excerpts; PDF pages 1.
 
 **Finding:** Bayesian phylogenetic ancestral-state methods are adapted to cognate reflex prediction.
-**Formalization use:** Make all intermediate cognacy, tree and alignment decisions inspectable.
-**Boundary:** Uncertainty compounds across pipeline stages.
+**Proposed use:** Make all intermediate cognacy, tree and alignment decisions inspectable.
+**Limitations:** Uncertainty compounds across pipeline stages.
 
 **Rights:** CC BY 4.0.
 
@@ -603,8 +605,8 @@ Christo Kirov; Richard Sproat; Alexander Gutkin (2022). paper. [Source](https://
 **Reading scope:** screened-excerpts; PDF pages 1, 8.
 
 **Finding:** Transformer and convolutional inpainting models predict missing reflexes from cognate sets.
-**Formalization use:** Compare architecture choices without changing the evaluation target.
-**Boundary:** Matrix position and missing-data conventions can encode unintended information.
+**Proposed use:** Compare architecture choices without changing the evaluation target.
+**Limitations:** Matrix position and missing-data conventions can encode unintended information.
 
 **Rights:** CC BY 4.0.
 
@@ -618,8 +620,8 @@ Giuseppe G. A. Celano (2022). paper. [Source](https://aclanthology.org/2022.sigt
 **Reading scope:** screened-excerpts; PDF pages 1, 5.
 
 **Finding:** A transformer does not consistently outperform the rule-based shared-task baseline.
-**Formalization use:** Require simple baselines before adding complex inference machinery.
-**Boundary:** Small sparse datasets can favor simpler methods.
+**Proposed use:** Compare simple baselines with more complex models.
+**Limitations:** Small sparse datasets can favor simpler methods.
 
 **Rights:** CC BY 4.0.
 
@@ -633,8 +635,8 @@ Andre He; Nicholas Tomlin; Dan Klein (2023). paper. [Source](https://aclantholog
 **Reading scope:** screened-excerpts; PDF pages 1.
 
 **Finding:** Neural unsupervised reconstruction retains monotonic alignment and controlled underfitting biases.
-**Formalization use:** Record alignment monotonicity as an assumption in the model configuration.
-**Boundary:** A monotonic alignment model needs an explicit treatment of metathesis.
+**Proposed use:** Record alignment monotonicity as an assumption in the model configuration.
+**Limitations:** A monotonic alignment model needs an explicit treatment of metathesis.
 
 **Rights:** CC BY 4.0.
 
@@ -648,8 +650,8 @@ Young Min Kim; Kalvin Chang; Chenxuan Cui; David R. Mortensen (2023). paper. [So
 **Reading scope:** screened-excerpts; PDF pages 1, 5.
 
 **Finding:** Transformer reconstruction is tested on Romance and Chinese comparative datasets.
-**Formalization use:** Use neural predictions as candidate sets, with language-family-specific evaluation.
-**Boundary:** Performance against published labels does not make those labels historical ground truth.
+**Proposed use:** Use neural predictions as candidate sets, with language-family-specific evaluation.
+**Limitations:** Agreement with published reconstructions measures performance against the selected reference analysis.
 
 **Rights:** CC BY 4.0.
 
@@ -663,8 +665,8 @@ V.S.D.S.Mahesh Akavarapu; Arnab Bhattacharya (2023). paper. [Source](https://acl
 **Reading scope:** focused-excerpts; PDF pages 1, 9.
 
 **Finding:** Cognate Transformer adapts aligned-sequence modeling; pretraining helps scarce-data settings.
-**Formalization use:** Add an aligned neural proposer only after deterministic baselines.
-**Boundary:** The reported limitations include metathesis, restricted families and weak small-data performance without pretraining.
+**Proposed use:** Add an aligned neural proposer only after deterministic baselines.
+**Limitations:** The reported limitations include metathesis, restricted families and weak small-data performance without pretraining.
 
 **Rights:** CC BY 4.0.
 
@@ -678,8 +680,8 @@ Aryaman Arora; Adam Farris; Samopriya Basu; Suresh Kolichala (2023). paper. [Sou
 **Reading scope:** screened-excerpts; PDF pages 1, 5.
 
 **Finding:** Jambu combines numerous South Asian etymological sources and tests reflex prediction.
-**Formalization use:** Use source-aware imports and retain borrowing annotations.
-**Boundary:** Large dictionary aggregates contain heterogeneous analyses, not a uniform sound-law theory.
+**Proposed use:** Use source-aware imports and retain borrowing annotations.
+**Limitations:** Large dictionary aggregates contain heterogeneous analyses, not a uniform sound-law theory.
 
 **Rights:** CC BY 4.0.
 
@@ -693,8 +695,8 @@ Frederic Blum; Johann-Mattis List (2023). paper. [Source](https://aclanthology.o
 **Reading scope:** screened-excerpts; PDF pages 1, 9.
 
 **Finding:** Trimming gap-heavy alignment sites increases the regularity of inferred correspondence patterns.
-**Formalization use:** Save both original and trimmed alignments with an explicit transformation log.
-**Boundary:** Improved regularity can partly result from discarding difficult evidence.
+**Proposed use:** Save both original and trimmed alignments with an explicit transformation log.
+**Limitations:** Improved regularity can partly result from discarding difficult evidence.
 
 **Rights:** CC BY 4.0.
 
@@ -708,8 +710,8 @@ Priya Rani; Koustava Goswami; Adrian Doyle; Theodorus Fransen; Bernardo Stearns;
 **Reading scope:** screened-excerpts; PDF pages 1, 5.
 
 **Finding:** The cognate-and-derivative shared task separates supervised and unsupervised settings.
-**Formalization use:** Keep derivative relations distinct from cognacy in schemas and scores.
-**Boundary:** A benchmark's combined label inventory may differ from comparative-method categories.
+**Proposed use:** Keep derivative relations distinct from cognacy in schemas and scores.
+**Limitations:** A benchmark's combined label inventory may differ from comparative-method categories.
 
 **Rights:** CC BY 4.0.
 
@@ -723,8 +725,8 @@ Liang Lu; Peirong Xie; David Mortensen (2024). paper. [Source](https://aclanthol
 **Reading scope:** focused-excerpts; PDF pages 1, 9, 10.
 
 **Finding:** Bidirectional semisupervised reconstruction benefits from deriving daughters from candidate ancestors.
-**Formalization use:** Check reflex derivability as a necessary consistency condition.
-**Boundary:** The authors explicitly lack evidence that model reasoning matches linguists; wrong ancestors can still predict daughters well.
+**Proposed use:** Check reflex derivability as a necessary consistency condition.
+**Limitations:** The authors explicitly lack evidence that model reasoning matches linguists; wrong ancestors can still predict daughters well.
 
 **Rights:** CC BY 4.0.
 
@@ -738,8 +740,8 @@ V.S.D.S.Mahesh Akavarapu; Arnab Bhattacharya (2024). paper. [Source](https://acl
 **Reading scope:** screened-excerpts; PDF pages 1, 9.
 
 **Finding:** Cognate Transformer frames cognacy as supervised link prediction over alignments.
-**Formalization use:** Preserve edge scores and make cluster construction a separate operation.
-**Boundary:** Pairwise links do not automatically define a coherent historical equivalence relation.
+**Proposed use:** Preserve edge scores and make cluster construction a separate operation.
+**Limitations:** Pairwise links do not automatically define a coherent historical equivalence relation.
 
 **Rights:** CC BY 4.0.
 
@@ -753,8 +755,8 @@ Liang Lu; Jingzhi Wang; David R. Mortensen (2024). paper. [Source](https://aclan
 **Reading scope:** screened-excerpts; PDF pages 1, 9.
 
 **Finding:** Reflex prediction reranks proposed protoforms and improves several benchmark results.
-**Formalization use:** Use forward checking to filter or rerank proposals.
-**Boundary:** A better forward score is not sufficient for unique inverse identification.
+**Proposed use:** Use forward checking to filter or rerank proposals.
+**Limitations:** A better forward score is not sufficient for unique inverse identification.
 
 **Rights:** CC BY-NC 4.0.
 
@@ -768,8 +770,8 @@ Liviu P. Dinu; Ana Sabina Uban; Ioan-Bogdan Iordache; Alina Maria Cristea; Simon
 **Reading scope:** visual-excerpts; PDF pages 1, 10.
 
 **Finding:** Graphic and phonetic features distinguish cognates and borrowings in major Romance languages.
-**Formalization use:** Audit borrowed, inherited and learned forms separately.
-**Boundary:** The paper identifies oral versus written Latin and restricted language coverage as limitations.
+**Proposed use:** Audit borrowed, inherited and learned forms separately.
+**Limitations:** The paper identifies oral versus written Latin and restricted language coverage as limitations.
 
 **Rights:** CC BY-NC 4.0.
 
@@ -785,8 +787,8 @@ Local path: `library/downloads/2024.scil-1.16.pdf` (not in public Git). 11 PDF p
 **Reading scope:** screened-excerpts; PDF pages 1, 9.
 
 **Finding:** Selecting one synonym can change inferred tree topology; alternative encodings retain synonyms.
-**Formalization use:** Preserve all attested synonyms and record the sampling policy.
-**Boundary:** A single preferred lexeme per concept is an analytical decision, not neutral preprocessing.
+**Proposed use:** Preserve all attested synonyms and record the sampling policy.
+**Limitations:** Selecting one lexeme per concept changes the evidence available for phylogenetic inference.
 
 **Rights:** No redistribution permission established; retained locally only.
 
@@ -800,8 +802,8 @@ Atharva Naik; Darsh Agrawal; Hong Sng; Clayton Marr; Kexun Zhang; Nathaniel Romn
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 9.
 
 **Finding:** Sound-law induction is formulated as programming by examples with LLM-generated programs.
-**Formalization use:** Use untrusted program synthesis with a restricted verified checker.
-**Boundary:** Only 85 benchmark instances are reported; unrestricted Python programs can memorize examples and are not sound-law proofs.
+**Proposed use:** Use untrusted program synthesis with a restricted verified checker.
+**Limitations:** Only 85 benchmark instances are reported; unrestricted Python programs can memorize examples and are not sound-law proofs.
 
 **Rights:** CC BY 4.0.
 
@@ -815,8 +817,8 @@ Yicheng Liu; Shumin Shi; Youchao Zhou; Xingchen Zhang (2026). paper. [Source](ht
 **Reading scope:** screened-excerpts; PDF pages 1, 9.
 
 **Finding:** Ancestor-informed LLM tasks induce sound-change rules and transcribe Chinese dialect pronunciations.
-**Formalization use:** Treat executable rule proposals as testable artifacts.
-**Boundary:** Middle Chinese representations and modern dialect prediction do not directly validate Proto-Sino-Tibetan reconstruction.
+**Proposed use:** Treat executable rule proposals as testable artifacts.
+**Limitations:** Middle Chinese representations and modern dialect prediction do not directly validate Proto-Sino-Tibetan reconstruction.
 
 **Rights:** CC BY 4.0.
 
@@ -830,8 +832,8 @@ Local path: `library/downloads/W17-0234.pdf` (not in public Git). 4 PDF pages; 1
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 3, 4.
 
 **Finding:** PIE Lexicon already uses ordered foma sound-law scripts to generate Indo-European forms.
-**Formalization use:** Acknowledge direct finite-state reconstruction prior art and compare rule semantics.
-**Boundary:** Its Glottal Fricative Theory and reported generation accuracy are project-specific claims; matching encoded data does not establish a unique PIE system.
+**Proposed use:** Acknowledge direct finite-state reconstruction prior art and compare rule semantics.
+**Limitations:** Its Glottal Fricative Theory and reported generation accuracy are project-specific claims; matching encoded data does not establish a unique PIE system.
 
 **Rights:** No redistribution permission established; retained locally only.
 
@@ -845,8 +847,8 @@ Clémentine Fourrier; Benoît Sagot (2020). paper. [Source](https://aclanthology
 **Reading scope:** screened-excerpts; PDF pages 1, 8.
 
 **Finding:** EtymDB-2.0 models fine-grained etymological relationships extracted from Wiktionary.
-**Formalization use:** Import typed relations with source/version identifiers.
-**Boundary:** Automatically extracted etymologies require source and philological validation.
+**Proposed use:** Import typed relations with source/version identifiers.
+**Limitations:** Automatically extracted etymologies require source and philological validation.
 
 **Rights:** CC BY-NC (version unspecified in PDF).
 
@@ -860,8 +862,8 @@ Alina Maria Ciobanu; Liviu P. Dinu; Laurentiu Zoicas (2020). paper. [Source](htt
 **Reading scope:** screened-excerpts; PDF pages 1, 5.
 
 **Finding:** Sequence labeling predicts missing Romanian cognates and unattested Latin forms.
-**Formalization use:** Test gap-filling without converting predictions into attestation records.
-**Boundary:** An unattested predicted word remains a hypothesis.
+**Proposed use:** Test gap-filling without converting predictions into attestation records.
+**Limitations:** An unattested predicted word remains a hypothesis.
 
 **Rights:** CC BY-NC (version unspecified in PDF).
 
@@ -875,8 +877,8 @@ Liviu Dinu; Ana Uban; Alina Cristea; Anca Dinu; Ioan-Bogdan Iordache; Simona Geo
 **Reading scope:** screened-excerpts; PDF pages 1, 9.
 
 **Finding:** RoBoCoP supplies a Romance cognate/borrowing database and benchmark.
-**Formalization use:** Use borrowing discrimination as a separate measurable task.
-**Boundary:** Dictionary-based labels and language coverage constrain generalization.
+**Proposed use:** Use borrowing discrimination as a separate measurable task.
+**Limitations:** Dictionary-based labels and language coverage constrain generalization.
 
 **Rights:** CC BY 4.0.
 
@@ -890,10 +892,12 @@ Local path: `library/downloads/rankin2003.pdf` (not in public Git). 30 PDF pages
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 3, 5, 10, 17, 23, 26.
 
 **Finding:** The comparative method includes correspondence classification, complementary distribution, phonetic interpretation and morphology; syntax poses distinct problems.
-**Formalization use:** Formalize a sequence of justified judgments and distinguish structural correspondence from phonetic realization.
-**Boundary:** Cognacy, typology and philological interpretation are substantive empirical inputs, not universally decidable facts.
+**Proposed use:** Formalize a sequence of justified judgments and distinguish structural correspondence from phonetic realization.
+**Limitations:** Cognacy, typology and philological interpretation are substantive empirical inputs, not universally decidable facts.
 
 **Rights:** not established; local research copy only.
+
+**Additional reading for terminology revision:** PDF pages 1, 2, 3, 4, 5, 10, 17, 23, 26; see the [reading record](terminology-readings.json).
 
 <a id="jaeger-list2016"></a>
 ## jaeger-list2016 — Statistical and computational elaborations of the classical comparative method
@@ -905,10 +909,12 @@ Local path: `library/downloads/jaeger-list2016.pdf` (not in public Git). 34 PDF 
 **Reading scope:** focused-excerpts; PDF pages 1, 2.
 
 **Finding:** Computational elaborations split classical work into sequence comparison and language-classification problems within an iterative workflow.
-**Formalization use:** Keep cognate proposals, alignments, correspondences and phylogeny as separate interfaces.
-**Boundary:** No one fixed algorithm exhausts the comparative method.
+**Proposed use:** Keep cognate proposals, alignments, correspondences and phylogeny as separate interfaces.
+**Limitations:** No one fixed algorithm exhausts the comparative method.
 
 **Rights:** not established; local research copy only.
+
+**Additional reading for terminology revision:** PDF pages 2, 3, 4; see the [reading record](terminology-readings.json).
 
 <a id="list2016-calc"></a>
 ## list2016-calc — Computer-Assisted Language Comparison: Reconciling Computational and Classical Approaches in Historical Linguistics
@@ -920,8 +926,8 @@ Local path: `library/downloads/list2016-calc.pdf` (not in public Git). 21 PDF pa
 **Reading scope:** screened-excerpts; PDF pages 1, 2.
 
 **Finding:** An ERC proposal motivates computer-assisted comparison and expert-computational cooperation.
-**Formalization use:** Useful project-design context only.
-**Boundary:** This is a proposal, not a research paper; excluded from the 100-work floor.
+**Proposed use:** Useful project-design context only.
+**Limitations:** This is a proposal, not a research paper; excluded from the 100-work floor.
 
 **Rights:** not established; local research copy only.
 
@@ -937,8 +943,8 @@ Local path: `library/downloads/garrett2014.pdf` (not in public Git). 25 PDF page
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 4.
 
 **Finding:** Sound change includes contested mechanisms; phonologization, analogy and contact must be distinguished.
-**Formalization use:** Give each mechanism a separate typed explanation and scope.
-**Boundary:** A deterministic rewrite formalism describes outcomes without by itself explaining actuation.
+**Proposed use:** Give each mechanism a separate typed explanation and scope.
+**Limitations:** A deterministic rewrite formalism describes outcomes without by itself explaining actuation.
 
 **Rights:** not established; local research copy only.
 
@@ -954,8 +960,8 @@ Local path: `library/downloads/garrett-johnson2011.pdf` (not in public Git). 109
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 4.
 
 **Finding:** The chapter relates directional sound-change biases to production, perception and phonologization.
-**Formalization use:** Treat phonetic naturalness as defeasible model preference.
-**Boundary:** A common pathway is not a universal axiom that rules out all other histories.
+**Proposed use:** Treat phonetic naturalness as defeasible model preference.
+**Limitations:** A common pathway is not a universal axiom that rules out all other histories.
 
 **Rights:** not established; local research copy only.
 
@@ -971,8 +977,8 @@ Local path: `library/downloads/benedict1972.pdf` (not in public Git). 242 PDF pa
 **Reading scope:** visual-excerpts; PDF pages 14, 18.
 
 **Finding:** The classic Conspectus presents a taxonomy separating Chinese, Karen and Tibeto-Burman, with uncertain internal groupings.
-**Formalization use:** Version historical taxonomies rather than importing their names as fixed types.
-**Boundary:** Scanned PDF; only selected taxonomy pages were visually examined. Its taxonomy must not be silently treated as current consensus.
+**Proposed use:** Version historical taxonomies rather than importing their names as fixed types.
+**Limitations:** Scanned PDF; only selected taxonomy pages were visually examined. Its taxonomy must not be silently treated as current consensus.
 
 **Rights:** not established; local research copy only.
 
@@ -988,8 +994,8 @@ Local path: `library/downloads/matisoff1978.pdf` (not in public Git). 352 PDF pa
 **Reading scope:** visual-excerpts; PDF pages 8, 9, 10, 11, 20.
 
 **Finding:** The organic approach connects lexical variation and semantics while acknowledging uncertain higher subgrouping.
-**Formalization use:** Preserve semantic variation and competing etymological groupings.
-**Boundary:** Scanned monograph; selected introductory pages examined, not all lexical analyses.
+**Proposed use:** Preserve semantic variation and competing etymological groupings.
+**Limitations:** Scanned monograph; selected introductory pages examined, not all lexical analyses.
 
 **Rights:** not established; local research copy only.
 
@@ -1005,8 +1011,8 @@ Local path: `library/downloads/matisoff1982.pdf` (not in public Git). 64 PDF pag
 **Reading scope:** visual-excerpts; PDF pages 1, 2, 3, 4, 31, 32.
 
 **Finding:** The critique distinguishes explanatory insight from symbolization and disputes overfilled protoforms and chronology.
-**Formalization use:** Demand explanatory constraints and transparent alternatives in addition to formal derivations.
-**Boundary:** This polemical exchange is evidence about methodological disagreement, not a verdict on every disputed etymology.
+**Proposed use:** Demand explanatory constraints and transparent alternatives in addition to formal derivations.
+**Limitations:** This polemical exchange is evidence about methodological disagreement, not a verdict on every disputed etymology.
 
 **Rights:** not established; local research copy only.
 
@@ -1022,8 +1028,8 @@ Local path: `library/downloads/matisoff1995.pdf` (not in public Git). 148 PDF pa
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 3, 4, 5.
 
 **Finding:** Numeral reconstruction involves prefixes, uneven documentary evidence and revised subgroup assumptions.
-**Formalization use:** Include numerals as structured morphology with explicit borrowing and source checks.
-**Boundary:** Numerals are not automatically immune to borrowing or analogical replacement.
+**Proposed use:** Include numerals as structured morphology with explicit borrowing and source checks.
+**Limitations:** Numerals are not automatically immune to borrowing or analogical replacement.
 
 **Rights:** not established; local research copy only.
 
@@ -1037,8 +1043,8 @@ James A. Matisoff (2003). book. [Source](https://escholarship.org/uc/item/19d796
 **Reading scope:** access-gap.
 
 **Finding:** A major systematic reference for Proto-Tibeto-Burman reconstruction and allofamic variation.
-**Formalization use:** Required reference for future detailed model comparison; publisher description and scholarly reviews supply context here.
-**Boundary:** Full PDF acquisition failed; the book is not counted or claimed as directly read.
+**Proposed use:** Required reference for future detailed model comparison; publisher description and scholarly reviews supply context here.
+**Limitations:** Full PDF acquisition failed; the book is not counted or claimed as directly read.
 
 **Rights:** not established; local research copy only.
 
@@ -1051,11 +1057,13 @@ Kenneth VanBik (2009). book. [Source](https://stedt.berkeley.edu/pubs.html) · [
 
 **Reading scope:** focused-excerpts; PDF pages 7, 9.
 
-**Finding:** A substantial lower-level reconstruction separates Kuki-Chin, Central Chin, Northern Chin and Maraic sets.
-**Formalization use:** Use a bounded subgroup pilot with taxonomic level stored for every protoform.
-**Boundary:** A subgroup reconstruction is not a reconstruction of the whole Sino-Tibetan ancestor.
+**Finding:** VanBik distinguishes Proto-Kuki-Chin, Proto-Central-Chin, Proto-Northern-Chin and Proto-Maraic reconstructions.
+**Proposed use:** Record the reconstruction level and the varieties represented in each comparative set.
+**Limitations:** The tone reconstruction is provisional; reconstruction at the Proto-Kuki-Chin level requires evidence from two of VanBik's three principal subgroups.
 
 **Rights:** STEDT academic noncommercial unmodified redistribution.
+
+**Additional reading for terminology revision:** PDF pages 29, 33, 34, 37, 38, 46, 47, 48, 85, 86, 87, 90, 91, 92, 93, 94; see the [reading record](terminology-readings.json).
 
 <a id="button2011"></a>
 ## button2011 — Proto Northern Chin
@@ -1066,11 +1074,13 @@ Christopher Button (2011). book. [Source](https://stedt.berkeley.edu/pubs.html) 
 
 **Reading scope:** focused-excerpts; PDF pages 5.
 
-**Finding:** Northern Chin reconstruction combines internal evidence with Old Burmese and Old Chinese comparisons.
-**Formalization use:** Compare alternative evidence paths without merging their assumptions.
-**Boundary:** External comparisons and broader two-vowel hypotheses require separate validation.
+**Finding:** Button compares a Northern Chin reconstruction with Old Burmese and Old Chinese.
+**Proposed use:** Keep Button's reconstruction separate from VanBik's; Button includes Mizo and Zahau in Northern Chin.
+**Limitations:** Tone categories, phonetic tones and proposed segmental sources of tone require separate representations.
 
 **Rights:** STEDT academic noncommercial unmodified redistribution.
+
+**Additional reading for terminology revision:** PDF pages 11, 12, 15, 16, 17, 19, 31, 35, 37, 39; see the [reading record](terminology-readings.json).
 
 <a id="namkung1996"></a>
 ## namkung1996 — Phonological Inventories of Tibeto-Burman Languages
@@ -1082,8 +1092,8 @@ Ju Namkung (editor) (1996). book. [Source](https://stedt.berkeley.edu/pubs.html)
 **Reading scope:** focused-excerpts; PDF pages 8.
 
 **Finding:** The inventory reference documents language-specific transcription systems and phonetic interpretations.
-**Formalization use:** Build explicit transcription adapters before comparing segment strings.
-**Boundary:** The introductory count and the later website description differ; this study does not harmonize them into a false exact count.
+**Proposed use:** Build explicit transcription adapters before comparing segment strings.
+**Limitations:** The introductory count differs from the later website description; the discrepancy remains unresolved.
 
 **Rights:** STEDT academic noncommercial unmodified redistribution.
 
@@ -1097,8 +1107,8 @@ Local path: `library/downloads/jacques-halshs-00408281.pdf` (not in public Git).
 **Reading scope:** screened-excerpts; PDF pages 1, 2.
 
 **Finding:** Secondary Tibetan -wa from syllable fusion is proposed to reconcile apparent counterexamples to monophthongization.
-**Formalization use:** Test chronological layers and coalescence rather than exempting individual words.
-**Boundary:** Observed -wa and reconstructed *-wa need not belong to the same historical stage.
+**Proposed use:** Test chronological layers and coalescence rather than exempting individual words.
+**Limitations:** Observed -wa and reconstructed *-wa need not belong to the same historical stage.
 
 **Rights:** not established; local research copy only.
 
@@ -1112,8 +1122,8 @@ Local path: `library/downloads/jacques-halshs-03507197.pdf` (not in public Git).
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 3, 5, 6, 12.
 
 **Finding:** A review of Hill stresses contact, philological detail, analogy and unresolved correspondences.
-**Formalization use:** Maintain multiple models and mark explicitly unexplained residues.
-**Boundary:** The author praises methodological progress without endorsing a single completed Proto-Trans-Himalayan reconstruction.
+**Proposed use:** Maintain multiple models and mark explicitly unexplained residues.
+**Limitations:** The author praises methodological progress without endorsing a single completed Proto-Trans-Himalayan reconstruction.
 
 **Rights:** not established; local research copy only.
 
@@ -1131,8 +1141,8 @@ Local path: `library/downloads/jacques-halshs-00351738.pdf` (not in public Git).
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 9.
 
 **Finding:** Tangut vowel alternations are analyzed through coalescence with a third-person patient suffix.
-**Formalization use:** Model paradigms and morpheme boundaries before applying phonology.
-**Boundary:** Similar surface alternations can reflect different historical morphological structures.
+**Proposed use:** Model paradigms and morpheme boundaries before applying phonology.
+**Limitations:** Similar surface alternations can reflect different historical morphological structures.
 
 **Rights:** not established; local research copy only.
 
@@ -1146,8 +1156,8 @@ Local path: `library/downloads/jacques-halshs-00173948.pdf` (not in public Git).
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 17.
 
 **Finding:** A comparative morphology manuscript argues against treating tonal isolating typology as necessarily ancestral.
-**Formalization use:** Keep synchronic typology separate from hypotheses about proto-morphology.
-**Boundary:** Conference manuscript; reconstruction depends on better-established sound correspondences.
+**Proposed use:** Keep synchronic typology separate from hypotheses about proto-morphology.
+**Limitations:** Conference manuscript; reconstruction depends on better-established sound correspondences.
 
 **Rights:** not established; local research copy only.
 
@@ -1161,8 +1171,8 @@ Local path: `library/downloads/jacques-halshs-00610385.pdf` (not in public Git).
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 20.
 
 **Finding:** Tangut verbal templates can resemble Rgyalrong through independent grammaticalization.
-**Formalization use:** Represent inherited structure and parallel innovation as different hypotheses.
-**Boundary:** Structural resemblance alone is insufficient to infer common inherited templates.
+**Proposed use:** Represent inherited structure and parallel innovation as different hypotheses.
+**Limitations:** Structural resemblance alone is insufficient to infer common inherited templates.
 
 **Rights:** not established; local research copy only.
 
@@ -1176,8 +1186,8 @@ Local path: `library/downloads/jacques-hal-05215238.pdf` (not in public Git). 17
 **Reading scope:** visual-excerpts; PDF pages 1, 2.
 
 **Finding:** Old Chinese tonal derivation is compared with diverse suffixes in morphologically rich Trans-Himalayan languages.
-**Formalization use:** Allow several historical sources for one later tonal distinction.
-**Boundary:** Chinese-language paper; first substantive page visually checked because text extraction damages characters.
+**Proposed use:** Allow several historical sources for one later tonal distinction.
+**Limitations:** Chinese-language paper; first substantive page visually checked because text extraction damages characters.
 
 **Rights:** not established; local research copy only.
 
@@ -1193,8 +1203,8 @@ Local path: `library/downloads/jacques-halshs-01566036.pdf` (not in public Git).
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 13.
 
 **Finding:** Several historical suffixes are proposed behind Old Chinese departing-tone derivation.
-**Formalization use:** Keep homophonous suffixes and their functions distinct in reconstruction.
-**Boundary:** The comparisons differ in strength; a single modern reflex need not imply one proto-morpheme.
+**Proposed use:** Keep homophonous suffixes and their functions distinct in reconstruction.
+**Limitations:** The comparisons differ in strength; a single modern reflex need not imply one proto-morpheme.
 
 **Rights:** not established; local research copy only.
 
@@ -1208,8 +1218,8 @@ Local path: `library/downloads/jacques-halshs-01486954.pdf` (not in public Git).
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 21.
 
 **Finding:** Khaling tone alternations partly follow coda loss and syllable reduction, with a remaining unexplained residue.
-**Formalization use:** Represent tone as structured data and preserve residual failures.
-**Boundary:** Do not manufacture an exceptionless account by deleting unexplained paradigm cells.
+**Proposed use:** Represent tone as structured data and preserve residual failures.
+**Limitations:** The unexplained paradigm cells must remain in the evaluation.
 
 **Rights:** not established; local research copy only.
 
@@ -1223,8 +1233,8 @@ Local path: `library/downloads/jacques-halshs-00605893.pdf` (not in public Git).
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 30.
 
 **Finding:** Multiple diachronic pathways can yield aspirated fricatives, including Pumi evidence.
-**Formalization use:** Use phonetic-feature models with multiple permitted histories.
-**Boundary:** A feature analysis or typological pathway is not a unique inverse reconstruction.
+**Proposed use:** Use phonetic-feature models with multiple permitted histories.
+**Limitations:** A feature analysis or typological pathway is not a unique inverse reconstruction.
 
 **Rights:** not established; local research copy only.
 
@@ -1238,8 +1248,8 @@ Local path: `library/downloads/jacques-halshs-03926631.pdf` (not in public Git).
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 19.
 
 **Finding:** Historical sound glosses bear on Old Chinese morphology and syntax.
-**Formalization use:** Attach dated gloss evidence to phonological analyses and syntactic claims.
-**Boundary:** Later glosses are mediated observations with their own phonological systems.
+**Proposed use:** Attach dated gloss evidence to phonological analyses and syntactic claims.
+**Limitations:** Later glosses are mediated observations with their own phonological systems.
 
 **Rights:** not established; local research copy only.
 
@@ -1253,8 +1263,8 @@ Local path: `library/downloads/jacques-halshs-01244869.pdf` (not in public Git).
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 29.
 
 **Finding:** Japhug causative and abilitative derivations motivate grammaticalization hypotheses relevant to Sino-Tibetan prefixes.
-**Formalization use:** Distinguish a shared-looking prefix from the history of its functions.
-**Boundary:** Consensus about a prefix does not remove uncertainty about its origin and development.
+**Proposed use:** Distinguish a shared-looking prefix from the history of its functions.
+**Limitations:** Consensus about a prefix does not remove uncertainty about its origin and development.
 
 **Rights:** not established; local research copy only.
 
@@ -1268,8 +1278,8 @@ Local path: `library/downloads/jacques-halshs-01287468.pdf` (not in public Git).
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 5.
 
 **Finding:** The *sr- comparison is reassessed with philological exclusions and an additional etymology.
-**Formalization use:** A small explicit cluster correspondence makes a useful cross-branch pilot.
-**Boundary:** Rejecting weak comparisons is as important as collecting supporting examples.
+**Proposed use:** A small explicit cluster correspondence makes a useful cross-branch pilot.
+**Limitations:** Rejecting weak comparisons is as important as collecting supporting examples.
 
 **Rights:** not established; local research copy only.
 
@@ -1283,8 +1293,8 @@ Local path: `library/downloads/jacques2012-internal.pdf` (not in public Git). 13
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 4, 8.
 
 **Finding:** Tibetan stem alternations are explained by hypothetical directional prefixes and ordered sound changes.
-**Formalization use:** Represent internal reconstruction as a separate source of constraints and coindexed alternatives.
-**Boundary:** Several prefix shapes remain underdetermined; comparison with Rgyalrong is not identity of historical systems.
+**Proposed use:** Represent internal reconstruction as a separate source of constraints and coindexed alternatives.
+**Limitations:** Several prefix shapes remain underdetermined; comparison with Rgyalrong is not identity of historical systems.
 
 **Rights:** not established; local research copy only.
 
@@ -1298,8 +1308,8 @@ Local path: `library/downloads/jacques2012-agreement.pdf` (not in public Git). 3
 **Reading scope:** visual-excerpts; PDF pages 1.
 
 **Finding:** Rgyalrongic and Kiranti agreement are compared amid competing inheritance and innovation accounts.
-**Formalization use:** Use paradigmatic evidence with explicit comparison units.
-**Boundary:** Scanned article; the first-page argument was examined, not the full proof of each morphological comparison.
+**Proposed use:** Use paradigmatic evidence with explicit comparison units.
+**Limitations:** Scanned article; the first-page argument was examined, not the full proof of each morphological comparison.
 
 **Rights:** not established; local research copy only.
 
@@ -1315,8 +1325,8 @@ Local path: `library/downloads/sagart-halshs-00103359.pdf` (not in public Git). 
 **Reading scope:** screened-excerpts; PDF pages 1, 2.
 
 **Finding:** Intransitive nasal prefixation is compared across Sino-Tibetan languages.
-**Formalization use:** Require prefix segmentation and derivational-function evidence.
-**Boundary:** Matching nasal segments without morphology does not establish one inherited prefix.
+**Proposed use:** Require prefix segmentation and derivational-function evidence.
+**Limitations:** Matching nasal segments without morphology does not establish one inherited prefix.
 
 **Rights:** not established; local research copy only.
 
@@ -1330,8 +1340,8 @@ Local path: `library/downloads/sagart-halshs-00094374.pdf` (not in public Git). 
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 15.
 
 **Finding:** The HPTB review asks for explicit, testable correspondences while recognizing useful rhyme reconstruction.
-**Formalization use:** Make every correspondence retrievable and testable against counterexamples.
-**Boundary:** A critical review does not substitute for direct inspection of the reviewed monograph; excluded from the conservative count.
+**Proposed use:** Make every correspondence retrievable and testable against counterexamples.
+**Limitations:** A critical review does not substitute for direct inspection of the reviewed monograph; excluded from the conservative count.
 
 **Rights:** not established; local research copy only.
 
@@ -1347,8 +1357,8 @@ Local path: `library/downloads/sagart-hal-03099839.pdf` (not in public Git). 9 P
 **Reading scope:** screened-excerpts; PDF pages 1, 2.
 
 **Finding:** A 250-concept Old Chinese list retains 301 forms because some concepts have competing lexical candidates.
-**Formalization use:** Preserve multiple lexemes and identify the Baxter-Sagart reconstruction version.
-**Boundary:** Old Chinese reconstructed forms are analyses, even when the underlying written words are attested.
+**Proposed use:** Preserve multiple lexemes and identify the Baxter-Sagart reconstruction version.
+**Limitations:** Old Chinese reconstructed forms are analyses, even when the underlying written words are attested.
 
 **Rights:** not established; local research copy only.
 
@@ -1362,8 +1372,8 @@ Local path: `library/downloads/sagart-hal-00780992.pdf` (not in public Git). 3 P
 **Reading scope:** screened-excerpts; PDF pages 1, 2.
 
 **Finding:** A reply continues the disagreement over the testability of HPTB comparisons.
-**Formalization use:** Archive disagreements at the level of particular claims and assumptions.
-**Boundary:** A short methodological reply is excluded from the conservative 100-work count.
+**Proposed use:** Archive disagreements at the level of particular claims and assumptions.
+**Limitations:** A short methodological reply is excluded from the conservative 100-work count.
 
 **Rights:** not established; local research copy only.
 
@@ -1379,8 +1389,8 @@ Local path: `library/downloads/sagart-hal-03892358.pdf` (not in public Git). 24 
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 3, 4.
 
 **Finding:** The sketch distinguishes rhyme, script, Middle Chinese, loanword and dialect evidence for Old Chinese.
-**Formalization use:** Keep observation types separate from a selected phonological reconstruction system.
-**Boundary:** Baxter-Sagart is the sketch's adopted analysis, not a theory-independent transcription of Old Chinese speech.
+**Proposed use:** Keep observation types separate from a selected phonological reconstruction system.
+**Limitations:** Baxter-Sagart is the sketch's adopted analysis, not a theory-independent transcription of Old Chinese speech.
 
 **Rights:** not established; local research copy only.
 
@@ -1396,8 +1406,8 @@ Local path: `library/downloads/sagart-hal-00781153.pdf` (not in public Git). 34 
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 29.
 
 **Finding:** Competing accounts of *s- prefix effects differ on voicing, sonorants and derivational functions.
-**Formalization use:** Build separately named rule sets and compare their predicted reflexes.
-**Boundary:** A formally consistent system can still compete with a different consistent analysis.
+**Proposed use:** Build separately named rule sets and compare their predicted reflexes.
+**Limitations:** A formally consistent system can still compete with a different consistent analysis.
 
 **Rights:** not established; local research copy only.
 
@@ -1411,8 +1421,8 @@ Local path: `library/downloads/kloekhorst2006-laryngeals.pdf` (not in public Git
 **Reading scope:** visual-excerpts; PDF pages 1, 3.
 
 **Finding:** Initial laryngeal reflexes interact with syllabification and paradigmatic remodeling in Anatolian.
-**Formalization use:** Use environment-specific and paradigm-aware laryngeal case studies.
-**Boundary:** Scanned two-page spreads; selected examples do not establish a universal Hittite laryngeal rule.
+**Proposed use:** Use environment-specific and paradigm-aware laryngeal case studies.
+**Limitations:** Scanned two-page spreads; selected examples do not establish a universal Hittite laryngeal rule.
 
 **Rights:** not established; local research copy only.
 
@@ -1428,8 +1438,8 @@ Local path: `library/downloads/kloekhorst2011-weise.pdf` (not in public Git). 16
 **Reading scope:** visual-excerpts; PDF pages 1, 2, 3, 4, 7.
 
 **Finding:** The work targets the conditioning of Sanskrit palatovelar depalatalization before r.
-**Formalization use:** Reserve a named-law dossier for context and chronology tests.
-**Boundary:** The article examines conditioning and apparent counterexamples; selected scanned pages were inspected, not every etymology.
+**Proposed use:** Reserve a named-law dossier for context and chronology tests.
+**Limitations:** The article examines conditioning and apparent counterexamples; selected scanned pages were inspected, not every etymology.
 
 **Rights:** not established; local research copy only.
 
@@ -1445,8 +1455,8 @@ Local path: `library/downloads/kloekhorst2013-ablaut.pdf` (not in public Git). 1
 **Reading scope:** screened-excerpts; PDF pages 1, 2.
 
 **Finding:** Anatolian evidence is used to compare competing nominal accent-ablaut reconstructions.
-**Formalization use:** Represent accent, stem, suffix and ending as separate structured components.
-**Boundary:** Do not encode one contested paradigm theory as the definition of PIE morphology.
+**Proposed use:** Represent accent, stem, suffix and ending as separate structured components.
+**Limitations:** The competing paradigm analyses require separate representations.
 
 **Rights:** not established; local research copy only.
 
@@ -1460,8 +1470,8 @@ Local path: `library/downloads/kloekhorst2014-thorn.pdf` (not in public Git). 19
 **Reading scope:** screened-excerpts; PDF pages 1, 2.
 
 **Finding:** Anatolian and Tocharian evidence changes the analysis of thorn correspondences toward dental-velar clusters and metathesis.
-**Formalization use:** Include a bounded metathesis extension after local substitution/deletion.
-**Boundary:** Simple monotonic segment alignment cannot represent every proposed correspondence history.
+**Proposed use:** Include a bounded metathesis extension after local substitution/deletion.
+**Limitations:** Simple monotonic segment alignment cannot represent every proposed correspondence history.
 
 **Rights:** not established; local research copy only.
 
@@ -1475,8 +1485,8 @@ Local path: `library/downloads/kloekhorst2016-stops.pdf` (not in public Git). 36
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 28.
 
 **Finding:** A length-based Anatolian stop interpretation motivates an Indo-Hittite reconstruction argument.
-**Formalization use:** Separate observed spellings from phonetic interpretation and phylogenetic conclusions.
-**Boundary:** The direction of typological reasoning is a scholarly hypothesis, not a Lean axiom.
+**Proposed use:** Separate observed spellings from phonetic interpretation and phylogenetic conclusions.
+**Limitations:** The direction of typological reasoning is a scholarly hypothesis, not a Lean axiom.
 
 **Rights:** not established; local research copy only.
 
@@ -1490,8 +1500,8 @@ Local path: `library/downloads/kloekhorst2017-aspect.pdf` (not in public Git). 1
 **Reading scope:** screened-excerpts; PDF pages 1, 2.
 
 **Finding:** Old Hittite narrative aspect is compared with competing accounts of early PIE verbal categories.
-**Formalization use:** Add morphological and semantic category reconstruction only with explicit textual evidence.
-**Boundary:** An interpretive tense-aspect proposal requires more than sound-string derivations.
+**Proposed use:** Add morphological and semantic category reconstruction only with explicit textual evidence.
+**Limitations:** An interpretive tense-aspect proposal requires more than sound-string derivations.
 
 **Rights:** not established; local research copy only.
 
@@ -1505,8 +1515,8 @@ Local path: `library/downloads/kloekhorst2018-hi.pdf` (not in public Git). 22 PD
 **Reading scope:** focused-excerpts; PDF pages 5.
 
 **Finding:** The origin of Hittite hi-conjugation is debated through perfect and h2e-conjugation theories.
-**Formalization use:** Treat rival morphological histories as alternative model packages.
-**Boundary:** The common mi-conjugation comparison does not settle the contested hi-conjugation.
+**Proposed use:** Treat rival morphological histories as alternative model packages.
+**Limitations:** The common mi-conjugation comparison does not settle the contested hi-conjugation.
 
 **Rights:** not established; local research copy only.
 
@@ -1520,8 +1530,8 @@ Local path: `library/downloads/kloekhorst2022-anatolian.pdf` (not in public Git)
 **Reading scope:** screened-excerpts; PDF pages 1, 2.
 
 **Finding:** A branch overview situates Anatolian languages, attestation and subgroup evidence.
-**Formalization use:** Use it to define the scope and dates of an Anatolian pilot.
-**Boundary:** Also contained in the downloaded Olander volume; this separate PDF is not counted as an additional work.
+**Proposed use:** Use it to define the scope and dates of an Anatolian pilot.
+**Limitations:** Also contained in the downloaded Olander volume; this separate PDF is not counted as an additional work.
 
 **Rights:** not established; local research copy only.
 
@@ -1537,8 +1547,8 @@ Local path: `library/downloads/kloekhorst2023-split.pdf` (not in public Git). 19
 **Reading scope:** screened-excerpts; PDF pages 1, 2.
 
 **Finding:** The chapter links linguistic arguments for the Anatolian split with migration and ancient-DNA debates.
-**Formalization use:** Keep linguistic derivations separate from archaeological and demographic arguments.
-**Boundary:** Genetic populations and reconstructed speech communities are not interchangeable formal objects.
+**Proposed use:** Keep linguistic derivations separate from archaeological and demographic arguments.
+**Limitations:** Genetic populations and reconstructed speech communities are not interchangeable formal objects.
 
 **Rights:** not established; local research copy only.
 
@@ -1552,8 +1562,8 @@ Alwin Kloekhorst (2024). paper. [Source](https://www.kloekhorst.nl/Publications.
 **Reading scope:** focused-excerpts; PDF pages 1, 10.
 
 **Finding:** A proposed pre-PIE final em-to-om law is evaluated against morphology, counterexamples and chronology.
-**Formalization use:** Use a disputed law as a model-comparison test, preserving its exceptions and assumptions.
-**Boundary:** This is a proposal to be tested, not settled background for all PIE derivations.
+**Proposed use:** Use a disputed law as a model-comparison test, preserving its exceptions and assumptions.
+**Limitations:** This is a proposal to be tested, not settled background for all PIE derivations.
 
 **Rights:** CC BY 4.0.
 
@@ -1567,8 +1577,8 @@ Cormac Anderson; others (2025). paper. [Source](https://pmc.ncbi.nlm.nih.gov/art
 **Reading scope:** focused-excerpts; PDF pages 1, 3, 12, 20.
 
 **Finding:** IE-CoR distinguishes cognate relations, borrowing, morphological complexity and disagreements about protoforms.
-**Formalization use:** Use source-rich cognate data without presuming a unique reconstructed string.
-**Boundary:** The paper's abstract and body differ on total lexeme count; pin a dataset release and compute counts from files.
+**Proposed use:** Retain source cognacy judgments and competing protoforms with their references.
+**Limitations:** The paper's abstract and body differ on total lexeme count; pin a dataset release and compute counts from files.
 
 **Rights:** CC BY 4.0.
 
@@ -1582,8 +1592,8 @@ Local path: `library/downloads/olandervol2022.pdf` (not in public Git). 316 PDF 
 **Reading scope:** focused-excerpts; PDF pages 7, 19, 37, 38, 39, 40, 41, 42, 71, 72, 73, 74, 75.
 
 **Finding:** Methodological and branch chapters distinguish shared innovation, retention, contact and limits of cladistics.
-**Formalization use:** Anchor the PIE pilot in multiple authors and compare explicit chronologies.
-**Boundary:** The full book is retained, but selected introduction, methodology and cladistics passages were studied, not all chapters.
+**Proposed use:** Anchor the PIE pilot in multiple authors and compare explicit chronologies.
+**Limitations:** The full book is retained, but selected introduction, methodology and cladistics passages were studied, not all chapters.
 
 **Rights:** not established; local research copy only.
 
@@ -1597,8 +1607,8 @@ Local path: `library/downloads/moura2015.pdf` (not in public Git). 10 PDF pages;
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 4.
 
 **Finding:** Lean's small trusted kernel checks explicit proofs while automation constructs them.
-**Formalization use:** Place untrusted inference outside a proof-producing boundary.
-**Boundary:** This describes an earlier Lean generation; implementation guidance must use the pinned Lean 4 release.
+**Proposed use:** Use search procedures to produce proof terms checked by the kernel.
+**Limitations:** This describes an earlier Lean generation; implementation guidance must use the pinned Lean 4 release.
 
 **Rights:** not established; local research copy only.
 
@@ -1612,10 +1622,12 @@ Local path: `library/downloads/moura-ullrich2021.pdf` (not in public Git). 11 PD
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 9.
 
 **Finding:** Lean 4 integrates an extensible prover with a functional programming language.
-**Formalization use:** Use executable definitions with proved correspondence to declarative semantics.
-**Boundary:** Extensible elaboration and compiled execution are not automatically part of a trusted proof.
+**Proposed use:** Use executable definitions with proved correspondence to declarative semantics.
+**Limitations:** Extensible elaboration and compiled execution are not automatically part of a trusted proof.
 
 **Rights:** not established; local research copy only.
+
+**Additional reading for terminology revision:** PDF pages 1, 2, 3; see the [reading record](terminology-readings.json).
 
 <a id="mathlib2020"></a>
 ## mathlib2020 — The Lean mathematical library
@@ -1627,8 +1639,8 @@ Local path: `library/downloads/mathlib2020.pdf` (not in public Git). 15 PDF page
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 13.
 
 **Finding:** Mathlib's shared abstractions and automation support a reusable formal library.
-**Formalization use:** Reuse established finite sets, relations, graphs and automata where APIs fit.
-**Boundary:** Historical architecture descriptions are not guarantees about current module names.
+**Proposed use:** Reuse established finite sets, relations, graphs and automata where APIs fit.
+**Limitations:** Historical architecture descriptions are not guarantees about current module names.
 
 **Rights:** not established; local research copy only.
 
@@ -1642,8 +1654,8 @@ Local path: `library/downloads/vandoorn2020.pdf` (not in public Git). 16 PDF pag
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 14.
 
 **Finding:** Maintenance and linting address errors and usability beyond logical consistency.
-**Formalization use:** Audit theorem statements, dependencies and documentation in CI.
-**Boundary:** A kernel-accepted theorem can still formalize an unintended or vacuous statement.
+**Proposed use:** Audit theorem statements, dependencies and documentation in CI.
+**Limitations:** A kernel-accepted theorem can still formalize an unintended or vacuous statement.
 
 **Rights:** not established; local research copy only.
 
@@ -1657,8 +1669,8 @@ Anne Baanen (2022). paper. [Source](https://arxiv.org/abs/2202.01629) · [Origin
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 18.
 
 **Finding:** Typeclass design has tradeoffs involving bundled structures, inference and hierarchy complexity.
-**Formalization use:** Pass empirical reconstructions as explicit parameters, not globally inferred instances.
-**Boundary:** Competing historical assumptions should not be selected invisibly by typeclass search.
+**Proposed use:** Pass empirical reconstructions as explicit parameters, not globally inferred instances.
+**Limitations:** Typeclass inference should not choose between competing empirical analyses.
 
 **Rights:** CC BY 4.0.
 
@@ -1672,8 +1684,8 @@ Local path: `library/downloads/growingmathlib2025.pdf` (not in public Git). 21 P
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 17.
 
 **Finding:** Deprecation, linting and review tools help maintain a growing formal library.
-**Formalization use:** Pin dependencies, budget migrations and keep a small stable public interface.
-**Boundary:** Library growth and upstream changes impose ongoing engineering costs.
+**Proposed use:** Pin dependencies, budget migrations and keep a small stable public interface.
+**Limitations:** Library growth and upstream changes impose ongoing engineering costs.
 
 **Rights:** not established; local research copy only.
 
@@ -1687,8 +1699,8 @@ Local path: `library/downloads/doczkal2013.pdf` (not in public Git). 19 PDF page
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 16.
 
 **Finding:** Coq formalizations connect regular expressions, automata and decidable equivalence constructively.
-**Formalization use:** Borrow proof architecture for verified finite-state compilation and counterexamples.
-**Boundary:** A formalization of acceptors does not immediately supply two-tape transducers.
+**Proposed use:** Borrow proof architecture for verified finite-state compilation and counterexamples.
+**Limitations:** A formalization of acceptors does not immediately supply two-tape transducers.
 
 **Rights:** not established; local research copy only.
 
@@ -1702,8 +1714,8 @@ Local path: `library/downloads/paulson2015.pdf` (not in public Git). 15 PDF page
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 14.
 
 **Finding:** Isabelle/HOL formalizes automata using hereditarily finite sets to manage state constructions.
-**Formalization use:** Compare state-representation choices before committing to transducer infrastructure.
-**Boundary:** The set-theoretic representation is a design alternative, not a directly importable Lean module.
+**Proposed use:** Compare state-representation choices before committing to transducer infrastructure.
+**Limitations:** The set-theoretic representation is a design alternative, not a directly importable Lean module.
 
 **Rights:** not established; local research copy only.
 
@@ -1717,8 +1729,8 @@ Dmitriy Traytel; Tobias Nipkow (2013). paper. [Source](https://www21.in.tum.de/~
 **Reading scope:** access-gap.
 
 **Finding:** A verified MSO-on-words decision procedure is relevant to future logical transduction work.
-**Formalization use:** Record as related work requiring direct acquisition before technical reliance.
-**Boundary:** Download failed; not counted and not claimed as read.
+**Proposed use:** Record as related work requiring direct acquisition before technical reliance.
+**Limitations:** Download failed; not counted and not claimed as read.
 
 **Rights:** not established; local research copy only.
 
@@ -1732,8 +1744,8 @@ Mehryar Mohri (1997). paper. [Source](https://aclanthology.org/J97-2003/) · [Or
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 37.
 
 **Finding:** Sequential transducers and weighted determinization have specific applicability conditions.
-**Formalization use:** State determinization hypotheses and distinguish functions from relations.
-**Boundary:** Not every finite-state relation is a deterministic sequential function.
+**Proposed use:** State determinization hypotheses and distinguish functions from relations.
+**Limitations:** Not every finite-state relation is a deterministic sequential function.
 
 **Rights:** CC BY-NC-SA 3.0.
 
@@ -1747,8 +1759,8 @@ Local path: `library/downloads/mohri2009.pdf` (not in public Git). 45 PDF pages;
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 38.
 
 **Finding:** Weighted automata algorithms depend on semiring structure and algorithm-specific conditions.
-**Formalization use:** Start with Boolean or finite rational cases before infinite weighted-path sums.
-**Boundary:** Composition, epsilon behavior and path multiplicity require explicit treatment.
+**Proposed use:** Start with Boolean or finite rational cases before infinite weighted-path sums.
+**Limitations:** Composition, epsilon behavior and path multiplicity require explicit treatment.
 
 **Rights:** not established; local research copy only.
 
@@ -1762,8 +1774,8 @@ Local path: `library/downloads/mohri-riley2016.pdf` (not in public Git). 29 PDF 
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 22.
 
 **Finding:** Weighted disambiguation has sufficient applicability conditions, including a weak twins property in the tropical case.
-**Formalization use:** Require an applicability certificate before using a transformation as semantics-preserving.
-**Boundary:** Termination and correctness do not hold without the stated restrictions.
+**Proposed use:** Require an applicability certificate before using a transformation as semantics-preserving.
+**Limitations:** Termination and correctness do not hold without the stated restrictions.
 
 **Rights:** Author-hosted copy; redistribution permission not established.
 
@@ -1777,8 +1789,8 @@ Local path: `library/downloads/list2014.pdf` (not in public Git). 329 PDF pages;
 **Reading scope:** focused-excerpts; PDF pages 5, 6, 96, 105, 128, 231, 235.
 
 **Finding:** Sequence comparison requires precise alignment objectives; pairwise and multiple alignment differ computationally.
-**Formalization use:** Formalize alignment validity first, and prove optimality only for a specified algorithm and scoring scheme.
-**Boundary:** An optimal edit alignment can remain linguistically implausible; heuristics and analysis must stay distinct.
+**Proposed use:** Formalize alignment validity first, and prove optimality only for a specified algorithm and scoring scheme.
+**Limitations:** An optimal edit alignment can remain linguistically implausible; heuristics and analysis must stay distinct.
 
 **Rights:** not established; local research copy only.
 
@@ -1792,8 +1804,8 @@ Local path: `library/downloads/bouchardcote2013.pdf` (not in public Git). 6 PDF 
 **Reading scope:** screened-excerpts; PDF pages 1, 2.
 
 **Finding:** Probabilistic models reconstruct Austronesian protoforms at large scale and compare with expert reconstructions.
-**Formalization use:** Use model-based reconstruction as a serious baseline and source of candidates.
-**Boundary:** Distance to an expert reconstruction measures agreement with that analysis, not direct access to ancient speech.
+**Proposed use:** Compare this probabilistic reconstruction method with the proposed deterministic baselines.
+**Limitations:** Distance to an expert reconstruction measures agreement with that analysis, not direct access to ancient speech.
 
 **Rights:** not established; local research copy only.
 
@@ -1807,8 +1819,8 @@ Laurent Sagart; Guillaume Jacques; Yunfan Lai; Robin J. Ryder; Valentin Thouzeau
 **Reading scope:** screened-excerpts; PDF pages 1, 2.
 
 **Finding:** A curated Sino-Tibetan cognate database supports dated phylogenetic inference.
-**Formalization use:** Keep cognacy coding, topology and dating priors as separately versioned artifacts.
-**Boundary:** A dated tree is not a completed phonological reconstruction of the root language.
+**Proposed use:** Keep cognacy coding, topology and dating priors as separately versioned artifacts.
+**Limitations:** A dated tree is not a completed phonological reconstruction of the root language.
 
 **Rights:** CC BY-NC-ND 4.0.
 
@@ -1822,8 +1834,8 @@ Local path: `library/downloads/chang2015.pdf` (not in public Git). 51 PDF pages;
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 4.
 
 **Finding:** Ancestry constraints and coding choices affect Indo-European phylogenetic dating.
-**Formalization use:** Include sensitivity analysis for sampled ancestors and lexical coding.
-**Boundary:** This paper and Heggarty et al. use different assumptions; their conclusions must not be merged into a single proved homeland.
+**Proposed use:** Include sensitivity analysis for sampled ancestors and lexical coding.
+**Limitations:** This paper and Heggarty et al. use different assumptions; their conclusions must not be merged into a single proved homeland.
 
 **Rights:** not established; local research copy only.
 
@@ -1837,8 +1849,8 @@ Local path: `library/downloads/heggarty2023.pdf` (not in public Git). 27 PDF pag
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 3, 4, 6, 20.
 
 **Finding:** Sampled-ancestor phylogenies support a proposed hybrid account of Indo-European origins.
-**Formalization use:** Compare assumptions and data with ancestry-constrained alternatives.
-**Boundary:** The downloaded author manuscript has a different title from the final article; geographic conclusions are model-dependent.
+**Proposed use:** Compare assumptions and data with ancestry-constrained alternatives.
+**Limitations:** The downloaded author manuscript has a different title from the final article; geographic conclusions are model-dependent.
 
 **Rights:** not established; local research copy only.
 
@@ -1854,8 +1866,8 @@ Local path: `library/downloads/ringe2002.pdf` (not in public Git). 71 PDF pages;
 **Reading scope:** screened-decoded-abstract; PDF pages 1.
 
 **Finding:** Perfect-phylogeny-based cladistics uses explicit character coding to study Indo-European subgrouping.
-**Formalization use:** Specify character validity and tree compatibility independently.
-**Boundary:** The phylogenetic target is distinct from reconstructing word forms; decoding PDF glyph names was needed for the abstract.
+**Proposed use:** Specify character validity and tree compatibility independently.
+**Limitations:** The phylogenetic target is distinct from reconstructing word forms; decoding PDF glyph names was needed for the abstract.
 
 **Rights:** not established; local research copy only.
 
@@ -1871,8 +1883,8 @@ Local path: `library/downloads/nakhleh2005-networks.pdf` (not in public Git). 39
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 26.
 
 **Finding:** Phylogenetic networks extend trees with contact edges and fit an Indo-European character dataset.
-**Formalization use:** Provide a future inheritance/contact graph layer with typed edges.
-**Boundary:** An optimized contact network is conditional on character coding and optimization criteria.
+**Proposed use:** Provide a future inheritance/contact graph layer with typed edges.
+**Limitations:** An optimized contact network is conditional on character coding and optimization criteria.
 
 **Rights:** not established; local research copy only.
 
@@ -1886,8 +1898,8 @@ Local path: `library/downloads/barbancon2013.pdf` (not in public Git). 29 PDF pa
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 3, 22.
 
 **Finding:** Simulation compares linguistic phylogenetic reconstruction methods under controlled scenarios.
-**Formalization use:** Use synthetic histories with known latent structure as one evaluation track.
-**Boundary:** Simulation accuracy depends on how realistic the generating process is.
+**Proposed use:** Use synthetic histories with known latent structure as one evaluation track.
+**Limitations:** Simulation accuracy depends on how realistic the generating process is.
 
 **Rights:** not established; local research copy only.
 
@@ -1901,8 +1913,8 @@ Local path: `library/downloads/erdem2003.pdf` (not in public Git). 15 PDF pages;
 **Reading scope:** visual-excerpts; PDF pages 1.
 
 **Finding:** Answer set programming searches for a small number of contact edges on a phylogenetic tree.
-**Formalization use:** Use solver-produced witnesses checked by an independent formal verifier.
-**Boundary:** Solver output is not itself a Lean proof, and minimality needs additional evidence.
+**Proposed use:** Use solver-produced witnesses checked by an independent formal verifier.
+**Limitations:** Solver output is not itself a Lean proof, and minimality needs additional evidence.
 
 **Rights:** not established; local research copy only.
 
@@ -1918,8 +1930,8 @@ Local path: `library/downloads/evans-warnow2004.pdf` (not in public Git). 13 PDF
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 11.
 
 **Finding:** A rates-across-sites model can make different divergence times observationally indistinguishable.
-**Formalization use:** Treat identifiability as a theorem obligation rather than assuming more data settles every parameter.
-**Boundary:** The result concerns a particular statistical model, not a universal impossibility theorem for linguistic dating.
+**Proposed use:** Treat identifiability as a theorem obligation rather than assuming more data settles every parameter.
+**Limitations:** The result concerns a particular statistical model, not a universal impossibility theorem for linguistic dating.
 
 **Rights:** not established; local research copy only.
 
@@ -1935,8 +1947,8 @@ Thomas Braibant; Damien Pous (2012). paper. [Source](https://arxiv.org/pdf/1105.
 **Reading scope:** focused-excerpts; PDF pages 1, 36.
 
 **Finding:** A proved reflective Coq tactic decides Kleene-algebra equations and returns counterexamples.
-**Formalization use:** Emulate reflection and counterexample-producing checking for a restricted sound-rule language.
-**Boundary:** A substantial algebraic formalization is needed; this is not an off-the-shelf Lean transducer checker.
+**Proposed use:** Emulate reflection and counterexample-producing checking for a restricted sound-rule language.
+**Limitations:** Adapting these results to Lean transducers requires additional definitions and proofs.
 
 **Rights:** CC BY-ND 2.0.
 
@@ -1950,10 +1962,12 @@ Ronald M. Kaplan; Martin Kay (1994). paper. [Source](https://aclanthology.org/J9
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 46.
 
 **Finding:** Restricted ordered phonological rewriting and two-level constraints admit finite-state treatments.
-**Formalization use:** Define application semantics first, then prove compilation for a restricted fragment.
-**Boundary:** Self-feeding and unrestricted rewriting need care; inverse relations can be ambiguous even when forward rules are deterministic.
+**Proposed use:** Define application semantics first, then prove compilation for a restricted fragment.
+**Limitations:** Self-feeding and unrestricted rewriting need care; inverse relations can be ambiguous even when forward rules are deterministic.
 
 **Rights:** CC BY-NC-SA 3.0.
+
+**Additional reading for terminology revision:** PDF pages 1, 2, 3, 4; see the [reading record](terminology-readings.json).
 
 <a id="chandlee2014"></a>
 ## chandlee2014 — Strictly Local Phonological Processes
@@ -1965,8 +1979,8 @@ Local path: `library/downloads/chandlee2014.pdf` (not in public Git). 201 PDF pa
 **Reading scope:** focused-excerpts; PDF pages 9, 10, 11, 12, 13, 14, 168.
 
 **Finding:** Input/output strictly local functions capture several local phonological processes and support learnability results.
-**Formalization use:** Choose a small input-local fragment and make locality bounds explicit.
-**Boundary:** Locality is a restriction to justify and test, not a claim that all historical changes fit one fragment.
+**Proposed use:** Choose a small input-local fragment and make locality bounds explicit.
+**Limitations:** Locality is a restriction to justify and test, not a claim that all historical changes fit one fragment.
 
 **Rights:** not established; local research copy only.
 
@@ -1980,8 +1994,8 @@ Kimmo Koskenniemi (1983). book. [Source](https://www.ling.helsinki.fi/~koskenni/
 **Reading scope:** access-gap.
 
 **Finding:** Two-level morphology is foundational background for relation-based phonological descriptions.
-**Formalization use:** Track as an acquisition gap; Kaplan and Kay supply directly examined related formal analysis.
-**Boundary:** The full original book was not downloaded or read here.
+**Proposed use:** Track as an acquisition gap; Kaplan and Kay supply directly examined related formal analysis.
+**Limitations:** The full original book was not downloaded or read here.
 
 **Rights:** not established; local research copy only.
 
@@ -1995,8 +2009,8 @@ Robert Forkel; Johann-Mattis List; Simon J. Greenhill; Christoph Rzymski; Sebast
 **Reading scope:** screened-excerpts; PDF pages 1, 2.
 
 **Finding:** CLDF provides interoperable tabular formats, reference vocabularies and validation.
-**Formalization use:** Use CLDF as interchange while adding proof and provenance metadata.
-**Boundary:** Syntactically valid CLDF does not ensure accurate cognacy or phonology.
+**Proposed use:** Use CLDF as interchange while adding proof and provenance metadata.
+**Limitations:** Syntactically valid CLDF does not ensure accurate cognacy or phonology.
 
 **Rights:** CC BY 4.0.
 
@@ -2010,8 +2024,8 @@ Johann-Mattis List; Robert Forkel; Simon J. Greenhill; Christoph Rzymski; Johann
 **Reading scope:** screened-excerpts; PDF pages 1, 2.
 
 **Finding:** Lexibank standardizes heterogeneous wordlists and derives reusable features.
-**Formalization use:** Pin dataset versions and preserve original versus normalized transcriptions.
-**Boundary:** Standardization can lose distinctions unless transformation records remain available.
+**Proposed use:** Pin dataset versions and preserve original versus normalized transcriptions.
+**Limitations:** Standardization can lose distinctions unless transformation records remain available.
 
 **Rights:** CC BY 4.0.
 
@@ -2025,8 +2039,8 @@ Luise Häuser; Gerhard Jäger; Johann-Mattis List; Taraka Rama; Alexandros Stama
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 8.
 
 **Finding:** Sound-correspondence-based phylogenies do not consistently beat cognate-based ones on the examined datasets.
-**Formalization use:** Evaluate the value of each evidence type rather than presuming phonological input improves every tree.
-**Boundary:** A more detailed representation can still perform worse under a particular inference model.
+**Proposed use:** Evaluate the value of each evidence type rather than presuming phonological input improves every tree.
+**Limitations:** A more detailed representation can still perform worse under a particular inference model.
 
 **Rights:** CC BY 4.0.
 
@@ -2040,8 +2054,8 @@ Johann-Mattis List; Robert Forkel; Nathan Hill (2022). paper. [Source](https://a
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 5.
 
 **Finding:** Trimmed alignments and correspondence patterns support fast supervised reconstruction.
-**Formalization use:** Adopt a transparent correspondence-based baseline before neural extensions.
-**Boundary:** Training reconstructions are supplied labels, not independently verified ancestors.
+**Proposed use:** Adopt a transparent correspondence-based baseline before neural extensions.
+**Limitations:** Training reconstructions are supplied labels, not independently verified ancestors.
 
 **Rights:** CC BY 4.0.
 
@@ -2055,10 +2069,12 @@ Johann-Mattis List; Nathan Hill; Robert Forkel; Frederic Blum (2023). paper. [So
 **Reading scope:** focused-excerpts; PDF pages 1, 3, 4, 5, 6, 9.
 
 **Finding:** Fuzzy protoforms represent alternatives; the paper explicitly warns that position-wise alternatives take a Cartesian product.
-**Formalization use:** Preserve joint candidate sets or coindexed constraints; the prototype exhibits spurious hybrid forms.
-**Boundary:** Agreement across perturbed predictors is a stability measure, not a calibrated posterior probability.
+**Proposed use:** Represent dependent alternatives as complete candidate forms or indexed choices; retain the counterexample to independent positional choices.
+**Limitations:** Agreement across perturbed predictors is a stability measure, not a calibrated posterior probability.
 
 **Rights:** CC BY 4.0.
+
+**Additional reading for terminology revision:** PDF pages 1, 2, 3, 4; see the [reading record](terminology-readings.json).
 
 <a id="2024.lchange-1.1"></a>
 ## 2024.lchange-1.1 — Invited paper: Computer-Assisted Language Comparison with EDICTOR 3
@@ -2070,8 +2086,8 @@ Johann-Mattis List; Kellen van Dam (2024). paper. [Source](https://aclanthology.
 **Reading scope:** screened-excerpts; PDF pages 1, 2, 9.
 
 **Finding:** EDICTOR 3 integrates automated proposals with manual annotation and inspection.
-**Formalization use:** Design exportable, editable dossiers around the verified core.
-**Boundary:** An integrated workflow still needs a boundary between observed evidence and revised analyses.
+**Proposed use:** Design exportable, editable dossiers around the verified core.
+**Limitations:** An integrated workflow still needs a boundary between observed evidence and revised analyses.
 
 **Rights:** CC BY 4.0.
 
@@ -2085,8 +2101,8 @@ Hannes A. Fellner; Nathan W. Hill (2023). paper. [Source](https://www.tara.tcd.i
 **Reading scope:** web-excerpts-only.
 
 **Finding:** A methodological response argues that reconstructions in the two families have different evidential maturity.
-**Formalization use:** Avoid assuming that a PIE-oriented method transfers unchanged to Trans-Himalayan data.
-**Boundary:** Web PDF abstract examined; filesystem download denied, so not counted as a retained PDF.
+**Proposed use:** Avoid assuming that a PIE-oriented method transfers unchanged to Trans-Himalayan data.
+**Limitations:** Web PDF abstract examined; filesystem download denied, so not counted as a retained PDF.
 
 **Rights:** No redistribution permission established; retained locally only.
 
@@ -2100,8 +2116,8 @@ Yunfan Lai (2022). paper. [Source](https://www.tara.tcd.ie/bitstreams/21414b0f-1
 **Reading scope:** web-excerpts-only.
 
 **Finding:** A proposed analysis links West Gyalrongic lenition with stress and compression in monosyllabicization.
-**Formalization use:** Consider stress and intermediate stages in a later Sino-Tibetan rule extension.
-**Boundary:** Only web-indexed introductory passages examined; download denied and metadata needs final publication verification.
+**Proposed use:** Consider stress and intermediate stages in a later Sino-Tibetan rule extension.
+**Limitations:** Only web-indexed introductory passages examined; download denied and metadata needs final publication verification.
 
 **Rights:** No redistribution permission established; retained locally only.
 
@@ -2115,8 +2131,8 @@ Local path: `library/downloads/garrett-blevins2009.pdf` (not in public Git). 19 
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 4.
 
 **Finding:** Morphophonological patterns can arise through analogy and become restricted to parts of paradigms.
-**Formalization use:** Represent analogical replacement with its paradigm and model form, not as an arbitrary lexical exception.
-**Boundary:** The same synchronic mapping can have distinct historical origins.
+**Proposed use:** Represent analogical replacement with its paradigm and model form, not as an arbitrary lexical exception.
+**Limitations:** The same synchronic mapping can have distinct historical origins.
 
 **Rights:** No redistribution permission established; retained locally only.
 
@@ -2130,8 +2146,8 @@ Local path: `library/downloads/garrett2012-syntax.pdf` (not in public Git). 21 P
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 4.
 
 **Finding:** Reanalysis alone can restate rather than explain syntactic change; analogy and grammaticalization provide alternative accounts.
-**Formalization use:** Keep syntactic reconstruction a separately motivated extension with its own evidence.
-**Boundary:** A verified tree transformation is not an explanation of historical directionality.
+**Proposed use:** Keep syntactic reconstruction a separately motivated extension with its own evidence.
+**Limitations:** A verified tree transformation is not an explanation of historical directionality.
 
 **Rights:** No redistribution permission established; retained locally only.
 
@@ -2144,11 +2160,13 @@ John B. Lowe; Martine Mazaudon (1994). paper. [Source](https://aclanthology.org/
 
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 6, 7, 8, 10, 12, 20, 25, 27, 28, 29, 30, 31, 33.
 
-**Finding:** The Reconstruction Engine already implements bidirectional comparison with contextual correspondences, syllable structure, semantic filtering and controlled imprecision.
-**Formalization use:** Use this as direct prior art for a verified reconstruction checker, including its explicit residual class and distinction between correspondence and rule.
-**Boundary:** A computer implementation is not a machine-checked correctness proof; user-supplied semantic and correspondence assumptions remain substantive.
+**Finding:** The Reconstruction Engine implements bidirectional reconstruction using contextual correspondences, syllable structure, semantic filtering and uncertain forms.
+**Proposed use:** Use this as direct prior art for a verified reconstruction checker, including its explicit residual class and distinction between correspondence and rule.
+**Limitations:** A computer implementation is not a machine-checked correctness proof; user-supplied semantic and correspondence assumptions remain substantive.
 
 **Rights:** CC BY-NC-SA 3.0.
+
+**Additional reading for terminology revision:** PDF pages 1, 2, 3; see the [reading record](terminology-readings.json).
 
 <a id="meelen-hill-fellner2022"></a>
 ## meelen-hill-fellner2022 — What are cognates?
@@ -2160,7 +2178,9 @@ Marieke Meelen; Nathan W. Hill; Hannes Fellner (2022). paper. [Source](https://j
 **Reading scope:** focused-excerpts; PDF pages 1, 2, 6, 7, 8, 10, 12, 13, 14, 20, 25, 27, 28, 29, 30.
 
 **Finding:** The paper proposes diagnostics and a graded typology of cognacy based on phonological form, morphology, meaning and function.
-**Formalization use:** Specify the unit and level of cognacy; keep candidate comparisons distinct from judgments relative to a changing correspondence system.
-**Boundary:** The proposed categories and semantic measures are methodological proposals, not a universally accepted decidable definition of historical inheritance.
+**Proposed use:** Specify the unit and level of cognacy; keep candidate comparisons distinct from judgments relative to a changing correspondence system.
+**Limitations:** The proposed categories and semantic measures are methodological proposals, not a universally accepted decidable definition of historical inheritance.
 
 **Rights:** CC BY 4.0.
+
+**Additional reading for terminology revision:** PDF pages 2, 7, 8, 9, 10, 11, 12; see the [reading record](terminology-readings.json).

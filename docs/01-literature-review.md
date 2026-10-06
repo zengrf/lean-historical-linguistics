@@ -1,42 +1,42 @@
 # Can the comparative method be formalized in Lean?
 
-**Yes: a useful, substantial part can be formalized.** The strongest initial project is a system for checking reconstruction arguments, exposing assumptions and computing the remaining alternatives. It should grow into a library of verified comparative procedures. It should not promise a proof that a particular reconstruction was the language actually spoken by a prehistoric population.
+Lean can check derivations under specified sound changes, verify alignment and correspondence constraints, and enumerate compatible reconstructions within a finite hypothesis space. Historical interpretation also depends on source readings, cognacy judgments and the justification of the sound changes.
 
-This distinction is productive rather than merely cautionary. It identifies concrete mathematical questions: Does a sound-law cascade derive the claimed reflex? Does an alignment faithfully account for its input? Is a proposed correspondence group internally compatible? Does finite reconstruction return exactly the compatible candidates in its declared search space? Can two different hypotheses be distinguished by the available observations?
+The formal questions are: Does a sound-law cascade derive the claimed reflex? Does an alignment faithfully account for its input? Is a proposed correspondence group internally compatible? Does finite reconstruction return exactly the compatible candidates in its declared search space? Can two different hypotheses be distinguished by the available observations?
 
-Research cutoff: **5 October 2026 UTC** (the session began on 4 October in Los Angeles). [The catalogue](../bibliography/README.md) contains source links, acquisition status, annotations and reading scope. This is a substantial targeted review, not a claim to have read every page of every downloaded book. Page references below use **PDF page numbers**, which can differ from printed pagination.
+Research cutoff: **5 October 2026 UTC** (the session began on 4 October in Los Angeles). [The catalogue](../bibliography/README.md) contains source links, acquisition status, annotations and reading scope. This is a targeted review of the sections identified in the reading notes. Page references below use **PDF page numbers**, which can differ from printed pagination.
 
 ## 1. What is being formalized?
 
-### The method is an iterative investigation
+### Comparison and reconstruction
 
 Rankin's account moves from candidate comparisons through recurring correspondences, distributional analysis, reconstruction and the interpretation of phonetic values. It also considers morphology, meaning and syntax. Complementary correspondence distributions can motivate a common proto-segment; typology can help interpret that segment. Neither step is equivalent to selecting the most frequent modern sound. See [Rankin 2003](https://lx.berkeley.edu/sites/default/files/rankin_comparative_method.pdf), PDF pp. 1–5, 10, 17, 23, 26.
 
 Jäger and List distinguish computational problems that are often bundled together under the comparative method. Proposed cognates inform correspondences, and correspondences inform cognacy judgments. This makes revision an ordinary part of the method, not evidence of a circular proof when hypotheses and their successive evidence are recorded. See [Jäger & List 2016](https://lingulist.de/documents/papers/jaeger-list-2016-computational-elaborations-comparative-method.pdf), introduction.
 
-**Design consequence:** use a versioned argument graph. An observation, a proposed cognacy judgment, a normalization decision, a sound law and a reconstructed form are different objects. Keep the dependencies between them. A revision creates a new analysis against which the existing evidence can be checked again.
+For the formalization, use a versioned argument graph. An observation, a proposed cognacy judgment, a normalization decision, a sound law and a reconstructed form are different objects. Keep the dependencies between them. A revision creates a new analysis against which the existing evidence can be checked again.
 
 ### Cognacy needs an explicit unit and diagnostic
 
 Meelen, Hill and Fellner distinguish stronger and weaker kinds of cognacy, together with similarity in meaning and function. Their workflow separates potential comparisons from accepted comparisons relative to a developing correspondence system. They also discuss a colexification-based semantic measure. This is especially relevant because a binary whole-word label hides root sharing, changed morphology and semantic divergence. See [*What are cognates?*](https://journals.ed.ac.uk/pihph/article/view/7405), PDF pp. 2, 7–12, 20, 25.
 
-**Design consequence:** a statement of cognacy must specify its units, historical depth and evidence. Preserve morpheme occurrences and their position within words. Record semantic evidence without making a numerical semantic score the definition of inherited meaning. Identical modern glosses are neither necessary nor sufficient for common ancestry.
+For the formalization, a statement of cognacy must specify its units, historical depth and evidence. Preserve morpheme occurrences and their position within words. Record semantic evidence without making a numerical semantic score the definition of inherited meaning. Identical modern glosses are neither necessary nor sufficient for common ancestry.
 
 ### Regularity, analogy and phonetic plausibility
 
 Garrett distinguishes phonologization from other sources of changed phonological form. Garrett and Johnson discuss production and perception biases; these motivate directional expectations, not exceptionless restrictions on every possible history. Garrett and Blevins show why a synchronic morphophonological pattern may have an analogical history. See [Garrett's sound-change chapter](https://linguistics.berkeley.edu/~garrett/garrett-soundchangechapter.pdf), [Garrett & Johnson](https://linguistics.berkeley.edu/~kjohnson/papers/Garrett-Johnson_2012.pdf), and [Garrett & Blevins](https://linguistics.berkeley.edu/~garrett/FsKiparsky.pdf).
 
-**Design consequence:** regular sound change is a scoped claim about a stage, variety, environment and lexical stratum. A failure may indicate an erroneous transcription, wrong cognate, omitted condition, loan, analogy or genuinely unresolved history. It must not automatically produce a word-specific exception that makes the theory fit. Analogical explanations need their own model forms and paradigm relations.
+For the formalization, regular sound change is a scoped claim about a stage, variety, environment and lexical stratum. A failure may indicate an erroneous transcription, wrong cognate, omitted condition, loan, analogy or genuinely unresolved history. It must not automatically produce a word-specific exception that makes the theory fit. Analogical explanations need their own model forms and paradigm relations.
 
-Matisoff explicitly objects to confusing elaborate notation with explanation in [*Proto-Languages and Proto-Sprachgefühl*](https://stedt.berkeley.edu/pdf/JAM/matisoff1982proto.pdf), PDF pp. 3–4. His discussion of competing complex protoforms and the historical level of conditioning material, pp. 31–32, also matters. A theorem prover does not answer that criticism merely by checking more notation. The response must be independently constrained laws, inspectable evidence, prediction and intelligible counterexamples.
+Matisoff explicitly objects to confusing elaborate notation with explanation in [*Proto-Languages and Proto-Sprachgefühl*](https://stedt.berkeley.edu/pdf/JAM/matisoff1982proto.pdf), PDF pp. 3–4. His discussion of competing complex protoforms and the historical level of conditioning material, pp. 31–32, also matters. The proposed formalization therefore needs independently justified sound changes, source references, predictions and counterexamples.
 
-## 2. Computational reconstruction has a long history
+## 2. Computational reconstruction
 
-### Direct prior art: the Reconstruction Engine
+### The Reconstruction Engine
 
-[Lowe & Mazaudon 1994](https://aclanthology.org/J94-3004/) already describe bidirectional reconstruction with explicit sound correspondences, contextual restrictions, a syllable canon and semantic processing, illustrated with Tamang. Their system computes possible ancestors, groups supporting reflexes, generates expected daughters and retains a residue. Its treatment of imprecision and user-supplied semantic groupings is directly relevant (PDF pp. 1–2, 6, 10, 12, 20, 25–29).
+[Lowe & Mazaudon 1994](https://aclanthology.org/J94-3004/) describe bidirectional reconstruction with explicit sound correspondences, contextual restrictions, a syllable canon and semantic processing, illustrated with Tamang. Their system computes possible ancestors, groups supporting reflexes, generates expected daughters and retains a residue. Its treatment of imprecision and user-supplied semantic groupings is directly relevant (PDF pp. 1–2, 6, 10, 12, 20, 25–29).
 
-This rules out a novelty claim such as “the first implementation of the comparative method.” The proposed contribution is **machine-checked contracts for selected operations**, an explicit connection from those contracts to source evidence, and systematic handling of competing analyses.
+The proposed contribution is correctness proofs for selected reconstruction procedures, their application to documented comparisons, and the evaluation of competing analyses.
 
 ### Alignments, cognate detection and correspondence patterns
 
@@ -44,7 +44,7 @@ The pair-HMM tradition models alignment and word similarity ([W05-0606](https://
 
 [Partial cognate detection](https://aclanthology.org/P16-2097/) matters particularly for morphologically complex comparisons: two words may share only one component. [Dictionary-based discovery](https://aclanthology.org/D17-1267/) adds semantic evidence. [Global reranking](https://aclanthology.org/P17-1181/) and [supervised link prediction](https://aclanthology.org/2024.eacl-long.58/) impose additional structure. These are candidate-producing methods, not interchangeable definitions of cognacy.
 
-[List 2019](https://aclanthology.org/J19-1004/), especially PDF pp. 8–9, models compatibility of incomplete alignment sites and searches for a clique cover. Two sites need shared non-gap evidence and no conflicting observed cells. Missing data make compatibility non-transitive. Therefore connected components or naïve union-find can merge incompatible sites. The Lean prototype includes a counterexample with three columns that share one observed sound but disagree elsewhere. Future work should verify clique membership and coverage separately from any claim of minimum cover size.
+[List 2019](https://aclanthology.org/J19-1004/), especially PDF pp. 8–9, models compatibility of incomplete alignment sites and searches for a clique cover. Two sites need shared non-gap evidence and no conflicting observed cells. Missing data make compatibility non-transitive. Therefore connected components or naïve union-find can merge incompatible sites. The Lean prototype includes a counterexample with three columns that share one observed sound but disagree elsewhere. M3 verifies clique membership and partition coverage; minimum-cover optimization remains future work.
 
 [Trimming](https://aclanthology.org/2023.sigtyp-1.6/) and [fast supervised reconstruction](https://aclanthology.org/2022.lchange-1.9/) provide transparent baselines. Preserve the discarded material: higher regularity after trimming is not evidence that every removed segment was historically irrelevant.
 
@@ -56,13 +56,13 @@ The progression from [stochastic diachronic edits](https://aclanthology.org/D07-
 
 [Reflex reranking](https://aclanthology.org/2024.lrec-main.762/) and [semisupervised bidirectional reconstruction](https://aclanthology.org/2024.acl-long.788/) support forward derivation as a useful constraint. The latter paper explicitly observes that incorrect protoforms can still yield accurate daughter predictions and that correspondence between neural reasoning and linguistic reasoning is not established (PDF p. 10). This is an empirical counterpart of the formal inverse ambiguity in our prototype.
 
-[Sound-law induction as programming by examples](https://aclanthology.org/2025.acl-long.1432/) is especially compatible with proof-carrying proposals. Its generated Python programs and small evaluation set do not constitute verified linguistic rules. Translate accepted proposals into a restricted rule language; do not execute arbitrary generated programs as the trusted checker. The [2026 Chinese dialect study](https://aclanthology.org/2026.acl-long.831/) extends ancestor-informed rule and pronunciation tasks, but its Middle Chinese/dialect setting is not evidence for a reconstructed Sino-Tibetan root.
+[Sound-law induction as programming by examples](https://aclanthology.org/2025.acl-long.1432/) is especially compatible with proposals accompanied by derivation certificates. Its generated Python programs and small evaluation set do not constitute verified linguistic rules. Translate accepted proposals into a restricted rule language; do not execute arbitrary generated programs as the trusted checker. The [2026 Chinese dialect study](https://aclanthology.org/2026.acl-long.831/) extends ancestor-informed rule and pronunciation tasks, but its Middle Chinese/dialect setting is not evidence for a reconstructed Sino-Tibetan root.
 
-## 3. PIE: strong traditions, multiple analytical layers
+## 3. Indo-European reconstruction
 
-### What provides a useful first case?
+### Case-study selection
 
-Start with **restricted, source-backed derivations**, not a universal PIE grammar. Three complementary dossiers are proposed:
+The initial study covers fragments of published analyses in three areas:
 
 1. **Germanic relative chronology:** a source-defined subset of Grimm-type developments, Verner's conditioning and subsequent stress relocation. Preserve the source's exact conditions. This demonstrates feeding, bleeding and the need for stage-indexed accent.
 2. **Anatolian laryngeal reflexes:** show why an inventory distinction, a phonetic interpretation and a written reflex are separate claims. Retain competing treatments where syllabification or analogy matters.
@@ -70,7 +70,7 @@ Start with **restricted, source-backed derivations**, not a universal PIE gramma
 
 The [Olander volume](https://www.cambridge.org/core/product/4B44B5ACF0D3BBA89B9408050F112A52) supplies multiple scholarly perspectives. Clackson's methodology chapter discusses shared innovations, retentions and false positives from contact or parallel change. Ringe's chapter sets out chronology and the limitations of cladistics. Its numerical illustration for the Germanic subgroup must not be imported as a calibrated probability: that would require justifying the event probabilities and their dependencies, independently of checking arithmetic.
 
-Kloekhorst's work supplies explicit, testable disputes: [initial laryngeals](https://www.kloekhorst.nl/Publications.html), nominal ablaut, thorn clusters, the Anatolian stop system and a proposed pre-PIE final-vowel law. The bibliography links individual PDFs. Their coexistence argues for named analysis packages rather than a global constant called `thePIE`. A shared reconstructed distinction does not require agreement about its precise phonetic realization or its chronological level.
+Kloekhorst's work supplies explicit, testable disputes: [initial laryngeals](https://www.kloekhorst.nl/Publications.html), nominal ablaut, thorn clusters, the Anatolian stop system and a proposed pre-PIE final-vowel law. The bibliography links individual PDFs. Each analysis therefore requires a separate representation with its assumptions recorded. A shared reconstructed distinction does not require agreement about its precise phonetic realization or its chronological level.
 
 ### Existing executable PIE reconstructions
 
@@ -78,29 +78,29 @@ Kloekhorst's work supplies explicit, testable disputes: [initial laryngeals](htt
 
 ### Data, phylogeny and historical interpretation
 
-[IE-CoR](https://doi.org/10.1038/s41597-025-05445-3) is a strong source for reviewed cognate relationships, morphological complexity and contact annotations. Its discussion of “fire” and “name” illustrates that agreement on cognacy need not imply agreement on a precise protoform. The paper also has inconsistent lexeme totals between its abstract and body: compute statistics from a pinned release rather than copying a convenient number.
+[IE-CoR](https://doi.org/10.1038/s41597-025-05445-3) is a source for reviewed cognate relationships, morphological complexity and contact annotations. Its discussion of “fire” and “name” illustrates that agreement on cognacy need not imply agreement on a precise protoform. The paper also has inconsistent lexeme totals between its abstract and body: compute statistics from the pinned dataset release.
 
 [Ringe, Warnow & Taylor](https://www.cs.rice.edu/~nakhleh/CPHL/RWT02.pdf), [Nakhleh, Ringe & Warnow](https://www.cs.rice.edu/~nakhleh/Papers/81.2nakhleh.pdf), and [Erdem et al.](https://www.cs.rice.edu/~nakhleh/Papers/padl03.pdf) show that formal character models, networks and constraint solving already contribute to Indo-European phylogeny. These reconstruct a different object from phonological word forms.
 
-[Chang et al.](https://linguistics.berkeley.edu/~garrett/ChangEtAl-2015.pdf) and [Heggarty et al.](https://doi.org/10.1126/science.abg0818) illustrate the consequences of ancestry constraints, sampled ancestors and data coding for dated trees. The plan does not attempt to settle homeland questions by formalizing one selected analysis. That would require a separately scoped evidential synthesis, not just a proof assistant.
+[Chang et al.](https://linguistics.berkeley.edu/~garrett/ChangEtAl-2015.pdf) and [Heggarty et al.](https://doi.org/10.1126/science.abg0818) illustrate the consequences of ancestry constraints, sampled ancestors and data coding for dated trees. Homeland questions require a separate assessment of the linguistic, archaeological and demographic evidence.
 
-## 4. Sino-Tibetan / Trans-Himalayan: preserve disagreement
+## 4. Sino-Tibetan reconstruction
 
-### Naming a proto-language already embeds assumptions
+### Reconstruction levels and subgrouping
 
 [Benedict 1972](https://stedt.berkeley.edu/pubs.html) distinguishes Chinese, Karen and Tibeto-Burman in its taxonomy (PDF pp. 14, 18). Matisoff's numeral study explicitly revises aspects of that organization. Therefore “Proto-Tibeto-Burman,” “Proto-Sino-Tibetan” and “Proto-Trans-Himalayan” must not be silently treated as interchangeable identifiers. Define a proto-node by a source, a set of descendant varieties and an explicit topology hypothesis.
 
 The full Benedict and Matisoff 1978 PDFs are retained, but only selected introductory scanned pages were visually examined. Matisoff's 2003 HPTB remains an access gap in this session; its publisher description and the downloaded critical reviews do not license a claim to have read that book directly.
 
-### Testable disagreements, not a single imposed doctrine
+### Competing analyses
 
 [Sagart's HPTB review](https://shs.hal.science/halshs-00094374) asks for explicit correspondences and distinguishes useful results from untested comparisons. [Jacques's review of Hill](https://shs.hal.science/halshs-03507197) emphasizes philology, contact, analogy and unresolved questions. [Fellner & Hill's methodological response](https://www.tara.tcd.ie/bitstreams/c18faf5a-558b-4783-b832-7d38a4f6b205/download) challenges the transfer of assumptions between research traditions; only its web-accessible introductory material was examined here.
 
-The appropriate formal target is a comparison of **specified analyses on specified evidence**. Allofamic variation can be represented as an explicit hypothesis with constraints and a cost; it must not act as an unlimited escape hatch. Conversely, a strict deterministic sound model must not force every unexplained form to be rejected as non-cognate. Retain an unresolved category and permit later revision.
+The appropriate formal target is a comparison of **specified analyses on specified evidence**. Allofamic variation requires specified alternatives and restrictions on their distribution. Conversely, a strict deterministic sound model must not force every unexplained form to be rejected as non-cognate. Retain an unresolved category and permit later revision.
 
-### Work upward from a tractable subgroup
+### Subgroup reconstruction
 
-[VanBik's Proto-Kuki-Chin](https://stedt.berkeley.edu/pubs.html) distinguishes reconstructions at several levels and supplies abundant comparative material. [Button's Proto Northern Chin](https://stedt.berkeley.edu/pubs.html) adds a different reconstruction and external comparisons. [Namkung's inventories](https://stedt.berkeley.edu/pubs.html) are useful for understanding transcription conventions. Together they support a bounded pilot without pretending to reconstruct the entire family at once.
+[VanBik's Proto-Kuki-Chin](https://stedt.berkeley.edu/pubs.html) distinguishes reconstructions at several levels and supplies abundant comparative material. [Button's Proto Northern Chin](https://stedt.berkeley.edu/pubs.html) adds a different reconstruction and external comparisons. [Namkung's inventories](https://stedt.berkeley.edu/pubs.html) are useful for understanding transcription conventions. They provide comparative material and transcription conventions for a subgroup study.
 
 The initial pilot should use **Kuki-Chin**. A second pilot can use **Burmish**, including the public data underlying [uncertainty-aware reconstruction](https://aclanthology.org/2023.lchange-1.3/), once exact dataset versions and permissions are checked. Do not require agreement between these independent subgroup projects as a precondition for verifying their internal derivations.
 
@@ -156,10 +156,10 @@ This is not the claim that all reconstruction is futile. A new language, a dated
 
 [Evans & Warnow](https://www.stat.berkeley.edu/~evans/668.pdf) show non-identifiability in a particular rates-across-sites setting. The lesson is to formulate identifiability obligations for each statistical model, not to generalize that result into an impossibility theorem about every linguistic date.
 
-## 7. What this review supports—and what remains open
+## 7. Proposed research and remaining gaps
 
-The literature supports a feasible first research program: a verified derivation and reconstruction core, source-rich comparative dossiers, and an interface for expert revision and untrusted automated proposals. It supports rigorous conditional results and useful negative results about ambiguity. It does not support a promised complete automatic reconstruction of PIE or Proto-Sino-Tibetan.
+The proposed research combines verified derivation and reconstruction procedures with comparative data, source references and facilities for revising analyses. Its results will be conditional on specified linguistic assumptions and search spaces.
 
 The immediate gaps are substantive: specialist validation of pilot etymologies; direct access to HPTB and Hill's 2019 monograph; fuller engagement with general textbooks by Campbell, Fox, Hock, and with PIE handbooks and dictionaries; broader Chinese-, Tibetan-, German- and French-language coverage; and deeper study of analogy, borrowing, semantic change and syntax before formalizing those modules. The retained French and Chinese papers improve coverage but do not erase the collection's English/open-access and author-availability biases.
 
-The [architecture](02-formal-architecture.md), [case-study and evaluation protocol](03-case-studies-and-evaluation.md) and [milestones](04-delivery-plan.md) turn these findings into a bounded, falsifiable program. A successful project makes errors and disagreements easier to locate. It need not declare a single victorious proto-language to be scientifically valuable.
+The [architecture](02-formal-architecture.md), [case-study and evaluation protocol](03-case-studies-and-evaluation.md) and [milestones](04-delivery-plan.md) specify the representations, experiments and acceptance criteria needed to assess these proposals.

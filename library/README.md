@@ -1,6 +1,6 @@
 # Retained publication library
 
-The source of truth is the [annotated catalogue](../bibliography/README.md), backed by [metadata](../bibliography/sources.json) and the [acquisition ledger](../bibliography/downloads.json).
+The library is indexed in the [annotated catalogue](../bibliography/README.md), backed by [metadata](../bibliography/sources.json) and the [acquisition ledger](../bibliography/downloads.json).
 
 - `open/`: 64 unmodified PDFs included in public Git under the [individual permissions](THIRD_PARTY_NOTICES.md).
 - `downloads/`: 63 additional acquired PDFs retained locally and ignored by Git.

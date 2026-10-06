@@ -1,4 +1,4 @@
-"""Freeze a source-backed PIE sample and conservative lexical-family splits.
+"""Freeze an IE-CoR sample and splits grouped by lexical family.
 
 Selection uses source metadata only. No rule execution, predictions or outcomes
 enter selection or split assignment. The upstream snapshot remains unchanged.
@@ -36,7 +36,7 @@ def table(name):
 
 
 def root_keys(text):
-    # Conservative grouping, NOT phonological normalization or proto inference.
+    # Group related spellings for evaluation splits; retain the original forms.
     # Accent, length and formatting differences cannot create separate splits.
     text = text.replace("u̯", "w").replace("i̯", "y").replace("₁", "1").replace("₂", "2").replace("₃", "3")
     text = "".join(c for c in unicodedata.normalize("NFD", text.lower()) if not unicodedata.combining(c))

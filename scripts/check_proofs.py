@@ -1,7 +1,7 @@
 """Check the declared proof audit against the current Lean source files.
 
 Run after `lake build` and `lake env lean Audit.lean`. This does not replace Lean:
-it checks for disallowed escape hatches and unexpected reported dependencies.
+it rejects disallowed proof primitives and unexpected reported axioms.
 """
 import argparse
 import re
@@ -35,7 +35,7 @@ def main():
     count=0
     for path in files:
         code=strip_comments(path.read_text())
-        if re.search(banned,code):raise SystemExit(f'Forbidden proof escape hatch in {path.name}')
+        if re.search(banned,code):raise SystemExit(f'Forbidden declaration or proof primitive in {path.name}')
         count+=len(re.findall(r'^\s*(?:theorem|lemma)\s+',code,re.M))
     declarations=re.findall(r'^#print axioms\s+(\S+)',(ROOT/'lean/Audit.lean').read_text(),re.M)
     if len(declarations)!=count or len(set(declarations))!=count:

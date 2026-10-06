@@ -1,8 +1,22 @@
-# M1 independent double-entry review
+# Independent review records
+
+| Milestone | Review | Status |
+| --- | --- | --- |
+| M1 | Independent transcription of six source entries by a separate AI agent | Complete; six exact matches |
+| M2 | Twenty synthetic derivations worked by a separate AI agent before implementation comparison | Complete; all intermediate forms agree |
+| M5 | PIE specialist assessment of the comparative data and analyses | [Pending](pie-signoff.md) |
+
+The M1 and M2 reviews concern transcription and formal rule application. Family
+specialists separately assess the linguistic analyses in M5 and M6.
+
+## M1 double-entry transcription
 
 **Completed on 2026-10-05 UTC:** the separate AI agent `codex-independent-ai-agent:/root/m1_source_review` independently transcribed all six required source cells. It started with fresh context, did not participate in import/encoding and did not consult imported values or validation code. All six originals agree exactly with the imports. The [response](m1-responses.json), [reviewer's method and limitations](m1-independent-review.md), and [reconciliation report](../reports/m1-review.json) are retained.
 
-This is an independent AI source-entry review, not human or family-specialist sign-off. The sources were independently fetched at the pinned commits and hash-checked; byte agreement does not establish their historical accuracy. The reviewer used a shared filesystem with a read boundary enforced by instruction, not a sandbox. The importer and ordinary automated source comparisons were implemented by the coordinating Codex agent; passing those checks alone does not satisfy this review gate.
+The reviewer fetched the sources at the pinned commits and checked their hashes.
+The task instructions restricted access to expected answers on the shared
+filesystem; there was no technical access restriction. Automated import checks
+and the separate transcription review are recorded independently.
 
 [m1-packet.json](m1-packet.json) identifies six source rows: three Indo-European and three Burmish. This is 10% of the 60 imported core records. The current import uses digital CSV data, with no OCR and no question-mark/replacement-glyph flags. Any flagged imported readings are automatically added to the required packet.
 

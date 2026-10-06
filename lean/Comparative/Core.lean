@@ -111,7 +111,7 @@ theorem fits_of_equivalent {L α : Type} (m : Model L α)
     rw [heq o.language]
     exact h o ho
 
-/-- Finite search, not a claim that every possible protoform is in the pool. -/
+/-- Filter the supplied finite candidate pool. -/
 def reconstruct {H : Type} (pool : List H) (accept : H → Bool) : List H :=
   pool.filter accept
 

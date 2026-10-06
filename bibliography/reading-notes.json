@@ -6,7 +6,7 @@
       1,
       9
     ],
-    "finding": "Stochastic edits on a phylogeny jointly support reconstruction and phonological-change inference.",
+    "finding": "Stochastic edits along a phylogeny support joint inference of protoforms and sound changes.",
     "formalization_use": "Use a probabilistic generator outside the proof kernel, with explicit tree and edit parameters.",
     "caution": "An inferred high-probability form is conditional on the model and cognate inputs."
   },
@@ -93,7 +93,7 @@
     ],
     "finding": "LexStat learns language-specific scoring schemes for multilingual cognate detection.",
     "formalization_use": "Use a pinned LexStat implementation as a candidate generator and baseline.",
-    "caution": "Do not promote heuristic clusters to premises without provenance and review."
+    "caution": "Heuristic cognate sets require source references and linguistic review."
   },
   {
     "id": "P13-4003",
@@ -236,7 +236,7 @@
       1
     ],
     "finding": "Gaussian processes model covariance between Indo-Aryan sound-change outcomes.",
-    "formalization_use": "Test independence assumptions instead of silently multiplying scores.",
+    "formalization_use": "Test the independence assumptions used when combining scores.",
     "caution": "Posterior predictive adequacy is an empirical property outside the kernel proof."
   },
   {
@@ -344,7 +344,7 @@
       5
     ],
     "finding": "A transformer does not consistently outperform the rule-based shared-task baseline.",
-    "formalization_use": "Require simple baselines before adding complex inference machinery.",
+    "formalization_use": "Compare simple baselines with more complex models.",
     "caution": "Small sparse datasets can favor simpler methods."
   },
   {
@@ -366,7 +366,7 @@
     ],
     "finding": "Transformer reconstruction is tested on Romance and Chinese comparative datasets.",
     "formalization_use": "Use neural predictions as candidate sets, with language-family-specific evaluation.",
-    "caution": "Performance against published labels does not make those labels historical ground truth."
+    "caution": "Agreement with published reconstructions measures performance against the selected reference analysis."
   },
   {
     "id": "2023.emnlp-main.423",
@@ -466,7 +466,7 @@
     ],
     "finding": "Selecting one synonym can change inferred tree topology; alternative encodings retain synonyms.",
     "formalization_use": "Preserve all attested synonyms and record the sampling policy.",
-    "caution": "A single preferred lexeme per concept is an analytical decision, not neutral preprocessing."
+    "caution": "Selecting one lexeme per concept changes the evidence available for phylogenetic inference."
   },
   {
     "id": "2025.acl-long.1432",
@@ -669,9 +669,9 @@
       7,
       9
     ],
-    "finding": "A substantial lower-level reconstruction separates Kuki-Chin, Central Chin, Northern Chin and Maraic sets.",
-    "formalization_use": "Use a bounded subgroup pilot with taxonomic level stored for every protoform.",
-    "caution": "A subgroup reconstruction is not a reconstruction of the whole Sino-Tibetan ancestor."
+    "finding": "VanBik distinguishes Proto-Kuki-Chin, Proto-Central-Chin, Proto-Northern-Chin and Proto-Maraic reconstructions.",
+    "formalization_use": "Record the reconstruction level and the varieties represented in each comparative set.",
+    "caution": "The tone reconstruction is provisional; reconstruction at the Proto-Kuki-Chin level requires evidence from two of VanBik's three principal subgroups."
   },
   {
     "id": "button2011",
@@ -679,9 +679,9 @@
     "pdf_pages_examined": [
       5
     ],
-    "finding": "Northern Chin reconstruction combines internal evidence with Old Burmese and Old Chinese comparisons.",
-    "formalization_use": "Compare alternative evidence paths without merging their assumptions.",
-    "caution": "External comparisons and broader two-vowel hypotheses require separate validation."
+    "finding": "Button compares a Northern Chin reconstruction with Old Burmese and Old Chinese.",
+    "formalization_use": "Keep Button's reconstruction separate from VanBik's; Button includes Mizo and Zahau in Northern Chin.",
+    "caution": "Tone categories, phonetic tones and proposed segmental sources of tone require separate representations."
   },
   {
     "id": "namkung1996",
@@ -691,7 +691,7 @@
     ],
     "finding": "The inventory reference documents language-specific transcription systems and phonetic interpretations.",
     "formalization_use": "Build explicit transcription adapters before comparing segment strings.",
-    "caution": "The introductory count and the later website description differ; this study does not harmonize them into a false exact count."
+    "caution": "The introductory count differs from the later website description; the discrepancy remains unresolved."
   },
   {
     "id": "jacques-halshs-00408281",
@@ -788,7 +788,7 @@
     ],
     "finding": "Khaling tone alternations partly follow coda loss and syllable reduction, with a remaining unexplained residue.",
     "formalization_use": "Represent tone as structured data and preserve residual failures.",
-    "caution": "Do not manufacture an exceptionless account by deleting unexplained paradigm cells."
+    "caution": "The unexplained paradigm cells must remain in the evaluation."
   },
   {
     "id": "jacques-halshs-00605893",
@@ -965,7 +965,7 @@
     ],
     "finding": "Anatolian evidence is used to compare competing nominal accent-ablaut reconstructions.",
     "formalization_use": "Represent accent, stem, suffix and ending as separate structured components.",
-    "caution": "Do not encode one contested paradigm theory as the definition of PIE morphology."
+    "caution": "The competing paradigm analyses require separate representations."
   },
   {
     "id": "kloekhorst2014-thorn",
@@ -1054,7 +1054,7 @@
       20
     ],
     "finding": "IE-CoR distinguishes cognate relations, borrowing, morphological complexity and disagreements about protoforms.",
-    "formalization_use": "Use source-rich cognate data without presuming a unique reconstructed string.",
+    "formalization_use": "Retain source cognacy judgments and competing protoforms with their references.",
     "caution": "The paper's abstract and body differ on total lexeme count; pin a dataset release and compute counts from files."
   },
   {
@@ -1088,7 +1088,7 @@
       4
     ],
     "finding": "Lean's small trusted kernel checks explicit proofs while automation constructs them.",
-    "formalization_use": "Place untrusted inference outside a proof-producing boundary.",
+    "formalization_use": "Use search procedures to produce proof terms checked by the kernel.",
     "caution": "This describes an earlier Lean generation; implementation guidance must use the pinned Lean 4 release."
   },
   {
@@ -1137,7 +1137,7 @@
     ],
     "finding": "Typeclass design has tradeoffs involving bundled structures, inference and hierarchy complexity.",
     "formalization_use": "Pass empirical reconstructions as explicit parameters, not globally inferred instances.",
-    "caution": "Competing historical assumptions should not be selected invisibly by typeclass search."
+    "caution": "Typeclass inference should not choose between competing empirical analyses."
   },
   {
     "id": "growingmathlib2025",
@@ -1243,7 +1243,7 @@
       2
     ],
     "finding": "Probabilistic models reconstruct Austronesian protoforms at large scale and compare with expert reconstructions.",
-    "formalization_use": "Use model-based reconstruction as a serious baseline and source of candidates.",
+    "formalization_use": "Compare this probabilistic reconstruction method with the proposed deterministic baselines.",
     "caution": "Distance to an expert reconstruction measures agreement with that analysis, not direct access to ancient speech."
   },
   {
@@ -1350,7 +1350,7 @@
     ],
     "finding": "A proved reflective Coq tactic decides Kleene-algebra equations and returns counterexamples.",
     "formalization_use": "Emulate reflection and counterexample-producing checking for a restricted sound-rule language.",
-    "caution": "A substantial algebraic formalization is needed; this is not an off-the-shelf Lean transducer checker."
+    "caution": "Adapting these results to Lean transducers requires additional definitions and proofs."
   },
   {
     "id": "kaplan-kay1994",
@@ -1446,7 +1446,7 @@
       9
     ],
     "finding": "Fuzzy protoforms represent alternatives; the paper explicitly warns that position-wise alternatives take a Cartesian product.",
-    "formalization_use": "Preserve joint candidate sets or coindexed constraints; the prototype exhibits spurious hybrid forms.",
+    "formalization_use": "Represent dependent alternatives as complete candidate forms or indexed choices; retain the counterexample to independent positional choices.",
     "caution": "Agreement across perturbed predictors is a stability measure, not a calibrated posterior probability."
   },
   {
@@ -1521,7 +1521,7 @@
       31,
       33
     ],
-    "finding": "The Reconstruction Engine already implements bidirectional comparison with contextual correspondences, syllable structure, semantic filtering and controlled imprecision.",
+    "finding": "The Reconstruction Engine implements bidirectional reconstruction using contextual correspondences, syllable structure, semantic filtering and uncertain forms.",
     "formalization_use": "Use this as direct prior art for a verified reconstruction checker, including its explicit residual class and distinction between correspondence and rule.",
     "caution": "A computer implementation is not a machine-checked correctness proof; user-supplied semantic and correspondence assumptions remain substantive."
   },

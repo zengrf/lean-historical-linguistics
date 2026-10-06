@@ -1,6 +1,6 @@
 # Research method, acquisition record and limits
 
-This study combines a targeted literature search, source-specific reading notes, inspection of relevant proof-assistant code and a small mechanized feasibility test. The cutoff is **5 October 2026 UTC**. It is a substantial planning review, not an exhaustive systematic review or a replacement for specialist philological assessment.
+This study combines a targeted literature search, source-specific reading notes, inspection of relevant proof-assistant code and a small mechanized feasibility test. The cutoff is **5 October 2026 UTC**. It is a targeted review for the proposed formalization; specialist philological assessment remains part of the case studies.
 
 ## 1. Questions that determined source selection
 
@@ -27,7 +27,7 @@ The count additionally excludes List's research proposal, two reviews and a shor
 
 The collection includes full monographs or dissertations by Benedict, Matisoff, VanBik, Button, Namkung, List and Chandlee, and the Olander edited volume. Their presence in the collection does not imply that every page was read.
 
-Coverage tags overlap. Among qualifying acquired works, the current tags include 62 computational, 27 Sino-Tibetan, 18 formal, 17 Indo-European and 17 theory entries, with additional data, morphology, syntax and comparative-method tags. These are navigation aids, not mutually exclusive discipline totals or evidence of exhaustive coverage.
+Coverage tags overlap. Among qualifying acquired works, the current tags include 62 computational, 27 Sino-Tibetan, 18 formal, 17 Indo-European and 17 theory entries, with additional data, morphology, syntax and comparative-method tags. These overlapping tags support navigation and do not define mutually exclusive categories.
 
 ## 3. Reading depth and traceability
 
@@ -44,7 +44,7 @@ Coverage tags overlap. Among qualifying acquired works, the current tags include
 
 These counts sum to 132, including the five acquisition gaps. PDF page numbers include covers and repository wrappers. They can differ substantially from printed pages. Some files have incomplete or corrupted extracted text; `text_characters` is an extraction diagnostic, not a reading or quality measure.
 
-The synthesis gives particular weight to comparative-method accounts; Lowe and Mazaudon's Reconstruction Engine; Meelen, Hill and Fellner on cognacy; alignment/correspondence and uncertainty papers; source-defined PIE disputes; Kuki-Chin monographs; Sino-Tibetan methodological disagreements; and formal-language and proof-assistant foundations. It does not turn a screened result into a claim that its full derivation has been independently reproduced.
+The synthesis gives particular weight to comparative-method accounts; Lowe and Mazaudon's Reconstruction Engine; Meelen, Hill and Fellner on cognacy; alignment/correspondence and uncertainty papers; source-defined PIE disputes; Kuki-Chin monographs; Sino-Tibetan methodological disagreements; and formal-language and proof-assistant foundations. Screened papers are used only for the claims supported by the examined passages.
 
 Findings in the catalogue are paraphrases. A proposed Lean representation or delivery consequence is this study's analysis, not necessarily the source author's proposal. The [prior-art audit](05-prior-art.md) likewise distinguishes inspected source definitions from software that has actually been built and checked here.
 
@@ -60,11 +60,11 @@ Five attempted acquisitions remain incomplete:
 | `fellner-hill2023` | Sino-Tibetan methodological response | Repository download denied; limited web excerpts were readable |
 | `lai2022` | Tibetan lenition manuscript | Repository download denied; limited web excerpts were readable |
 
-The recorded errors are historical observations, not claims that these works are generally unavailable. No paywall or authentication control was bypassed. Matisoff 2003 was not silently substituted with a review while counted as the book.
+These access errors describe the recorded acquisition attempts. Matisoff 2003 remains absent from the retained-book count; the reviews are catalogued separately.
 
 Priority additions for the next cycle include Nathan Hill's [*The Historical Phonology of Tibetan, Burmese, and Chinese*](https://doi.org/10.1017/9781316550939), Baxter and Sagart's *Old Chinese: A New Reconstruction*, comprehensive historical-linguistics textbooks by Campbell, Hock and Fox, and PIE textbooks and grammars by Fortson and Ringe. They are reading priorities, **not extra acquired or directly studied books in the present count**. These should deepen coverage of phonological interpretation, morphology, semantic change, philology and branches underrepresented in the current library.
 
-The current selection favors sources with accessible electronic copies and the authors/repositories discoverable in this session. English predominates; French and Chinese material is present but coverage of non-English traditions is incomplete. Major gaps remain in archaeology, population genetics, sociolinguistic models of transmission, full syntax reconstruction and many individual Sino-Tibetan branches. Those areas should be added when a precise research claim depends on them, rather than being implied by a general claim to cover all relevant literature.
+The current selection favors sources with accessible electronic copies and the authors/repositories discoverable in this session. English predominates; French and Chinese material is present but coverage of non-English traditions is incomplete. Major gaps remain in archaeology, population genetics, sociolinguistic models of transmission, full syntax reconstruction and many individual Sino-Tibetan branches. Further work in these areas is needed where a research claim depends on them.
 
 ## 5. Versions and bibliographic corrections
 
@@ -93,4 +93,4 @@ Follow [the root README](../README.md) for current commands. The two audit modes
 
 `check_plan.py` checks dependency consistency, acceptance-record structure and the existence of artifacts marked delivered. It does not execute future acceptance commands or certify that planned milestones are complete. Lean builds and `check_proofs.py` establish the current proof prototype's status; empirical linguistic correctness remains outside those checks.
 
-The honest delivery is thus a reproducible, substantially researched starting point with tested formal contracts and explicit evidence gaps. Full case-study encoding, external specialist review and deeper reading are part of the subsequent milestones.
+The subsequent [terminology revision](terminology.md) records additional primary-source readings in a [separate file](../bibliography/terminology-readings.json). These readings do not add to the acquisition count. M1–M4 are implemented; M5's comparative study has passed its computational checks and awaits specialist review.

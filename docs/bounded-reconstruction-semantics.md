@@ -50,8 +50,7 @@ Every analysis can optionally attach an M3 correspondence dossier and target
 alignment ID. The entire dossier must pass M3 and the selected alignment must
 exist. Observation doculects, source references and original forms must exactly
 match that alignment's rows. M3's preservation theorem then connects these
-originals to the aligned rows after removing gaps. The bridge does not invent
-proto-segment identities from a correspondence group or validate cognacy.
+originals to the aligned rows after removing gaps. The bridge checks the supplied evidence links; proto-segment assignment and cognacy remain linguistic judgments.
 Directly supplied observations remain explicitly sourced input assumptions.
 
 For a history to fit, every branch observation must be matched by the output of

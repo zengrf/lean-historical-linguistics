@@ -46,8 +46,7 @@ rows to exact recovery. Site cells are derived from referenced alignment columns
 the input has no field for a separate, potentially inconsistent copy of them.
 
 At M3 delivery, 35 new theorems brought the project total to 79. The current
-audit also covers later milestones. The audit covers every
-declaration and rejects proof placeholders, project axioms and `native_decide`.
+audit covers every declaration, including later milestones, and rejects proof placeholders, project axioms and `native_decide`.
 The local audit reports only Lean's standard `propext`, `Quot.sound` and
 `Classical.choice` dependencies. These proofs are conditional on the defined
 representations and predicates; they do not prove historical cognacy, correct

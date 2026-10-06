@@ -4,7 +4,7 @@ The original project code and synthetic fixtures use MIT. The source datasets an
 
 ## IE-CoR
 
-Heggarty, Paul; Anderson, Cormac; Scarborough, Matthew. *Indo-European Cognate Relationships database*. The snapshot metadata cites IE-CoR version 1.1 (2024); its provenance and repository release labels differ. This delivery identifies the exact bytes by commit rather than reconciling those labels by guesswork.
+Heggarty, Paul; Anderson, Cormac; Scarborough, Matthew. *Indo-European Cognate Relationships database*. The snapshot metadata cites IE-CoR version 1.1 (2024); its provenance and repository release labels differ. The snapshot is identified by its commit and file hashes; the discrepancy between version labels remains unresolved.
 
 - [Pinned repository](https://github.com/lexibank/iecor/tree/700b635a04786427b78841489c46eefbe2843509)
 - [Retained original license](upstream/iecor/LICENSE), [upstream README and contributors](upstream/iecor/README.md)

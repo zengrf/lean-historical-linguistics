@@ -81,6 +81,17 @@ def audit(local=False, min_works=100):
         pages=dn.get(n['id'],{}).get('pages',0)
         if any(not isinstance(p,int) or p<1 or p>pages for p in n['pdf_pages_examined']):
             errors.append(f'{n["id"]}: invalid examined PDF page')
+    terminology=json.loads((ROOT/'bibliography/terminology-readings.json').read_text())['readings']
+    if len({r['source_id'] for r in terminology}) != len(terminology):
+        errors.append('duplicate source in terminology readings')
+    for r in terminology:
+        d=dn.get(r['source_id'],{})
+        if r['path'] != d.get('path') or r['sha256'] != d.get('sha256'):
+            errors.append(f'{r["source_id"]}: terminology reading differs from acquisition record')
+        if any(not isinstance(p,int) or not 1 <= p <= d.get('pages',0) for p in r['pdf_pages_read']):
+            errors.append(f'{r["source_id"]}: invalid terminology reading page')
+        if not set(r['pdf_pages_visually_checked']) <= set(r['pdf_pages_read']):
+            errors.append(f'{r["source_id"]}: visual reading outside recorded pages')
     coverage=collections.Counter()
     for d in qualifying: coverage.update(by[d['id']]['areas'])
     return {

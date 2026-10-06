@@ -3,12 +3,11 @@
 **Status: pending. No specialist sign-off has been received.**
 
 The current result is **computationally checked, linguistically unreviewed**.
-No person or institution is represented as endorsing it. The primary AI
-implementation session performed the encoding and its engineering checks;
-those checks are not independent family-specialist review.
+The implementation and computational checks were completed by the encoding
+session. An independent PIE specialist must assess the linguistic analyses.
 
 The [packet](pie-packet.json) requires assessment of all 20 core sets, eight
-source-backed onset diagnostics and three morphology dossiers. It includes
+onset comparisons drawn from the cited sources and three morphology dossiers. It includes
 source locators, retained failures and global questions about scope, chronology,
 secondary attribution and leakage. The [response file](pie-responses.json)
 contains only a pending marker. The [delivery report](../docs/11-m5-delivery.md)

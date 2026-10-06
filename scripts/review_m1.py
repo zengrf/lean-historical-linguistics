@@ -17,7 +17,7 @@ def packet_and_expected():
     for path in sorted((ROOT/"data/pilots").glob("*.json")):
         d=json.loads(path.read_text());name=path.stem;lock=locks[name]
         records=d["records"];rows.extend(records)
-        # Fixed SHA-based sample: reproducible, not selected for easy agreement.
+        # Select a reproducible sample by SHA-256 order.
         sample=sorted(records,key=lambda r:hashlib.sha256(r["id"].encode()).hexdigest())[:math.ceil(len(records)*0.1)]
         for r in records:
             if r["uncertain"] and r not in sample:sample.append(r)

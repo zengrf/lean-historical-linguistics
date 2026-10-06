@@ -17,7 +17,7 @@
 
 IDs use nonempty ASCII letters/digits plus `._:-`. They are unique within registries. Record IDs and dossier IDs must also be unique across a directory checked in one invocation. Imported record IDs are namespaced by dataset. A future selection change must not renumber an existing upstream record.
 
-Dates use astronomical years, including year zero, with `earliest <= latest`. An unknown date is `null`. Stage labels must still be explicit; unknown dates must not be fabricated from a modern language label.
+Dates use astronomical years, including year zero, with `earliest <= latest`. An unknown date is `null`. Stage labels must still be explicit; a modern language label alone does not provide a date.
 
 ## Source text, normalization and cells
 
@@ -41,7 +41,7 @@ Each reading is a complete joint hypothesis. For example, two readings `pat` and
 
 M1 preserves and validates these references. It does not enumerate globally compatible combinations or prove their linguistic interpretation; that belongs to reconstruction work in M4.
 
-Reconstructed records require a proto doculect, a declared analysis and that analysis's proto-node. Attested records cannot silently carry reconstructed identity. This is a distinction between encoded source claims, not independent authentication of the source.
+Reconstructed records require a proto doculect, a declared analysis and that analysis's proto-node. Attested records must identify an attested doculect. This is a distinction between encoded source claims, not independent authentication of the source.
 
 ## Validation and migration
 

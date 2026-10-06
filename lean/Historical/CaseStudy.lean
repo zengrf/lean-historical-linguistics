@@ -3,8 +3,7 @@ import Historical.ReconstructionInput
 namespace Historical.CaseStudy
 open Rules Certificates Reconstruction
 
-/-- A declared finite pool of published reference forms. This is closed-set
-retrieval, and makes no claim that every possible ancestor is in the pool. -/
+/-- Retrieve compatible forms from a supplied finite pool of published reconstructions. -/
 def retrieve (pool : List Word) (model : Model) (obs : List Observation) : List Word :=
   pool.filter (fits model obs)
 

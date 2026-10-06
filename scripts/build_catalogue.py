@@ -22,6 +22,7 @@ def main():
     sources=json.loads((ROOT/'bibliography/sources.json').read_text())
     downloads={x['id']:x for x in json.loads((ROOT/'bibliography/downloads.json').read_text())}
     notes={x['id']:x for x in json.loads((ROOT/'bibliography/reading-notes.json').read_text())}
+    terminology={x['source_id']:x for x in json.loads((ROOT/'bibliography/terminology-readings.json').read_text())['readings']}
     total=sum(d['status']=='downloaded' for d in downloads.values())
     qualifying=sum(s['qualifies_for_download_floor'] and downloads[s['id']]['status']=='downloaded' for s in sources)
     public=sum(s.get('redistribute',False) and downloads[s['id']]['status']=='downloaded' for s in sources)
@@ -46,8 +47,11 @@ def main():
             lines.extend(['',f'{loc}. {d["pages"]} PDF pages; {d["bytes"]:,} bytes. SHA-256: `{d["sha256"]}`.'])
         else:lines.extend(['','**Acquisition gap:** no retained PDF; excluded from the download count. See the ledger for the failed attempt.'])
         lines.extend(['',f'**Reading scope:** {n["reading_level"]}'+(f'; PDF pages {", ".join(map(str,n["pdf_pages_examined"]))}.' if n['pdf_pages_examined'] else '.'),
-            '',f'**Finding:** {n["finding"]}',f'**Formalization use:** {n["formalization_use"]}',f'**Boundary:** {n["caution"]}',
+            '',f'**Finding:** {n["finding"]}',f'**Proposed use:** {n["formalization_use"]}',f'**Limitations:** {n["caution"]}',
             '',f'**Rights:** {s["license"]}.'])
+        if sid in terminology:
+            pages=', '.join(map(str,terminology[sid]['pdf_pages_read']))
+            lines.extend(['',f'**Additional reading for terminology revision:** PDF pages {pages}; see the [reading record](terminology-readings.json).'])
         if s.get('version_note'):lines.extend(['',f'**Version note:** {s["version_note"]}'])
         if s.get('text_quality_note'):lines.extend(['',f'**Extraction:** {s["text_quality_note"]}'])
         if not s['qualifies_for_download_floor']:lines.extend(['',f'**Counting:** {s["count_exclusion"]}.'])

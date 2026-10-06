@@ -19,8 +19,7 @@ An absent reflex is represented by **null at the row level**, in both original
 and aligned fields. Column extraction gives a `missing` cell at every position
 of that absent row. This avoids assigning an invented segment count to an
 absent word. A present empty word is `[]`, distinct from an absent word; it can
-be aligned with an explicit sequence of gaps. A present row cannot silently
-become absent or vice versa. Unknown readings remain explicit cells rather
+be aligned with an explicit sequence of gaps. Presence and absence must agree between the original and aligned rows. Unknown readings remain explicit cells rather
 than being erased or imputed.
 
 All alignments use the document's same ordered, unique doculect axis. Every

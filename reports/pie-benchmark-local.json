@@ -1,15 +1,15 @@
 {
   "certificates": 1000,
-  "elapsed_seconds": 0.2544874339364469,
+  "elapsed_seconds": 1.9449797119013965,
   "input_hashes": {
     "data/pie/diagnostic-input.json": "dc58b47fface956f78b5752779e85f8b577ccdb21fc53230b66789889e05ea90",
-    "lean/Historical/CaseStudy.lean": "673aa4bbf2fa522e0311aa26f20761fd0afe0aa4272a3a0283ad6271cc0a7f33",
+    "lean/Historical/CaseStudy.lean": "56321998a56f142dee89158ffc24603c3d9298d11612748e05681e245d072d61",
     "lean/PieCheck.lean": "20ad5855580f00907c93f8d900a3b2938741d8818fcd473f786ffd86121521db",
     "scripts/benchmark_pie.py": "8d0270b2ecda1dc21831289c56dd5e67bbba096a8a469af2711921501ca6a8f1"
   },
   "memory_limit_bytes": 2147483648,
   "passed": true,
-  "peak_resident_bytes": 53280768,
+  "peak_resident_bytes": 53366784,
   "platform": {
     "machine": "x86_64",
     "release": "19.6.0",

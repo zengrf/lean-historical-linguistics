@@ -1,4 +1,4 @@
-"""Reproducible M5 baselines and explicitly scoped source-analysis experiments.
+"""Reproduce M5 baselines and the specified fragments of published analyses.
 
 The lexical models are baselines, not published complete PIE-to-daughter laws.
 The separate diagnostics encode source-defined fragments with exact scope.
@@ -195,7 +195,7 @@ def source_diagnostics():
         add(cid,"synthetic-source-rule-control","ringe2022","printed pp.55-56; PDF pp.73-74",None,None,w,out,
             "Control strings illustrating a restricted source condition, not attested etymologies or full Proto-Germanic outputs.",
             "The full seven-change sequence is not implemented; these controls cover only the declared fragment.",[correct["id"],reversed_["id"]])
-    # These are source-backed projections of particular cited comparisons.
+    # These tests compare the specified features of cited forms.
     # Whole words and disputed etymologies remain visible beside the projection.
     lar_cases=[
         ("forehead","84","*h₂ent-","ḫant-",["h2","e"],["h","a"],"Shared h2e retention."),

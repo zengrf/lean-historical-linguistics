@@ -25,7 +25,7 @@ theorem cellAgrees_iff (x y : Cell) : cellAgrees x y = true ↔ Agrees x y := by
 theorem sharedSound_iff (x y : Cell) : sharedSound x y = true ↔ SharedSound x y := by
   cases x <;> cases y <;> simp [sharedSound, SharedSound, eq_comm]
 
-/-- Failure on unequal lengths prevents silent truncation of the doculect axis. -/
+/-- Unequal doculect-axis lengths are incompatible. -/
 def noConflict : List Cell → List Cell → Bool
   | [], [] => true
   | x :: xs, y :: ys => cellAgrees x y && noConflict xs ys
@@ -99,7 +99,7 @@ def select (sites : List Site) (members : List String) : List Site :=
 
 def hasObserved (s : Site) : Bool := s.cells.any Alignment.isSegment
 
-/-- Keep each label once. The proof below fixes the meaning of deduplication. -/
+/-- Retain the first occurrence of each label. -/
 def distinctUnits : List String → List String
   | [] => []
   | u :: us =>

@@ -1,4 +1,4 @@
-"""M5 specialist-review gate. Computational checks never impersonate sign-off."""
+"""Check the completeness and source hashes of the M5 specialist assessment."""
 import argparse
 import hashlib
 import json

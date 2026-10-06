@@ -1,4 +1,4 @@
-"""Reproduce M5 computation and separately assess empirical acceptance gates.
+"""Reproduce M5 results and assess the specialist-review requirement.
 
 Exit 0 establishes engineering checks. --require-complete additionally demands
 the independent specialist review required by the unchanged milestone criteria.

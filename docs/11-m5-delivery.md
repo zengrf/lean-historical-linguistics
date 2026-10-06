@@ -1,4 +1,4 @@
-# M5: source-backed Indo-European pilot
+# M5: Indo-European case study
 
 **The computational implementation is complete; M5 remains `in_review`.**
 Its independent family-specialist review is not supplied by the implementation.
@@ -15,7 +15,7 @@ The original five acceptance conditions remain unchanged.
 
 The [evaluation report](../reports/pie-evaluation.json) records each gate
 separately. `--require-complete` intentionally exits nonzero while review is
-pending. Passing CI establishes computational checks and honest gate reporting;
+pending. Passing CI establishes computational checks and accurate reporting of the acceptance criteria;
 it does not confer linguistic validation.
 
 ## Corpus and provenance
@@ -80,8 +80,7 @@ conditioning; the separate chronology controls retain accent explicitly.
 Inverse evaluation searches a declared pool of the parsable published reference
 forms, including held-out labels. This is **closed-set reference retrieval**,
 not generation of unknown ancestors. Observations from the daughters are tested
-jointly against each complete candidate. There is no hybrid made by choosing a
-different ancestor for each branch. Source variants are retained as individual
+jointly against each complete candidate. Each candidate has the same ancestral form in all branches. Source variants are retained as individual
 observations, so a deterministic model unable to explain variation can return an
 empty set. Empty means empty within that model and pool.
 
@@ -125,7 +124,7 @@ versus inherited status remains unreviewed. This control is not counted toward
 the 200 PIE sets, and overlap in lexical
 families does not become independent family-transfer evidence.
 
-## Source-defined chronology and competing analyses
+## Relative chronology and competing analyses
 
 The [source-analysis ledger](../data/pie/source-analyses.json) gives PDF hashes,
 page locators, reading scope, control types and package limitations.
@@ -154,7 +153,7 @@ The [morphology dossiers](../data/pie/morphology.json) preserve three separate
 problems: the competing strong/weak reconstructions of 'water'; consonantal
 *u̯* introduced into its weak stem by an explicitly **analogical** operation;
 and competing inherited ablaut/reduplication accounts for the hi-conjugation.
-Analogy is not smuggled into a regular sound rule. Source-reported Schindler and
+The analogical proposal is recorded separately from regular sound changes. Source-reported Schindler and
 Jasanoff positions remain attributed as such. Morphological comparison can
 remain unresolved; no string certificate is claimed to prove the analysis.
 
@@ -178,7 +177,7 @@ misclassification. The repository has 67 Python tests in total.
 
 The [local benchmark](../reports/pie-benchmark-local.json) measures 1,000
 three-token certificates with 31 rules each in a fresh process, including parsing,
-validation and serialization: approximately 0.25 seconds and 51 MiB peak resident
+validation and serialization: approximately 1.94 seconds and 51 MiB peak resident
 memory on the recorded Darwin x86_64 host. This meets the declared 60-second /
 2-GiB budget for that workload. CI measures its own runner separately.
 

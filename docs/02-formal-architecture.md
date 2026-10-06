@@ -1,4 +1,4 @@
-# Formal architecture and theorem contracts
+# Formal architecture and correctness statements
 
 Status: **design**, except the explicitly identified prototype results and implemented [M1 evidence schema/checker](07-m1-delivery.md), [M2 contextual semantics/certificates](08-m2-delivery.md), [M3 alignment/correspondence checker](09-m3-delivery.md), [M4 bounded reconstruction](10-m4-delivery.md), and [M5 computational pilot](11-m5-delivery.md). M5's independent specialist review is pending; contracts for later modules remain future work.
 
@@ -13,7 +13,7 @@ Fits(F, D, h) := for every observation (l, w) in D, F(l, h) = w
 Recon(P, F, D) := { h in P | Fits(F, D, h) }
 ```
 
-`P` must be an explicit finite pool or come from a proved finite enumeration with declared bounds. A theorem about `Recon` does not establish that the true ancestor is in `P`. If laws are inferred as part of `h`, their complexity and permitted operations must also be bounded; otherwise memorizing the observed lexicon is easy.
+`P` must be an explicit finite pool or come from a proved finite enumeration with declared bounds. A theorem about `Recon` does not establish that the true ancestor is in `P`. If laws are inferred as part of `h`, their complexity and permitted operations must also be bounded; otherwise the model can encode the observed lexicon as a lookup table.
 
 M4 now proves exact enumeration by alphabet and maximum word length, subject to
 an explicit morpheme shape filter, paired with a finite list of whole joint
@@ -31,7 +31,7 @@ For nondeterministic histories, replace equality by membership in the model's li
 |---|---|---|---|
 | Sources | Publication ID, edition, page, dataset release, checksum | Stable identifiers and resolvable references | Reliability and interpretation of the source |
 | Observations | Attested spelling, phonetic record, gloss, variety, date interval | Provenance and declared representation | The recorded form and its linguistic analysis |
-| Normalization | Original string, tokenizer, segment sequence, mapping version | Every change is logged; no silent loss | Whether the normalization preserves relevant distinctions |
+| Normalization | Original string, tokenizer, segment sequence, mapping version | Original text retained; every transformation recorded | Whether the normalization preserves relevant distinctions |
 | Morphology | Word occurrence, morpheme spans, paradigm cell, grammatical features | Spans are valid and non-overlapping where required | Segmentation, function and historical relatedness |
 | Comparisons | Proposed cognate links, alignments, correspondence sites | Valid references and structurally valid alignments | Historical inheritance and semantic compatibility |
 | Models | Stage inventory, laws, chronology, strata, topology | Well-typed and internally consistent configuration | Which model is linguistically justified |
@@ -57,9 +57,9 @@ CLDF should be the interchange format where applicable, with sidecar tables for 
 
 M2 now implements the [precise versioned contract](rule-semantics.md): single-segment substitution/deletion, at most two explicit context tests per side, word/morpheme boundaries, both scan directions, simultaneous/feeding passes and named chronological stages. The proposals below concerning compilation and broader rule fragments remain future work.
 
-The initial rule language should describe a bounded left and right context, a target predicate on segments, a replacement or deletion, and an application convention. Require explicit word/morpheme boundaries and the stage at which accent and tone are interpreted.
+The rule language specifies bounded left and right contexts, a target predicate on segments, a replacement or deletion, and an application convention. Each package declares its word/morpheme boundary conventions and the stages at which accent and tone are interpreted.
 
-The reference interpreter should be structural and terminating. For a simultaneous pass it reads the original input to determine each match and emits output into a separate list. For a left-to-right feeding pass, define exactly which produced material is visible. These are different semantics, even if a few examples happen to agree.
+The reference interpreter is structurally recursive and terminates on finite inputs. For a simultaneous pass it reads the original input to determine each match and emits output into a separate list. For a left-to-right feeding pass, define exactly which produced material is visible. The two application conventions have different semantics.
 
 An ordered cascade feeds the result of one complete pass into the next. A chronology can initially be a list. A later partial-order chronology admits several linear extensions; prove that a proposed schedule satisfies its precedence constraints. Claim schedule independence only after proving the relevant rules commute on a specified domain.
 
@@ -79,7 +79,7 @@ cascade_compilation_correct:
   denotes(compileCascade(rules)) = relationalComposition(map denotes rules)
 ```
 
-These are proposed statements, not existing Lean declarations. The restrictions must be in the type or theorem hypothesis. Arbitrary rational relations cannot be intersected using an acceptor intersection theorem. For multi-branch reconstruction, an initial finite candidate filter avoids this pitfall. Later symbolic search can intersect regular **preimage languages** when the required closure result has actually been proved.
+These are proposed statements, not existing Lean declarations. The restrictions must be in the type or theorem hypothesis. Arbitrary rational relations cannot be intersected using an acceptor intersection theorem. For multi-branch reconstruction, the initial implementation filters a finite candidate pool. Later symbolic search can intersect regular **preimage languages** when the required closure result has actually been proved.
 
 ## 4. Alignment and correspondence contracts
 
@@ -110,11 +110,11 @@ flowchart LR
     G --> H
 ```
 
-The present certificate is simply a list of intermediate words, one per rule. A future compact certificate may store rule IDs and changed positions. It must be connected by a theorem to the reference semantics, rather than checked by a second undocumented implementation.
+The present certificate is simply a list of intermediate words, one per rule. A future compact certificate may store rule IDs and changed positions. It must be connected by a theorem to the reference semantics, so that acceptance establishes the stated derivation relation.
 
 The trusted logical base includes Lean's kernel and any axioms actually reported by `#print axioms`. Standard extensionality/quotient principles can occur; “no project axioms” does not mean “no logical axioms.” Avoid `sorry`, `admit`, unchecked external oracles and `native_decide` in the proof path for this project. The latter restriction keeps this prototype's claimed evidence in kernel-rechecked terms. Ordinary executable benchmarks may use compiled code, but their timing and output are not substitutes for those proofs.
 
-A JSON parser is an additional boundary. Before claiming verified ingestion, prove or check that decoded objects satisfy the schema and explain how source bytes become Lean terms. Initially generate small literal Lean fixtures and review their content; do not claim that a future Python CLDF importer has been verified merely because its output compiles.
+JSON decoding and the Python CLDF importer are executable components outside the kernel proofs. M1 validates decoded objects, retains source bytes and tests serialization. Its theorems concern typed evidence and normalization chains; they do not verify the byte parser or authenticate source readings.
 
 ## 6. Theorem backlog and existing results
 
@@ -140,7 +140,7 @@ The current files use `Std`, with no mathlib or linglib dependency.
 | Restricted rule compiler correctness | Planned | M7 |
 | Alignment validity and feasible correspondence-partition checker correctness | **Proved** | `Historical.Alignment`, `Historical.Correspondence`, `Historical.CorrespondenceInput.dossierAccepted_iff`; M3 |
 | Exhaustive enumeration by inventory/length and candidate soundness/completeness | **Proved** | `Historical.Reconstruction.mem_wordsUpTo`, `mem_space`, `reconstruction_correct`; M4 |
-| Verified real PIE or Sino-Tibetan etymology | **Not yet delivered** | M5 and M6 |
+| Specialist assessment of PIE and Sino-Tibetan etymologies | Pending | M5 and M6; an empirical requirement, separate from the theorem inventory |
 | Observational equivalence and fixed-model monotonicity/refinement | **Proved** | `Historical.Identifiability.equivalent_fits`, `equivalent_membership`, `reconstruction_refinement`; M4 |
 | Probabilistic inference correctness and calibration | Planned, optional | M9 |
 
@@ -174,4 +174,4 @@ Historical/CaseStudies/     individually sourced analysis packages
 Historical/Probability/     optional later finite models
 ```
 
-These names are a design sketch, not empty modules added to imply progress. Upstream general results where practical, and keep empirical datasets and domain-specific assumptions separate from general theorem libraries.
+This is a proposed module organization. Upstream general results where practical, and keep empirical datasets and domain-specific assumptions separate from general theorem libraries.

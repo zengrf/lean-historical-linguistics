@@ -54,9 +54,9 @@ the M3 bridge. `python scripts/verify_m4.py --audit PATH` runs the complete chec
 `--check-report` verifies saved inverse sets, hashes and delivered paths.
 Both Lean CI jobs rerun the full verifier and reject report drift.
 
-[pie-evaluation.json](pie-evaluation.json) records M5's source-backed baseline
+[pie-evaluation.json](pie-evaluation.json) records M5's baseline
 results, all reflex-level failures, source-analysis comparisons, Latin control,
-leakage disclosures and separate acceptance gates. The three
+evaluation splits, possible data leakage and acceptance criteria. The three
 `pie-*-execution.json` files retain all 1,308 complete forward certificates and
 310 inverse results. [pie-benchmark-local.json](pie-benchmark-local.json) records
 the local 1,000-certificate performance measurement. [pie-review.json](pie-review.json)

@@ -1,6 +1,6 @@
 # Schema version and migration policy
 
-The first evidence schema is **1.0.0**. M0 contained Lean examples and bibliographic JSON, not an earlier evidence-dossier format. There is therefore no fictional v0-to-v1 migration to run.
+The first evidence schema is **1.0.0**. M0 contained no earlier evidence schema, so version 1.0.0 requires no migration from M0.
 
 The reader requires an exact `schema_version` and explicit values or `null` for every declared field. Unknown fields and versions fail. This prevents an older reader from silently discarding a new interpretation of source data. The JSON Schema and Lean decoder are separate checks; cross-reference and normalization-history constraints live in the Lean validator.
 
@@ -14,4 +14,4 @@ Before accepting another version:
 
 Use a major version for changed meanings or required representations, a minor version for explicit additions requiring an updated reader, and a patch version for compatible corrections. Even a minor addition is not silently accepted by the exact-version reader. Documentation-only corrections that do not change the contract need no schema version change.
 
-Unicode normalization, tokenization and editorial decisions have their own method IDs and versions. Changing one is an analysis change, not an excuse to overwrite the original form. The initial importer identifies itself through its committed code, pinned source snapshots and reproducible import report.
+Unicode normalization, tokenization and editorial decisions have their own method IDs and versions. A change to one of these methods creates a new analysis while retaining the original form. The initial importer identifies itself through its committed code, pinned source snapshots and reproducible import report.

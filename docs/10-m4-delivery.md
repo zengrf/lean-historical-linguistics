@@ -12,7 +12,7 @@ records the exact inverse sets and source hashes.
 | --- | --- |
 | M4-enumeration | Exact-length and bounded-length enumeration theorems, cardinality formulas, explicit morpheme shape filter and finite named joint analyses |
 | M4-correctness | Soundness and relative completeness through M2's inductive derivation relation; sound partial prefixes and a proved completion condition |
-| M4-ambiguity | Equivalence on selected doculects, fixed-model observation monotonicity/refinement, merger ambiguity and joint alternatives without invented hybrids |
+| M4-ambiguity | Equivalence on selected doculects, fixed-model observation monotonicity/refinement, merger ambiguity and joint alternatives with preserved dependencies |
 | M4-reference | All 1,936 inverse sets match Python over 121 words and 16 cascades: 234,256 membership decisions; resource limits and timeouts remain incomplete |
 
 All M4 data are **synthetic**. The result establishes mathematical correctness

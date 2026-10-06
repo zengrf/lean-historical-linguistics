@@ -57,15 +57,15 @@ Every mapped change from original text to normalized display has a versioned met
 
 An unresolved source-reading concern can be retained using a reasoned `uncertainty_overrides` entry in the selection file. Reimporting flags the record without changing its original source value. The override appears in the import report and expands the independent-review packet as necessary.
 
-The importer retains cognacy, loan, native-script, commentary and other custom fields in raw columns, while explicitly listing them as not semantically interpreted. Additional cognate/clade/loan/author tables remain in the snapshot. This is an intentional semantic boundary: M1 does not turn their contents into verified inheritance or sound-law judgments.
+The importer retains cognacy, loan, native-script, commentary and other custom fields in raw columns, while explicitly listing them as not semantically interpreted. Additional cognate/clade/loan/author tables remain in the snapshot. M1 checks their retention; inheritance and sound-change analyses require separate interpretation.
 
-IE-CoR's selected rows have empty row-level source-reference fields. They receive exact dataset-row citations; dictionary-level references are not invented. Burmish's original source-reference strings remain in raw columns and the source bibliography remains in the snapshot. Resolving those citations into a richer publication graph is future data enrichment, not hidden behind a generic “source complete” claim.
+IE-CoR's selected rows have empty row-level source-reference fields. They receive exact dataset-row citations; dictionary-level references are unavailable in those rows. Burmish's original source-reference strings remain in raw columns and the source bibliography remains in the snapshot. Resolving those citations to individual publications remains future work.
 
 This mapping/loss policy was reviewed during implementation against both snapshots and adversarial adapter tests. The separate source-entry review described below checks the required transcription sample. No unsupported semantic field is claimed to have been imported losslessly into a richer meaning; its original bytes remain recoverable.
 
 ## Proof and parser boundaries
 
-M1 added five theorems to the 22 M0 results (27 at M1 delivery; M2 brings the current project audit to 44):
+M1 added five theorems to the 22 M0 results, bringing the total at M1 delivery to 27:
 
 - Recorded normalization replay agrees with an inductive chain relation.
 - Renormalization retains the original source string.

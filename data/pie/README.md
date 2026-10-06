@@ -1,11 +1,11 @@
-# Source-backed Indo-European pilot (M5)
+# Indo-European comparative data (M5)
 
 Status: **computationally checked, linguistically unreviewed**. Independent
 family-specialist review is pending. See [delivery and results](../../docs/11-m5-delivery.md).
 
 The corpus contains **200 source cognate sets / 843 distinct source form rows**
 across ten first-level IE-CoR branches. The 20-set review core contains 161
-reflexes. These are source claims, not 200 verified PIE derivations.
+reflexes. Cognacy and protoforms follow the cited source analyses.
 
 | Artifact | Role |
 | --- | --- |
@@ -28,8 +28,8 @@ All IE-CoR source and derived data retain **CC BY 4.0**; see the
 unchanged at commit `700b635a04786427b78841489c46eefbe2843509`. IE-CoR's
 individual `forms.csv` bibliography fields are empty in this snapshot. Each
 form therefore cites its exact pinned dataset row; cognate-set bibliographic
-citations are retained separately and are not misrepresented as a checked
-dictionary citation for each spelling.
+citations are retained separately; the underlying dictionary entries have not
+been independently checked.
 
 `Phonemic_Segments` and the source's phonetic `Segments` are retained separately.
 Missing segmentations remain missing. Published protoforms are explicitly

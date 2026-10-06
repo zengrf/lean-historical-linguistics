@@ -12,7 +12,7 @@ M1 now imports 60 real Indo-European/Burmish records for representation and prov
 | Does the system reproduce a published analysis? | A source-backed dossier with exact assumptions | That the published analysis is uniquely right |
 | Does the analysis generalize or discriminate alternatives? | Frozen held-out observations; expert review; sensitivity analysis | Certainty about unobserved prehistoric reality |
 
-Record the denominator for every metric. Count cognate sets, roots, word occurrences, segments and languages separately. Report rejected imports, excluded forms, missing evidence and unresolved cases. A high score after excluding hard cases is uninterpretable without those numbers.
+Record the denominator for every metric. Count cognate sets, roots, word occurrences, segments and languages separately. Report rejected imports, excluded forms, missing evidence and unresolved cases. Scores must include the counts and reasons for exclusions.
 
 ## 2. A research dossier
 
@@ -35,7 +35,7 @@ Keep conflicting editorial judgments as parallel records. Reviewer agreement is 
 
 Generate small histories using the **reference semantics**, freeze their seeds and keep their latent ancestors. Vary mergers, deletions, missing forms, contexts and rule order. Include a deliberately different generator to test whether evaluation merely rewards the system's own inductive bias.
 
-Adversarial cases must include an incorrect intermediate step, omitted rule, extra rule, reversed chronology, unsupported segment, wrong language ID, malformed alignment, a merger-induced ambiguity, missing-versus-gap confusion, coindexed alternatives and an empty-data case. A permissive empty-data result must be explicitly reported, not called a successful reconstruction.
+Adversarial cases must include an incorrect intermediate step, omitted rule, extra rule, reversed chronology, unsupported segment, wrong language ID, malformed alignment, a merger-induced ambiguity, missing-versus-gap confusion, coindexed alternatives and an empty-data case. Report when absent observations leave the candidate set unconstrained.
 
 ### Attested ancestors
 
@@ -49,9 +49,9 @@ The first release should provide a sound-law baseline and a simple alignment/cor
 
 Select 20 sets across at least three branches and 60 source-backed reflex records. Begin with relatively secure inherited material; preserve documented problematic cases separately. Each set must have at least two independent daughter branches represented. Record any published reconstructed protoform as a claim rather than as an attested observation.
 
-Use a restricted Germanic chronology dossier drawn from Ringe's discussion in the Olander volume and relevant source works. Verner-type conditioning requires inherited accent at the correct stage. Do not implement a blanket `p → f` and label it “Grimm's Law.” The actual context and the target stage must appear in the specification.
+Use a restricted Germanic chronology dossier drawn from Ringe's discussion in the Olander volume and relevant source works. Verner-type conditioning requires inherited accent at the correct stage. An implementation of Grimm's Law must state the conditioning environments, consonant series and target stage; `p → f` alone is insufficient.
 
-For laryngeals, compare source-defined treatment of initial laryngeals in Anatolian. The pilot is allowed to return ambiguity about phonetic realization. It must not silently impose one scholar's interpretation on all sources.
+For laryngeals, compare source-defined treatment of initial laryngeals in Anatolian. The pilot is allowed to return ambiguity about phonetic realization. Attribute each interpretation to its source.
 
 ### Stage B: 200 sets / at least 600 reflex records
 
@@ -68,7 +68,7 @@ Include three morphology dossiers: a source-defined nominal ablaut paradigm, one
 - At least two alternative analysis packages can be run on the same frozen evidence without changing it.
 - A specialist independent of the encoding reviews the 20-set core and all disputed dossiers before the pilot is labeled linguistically validated.
 
-There is no preregistered requirement to achieve an invented 95% historical accuracy. Reproduction can legitimately fail and expose missing conditioning or an erroneous encoding. The delivery requirement is a complete, reviewable result and an explanation of failures.
+No numerical accuracy threshold is specified. Failed reproduction may reveal omitted conditioning or transcription errors. Acceptance requires a complete account of the results and an explanation of failures.
 
 ## 5. Sino-Tibetan / Trans-Himalayan pilot
 
@@ -76,13 +76,13 @@ There is no preregistered requirement to achieve an invented 95% historical accu
 
 Choose 50 sets and at least 150 reflex records from VanBik, with exact page/entry references, after checking consistency of subgroup level and transcription. Annotate whether a protoform belongs to Kuki-Chin, Central Chin, Northern Chin or another level. Use Button as a comparison source where appropriate, preserving its different scope and assumptions.
 
-Do not begin with an all-family reconstruction. A subgroup pilot reduces the number of simultaneous uncertainties and makes the checker useful earlier. Quantitative coverage targets are delivery targets, not assertions that every selected set will have a unique ancestor.
+Begin with subgroup reconstruction. The coverage targets specify the sample size; individual comparisons may admit several reconstructions.
 
 ### Stage B: 100 subgroup sets and 30 cross-branch dossiers
 
 Expand to 100 subgroup sets / at least 300 reflex records. Add a Burmish dataset only after pinning its source and reviewing its own transcription/label conventions. Keep its results separate from Kuki-Chin summary statistics.
 
-Build 30 small cross-branch dossiers covering the following themes where sufficient evidence exists: *sr-* correspondences, Tibetan *wa* and secondary syllable fusion, Tibetan stem alternations, Old Chinese prefix voicing, departing-tone derivation and tone/coda interactions. At least 10 should retain competing analyses or explicitly unresolved outcomes. If the available published material does not support the target count, narrow the scope and record that failure rather than fabricate etymologies.
+Build 30 small cross-branch dossiers covering the following themes where sufficient evidence exists: *sr-* correspondences, Tibetan *wa* and secondary syllable fusion, Tibetan stem alternations, Old Chinese prefix voicing, departing-tone derivation and tone/coda interactions. At least 10 should retain competing analyses or explicitly unresolved outcomes. If the available published material does not support the target count, report the shortfall and identify the unsupported comparisons.
 
 Old Chinese records must distinguish written character evidence, rhyme/phonetic-series evidence, Middle Chinese transcription, and the selected Old Chinese reconstruction. A phonological value from Baxter-Sagart is an analysis-layer value, even when the corresponding written word is ancient.
 
@@ -101,7 +101,7 @@ Store a split manifest before fitting or tuning. Group all reflexes, variants, c
 
 Keep family transfer separate from within-family prediction. A held-out language tests a different generalization problem from a held-out cognate set. Data used to devise or edit rules cannot also be presented as a blind historical prediction test. Pseudo-prospective withholding of a once-unknown language is illustrative unless the analysis genuinely avoids later knowledge; a modern model already informed by Hittite cannot recreate the original laryngeal discovery experiment just by masking a column.
 
-For LLM proposals, document potential training-data contamination. Include unseen synthetic histories with known structure and preserve the full generation/checking log. Failure to prove novelty of exposure should be reported, not hidden behind an “unseen” label.
+For LLM proposals, document potential training-data contamination. Include unseen synthetic histories with known structure and preserve the full generation/checking log. Report whether prior exposure to the evaluation data can be excluded.
 
 ## 7. Metrics and baselines
 
@@ -116,7 +116,7 @@ For LLM proposals, document potential training-data contamination. Include unsee
 | Phylogeny, if included | Topological comparison and sensitivity to coding/priors | Cognate-based and correspondence-based inputs separately |
 | Engineering | Build time; checker latency; memory; certificate size | Reference interpreter versus verified optimization |
 
-Do not equate an empty candidate set with certainty, or a large candidate set containing the reference with a useful reconstruction. Report both coverage and informativeness. Evaluate feature distance only with a fixed, documented feature system and handle ambiguous reference forms as sets.
+Report both coverage and informativeness: an empty candidate set rejects the tested hypotheses, while a large set may provide little discrimination. Evaluate feature distance only with a fixed, documented feature system and handle ambiguous reference forms as sets.
 
 Statistical uncertainty should resample at the unit actually independent enough for the claim—usually sets or lexical families, not individual segment tokens. Report paired differences and intervals where justified. Small pilot results are descriptive; they should not be used to claim universal superiority.
 
@@ -126,4 +126,4 @@ Archive configurations, code commits, source and dataset hashes, rule-package ve
 
 The first pilot performance target is an engineering budget: on a documented ordinary laptop, check 1,000 bounded certificates in under 60 seconds with peak memory under 2 GB. If this fails, publish the result and optimize before increasing scope; it is not a scientific accuracy threshold.
 
-Keep empirical sign-off separate from CI. A green build means the formal contracts and software checks passed. It does not impersonate a historical linguist's review.
+CI establishes that the specified proof and software checks pass. Specialist review separately assesses the linguistic evidence and analyses.

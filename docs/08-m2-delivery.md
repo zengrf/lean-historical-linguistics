@@ -1,7 +1,7 @@
 # M2: contextual sound laws and derivation certificates
 
 **M2 is delivered; all four acceptance criteria pass.** It implements the [versioned rule semantics](rule-semantics.md), a total Lean
-interpreter, a theorem-backed certificate checker, and strict JSON tooling.
+interpreter, a certificate checker with proved soundness and completeness, and strict JSON tooling.
 [contextual-rules.json](../reports/contextual-rules.json) records all four
 acceptance criteria and the exact source hashes used for verification.
 

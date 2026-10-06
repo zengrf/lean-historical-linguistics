@@ -43,7 +43,7 @@ jobs:
         run: |
           python scripts/build_m4_fixtures.py --check
           python scripts/verify_m4.py --check-report
-      - name: Check M5 frozen corpus, computation and honest specialist-review status
+      - name: Check M5 frozen corpus, computation and specialist-review status
         run: |
           python scripts/build_pie_corpus.py --check
           python scripts/build_pie_experiment.py --check

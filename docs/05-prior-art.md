@@ -6,7 +6,7 @@ Inspected on 5 October 2026 UTC. Source inspection is not a full code audit or a
 
 Repository: [hawkrobe/linglib](https://github.com/hawkrobe/linglib), Apache-2.0. Inspected commit: [`a66829edd6d6eb9407ae763d203f231d5e5502ea`](https://github.com/hawkrobe/linglib/tree/a66829edd6d6eb9407ae763d203f231d5e5502ea).
 
-The inspected tree contains substantial formal linguistics, including phonology, feature systems and subregular transduction. This is material prior art for a Lean formalization of sound change. The inspection does **not** justify claiming that this repository contains no related historical-linguistic work elsewhere in its large tree.
+The inspected tree contains substantial formal linguistics, including phonology, feature systems and subregular transduction. These modules are relevant prior work for a Lean formalization of sound change. The inspection covered the files listed below.
 
 | File at pinned commit | Inspected functionality | Implication |
 |---|---|---|
@@ -40,9 +40,9 @@ These are useful foundations for acceptors and regular preimage languages. They 
 |---|---|---|
 | [Reconstruction Engine, 1994](https://aclanthology.org/J94-3004/) | Bidirectional comparison/reconstruction, contextual correspondences and semantic processing | Kernel-checked contracts and typed evidence links |
 | [PIE Lexicon, 2017](https://aclanthology.org/W17-0234/) | Executable finite-state PIE-to-daughter laws | Verified semantics, alternative analyses and independent evaluation |
-| [DiaSim, 2020](https://aclanthology.org/2020.lt4hala-1.5/) | Debuggable forward sound-change cascades | Proof-connected diagnostics and certificates |
+| [DiaSim, 2020](https://aclanthology.org/2020.lt4hala-1.5/) | Debuggable forward sound-change cascades | Derivation diagnostics and certificates linked to correctness theorems |
 | [LingPy, 2013](https://aclanthology.org/P13-4003/) and [EDICTOR 3, 2024](https://aclanthology.org/2024.lchange-1.1/) | Comparison algorithms and expert editing workflows | Interchange and certificate checking; avoid replacing mature interfaces without need |
 | [Uncertainty representation, 2023](https://aclanthology.org/2023.lchange-1.3/) | Fuzzy reconstructions and stability-based inference | Joint alternatives with precise semantics and proofs of scope |
 | [Sound-law PBE, 2025](https://aclanthology.org/2025.acl-long.1432/) | LLM-generated sound-change programs | Restricted semantics and independently checked proposals |
 
-No claim of being the first formalization, first computational comparative method, or first Lean phonology library is made. Any eventual novelty claim requires a refreshed search and comparison at publication time.
+Publication claims should be assessed against these systems and an updated literature search.
