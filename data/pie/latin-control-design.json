@@ -1,0 +1,1067 @@
+{
+  "frozen_sha256": "f9ae570428c5542259932bbcb1fc639c42265f047735db0cc4217c83f417ec5a",
+  "loan_annotations_by_set": {
+    "123": {
+      "form_flags": {
+        "112-149-1": "",
+        "17-149-1": "",
+        "25-149-1": "",
+        "39-149-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": []
+    },
+    "131": {
+      "form_flags": {
+        "112-159-1": "",
+        "17-159-1": "",
+        "25-159-1": "",
+        "39-159-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": [
+        {
+          "Cognateset_ID": "6555",
+          "Comment": "",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "131",
+          "Source_form": "ستاره\t/ setāreh",
+          "Source_languoid": "Persian"
+        },
+        {
+          "Cognateset_ID": "9508",
+          "Comment": "",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "131",
+          "Source_form": "",
+          "Source_languoid": "Iranic"
+        },
+        {
+          "Cognateset_ID": "9895",
+          "Comment": "loss of *s indicates loan < IA < PIE *h₂ster-",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "131",
+          "Source_form": "tārā-",
+          "Source_languoid": "Old Indo-Aryan"
+        }
+      ]
+    },
+    "146": {
+      "form_flags": {
+        "112-176-1": "",
+        "17-176-1": "",
+        "25-176-1": "",
+        "39-176-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": [
+        {
+          "Cognateset_ID": "6031",
+          "Comment": "",
+          "Parallel_loan_event": "true",
+          "SourceCognateset_ID": "146",
+          "Source_form": "سه / seh",
+          "Source_languoid": "Persian"
+        }
+      ]
+    },
+    "153": {
+      "form_flags": {
+        "112-183-1": "",
+        "17-183-1": "",
+        "25-183-1": "",
+        "39-183-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": []
+    },
+    "18": {
+      "form_flags": {
+        "112-28-1": "",
+        "17-28-1": "",
+        "25-28-1": "",
+        "39-28-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": []
+    },
+    "182": {
+      "form_flags": {
+        "112-8-1": "",
+        "17-8-1": "",
+        "25-8-1": "",
+        "39-8-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": [
+        {
+          "Cognateset_ID": "5309",
+          "Comment": "",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "182",
+          "Source_form": "escorce",
+          "Source_languoid": "Old French"
+        },
+        {
+          "Cognateset_ID": "8342",
+          "Comment": "",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "182",
+          "Source_form": "scorza",
+          "Source_languoid": "Italian"
+        }
+      ]
+    },
+    "208": {
+      "form_flags": {
+        "112-36-1": "",
+        "17-36-1": "",
+        "25-36-1": "",
+        "39-36-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": []
+    },
+    "21": {
+      "form_flags": {
+        "112-31-1": "",
+        "25-31-1": "",
+        "39-31-1": "",
+        "42-31-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": [
+        {
+          "Cognateset_ID": "5505",
+          "Comment": "Relatively late loanword from Lat (acc.sg.) canem or, rather, from its Balkan continuations, reflected in the lack of rhotacism in Tosk.",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "21",
+          "Source_form": "canem",
+          "Source_languoid": ""
+        },
+        {
+          "Cognateset_ID": "5506",
+          "Comment": "",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "21",
+          "Source_form": "*sabāka-",
+          "Source_languoid": "Iranic"
+        },
+        {
+          "Cognateset_ID": "9664",
+          "Comment": "",
+          "Parallel_loan_event": "true",
+          "SourceCognateset_ID": "21",
+          "Source_form": "سگ / sag",
+          "Source_languoid": "Persian"
+        }
+      ]
+    },
+    "211": {
+      "form_flags": {
+        "112-40-1": "",
+        "17-40-1": "",
+        "25-40-1": "",
+        "39-40-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": [
+        {
+          "Cognateset_ID": "6182",
+          "Comment": "Definite article analysed as part of the stem in the borrowed form.",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "211",
+          "Source_form": "(l')occhio",
+          "Source_languoid": "Italian"
+        }
+      ]
+    },
+    "220": {
+      "form_flags": {
+        "112-51-1": "",
+        "17-51-1": "",
+        "25-51-1": "",
+        "39-51-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": [
+        {
+          "Cognateset_ID": "4362",
+          "Comment": "",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "220",
+          "Source_form": "piscis",
+          "Source_languoid": "Latin"
+        },
+        {
+          "Cognateset_ID": "5293",
+          "Comment": "Acc. Sg",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "220",
+          "Source_form": "piscem",
+          "Source_languoid": "Latin"
+        }
+      ]
+    },
+    "223": {
+      "form_flags": {
+        "112-55-1": "",
+        "17-55-1": "",
+        "25-55-1": "",
+        "39-55-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": [
+        {
+          "Cognateset_ID": "5568",
+          "Comment": "",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "223",
+          "Source_form": "flour, flur, flor",
+          "Source_languoid": "Old French"
+        },
+        {
+          "Cognateset_ID": "9334",
+          "Comment": "",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "223",
+          "Source_form": "",
+          "Source_languoid": "Venetian"
+        }
+      ]
+    },
+    "225": {
+      "form_flags": {
+        "112-58-1": "",
+        "17-58-1": "",
+        "25-58-1": "",
+        "39-58-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": [
+        {
+          "Cognateset_ID": "9793",
+          "Comment": "",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "225",
+          "Source_form": "پا / pā",
+          "Source_languoid": "Persian"
+        }
+      ]
+    },
+    "257": {
+      "form_flags": {
+        "112-97-1": "",
+        "25-97-1": "",
+        "39-97-1": "",
+        "42-97-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": []
+    },
+    "28": {
+      "form_flags": {
+        "112-39-1": "",
+        "17-39-1": "",
+        "25-39-1": "",
+        "39-39-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": [
+        {
+          "Cognateset_ID": "5526",
+          "Comment": "",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "28",
+          "Source_form": "egg",
+          "Source_languoid": "Old Norse"
+        },
+        {
+          "Cognateset_ID": "9054",
+          "Comment": "",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "28",
+          "Source_form": "",
+          "Source_languoid": "Iranic"
+        }
+      ]
+    },
+    "39": {
+      "form_flags": {
+        "112-52-1": "",
+        "17-52-1": "",
+        "25-52-1": "",
+        "39-52-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": []
+    },
+    "44": {
+      "form_flags": {
+        "112-59-1": "",
+        "17-59-1": "",
+        "25-59-1": "",
+        "39-59-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": [
+        {
+          "Cognateset_ID": "9318",
+          "Comment": "",
+          "Parallel_loan_event": "false",
+          "SourceCognateset_ID": "44",
+          "Source_form": "",
+          "Source_languoid": "Venetian"
+        }
+      ]
+    },
+    "72": {
+      "form_flags": {
+        "112-95-1": "",
+        "17-95-1": "",
+        "25-95-1": "",
+        "39-95-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": [
+        {
+          "Cognateset_ID": "5619",
+          "Comment": "",
+          "Parallel_loan_event": "true",
+          "SourceCognateset_ID": "72",
+          "Source_form": "(زندگى (كردن  / zendegī (kardan)",
+          "Source_languoid": "Persian"
+        }
+      ]
+    },
+    "82": {
+      "form_flags": {
+        "112-106-1": "",
+        "17-106-1": "",
+        "25-106-1": "",
+        "39-106-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": []
+    },
+    "86": {
+      "form_flags": {
+        "112-110-1": "",
+        "17-110-1": "",
+        "25-110-1": "",
+        "39-110-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": []
+    },
+    "91": {
+      "form_flags": {
+        "112-115-1": "",
+        "17-115-1": "",
+        "25-115-1": "",
+        "39-115-1": ""
+      },
+      "inheritance_status": "source-cognacy claim; inherited-versus-learned status independently unreviewed",
+      "set_links": []
+    }
+  },
+  "mappings": {
+    "17": {
+      "a": "a",
+      "d": "d",
+      "e": "r",
+      "eː": "ɛ",
+      "f": "f",
+      "iː": "i",
+      "k": null,
+      "kʷ": "kʷ",
+      "l": null,
+      "m": null,
+      "n": "n",
+      "o": "s",
+      "oː": "ɔ",
+      "p": "p",
+      "r": "r",
+      "s": null,
+      "t": "ɔ",
+      "tː": null,
+      "u": "u",
+      "uː": null,
+      "w": "w"
+    },
+    "25": {
+      "a": "a",
+      "d": "d",
+      "e": "ɔ",
+      "eː": "j",
+      "f": "f",
+      "iː": "ʁ",
+      "k": null,
+      "kʷ": "k",
+      "l": "l",
+      "m": "m",
+      "n": null,
+      "o": null,
+      "oː": null,
+      "p": "p",
+      "r": "e",
+      "s": "e",
+      "t": "k",
+      "tː": null,
+      "u": null,
+      "uː": null,
+      "w": null,
+      "ɡ": null
+    },
+    "39": {
+      "a": "a",
+      "d": "d",
+      "e": "e",
+      "eː": "d",
+      "f": "f",
+      "iː": "e",
+      "k": "k",
+      "kʷ": "kʷ",
+      "l": "l",
+      "m": "m",
+      "n": "n",
+      "o": "o",
+      "oː": "w",
+      "p": "p",
+      "r": "r",
+      "s": "o",
+      "t": "t",
+      "tː": "tː",
+      "u": null,
+      "uː": "u",
+      "w": "ɔ",
+      "ɡ": "ɡ"
+    },
+    "42": {
+      "l": "l",
+      "n": null,
+      "o": "o",
+      "s": "k",
+      "u": "ŋ",
+      "ɡ": null
+    }
+  },
+  "metadata_clarification": "The frozen manifest's inheritance note refers to source annotations generally. Loan-table links are separate from cognatesets.csv and are explicitly projected here; an absent loan flag does not prove inheritance.",
+  "scope": "Retrospective closed-set recovery of the held-out Latin target from Romance query rows. The declared pool includes all 20 Latin labels; this is not open-vocabulary reconstruction. Latin observations are absent from inverse branches.",
+  "training_examples": [
+    {
+      "daughter_row": "17-28-1",
+      "family_id": "family-18",
+      "input": [
+        "m",
+        "o",
+        "r",
+        "iː"
+      ],
+      "latin_row": "112-28-1",
+      "output": [
+        "m",
+        "u",
+        "r",
+        "i"
+      ],
+      "set_id": "18"
+    },
+    {
+      "daughter_row": "25-28-1",
+      "family_id": "family-18",
+      "input": [
+        "m",
+        "o",
+        "r",
+        "iː"
+      ],
+      "latin_row": "112-28-1",
+      "output": [
+        "m",
+        "u",
+        "ʁ",
+        "i",
+        "ʁ"
+      ],
+      "set_id": "18"
+    },
+    {
+      "daughter_row": "39-28-1",
+      "family_id": "family-18",
+      "input": [
+        "m",
+        "o",
+        "r",
+        "iː"
+      ],
+      "latin_row": "112-28-1",
+      "output": [
+        "m",
+        "o",
+        "r",
+        "i",
+        "r",
+        "e"
+      ],
+      "set_id": "18"
+    },
+    {
+      "daughter_row": "17-39-1",
+      "family_id": "family-28",
+      "input": [
+        "oː",
+        "w",
+        "u",
+        "m"
+      ],
+      "latin_row": "112-39-1",
+      "output": [
+        "ɔ",
+        "w"
+      ],
+      "set_id": "28"
+    },
+    {
+      "daughter_row": "25-39-1",
+      "family_id": "family-28",
+      "input": [
+        "oː",
+        "w",
+        "u",
+        "m"
+      ],
+      "latin_row": "112-39-1",
+      "output": [
+        "œ",
+        "f"
+      ],
+      "set_id": "28"
+    },
+    {
+      "daughter_row": "39-39-1",
+      "family_id": "family-28",
+      "input": [
+        "oː",
+        "w",
+        "u",
+        "m"
+      ],
+      "latin_row": "112-39-1",
+      "output": [
+        "w",
+        "ɔ",
+        "v",
+        "o"
+      ],
+      "set_id": "28"
+    },
+    {
+      "daughter_row": "17-59-1",
+      "family_id": "family-42",
+      "input": [
+        "kʷ",
+        "a",
+        "tː",
+        "w",
+        "o",
+        "r"
+      ],
+      "latin_row": "112-59-1",
+      "output": [
+        "kʷ",
+        "a",
+        "t",
+        "ɾ",
+        "ə"
+      ],
+      "set_id": "44"
+    },
+    {
+      "daughter_row": "25-59-1",
+      "family_id": "family-42",
+      "input": [
+        "kʷ",
+        "a",
+        "tː",
+        "w",
+        "o",
+        "r"
+      ],
+      "latin_row": "112-59-1",
+      "output": [
+        "k",
+        "a",
+        "t",
+        "ʁ"
+      ],
+      "set_id": "44"
+    },
+    {
+      "daughter_row": "39-59-1",
+      "family_id": "family-42",
+      "input": [
+        "kʷ",
+        "a",
+        "tː",
+        "w",
+        "o",
+        "r"
+      ],
+      "latin_row": "112-59-1",
+      "output": [
+        "kʷ",
+        "a",
+        "tː",
+        "r",
+        "o"
+      ],
+      "set_id": "44"
+    },
+    {
+      "daughter_row": "17-110-1",
+      "family_id": "family-53",
+      "input": [
+        "n",
+        "o",
+        "w",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-110-1",
+      "output": [
+        "n",
+        "ɔ",
+        "w"
+      ],
+      "set_id": "86"
+    },
+    {
+      "daughter_row": "25-110-1",
+      "family_id": "family-53",
+      "input": [
+        "n",
+        "o",
+        "w",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-110-1",
+      "output": [
+        "n",
+        "u",
+        "v",
+        "o"
+      ],
+      "set_id": "86"
+    },
+    {
+      "daughter_row": "39-110-1",
+      "family_id": "family-53",
+      "input": [
+        "n",
+        "o",
+        "w",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-110-1",
+      "output": [
+        "n",
+        "w",
+        "ɔ",
+        "v",
+        "o"
+      ],
+      "set_id": "86"
+    },
+    {
+      "daughter_row": "17-115-1",
+      "family_id": "family-42",
+      "input": [
+        "uː",
+        "n",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-115-1",
+      "output": [
+        "u",
+        "n"
+      ],
+      "set_id": "91"
+    },
+    {
+      "daughter_row": "25-115-1",
+      "family_id": "family-42",
+      "input": [
+        "uː",
+        "n",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-115-1",
+      "output": [
+        "œ̃"
+      ],
+      "set_id": "91"
+    },
+    {
+      "daughter_row": "39-115-1",
+      "family_id": "family-42",
+      "input": [
+        "uː",
+        "n",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-115-1",
+      "output": [
+        "u",
+        "n",
+        "o"
+      ],
+      "set_id": "91"
+    },
+    {
+      "daughter_row": "17-149-1",
+      "family_id": "family-42",
+      "input": [
+        "f",
+        "uː",
+        "m",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-149-1",
+      "output": [
+        "f",
+        "u",
+        "m"
+      ],
+      "set_id": "123"
+    },
+    {
+      "daughter_row": "25-149-1",
+      "family_id": "family-42",
+      "input": [
+        "f",
+        "uː",
+        "m",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-149-1",
+      "output": [
+        "f",
+        "y",
+        "m",
+        "e"
+      ],
+      "set_id": "123"
+    },
+    {
+      "daughter_row": "39-149-1",
+      "family_id": "family-42",
+      "input": [
+        "f",
+        "uː",
+        "m",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-149-1",
+      "output": [
+        "f",
+        "u",
+        "m",
+        "o"
+      ],
+      "set_id": "123"
+    },
+    {
+      "daughter_row": "17-183-1",
+      "family_id": "family-68",
+      "input": [
+        "d",
+        "u",
+        "o"
+      ],
+      "latin_row": "112-183-1",
+      "output": [
+        "d",
+        "o",
+        "s"
+      ],
+      "set_id": "153"
+    },
+    {
+      "daughter_row": "25-183-1",
+      "family_id": "family-68",
+      "input": [
+        "d",
+        "u",
+        "o"
+      ],
+      "latin_row": "112-183-1",
+      "output": [
+        "d",
+        "ø"
+      ],
+      "set_id": "153"
+    },
+    {
+      "daughter_row": "39-183-1",
+      "family_id": "family-68",
+      "input": [
+        "d",
+        "u",
+        "o"
+      ],
+      "latin_row": "112-183-1",
+      "output": [
+        "d",
+        "u",
+        "e"
+      ],
+      "set_id": "153"
+    },
+    {
+      "daughter_row": "17-8-1",
+      "family_id": "family-12",
+      "input": [
+        "k",
+        "o",
+        "r",
+        "t",
+        "e",
+        "k",
+        "s"
+      ],
+      "latin_row": "112-8-1",
+      "output": [
+        "ə",
+        "s",
+        "k",
+        "ɔ",
+        "r",
+        "s",
+        "ə"
+      ],
+      "set_id": "182"
+    },
+    {
+      "daughter_row": "25-8-1",
+      "family_id": "family-12",
+      "input": [
+        "k",
+        "o",
+        "r",
+        "t",
+        "e",
+        "k",
+        "s"
+      ],
+      "latin_row": "112-8-1",
+      "output": [
+        "e",
+        "k",
+        "ɔ",
+        "ʁ",
+        "s"
+      ],
+      "set_id": "182"
+    },
+    {
+      "daughter_row": "39-8-1",
+      "family_id": "family-12",
+      "input": [
+        "k",
+        "o",
+        "r",
+        "t",
+        "e",
+        "k",
+        "s"
+      ],
+      "latin_row": "112-8-1",
+      "output": [
+        "k",
+        "o",
+        "r",
+        "t",
+        "e",
+        "tː",
+        "ʃ",
+        "a"
+      ],
+      "set_id": "182"
+    },
+    {
+      "daughter_row": "17-40-1",
+      "family_id": "family-83",
+      "input": [
+        "o",
+        "k",
+        "u",
+        "l",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-40-1",
+      "output": [
+        "u",
+        "ʎ"
+      ],
+      "set_id": "211"
+    },
+    {
+      "daughter_row": "25-40-1",
+      "family_id": "family-83",
+      "input": [
+        "o",
+        "k",
+        "u",
+        "l",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-40-1",
+      "output": [
+        "œ",
+        "j"
+      ],
+      "set_id": "211"
+    },
+    {
+      "daughter_row": "39-40-1",
+      "family_id": "family-83",
+      "input": [
+        "o",
+        "k",
+        "u",
+        "l",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-40-1",
+      "output": [
+        "ɔ",
+        "kː",
+        "j",
+        "o"
+      ],
+      "set_id": "211"
+    },
+    {
+      "daughter_row": "17-58-1",
+      "family_id": "family-83",
+      "input": [
+        "p",
+        "eː",
+        "s"
+      ],
+      "latin_row": "112-58-1",
+      "output": [
+        "p",
+        "ɛ",
+        "w"
+      ],
+      "set_id": "225"
+    },
+    {
+      "daughter_row": "25-58-1",
+      "family_id": "family-83",
+      "input": [
+        "p",
+        "eː",
+        "s"
+      ],
+      "latin_row": "112-58-1",
+      "output": [
+        "p",
+        "j",
+        "e"
+      ],
+      "set_id": "225"
+    },
+    {
+      "daughter_row": "39-58-1",
+      "family_id": "family-83",
+      "input": [
+        "p",
+        "eː",
+        "s"
+      ],
+      "latin_row": "112-58-1",
+      "output": [
+        "p",
+        "j",
+        "ɛ",
+        "d",
+        "e"
+      ],
+      "set_id": "225"
+    },
+    {
+      "daughter_row": "25-97-1",
+      "family_id": "family-257",
+      "input": [
+        "l",
+        "o",
+        "n",
+        "ɡ",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-97-1",
+      "output": [
+        "l",
+        "ɔ̃"
+      ],
+      "set_id": "257"
+    },
+    {
+      "daughter_row": "39-97-1",
+      "family_id": "family-257",
+      "input": [
+        "l",
+        "o",
+        "n",
+        "ɡ",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-97-1",
+      "output": [
+        "l",
+        "u",
+        "n",
+        "ɡ",
+        "o"
+      ],
+      "set_id": "257"
+    },
+    {
+      "daughter_row": "42-97-1",
+      "family_id": "family-257",
+      "input": [
+        "l",
+        "o",
+        "n",
+        "ɡ",
+        "u",
+        "s"
+      ],
+      "latin_row": "112-97-1",
+      "output": [
+        "l",
+        "o",
+        "ŋ",
+        "k"
+      ],
+      "set_id": "257"
+    }
+  ],
+  "training_sha256": "eb7bf58a3dde2457c35037ee07944afea0a187e7a5e5c344d7c6f760b13e7357"
+}

@@ -1,0 +1,183 @@
+{
+  "alignment_data": {
+    "alignments": [
+      {
+        "evidence_unit": "family-83",
+        "id": "pie-210",
+        "rows": [
+          {
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "j"
+              },
+              {
+                "kind": "segment",
+                "value": "a"
+              },
+              {
+                "kind": "segment",
+                "value": "d"
+              },
+              {
+                "kind": "segment",
+                "value": "t"
+              },
+              {
+                "kind": "segment",
+                "value": "i"
+              }
+            ],
+            "doculect_id": "iecor-form-100-38-1",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "j"
+              },
+              {
+                "kind": "segment",
+                "value": "a"
+              },
+              {
+                "kind": "segment",
+                "value": "d"
+              },
+              {
+                "kind": "segment",
+                "value": "t"
+              },
+              {
+                "kind": "segment",
+                "value": "i"
+              }
+            ],
+            "source_ref": "cldf/forms.csv#100-38-1:Phonemic_Segments"
+          },
+          {
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "e̞"
+              },
+              {
+                "kind": "segment",
+                "value": "s"
+              },
+              {
+                "kind": "segment",
+                "value": "tʰ"
+              },
+              {
+                "kind": "segment",
+                "value": "í"
+              },
+              {
+                "kind": "segment",
+                "value": "o̞ː"
+              }
+            ],
+            "doculect_id": "iecor-form-110-38-1",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "e̞"
+              },
+              {
+                "kind": "segment",
+                "value": "s"
+              },
+              {
+                "kind": "segment",
+                "value": "tʰ"
+              },
+              {
+                "kind": "segment",
+                "value": "í"
+              },
+              {
+                "kind": "segment",
+                "value": "o̞ː"
+              }
+            ],
+            "source_ref": "cldf/forms.csv#110-38-1:Phonemic_Segments"
+          }
+        ],
+        "width": 5
+      }
+    ],
+    "description": "Source-backed unit-edit baseline alignment; phonological homology and cognacy are not certified.",
+    "doculects": [
+      "iecor-form-100-38-1",
+      "iecor-form-110-38-1"
+    ],
+    "id": "pie-210",
+    "schema_version": "1.0.0",
+    "source_kind": "sourced"
+  },
+  "claim": "feasibility-only",
+  "groups": [
+    {
+      "claimed_support": 1,
+      "id": "column-0",
+      "members": [
+        "pie-210-c0"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-1",
+      "members": [
+        "pie-210-c1"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-2",
+      "members": [
+        "pie-210-c2"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-3",
+      "members": [
+        "pie-210-c3"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-4",
+      "members": [
+        "pie-210-c4"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "alignment_id": "pie-210",
+      "column_index": 0,
+      "id": "pie-210-c0"
+    },
+    {
+      "alignment_id": "pie-210",
+      "column_index": 1,
+      "id": "pie-210-c1"
+    },
+    {
+      "alignment_id": "pie-210",
+      "column_index": 2,
+      "id": "pie-210-c2"
+    },
+    {
+      "alignment_id": "pie-210",
+      "column_index": 3,
+      "id": "pie-210-c3"
+    },
+    {
+      "alignment_id": "pie-210",
+      "column_index": 4,
+      "id": "pie-210-c4"
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1"
+}

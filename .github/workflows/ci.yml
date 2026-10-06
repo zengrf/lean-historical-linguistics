@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
@@ -41,6 +43,14 @@ jobs:
         run: |
           python scripts/build_m4_fixtures.py --check
           python scripts/verify_m4.py --check-report
+      - name: Check M5 frozen corpus, computation and honest specialist-review status
+        run: |
+          python scripts/build_pie_corpus.py --check
+          python scripts/build_pie_experiment.py --check
+          python scripts/build_pie_controls.py --check
+          python scripts/review_pie.py
+          python scripts/verify_m5.py --check-report
+          git diff --exit-code -- reports/pie-review.json
       - name: Check generated catalogue and attribution notices
         run: |
           python scripts/build_catalogue.py
@@ -54,6 +64,8 @@ jobs:
         lean: ['v4.19.0', 'v4.34.1']
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
@@ -97,3 +109,9 @@ jobs:
           python scripts/verify_m4.py --audit "$RUNNER_TEMP/axioms.txt"
           python scripts/verify_m4.py --check-report
           git diff --exit-code -- reports/exhaustive-small-domain.json
+      - name: M5 source-backed pilot, certificates and empirical gate status
+        run: |
+          python scripts/verify_m5.py --audit "$RUNNER_TEMP/axioms.txt"
+          python scripts/verify_m5.py --check-report
+          python scripts/benchmark_pie.py --output "$RUNNER_TEMP/pie-benchmark.json"
+          git diff --exit-code -- reports/pie-evaluation.json reports/pie-lexical-execution.json reports/pie-diagnostic-execution.json reports/pie-latin-control-execution.json

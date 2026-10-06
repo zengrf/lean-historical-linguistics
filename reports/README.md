@@ -8,7 +8,7 @@ python scripts/verify_library.py --local --output reports/library-audit.json
 
 It records the time, count decisions, source coverage, access gaps and actual checks of all 127 retained PDF files. It attests to the files checked at that time. It does not establish exhaustive literature coverage or cover-to-cover reading. A public clone contains 64 PDFs; its ordinary audit therefore has a different on-disk count.
 
-`lean-axioms-local.txt` records `#print axioms` for all 127 theorem declarations after a successful local build with **Lean 4.19.0 on macOS 10.15 x86_64**. Its reported dependencies are `propext`, `Quot.sound` and `Classical.choice`. There are no project axioms or proof placeholders in the audited source.
+`lean-axioms-local.txt` records `#print axioms` for all 133 theorem declarations after a successful local build with **Lean 4.19.0 on macOS 10.15 x86_64**. Its reported dependencies are `propext`, `Quot.sound` and `Classical.choice`. There are no project axioms or proof placeholders in the audited source.
 
 The local host could not run the Lean 4.34.1 binary because its system C++ library lacks a required symbol. [GitHub Actions](https://github.com/zengrf/lean-historical-linguistics/actions/workflows/ci.yml) independently builds the source on Linux with both 4.19.0 and the pinned 4.34.1, then checks each generated theorem audit. Consult the run for the commit being evaluated; a committed old report alone does not validate changed source.
 
@@ -53,3 +53,13 @@ Timeouts and empty prefixes remain incomplete. See
 the M3 bridge. `python scripts/verify_m4.py --audit PATH` runs the complete checks;
 `--check-report` verifies saved inverse sets, hashes and delivered paths.
 Both Lean CI jobs rerun the full verifier and reject report drift.
+
+[pie-evaluation.json](pie-evaluation.json) records M5's source-backed baseline
+results, all reflex-level failures, source-analysis comparisons, Latin control,
+leakage disclosures and separate acceptance gates. The three
+`pie-*-execution.json` files retain all 1,308 complete forward certificates and
+310 inverse results. [pie-benchmark-local.json](pie-benchmark-local.json) records
+the local 1,000-certificate performance measurement. [pie-review.json](pie-review.json)
+explicitly records pending independent specialist review; M5 is **in review**.
+See [M5 delivery](../docs/11-m5-delivery.md) for reproduction and limitations.
+`verify_m5.py --require-complete` cannot pass without actual specialist sign-off.

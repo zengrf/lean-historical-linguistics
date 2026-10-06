@@ -10,6 +10,7 @@ Heggarty, Paul; Anderson, Cormac; Scarborough, Matthew. *Indo-European Cognate R
 - [Retained original license](upstream/iecor/LICENSE), [upstream README and contributors](upstream/iecor/README.md)
 - Commit: `700b635a04786427b78841489c46eefbe2843509`
 - [Derived pilot](pilots/iecor.json): 30 selected records; original values and all raw form columns preserved, representations wrapped in the project's evidence schema.
+- [M5 derived PIE pilot](pie/README.md): 200 source cognate sets and 843 distinct form rows, plus a separate 20-set Latin/Romance control. Original records, cognacy notes, licenses and exact source locators remain attached. Added selection, normalization, models and splits are explicitly identified; specialist linguistic review is pending. These derivatives retain CC BY 4.0 attribution.
 
 ## Hill–Gong Burmish data
 

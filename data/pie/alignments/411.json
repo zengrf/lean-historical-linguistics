@@ -1,0 +1,127 @@
+{
+  "alignment_data": {
+    "alignments": [
+      {
+        "evidence_unit": "family-411",
+        "id": "pie-411",
+        "rows": [
+          {
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "kʰ"
+              },
+              {
+                "kind": "segment",
+                "value": "éː"
+              },
+              {
+                "kind": "segment",
+                "value": "r"
+              }
+            ],
+            "doculect_id": "iecor-form-110-69-1",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "kʰ"
+              },
+              {
+                "kind": "segment",
+                "value": "éː"
+              },
+              {
+                "kind": "segment",
+                "value": "r"
+              }
+            ],
+            "source_ref": "cldf/forms.csv#110-69-1:Phonemic_Segments"
+          },
+          {
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "ts"
+              },
+              {
+                "kind": "segment",
+                "value": "ə"
+              },
+              {
+                "kind": "segment",
+                "value": "r"
+              }
+            ],
+            "doculect_id": "iecor-form-81-69-1",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "ts"
+              },
+              {
+                "kind": "segment",
+                "value": "ə"
+              },
+              {
+                "kind": "segment",
+                "value": "r"
+              }
+            ],
+            "source_ref": "cldf/forms.csv#81-69-1:Phonemic_Segments"
+          }
+        ],
+        "width": 3
+      }
+    ],
+    "description": "Source-backed unit-edit baseline alignment; phonological homology and cognacy are not certified.",
+    "doculects": [
+      "iecor-form-110-69-1",
+      "iecor-form-81-69-1"
+    ],
+    "id": "pie-411",
+    "schema_version": "1.0.0",
+    "source_kind": "sourced"
+  },
+  "claim": "feasibility-only",
+  "groups": [
+    {
+      "claimed_support": 1,
+      "id": "column-0",
+      "members": [
+        "pie-411-c0"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-1",
+      "members": [
+        "pie-411-c1"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-2",
+      "members": [
+        "pie-411-c2"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "alignment_id": "pie-411",
+      "column_index": 0,
+      "id": "pie-411-c0"
+    },
+    {
+      "alignment_id": "pie-411",
+      "column_index": 1,
+      "id": "pie-411-c1"
+    },
+    {
+      "alignment_id": "pie-411",
+      "column_index": 2,
+      "id": "pie-411-c2"
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1"
+}

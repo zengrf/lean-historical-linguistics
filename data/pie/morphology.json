@@ -1,0 +1,121 @@
+{
+  "dossiers": [
+    {
+      "analyses": [
+        {
+          "accent": [
+            "root",
+            "root"
+          ],
+          "attribution": "Schindler 1975 as discussed by Kloekhorst 2013",
+          "id": "schindler-as-reported",
+          "root_grade": [
+            "o",
+            "e"
+          ],
+          "strong": "*u̯ód-r",
+          "weak": "*u̯éd-n-"
+        },
+        {
+          "accent": [
+            "root",
+            "suffix"
+          ],
+          "attribution": "Kloekhorst 2013, including stated phonological interpretation of the weak stem",
+          "id": "kloekhorst-proterodynamic",
+          "root_grade": [
+            "o",
+            "zero"
+          ],
+          "strong": "*u̯ód-r",
+          "weak": "*ud-én-"
+        }
+      ],
+      "certificate_scope": "No claim that a string rule proves the ablaut reconstruction.",
+      "conclusion": "Unresolved: a spelling alone does not decide the accent/phonological analysis.",
+      "core_set_ids": [
+        "335"
+      ],
+      "discriminants": [
+        "The vowel and accent analysis of the weak stem",
+        "Whether the strong/weak root alternation is inherited or remodeled"
+      ],
+      "id": "nominal-water",
+      "locator": "author PDF pp.1-2, section 2 and note 6",
+      "observed": {
+        "strong": "u̯ātar",
+        "weak": "u̯iten-"
+      },
+      "source": "kloekhorst2013-ablaut"
+    },
+    {
+      "after": "*u̯dén-",
+      "before": "*udén-",
+      "conclusion": "An explicit analysis-layer operation; it is not implemented as an unconditional sound law.",
+      "core_set_ids": [
+        "335"
+      ],
+      "id": "analogical-water",
+      "locator": "author PDF p.2 note 6",
+      "model_form": "*u̯ódr",
+      "operation": "Introduce consonantal u̯ from the strong stem into the weak stem",
+      "operation_type": "source-attributed-paradigm-analogy",
+      "regular_sound_law": false,
+      "source": "kloekhorst2013-ablaut",
+      "uncertainty": "The source's reconstruction and interpretation require independent assessment."
+    },
+    {
+      "analyses": [
+        {
+          "attribution": "Jasanoff 2003 as reported and criticized by Kloekhorst 2018; original monograph not independently checked",
+          "id": "jasanoff-h2e-as-reported",
+          "inherited_root_grades": [
+            "o",
+            "e"
+          ],
+          "reduplication": "not obligatory in the ancestral h2e category",
+          "zero_grade": "later replacement in relevant formations"
+        },
+        {
+          "attribution": "Kloekhorst 2018's adaptation of the perfect theory",
+          "id": "kloekhorst-adapted-perfect",
+          "inherited_root_grades": [
+            "o",
+            "zero"
+          ],
+          "reduplication": "not obligatory in the earliest perfect under an Indo-Hittite analysis",
+          "surface_e": "analogy or epenthesis in the relevant weak stems"
+        }
+      ],
+      "conclusion": "Unresolved competing predictions; no automatic winner and no full morphological certificate.",
+      "core_set_ids": [],
+      "discriminants": [
+        "Whether apparent e-grade is inherited",
+        "Independent support for each analogy/epenthesis",
+        "Chronology and distribution of reduplication"
+      ],
+      "id": "hi-conjugation",
+      "locator": "pp.89-92; especially the ablaut and reduplication comparisons",
+      "observations": [
+        {
+          "gloss": "know",
+          "strong": "šākk-i",
+          "weak": "šekk-"
+        },
+        {
+          "gloss": "hang",
+          "strong": "kānk-i",
+          "weak": "kank-"
+        },
+        {
+          "gloss": "rise",
+          "strong": "arai-i",
+          "weak": "ari-"
+        }
+      ],
+      "source": "kloekhorst2018-hi"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "status": "source-comparison-awaiting-specialist-review"
+}

@@ -1,5 +1,11 @@
 import Comparative
 import Historical
+#print axioms Historical.CaseStudy.retrieval_correct
+#print axioms Historical.CaseStudy.retrieval_sound
+#print axioms Historical.CaseStudy.retrieval_complete
+#print axioms Historical.CaseStudy.retrieval_mono
+#print axioms Historical.CaseStudy.retrieval_empty_iff
+#print axioms Historical.CaseStudy.forward_certificate_accepted
 
 #print axioms Comparative.run_append
 #print axioms Comparative.derives_iff_run

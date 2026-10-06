@@ -60,7 +60,7 @@ recovery theorem. Attaching an M3 dossier requires its full acceptance and exact
 agreement of original forms, source references and doculects at the named target
 alignment. This bridge does not infer proto sounds from correspondence classes.
 
-M4 adds **48 Lean theorem declarations**, bringing the project total to **127**.
+M4 added **48 Lean theorem declarations**, bringing the project total at M4 delivery to **127**; the current audit also includes later milestones.
 Every declaration appears in `Audit.lean`. The audit rejects project axioms,
 proof placeholders and `native_decide`; reported dependencies are Lean's
 standard `propext`, `Quot.sound` and `Classical.choice`. The JSON parser, metadata

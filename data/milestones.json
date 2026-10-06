@@ -255,7 +255,7 @@
   {
     "id": "M5",
     "title": "Source-backed Indo-European pilot",
-    "status": "planned",
+    "status": "in_review",
     "depends_on": [
       "M1",
       "M2",
@@ -265,36 +265,51 @@
     "owner_role": "PIE specialist and research engineer; independent PIE reviewer",
     "artifacts": [
       "data/pie",
+      "lean/Historical/CaseStudy.lean",
+      "lean/PieCheck.lean",
+      "scripts/build_pie_corpus.py",
+      "scripts/build_pie_experiment.py",
+      "scripts/build_pie_controls.py",
+      "scripts/verify_m5.py",
+      "scripts/review_pie.py",
+      "scripts/benchmark_pie.py",
+      "tests/test_m5_contracts.py",
+      "docs/11-m5-delivery.md",
       "reports/pie-evaluation.json",
+      "reports/pie-review.json",
+      "reports/pie-benchmark-local.json",
+      "reviews/pie-packet.json",
+      "reviews/pie-responses.json",
       "reviews/pie-signoff.md"
     ],
     "acceptance": [
       {
         "id": "M5-core",
-        "test": "Review the source dossiers and check every core derivation",
+        "test": "python scripts/build_pie_corpus.py --check; python scripts/verify_m5.py --audit PATH; python scripts/review_pie.py --require-complete",
         "pass_condition": "20 cognate sets form an independently reviewed core with source forms, references, chronology, normalization and explicit uncertainty."
       },
       {
         "id": "M5-scale",
-        "test": "Validate frozen dataset and derivation counts",
+        "test": "python scripts/verify_m5.py --check-report; inspect counts and all per-reflex outcomes in reports/pie-evaluation.json",
         "pass_condition": "At least 200 cognate sets and 600 reflex records; failed derivations and disagreements remain in the report; numerical targets do not license fabricated data."
       },
       {
         "id": "M5-analyses",
-        "test": "Compare named source-defined rule packages",
+        "test": "lean/.lake/build/bin/pie_check --batch data/pie/diagnostic-input.json; inspect data/pie/source-analyses.json and morphology.json",
         "pass_condition": "Relative chronology, Anatolian laryngeal evidence and a small morphological dossier have explicit scope; competing analyses and their different predictions are preserved."
       },
       {
         "id": "M5-evaluation",
-        "test": "Run the frozen reproduction/generalization protocol from docs/03-case-studies-and-evaluation.md",
+        "test": "python scripts/build_pie_experiment.py --check; python scripts/build_pie_controls.py --check; python scripts/verify_m5.py --audit PATH; python scripts/benchmark_pie.py --output /tmp/pie-benchmark.json",
         "pass_condition": "Split manifests are frozen before model revision; reconstruction accuracy, ambiguity, coverage and failure categories are reported separately with leakage checks."
       },
       {
         "id": "M5-signoff",
-        "test": "Obtain independent family-specialist review",
+        "test": "python scripts/review_pie.py --require-complete; python scripts/verify_m5.py --check-report --require-complete",
         "pass_condition": "A reviewer who did not perform the encoding signs off or records unresolved objections; linguistically unreviewed output cannot pass this gate."
       }
-    ]
+    ],
+    "delivery_note": "Computational implementation complete; M5 remains in_review because independent family-specialist review has not been received. The frozen corpus has 200 sets / 843 distinct reflex records across ten branches; the 20-set core has 161 reflexes. Six additional Lean theorems support checked forward traces and complete declared-pool retrieval. All 1308 forward certificates and 310 inverse sets are checked against Python, with source-defined diagnostics, three morphology dossiers, a separate Latin control and explicit failure/leakage reporting. M5-core and M5-signoff remain open. Release label: computationally checked, linguistically unreviewed."
   },
   {
     "id": "M6",

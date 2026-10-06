@@ -1,0 +1,2252 @@
+{
+  "forward": [
+    {
+      "expected": [
+        "á",
+        "ð",
+        "e"
+      ],
+      "id": "vcv-unaccented--ringe-2022-vcv",
+      "input": [
+        "a",
+        "t",
+        "é"
+      ],
+      "package_id": "ringe-2022-vcv"
+    },
+    {
+      "expected": [
+        "á",
+        "ð",
+        "e"
+      ],
+      "id": "vcv-unaccented--stress-before-verner-control",
+      "input": [
+        "a",
+        "t",
+        "é"
+      ],
+      "package_id": "stress-before-verner-control"
+    },
+    {
+      "expected": [
+        "á",
+        "θ",
+        "e"
+      ],
+      "id": "vcv-accented--ringe-2022-vcv",
+      "input": [
+        "á",
+        "t",
+        "e"
+      ],
+      "package_id": "ringe-2022-vcv"
+    },
+    {
+      "expected": [
+        "á",
+        "θ",
+        "e"
+      ],
+      "id": "vcv-accented--stress-before-verner-control",
+      "input": [
+        "á",
+        "t",
+        "e"
+      ],
+      "package_id": "stress-before-verner-control"
+    },
+    {
+      "expected": [
+        "á",
+        "β",
+        "e"
+      ],
+      "id": "vcv-p--ringe-2022-vcv",
+      "input": [
+        "a",
+        "p",
+        "é"
+      ],
+      "package_id": "ringe-2022-vcv"
+    },
+    {
+      "expected": [
+        "á",
+        "β",
+        "e"
+      ],
+      "id": "vcv-p--stress-before-verner-control",
+      "input": [
+        "a",
+        "p",
+        "é"
+      ],
+      "package_id": "stress-before-verner-control"
+    },
+    {
+      "expected": [
+        "á",
+        "ɣ",
+        "e"
+      ],
+      "id": "vcv-k--ringe-2022-vcv",
+      "input": [
+        "a",
+        "k",
+        "é"
+      ],
+      "package_id": "ringe-2022-vcv"
+    },
+    {
+      "expected": [
+        "á",
+        "ɣ",
+        "e"
+      ],
+      "id": "vcv-k--stress-before-verner-control",
+      "input": [
+        "a",
+        "k",
+        "é"
+      ],
+      "package_id": "stress-before-verner-control"
+    },
+    {
+      "expected": [
+        "á",
+        "ɣʷ",
+        "e"
+      ],
+      "id": "vcv-kw--ringe-2022-vcv",
+      "input": [
+        "a",
+        "kʷ",
+        "é"
+      ],
+      "package_id": "ringe-2022-vcv"
+    },
+    {
+      "expected": [
+        "á",
+        "ɣʷ",
+        "e"
+      ],
+      "id": "vcv-kw--stress-before-verner-control",
+      "input": [
+        "a",
+        "kʷ",
+        "é"
+      ],
+      "package_id": "stress-before-verner-control"
+    },
+    {
+      "expected": [
+        "á",
+        "z",
+        "e"
+      ],
+      "id": "vcv-s--ringe-2022-vcv",
+      "input": [
+        "a",
+        "s",
+        "é"
+      ],
+      "package_id": "ringe-2022-vcv"
+    },
+    {
+      "expected": [
+        "á",
+        "z",
+        "e"
+      ],
+      "id": "vcv-s--stress-before-verner-control",
+      "input": [
+        "a",
+        "s",
+        "é"
+      ],
+      "package_id": "stress-before-verner-control"
+    },
+    {
+      "expected": [
+        "s",
+        "t",
+        "e"
+      ],
+      "id": "blocked-cluster--ringe-2022-vcv",
+      "input": [
+        "s",
+        "t",
+        "e"
+      ],
+      "package_id": "ringe-2022-vcv"
+    },
+    {
+      "expected": [
+        "s",
+        "t",
+        "e"
+      ],
+      "id": "blocked-cluster--stress-before-verner-control",
+      "input": [
+        "s",
+        "t",
+        "e"
+      ],
+      "package_id": "stress-before-verner-control"
+    },
+    {
+      "expected": [
+        "á",
+        "t",
+        "e"
+      ],
+      "id": "voiced-stop-counterfeeding--ringe-2022-vcv",
+      "input": [
+        "a",
+        "d",
+        "é"
+      ],
+      "package_id": "ringe-2022-vcv"
+    },
+    {
+      "expected": [
+        "á",
+        "t",
+        "e"
+      ],
+      "id": "voiced-stop-counterfeeding--stress-before-verner-control",
+      "input": [
+        "a",
+        "d",
+        "é"
+      ],
+      "package_id": "stress-before-verner-control"
+    },
+    {
+      "expected": [
+        "á",
+        "ð",
+        "e"
+      ],
+      "id": "breathy-stop--ringe-2022-vcv",
+      "input": [
+        "a",
+        "dʰ",
+        "é"
+      ],
+      "package_id": "ringe-2022-vcv"
+    },
+    {
+      "expected": [
+        "á",
+        "ð",
+        "e"
+      ],
+      "id": "breathy-stop--stress-before-verner-control",
+      "input": [
+        "a",
+        "dʰ",
+        "é"
+      ],
+      "package_id": "stress-before-verner-control"
+    },
+    {
+      "expected": [
+        "f",
+        "é"
+      ],
+      "id": "initial-stop--ringe-2022-vcv",
+      "input": [
+        "p",
+        "é"
+      ],
+      "package_id": "ringe-2022-vcv"
+    },
+    {
+      "expected": [
+        "f",
+        "é"
+      ],
+      "id": "initial-stop--stress-before-verner-control",
+      "input": [
+        "p",
+        "é"
+      ],
+      "package_id": "stress-before-verner-control"
+    },
+    {
+      "expected": [
+        "h",
+        "a"
+      ],
+      "id": "forehead--kloekhorst-2006-written-onset",
+      "input": [
+        "h2",
+        "e"
+      ],
+      "package_id": "kloekhorst-2006-written-onset"
+    },
+    {
+      "expected": [
+        "h",
+        "a"
+      ],
+      "id": "forehead--melchert-retention-as-reported-2006",
+      "input": [
+        "h2",
+        "e"
+      ],
+      "package_id": "melchert-retention-as-reported-2006"
+    },
+    {
+      "expected": [
+        "h",
+        "a"
+      ],
+      "id": "join--kloekhorst-2006-written-onset",
+      "input": [
+        "h2",
+        "e"
+      ],
+      "package_id": "kloekhorst-2006-written-onset"
+    },
+    {
+      "expected": [
+        "h",
+        "a"
+      ],
+      "id": "join--melchert-retention-as-reported-2006",
+      "input": [
+        "h2",
+        "e"
+      ],
+      "package_id": "melchert-retention-as-reported-2006"
+    },
+    {
+      "expected": [
+        "h",
+        "a"
+      ],
+      "id": "grandmother--kloekhorst-2006-written-onset",
+      "input": [
+        "h2",
+        "e"
+      ],
+      "package_id": "kloekhorst-2006-written-onset"
+    },
+    {
+      "expected": [
+        "h",
+        "a"
+      ],
+      "id": "grandmother--melchert-retention-as-reported-2006",
+      "input": [
+        "h2",
+        "e"
+      ],
+      "package_id": "melchert-retention-as-reported-2006"
+    },
+    {
+      "expected": [
+        "a"
+      ],
+      "id": "right-proper--kloekhorst-2006-written-onset",
+      "input": [
+        "h2",
+        "o"
+      ],
+      "package_id": "kloekhorst-2006-written-onset"
+    },
+    {
+      "expected": [
+        "a"
+      ],
+      "id": "right-proper--melchert-retention-as-reported-2006",
+      "input": [
+        "h2",
+        "o"
+      ],
+      "package_id": "melchert-retention-as-reported-2006"
+    },
+    {
+      "expected": [
+        "a"
+      ],
+      "id": "obeisance--kloekhorst-2006-written-onset",
+      "input": [
+        "h2",
+        "o"
+      ],
+      "package_id": "kloekhorst-2006-written-onset"
+    },
+    {
+      "expected": [
+        "a"
+      ],
+      "id": "obeisance--melchert-retention-as-reported-2006",
+      "input": [
+        "h2",
+        "o"
+      ],
+      "package_id": "melchert-retention-as-reported-2006"
+    },
+    {
+      "expected": [
+        "R"
+      ],
+      "id": "carry-out--kloekhorst-2006-written-onset",
+      "input": [
+        "h3",
+        "R"
+      ],
+      "package_id": "kloekhorst-2006-written-onset"
+    },
+    {
+      "expected": [
+        "R"
+      ],
+      "id": "carry-out--melchert-retention-as-reported-2006",
+      "input": [
+        "h3",
+        "R"
+      ],
+      "package_id": "melchert-retention-as-reported-2006"
+    },
+    {
+      "expected": [
+        "R"
+      ],
+      "id": "stand--kloekhorst-2006-written-onset",
+      "input": [
+        "h3",
+        "R"
+      ],
+      "package_id": "kloekhorst-2006-written-onset"
+    },
+    {
+      "expected": [
+        "R"
+      ],
+      "id": "stand--melchert-retention-as-reported-2006",
+      "input": [
+        "h3",
+        "R"
+      ],
+      "package_id": "melchert-retention-as-reported-2006"
+    },
+    {
+      "expected": [
+        "R"
+      ],
+      "id": "name--kloekhorst-2006-written-onset",
+      "input": [
+        "h3",
+        "R"
+      ],
+      "package_id": "kloekhorst-2006-written-onset"
+    },
+    {
+      "expected": [
+        "R"
+      ],
+      "id": "name--melchert-retention-as-reported-2006",
+      "input": [
+        "h3",
+        "R"
+      ],
+      "package_id": "melchert-retention-as-reported-2006"
+    }
+  ],
+  "id": "pie-source-diagnostics-v1",
+  "inverse": [],
+  "packages": [
+    {
+      "description": "Ringe 2022 pp.55-56: changes a-d then stress f, restricted to explicitly accent-marked VCV/VCVCV controls; excludes clusters, later changes e/g and full PIE-to-Germanic derivations.",
+      "final_stage": "ringe-2022-vcv-stage-31",
+      "id": "ringe-2022-vcv",
+      "initial_stage": "accented-pre-germanic-window",
+      "inventory": [
+        "a",
+        "b",
+        "bʰ",
+        "d",
+        "dʰ",
+        "e",
+        "f",
+        "g",
+        "gʰ",
+        "gʷ",
+        "gʷʰ",
+        "i",
+        "j",
+        "k",
+        "kʷ",
+        "l",
+        "m",
+        "n",
+        "o",
+        "p",
+        "r",
+        "s",
+        "t",
+        "u",
+        "w",
+        "x",
+        "xʷ",
+        "z",
+        "á",
+        "é",
+        "í",
+        "ð",
+        "ó",
+        "ú",
+        "ɣ",
+        "ɣʷ",
+        "β",
+        "θ"
+      ],
+      "laws": [
+        {
+          "id": "ringe-2022-vcv-law-1",
+          "input_stage": "accented-pre-germanic-window",
+          "output_stage": "ringe-2022-vcv-stage-1",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "f",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "p"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-2",
+          "input_stage": "ringe-2022-vcv-stage-1",
+          "output_stage": "ringe-2022-vcv-stage-2",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú",
+                "m",
+                "n",
+                "l",
+                "r",
+                "w",
+                "j"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "f",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "p"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-3",
+          "input_stage": "ringe-2022-vcv-stage-2",
+          "output_stage": "ringe-2022-vcv-stage-3",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "θ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "t"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-4",
+          "input_stage": "ringe-2022-vcv-stage-3",
+          "output_stage": "ringe-2022-vcv-stage-4",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú",
+                "m",
+                "n",
+                "l",
+                "r",
+                "w",
+                "j"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "θ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "t"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-5",
+          "input_stage": "ringe-2022-vcv-stage-4",
+          "output_stage": "ringe-2022-vcv-stage-5",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "x",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "k"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-6",
+          "input_stage": "ringe-2022-vcv-stage-5",
+          "output_stage": "ringe-2022-vcv-stage-6",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú",
+                "m",
+                "n",
+                "l",
+                "r",
+                "w",
+                "j"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "x",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "k"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-7",
+          "input_stage": "ringe-2022-vcv-stage-6",
+          "output_stage": "ringe-2022-vcv-stage-7",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "xʷ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "kʷ"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-8",
+          "input_stage": "ringe-2022-vcv-stage-7",
+          "output_stage": "ringe-2022-vcv-stage-8",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú",
+                "m",
+                "n",
+                "l",
+                "r",
+                "w",
+                "j"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "xʷ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "kʷ"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-9",
+          "input_stage": "ringe-2022-vcv-stage-8",
+          "output_stage": "ringe-2022-vcv-stage-9",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "p",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "b"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-10",
+          "input_stage": "ringe-2022-vcv-stage-9",
+          "output_stage": "ringe-2022-vcv-stage-10",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "t",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "d"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-11",
+          "input_stage": "ringe-2022-vcv-stage-10",
+          "output_stage": "ringe-2022-vcv-stage-11",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "k",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "g"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-12",
+          "input_stage": "ringe-2022-vcv-stage-11",
+          "output_stage": "ringe-2022-vcv-stage-12",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "kʷ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "gʷ"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-13",
+          "input_stage": "ringe-2022-vcv-stage-12",
+          "output_stage": "ringe-2022-vcv-stage-13",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "β",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "bʰ"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-14",
+          "input_stage": "ringe-2022-vcv-stage-13",
+          "output_stage": "ringe-2022-vcv-stage-14",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ð",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "dʰ"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-15",
+          "input_stage": "ringe-2022-vcv-stage-14",
+          "output_stage": "ringe-2022-vcv-stage-15",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ɣ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "gʰ"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-16",
+          "input_stage": "ringe-2022-vcv-stage-15",
+          "output_stage": "ringe-2022-vcv-stage-16",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ɣʷ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "gʷʰ"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-17",
+          "input_stage": "ringe-2022-vcv-stage-16",
+          "output_stage": "ringe-2022-vcv-stage-17",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "e",
+                "i",
+                "o",
+                "u"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "β",
+            "right": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú"
+              ]
+            ],
+            "right_edge": false,
+            "target": [
+              "f"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-18",
+          "input_stage": "ringe-2022-vcv-stage-17",
+          "output_stage": "ringe-2022-vcv-stage-18",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "e",
+                "i",
+                "o",
+                "u"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ð",
+            "right": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú"
+              ]
+            ],
+            "right_edge": false,
+            "target": [
+              "θ"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-19",
+          "input_stage": "ringe-2022-vcv-stage-18",
+          "output_stage": "ringe-2022-vcv-stage-19",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "e",
+                "i",
+                "o",
+                "u"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "z",
+            "right": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú"
+              ]
+            ],
+            "right_edge": false,
+            "target": [
+              "s"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-20",
+          "input_stage": "ringe-2022-vcv-stage-19",
+          "output_stage": "ringe-2022-vcv-stage-20",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "e",
+                "i",
+                "o",
+                "u"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ɣ",
+            "right": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú"
+              ]
+            ],
+            "right_edge": false,
+            "target": [
+              "x"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-21",
+          "input_stage": "ringe-2022-vcv-stage-20",
+          "output_stage": "ringe-2022-vcv-stage-21",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "e",
+                "i",
+                "o",
+                "u"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ɣʷ",
+            "right": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú"
+              ]
+            ],
+            "right_edge": false,
+            "target": [
+              "xʷ"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-22",
+          "input_stage": "ringe-2022-vcv-stage-21",
+          "output_stage": "ringe-2022-vcv-stage-22",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "á",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "a"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-23",
+          "input_stage": "ringe-2022-vcv-stage-22",
+          "output_stage": "ringe-2022-vcv-stage-23",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              "*",
+              "*"
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "a",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "á"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-24",
+          "input_stage": "ringe-2022-vcv-stage-23",
+          "output_stage": "ringe-2022-vcv-stage-24",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "é",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "e"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-25",
+          "input_stage": "ringe-2022-vcv-stage-24",
+          "output_stage": "ringe-2022-vcv-stage-25",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              "*",
+              "*"
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "e",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "é"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-26",
+          "input_stage": "ringe-2022-vcv-stage-25",
+          "output_stage": "ringe-2022-vcv-stage-26",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "í",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "i"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-27",
+          "input_stage": "ringe-2022-vcv-stage-26",
+          "output_stage": "ringe-2022-vcv-stage-27",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              "*",
+              "*"
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "i",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "í"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-28",
+          "input_stage": "ringe-2022-vcv-stage-27",
+          "output_stage": "ringe-2022-vcv-stage-28",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "ó",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "o"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-29",
+          "input_stage": "ringe-2022-vcv-stage-28",
+          "output_stage": "ringe-2022-vcv-stage-29",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              "*",
+              "*"
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "o",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "ó"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-30",
+          "input_stage": "ringe-2022-vcv-stage-29",
+          "output_stage": "ringe-2022-vcv-stage-30",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "ú",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "u"
+            ]
+          }
+        },
+        {
+          "id": "ringe-2022-vcv-law-31",
+          "input_stage": "ringe-2022-vcv-stage-30",
+          "output_stage": "ringe-2022-vcv-stage-31",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              "*",
+              "*"
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "u",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "ú"
+            ]
+          }
+        }
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "description": "Deliberately reversed chronology control, not an attributed historical theory.",
+      "final_stage": "stress-before-verner-control-stage-31",
+      "id": "stress-before-verner-control",
+      "initial_stage": "accented-pre-germanic-window",
+      "inventory": [
+        "a",
+        "b",
+        "bʰ",
+        "d",
+        "dʰ",
+        "e",
+        "f",
+        "g",
+        "gʰ",
+        "gʷ",
+        "gʷʰ",
+        "i",
+        "j",
+        "k",
+        "kʷ",
+        "l",
+        "m",
+        "n",
+        "o",
+        "p",
+        "r",
+        "s",
+        "t",
+        "u",
+        "w",
+        "x",
+        "xʷ",
+        "z",
+        "á",
+        "é",
+        "í",
+        "ð",
+        "ó",
+        "ú",
+        "ɣ",
+        "ɣʷ",
+        "β",
+        "θ"
+      ],
+      "laws": [
+        {
+          "id": "stress-before-verner-control-law-1",
+          "input_stage": "accented-pre-germanic-window",
+          "output_stage": "stress-before-verner-control-stage-1",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "f",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "p"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-2",
+          "input_stage": "stress-before-verner-control-stage-1",
+          "output_stage": "stress-before-verner-control-stage-2",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú",
+                "m",
+                "n",
+                "l",
+                "r",
+                "w",
+                "j"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "f",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "p"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-3",
+          "input_stage": "stress-before-verner-control-stage-2",
+          "output_stage": "stress-before-verner-control-stage-3",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "θ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "t"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-4",
+          "input_stage": "stress-before-verner-control-stage-3",
+          "output_stage": "stress-before-verner-control-stage-4",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú",
+                "m",
+                "n",
+                "l",
+                "r",
+                "w",
+                "j"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "θ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "t"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-5",
+          "input_stage": "stress-before-verner-control-stage-4",
+          "output_stage": "stress-before-verner-control-stage-5",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "x",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "k"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-6",
+          "input_stage": "stress-before-verner-control-stage-5",
+          "output_stage": "stress-before-verner-control-stage-6",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú",
+                "m",
+                "n",
+                "l",
+                "r",
+                "w",
+                "j"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "x",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "k"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-7",
+          "input_stage": "stress-before-verner-control-stage-6",
+          "output_stage": "stress-before-verner-control-stage-7",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "xʷ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "kʷ"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-8",
+          "input_stage": "stress-before-verner-control-stage-7",
+          "output_stage": "stress-before-verner-control-stage-8",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú",
+                "m",
+                "n",
+                "l",
+                "r",
+                "w",
+                "j"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "xʷ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "kʷ"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-9",
+          "input_stage": "stress-before-verner-control-stage-8",
+          "output_stage": "stress-before-verner-control-stage-9",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "p",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "b"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-10",
+          "input_stage": "stress-before-verner-control-stage-9",
+          "output_stage": "stress-before-verner-control-stage-10",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "t",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "d"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-11",
+          "input_stage": "stress-before-verner-control-stage-10",
+          "output_stage": "stress-before-verner-control-stage-11",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "k",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "g"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-12",
+          "input_stage": "stress-before-verner-control-stage-11",
+          "output_stage": "stress-before-verner-control-stage-12",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "kʷ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "gʷ"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-13",
+          "input_stage": "stress-before-verner-control-stage-12",
+          "output_stage": "stress-before-verner-control-stage-13",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "β",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "bʰ"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-14",
+          "input_stage": "stress-before-verner-control-stage-13",
+          "output_stage": "stress-before-verner-control-stage-14",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ð",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "dʰ"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-15",
+          "input_stage": "stress-before-verner-control-stage-14",
+          "output_stage": "stress-before-verner-control-stage-15",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ɣ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "gʰ"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-16",
+          "input_stage": "stress-before-verner-control-stage-15",
+          "output_stage": "stress-before-verner-control-stage-16",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ɣʷ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "gʷʰ"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-17",
+          "input_stage": "stress-before-verner-control-stage-16",
+          "output_stage": "stress-before-verner-control-stage-17",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "á",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "a"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-18",
+          "input_stage": "stress-before-verner-control-stage-17",
+          "output_stage": "stress-before-verner-control-stage-18",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              "*",
+              "*"
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "a",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "á"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-19",
+          "input_stage": "stress-before-verner-control-stage-18",
+          "output_stage": "stress-before-verner-control-stage-19",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "é",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "e"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-20",
+          "input_stage": "stress-before-verner-control-stage-19",
+          "output_stage": "stress-before-verner-control-stage-20",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              "*",
+              "*"
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "e",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "é"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-21",
+          "input_stage": "stress-before-verner-control-stage-20",
+          "output_stage": "stress-before-verner-control-stage-21",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "í",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "i"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-22",
+          "input_stage": "stress-before-verner-control-stage-21",
+          "output_stage": "stress-before-verner-control-stage-22",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              "*",
+              "*"
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "i",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "í"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-23",
+          "input_stage": "stress-before-verner-control-stage-22",
+          "output_stage": "stress-before-verner-control-stage-23",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "ó",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "o"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-24",
+          "input_stage": "stress-before-verner-control-stage-23",
+          "output_stage": "stress-before-verner-control-stage-24",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              "*",
+              "*"
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "o",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "ó"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-25",
+          "input_stage": "stress-before-verner-control-stage-24",
+          "output_stage": "stress-before-verner-control-stage-25",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "ú",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "u"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-26",
+          "input_stage": "stress-before-verner-control-stage-25",
+          "output_stage": "stress-before-verner-control-stage-26",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              "*",
+              "*"
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "u",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "ú"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-27",
+          "input_stage": "stress-before-verner-control-stage-26",
+          "output_stage": "stress-before-verner-control-stage-27",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "e",
+                "i",
+                "o",
+                "u"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "β",
+            "right": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú"
+              ]
+            ],
+            "right_edge": false,
+            "target": [
+              "f"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-28",
+          "input_stage": "stress-before-verner-control-stage-27",
+          "output_stage": "stress-before-verner-control-stage-28",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "e",
+                "i",
+                "o",
+                "u"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ð",
+            "right": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú"
+              ]
+            ],
+            "right_edge": false,
+            "target": [
+              "θ"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-29",
+          "input_stage": "stress-before-verner-control-stage-28",
+          "output_stage": "stress-before-verner-control-stage-29",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "e",
+                "i",
+                "o",
+                "u"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "z",
+            "right": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú"
+              ]
+            ],
+            "right_edge": false,
+            "target": [
+              "s"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-30",
+          "input_stage": "stress-before-verner-control-stage-29",
+          "output_stage": "stress-before-verner-control-stage-30",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "e",
+                "i",
+                "o",
+                "u"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ɣ",
+            "right": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú"
+              ]
+            ],
+            "right_edge": false,
+            "target": [
+              "x"
+            ]
+          }
+        },
+        {
+          "id": "stress-before-verner-control-law-31",
+          "input_stage": "stress-before-verner-control-stage-30",
+          "output_stage": "stress-before-verner-control-stage-31",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "a",
+                "e",
+                "i",
+                "o",
+                "u"
+              ]
+            ],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ɣʷ",
+            "right": [
+              [
+                "a",
+                "á",
+                "e",
+                "é",
+                "i",
+                "í",
+                "o",
+                "ó",
+                "u",
+                "ú"
+              ]
+            ],
+            "right_edge": false,
+            "target": [
+              "xʷ"
+            ]
+          }
+        }
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "description": "Kloekhorst 2006 pp.82-91,105: restricted Hittite written-onset projection, with h2/h3 loss before o and h3 loss before resonants. Unwritten glottal stop is not a claim of phonetic absence.",
+      "final_stage": "kloekhorst-2006-written-onset-stage-6",
+      "id": "kloekhorst-2006-written-onset",
+      "initial_stage": "pie-onset-projection",
+      "inventory": [
+        "R",
+        "a",
+        "e",
+        "h",
+        "h1",
+        "h2",
+        "h3",
+        "l",
+        "m",
+        "n",
+        "o",
+        "r",
+        "t"
+      ],
+      "laws": [
+        {
+          "id": "kloekhorst-2006-written-onset-law-1",
+          "input_stage": "pie-onset-projection",
+          "output_stage": "kloekhorst-2006-written-onset-stage-1",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [
+              [
+                "o"
+              ]
+            ],
+            "right_edge": false,
+            "target": [
+              "h2",
+              "h3"
+            ]
+          }
+        },
+        {
+          "id": "kloekhorst-2006-written-onset-law-2",
+          "input_stage": "kloekhorst-2006-written-onset-stage-1",
+          "output_stage": "kloekhorst-2006-written-onset-stage-2",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [
+              [
+                "n",
+                "r",
+                "l",
+                "m",
+                "R"
+              ]
+            ],
+            "right_edge": false,
+            "target": [
+              "h3"
+            ]
+          }
+        },
+        {
+          "id": "kloekhorst-2006-written-onset-law-3",
+          "input_stage": "kloekhorst-2006-written-onset-stage-2",
+          "output_stage": "kloekhorst-2006-written-onset-stage-3",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "h1"
+            ]
+          }
+        },
+        {
+          "id": "kloekhorst-2006-written-onset-law-4",
+          "input_stage": "kloekhorst-2006-written-onset-stage-3",
+          "output_stage": "kloekhorst-2006-written-onset-stage-4",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "h",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "h2",
+              "h3"
+            ]
+          }
+        },
+        {
+          "id": "kloekhorst-2006-written-onset-law-5",
+          "input_stage": "kloekhorst-2006-written-onset-stage-4",
+          "output_stage": "kloekhorst-2006-written-onset-stage-5",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "h"
+              ]
+            ],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "a",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "e"
+            ]
+          }
+        },
+        {
+          "id": "kloekhorst-2006-written-onset-law-6",
+          "input_stage": "kloekhorst-2006-written-onset-stage-5",
+          "output_stage": "kloekhorst-2006-written-onset-stage-6",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "a",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "o"
+            ]
+          }
+        }
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "description": "Retention comparison attributed to Melchert 1987 as reported by Kloekhorst 2006 pp.85-86. Primary Melchert PDF unavailable; attribution and scope require specialist review.",
+      "final_stage": "melchert-retention-as-reported-2006-stage-4",
+      "id": "melchert-retention-as-reported-2006",
+      "initial_stage": "pie-onset-projection",
+      "inventory": [
+        "R",
+        "a",
+        "e",
+        "h",
+        "h1",
+        "h2",
+        "h3",
+        "l",
+        "m",
+        "n",
+        "o",
+        "r",
+        "t"
+      ],
+      "laws": [
+        {
+          "id": "melchert-retention-as-reported-2006-law-1",
+          "input_stage": "pie-onset-projection",
+          "output_stage": "melchert-retention-as-reported-2006-stage-1",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "h1"
+            ]
+          }
+        },
+        {
+          "id": "melchert-retention-as-reported-2006-law-2",
+          "input_stage": "melchert-retention-as-reported-2006-stage-1",
+          "output_stage": "melchert-retention-as-reported-2006-stage-2",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "h",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "h2",
+              "h3"
+            ]
+          }
+        },
+        {
+          "id": "melchert-retention-as-reported-2006-law-3",
+          "input_stage": "melchert-retention-as-reported-2006-stage-2",
+          "output_stage": "melchert-retention-as-reported-2006-stage-3",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [
+              [
+                "h"
+              ]
+            ],
+            "left_edge": true,
+            "mode": "simultaneous",
+            "replacement": "a",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "e"
+            ]
+          }
+        },
+        {
+          "id": "melchert-retention-as-reported-2006-law-4",
+          "input_stage": "melchert-retention-as-reported-2006-stage-3",
+          "output_stage": "melchert-retention-as-reported-2006-stage-4",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "a",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "o"
+            ]
+          }
+        }
+      ],
+      "version": "1.0.0"
+    }
+  ],
+  "schema_version": "1.0.0"
+}

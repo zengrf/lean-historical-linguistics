@@ -1,0 +1,147 @@
+{
+  "alignment_data": {
+    "alignments": [
+      {
+        "evidence_unit": "family-53",
+        "id": "pie-86",
+        "rows": [
+          {
+            "aligned": [
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "gap",
+                "value": null
+              },
+              {
+                "kind": "segment",
+                "value": "ɲ"
+              },
+              {
+                "kind": "segment",
+                "value": "u"
+              }
+            ],
+            "doculect_id": "iecor-form-81-110-1",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "ɲ"
+              },
+              {
+                "kind": "segment",
+                "value": "u"
+              }
+            ],
+            "source_ref": "cldf/forms.csv#81-110-1:Phonemic_Segments"
+          },
+          {
+            "aligned": [
+              {
+                "kind": "segment",
+                "value": "n"
+              },
+              {
+                "kind": "segment",
+                "value": "é̞"
+              },
+              {
+                "kind": "segment",
+                "value": "o̞"
+              },
+              {
+                "kind": "segment",
+                "value": "s"
+              }
+            ],
+            "doculect_id": "iecor-form-110-110-1",
+            "original": [
+              {
+                "kind": "segment",
+                "value": "n"
+              },
+              {
+                "kind": "segment",
+                "value": "é̞"
+              },
+              {
+                "kind": "segment",
+                "value": "o̞"
+              },
+              {
+                "kind": "segment",
+                "value": "s"
+              }
+            ],
+            "source_ref": "cldf/forms.csv#110-110-1:Phonemic_Segments"
+          }
+        ],
+        "width": 4
+      }
+    ],
+    "description": "Source-backed unit-edit baseline alignment; phonological homology and cognacy are not certified.",
+    "doculects": [
+      "iecor-form-81-110-1",
+      "iecor-form-110-110-1"
+    ],
+    "id": "pie-86",
+    "schema_version": "1.0.0",
+    "source_kind": "sourced"
+  },
+  "claim": "feasibility-only",
+  "groups": [
+    {
+      "claimed_support": 1,
+      "id": "column-0",
+      "members": [
+        "pie-86-c0"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-1",
+      "members": [
+        "pie-86-c1"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-2",
+      "members": [
+        "pie-86-c2"
+      ]
+    },
+    {
+      "claimed_support": 1,
+      "id": "column-3",
+      "members": [
+        "pie-86-c3"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "alignment_id": "pie-86",
+      "column_index": 0,
+      "id": "pie-86-c0"
+    },
+    {
+      "alignment_id": "pie-86",
+      "column_index": 1,
+      "id": "pie-86-c1"
+    },
+    {
+      "alignment_id": "pie-86",
+      "column_index": 2,
+      "id": "pie-86-c2"
+    },
+    {
+      "alignment_id": "pie-86",
+      "column_index": 3,
+      "id": "pie-86-c3"
+    }
+  ],
+  "support_policy": "distinct-evidence-units-v1"
+}

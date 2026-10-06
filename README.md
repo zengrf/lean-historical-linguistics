@@ -16,6 +16,16 @@ This repository delivers a literature study, a retained research library, an exe
 
 ## Start reading
 
+**M5's computational implementation is complete and awaits specialist review:**
+200 source-backed IE-CoR sets / 843 distinct reflexes across ten branches; a
+20-set core with 161 reflexes; frozen family splits, source-defined diagnostic
+packages, three morphology dossiers and a separate attested-Latin control.
+All 1,308 forward certificates and 310 declared-pool inverse results are checked.
+The lexical baselines have low full-word coverage, and every failure is retained.
+M5 remains **in review**, labeled **computationally checked, linguistically
+unreviewed**. See [M5 delivery and results](docs/11-m5-delivery.md) and the
+[pending specialist sign-off](reviews/pie-signoff.md).
+
 | Document | Purpose |
 |---|---|
 | [Literature review](docs/01-literature-review.md) | Comparative method, prior computational systems, PIE, Sino-Tibetan, formal languages and uncertainty |
@@ -28,15 +38,16 @@ This repository delivers a literature study, a retained research library, an exe
 | [M2 implementation and verification](docs/08-m2-delivery.md) | Contextual rule semantics, proved trace checker, independent examples and adversarial tests |
 | [M3 implementation and verification](docs/09-m3-delivery.md) | Row preservation, pairwise compatibility, distinct-unit support and feasible partitions |
 | [M4 implementation and verification](docs/10-m4-delivery.md) | Complete bounded inverse sets, joint alternatives, ambiguity and explicit incomplete searches |
+| [M5 implementation and review status](docs/11-m5-delivery.md) | Source-backed PIE pilot, frozen baseline results, source-analysis scope and the open specialist-review gate |
 | [Annotated bibliography](bibliography/README.md) | 132 source-specific annotations, original links, reading scope and PDF locations |
-| [Milestone register](data/milestones.json) | Machine-readable delivery goals; M0–M4 delivered, M5–M9 planned |
+| [Milestone register](data/milestones.json) | Machine-readable delivery goals; M0–M4 delivered, M5 in review, M6–M9 planned |
 
 ## What is retained and checked
 
 - **127 PDFs, representing 122 qualifying distinct works**, retained locally: 5,184 pages and approximately 211 MB. Proposals, reviews/replies and a chapter already contained in a downloaded book do not count toward the 100-work floor. Five unsuccessful acquisitions are documented separately.
 - **64 PDFs are included in this public repository** under their recorded redistribution terms. The other 63 are retained in the ignored local library. The manifest and fetcher preserve their original source locations; continued remote availability is not guaranteed.
 - **132 annotated references**: 34 focused excerpt readings, 82 excerpt screenings, 10 visual excerpt readings, one decoded-abstract screening, two web-only excerpt readings and three access-gap notes. This is not a claim to have read 5,184 pages cover to cover.
-- **127 Lean theorem declarations**: 22 M0 results, five M1 evidence results, 17 M2 contextual-rule results, 35 M3 alignment/correspondence results and 48 M4 reconstruction/ambiguity results. The audit permits Lean's standard logical axioms and rejects project axioms, proof placeholders and `native_decide`.
+- **133 Lean theorem declarations**: 22 M0 results, five M1 evidence results, 17 M2 contextual-rule results, 35 M3 alignment/correspondence results, 48 M4 reconstruction/ambiguity results and six M5 case-study results. The audit permits Lean's standard logical axioms and rejects project axioms, proof placeholders and `native_decide`.
 
 The [full local acquisition audit](reports/library-audit.json) records actual hash and page-count checks. Public CI validates the public PDFs and the acquisition ledger; it cannot verify copies absent from a public checkout. See [verification records](reports/README.md).
 
@@ -79,6 +90,9 @@ python scripts/verify_m3.py --check-report
 python scripts/build_m4_fixtures.py --check
 python scripts/verify_m4.py --audit reports/lean-axioms-current.txt
 python scripts/verify_m4.py --check-report
+python scripts/verify_m5.py --audit reports/lean-axioms-current.txt
+python scripts/verify_m5.py --check-report
+python scripts/review_pie.py
 ```
 
 The default toolchain is pinned in [lean-toolchain](lean/lean-toolchain). CI builds Lean **4.19.0 and 4.34.1** independently. The original local build used 4.19.0 because the 4.34.1 binary did not run on the host's macOS 10.15. If you need that compatibility path, replace `lake` with `lake +leanprover/lean4:v4.19.0` in each Lean command. CI results, rather than local compatibility claims, establish the newer-toolchain build status.

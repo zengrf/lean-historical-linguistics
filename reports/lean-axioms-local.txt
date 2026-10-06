@@ -1,3 +1,9 @@
+'Historical.CaseStudy.retrieval_correct' depends on axioms: [propext, Quot.sound]
+'Historical.CaseStudy.retrieval_sound' depends on axioms: [propext, Quot.sound]
+'Historical.CaseStudy.retrieval_complete' depends on axioms: [propext, Quot.sound]
+'Historical.CaseStudy.retrieval_mono' depends on axioms: [propext, Quot.sound]
+'Historical.CaseStudy.retrieval_empty_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Historical.CaseStudy.forward_certificate_accepted' depends on axioms: [propext]
 'Comparative.run_append' does not depend on any axioms
 'Comparative.derives_iff_run' does not depend on any axioms
 'Comparative.checkTrace_sound' depends on axioms: [propext]

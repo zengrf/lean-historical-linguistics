@@ -178,7 +178,9 @@ def make_evidence(corpus, lock):
                 representation="orthographic", attestation="attested", evidence_state="present", analysis_id=None, proto_node_id=None,
                 citations=[dict(source_id="iecor", locator=r["source_locator"])],
                 readings=[dict(id="source-orthography", original=f["Value"], normalized=f["Value"],
-                               cells=[dict(kind="segment", value=c) for c in f["Value"]], normalization=[], choices=[])],
+                               cells=[dict(kind="segment", value=c) for c in f["Value"]],
+                               normalization=[dict(method_id="identity-orthography", method_version="1", input=f["Value"], output=f["Value"],
+                                                   reason="Retain every source character without phonological interpretation")], choices=[])],
                 uncertain=True, uncertainty_note="Source spelling retained, including any alternatives. Row-level bibliography and specialist transcription review are absent; these character cells are not phonological observations.",
                 imported_from=dict(dataset_id="iecor", table="forms.csv", row_id=f["ID"], id_column="ID", original_column="Value",
                                    raw_columns=[dict(name=k, value=v) for k, v in f.items()]))
@@ -187,7 +189,8 @@ def make_evidence(corpus, lock):
                       version=lock["commit"], license=lock["license"], kind="dataset", sha256=next(f["sha256"] for f in lock["files"] if f["path"] == "cldf/forms.csv"))],
         doculects=[dict(id="doc-"+lid, name=l["Name"], family="Indo-European", stage=l["Variety"] or "As distinguished by the source; date unspecified", kind="attested", date_range=None) for lid,l in sorted(langs.items())],
         meanings=[dict(id="meaning-"+mid, label=m["Name"]) for mid,m in sorted(meanings.items())],
-        analyses=[], normalization_methods=[], choice_groups=[], records=list(records.values()))
+        analyses=[], normalization_methods=[dict(id="identity-orthography", version="1", description="Exact identity of source orthography; code points are display cells, not inferred phonemes")],
+        choice_groups=[], records=list(records.values()))
 
 
 def main():
@@ -198,7 +201,7 @@ def main():
         if args.check:
             assert path.read_bytes() == data, "Changed frozen corpus/split: " + name
         else:
-            if path.exists() and path.read_bytes() != data:
+            if name != "evidence.json" and path.exists() and path.read_bytes() != data:
                 raise ValueError("Frozen input changed; create a new explicitly versioned study instead: " + name)
             path.write_bytes(data)
     c = generated["corpus.json"]

@@ -36838,7 +36838,7 @@
     }
   ],
   "input_hashes": {
-    ".github/workflows/ci.yml": "5f2ec325171436e4e9b2cc278dd8d00e6bd34a191b48c2d7d33e194593defd34",
+    ".github/workflows/ci.yml": "7b6c18beb16b8c3cd341f5823851b5da98d15ff57abbafde4d439a9e901bb2e5",
     "data/correspondence/sites/shared-01.json": "66cce63730ba14182363a67e29c0f910e3413486f250c8b93ac210002ef54f64",
     "data/reconstruction/README.md": "f191d990cc509e4151e500ce0a7050c2d0ce9a21d44bbd0170e83db7c1d6a639",
     "data/reconstruction/complete/absent-first.json": "b302d39dc6571db2f02e4ff9fb03acd5f26bfd3e2bf8f58d3d852a42a0d9c464",
@@ -36924,15 +36924,16 @@
     "data/reconstruction/invalid/wrong-root-stage.json": "aee1fd62bf08fb8608cb9901cddf309065b619b146760ce732c8ffee03b31888",
     "data/reconstruction/invalid/wrong-version.json": "e2b8afa1e1d40fd085956ba249b5f6d1ed5dfa6b871bbb82353e44b5eea3a6b0",
     "data/reconstruction/manifest.json": "7b6d19dc263f1c91835f4ddb289eb1537f2f436d52083c686bb86e13f2476846",
-    "docs/10-m4-delivery.md": "3e24c37ba6a4afcefc85bbfe4cb914a71e0ace07c602a7cde839360404d20c60",
+    "docs/10-m4-delivery.md": "ee3f015fda78e4333addae1d2ce5636e87de7c741bbcacf3fb79b39ac8573b33",
     "docs/bounded-reconstruction-semantics.md": "3fc97e1d064cfbf41ab16e0ff26b115c2205c2861303e26b94e8eec8bac30699",
-    "lean/Audit.lean": "cb79e8ff8a282fc5fa649def799a07a6ae28bd12dfdc8ca396c72d08d0337946",
+    "lean/Audit.lean": "d63b08bdbd6ed5bde212ecf9346cb53c0d1eb25f3ec0c69a35c9406a477b3706",
     "lean/Comparative.lean": "5a86cb79f48b5bb7b7dfe539ad9eb5529a6fcb4b985d5660f6e820ca5f161197",
     "lean/Comparative/Core.lean": "26e58a4147a07317f615912f37972f7d08c147968159872b5d8cd36c37c857a8",
     "lean/Comparative/Examples.lean": "e847b3a41625be6eb3375e261e48df1cc308f6bb15d185ea8d7b1402e1f9c8a4",
     "lean/Comparative/Patterns.lean": "50df3ef56d9c8e6cfb951fbb30554327ede2a1bd0a48a068489bba3a3632199e",
-    "lean/Historical.lean": "dbbe996dd93dea190e87e803746f34dac661e54e4481cb7023a9237fd33b36dd",
+    "lean/Historical.lean": "9e38821d770beeed8f96f1aa56b4f8fac26c279a70da39ed8a09332a88b310e1",
     "lean/Historical/Alignment.lean": "337932bb7e5b5703d106a5b1f10c92d6f62a609d80691c04fb5dfb3e9eb5f18e",
+    "lean/Historical/CaseStudy.lean": "673aa4bbf2fa522e0311aa26f20761fd0afe0aa4272a3a0283ad6271cc0a7f33",
     "lean/Historical/Certificates.lean": "bce24d449d0b39281d75987035b3d14d1287ee6c9b356ce9941a813dee53e158",
     "lean/Historical/Correspondence.lean": "aa2f84ccd5e060483aae601cda3905f7a6dd124ce07407e61150f4b9654715b0",
     "lean/Historical/CorrespondenceInput.lean": "36ec342752f5095ac82e4ea5eab19459c4cfaf8928520104afae9f9752e9fbf3",
@@ -36946,7 +36947,7 @@
     "lean/Historical/Validation.lean": "b7222532841e6d6ab06c269ce99e85c605a86ef9ebf56ea46644dbc613a8f18d",
     "lean/Reconstruct.lean": "b18251ecfda8887b1dafcd0f25607e064e9de05ebf9f5e7aa29f625080d84719",
     "lean/lake-manifest.json": "f308586d334c2feb35f11dedf1c9cabc082e3ddc0b7e3458b424f60ab8177f66",
-    "lean/lakefile.toml": "2c5d5891b057207be16aa2180c679001cef37ef60e33e7ceccb89784121af966",
+    "lean/lakefile.toml": "341e59f324c6f2c637b96dae84cf114a149cb87d57c8b002631f46d532d81857",
     "lean/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
     "scripts/build_m2_fixtures.py": "751c1961b39ab72a344f72dcd97624b58fc0cd8bef8b171f1754934a718ab985",
     "scripts/build_m4_fixtures.py": "de3240adf92ac8c04ebd33431c9ab579df302cecdb800bc0bac0db30d30d3fc1",
@@ -38302,7 +38303,7 @@
     ],
     "project_axioms": false,
     "proof_placeholders": false,
-    "total_declarations": 127
+    "total_declarations": 133
   },
   "source_kind": "synthetic",
   "status": "delivered"

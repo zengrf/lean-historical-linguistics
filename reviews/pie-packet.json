@@ -1,0 +1,559 @@
+{
+  "core": [
+    {
+      "id": "core-21",
+      "record_ids": [
+        "iecor-form-80-31-1",
+        "iecor-form-81-31-1",
+        "iecor-form-110-31-1",
+        "iecor-form-112-31-1",
+        "iecor-form-108-31-1",
+        "iecor-form-105-31-1",
+        "iecor-form-127-31-1",
+        "iecor-form-129-31-1",
+        "iecor-form-157-31-1"
+      ],
+      "set_id": "21",
+      "source_locator": "cldf/cognatesets.csv#21",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-39",
+      "record_ids": [
+        "iecor-form-3-52-1",
+        "iecor-form-81-52-1",
+        "iecor-form-110-52-1",
+        "iecor-form-105-52-1",
+        "iecor-form-100-52-1",
+        "iecor-form-112-52-1",
+        "iecor-form-127-52-1",
+        "iecor-form-129-52-1",
+        "iecor-form-157-52-1"
+      ],
+      "set_id": "39",
+      "source_locator": "cldf/cognatesets.csv#39",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-44",
+      "record_ids": [
+        "iecor-form-3-59-1",
+        "iecor-form-81-59-1",
+        "iecor-form-112-59-1",
+        "iecor-form-100-59-1",
+        "iecor-form-105-59-1",
+        "iecor-form-110-59-1",
+        "iecor-form-127-59-1",
+        "iecor-form-129-59-1",
+        "iecor-form-157-59-1"
+      ],
+      "set_id": "44",
+      "source_locator": "cldf/cognatesets.csv#44",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-82",
+      "record_ids": [
+        "iecor-form-3-106-1",
+        "iecor-form-100-106-1",
+        "iecor-form-80-106-1",
+        "iecor-form-81-106-1",
+        "iecor-form-112-106-1",
+        "iecor-form-110-106-1",
+        "iecor-form-105-106-1",
+        "iecor-form-127-106-1",
+        "iecor-form-129-106-1",
+        "iecor-form-157-106-1"
+      ],
+      "set_id": "82",
+      "source_locator": "cldf/cognatesets.csv#82",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-86",
+      "record_ids": [
+        "iecor-form-80-110-1",
+        "iecor-form-81-110-1",
+        "iecor-form-110-110-1",
+        "iecor-form-112-110-1",
+        "iecor-form-100-110-1",
+        "iecor-form-105-110-1",
+        "iecor-form-127-110-1",
+        "iecor-form-129-110-1",
+        "iecor-form-157-110-1"
+      ],
+      "set_id": "86",
+      "source_locator": "cldf/cognatesets.csv#86",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-131",
+      "record_ids": [
+        "iecor-form-80-159-1",
+        "iecor-form-81-159-1",
+        "iecor-form-105-159-1",
+        "iecor-form-110-159-1",
+        "iecor-form-112-159-1",
+        "iecor-form-129-159-1",
+        "iecor-form-140-159-1",
+        "iecor-form-157-159-1"
+      ],
+      "set_id": "131",
+      "source_locator": "cldf/cognatesets.csv#131",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-146",
+      "record_ids": [
+        "iecor-form-3-176-1",
+        "iecor-form-80-176-1",
+        "iecor-form-81-176-1",
+        "iecor-form-110-176-1",
+        "iecor-form-105-176-1",
+        "iecor-form-100-176-1",
+        "iecor-form-112-176-1",
+        "iecor-form-127-176-1",
+        "iecor-form-129-176-1",
+        "iecor-form-157-176-1"
+      ],
+      "set_id": "146",
+      "source_locator": "cldf/cognatesets.csv#146",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-153",
+      "record_ids": [
+        "iecor-form-3-183-1",
+        "iecor-form-81-183-1",
+        "iecor-form-80-183-1",
+        "iecor-form-110-183-1",
+        "iecor-form-112-183-1",
+        "iecor-form-100-183-1",
+        "iecor-form-105-183-1",
+        "iecor-form-127-183-1",
+        "iecor-form-129-183-1",
+        "iecor-form-157-183-1"
+      ],
+      "set_id": "153",
+      "source_locator": "cldf/cognatesets.csv#153",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-210",
+      "record_ids": [
+        "iecor-form-100-38-1",
+        "iecor-form-110-38-1",
+        "iecor-form-105-38-1",
+        "iecor-form-80-38-1",
+        "iecor-form-112-38-1",
+        "iecor-form-129-38-1",
+        "iecor-form-157-38-1",
+        "iecor-form-127-38-1"
+      ],
+      "set_id": "210",
+      "source_locator": "cldf/cognatesets.csv#210",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-219",
+      "record_ids": [
+        "iecor-form-110-50-1",
+        "iecor-form-80-50-1",
+        "iecor-form-81-50-1",
+        "iecor-form-108-50-1",
+        "iecor-form-129-50-1",
+        "iecor-form-132-50-1",
+        "iecor-form-295-50-1"
+      ],
+      "set_id": "219",
+      "source_locator": "cldf/cognatesets.csv#219",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-225",
+      "record_ids": [
+        "iecor-form-80-58-1",
+        "iecor-form-81-58-1",
+        "iecor-form-110-58-1",
+        "iecor-form-105-58-1",
+        "iecor-form-112-58-1",
+        "iecor-form-129-58-1",
+        "iecor-form-157-58-1"
+      ],
+      "set_id": "225",
+      "source_locator": "cldf/cognatesets.csv#225",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-335",
+      "record_ids": [
+        "iecor-form-3-188-1",
+        "iecor-form-80-188-1",
+        "iecor-form-100-188-1",
+        "iecor-form-127-188-1",
+        "iecor-form-81-188-1",
+        "iecor-form-157-188-1",
+        "iecor-form-162-188-1",
+        "iecor-form-132-188-1",
+        "iecor-form-110-188-1"
+      ],
+      "set_id": "335",
+      "source_locator": "cldf/cognatesets.csv#335",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-342",
+      "record_ids": [
+        "iecor-form-112-198-1",
+        "iecor-form-100-198-1",
+        "iecor-form-81-198-1",
+        "iecor-form-105-198-1",
+        "iecor-form-80-198-1",
+        "iecor-form-157-198-1",
+        "iecor-form-148-198-1"
+      ],
+      "set_id": "342",
+      "source_locator": "cldf/cognatesets.csv#342",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-384",
+      "record_ids": [
+        "iecor-form-3-37-1",
+        "iecor-form-100-37-1",
+        "iecor-form-128-37-1",
+        "iecor-form-80-37-1",
+        "iecor-form-81-37-1"
+      ],
+      "set_id": "384",
+      "source_locator": "cldf/cognatesets.csv#384",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-411",
+      "record_ids": [
+        "iecor-form-3-69-1",
+        "iecor-form-110-69-1",
+        "iecor-form-80-69-1",
+        "iecor-form-81-69-1",
+        "iecor-form-129-69-1",
+        "iecor-form-105-69-1"
+      ],
+      "set_id": "411",
+      "source_locator": "cldf/cognatesets.csv#411",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-519",
+      "record_ids": [
+        "iecor-form-80-17-1",
+        "iecor-form-110-17-1",
+        "iecor-form-105-17-1",
+        "iecor-form-112-17-1",
+        "iecor-form-81-17-1",
+        "iecor-form-129-17-1",
+        "iecor-form-172-17-1",
+        "iecor-form-3-17-1"
+      ],
+      "set_id": "519",
+      "source_locator": "cldf/cognatesets.csv#519",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-859",
+      "record_ids": [
+        "iecor-form-112-15-1",
+        "iecor-form-81-15-1",
+        "iecor-form-80-15-1",
+        "iecor-form-44-15-1",
+        "iecor-form-105-15-1",
+        "iecor-form-129-15-1"
+      ],
+      "set_id": "859",
+      "source_locator": "cldf/cognatesets.csv#859",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-2456",
+      "record_ids": [
+        "iecor-form-80-87-1",
+        "iecor-form-112-87-1",
+        "iecor-form-110-87-1",
+        "iecor-form-105-87-1",
+        "iecor-form-81-87-1",
+        "iecor-form-3-87-1",
+        "iecor-form-127-87-1",
+        "iecor-form-129-87-1",
+        "iecor-form-157-87-1"
+      ],
+      "set_id": "2456",
+      "source_locator": "cldf/cognatesets.csv#2456",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-2457",
+      "record_ids": [
+        "iecor-form-80-78-1",
+        "iecor-form-81-78-1",
+        "iecor-form-110-78-1",
+        "iecor-form-112-78-1",
+        "iecor-form-105-78-1",
+        "iecor-form-140-78-1",
+        "iecor-form-157-78-1"
+      ],
+      "set_id": "2457",
+      "source_locator": "cldf/cognatesets.csv#2457",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    },
+    {
+      "id": "core-6458",
+      "record_ids": [
+        "iecor-form-80-73-1",
+        "iecor-form-110-73-1",
+        "iecor-form-105-73-1",
+        "iecor-form-112-73-1",
+        "iecor-form-100-73-1",
+        "iecor-form-127-73-1",
+        "iecor-form-129-73-1",
+        "iecor-form-157-73-1"
+      ],
+      "set_id": "6458",
+      "source_locator": "cldf/cognatesets.csv#6458",
+      "tasks": [
+        "Check the source forms and exact locators",
+        "Assess normalization, variety and attestation status",
+        "Assess each derivation attempt and retained failure",
+        "Record uncertainty, morphology and chronological limitations"
+      ]
+    }
+  ],
+  "disputed": [
+    {
+      "id": "analysis-forehead",
+      "locator": "printed p.84",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "Shared h2e retention."
+    },
+    {
+      "id": "analysis-join",
+      "locator": "printed p.84",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "Only the initial sequence; gemination is outside scope."
+    },
+    {
+      "id": "analysis-grandmother",
+      "locator": "printed p.84",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "Only the initial sequence."
+    },
+    {
+      "id": "analysis-right-proper",
+      "locator": "printed p.83",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "Etymology and o-grade explicitly tentative in source; vowel quantity projected away."
+    },
+    {
+      "id": "analysis-obeisance",
+      "locator": "printed p.83-84",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "Source analysis disputes an alternative derivation; consonant development omitted."
+    },
+    {
+      "id": "analysis-carry-out",
+      "locator": "printed p.88",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "Only initial laryngeal presence: R abstracts the first resonant, ignoring vowels and resonant identity. No full-word epenthesis/gemination derivation."
+    },
+    {
+      "id": "analysis-stand",
+      "locator": "printed p.88",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "R abstracts the first resonant; the preceding a is outside the retention projection."
+    },
+    {
+      "id": "analysis-name",
+      "locator": "printed p.90",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "R abstracts source n and observed l, so this tests only initial laryngeal presence. The n-to-l history is not derived; h1/h3 reconstruction is disputed."
+    },
+    {
+      "id": "morphology-nominal-water",
+      "locator": "author PDF pp.1-2, section 2 and note 6",
+      "source": "kloekhorst2013-ablaut",
+      "tasks": [
+        "Assess source attribution and competing analyses",
+        "Record unresolved objections; do not infer agreement from formal validity"
+      ]
+    },
+    {
+      "id": "morphology-analogical-water",
+      "locator": "author PDF p.2 note 6",
+      "source": "kloekhorst2013-ablaut",
+      "tasks": [
+        "Assess source attribution and competing analyses",
+        "Record unresolved objections; do not infer agreement from formal validity"
+      ]
+    },
+    {
+      "id": "morphology-hi-conjugation",
+      "locator": "pp.89-92; especially the ablaut and reduplication comparisons",
+      "source": "kloekhorst2018-hi",
+      "tasks": [
+        "Assess source attribution and competing analyses",
+        "Record unresolved objections; do not infer agreement from formal validity"
+      ]
+    }
+  ],
+  "encoder": "Codex AI assistant in the primary implementation session",
+  "global_checks": [
+    "Check Ringe's scoped chronology and deliberately wrong-order control",
+    "Check secondary attribution of Melchert, Jasanoff and Schindler",
+    "Review conservative family grouping for hidden root or paradigm links",
+    "Confirm no successful full PIE derivation is claimed solely from baseline exact matches",
+    "Assess whether the restricted fragment is sufficient for release"
+  ],
+  "id": "pie-m5-specialist-review-v1",
+  "input_hashes": {
+    "data/pie/alignments/131.json": "5ac1870908bff45364dadafef7e3afef9ffffb5b163d389607635dd03c900a15",
+    "data/pie/alignments/146.json": "561110bb0093b4fbfd3b1e1c4dd2d8e0bcfb05a5ad7ec67e92340dac9fbad146",
+    "data/pie/alignments/153.json": "cae221457d6db6dc484ea2a934a891cd4345ac2973d0447662a617d45c6eee85",
+    "data/pie/alignments/21.json": "a004b86d6daf1d0db0a97631891d8f6b0273833a2291a1bc43618619c47da925",
+    "data/pie/alignments/210.json": "ae0d8d380672318cf29f1f712a7f75403b6cf35e6422e5d67ca187c068ec90e5",
+    "data/pie/alignments/219.json": "9acd1af612f01491a53d54b10dc226cfcf4c6878aa9994372948d3599f67c6bc",
+    "data/pie/alignments/225.json": "c7bdb2850c7cc291cb57896cce2b516dfe26b8c752e6ae80958de3f2e601423c",
+    "data/pie/alignments/2456.json": "a88199c6a387b88b452db452771ff89bf8783c29ff710e1171a62073859f2fc7",
+    "data/pie/alignments/2457.json": "0813e5ef7f49f8f7323a77afc01a6eaac446c011020304dc5bf73aa241f8b096",
+    "data/pie/alignments/335.json": "fb16b3f648b91755e482e6dba0ea4ee4761f07de411d75e6c615eda3109f4c33",
+    "data/pie/alignments/342.json": "f1e56a1690c91eff8a44c6f347cdb04a63855f9dc5c7fc54df4996f1117d85dc",
+    "data/pie/alignments/384.json": "b885206bd195f65001e4f049a1a90dc6f714385b7117c72f4a08ee1764350f99",
+    "data/pie/alignments/39.json": "701487eae9dac03ebb2939cf97e9a75e42b57a0446ac82ace056c26418ad7506",
+    "data/pie/alignments/411.json": "aa4c5a65a8bc06d1003d5793924f459d7235dee059d5488ac601037b1f4273e3",
+    "data/pie/alignments/44.json": "2999a190cb53a3f6d30952e7dbe9f217f6c5911c5ffb4f66c4ed9751c57a0eb7",
+    "data/pie/alignments/519.json": "22f440fe943904ac8a9dbeeadea5f19c204048ffb47d1214455c15969f696087",
+    "data/pie/alignments/6458.json": "03b5cf41bcd21bcd81cf96b3c8e4842a0adfcfdf5d11e11e96d8b1d6e1673e5e",
+    "data/pie/alignments/82.json": "f69aa40ebcb12b96489f4699e6bc01ca77e7574ae0c75bca58356e890ac956e8",
+    "data/pie/alignments/859.json": "e3279464ff94dedec16a23c0ca2425eb8288d5faaf0579eb45fef57d131ffaf7",
+    "data/pie/alignments/86.json": "d7d63384cd110481546707e9b2f68fa15a86667c2f9cdab174c67a7bf17e68a9",
+    "data/pie/corpus.json": "84c28aa4801392623bfdd147a94efd29fdb5889ceca7c582f86a77f8c8177fc4",
+    "data/pie/diagnostic-input.json": "dc58b47fface956f78b5752779e85f8b577ccdb21fc53230b66789889e05ea90",
+    "data/pie/evidence.json": "5139bfb282b8ae4bed6926bf8f41cd1546048ef7dd43de77441c3c07bfa92ec3",
+    "data/pie/experiment.json": "449348ab3d1b7a5e24b33b32930df27396af5245c27c6cbb259be922aeaccd10",
+    "data/pie/latin-control-design.json": "e1404e0c793be736191f2aa01d11c1c4075a195b144b8ac7608c3c6ac0edbf09",
+    "data/pie/latin-control-frozen.json": "f9ae570428c5542259932bbcb1fc639c42265f047735db0cc4217c83f417ec5a",
+    "data/pie/latin-control-input.json": "13fd7017ceb9f58811a26cdfed26588e4df1cbc0a2bacaa6dffa6d3afc4c23ff",
+    "data/pie/lexical-input.json": "f258dab9b2e592a5b3b4e1f611319c62c0c3a7fa73cf38f1fbedeb050a57e358",
+    "data/pie/morphology.json": "e792f6cfa0de9960638f1ce5ef116197a85c8ed4bb5efd6864cd933a56c9dc42",
+    "data/pie/selection.json": "b8abe50ac94c7f404f21e84d90ad1dc6fd0477f0c41bfb1f234775b6c1a9f445",
+    "data/pie/source-analyses.json": "82fc9f84fb69b8aba2615bbaf6c7b3a3a3b57cb72aec7b67cba2b57db686bfb4",
+    "data/pie/splits.json": "90005591513ab7d2b8b5344b355a1acfc99d0743646a68a1841b3f0f2790768d",
+    "reports/pie-diagnostic-execution.json": "3c8bf6d7fd8880f6b66d3e87f9d6242550fddac0634e92faa8c02695a585b133",
+    "reports/pie-latin-control-execution.json": "487d4f08aa6fafa96bb56e460159187c484326702e2158fed37442b72875f1d7",
+    "reports/pie-lexical-execution.json": "ebd893f90a0c0c3039b1bc57acb63b3c2b807df68e254b2d03a0b2327d1a86b0"
+  },
+  "required_reviewer": "Independent human specialist in Indo-European historical linguistics; no role in the original encoding",
+  "response_policy": "Bind the response to this packet's SHA-256. Every core/disputed item needs a decision and rationale. An AI report, missing response, self-review or unresolved release objection does not close the gate.",
+  "schema_version": "1.0.0"
+}

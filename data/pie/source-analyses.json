@@ -1,0 +1,506 @@
+{
+  "cases": [
+    {
+      "expected": [
+        "á",
+        "ð",
+        "e"
+      ],
+      "id": "vcv-unaccented",
+      "input": [
+        "a",
+        "t",
+        "é"
+      ],
+      "kind": "synthetic-source-rule-control",
+      "locator": "printed pp.55-56; PDF pp.73-74",
+      "package_ids": [
+        "ringe-2022-vcv",
+        "stress-before-verner-control"
+      ],
+      "raw_input": null,
+      "raw_output": null,
+      "scope": "Control strings illustrating a restricted source condition, not attested etymologies or full Proto-Germanic outputs.",
+      "source": "ringe2022",
+      "uncertainty": "The full seven-change sequence is not implemented; these controls cover only the declared fragment."
+    },
+    {
+      "expected": [
+        "á",
+        "θ",
+        "e"
+      ],
+      "id": "vcv-accented",
+      "input": [
+        "á",
+        "t",
+        "e"
+      ],
+      "kind": "synthetic-source-rule-control",
+      "locator": "printed pp.55-56; PDF pp.73-74",
+      "package_ids": [
+        "ringe-2022-vcv",
+        "stress-before-verner-control"
+      ],
+      "raw_input": null,
+      "raw_output": null,
+      "scope": "Control strings illustrating a restricted source condition, not attested etymologies or full Proto-Germanic outputs.",
+      "source": "ringe2022",
+      "uncertainty": "The full seven-change sequence is not implemented; these controls cover only the declared fragment."
+    },
+    {
+      "expected": [
+        "á",
+        "β",
+        "e"
+      ],
+      "id": "vcv-p",
+      "input": [
+        "a",
+        "p",
+        "é"
+      ],
+      "kind": "synthetic-source-rule-control",
+      "locator": "printed pp.55-56; PDF pp.73-74",
+      "package_ids": [
+        "ringe-2022-vcv",
+        "stress-before-verner-control"
+      ],
+      "raw_input": null,
+      "raw_output": null,
+      "scope": "Control strings illustrating a restricted source condition, not attested etymologies or full Proto-Germanic outputs.",
+      "source": "ringe2022",
+      "uncertainty": "The full seven-change sequence is not implemented; these controls cover only the declared fragment."
+    },
+    {
+      "expected": [
+        "á",
+        "ɣ",
+        "e"
+      ],
+      "id": "vcv-k",
+      "input": [
+        "a",
+        "k",
+        "é"
+      ],
+      "kind": "synthetic-source-rule-control",
+      "locator": "printed pp.55-56; PDF pp.73-74",
+      "package_ids": [
+        "ringe-2022-vcv",
+        "stress-before-verner-control"
+      ],
+      "raw_input": null,
+      "raw_output": null,
+      "scope": "Control strings illustrating a restricted source condition, not attested etymologies or full Proto-Germanic outputs.",
+      "source": "ringe2022",
+      "uncertainty": "The full seven-change sequence is not implemented; these controls cover only the declared fragment."
+    },
+    {
+      "expected": [
+        "á",
+        "ɣʷ",
+        "e"
+      ],
+      "id": "vcv-kw",
+      "input": [
+        "a",
+        "kʷ",
+        "é"
+      ],
+      "kind": "synthetic-source-rule-control",
+      "locator": "printed pp.55-56; PDF pp.73-74",
+      "package_ids": [
+        "ringe-2022-vcv",
+        "stress-before-verner-control"
+      ],
+      "raw_input": null,
+      "raw_output": null,
+      "scope": "Control strings illustrating a restricted source condition, not attested etymologies or full Proto-Germanic outputs.",
+      "source": "ringe2022",
+      "uncertainty": "The full seven-change sequence is not implemented; these controls cover only the declared fragment."
+    },
+    {
+      "expected": [
+        "á",
+        "z",
+        "e"
+      ],
+      "id": "vcv-s",
+      "input": [
+        "a",
+        "s",
+        "é"
+      ],
+      "kind": "synthetic-source-rule-control",
+      "locator": "printed pp.55-56; PDF pp.73-74",
+      "package_ids": [
+        "ringe-2022-vcv",
+        "stress-before-verner-control"
+      ],
+      "raw_input": null,
+      "raw_output": null,
+      "scope": "Control strings illustrating a restricted source condition, not attested etymologies or full Proto-Germanic outputs.",
+      "source": "ringe2022",
+      "uncertainty": "The full seven-change sequence is not implemented; these controls cover only the declared fragment."
+    },
+    {
+      "expected": [
+        "s",
+        "t",
+        "e"
+      ],
+      "id": "blocked-cluster",
+      "input": [
+        "s",
+        "t",
+        "e"
+      ],
+      "kind": "synthetic-source-rule-control",
+      "locator": "printed pp.55-56; PDF pp.73-74",
+      "package_ids": [
+        "ringe-2022-vcv",
+        "stress-before-verner-control"
+      ],
+      "raw_input": null,
+      "raw_output": null,
+      "scope": "Control strings illustrating a restricted source condition, not attested etymologies or full Proto-Germanic outputs.",
+      "source": "ringe2022",
+      "uncertainty": "The full seven-change sequence is not implemented; these controls cover only the declared fragment."
+    },
+    {
+      "expected": [
+        "á",
+        "t",
+        "e"
+      ],
+      "id": "voiced-stop-counterfeeding",
+      "input": [
+        "a",
+        "d",
+        "é"
+      ],
+      "kind": "synthetic-source-rule-control",
+      "locator": "printed pp.55-56; PDF pp.73-74",
+      "package_ids": [
+        "ringe-2022-vcv",
+        "stress-before-verner-control"
+      ],
+      "raw_input": null,
+      "raw_output": null,
+      "scope": "Control strings illustrating a restricted source condition, not attested etymologies or full Proto-Germanic outputs.",
+      "source": "ringe2022",
+      "uncertainty": "The full seven-change sequence is not implemented; these controls cover only the declared fragment."
+    },
+    {
+      "expected": [
+        "á",
+        "ð",
+        "e"
+      ],
+      "id": "breathy-stop",
+      "input": [
+        "a",
+        "dʰ",
+        "é"
+      ],
+      "kind": "synthetic-source-rule-control",
+      "locator": "printed pp.55-56; PDF pp.73-74",
+      "package_ids": [
+        "ringe-2022-vcv",
+        "stress-before-verner-control"
+      ],
+      "raw_input": null,
+      "raw_output": null,
+      "scope": "Control strings illustrating a restricted source condition, not attested etymologies or full Proto-Germanic outputs.",
+      "source": "ringe2022",
+      "uncertainty": "The full seven-change sequence is not implemented; these controls cover only the declared fragment."
+    },
+    {
+      "expected": [
+        "f",
+        "é"
+      ],
+      "id": "initial-stop",
+      "input": [
+        "p",
+        "é"
+      ],
+      "kind": "synthetic-source-rule-control",
+      "locator": "printed pp.55-56; PDF pp.73-74",
+      "package_ids": [
+        "ringe-2022-vcv",
+        "stress-before-verner-control"
+      ],
+      "raw_input": null,
+      "raw_output": null,
+      "scope": "Control strings illustrating a restricted source condition, not attested etymologies or full Proto-Germanic outputs.",
+      "source": "ringe2022",
+      "uncertainty": "The full seven-change sequence is not implemented; these controls cover only the declared fragment."
+    },
+    {
+      "expected": [
+        "h",
+        "a"
+      ],
+      "id": "forehead",
+      "input": [
+        "h2",
+        "e"
+      ],
+      "kind": "source-backed-projection",
+      "locator": "printed p.84",
+      "package_ids": [
+        "kloekhorst-2006-written-onset",
+        "melchert-retention-as-reported-2006"
+      ],
+      "raw_input": "*h₂ent-",
+      "raw_output": "ḫant-",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "Shared h2e retention."
+    },
+    {
+      "expected": [
+        "h",
+        "a"
+      ],
+      "id": "join",
+      "input": [
+        "h2",
+        "e"
+      ],
+      "kind": "source-backed-projection",
+      "locator": "printed p.84",
+      "package_ids": [
+        "kloekhorst-2006-written-onset",
+        "melchert-retention-as-reported-2006"
+      ],
+      "raw_input": "*h₂ep-",
+      "raw_output": "ḫapp-",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "Only the initial sequence; gemination is outside scope."
+    },
+    {
+      "expected": [
+        "h",
+        "a"
+      ],
+      "id": "grandmother",
+      "input": [
+        "h2",
+        "e"
+      ],
+      "kind": "source-backed-projection",
+      "locator": "printed p.84",
+      "package_ids": [
+        "kloekhorst-2006-written-onset",
+        "melchert-retention-as-reported-2006"
+      ],
+      "raw_input": "*h₂eno-",
+      "raw_output": "ḫanna-",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "Only the initial sequence."
+    },
+    {
+      "expected": [
+        "a"
+      ],
+      "id": "right-proper",
+      "input": [
+        "h2",
+        "o"
+      ],
+      "kind": "source-backed-projection",
+      "locator": "printed p.83",
+      "package_ids": [
+        "kloekhorst-2006-written-onset",
+        "melchert-retention-as-reported-2006"
+      ],
+      "raw_input": "*h₂ór-o-",
+      "raw_output": "āra-",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "Etymology and o-grade explicitly tentative in source; vowel quantity projected away."
+    },
+    {
+      "expected": [
+        "a"
+      ],
+      "id": "obeisance",
+      "input": [
+        "h2",
+        "o"
+      ],
+      "kind": "source-backed-projection",
+      "locator": "printed p.83-84",
+      "package_ids": [
+        "kloekhorst-2006-written-onset",
+        "melchert-retention-as-reported-2006"
+      ],
+      "raw_input": "*h₂oru̯o-i̯e/o-",
+      "raw_output": "aruuae-",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "Source analysis disputes an alternative derivation; consonant development omitted."
+    },
+    {
+      "expected": [
+        "R"
+      ],
+      "id": "carry-out",
+      "input": [
+        "h3",
+        "R"
+      ],
+      "kind": "source-backed-projection",
+      "locator": "printed p.88",
+      "package_ids": [
+        "kloekhorst-2006-written-onset",
+        "melchert-retention-as-reported-2006"
+      ],
+      "raw_input": "*h₃n-i̯e/o-",
+      "raw_output": "anii̯a-",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "Only initial laryngeal presence: R abstracts the first resonant, ignoring vowels and resonant identity. No full-word epenthesis/gemination derivation."
+    },
+    {
+      "expected": [
+        "R"
+      ],
+      "id": "stand",
+      "input": [
+        "h3",
+        "R"
+      ],
+      "kind": "source-backed-projection",
+      "locator": "printed p.88",
+      "package_ids": [
+        "kloekhorst-2006-written-onset",
+        "melchert-retention-as-reported-2006"
+      ],
+      "raw_input": "*h₃r-tó",
+      "raw_output": "arta",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "R abstracts the first resonant; the preceding a is outside the retention projection."
+    },
+    {
+      "expected": [
+        "R"
+      ],
+      "id": "name",
+      "input": [
+        "h3",
+        "R"
+      ],
+      "kind": "source-backed-projection",
+      "locator": "printed p.90",
+      "package_ids": [
+        "kloekhorst-2006-written-onset",
+        "melchert-retention-as-reported-2006"
+      ],
+      "raw_input": "*h₃neh₃-men-",
+      "raw_output": "lāman",
+      "scope": "Two-token initial-context diagnostic, not a full-word derivation. h is conventional written laryngeal retention; no phonetic value selected.",
+      "source": "kloekhorst2006-laryngeals",
+      "uncertainty": "R abstracts source n and observed l, so this tests only initial laryngeal presence. The n-to-l history is not derived; h1/h3 reconstruction is disputed."
+    }
+  ],
+  "chronology": {
+    "caution": "The source permits a/b simultaneity; this package chooses one licensed ordering. The reverse stress/Verner package is a falsification control, not a second scholarly theory.",
+    "edges": [
+      [
+        "a",
+        "d"
+      ],
+      [
+        "d",
+        "f"
+      ],
+      [
+        "f",
+        "g"
+      ],
+      [
+        "a",
+        "b"
+      ],
+      [
+        "b",
+        "e"
+      ],
+      [
+        "c",
+        "e"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ],
+    "encoded": [
+      "a: stop frication with obstruent blocking",
+      "b/c: stop-series changes",
+      "d: Verner only in explicit VCV windows",
+      "f: accent shift only in the declared control shapes"
+    ],
+    "excluded": [
+      "General last-nucleus lookup across arbitrary clusters",
+      "postnasal/initial hardening e",
+      "unstressed e raising g",
+      "laryngeal history and full lexical morphology"
+    ],
+    "source": "ringe2022"
+  },
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "id": "ringe2022",
+      "local_pdf": "library/downloads/olandervol2022.pdf",
+      "locators": [
+        "pp.55-56; PDF pp.73-74"
+      ],
+      "reading": "Text extraction inspected; rule conditions checked directly.",
+      "sha256": "6a361b313a4050163cfbd8994cfb54ac1e9bab8f8834a37911f46ddbf5dd2de8",
+      "title": "Don Ringe, What We Can (and Can't) Learn from Computational Cladistics, in Olander (ed.) 2022",
+      "url": "https://www.cambridge.org/core/product/4B44B5ACF0D3BBA89B9408050F112A52"
+    },
+    {
+      "id": "kloekhorst2006-laryngeals",
+      "local_pdf": "library/downloads/kloekhorst2006-laryngeals.pdf",
+      "locators": [
+        "pp.82-91,104-105"
+      ],
+      "reading": "Scanned PDF page images inspected; disputed reconstructions retained.",
+      "sha256": "d89bf1e0803450eea187c96bb2bbdeb99c488f198f3e701df4925f1708dbb15e",
+      "title": "Alwin Kloekhorst (2006), Initial laryngeals in Anatolian",
+      "url": "https://www.kloekhorst.nl/KloekhorstInitLar.pdf"
+    },
+    {
+      "id": "kloekhorst2013-ablaut",
+      "local_pdf": "library/downloads/kloekhorst2013-ablaut.pdf",
+      "locators": [
+        "author PDF pp.1-2, especially footnote 6"
+      ],
+      "reading": "Author PDF text inspected; traditional accounts are attributed through this source.",
+      "sha256": "bf5b6930cbde59c33608cf4e01d5891656a633c1e7372132c3f9f82304a03810",
+      "title": "Alwin Kloekhorst (2013), Indo-European nominal ablaut patterns: The Anatolian evidence",
+      "url": "https://www.kloekhorst.nl/KloekhorstIENominalAblautPatterns.pdf"
+    },
+    {
+      "id": "kloekhorst2018-hi",
+      "local_pdf": "library/downloads/kloekhorst2018-hi.pdf",
+      "locators": [
+        "pp.89-92; PDF pp.5-8"
+      ],
+      "reading": "Source discussion inspected; Jasanoff/Eichner are reported positions, not independently read full monographs.",
+      "sha256": "ab76bb6a56ea7da62b55aae42989e2e92e676b8ec447ea3a14898a0c9b8225e5",
+      "title": "Alwin Kloekhorst (2018), The origin of the Hittite hi-conjugation",
+      "url": "https://www.kloekhorst.nl/KloekhorstOriginOfHiConjugation.pdf"
+    }
+  ]
+}

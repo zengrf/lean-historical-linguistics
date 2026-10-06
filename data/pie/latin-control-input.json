@@ -1,0 +1,11009 @@
+{
+  "forward": [
+    {
+      "expected": [
+        "m",
+        "u",
+        "r",
+        "i"
+      ],
+      "id": "latin-18-17-28-1-identity",
+      "input": [
+        "m",
+        "o",
+        "r",
+        "iː"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "m",
+        "u",
+        "ʁ",
+        "i",
+        "ʁ"
+      ],
+      "id": "latin-18-25-28-1-identity",
+      "input": [
+        "m",
+        "o",
+        "r",
+        "iː"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "m",
+        "o",
+        "r",
+        "i",
+        "r",
+        "e"
+      ],
+      "id": "latin-18-39-28-1-identity",
+      "input": [
+        "m",
+        "o",
+        "r",
+        "iː"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "m",
+        "u",
+        "r",
+        "i"
+      ],
+      "id": "latin-18-17-28-1-correspondence",
+      "input": [
+        "m",
+        "o",
+        "r",
+        "iː"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "m",
+        "u",
+        "ʁ",
+        "i",
+        "ʁ"
+      ],
+      "id": "latin-18-25-28-1-correspondence",
+      "input": [
+        "m",
+        "o",
+        "r",
+        "iː"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "m",
+        "o",
+        "r",
+        "i",
+        "r",
+        "e"
+      ],
+      "id": "latin-18-39-28-1-correspondence",
+      "input": [
+        "m",
+        "o",
+        "r",
+        "iː"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "ʃ",
+        "ɛ̃"
+      ],
+      "id": "latin-21-25-31-1-identity",
+      "input": [
+        "k",
+        "a",
+        "n",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "k",
+        "a",
+        "n",
+        "e"
+      ],
+      "id": "latin-21-39-31-1-identity",
+      "input": [
+        "k",
+        "a",
+        "n",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "tʃ",
+        "a",
+        "ŋ"
+      ],
+      "id": "latin-21-42-31-1-identity",
+      "input": [
+        "k",
+        "a",
+        "n",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "ʃ",
+        "ɛ̃"
+      ],
+      "id": "latin-21-25-31-1-correspondence",
+      "input": [
+        "k",
+        "a",
+        "n",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "k",
+        "a",
+        "n",
+        "e"
+      ],
+      "id": "latin-21-39-31-1-correspondence",
+      "input": [
+        "k",
+        "a",
+        "n",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "tʃ",
+        "a",
+        "ŋ"
+      ],
+      "id": "latin-21-42-31-1-correspondence",
+      "input": [
+        "k",
+        "a",
+        "n",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-correspondence-42"
+    },
+    {
+      "expected": [
+        "ɔ",
+        "w"
+      ],
+      "id": "latin-28-17-39-1-identity",
+      "input": [
+        "oː",
+        "w",
+        "u",
+        "m"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "œ",
+        "f"
+      ],
+      "id": "latin-28-25-39-1-identity",
+      "input": [
+        "oː",
+        "w",
+        "u",
+        "m"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "w",
+        "ɔ",
+        "v",
+        "o"
+      ],
+      "id": "latin-28-39-39-1-identity",
+      "input": [
+        "oː",
+        "w",
+        "u",
+        "m"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "ɔ",
+        "w"
+      ],
+      "id": "latin-28-17-39-1-correspondence",
+      "input": [
+        "oː",
+        "w",
+        "u",
+        "m"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "œ",
+        "f"
+      ],
+      "id": "latin-28-25-39-1-correspondence",
+      "input": [
+        "oː",
+        "w",
+        "u",
+        "m"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "w",
+        "ɔ",
+        "v",
+        "o"
+      ],
+      "id": "latin-28-39-39-1-correspondence",
+      "input": [
+        "oː",
+        "w",
+        "u",
+        "m"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "s",
+        "i",
+        "ŋ",
+        "k"
+      ],
+      "id": "latin-39-17-52-1-identity",
+      "input": [
+        "kʷ",
+        "iː",
+        "n",
+        "kʷ",
+        "e"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "s",
+        "ɛ̃",
+        "k"
+      ],
+      "id": "latin-39-25-52-1-identity",
+      "input": [
+        "kʷ",
+        "iː",
+        "n",
+        "kʷ",
+        "e"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "tʃ",
+        "i",
+        "n",
+        "kʷ",
+        "e"
+      ],
+      "id": "latin-39-39-52-1-identity",
+      "input": [
+        "kʷ",
+        "iː",
+        "n",
+        "kʷ",
+        "e"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "s",
+        "i",
+        "ŋ",
+        "k"
+      ],
+      "id": "latin-39-17-52-1-correspondence",
+      "input": [
+        "kʷ",
+        "iː",
+        "n",
+        "kʷ",
+        "e"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "s",
+        "ɛ̃",
+        "k"
+      ],
+      "id": "latin-39-25-52-1-correspondence",
+      "input": [
+        "kʷ",
+        "iː",
+        "n",
+        "kʷ",
+        "e"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "tʃ",
+        "i",
+        "n",
+        "kʷ",
+        "e"
+      ],
+      "id": "latin-39-39-52-1-correspondence",
+      "input": [
+        "kʷ",
+        "iː",
+        "n",
+        "kʷ",
+        "e"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "kʷ",
+        "a",
+        "t",
+        "ɾ",
+        "ə"
+      ],
+      "id": "latin-44-17-59-1-identity",
+      "input": [
+        "kʷ",
+        "a",
+        "tː",
+        "w",
+        "o",
+        "r"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "k",
+        "a",
+        "t",
+        "ʁ"
+      ],
+      "id": "latin-44-25-59-1-identity",
+      "input": [
+        "kʷ",
+        "a",
+        "tː",
+        "w",
+        "o",
+        "r"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "kʷ",
+        "a",
+        "tː",
+        "r",
+        "o"
+      ],
+      "id": "latin-44-39-59-1-identity",
+      "input": [
+        "kʷ",
+        "a",
+        "tː",
+        "w",
+        "o",
+        "r"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "kʷ",
+        "a",
+        "t",
+        "ɾ",
+        "ə"
+      ],
+      "id": "latin-44-17-59-1-correspondence",
+      "input": [
+        "kʷ",
+        "a",
+        "tː",
+        "w",
+        "o",
+        "r"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "k",
+        "a",
+        "t",
+        "ʁ"
+      ],
+      "id": "latin-44-25-59-1-correspondence",
+      "input": [
+        "kʷ",
+        "a",
+        "tː",
+        "w",
+        "o",
+        "r"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "kʷ",
+        "a",
+        "tː",
+        "r",
+        "o"
+      ],
+      "id": "latin-44-39-59-1-correspondence",
+      "input": [
+        "kʷ",
+        "a",
+        "tː",
+        "w",
+        "o",
+        "r"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "b",
+        "i",
+        "w",
+        "ɾ",
+        "ə"
+      ],
+      "id": "latin-72-17-95-1-identity",
+      "input": [
+        "w",
+        "iː",
+        "w",
+        "e",
+        "r",
+        "e"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "v",
+        "i",
+        "v",
+        "ʁ"
+      ],
+      "id": "latin-72-25-95-1-identity",
+      "input": [
+        "w",
+        "iː",
+        "w",
+        "e",
+        "r",
+        "e"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "v",
+        "i",
+        "v",
+        "e",
+        "r",
+        "e"
+      ],
+      "id": "latin-72-39-95-1-identity",
+      "input": [
+        "w",
+        "iː",
+        "w",
+        "e",
+        "r",
+        "e"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "b",
+        "i",
+        "w",
+        "ɾ",
+        "ə"
+      ],
+      "id": "latin-72-17-95-1-correspondence",
+      "input": [
+        "w",
+        "iː",
+        "w",
+        "e",
+        "r",
+        "e"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "v",
+        "i",
+        "v",
+        "ʁ"
+      ],
+      "id": "latin-72-25-95-1-correspondence",
+      "input": [
+        "w",
+        "iː",
+        "w",
+        "e",
+        "r",
+        "e"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "v",
+        "i",
+        "v",
+        "e",
+        "r",
+        "e"
+      ],
+      "id": "latin-72-39-95-1-correspondence",
+      "input": [
+        "w",
+        "iː",
+        "w",
+        "e",
+        "r",
+        "e"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "n",
+        "ɔ",
+        "m"
+      ],
+      "id": "latin-82-17-106-1-identity",
+      "input": [
+        "n",
+        "oː",
+        "m",
+        "e",
+        "n"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "n",
+        "ɔ̃"
+      ],
+      "id": "latin-82-25-106-1-identity",
+      "input": [
+        "n",
+        "oː",
+        "m",
+        "e",
+        "n"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "n",
+        "o",
+        "m",
+        "e"
+      ],
+      "id": "latin-82-39-106-1-identity",
+      "input": [
+        "n",
+        "oː",
+        "m",
+        "e",
+        "n"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "n",
+        "ɔ",
+        "m"
+      ],
+      "id": "latin-82-17-106-1-correspondence",
+      "input": [
+        "n",
+        "oː",
+        "m",
+        "e",
+        "n"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "n",
+        "ɔ̃"
+      ],
+      "id": "latin-82-25-106-1-correspondence",
+      "input": [
+        "n",
+        "oː",
+        "m",
+        "e",
+        "n"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "n",
+        "o",
+        "m",
+        "e"
+      ],
+      "id": "latin-82-39-106-1-correspondence",
+      "input": [
+        "n",
+        "oː",
+        "m",
+        "e",
+        "n"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "n",
+        "ɔ",
+        "w"
+      ],
+      "id": "latin-86-17-110-1-identity",
+      "input": [
+        "n",
+        "o",
+        "w",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "n",
+        "u",
+        "v",
+        "o"
+      ],
+      "id": "latin-86-25-110-1-identity",
+      "input": [
+        "n",
+        "o",
+        "w",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "n",
+        "w",
+        "ɔ",
+        "v",
+        "o"
+      ],
+      "id": "latin-86-39-110-1-identity",
+      "input": [
+        "n",
+        "o",
+        "w",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "n",
+        "ɔ",
+        "w"
+      ],
+      "id": "latin-86-17-110-1-correspondence",
+      "input": [
+        "n",
+        "o",
+        "w",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "n",
+        "u",
+        "v",
+        "o"
+      ],
+      "id": "latin-86-25-110-1-correspondence",
+      "input": [
+        "n",
+        "o",
+        "w",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "n",
+        "w",
+        "ɔ",
+        "v",
+        "o"
+      ],
+      "id": "latin-86-39-110-1-correspondence",
+      "input": [
+        "n",
+        "o",
+        "w",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "u",
+        "n"
+      ],
+      "id": "latin-91-17-115-1-identity",
+      "input": [
+        "uː",
+        "n",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "œ̃"
+      ],
+      "id": "latin-91-25-115-1-identity",
+      "input": [
+        "uː",
+        "n",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "u",
+        "n",
+        "o"
+      ],
+      "id": "latin-91-39-115-1-identity",
+      "input": [
+        "uː",
+        "n",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "u",
+        "n"
+      ],
+      "id": "latin-91-17-115-1-correspondence",
+      "input": [
+        "uː",
+        "n",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "œ̃"
+      ],
+      "id": "latin-91-25-115-1-correspondence",
+      "input": [
+        "uː",
+        "n",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "u",
+        "n",
+        "o"
+      ],
+      "id": "latin-91-39-115-1-correspondence",
+      "input": [
+        "uː",
+        "n",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "f",
+        "u",
+        "m"
+      ],
+      "id": "latin-123-17-149-1-identity",
+      "input": [
+        "f",
+        "uː",
+        "m",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "f",
+        "y",
+        "m",
+        "e"
+      ],
+      "id": "latin-123-25-149-1-identity",
+      "input": [
+        "f",
+        "uː",
+        "m",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "f",
+        "u",
+        "m",
+        "o"
+      ],
+      "id": "latin-123-39-149-1-identity",
+      "input": [
+        "f",
+        "uː",
+        "m",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "f",
+        "u",
+        "m"
+      ],
+      "id": "latin-123-17-149-1-correspondence",
+      "input": [
+        "f",
+        "uː",
+        "m",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "f",
+        "y",
+        "m",
+        "e"
+      ],
+      "id": "latin-123-25-149-1-correspondence",
+      "input": [
+        "f",
+        "uː",
+        "m",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "f",
+        "u",
+        "m",
+        "o"
+      ],
+      "id": "latin-123-39-149-1-correspondence",
+      "input": [
+        "f",
+        "uː",
+        "m",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "ə",
+        "s",
+        "t",
+        "ɛ",
+        "l"
+      ],
+      "id": "latin-131-17-159-1-identity",
+      "input": [
+        "s",
+        "t",
+        "eː",
+        "lː",
+        "a"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "e",
+        "t",
+        "w",
+        "a",
+        "l"
+      ],
+      "id": "latin-131-25-159-1-identity",
+      "input": [
+        "s",
+        "t",
+        "eː",
+        "lː",
+        "a"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "s",
+        "t",
+        "e",
+        "lː",
+        "a"
+      ],
+      "id": "latin-131-39-159-1-identity",
+      "input": [
+        "s",
+        "t",
+        "eː",
+        "lː",
+        "a"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "ə",
+        "s",
+        "t",
+        "ɛ",
+        "l"
+      ],
+      "id": "latin-131-17-159-1-correspondence",
+      "input": [
+        "s",
+        "t",
+        "eː",
+        "lː",
+        "a"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "e",
+        "t",
+        "w",
+        "a",
+        "l"
+      ],
+      "id": "latin-131-25-159-1-correspondence",
+      "input": [
+        "s",
+        "t",
+        "eː",
+        "lː",
+        "a"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "s",
+        "t",
+        "e",
+        "lː",
+        "a"
+      ],
+      "id": "latin-131-39-159-1-correspondence",
+      "input": [
+        "s",
+        "t",
+        "eː",
+        "lː",
+        "a"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "t",
+        "r",
+        "ɛ",
+        "s"
+      ],
+      "id": "latin-146-17-176-1-identity",
+      "input": [
+        "t",
+        "r",
+        "eː",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "t",
+        "ʁ",
+        "w",
+        "a"
+      ],
+      "id": "latin-146-25-176-1-identity",
+      "input": [
+        "t",
+        "r",
+        "eː",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "t",
+        "r",
+        "e"
+      ],
+      "id": "latin-146-39-176-1-identity",
+      "input": [
+        "t",
+        "r",
+        "eː",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "t",
+        "r",
+        "ɛ",
+        "s"
+      ],
+      "id": "latin-146-17-176-1-correspondence",
+      "input": [
+        "t",
+        "r",
+        "eː",
+        "s"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "t",
+        "ʁ",
+        "w",
+        "a"
+      ],
+      "id": "latin-146-25-176-1-correspondence",
+      "input": [
+        "t",
+        "r",
+        "eː",
+        "s"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "t",
+        "r",
+        "e"
+      ],
+      "id": "latin-146-39-176-1-correspondence",
+      "input": [
+        "t",
+        "r",
+        "eː",
+        "s"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "d",
+        "o",
+        "s"
+      ],
+      "id": "latin-153-17-183-1-identity",
+      "input": [
+        "d",
+        "u",
+        "o"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "d",
+        "ø"
+      ],
+      "id": "latin-153-25-183-1-identity",
+      "input": [
+        "d",
+        "u",
+        "o"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "d",
+        "u",
+        "e"
+      ],
+      "id": "latin-153-39-183-1-identity",
+      "input": [
+        "d",
+        "u",
+        "o"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "d",
+        "o",
+        "s"
+      ],
+      "id": "latin-153-17-183-1-correspondence",
+      "input": [
+        "d",
+        "u",
+        "o"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "d",
+        "ø"
+      ],
+      "id": "latin-153-25-183-1-correspondence",
+      "input": [
+        "d",
+        "u",
+        "o"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "d",
+        "u",
+        "e"
+      ],
+      "id": "latin-153-39-183-1-correspondence",
+      "input": [
+        "d",
+        "u",
+        "o"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "ə",
+        "s",
+        "k",
+        "ɔ",
+        "r",
+        "s",
+        "ə"
+      ],
+      "id": "latin-182-17-8-1-identity",
+      "input": [
+        "k",
+        "o",
+        "r",
+        "t",
+        "e",
+        "k",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "e",
+        "k",
+        "ɔ",
+        "ʁ",
+        "s"
+      ],
+      "id": "latin-182-25-8-1-identity",
+      "input": [
+        "k",
+        "o",
+        "r",
+        "t",
+        "e",
+        "k",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "k",
+        "o",
+        "r",
+        "t",
+        "e",
+        "tː",
+        "ʃ",
+        "a"
+      ],
+      "id": "latin-182-39-8-1-identity",
+      "input": [
+        "k",
+        "o",
+        "r",
+        "t",
+        "e",
+        "k",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "ə",
+        "s",
+        "k",
+        "ɔ",
+        "r",
+        "s",
+        "ə"
+      ],
+      "id": "latin-182-17-8-1-correspondence",
+      "input": [
+        "k",
+        "o",
+        "r",
+        "t",
+        "e",
+        "k",
+        "s"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "e",
+        "k",
+        "ɔ",
+        "ʁ",
+        "s"
+      ],
+      "id": "latin-182-25-8-1-correspondence",
+      "input": [
+        "k",
+        "o",
+        "r",
+        "t",
+        "e",
+        "k",
+        "s"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "k",
+        "o",
+        "r",
+        "t",
+        "e",
+        "tː",
+        "ʃ",
+        "a"
+      ],
+      "id": "latin-182-39-8-1-correspondence",
+      "input": [
+        "k",
+        "o",
+        "r",
+        "t",
+        "e",
+        "k",
+        "s"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "u",
+        "r",
+        "ɛ",
+        "ʎ",
+        "ə"
+      ],
+      "id": "latin-208-17-36-1-identity",
+      "input": [
+        "a",
+        "w",
+        "r",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "ɔ",
+        "ʁ",
+        "ɛ",
+        "j"
+      ],
+      "id": "latin-208-25-36-1-identity",
+      "input": [
+        "a",
+        "w",
+        "r",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "o",
+        "r",
+        "e",
+        "kː",
+        "j",
+        "o"
+      ],
+      "id": "latin-208-39-36-1-identity",
+      "input": [
+        "a",
+        "w",
+        "r",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "u",
+        "r",
+        "ɛ",
+        "ʎ",
+        "ə"
+      ],
+      "id": "latin-208-17-36-1-correspondence",
+      "input": [
+        "a",
+        "w",
+        "r",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "ɔ",
+        "ʁ",
+        "ɛ",
+        "j"
+      ],
+      "id": "latin-208-25-36-1-correspondence",
+      "input": [
+        "a",
+        "w",
+        "r",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "o",
+        "r",
+        "e",
+        "kː",
+        "j",
+        "o"
+      ],
+      "id": "latin-208-39-36-1-correspondence",
+      "input": [
+        "a",
+        "w",
+        "r",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "u",
+        "ʎ"
+      ],
+      "id": "latin-211-17-40-1-identity",
+      "input": [
+        "o",
+        "k",
+        "u",
+        "l",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "œ",
+        "j"
+      ],
+      "id": "latin-211-25-40-1-identity",
+      "input": [
+        "o",
+        "k",
+        "u",
+        "l",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "ɔ",
+        "kː",
+        "j",
+        "o"
+      ],
+      "id": "latin-211-39-40-1-identity",
+      "input": [
+        "o",
+        "k",
+        "u",
+        "l",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "u",
+        "ʎ"
+      ],
+      "id": "latin-211-17-40-1-correspondence",
+      "input": [
+        "o",
+        "k",
+        "u",
+        "l",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "œ",
+        "j"
+      ],
+      "id": "latin-211-25-40-1-correspondence",
+      "input": [
+        "o",
+        "k",
+        "u",
+        "l",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "ɔ",
+        "kː",
+        "j",
+        "o"
+      ],
+      "id": "latin-211-39-40-1-correspondence",
+      "input": [
+        "o",
+        "k",
+        "u",
+        "l",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "p",
+        "e",
+        "ʃ"
+      ],
+      "id": "latin-220-17-51-1-identity",
+      "input": [
+        "p",
+        "i",
+        "s",
+        "k",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "p",
+        "w",
+        "a",
+        "s",
+        "ɔ̃"
+      ],
+      "id": "latin-220-25-51-1-identity",
+      "input": [
+        "p",
+        "i",
+        "s",
+        "k",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "p",
+        "e",
+        "ʃː",
+        "e"
+      ],
+      "id": "latin-220-39-51-1-identity",
+      "input": [
+        "p",
+        "i",
+        "s",
+        "k",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "p",
+        "e",
+        "ʃ"
+      ],
+      "id": "latin-220-17-51-1-correspondence",
+      "input": [
+        "p",
+        "i",
+        "s",
+        "k",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "p",
+        "w",
+        "a",
+        "s",
+        "ɔ̃"
+      ],
+      "id": "latin-220-25-51-1-correspondence",
+      "input": [
+        "p",
+        "i",
+        "s",
+        "k",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "p",
+        "e",
+        "ʃː",
+        "e"
+      ],
+      "id": "latin-220-39-51-1-correspondence",
+      "input": [
+        "p",
+        "i",
+        "s",
+        "k",
+        "i",
+        "s"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "f",
+        "l",
+        "ɔ"
+      ],
+      "id": "latin-223-17-55-1-identity",
+      "input": [
+        "f",
+        "l",
+        "oː",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "f",
+        "l",
+        "œ",
+        "ʁ"
+      ],
+      "id": "latin-223-25-55-1-identity",
+      "input": [
+        "f",
+        "l",
+        "oː",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "f",
+        "j",
+        "o",
+        "r",
+        "e"
+      ],
+      "id": "latin-223-39-55-1-identity",
+      "input": [
+        "f",
+        "l",
+        "oː",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "f",
+        "l",
+        "ɔ"
+      ],
+      "id": "latin-223-17-55-1-correspondence",
+      "input": [
+        "f",
+        "l",
+        "oː",
+        "s"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "f",
+        "l",
+        "œ",
+        "ʁ"
+      ],
+      "id": "latin-223-25-55-1-correspondence",
+      "input": [
+        "f",
+        "l",
+        "oː",
+        "s"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "f",
+        "j",
+        "o",
+        "r",
+        "e"
+      ],
+      "id": "latin-223-39-55-1-correspondence",
+      "input": [
+        "f",
+        "l",
+        "oː",
+        "s"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "p",
+        "ɛ",
+        "w"
+      ],
+      "id": "latin-225-17-58-1-identity",
+      "input": [
+        "p",
+        "eː",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "p",
+        "j",
+        "e"
+      ],
+      "id": "latin-225-25-58-1-identity",
+      "input": [
+        "p",
+        "eː",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "p",
+        "j",
+        "ɛ",
+        "d",
+        "e"
+      ],
+      "id": "latin-225-39-58-1-identity",
+      "input": [
+        "p",
+        "eː",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "p",
+        "ɛ",
+        "w"
+      ],
+      "id": "latin-225-17-58-1-correspondence",
+      "input": [
+        "p",
+        "eː",
+        "s"
+      ],
+      "package_id": "latin-correspondence-17"
+    },
+    {
+      "expected": [
+        "p",
+        "j",
+        "e"
+      ],
+      "id": "latin-225-25-58-1-correspondence",
+      "input": [
+        "p",
+        "eː",
+        "s"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "p",
+        "j",
+        "ɛ",
+        "d",
+        "e"
+      ],
+      "id": "latin-225-39-58-1-correspondence",
+      "input": [
+        "p",
+        "eː",
+        "s"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "l",
+        "ɔ̃"
+      ],
+      "id": "latin-257-25-97-1-identity",
+      "input": [
+        "l",
+        "o",
+        "n",
+        "ɡ",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "l",
+        "u",
+        "n",
+        "ɡ",
+        "o"
+      ],
+      "id": "latin-257-39-97-1-identity",
+      "input": [
+        "l",
+        "o",
+        "n",
+        "ɡ",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "l",
+        "o",
+        "ŋ",
+        "k"
+      ],
+      "id": "latin-257-42-97-1-identity",
+      "input": [
+        "l",
+        "o",
+        "n",
+        "ɡ",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-identity"
+    },
+    {
+      "expected": [
+        "l",
+        "ɔ̃"
+      ],
+      "id": "latin-257-25-97-1-correspondence",
+      "input": [
+        "l",
+        "o",
+        "n",
+        "ɡ",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-25"
+    },
+    {
+      "expected": [
+        "l",
+        "u",
+        "n",
+        "ɡ",
+        "o"
+      ],
+      "id": "latin-257-39-97-1-correspondence",
+      "input": [
+        "l",
+        "o",
+        "n",
+        "ɡ",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-39"
+    },
+    {
+      "expected": [
+        "l",
+        "o",
+        "ŋ",
+        "k"
+      ],
+      "id": "latin-257-42-97-1-correspondence",
+      "input": [
+        "l",
+        "o",
+        "n",
+        "ɡ",
+        "u",
+        "s"
+      ],
+      "package_id": "latin-correspondence-42"
+    }
+  ],
+  "id": "latin-romance-control-v1",
+  "inverse": [
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "m",
+            "u",
+            "r",
+            "i"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "m",
+            "u",
+            "ʁ",
+            "i",
+            "ʁ"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "m",
+            "o",
+            "r",
+            "i",
+            "r",
+            "e"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-18-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "m",
+            "u",
+            "r",
+            "i"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "m",
+            "u",
+            "ʁ",
+            "i",
+            "ʁ"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "m",
+            "o",
+            "r",
+            "i",
+            "r",
+            "e"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-18-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "ʃ",
+            "ɛ̃"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "k",
+            "a",
+            "n",
+            "e"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-42",
+          "expected": [
+            "tʃ",
+            "a",
+            "ŋ"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-21-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "ʃ",
+            "ɛ̃"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "k",
+            "a",
+            "n",
+            "e"
+          ],
+          "package_id": "latin-correspondence-39"
+        },
+        {
+          "doculect_id": "romance-42",
+          "expected": [
+            "tʃ",
+            "a",
+            "ŋ"
+          ],
+          "package_id": "latin-correspondence-42"
+        }
+      ],
+      "id": "latin-21-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "ɔ",
+            "w"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "œ",
+            "f"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "w",
+            "ɔ",
+            "v",
+            "o"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-28-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "ɔ",
+            "w"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "œ",
+            "f"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "w",
+            "ɔ",
+            "v",
+            "o"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-28-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "s",
+            "i",
+            "ŋ",
+            "k"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "s",
+            "ɛ̃",
+            "k"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "tʃ",
+            "i",
+            "n",
+            "kʷ",
+            "e"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-39-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "s",
+            "i",
+            "ŋ",
+            "k"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "s",
+            "ɛ̃",
+            "k"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "tʃ",
+            "i",
+            "n",
+            "kʷ",
+            "e"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-39-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "kʷ",
+            "a",
+            "t",
+            "ɾ",
+            "ə"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "k",
+            "a",
+            "t",
+            "ʁ"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "kʷ",
+            "a",
+            "tː",
+            "r",
+            "o"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-44-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "kʷ",
+            "a",
+            "t",
+            "ɾ",
+            "ə"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "k",
+            "a",
+            "t",
+            "ʁ"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "kʷ",
+            "a",
+            "tː",
+            "r",
+            "o"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-44-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "b",
+            "i",
+            "w",
+            "ɾ",
+            "ə"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "v",
+            "i",
+            "v",
+            "ʁ"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "v",
+            "i",
+            "v",
+            "e",
+            "r",
+            "e"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-72-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "b",
+            "i",
+            "w",
+            "ɾ",
+            "ə"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "v",
+            "i",
+            "v",
+            "ʁ"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "v",
+            "i",
+            "v",
+            "e",
+            "r",
+            "e"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-72-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "n",
+            "ɔ",
+            "m"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "n",
+            "ɔ̃"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "n",
+            "o",
+            "m",
+            "e"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-82-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "n",
+            "ɔ",
+            "m"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "n",
+            "ɔ̃"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "n",
+            "o",
+            "m",
+            "e"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-82-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "n",
+            "ɔ",
+            "w"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "n",
+            "u",
+            "v",
+            "o"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "n",
+            "w",
+            "ɔ",
+            "v",
+            "o"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-86-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "n",
+            "ɔ",
+            "w"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "n",
+            "u",
+            "v",
+            "o"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "n",
+            "w",
+            "ɔ",
+            "v",
+            "o"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-86-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "u",
+            "n"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "œ̃"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "u",
+            "n",
+            "o"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-91-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "u",
+            "n"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "œ̃"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "u",
+            "n",
+            "o"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-91-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "f",
+            "u",
+            "m"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "f",
+            "y",
+            "m",
+            "e"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "f",
+            "u",
+            "m",
+            "o"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-123-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "f",
+            "u",
+            "m"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "f",
+            "y",
+            "m",
+            "e"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "f",
+            "u",
+            "m",
+            "o"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-123-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "ə",
+            "s",
+            "t",
+            "ɛ",
+            "l"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "e",
+            "t",
+            "w",
+            "a",
+            "l"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "s",
+            "t",
+            "e",
+            "lː",
+            "a"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-131-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "ə",
+            "s",
+            "t",
+            "ɛ",
+            "l"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "e",
+            "t",
+            "w",
+            "a",
+            "l"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "s",
+            "t",
+            "e",
+            "lː",
+            "a"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-131-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "t",
+            "r",
+            "ɛ",
+            "s"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "t",
+            "ʁ",
+            "w",
+            "a"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "t",
+            "r",
+            "e"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-146-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "t",
+            "r",
+            "ɛ",
+            "s"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "t",
+            "ʁ",
+            "w",
+            "a"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "t",
+            "r",
+            "e"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-146-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "d",
+            "o",
+            "s"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "d",
+            "ø"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "d",
+            "u",
+            "e"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-153-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "d",
+          "u",
+          "o"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "d",
+            "o",
+            "s"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "d",
+            "ø"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "d",
+            "u",
+            "e"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-153-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "d",
+          "u",
+          "o"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "ə",
+            "s",
+            "k",
+            "ɔ",
+            "r",
+            "s",
+            "ə"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "e",
+            "k",
+            "ɔ",
+            "ʁ",
+            "s"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "k",
+            "o",
+            "r",
+            "t",
+            "e",
+            "tː",
+            "ʃ",
+            "a"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-182-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "ə",
+            "s",
+            "k",
+            "ɔ",
+            "r",
+            "s",
+            "ə"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "e",
+            "k",
+            "ɔ",
+            "ʁ",
+            "s"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "k",
+            "o",
+            "r",
+            "t",
+            "e",
+            "tː",
+            "ʃ",
+            "a"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-182-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "u",
+            "r",
+            "ɛ",
+            "ʎ",
+            "ə"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "ɔ",
+            "ʁ",
+            "ɛ",
+            "j"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "o",
+            "r",
+            "e",
+            "kː",
+            "j",
+            "o"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-208-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "u",
+            "r",
+            "ɛ",
+            "ʎ",
+            "ə"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "ɔ",
+            "ʁ",
+            "ɛ",
+            "j"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "o",
+            "r",
+            "e",
+            "kː",
+            "j",
+            "o"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-208-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "u",
+            "ʎ"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "œ",
+            "j"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "ɔ",
+            "kː",
+            "j",
+            "o"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-211-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "u",
+            "ʎ"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "œ",
+            "j"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "ɔ",
+            "kː",
+            "j",
+            "o"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-211-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "p",
+            "e",
+            "ʃ"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "p",
+            "w",
+            "a",
+            "s",
+            "ɔ̃"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "p",
+            "e",
+            "ʃː",
+            "e"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-220-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "p",
+            "e",
+            "ʃ"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "p",
+            "w",
+            "a",
+            "s",
+            "ɔ̃"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "p",
+            "e",
+            "ʃː",
+            "e"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-220-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "f",
+            "l",
+            "ɔ"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "f",
+            "l",
+            "œ",
+            "ʁ"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "f",
+            "j",
+            "o",
+            "r",
+            "e"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-223-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "f",
+            "l",
+            "ɔ"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "f",
+            "l",
+            "œ",
+            "ʁ"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "f",
+            "j",
+            "o",
+            "r",
+            "e"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-223-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "p",
+            "ɛ",
+            "w"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "p",
+            "j",
+            "e"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "p",
+            "j",
+            "ɛ",
+            "d",
+            "e"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-225-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "p",
+          "eː",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-17",
+          "expected": [
+            "p",
+            "ɛ",
+            "w"
+          ],
+          "package_id": "latin-correspondence-17"
+        },
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "p",
+            "j",
+            "e"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "p",
+            "j",
+            "ɛ",
+            "d",
+            "e"
+          ],
+          "package_id": "latin-correspondence-39"
+        }
+      ],
+      "id": "latin-225-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "p",
+          "eː",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "l",
+            "ɔ̃"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "l",
+            "u",
+            "n",
+            "ɡ",
+            "o"
+          ],
+          "package_id": "latin-identity"
+        },
+        {
+          "doculect_id": "romance-42",
+          "expected": [
+            "l",
+            "o",
+            "ŋ",
+            "k"
+          ],
+          "package_id": "latin-identity"
+        }
+      ],
+      "id": "latin-257-identity",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ]
+    },
+    {
+      "branches": [
+        {
+          "doculect_id": "romance-25",
+          "expected": [
+            "l",
+            "ɔ̃"
+          ],
+          "package_id": "latin-correspondence-25"
+        },
+        {
+          "doculect_id": "romance-39",
+          "expected": [
+            "l",
+            "u",
+            "n",
+            "ɡ",
+            "o"
+          ],
+          "package_id": "latin-correspondence-39"
+        },
+        {
+          "doculect_id": "romance-42",
+          "expected": [
+            "l",
+            "o",
+            "ŋ",
+            "k"
+          ],
+          "package_id": "latin-correspondence-42"
+        }
+      ],
+      "id": "latin-257-correspondence",
+      "pool": [
+        [
+          "m",
+          "o",
+          "r",
+          "iː"
+        ],
+        [
+          "k",
+          "a",
+          "n",
+          "i",
+          "s"
+        ],
+        [
+          "oː",
+          "w",
+          "u",
+          "m"
+        ],
+        [
+          "kʷ",
+          "iː",
+          "n",
+          "kʷ",
+          "e"
+        ],
+        [
+          "kʷ",
+          "a",
+          "tː",
+          "w",
+          "o",
+          "r"
+        ],
+        [
+          "w",
+          "iː",
+          "w",
+          "e",
+          "r",
+          "e"
+        ],
+        [
+          "n",
+          "oː",
+          "m",
+          "e",
+          "n"
+        ],
+        [
+          "n",
+          "o",
+          "w",
+          "u",
+          "s"
+        ],
+        [
+          "uː",
+          "n",
+          "u",
+          "s"
+        ],
+        [
+          "f",
+          "uː",
+          "m",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "t",
+          "eː",
+          "lː",
+          "a"
+        ],
+        [
+          "t",
+          "r",
+          "eː",
+          "s"
+        ],
+        [
+          "d",
+          "u",
+          "o"
+        ],
+        [
+          "k",
+          "o",
+          "r",
+          "t",
+          "e",
+          "k",
+          "s"
+        ],
+        [
+          "a",
+          "w",
+          "r",
+          "i",
+          "s"
+        ],
+        [
+          "o",
+          "k",
+          "u",
+          "l",
+          "u",
+          "s"
+        ],
+        [
+          "p",
+          "i",
+          "s",
+          "k",
+          "i",
+          "s"
+        ],
+        [
+          "f",
+          "l",
+          "oː",
+          "s"
+        ],
+        [
+          "p",
+          "eː",
+          "s"
+        ],
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ],
+      "reference": [
+        [
+          "l",
+          "o",
+          "n",
+          "ɡ",
+          "u",
+          "s"
+        ]
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "description": "Attested-ancestor no-change control; not a sound-law account.",
+      "final_stage": "published-root",
+      "id": "latin-identity",
+      "initial_stage": "published-root",
+      "inventory": [
+        "a",
+        "b",
+        "d",
+        "e",
+        "eː",
+        "f",
+        "i",
+        "iː",
+        "j",
+        "k",
+        "kʷ",
+        "kː",
+        "l",
+        "lː",
+        "m",
+        "n",
+        "o",
+        "oː",
+        "p",
+        "r",
+        "s",
+        "t",
+        "tʃ",
+        "tː",
+        "u",
+        "uː",
+        "v",
+        "w",
+        "y",
+        "ø",
+        "ŋ",
+        "œ",
+        "œ̃",
+        "ɔ",
+        "ɔ̃",
+        "ə",
+        "ɛ",
+        "ɛ̃",
+        "ɡ",
+        "ɾ",
+        "ʁ",
+        "ʃ",
+        "ʃː",
+        "ʎ"
+      ],
+      "laws": [],
+      "version": "1.0.0"
+    },
+    {
+      "description": "Train-only unit-edit correspondence baseline; substitution/deletion only, with no morphological or chronological interpretation.",
+      "final_stage": "latin-correspondence-17-stage-24",
+      "id": "latin-correspondence-17",
+      "initial_stage": "published-root",
+      "inventory": [
+        "MAP0",
+        "MAP1",
+        "MAP10",
+        "MAP11",
+        "MAP2",
+        "MAP3",
+        "MAP4",
+        "MAP5",
+        "MAP6",
+        "MAP7",
+        "MAP8",
+        "MAP9",
+        "a",
+        "b",
+        "d",
+        "e",
+        "eː",
+        "f",
+        "i",
+        "iː",
+        "j",
+        "k",
+        "kʷ",
+        "kː",
+        "l",
+        "lː",
+        "m",
+        "n",
+        "o",
+        "oː",
+        "p",
+        "r",
+        "s",
+        "t",
+        "tʃ",
+        "tː",
+        "u",
+        "uː",
+        "v",
+        "w",
+        "y",
+        "ø",
+        "ŋ",
+        "œ",
+        "œ̃",
+        "ɔ",
+        "ɔ̃",
+        "ə",
+        "ɛ",
+        "ɛ̃",
+        "ɡ",
+        "ɾ",
+        "ʁ",
+        "ʃ",
+        "ʃː",
+        "ʎ"
+      ],
+      "laws": [
+        {
+          "id": "latin-correspondence-17-law-1",
+          "input_stage": "published-root",
+          "output_stage": "latin-correspondence-17-stage-1",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP0",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "e"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-2",
+          "input_stage": "latin-correspondence-17-stage-1",
+          "output_stage": "latin-correspondence-17-stage-2",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP1",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "eː"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-3",
+          "input_stage": "latin-correspondence-17-stage-2",
+          "output_stage": "latin-correspondence-17-stage-3",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP2",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "iː"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-4",
+          "input_stage": "latin-correspondence-17-stage-3",
+          "output_stage": "latin-correspondence-17-stage-4",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP3",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "k"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-5",
+          "input_stage": "latin-correspondence-17-stage-4",
+          "output_stage": "latin-correspondence-17-stage-5",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP4",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "l"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-6",
+          "input_stage": "latin-correspondence-17-stage-5",
+          "output_stage": "latin-correspondence-17-stage-6",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP5",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "m"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-7",
+          "input_stage": "latin-correspondence-17-stage-6",
+          "output_stage": "latin-correspondence-17-stage-7",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP6",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "o"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-8",
+          "input_stage": "latin-correspondence-17-stage-7",
+          "output_stage": "latin-correspondence-17-stage-8",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP7",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "oː"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-9",
+          "input_stage": "latin-correspondence-17-stage-8",
+          "output_stage": "latin-correspondence-17-stage-9",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP8",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "s"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-10",
+          "input_stage": "latin-correspondence-17-stage-9",
+          "output_stage": "latin-correspondence-17-stage-10",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP9",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "t"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-11",
+          "input_stage": "latin-correspondence-17-stage-10",
+          "output_stage": "latin-correspondence-17-stage-11",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP10",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "tː"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-12",
+          "input_stage": "latin-correspondence-17-stage-11",
+          "output_stage": "latin-correspondence-17-stage-12",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP11",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "uː"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-13",
+          "input_stage": "latin-correspondence-17-stage-12",
+          "output_stage": "latin-correspondence-17-stage-13",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "r",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP0"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-14",
+          "input_stage": "latin-correspondence-17-stage-13",
+          "output_stage": "latin-correspondence-17-stage-14",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ɛ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP1"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-15",
+          "input_stage": "latin-correspondence-17-stage-14",
+          "output_stage": "latin-correspondence-17-stage-15",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "i",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP2"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-16",
+          "input_stage": "latin-correspondence-17-stage-15",
+          "output_stage": "latin-correspondence-17-stage-16",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP3"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-17",
+          "input_stage": "latin-correspondence-17-stage-16",
+          "output_stage": "latin-correspondence-17-stage-17",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP4"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-18",
+          "input_stage": "latin-correspondence-17-stage-17",
+          "output_stage": "latin-correspondence-17-stage-18",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP5"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-19",
+          "input_stage": "latin-correspondence-17-stage-18",
+          "output_stage": "latin-correspondence-17-stage-19",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "s",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP6"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-20",
+          "input_stage": "latin-correspondence-17-stage-19",
+          "output_stage": "latin-correspondence-17-stage-20",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ɔ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP7"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-21",
+          "input_stage": "latin-correspondence-17-stage-20",
+          "output_stage": "latin-correspondence-17-stage-21",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP8"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-22",
+          "input_stage": "latin-correspondence-17-stage-21",
+          "output_stage": "latin-correspondence-17-stage-22",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ɔ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP9"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-23",
+          "input_stage": "latin-correspondence-17-stage-22",
+          "output_stage": "latin-correspondence-17-stage-23",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP10"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-17-law-24",
+          "input_stage": "latin-correspondence-17-stage-23",
+          "output_stage": "latin-correspondence-17-stage-24",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP11"
+            ]
+          }
+        }
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "description": "Train-only unit-edit correspondence baseline; substitution/deletion only, with no morphological or chronological interpretation.",
+      "final_stage": "latin-correspondence-25-stage-32",
+      "id": "latin-correspondence-25",
+      "initial_stage": "published-root",
+      "inventory": [
+        "MAP0",
+        "MAP1",
+        "MAP10",
+        "MAP11",
+        "MAP12",
+        "MAP13",
+        "MAP14",
+        "MAP15",
+        "MAP2",
+        "MAP3",
+        "MAP4",
+        "MAP5",
+        "MAP6",
+        "MAP7",
+        "MAP8",
+        "MAP9",
+        "a",
+        "b",
+        "d",
+        "e",
+        "eː",
+        "f",
+        "i",
+        "iː",
+        "j",
+        "k",
+        "kʷ",
+        "kː",
+        "l",
+        "lː",
+        "m",
+        "n",
+        "o",
+        "oː",
+        "p",
+        "r",
+        "s",
+        "t",
+        "tʃ",
+        "tː",
+        "u",
+        "uː",
+        "v",
+        "w",
+        "y",
+        "ø",
+        "ŋ",
+        "œ",
+        "œ̃",
+        "ɔ",
+        "ɔ̃",
+        "ə",
+        "ɛ",
+        "ɛ̃",
+        "ɡ",
+        "ɾ",
+        "ʁ",
+        "ʃ",
+        "ʃː",
+        "ʎ"
+      ],
+      "laws": [
+        {
+          "id": "latin-correspondence-25-law-1",
+          "input_stage": "published-root",
+          "output_stage": "latin-correspondence-25-stage-1",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP0",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "e"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-2",
+          "input_stage": "latin-correspondence-25-stage-1",
+          "output_stage": "latin-correspondence-25-stage-2",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP1",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "eː"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-3",
+          "input_stage": "latin-correspondence-25-stage-2",
+          "output_stage": "latin-correspondence-25-stage-3",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP2",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "iː"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-4",
+          "input_stage": "latin-correspondence-25-stage-3",
+          "output_stage": "latin-correspondence-25-stage-4",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP3",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "k"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-5",
+          "input_stage": "latin-correspondence-25-stage-4",
+          "output_stage": "latin-correspondence-25-stage-5",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP4",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "kʷ"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-6",
+          "input_stage": "latin-correspondence-25-stage-5",
+          "output_stage": "latin-correspondence-25-stage-6",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP5",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "n"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-7",
+          "input_stage": "latin-correspondence-25-stage-6",
+          "output_stage": "latin-correspondence-25-stage-7",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP6",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "o"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-8",
+          "input_stage": "latin-correspondence-25-stage-7",
+          "output_stage": "latin-correspondence-25-stage-8",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP7",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "oː"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-9",
+          "input_stage": "latin-correspondence-25-stage-8",
+          "output_stage": "latin-correspondence-25-stage-9",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP8",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "r"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-10",
+          "input_stage": "latin-correspondence-25-stage-9",
+          "output_stage": "latin-correspondence-25-stage-10",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP9",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "s"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-11",
+          "input_stage": "latin-correspondence-25-stage-10",
+          "output_stage": "latin-correspondence-25-stage-11",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP10",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "t"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-12",
+          "input_stage": "latin-correspondence-25-stage-11",
+          "output_stage": "latin-correspondence-25-stage-12",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP11",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "tː"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-13",
+          "input_stage": "latin-correspondence-25-stage-12",
+          "output_stage": "latin-correspondence-25-stage-13",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP12",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "u"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-14",
+          "input_stage": "latin-correspondence-25-stage-13",
+          "output_stage": "latin-correspondence-25-stage-14",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP13",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "uː"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-15",
+          "input_stage": "latin-correspondence-25-stage-14",
+          "output_stage": "latin-correspondence-25-stage-15",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP14",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "w"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-16",
+          "input_stage": "latin-correspondence-25-stage-15",
+          "output_stage": "latin-correspondence-25-stage-16",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP15",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "ɡ"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-17",
+          "input_stage": "latin-correspondence-25-stage-16",
+          "output_stage": "latin-correspondence-25-stage-17",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ɔ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP0"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-18",
+          "input_stage": "latin-correspondence-25-stage-17",
+          "output_stage": "latin-correspondence-25-stage-18",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "j",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP1"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-19",
+          "input_stage": "latin-correspondence-25-stage-18",
+          "output_stage": "latin-correspondence-25-stage-19",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ʁ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP2"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-20",
+          "input_stage": "latin-correspondence-25-stage-19",
+          "output_stage": "latin-correspondence-25-stage-20",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP3"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-21",
+          "input_stage": "latin-correspondence-25-stage-20",
+          "output_stage": "latin-correspondence-25-stage-21",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "k",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP4"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-22",
+          "input_stage": "latin-correspondence-25-stage-21",
+          "output_stage": "latin-correspondence-25-stage-22",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP5"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-23",
+          "input_stage": "latin-correspondence-25-stage-22",
+          "output_stage": "latin-correspondence-25-stage-23",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP6"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-24",
+          "input_stage": "latin-correspondence-25-stage-23",
+          "output_stage": "latin-correspondence-25-stage-24",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP7"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-25",
+          "input_stage": "latin-correspondence-25-stage-24",
+          "output_stage": "latin-correspondence-25-stage-25",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "e",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP8"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-26",
+          "input_stage": "latin-correspondence-25-stage-25",
+          "output_stage": "latin-correspondence-25-stage-26",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "e",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP9"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-27",
+          "input_stage": "latin-correspondence-25-stage-26",
+          "output_stage": "latin-correspondence-25-stage-27",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "k",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP10"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-28",
+          "input_stage": "latin-correspondence-25-stage-27",
+          "output_stage": "latin-correspondence-25-stage-28",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP11"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-29",
+          "input_stage": "latin-correspondence-25-stage-28",
+          "output_stage": "latin-correspondence-25-stage-29",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP12"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-30",
+          "input_stage": "latin-correspondence-25-stage-29",
+          "output_stage": "latin-correspondence-25-stage-30",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP13"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-31",
+          "input_stage": "latin-correspondence-25-stage-30",
+          "output_stage": "latin-correspondence-25-stage-31",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP14"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-25-law-32",
+          "input_stage": "latin-correspondence-25-stage-31",
+          "output_stage": "latin-correspondence-25-stage-32",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP15"
+            ]
+          }
+        }
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "description": "Train-only unit-edit correspondence baseline; substitution/deletion only, with no morphological or chronological interpretation.",
+      "final_stage": "latin-correspondence-39-stage-14",
+      "id": "latin-correspondence-39",
+      "initial_stage": "published-root",
+      "inventory": [
+        "MAP0",
+        "MAP1",
+        "MAP2",
+        "MAP3",
+        "MAP4",
+        "MAP5",
+        "MAP6",
+        "a",
+        "b",
+        "d",
+        "e",
+        "eː",
+        "f",
+        "i",
+        "iː",
+        "j",
+        "k",
+        "kʷ",
+        "kː",
+        "l",
+        "lː",
+        "m",
+        "n",
+        "o",
+        "oː",
+        "p",
+        "r",
+        "s",
+        "t",
+        "tʃ",
+        "tː",
+        "u",
+        "uː",
+        "v",
+        "w",
+        "y",
+        "ø",
+        "ŋ",
+        "œ",
+        "œ̃",
+        "ɔ",
+        "ɔ̃",
+        "ə",
+        "ɛ",
+        "ɛ̃",
+        "ɡ",
+        "ɾ",
+        "ʁ",
+        "ʃ",
+        "ʃː",
+        "ʎ"
+      ],
+      "laws": [
+        {
+          "id": "latin-correspondence-39-law-1",
+          "input_stage": "published-root",
+          "output_stage": "latin-correspondence-39-stage-1",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP0",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "eː"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-39-law-2",
+          "input_stage": "latin-correspondence-39-stage-1",
+          "output_stage": "latin-correspondence-39-stage-2",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP1",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "iː"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-39-law-3",
+          "input_stage": "latin-correspondence-39-stage-2",
+          "output_stage": "latin-correspondence-39-stage-3",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP2",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "oː"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-39-law-4",
+          "input_stage": "latin-correspondence-39-stage-3",
+          "output_stage": "latin-correspondence-39-stage-4",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP3",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "s"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-39-law-5",
+          "input_stage": "latin-correspondence-39-stage-4",
+          "output_stage": "latin-correspondence-39-stage-5",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP4",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "u"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-39-law-6",
+          "input_stage": "latin-correspondence-39-stage-5",
+          "output_stage": "latin-correspondence-39-stage-6",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP5",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "uː"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-39-law-7",
+          "input_stage": "latin-correspondence-39-stage-6",
+          "output_stage": "latin-correspondence-39-stage-7",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP6",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "w"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-39-law-8",
+          "input_stage": "latin-correspondence-39-stage-7",
+          "output_stage": "latin-correspondence-39-stage-8",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "d",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP0"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-39-law-9",
+          "input_stage": "latin-correspondence-39-stage-8",
+          "output_stage": "latin-correspondence-39-stage-9",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "e",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP1"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-39-law-10",
+          "input_stage": "latin-correspondence-39-stage-9",
+          "output_stage": "latin-correspondence-39-stage-10",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "w",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP2"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-39-law-11",
+          "input_stage": "latin-correspondence-39-stage-10",
+          "output_stage": "latin-correspondence-39-stage-11",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "o",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP3"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-39-law-12",
+          "input_stage": "latin-correspondence-39-stage-11",
+          "output_stage": "latin-correspondence-39-stage-12",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP4"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-39-law-13",
+          "input_stage": "latin-correspondence-39-stage-12",
+          "output_stage": "latin-correspondence-39-stage-13",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "u",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP5"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-39-law-14",
+          "input_stage": "latin-correspondence-39-stage-13",
+          "output_stage": "latin-correspondence-39-stage-14",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ɔ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP6"
+            ]
+          }
+        }
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "description": "Train-only unit-edit correspondence baseline; substitution/deletion only, with no morphological or chronological interpretation.",
+      "final_stage": "latin-correspondence-42-stage-8",
+      "id": "latin-correspondence-42",
+      "initial_stage": "published-root",
+      "inventory": [
+        "MAP0",
+        "MAP1",
+        "MAP2",
+        "MAP3",
+        "a",
+        "b",
+        "d",
+        "e",
+        "eː",
+        "f",
+        "i",
+        "iː",
+        "j",
+        "k",
+        "kʷ",
+        "kː",
+        "l",
+        "lː",
+        "m",
+        "n",
+        "o",
+        "oː",
+        "p",
+        "r",
+        "s",
+        "t",
+        "tʃ",
+        "tː",
+        "u",
+        "uː",
+        "v",
+        "w",
+        "y",
+        "ø",
+        "ŋ",
+        "œ",
+        "œ̃",
+        "ɔ",
+        "ɔ̃",
+        "ə",
+        "ɛ",
+        "ɛ̃",
+        "ɡ",
+        "ɾ",
+        "ʁ",
+        "ʃ",
+        "ʃː",
+        "ʎ"
+      ],
+      "laws": [
+        {
+          "id": "latin-correspondence-42-law-1",
+          "input_stage": "published-root",
+          "output_stage": "latin-correspondence-42-stage-1",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP0",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "n"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-42-law-2",
+          "input_stage": "latin-correspondence-42-stage-1",
+          "output_stage": "latin-correspondence-42-stage-2",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP1",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "s"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-42-law-3",
+          "input_stage": "latin-correspondence-42-stage-2",
+          "output_stage": "latin-correspondence-42-stage-3",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP2",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "u"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-42-law-4",
+          "input_stage": "latin-correspondence-42-stage-3",
+          "output_stage": "latin-correspondence-42-stage-4",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "MAP3",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "ɡ"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-42-law-5",
+          "input_stage": "latin-correspondence-42-stage-4",
+          "output_stage": "latin-correspondence-42-stage-5",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP0"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-42-law-6",
+          "input_stage": "latin-correspondence-42-stage-5",
+          "output_stage": "latin-correspondence-42-stage-6",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "k",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP1"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-42-law-7",
+          "input_stage": "latin-correspondence-42-stage-6",
+          "output_stage": "latin-correspondence-42-stage-7",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": "ŋ",
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP2"
+            ]
+          }
+        },
+        {
+          "id": "latin-correspondence-42-law-8",
+          "input_stage": "latin-correspondence-42-stage-7",
+          "output_stage": "latin-correspondence-42-stage-8",
+          "rule": {
+            "direction": "left-to-right",
+            "left": [],
+            "left_edge": false,
+            "mode": "simultaneous",
+            "replacement": null,
+            "right": [],
+            "right_edge": false,
+            "target": [
+              "MAP3"
+            ]
+          }
+        }
+      ],
+      "version": "1.0.0"
+    }
+  ],
+  "schema_version": "1.0.0"
+}
