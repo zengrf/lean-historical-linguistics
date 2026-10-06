@@ -1,0 +1,1317 @@
+{
+  "datasets": {
+    "hillburmish": {
+      "cognate_judgments": 0,
+      "cognate_sets": 0,
+      "commit": "3d96cfa6b2ed4c59fd13e28ef5ae00db30247bb3",
+      "concepts": 819,
+      "forms": 4032,
+      "forms_with_embedded_cognacy": 4032,
+      "license": "CC BY 4.0",
+      "repository": "https://github.com/lexibank/hillburmish",
+      "scope": "All retained CLDF rows; source subgroup labels do not assert a family tree.",
+      "source_groups": {
+        "Burmish": {
+          "forms": 4032,
+          "varieties": 9
+        }
+      },
+      "table_rows": {
+        "forms": 4032,
+        "languages": 9,
+        "parameters": 819
+      },
+      "varieties": 9,
+      "varieties_with_counts": [
+        {
+          "forms": 467,
+          "id": "AchangLongchuan",
+          "name": "Achang"
+        },
+        {
+          "forms": 391,
+          "id": "Xiandao",
+          "name": "Xiandao"
+        },
+        {
+          "forms": 468,
+          "id": "Lashi",
+          "name": "Lashi"
+        },
+        {
+          "forms": 219,
+          "id": "OldBurmese",
+          "name": "Old Burmese"
+        },
+        {
+          "forms": 342,
+          "id": "Rangoon",
+          "name": "Rangoon Burmese"
+        },
+        {
+          "forms": 583,
+          "id": "Maru",
+          "name": "Maru"
+        },
+        {
+          "forms": 513,
+          "id": "Atsi",
+          "name": "Atsi"
+        },
+        {
+          "forms": 627,
+          "id": "Bola",
+          "name": "Bola"
+        },
+        {
+          "forms": 422,
+          "id": "ProtoBurmish",
+          "name": "ProtoBurmish"
+        }
+      ]
+    },
+    "iecor": {
+      "cognate_judgments": 25741,
+      "cognate_sets": 4981,
+      "commit": "700b635a04786427b78841489c46eefbe2843509",
+      "concepts": 170,
+      "forms": 25731,
+      "forms_with_embedded_cognacy": 0,
+      "license": "CC BY 4.0",
+      "repository": "https://github.com/lexibank/iecor",
+      "scope": "All retained CLDF rows; source subgroup labels do not assert a family tree.",
+      "source_groups": {
+        "Albanian": {
+          "forms": 507,
+          "varieties": 3
+        },
+        "Anatolian": {
+          "forms": 216,
+          "varieties": 2
+        },
+        "Armenian": {
+          "forms": 510,
+          "varieties": 3
+        },
+        "Balto-Slavic": {
+          "forms": 4494,
+          "varieties": 27
+        },
+        "Celtic": {
+          "forms": 2122,
+          "varieties": 14
+        },
+        "Germanic": {
+          "forms": 3801,
+          "varieties": 23
+        },
+        "Hellenic": {
+          "forms": 1254,
+          "varieties": 8
+        },
+        "Indo-Iranic": {
+          "forms": 8541,
+          "varieties": 53
+        },
+        "Italic": {
+          "forms": 4005,
+          "varieties": 25
+        },
+        "Tocharian": {
+          "forms": 281,
+          "varieties": 2
+        }
+      },
+      "table_rows": {
+        "authors": 91,
+        "clades": 27,
+        "cognates": 25741,
+        "cognatesets": 4981,
+        "forms": 25731,
+        "languages": 160,
+        "loans": 1036,
+        "parameters": 170
+      },
+      "varieties": 160,
+      "varieties_with_counts": [
+        {
+          "forms": 170,
+          "id": "3",
+          "name": "Albanian: Gheg"
+        },
+        {
+          "forms": 170,
+          "id": "7",
+          "name": "Armenian: Western"
+        },
+        {
+          "forms": 170,
+          "id": "8",
+          "name": "Armenian: Eastern"
+        },
+        {
+          "forms": 173,
+          "id": "10",
+          "name": "Bengali"
+        },
+        {
+          "forms": 172,
+          "id": "15",
+          "name": "Bulgarian"
+        },
+        {
+          "forms": 170,
+          "id": "16",
+          "name": "Belarusian"
+        },
+        {
+          "forms": 170,
+          "id": "17",
+          "name": "Catalan"
+        },
+        {
+          "forms": 172,
+          "id": "18",
+          "name": "Czech"
+        },
+        {
+          "forms": 169,
+          "id": "20",
+          "name": "Danish"
+        },
+        {
+          "forms": 171,
+          "id": "21",
+          "name": "Dutch"
+        },
+        {
+          "forms": 170,
+          "id": "22",
+          "name": "English"
+        },
+        {
+          "forms": 170,
+          "id": "23",
+          "name": "Faroese"
+        },
+        {
+          "forms": 170,
+          "id": "24",
+          "name": "Flemish"
+        },
+        {
+          "forms": 170,
+          "id": "25",
+          "name": "French"
+        },
+        {
+          "forms": 170,
+          "id": "26",
+          "name": "Frisian"
+        },
+        {
+          "forms": 172,
+          "id": "27",
+          "name": "German"
+        },
+        {
+          "forms": 172,
+          "id": "32",
+          "name": "Greek: Modern Std"
+        },
+        {
+          "forms": 176,
+          "id": "35",
+          "name": "Hindi"
+        },
+        {
+          "forms": 173,
+          "id": "36",
+          "name": "Icelandic"
+        },
+        {
+          "forms": 171,
+          "id": "38",
+          "name": "Gaelic: Irish"
+        },
+        {
+          "forms": 171,
+          "id": "39",
+          "name": "Italian"
+        },
+        {
+          "forms": 170,
+          "id": "40",
+          "name": "Kashmiri"
+        },
+        {
+          "forms": 175,
+          "id": "42",
+          "name": "Ladin"
+        },
+        {
+          "forms": 171,
+          "id": "44",
+          "name": "Latvian"
+        },
+        {
+          "forms": 174,
+          "id": "46",
+          "name": "Lithuanian"
+        },
+        {
+          "forms": 173,
+          "id": "47",
+          "name": "Sorbian: Lower"
+        },
+        {
+          "forms": 173,
+          "id": "48",
+          "name": "Sorbian: Upper"
+        },
+        {
+          "forms": 171,
+          "id": "50",
+          "name": "Marathi"
+        },
+        {
+          "forms": 177,
+          "id": "51",
+          "name": "Nepali"
+        },
+        {
+          "forms": 173,
+          "id": "54",
+          "name": "Persian: Tehran"
+        },
+        {
+          "forms": 170,
+          "id": "55",
+          "name": "Polish"
+        },
+        {
+          "forms": 171,
+          "id": "56",
+          "name": "Portuguese"
+        },
+        {
+          "forms": 170,
+          "id": "58",
+          "name": "Norwegian: Bokmål"
+        },
+        {
+          "forms": 176,
+          "id": "59",
+          "name": "Romanian"
+        },
+        {
+          "forms": 170,
+          "id": "60",
+          "name": "Russian"
+        },
+        {
+          "forms": 173,
+          "id": "62",
+          "name": "Sardinian: Logudoro"
+        },
+        {
+          "forms": 170,
+          "id": "63",
+          "name": "Sardinian: Nuoro"
+        },
+        {
+          "forms": 174,
+          "id": "65",
+          "name": "Sinhalese"
+        },
+        {
+          "forms": 172,
+          "id": "66",
+          "name": "Slovak"
+        },
+        {
+          "forms": 171,
+          "id": "68",
+          "name": "Spanish"
+        },
+        {
+          "forms": 172,
+          "id": "69",
+          "name": "Swedish"
+        },
+        {
+          "forms": 171,
+          "id": "73",
+          "name": "Ukrainian"
+        },
+        {
+          "forms": 170,
+          "id": "75",
+          "name": "Wakhi"
+        },
+        {
+          "forms": 170,
+          "id": "76",
+          "name": "Walloon"
+        },
+        {
+          "forms": 137,
+          "id": "80",
+          "name": "Hittite"
+        },
+        {
+          "forms": 126,
+          "id": "81",
+          "name": "Tocharian A"
+        },
+        {
+          "forms": 155,
+          "id": "82",
+          "name": "Tocharian B"
+        },
+        {
+          "forms": 170,
+          "id": "92",
+          "name": "Macedonian"
+        },
+        {
+          "forms": 173,
+          "id": "95",
+          "name": "Serbo-Croat"
+        },
+        {
+          "forms": 170,
+          "id": "97",
+          "name": "Slovene"
+        },
+        {
+          "forms": 175,
+          "id": "100",
+          "name": "Old Church Slavonic"
+        },
+        {
+          "forms": 170,
+          "id": "105",
+          "name": "Vedic: Early"
+        },
+        {
+          "forms": 118,
+          "id": "108",
+          "name": "Old Prussian"
+        },
+        {
+          "forms": 172,
+          "id": "110",
+          "name": "Greek: Ancient"
+        },
+        {
+          "forms": 170,
+          "id": "111",
+          "name": "Maithili"
+        },
+        {
+          "forms": 172,
+          "id": "112",
+          "name": "Latin"
+        },
+        {
+          "forms": 172,
+          "id": "115",
+          "name": "Gaelic: Scottish"
+        },
+        {
+          "forms": 170,
+          "id": "118",
+          "name": "Kurdish N.: Bahdini"
+        },
+        {
+          "forms": 174,
+          "id": "119",
+          "name": "Urdu"
+        },
+        {
+          "forms": 170,
+          "id": "120",
+          "name": "Luxembourgish"
+        },
+        {
+          "forms": 173,
+          "id": "122",
+          "name": "Friulian"
+        },
+        {
+          "forms": 171,
+          "id": "124",
+          "name": "Ossetic: Iron"
+        },
+        {
+          "forms": 170,
+          "id": "125",
+          "name": "Ossetic: Digor"
+        },
+        {
+          "forms": 173,
+          "id": "127",
+          "name": "Old Irish"
+        },
+        {
+          "forms": 146,
+          "id": "128",
+          "name": "Avestan: Younger"
+        },
+        {
+          "forms": 170,
+          "id": "129",
+          "name": "Armenian: Classical"
+        },
+        {
+          "forms": 35,
+          "id": "130",
+          "name": "Oscan"
+        },
+        {
+          "forms": 47,
+          "id": "131",
+          "name": "Old Persian"
+        },
+        {
+          "forms": 44,
+          "id": "132",
+          "name": "Umbrian"
+        },
+        {
+          "forms": 79,
+          "id": "133",
+          "name": "Luvian"
+        },
+        {
+          "forms": 75,
+          "id": "140",
+          "name": "Gaulish"
+        },
+        {
+          "forms": 170,
+          "id": "143",
+          "name": "Albanian: Standard"
+        },
+        {
+          "forms": 170,
+          "id": "144",
+          "name": "Magahi"
+        },
+        {
+          "forms": 175,
+          "id": "145",
+          "name": "Elfdalian"
+        },
+        {
+          "forms": 174,
+          "id": "147",
+          "name": "Gaelic: Manx"
+        },
+        {
+          "forms": 93,
+          "id": "148",
+          "name": "Old Breton"
+        },
+        {
+          "forms": 69,
+          "id": "150",
+          "name": "Old Welsh"
+        },
+        {
+          "forms": 175,
+          "id": "157",
+          "name": "Old Swedish"
+        },
+        {
+          "forms": 174,
+          "id": "162",
+          "name": "Pali"
+        },
+        {
+          "forms": 174,
+          "id": "172",
+          "name": "Middle Breton"
+        },
+        {
+          "forms": 47,
+          "id": "173",
+          "name": "Greek: Mycenaean"
+        },
+        {
+          "forms": 155,
+          "id": "174",
+          "name": "Khotanese"
+        },
+        {
+          "forms": 174,
+          "id": "175",
+          "name": "Kashubian"
+        },
+        {
+          "forms": 166,
+          "id": "176",
+          "name": "Polabian"
+        },
+        {
+          "forms": 160,
+          "id": "177",
+          "name": "Greek: New Testament"
+        },
+        {
+          "forms": 165,
+          "id": "178",
+          "name": "Middle Persian"
+        },
+        {
+          "forms": 135,
+          "id": "179",
+          "name": "Parthian"
+        },
+        {
+          "forms": 170,
+          "id": "189",
+          "name": "Neapolitan"
+        },
+        {
+          "forms": 170,
+          "id": "190",
+          "name": "Latgalian"
+        },
+        {
+          "forms": 173,
+          "id": "195",
+          "name": "Greek: Cypriot"
+        },
+        {
+          "forms": 177,
+          "id": "201",
+          "name": "Greek: Italiot"
+        },
+        {
+          "forms": 171,
+          "id": "203",
+          "name": "Anglo-Norman"
+        },
+        {
+          "forms": 177,
+          "id": "204",
+          "name": "Old Spanish"
+        },
+        {
+          "forms": 148,
+          "id": "207",
+          "name": "Dalmatian: Vegliote"
+        },
+        {
+          "forms": 133,
+          "id": "208",
+          "name": "Yaghnobi"
+        },
+        {
+          "forms": 169,
+          "id": "209",
+          "name": "Old French"
+        },
+        {
+          "forms": 176,
+          "id": "210",
+          "name": "Greek: Cappadocian"
+        },
+        {
+          "forms": 177,
+          "id": "211",
+          "name": "Greek: Pontic"
+        },
+        {
+          "forms": 170,
+          "id": "219",
+          "name": "Palula"
+        },
+        {
+          "forms": 170,
+          "id": "220",
+          "name": "Franco-Provençal"
+        },
+        {
+          "forms": 170,
+          "id": "222",
+          "name": "Bhojpuri"
+        },
+        {
+          "forms": 177,
+          "id": "229",
+          "name": "Breton: Treger"
+        },
+        {
+          "forms": 169,
+          "id": "230",
+          "name": "Late Cornish"
+        },
+        {
+          "forms": 148,
+          "id": "231",
+          "name": "Middle Cornish"
+        },
+        {
+          "forms": 176,
+          "id": "234",
+          "name": "Breton: Gwened"
+        },
+        {
+          "forms": 175,
+          "id": "236",
+          "name": "Welsh: North"
+        },
+        {
+          "forms": 175,
+          "id": "238",
+          "name": "Old Polish"
+        },
+        {
+          "forms": 176,
+          "id": "239",
+          "name": "Middle Welsh"
+        },
+        {
+          "forms": 169,
+          "id": "242",
+          "name": "Kumzari"
+        },
+        {
+          "forms": 174,
+          "id": "243",
+          "name": "Old Czech"
+        },
+        {
+          "forms": 102,
+          "id": "245",
+          "name": "Old Novgorod"
+        },
+        {
+          "forms": 173,
+          "id": "249",
+          "name": "Rusyn"
+        },
+        {
+          "forms": 162,
+          "id": "253",
+          "name": "Macedonian: Visoka"
+        },
+        {
+          "forms": 165,
+          "id": "254",
+          "name": "Macedonian: Suho"
+        },
+        {
+          "forms": 178,
+          "id": "257",
+          "name": "Bakhtiari"
+        },
+        {
+          "forms": 172,
+          "id": "259",
+          "name": "Slovene: Early Modern"
+        },
+        {
+          "forms": 167,
+          "id": "260",
+          "name": "Slovene: Kostel"
+        },
+        {
+          "forms": 170,
+          "id": "263",
+          "name": "German: Bernese"
+        },
+        {
+          "forms": 173,
+          "id": "265",
+          "name": "Mazanderani"
+        },
+        {
+          "forms": 170,
+          "id": "266",
+          "name": "Punjabi"
+        },
+        {
+          "forms": 161,
+          "id": "271",
+          "name": "Sogdian"
+        },
+        {
+          "forms": 170,
+          "id": "272",
+          "name": "Assamese"
+        },
+        {
+          "forms": 171,
+          "id": "273",
+          "name": "Kurdish C.: Jafi"
+        },
+        {
+          "forms": 169,
+          "id": "274",
+          "name": "Balochi: Sistani"
+        },
+        {
+          "forms": 168,
+          "id": "277",
+          "name": "Tati"
+        },
+        {
+          "forms": 57,
+          "id": "278",
+          "name": "Bactrian"
+        },
+        {
+          "forms": 167,
+          "id": "279",
+          "name": "Lari"
+        },
+        {
+          "forms": 171,
+          "id": "280",
+          "name": "Delvari"
+        },
+        {
+          "forms": 173,
+          "id": "281",
+          "name": "Megleno-Romanian"
+        },
+        {
+          "forms": 170,
+          "id": "282",
+          "name": "Hawrami"
+        },
+        {
+          "forms": 174,
+          "id": "283",
+          "name": "Old Occitan"
+        },
+        {
+          "forms": 170,
+          "id": "284",
+          "name": "Khowar"
+        },
+        {
+          "forms": 171,
+          "id": "285",
+          "name": "Kurdish S.: Elami"
+        },
+        {
+          "forms": 167,
+          "id": "286",
+          "name": "Albanian: Arbëresh"
+        },
+        {
+          "forms": 155,
+          "id": "287",
+          "name": "Khwarazmian"
+        },
+        {
+          "forms": 170,
+          "id": "288",
+          "name": "Gawarbati"
+        },
+        {
+          "forms": 170,
+          "id": "289",
+          "name": "Old Catalan"
+        },
+        {
+          "forms": 170,
+          "id": "290",
+          "name": "Gawri"
+        },
+        {
+          "forms": 173,
+          "id": "291",
+          "name": "Raji: Barzoki"
+        },
+        {
+          "forms": 170,
+          "id": "292",
+          "name": "Pashto"
+        },
+        {
+          "forms": 170,
+          "id": "293",
+          "name": "Pashai: North-West"
+        },
+        {
+          "forms": 170,
+          "id": "295",
+          "name": "Old High German"
+        },
+        {
+          "forms": 174,
+          "id": "296",
+          "name": "Sarikoli"
+        },
+        {
+          "forms": 150,
+          "id": "297",
+          "name": "Old Saxon"
+        },
+        {
+          "forms": 170,
+          "id": "298",
+          "name": "Old English"
+        },
+        {
+          "forms": 170,
+          "id": "299",
+          "name": "Middle High German"
+        },
+        {
+          "forms": 171,
+          "id": "300",
+          "name": "Middle Dutch"
+        },
+        {
+          "forms": 110,
+          "id": "301",
+          "name": "Old Frisian"
+        },
+        {
+          "forms": 170,
+          "id": "302",
+          "name": "Old Icelandic"
+        },
+        {
+          "forms": 123,
+          "id": "303",
+          "name": "Gothic"
+        },
+        {
+          "forms": 170,
+          "id": "304",
+          "name": "Norwegian: Nynorsk"
+        },
+        {
+          "forms": 170,
+          "id": "305",
+          "name": "Portuguese: Brazilian"
+        },
+        {
+          "forms": 159,
+          "id": "307",
+          "name": "Vâsi-vari: Paṣki"
+        },
+        {
+          "forms": 174,
+          "id": "308",
+          "name": "Kurdish S.: Qorveh"
+        },
+        {
+          "forms": 172,
+          "id": "311",
+          "name": "Milanese"
+        },
+        {
+          "forms": 170,
+          "id": "312",
+          "name": "Kamviri"
+        },
+        {
+          "forms": 160,
+          "id": "314",
+          "name": "Kâta-vari: Eastern"
+        },
+        {
+          "forms": 129,
+          "id": "315",
+          "name": "Kâta-vari: Ktivi"
+        },
+        {
+          "forms": 149,
+          "id": "316",
+          "name": "Kalaṣa-alâ: Nišeigrâm"
+        },
+        {
+          "forms": 109,
+          "id": "317",
+          "name": "Saṇu-viri: Wâmâ"
+        }
+      ]
+    },
+    "sagartst": {
+      "cognate_judgments": 12179,
+      "cognate_sets": 5120,
+      "commit": "c6df5f38eeef9cf40dbb939e6515f8bf8cd04246",
+      "concepts": 250,
+      "forms": 12179,
+      "forms_with_embedded_cognacy": 12179,
+      "license": "CC BY 4.0",
+      "repository": "https://github.com/lexibank/sagartst",
+      "scope": "All retained CLDF rows; source subgroup labels do not assert a family tree.",
+      "source_groups": {
+        "Bodic": {
+          "forms": 254,
+          "varieties": 1
+        },
+        "Burmish": {
+          "forms": 1941,
+          "varieties": 8
+        },
+        "Chepang": {
+          "forms": 240,
+          "varieties": 1
+        },
+        "Chin": {
+          "forms": 248,
+          "varieties": 1
+        },
+        "Deng": {
+          "forms": 477,
+          "varieties": 2
+        },
+        "Garo": {
+          "forms": 240,
+          "varieties": 1
+        },
+        "Jingpho": {
+          "forms": 260,
+          "varieties": 1
+        },
+        "Kiranti": {
+          "forms": 1534,
+          "varieties": 7
+        },
+        "Koch": {
+          "forms": 177,
+          "varieties": 1
+        },
+        "Loloish": {
+          "forms": 252,
+          "varieties": 1
+        },
+        "Mikir": {
+          "forms": 248,
+          "varieties": 1
+        },
+        "Mizo": {
+          "forms": 274,
+          "varieties": 1
+        },
+        "Naga": {
+          "forms": 205,
+          "varieties": 1
+        },
+        "Nungic": {
+          "forms": 262,
+          "varieties": 1
+        },
+        "Qiangic": {
+          "forms": 277,
+          "varieties": 1
+        },
+        "Sinitic": {
+          "forms": 1657,
+          "varieties": 7
+        },
+        "Tangut": {
+          "forms": 277,
+          "varieties": 1
+        },
+        "Tani": {
+          "forms": 270,
+          "varieties": 1
+        },
+        "Tibetan": {
+          "forms": 1342,
+          "varieties": 5
+        },
+        "Tibeto-Kinauri": {
+          "forms": 697,
+          "varieties": 3
+        },
+        "rGyalrong": {
+          "forms": 1047,
+          "varieties": 4
+        }
+      },
+      "table_rows": {
+        "cognates": 12179,
+        "forms": 12179,
+        "languages": 50,
+        "parameters": 250
+      },
+      "varieties": 50,
+      "varieties_with_counts": [
+        {
+          "forms": 240,
+          "id": "Achang",
+          "name": "Burmish_Achang"
+        },
+        {
+          "forms": 245,
+          "id": "Atsi",
+          "name": "Burmish_Atsi"
+        },
+        {
+          "forms": 189,
+          "id": "Bahing",
+          "name": "Kiranti_Bahing"
+        },
+        {
+          "forms": 232,
+          "id": "Bantawa",
+          "name": "Kiranti_Bantawa"
+        },
+        {
+          "forms": 242,
+          "id": "Beijing",
+          "name": "Sinitic_Beijing"
+        },
+        {
+          "forms": 270,
+          "id": "Bokar",
+          "name": "Tani_Bokar"
+        },
+        {
+          "forms": 242,
+          "id": "Bola",
+          "name": "Burmish_Bola"
+        },
+        {
+          "forms": 246,
+          "id": "Bunan",
+          "name": "TibetoKinauri_Bunan"
+        },
+        {
+          "forms": 219,
+          "id": "Byangsi",
+          "name": "TibetoKinauri_Byangsi"
+        },
+        {
+          "forms": 212,
+          "id": "Chaozhou",
+          "name": "Sinitic_Chaozhou"
+        },
+        {
+          "forms": 240,
+          "id": "Chepang",
+          "name": "Chepang_Chepang"
+        },
+        {
+          "forms": 278,
+          "id": "Daofu",
+          "name": "rGyalrong_Daofu"
+        },
+        {
+          "forms": 240,
+          "id": "DarangTaraon",
+          "name": "Deng_Darang_Taraon"
+        },
+        {
+          "forms": 262,
+          "id": "Dulong",
+          "name": "Nungic_Dulong"
+        },
+        {
+          "forms": 240,
+          "id": "Garo",
+          "name": "Garo_Garo"
+        },
+        {
+          "forms": 250,
+          "id": "Guangzhou",
+          "name": "Sinitic_Guangzhou"
+        },
+        {
+          "forms": 248,
+          "id": "Hakha",
+          "name": "Chin_Hakha"
+        },
+        {
+          "forms": 200,
+          "id": "Hayu",
+          "name": "Kiranti_Hayu"
+        },
+        {
+          "forms": 267,
+          "id": "Japhug",
+          "name": "rGyalrong_Japhug"
+        },
+        {
+          "forms": 222,
+          "id": "Jieyang",
+          "name": "Sinitic_Jieyang"
+        },
+        {
+          "forms": 260,
+          "id": "Jingpho",
+          "name": "Jingpho_Jingpho"
+        },
+        {
+          "forms": 236,
+          "id": "Khaling",
+          "name": "Kiranti_Khaling"
+        },
+        {
+          "forms": 223,
+          "id": "Kulung",
+          "name": "Kiranti_Kulung"
+        },
+        {
+          "forms": 236,
+          "id": "Lashi",
+          "name": "Burmish_Lashi"
+        },
+        {
+          "forms": 218,
+          "id": "Limbu",
+          "name": "Kiranti_Limbu"
+        },
+        {
+          "forms": 252,
+          "id": "Lisu",
+          "name": "Loloish_Lisu"
+        },
+        {
+          "forms": 220,
+          "id": "Longgang",
+          "name": "Sinitic_Longgang"
+        },
+        {
+          "forms": 274,
+          "id": "Lushai",
+          "name": "Mizo_Lushai"
+        },
+        {
+          "forms": 241,
+          "id": "Maru",
+          "name": "Burmish_Maru"
+        },
+        {
+          "forms": 248,
+          "id": "Mikir",
+          "name": "Karbi"
+        },
+        {
+          "forms": 254,
+          "id": "MotuoMenba",
+          "name": "Bodic_Tshangla"
+        },
+        {
+          "forms": 246,
+          "id": "OldBurmese",
+          "name": "Burmish_Old_Burmese"
+        },
+        {
+          "forms": 289,
+          "id": "OldChinese",
+          "name": "Sinitic_Old_Chinese"
+        },
+        {
+          "forms": 273,
+          "id": "OldTibetan",
+          "name": "Tibetan_Old_Tibetan"
+        },
+        {
+          "forms": 177,
+          "id": "Rabha",
+          "name": "Rabha"
+        },
+        {
+          "forms": 258,
+          "id": "Rangoon",
+          "name": "Burmish_Rangoon"
+        },
+        {
+          "forms": 232,
+          "id": "Rongpo",
+          "name": "Tibeto_Kinauri_Rongpo"
+        },
+        {
+          "forms": 277,
+          "id": "Tangut",
+          "name": "Tangut"
+        },
+        {
+          "forms": 236,
+          "id": "Thulung",
+          "name": "Kiranti_Thulung"
+        },
+        {
+          "forms": 249,
+          "id": "Alike",
+          "name": "Tibetan_Alike"
+        },
+        {
+          "forms": 272,
+          "id": "Batang",
+          "name": "Tibetan_Batang"
+        },
+        {
+          "forms": 292,
+          "id": "Lhasa",
+          "name": "Tibetan_Lhasa"
+        },
+        {
+          "forms": 256,
+          "id": "Xiahe",
+          "name": "Tibetan_Xiahe"
+        },
+        {
+          "forms": 205,
+          "id": "Ukhrul",
+          "name": "Naga_Ukhrul"
+        },
+        {
+          "forms": 248,
+          "id": "WobziKhroskyabs",
+          "name": "Khroskyabs_Wobzi"
+        },
+        {
+          "forms": 233,
+          "id": "Xiandao",
+          "name": "Burmish_Xiandao"
+        },
+        {
+          "forms": 222,
+          "id": "Xingning",
+          "name": "Sinitic_Xingning"
+        },
+        {
+          "forms": 237,
+          "id": "Yidu",
+          "name": "Deng_Yidu"
+        },
+        {
+          "forms": 277,
+          "id": "Zhaba",
+          "name": "Qiangic_Zhaba"
+        },
+        {
+          "forms": 254,
+          "id": "MaerkangrGyalrong",
+          "name": "rGyalrong_Maerkang"
+        }
+      ]
+    },
+    "vanbik2009": {
+      "entries": 1344,
+      "extraction_omissions": 10,
+      "reflex_records": 6711,
+      "scope": "VanBik (2009), chapter 4, PDF pages 93–340: every entry parsed by the retained extractor, including PKC and lower reconstruction levels. This is not a transcription of chapters 5–6 (rhymes and tones).",
+      "source_levels": {
+        "PCC": 126,
+        "PKC": 1161,
+        "PNC": 57
+      },
+      "source_sha256": "fb1ddf78261db19c5cb2e2698242939b2f952d390b2a3961b3b867b939598406",
+      "varieties": 12
+    }
+  },
+  "limitations": [
+    "Coverage is complete for the three pinned CLDF snapshots, not for either language family.",
+    "VanBik extraction covers the initial-consonant chapter only; omissions and unreviewed transcriptions are retained.",
+    "Published forms and cognacy judgments are evidence inputs, not newly verified reconstructions.",
+    "Forms in different datasets may overlap. Totals are source records, not deduplicated lexemes.",
+    "Most expanded records have no executable sound-change model; the hypothesis explorer lists the supported cases."
+  ],
+  "schema_version": "1.0.0"
+}

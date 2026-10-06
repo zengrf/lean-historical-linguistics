@@ -1,5 +1,13 @@
 # Verification records
 
+[materials-and-exploration.json](materials-and-exploration.json) records the
+expanded source catalogue and ten hypothesis-selection executions in Lean,
+including comparison with the independent Python interpreter. The accompanying
+14 tests check all 41,942 retained CLDF form rows, the expanded VanBik entries,
+selection of all 509 registered pool queries, linked analyses, withheld
+observations, ambiguity and incomplete searches. See the
+[coverage and usage guide](../docs/13-materials-and-exploration.md).
+
 `library-audit.json` is the saved **full local** acquisition audit, produced with:
 
 ```bash

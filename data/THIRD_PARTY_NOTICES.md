@@ -28,3 +28,20 @@ Both datasets grant [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). T
 Packaging exception: upstream `.gitattributes` files are retained as `.gitattributes.upstream`, with the original path recorded in the manifest. Their contents are unchanged. This prevents their CRLF checkout settings from changing the LF source bytes that were acquired and hashed. Repository attributes disable newline conversion in the snapshot directories.
 
 [manifest.json](upstream/manifest.json) lists every retained upstream file's checksum and size. [Import reports](../reports/README.md) list columns and tables that remain uninterpreted. Other parties' notices remain in the original source files.
+
+## Sagart–Jacques–Lai–List Sino-Tibetan data
+
+Laurent Sagart, Guillaume Jacques, Yunfan Lai and Johann-Mattis List (2019).
+*Sino-Tibetan Database of Lexical Cognates*. Jena: Max Planck Institute for the
+Science of Human History. The retained Lexibank derivative is pinned to
+[`c6df5f38eeef9cf40dbb939e6515f8bf8cd04246`](https://github.com/lexibank/sagartst/tree/c6df5f38eeef9cf40dbb939e6515f8bf8cd04246).
+
+The [upstream README](upstream/sagartst/README.md),
+[contributors](upstream/sagartst/CONTRIBUTORS.md),
+[CC BY 4.0 license](upstream/sagartst/LICENSE), CLDF tables and source bibliography
+are retained unmodified. [materials/sources.json](materials/sources.json) records
+every retained file's checksum and size. As in the older snapshots,
+`.gitattributes` is renamed `.gitattributes.upstream` to preserve source bytes.
+The catalogue adds counts, joins and source-qualified identifiers; it makes no
+new cognacy judgments or claims of author endorsement. Forms from this source
+are not deduplicated against Burmish or Kuki-Chin records from other sources.

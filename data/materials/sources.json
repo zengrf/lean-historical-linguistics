@@ -1,0 +1,81 @@
+[
+  {
+    "id": "sagartst",
+    "repository": "https://github.com/lexibank/sagartst",
+    "commit": "c6df5f38eeef9cf40dbb939e6515f8bf8cd04246",
+    "license": "CC BY 4.0",
+    "files": [
+      {
+        "path": "CONTRIBUTORS.md",
+        "sha256": "b01eed064b3b8fe339fc6b98049fa65671da59f2ff0b87fe49eb8eb3807b13e5",
+        "bytes": 268
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "945fbcb37deca05bccd7c3ca0e261679f1f5373515504fdbad68f6f3cf6f49b9",
+        "bytes": 18652
+      },
+      {
+        "path": "README.md",
+        "sha256": "4d189d1c2e0b9959599e59c3578efb78d419be2fc05a0af796775d3d67327207",
+        "bytes": 2515
+      },
+      {
+        "path": "cldf/.transcription-report.json",
+        "sha256": "eff10c4960686e5b2dcf635c0410c11dca6b0d240f4f9892277ecae66691e995",
+        "bytes": 1989576
+      },
+      {
+        "path": "cldf/README.md",
+        "sha256": "d3860926b1b4b7f8c043814c896ab1c9aed8eb29d3ace8882919c374158477a8",
+        "bytes": 6364
+      },
+      {
+        "path": "cldf/cldf-metadata.json",
+        "sha256": "50233ca3d8194be578f4aaf8d998bcb9a9367804516cef0b8e6d463342bb16a9",
+        "bytes": 14116
+      },
+      {
+        "path": "cldf/cognates.csv",
+        "sha256": "935dffe8b35f4dc83ef64317ed23f54e179302c78723b6a3944ad362e5ce5417",
+        "bytes": 1257359
+      },
+      {
+        "path": "cldf/forms.csv",
+        "sha256": "75526bf1738a03dc804aa286e312adadd10797b9c771ecd108498d81ae5ef71e",
+        "bytes": 1886301
+      },
+      {
+        "path": "cldf/languages.csv",
+        "sha256": "d92a43d1741c9fe8bd26363a2405815bf6ff502256bb77e29ce35334eb37c72c",
+        "bytes": 6765
+      },
+      {
+        "path": "cldf/lingpy-rcParams.json",
+        "sha256": "d899b7956a88d91da853ad202365c21d2a23d2956a97e56b9fc7f94f29dad02c",
+        "bytes": 7637
+      },
+      {
+        "path": "cldf/parameters.csv",
+        "sha256": "8e786baaa0f9a917176018e2ad1acd2e80a62f7fb5baeaf4f9e6ae30e46984ca",
+        "bytes": 11273
+      },
+      {
+        "path": "cldf/requirements.txt",
+        "sha256": "a33db989b2ce460996d1e61fd5e4c0cc50ad99a41f638ff57db161d4c2ff1579",
+        "bytes": 898
+      },
+      {
+        "path": "cldf/sources.bib",
+        "sha256": "d9f7f1ad0e61665a00846d67dc03f450e81941f22a5c434b46c5a3f1ab4d02fd",
+        "bytes": 10237
+      },
+      {
+        "path": "cldf/.gitattributes.upstream",
+        "upstream_path": "cldf/.gitattributes",
+        "sha256": "9ebfe081d56a414fc1008021d455e31c22068e671f88938c3c3f90fbbe80227b",
+        "bytes": 19
+      }
+    ]
+  }
+]

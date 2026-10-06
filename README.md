@@ -39,6 +39,15 @@ published reference forms within a declared candidate pool.
 
 ## Documentation
 
+The [expanded materials and hypothesis explorer](docs/13-materials-and-exploration.md)
+provide access to 48,653 source form records: complete retained IE-CoR, Sagart
+Sino-Tibetan and Burmish datasets, plus 1,344 parsed VanBik entries. Select among
+509 existing candidate-pool queries or supply a bounded reconstruction
+specification; compare hypotheses, inspect checked derivations and test the
+effect of withholding observations. This source coverage exceeds the executable
+model coverage. Completeness always refers to the declared pool or bounded
+word/analysis space.
+
 | Document | Contents |
 | --- | --- |
 | [Literature review](docs/01-literature-review.md) | Comparative method, computational reconstruction, PIE, Sino-Tibetan and formal foundations |
@@ -50,6 +59,7 @@ published reference forms within a declared candidate pool.
 | [Research method](docs/06-research-method.md) | Source selection, reading scope, acquisition and access gaps |
 | [Annotated bibliography](bibliography/README.md) | Source annotations, links and PDF locations |
 | [Milestone register](data/milestones.json) | Machine-readable criteria and status |
+| [Materials and hypothesis exploration](docs/13-materials-and-exploration.md) | Full source catalogue, hypothesis selection, enumeration, explanations, coverage gaps and proposed features |
 
 ## Library and proofs
 

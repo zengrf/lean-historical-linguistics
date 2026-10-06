@@ -1,0 +1,41 @@
+name: Materials and hypothesis exploration
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exploration:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        lean: ['v4.19.0', 'v4.34.1']
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Reproduce expanded source extraction and catalogue
+        run: python scripts/build_materials.py --check
+      - name: Test source retention, selection, ambiguity and incomplete results
+        run: python -m unittest discover -s tests -p test_explorer.py -v
+      - name: Install pinned elan
+        shell: bash
+        run: |
+          curl --fail --location --retry 3 https://github.com/leanprover/elan/releases/download/v4.2.4/elan-x86_64-unknown-linux-gnu.tar.gz --output "$RUNNER_TEMP/elan.tar.gz"
+          echo "42b94d4244e8353142c456ec0e4ca6528fd898a6c604d4059f494e706e431f63  $RUNNER_TEMP/elan.tar.gz" | sha256sum --check
+          tar -xzf "$RUNNER_TEMP/elan.tar.gz" -C "$RUNNER_TEMP"
+          "$RUNNER_TEMP/elan-init" -y --default-toolchain "leanprover/lean4:${{ matrix.lean }}"
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Build reconstruction executables
+        working-directory: lean
+        run: lake +leanprover/lean4:${{ matrix.lean }} build reconstruct pie_check sino_tibetan_check
+      - name: Execute and compare selected hypotheses
+        run: python scripts/verify_explorer.py --check

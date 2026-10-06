@@ -1,0 +1,5751 @@
+{
+  "catalogue": {
+    "datasets": {
+      "hillburmish": {
+        "cognate_judgments": 0,
+        "cognate_sets": 0,
+        "commit": "3d96cfa6b2ed4c59fd13e28ef5ae00db30247bb3",
+        "concepts": 819,
+        "forms": 4032,
+        "forms_with_embedded_cognacy": 4032,
+        "license": "CC BY 4.0",
+        "repository": "https://github.com/lexibank/hillburmish",
+        "scope": "All retained CLDF rows; source subgroup labels do not assert a family tree.",
+        "source_groups": {
+          "Burmish": {
+            "forms": 4032,
+            "varieties": 9
+          }
+        },
+        "table_rows": {
+          "forms": 4032,
+          "languages": 9,
+          "parameters": 819
+        },
+        "varieties": 9,
+        "varieties_with_counts": [
+          {
+            "forms": 467,
+            "id": "AchangLongchuan",
+            "name": "Achang"
+          },
+          {
+            "forms": 391,
+            "id": "Xiandao",
+            "name": "Xiandao"
+          },
+          {
+            "forms": 468,
+            "id": "Lashi",
+            "name": "Lashi"
+          },
+          {
+            "forms": 219,
+            "id": "OldBurmese",
+            "name": "Old Burmese"
+          },
+          {
+            "forms": 342,
+            "id": "Rangoon",
+            "name": "Rangoon Burmese"
+          },
+          {
+            "forms": 583,
+            "id": "Maru",
+            "name": "Maru"
+          },
+          {
+            "forms": 513,
+            "id": "Atsi",
+            "name": "Atsi"
+          },
+          {
+            "forms": 627,
+            "id": "Bola",
+            "name": "Bola"
+          },
+          {
+            "forms": 422,
+            "id": "ProtoBurmish",
+            "name": "ProtoBurmish"
+          }
+        ]
+      },
+      "iecor": {
+        "cognate_judgments": 25741,
+        "cognate_sets": 4981,
+        "commit": "700b635a04786427b78841489c46eefbe2843509",
+        "concepts": 170,
+        "forms": 25731,
+        "forms_with_embedded_cognacy": 0,
+        "license": "CC BY 4.0",
+        "repository": "https://github.com/lexibank/iecor",
+        "scope": "All retained CLDF rows; source subgroup labels do not assert a family tree.",
+        "source_groups": {
+          "Albanian": {
+            "forms": 507,
+            "varieties": 3
+          },
+          "Anatolian": {
+            "forms": 216,
+            "varieties": 2
+          },
+          "Armenian": {
+            "forms": 510,
+            "varieties": 3
+          },
+          "Balto-Slavic": {
+            "forms": 4494,
+            "varieties": 27
+          },
+          "Celtic": {
+            "forms": 2122,
+            "varieties": 14
+          },
+          "Germanic": {
+            "forms": 3801,
+            "varieties": 23
+          },
+          "Hellenic": {
+            "forms": 1254,
+            "varieties": 8
+          },
+          "Indo-Iranic": {
+            "forms": 8541,
+            "varieties": 53
+          },
+          "Italic": {
+            "forms": 4005,
+            "varieties": 25
+          },
+          "Tocharian": {
+            "forms": 281,
+            "varieties": 2
+          }
+        },
+        "table_rows": {
+          "authors": 91,
+          "clades": 27,
+          "cognates": 25741,
+          "cognatesets": 4981,
+          "forms": 25731,
+          "languages": 160,
+          "loans": 1036,
+          "parameters": 170
+        },
+        "varieties": 160,
+        "varieties_with_counts": [
+          {
+            "forms": 170,
+            "id": "3",
+            "name": "Albanian: Gheg"
+          },
+          {
+            "forms": 170,
+            "id": "7",
+            "name": "Armenian: Western"
+          },
+          {
+            "forms": 170,
+            "id": "8",
+            "name": "Armenian: Eastern"
+          },
+          {
+            "forms": 173,
+            "id": "10",
+            "name": "Bengali"
+          },
+          {
+            "forms": 172,
+            "id": "15",
+            "name": "Bulgarian"
+          },
+          {
+            "forms": 170,
+            "id": "16",
+            "name": "Belarusian"
+          },
+          {
+            "forms": 170,
+            "id": "17",
+            "name": "Catalan"
+          },
+          {
+            "forms": 172,
+            "id": "18",
+            "name": "Czech"
+          },
+          {
+            "forms": 169,
+            "id": "20",
+            "name": "Danish"
+          },
+          {
+            "forms": 171,
+            "id": "21",
+            "name": "Dutch"
+          },
+          {
+            "forms": 170,
+            "id": "22",
+            "name": "English"
+          },
+          {
+            "forms": 170,
+            "id": "23",
+            "name": "Faroese"
+          },
+          {
+            "forms": 170,
+            "id": "24",
+            "name": "Flemish"
+          },
+          {
+            "forms": 170,
+            "id": "25",
+            "name": "French"
+          },
+          {
+            "forms": 170,
+            "id": "26",
+            "name": "Frisian"
+          },
+          {
+            "forms": 172,
+            "id": "27",
+            "name": "German"
+          },
+          {
+            "forms": 172,
+            "id": "32",
+            "name": "Greek: Modern Std"
+          },
+          {
+            "forms": 176,
+            "id": "35",
+            "name": "Hindi"
+          },
+          {
+            "forms": 173,
+            "id": "36",
+            "name": "Icelandic"
+          },
+          {
+            "forms": 171,
+            "id": "38",
+            "name": "Gaelic: Irish"
+          },
+          {
+            "forms": 171,
+            "id": "39",
+            "name": "Italian"
+          },
+          {
+            "forms": 170,
+            "id": "40",
+            "name": "Kashmiri"
+          },
+          {
+            "forms": 175,
+            "id": "42",
+            "name": "Ladin"
+          },
+          {
+            "forms": 171,
+            "id": "44",
+            "name": "Latvian"
+          },
+          {
+            "forms": 174,
+            "id": "46",
+            "name": "Lithuanian"
+          },
+          {
+            "forms": 173,
+            "id": "47",
+            "name": "Sorbian: Lower"
+          },
+          {
+            "forms": 173,
+            "id": "48",
+            "name": "Sorbian: Upper"
+          },
+          {
+            "forms": 171,
+            "id": "50",
+            "name": "Marathi"
+          },
+          {
+            "forms": 177,
+            "id": "51",
+            "name": "Nepali"
+          },
+          {
+            "forms": 173,
+            "id": "54",
+            "name": "Persian: Tehran"
+          },
+          {
+            "forms": 170,
+            "id": "55",
+            "name": "Polish"
+          },
+          {
+            "forms": 171,
+            "id": "56",
+            "name": "Portuguese"
+          },
+          {
+            "forms": 170,
+            "id": "58",
+            "name": "Norwegian: Bokmål"
+          },
+          {
+            "forms": 176,
+            "id": "59",
+            "name": "Romanian"
+          },
+          {
+            "forms": 170,
+            "id": "60",
+            "name": "Russian"
+          },
+          {
+            "forms": 173,
+            "id": "62",
+            "name": "Sardinian: Logudoro"
+          },
+          {
+            "forms": 170,
+            "id": "63",
+            "name": "Sardinian: Nuoro"
+          },
+          {
+            "forms": 174,
+            "id": "65",
+            "name": "Sinhalese"
+          },
+          {
+            "forms": 172,
+            "id": "66",
+            "name": "Slovak"
+          },
+          {
+            "forms": 171,
+            "id": "68",
+            "name": "Spanish"
+          },
+          {
+            "forms": 172,
+            "id": "69",
+            "name": "Swedish"
+          },
+          {
+            "forms": 171,
+            "id": "73",
+            "name": "Ukrainian"
+          },
+          {
+            "forms": 170,
+            "id": "75",
+            "name": "Wakhi"
+          },
+          {
+            "forms": 170,
+            "id": "76",
+            "name": "Walloon"
+          },
+          {
+            "forms": 137,
+            "id": "80",
+            "name": "Hittite"
+          },
+          {
+            "forms": 126,
+            "id": "81",
+            "name": "Tocharian A"
+          },
+          {
+            "forms": 155,
+            "id": "82",
+            "name": "Tocharian B"
+          },
+          {
+            "forms": 170,
+            "id": "92",
+            "name": "Macedonian"
+          },
+          {
+            "forms": 173,
+            "id": "95",
+            "name": "Serbo-Croat"
+          },
+          {
+            "forms": 170,
+            "id": "97",
+            "name": "Slovene"
+          },
+          {
+            "forms": 175,
+            "id": "100",
+            "name": "Old Church Slavonic"
+          },
+          {
+            "forms": 170,
+            "id": "105",
+            "name": "Vedic: Early"
+          },
+          {
+            "forms": 118,
+            "id": "108",
+            "name": "Old Prussian"
+          },
+          {
+            "forms": 172,
+            "id": "110",
+            "name": "Greek: Ancient"
+          },
+          {
+            "forms": 170,
+            "id": "111",
+            "name": "Maithili"
+          },
+          {
+            "forms": 172,
+            "id": "112",
+            "name": "Latin"
+          },
+          {
+            "forms": 172,
+            "id": "115",
+            "name": "Gaelic: Scottish"
+          },
+          {
+            "forms": 170,
+            "id": "118",
+            "name": "Kurdish N.: Bahdini"
+          },
+          {
+            "forms": 174,
+            "id": "119",
+            "name": "Urdu"
+          },
+          {
+            "forms": 170,
+            "id": "120",
+            "name": "Luxembourgish"
+          },
+          {
+            "forms": 173,
+            "id": "122",
+            "name": "Friulian"
+          },
+          {
+            "forms": 171,
+            "id": "124",
+            "name": "Ossetic: Iron"
+          },
+          {
+            "forms": 170,
+            "id": "125",
+            "name": "Ossetic: Digor"
+          },
+          {
+            "forms": 173,
+            "id": "127",
+            "name": "Old Irish"
+          },
+          {
+            "forms": 146,
+            "id": "128",
+            "name": "Avestan: Younger"
+          },
+          {
+            "forms": 170,
+            "id": "129",
+            "name": "Armenian: Classical"
+          },
+          {
+            "forms": 35,
+            "id": "130",
+            "name": "Oscan"
+          },
+          {
+            "forms": 47,
+            "id": "131",
+            "name": "Old Persian"
+          },
+          {
+            "forms": 44,
+            "id": "132",
+            "name": "Umbrian"
+          },
+          {
+            "forms": 79,
+            "id": "133",
+            "name": "Luvian"
+          },
+          {
+            "forms": 75,
+            "id": "140",
+            "name": "Gaulish"
+          },
+          {
+            "forms": 170,
+            "id": "143",
+            "name": "Albanian: Standard"
+          },
+          {
+            "forms": 170,
+            "id": "144",
+            "name": "Magahi"
+          },
+          {
+            "forms": 175,
+            "id": "145",
+            "name": "Elfdalian"
+          },
+          {
+            "forms": 174,
+            "id": "147",
+            "name": "Gaelic: Manx"
+          },
+          {
+            "forms": 93,
+            "id": "148",
+            "name": "Old Breton"
+          },
+          {
+            "forms": 69,
+            "id": "150",
+            "name": "Old Welsh"
+          },
+          {
+            "forms": 175,
+            "id": "157",
+            "name": "Old Swedish"
+          },
+          {
+            "forms": 174,
+            "id": "162",
+            "name": "Pali"
+          },
+          {
+            "forms": 174,
+            "id": "172",
+            "name": "Middle Breton"
+          },
+          {
+            "forms": 47,
+            "id": "173",
+            "name": "Greek: Mycenaean"
+          },
+          {
+            "forms": 155,
+            "id": "174",
+            "name": "Khotanese"
+          },
+          {
+            "forms": 174,
+            "id": "175",
+            "name": "Kashubian"
+          },
+          {
+            "forms": 166,
+            "id": "176",
+            "name": "Polabian"
+          },
+          {
+            "forms": 160,
+            "id": "177",
+            "name": "Greek: New Testament"
+          },
+          {
+            "forms": 165,
+            "id": "178",
+            "name": "Middle Persian"
+          },
+          {
+            "forms": 135,
+            "id": "179",
+            "name": "Parthian"
+          },
+          {
+            "forms": 170,
+            "id": "189",
+            "name": "Neapolitan"
+          },
+          {
+            "forms": 170,
+            "id": "190",
+            "name": "Latgalian"
+          },
+          {
+            "forms": 173,
+            "id": "195",
+            "name": "Greek: Cypriot"
+          },
+          {
+            "forms": 177,
+            "id": "201",
+            "name": "Greek: Italiot"
+          },
+          {
+            "forms": 171,
+            "id": "203",
+            "name": "Anglo-Norman"
+          },
+          {
+            "forms": 177,
+            "id": "204",
+            "name": "Old Spanish"
+          },
+          {
+            "forms": 148,
+            "id": "207",
+            "name": "Dalmatian: Vegliote"
+          },
+          {
+            "forms": 133,
+            "id": "208",
+            "name": "Yaghnobi"
+          },
+          {
+            "forms": 169,
+            "id": "209",
+            "name": "Old French"
+          },
+          {
+            "forms": 176,
+            "id": "210",
+            "name": "Greek: Cappadocian"
+          },
+          {
+            "forms": 177,
+            "id": "211",
+            "name": "Greek: Pontic"
+          },
+          {
+            "forms": 170,
+            "id": "219",
+            "name": "Palula"
+          },
+          {
+            "forms": 170,
+            "id": "220",
+            "name": "Franco-Provençal"
+          },
+          {
+            "forms": 170,
+            "id": "222",
+            "name": "Bhojpuri"
+          },
+          {
+            "forms": 177,
+            "id": "229",
+            "name": "Breton: Treger"
+          },
+          {
+            "forms": 169,
+            "id": "230",
+            "name": "Late Cornish"
+          },
+          {
+            "forms": 148,
+            "id": "231",
+            "name": "Middle Cornish"
+          },
+          {
+            "forms": 176,
+            "id": "234",
+            "name": "Breton: Gwened"
+          },
+          {
+            "forms": 175,
+            "id": "236",
+            "name": "Welsh: North"
+          },
+          {
+            "forms": 175,
+            "id": "238",
+            "name": "Old Polish"
+          },
+          {
+            "forms": 176,
+            "id": "239",
+            "name": "Middle Welsh"
+          },
+          {
+            "forms": 169,
+            "id": "242",
+            "name": "Kumzari"
+          },
+          {
+            "forms": 174,
+            "id": "243",
+            "name": "Old Czech"
+          },
+          {
+            "forms": 102,
+            "id": "245",
+            "name": "Old Novgorod"
+          },
+          {
+            "forms": 173,
+            "id": "249",
+            "name": "Rusyn"
+          },
+          {
+            "forms": 162,
+            "id": "253",
+            "name": "Macedonian: Visoka"
+          },
+          {
+            "forms": 165,
+            "id": "254",
+            "name": "Macedonian: Suho"
+          },
+          {
+            "forms": 178,
+            "id": "257",
+            "name": "Bakhtiari"
+          },
+          {
+            "forms": 172,
+            "id": "259",
+            "name": "Slovene: Early Modern"
+          },
+          {
+            "forms": 167,
+            "id": "260",
+            "name": "Slovene: Kostel"
+          },
+          {
+            "forms": 170,
+            "id": "263",
+            "name": "German: Bernese"
+          },
+          {
+            "forms": 173,
+            "id": "265",
+            "name": "Mazanderani"
+          },
+          {
+            "forms": 170,
+            "id": "266",
+            "name": "Punjabi"
+          },
+          {
+            "forms": 161,
+            "id": "271",
+            "name": "Sogdian"
+          },
+          {
+            "forms": 170,
+            "id": "272",
+            "name": "Assamese"
+          },
+          {
+            "forms": 171,
+            "id": "273",
+            "name": "Kurdish C.: Jafi"
+          },
+          {
+            "forms": 169,
+            "id": "274",
+            "name": "Balochi: Sistani"
+          },
+          {
+            "forms": 168,
+            "id": "277",
+            "name": "Tati"
+          },
+          {
+            "forms": 57,
+            "id": "278",
+            "name": "Bactrian"
+          },
+          {
+            "forms": 167,
+            "id": "279",
+            "name": "Lari"
+          },
+          {
+            "forms": 171,
+            "id": "280",
+            "name": "Delvari"
+          },
+          {
+            "forms": 173,
+            "id": "281",
+            "name": "Megleno-Romanian"
+          },
+          {
+            "forms": 170,
+            "id": "282",
+            "name": "Hawrami"
+          },
+          {
+            "forms": 174,
+            "id": "283",
+            "name": "Old Occitan"
+          },
+          {
+            "forms": 170,
+            "id": "284",
+            "name": "Khowar"
+          },
+          {
+            "forms": 171,
+            "id": "285",
+            "name": "Kurdish S.: Elami"
+          },
+          {
+            "forms": 167,
+            "id": "286",
+            "name": "Albanian: Arbëresh"
+          },
+          {
+            "forms": 155,
+            "id": "287",
+            "name": "Khwarazmian"
+          },
+          {
+            "forms": 170,
+            "id": "288",
+            "name": "Gawarbati"
+          },
+          {
+            "forms": 170,
+            "id": "289",
+            "name": "Old Catalan"
+          },
+          {
+            "forms": 170,
+            "id": "290",
+            "name": "Gawri"
+          },
+          {
+            "forms": 173,
+            "id": "291",
+            "name": "Raji: Barzoki"
+          },
+          {
+            "forms": 170,
+            "id": "292",
+            "name": "Pashto"
+          },
+          {
+            "forms": 170,
+            "id": "293",
+            "name": "Pashai: North-West"
+          },
+          {
+            "forms": 170,
+            "id": "295",
+            "name": "Old High German"
+          },
+          {
+            "forms": 174,
+            "id": "296",
+            "name": "Sarikoli"
+          },
+          {
+            "forms": 150,
+            "id": "297",
+            "name": "Old Saxon"
+          },
+          {
+            "forms": 170,
+            "id": "298",
+            "name": "Old English"
+          },
+          {
+            "forms": 170,
+            "id": "299",
+            "name": "Middle High German"
+          },
+          {
+            "forms": 171,
+            "id": "300",
+            "name": "Middle Dutch"
+          },
+          {
+            "forms": 110,
+            "id": "301",
+            "name": "Old Frisian"
+          },
+          {
+            "forms": 170,
+            "id": "302",
+            "name": "Old Icelandic"
+          },
+          {
+            "forms": 123,
+            "id": "303",
+            "name": "Gothic"
+          },
+          {
+            "forms": 170,
+            "id": "304",
+            "name": "Norwegian: Nynorsk"
+          },
+          {
+            "forms": 170,
+            "id": "305",
+            "name": "Portuguese: Brazilian"
+          },
+          {
+            "forms": 159,
+            "id": "307",
+            "name": "Vâsi-vari: Paṣki"
+          },
+          {
+            "forms": 174,
+            "id": "308",
+            "name": "Kurdish S.: Qorveh"
+          },
+          {
+            "forms": 172,
+            "id": "311",
+            "name": "Milanese"
+          },
+          {
+            "forms": 170,
+            "id": "312",
+            "name": "Kamviri"
+          },
+          {
+            "forms": 160,
+            "id": "314",
+            "name": "Kâta-vari: Eastern"
+          },
+          {
+            "forms": 129,
+            "id": "315",
+            "name": "Kâta-vari: Ktivi"
+          },
+          {
+            "forms": 149,
+            "id": "316",
+            "name": "Kalaṣa-alâ: Nišeigrâm"
+          },
+          {
+            "forms": 109,
+            "id": "317",
+            "name": "Saṇu-viri: Wâmâ"
+          }
+        ]
+      },
+      "sagartst": {
+        "cognate_judgments": 12179,
+        "cognate_sets": 5120,
+        "commit": "c6df5f38eeef9cf40dbb939e6515f8bf8cd04246",
+        "concepts": 250,
+        "forms": 12179,
+        "forms_with_embedded_cognacy": 12179,
+        "license": "CC BY 4.0",
+        "repository": "https://github.com/lexibank/sagartst",
+        "scope": "All retained CLDF rows; source subgroup labels do not assert a family tree.",
+        "source_groups": {
+          "Bodic": {
+            "forms": 254,
+            "varieties": 1
+          },
+          "Burmish": {
+            "forms": 1941,
+            "varieties": 8
+          },
+          "Chepang": {
+            "forms": 240,
+            "varieties": 1
+          },
+          "Chin": {
+            "forms": 248,
+            "varieties": 1
+          },
+          "Deng": {
+            "forms": 477,
+            "varieties": 2
+          },
+          "Garo": {
+            "forms": 240,
+            "varieties": 1
+          },
+          "Jingpho": {
+            "forms": 260,
+            "varieties": 1
+          },
+          "Kiranti": {
+            "forms": 1534,
+            "varieties": 7
+          },
+          "Koch": {
+            "forms": 177,
+            "varieties": 1
+          },
+          "Loloish": {
+            "forms": 252,
+            "varieties": 1
+          },
+          "Mikir": {
+            "forms": 248,
+            "varieties": 1
+          },
+          "Mizo": {
+            "forms": 274,
+            "varieties": 1
+          },
+          "Naga": {
+            "forms": 205,
+            "varieties": 1
+          },
+          "Nungic": {
+            "forms": 262,
+            "varieties": 1
+          },
+          "Qiangic": {
+            "forms": 277,
+            "varieties": 1
+          },
+          "Sinitic": {
+            "forms": 1657,
+            "varieties": 7
+          },
+          "Tangut": {
+            "forms": 277,
+            "varieties": 1
+          },
+          "Tani": {
+            "forms": 270,
+            "varieties": 1
+          },
+          "Tibetan": {
+            "forms": 1342,
+            "varieties": 5
+          },
+          "Tibeto-Kinauri": {
+            "forms": 697,
+            "varieties": 3
+          },
+          "rGyalrong": {
+            "forms": 1047,
+            "varieties": 4
+          }
+        },
+        "table_rows": {
+          "cognates": 12179,
+          "forms": 12179,
+          "languages": 50,
+          "parameters": 250
+        },
+        "varieties": 50,
+        "varieties_with_counts": [
+          {
+            "forms": 240,
+            "id": "Achang",
+            "name": "Burmish_Achang"
+          },
+          {
+            "forms": 245,
+            "id": "Atsi",
+            "name": "Burmish_Atsi"
+          },
+          {
+            "forms": 189,
+            "id": "Bahing",
+            "name": "Kiranti_Bahing"
+          },
+          {
+            "forms": 232,
+            "id": "Bantawa",
+            "name": "Kiranti_Bantawa"
+          },
+          {
+            "forms": 242,
+            "id": "Beijing",
+            "name": "Sinitic_Beijing"
+          },
+          {
+            "forms": 270,
+            "id": "Bokar",
+            "name": "Tani_Bokar"
+          },
+          {
+            "forms": 242,
+            "id": "Bola",
+            "name": "Burmish_Bola"
+          },
+          {
+            "forms": 246,
+            "id": "Bunan",
+            "name": "TibetoKinauri_Bunan"
+          },
+          {
+            "forms": 219,
+            "id": "Byangsi",
+            "name": "TibetoKinauri_Byangsi"
+          },
+          {
+            "forms": 212,
+            "id": "Chaozhou",
+            "name": "Sinitic_Chaozhou"
+          },
+          {
+            "forms": 240,
+            "id": "Chepang",
+            "name": "Chepang_Chepang"
+          },
+          {
+            "forms": 278,
+            "id": "Daofu",
+            "name": "rGyalrong_Daofu"
+          },
+          {
+            "forms": 240,
+            "id": "DarangTaraon",
+            "name": "Deng_Darang_Taraon"
+          },
+          {
+            "forms": 262,
+            "id": "Dulong",
+            "name": "Nungic_Dulong"
+          },
+          {
+            "forms": 240,
+            "id": "Garo",
+            "name": "Garo_Garo"
+          },
+          {
+            "forms": 250,
+            "id": "Guangzhou",
+            "name": "Sinitic_Guangzhou"
+          },
+          {
+            "forms": 248,
+            "id": "Hakha",
+            "name": "Chin_Hakha"
+          },
+          {
+            "forms": 200,
+            "id": "Hayu",
+            "name": "Kiranti_Hayu"
+          },
+          {
+            "forms": 267,
+            "id": "Japhug",
+            "name": "rGyalrong_Japhug"
+          },
+          {
+            "forms": 222,
+            "id": "Jieyang",
+            "name": "Sinitic_Jieyang"
+          },
+          {
+            "forms": 260,
+            "id": "Jingpho",
+            "name": "Jingpho_Jingpho"
+          },
+          {
+            "forms": 236,
+            "id": "Khaling",
+            "name": "Kiranti_Khaling"
+          },
+          {
+            "forms": 223,
+            "id": "Kulung",
+            "name": "Kiranti_Kulung"
+          },
+          {
+            "forms": 236,
+            "id": "Lashi",
+            "name": "Burmish_Lashi"
+          },
+          {
+            "forms": 218,
+            "id": "Limbu",
+            "name": "Kiranti_Limbu"
+          },
+          {
+            "forms": 252,
+            "id": "Lisu",
+            "name": "Loloish_Lisu"
+          },
+          {
+            "forms": 220,
+            "id": "Longgang",
+            "name": "Sinitic_Longgang"
+          },
+          {
+            "forms": 274,
+            "id": "Lushai",
+            "name": "Mizo_Lushai"
+          },
+          {
+            "forms": 241,
+            "id": "Maru",
+            "name": "Burmish_Maru"
+          },
+          {
+            "forms": 248,
+            "id": "Mikir",
+            "name": "Karbi"
+          },
+          {
+            "forms": 254,
+            "id": "MotuoMenba",
+            "name": "Bodic_Tshangla"
+          },
+          {
+            "forms": 246,
+            "id": "OldBurmese",
+            "name": "Burmish_Old_Burmese"
+          },
+          {
+            "forms": 289,
+            "id": "OldChinese",
+            "name": "Sinitic_Old_Chinese"
+          },
+          {
+            "forms": 273,
+            "id": "OldTibetan",
+            "name": "Tibetan_Old_Tibetan"
+          },
+          {
+            "forms": 177,
+            "id": "Rabha",
+            "name": "Rabha"
+          },
+          {
+            "forms": 258,
+            "id": "Rangoon",
+            "name": "Burmish_Rangoon"
+          },
+          {
+            "forms": 232,
+            "id": "Rongpo",
+            "name": "Tibeto_Kinauri_Rongpo"
+          },
+          {
+            "forms": 277,
+            "id": "Tangut",
+            "name": "Tangut"
+          },
+          {
+            "forms": 236,
+            "id": "Thulung",
+            "name": "Kiranti_Thulung"
+          },
+          {
+            "forms": 249,
+            "id": "Alike",
+            "name": "Tibetan_Alike"
+          },
+          {
+            "forms": 272,
+            "id": "Batang",
+            "name": "Tibetan_Batang"
+          },
+          {
+            "forms": 292,
+            "id": "Lhasa",
+            "name": "Tibetan_Lhasa"
+          },
+          {
+            "forms": 256,
+            "id": "Xiahe",
+            "name": "Tibetan_Xiahe"
+          },
+          {
+            "forms": 205,
+            "id": "Ukhrul",
+            "name": "Naga_Ukhrul"
+          },
+          {
+            "forms": 248,
+            "id": "WobziKhroskyabs",
+            "name": "Khroskyabs_Wobzi"
+          },
+          {
+            "forms": 233,
+            "id": "Xiandao",
+            "name": "Burmish_Xiandao"
+          },
+          {
+            "forms": 222,
+            "id": "Xingning",
+            "name": "Sinitic_Xingning"
+          },
+          {
+            "forms": 237,
+            "id": "Yidu",
+            "name": "Deng_Yidu"
+          },
+          {
+            "forms": 277,
+            "id": "Zhaba",
+            "name": "Qiangic_Zhaba"
+          },
+          {
+            "forms": 254,
+            "id": "MaerkangrGyalrong",
+            "name": "rGyalrong_Maerkang"
+          }
+        ]
+      },
+      "vanbik2009": {
+        "entries": 1344,
+        "extraction_omissions": 10,
+        "reflex_records": 6711,
+        "scope": "VanBik (2009), chapter 4, PDF pages 93–340: every entry parsed by the retained extractor, including PKC and lower reconstruction levels. This is not a transcription of chapters 5–6 (rhymes and tones).",
+        "source_levels": {
+          "PCC": 126,
+          "PKC": 1161,
+          "PNC": 57
+        },
+        "source_sha256": "fb1ddf78261db19c5cb2e2698242939b2f952d390b2a3961b3b867b939598406",
+        "varieties": 12
+      }
+    },
+    "limitations": [
+      "Coverage is complete for the three pinned CLDF snapshots, not for either language family.",
+      "VanBik extraction covers the initial-consonant chapter only; omissions and unreviewed transcriptions are retained.",
+      "Published forms and cognacy judgments are evidence inputs, not newly verified reconstructions.",
+      "Forms in different datasets may overlap. Totals are source records, not deduplicated lexemes.",
+      "Most expanded records have no executable sound-change model; the hypothesis explorer lists the supported cases."
+    ],
+    "schema_version": "1.0.0"
+  },
+  "checks": {
+    "cldf_validation": true,
+    "complete_source_row_unit_tests": "tests/test_explorer.py",
+    "frozen_studies": "unchanged",
+    "lean_and_independent_interpreter_agree": true,
+    "selected_lean_runs": 10,
+    "snapshot_hashes": true
+  },
+  "executions": [
+    {
+      "id": "pie:set-21",
+      "result": {
+        "comparison": {
+          "candidate_support": [],
+          "common_to_all": [],
+          "interpretation": "Agreement/disagreement within this case and its declared pools; these counts are not probabilities."
+        },
+        "complete": true,
+        "explanations": [],
+        "no_candidate_in_scope": true,
+        "result": {
+          "forward": [],
+          "id": "pie-lexical-baselines-v1",
+          "input_valid": true,
+          "inverse": [
+            {
+              "ambiguous": false,
+              "candidates": [],
+              "complete": true,
+              "empty_in_scope": true,
+              "examined": 128,
+              "id": "set-21-identity",
+              "reference": [
+                [
+                  "ḱ",
+                  "w",
+                  "o",
+                  "n"
+                ]
+              ],
+              "reference_recalled": false,
+              "scope": "declared-published-reference-pool"
+            },
+            {
+              "ambiguous": false,
+              "candidates": [],
+              "complete": true,
+              "empty_in_scope": true,
+              "examined": 128,
+              "id": "set-21-correspondence",
+              "reference": [
+                [
+                  "ḱ",
+                  "w",
+                  "o",
+                  "n"
+                ]
+              ],
+              "reference_recalled": false,
+              "scope": "declared-published-reference-pool"
+            }
+          ]
+        },
+        "scope": "selected-declared-pools",
+        "status": "complete"
+      }
+    },
+    {
+      "id": "latin:latin-21",
+      "result": {
+        "comparison": {
+          "candidate_support": [],
+          "common_to_all": [],
+          "interpretation": "Agreement/disagreement within this case and its declared pools; these counts are not probabilities."
+        },
+        "complete": true,
+        "explanations": [],
+        "no_candidate_in_scope": true,
+        "result": {
+          "forward": [],
+          "id": "latin-romance-control-v1",
+          "input_valid": true,
+          "inverse": [
+            {
+              "ambiguous": false,
+              "candidates": [],
+              "complete": true,
+              "empty_in_scope": true,
+              "examined": 20,
+              "id": "latin-21-identity",
+              "reference": [
+                [
+                  "k",
+                  "a",
+                  "n",
+                  "i",
+                  "s"
+                ]
+              ],
+              "reference_recalled": false,
+              "scope": "declared-published-reference-pool"
+            },
+            {
+              "ambiguous": false,
+              "candidates": [],
+              "complete": true,
+              "empty_in_scope": true,
+              "examined": 20,
+              "id": "latin-21-correspondence",
+              "reference": [
+                [
+                  "k",
+                  "a",
+                  "n",
+                  "i",
+                  "s"
+                ]
+              ],
+              "reference_recalled": false,
+              "scope": "declared-published-reference-pool"
+            }
+          ]
+        },
+        "scope": "selected-declared-pools",
+        "status": "complete"
+      }
+    },
+    {
+      "id": "kuki-chin:vb-1-unmarked",
+      "result": {
+        "comparison": {
+          "candidate_support": [],
+          "common_to_all": [],
+          "interpretation": "Agreement/disagreement within this case and its declared pools; these counts are not probabilities."
+        },
+        "complete": true,
+        "explanations": [
+          {
+            "branches": [
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-mara",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a"
+                ],
+                "id": "explain-vb-1-unmarked-identity-all-groups-0",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "identity-vb-mara",
+                "steps": []
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-hakha-lai",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-identity-all-groups-1",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "identity-vb-hakha-lai",
+                "steps": []
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-falam-lai",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-identity-all-groups-2",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "identity-vb-falam-lai",
+                "steps": []
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-mizo",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-identity-all-groups-3",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "identity-vb-mizo",
+                "steps": []
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-tedim",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a",
+                  ":",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-identity-all-groups-4",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "identity-vb-tedim",
+                "steps": []
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-thado-kuki",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-identity-all-groups-5",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "identity-vb-thado-kuki",
+                "steps": []
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-paite",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-identity-all-groups-6",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "identity-vb-paite",
+                "steps": []
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-sizang",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-identity-all-groups-7",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "identity-vb-sizang",
+                "steps": []
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-mindat-cho",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-identity-all-groups-8",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "identity-vb-mindat-cho",
+                "steps": []
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-asho",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a",
+                  "w",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-identity-all-groups-9",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "identity-vb-asho",
+                "steps": []
+              }
+            ],
+            "in_declared_pool": true,
+            "query_id": "vb-1-unmarked-identity-all-groups",
+            "satisfies_observations": false
+          },
+          {
+            "branches": [
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-mara",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a"
+                ],
+                "id": "explain-vb-1-unmarked-correspondence-all-groups-0",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "a",
+                  "a"
+                ],
+                "package_id": "correspondence-vb-mara",
+                "steps": [
+                  {
+                    "input_stage": "published-root",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-1",
+                    "rule_id": "correspondence-vb-mara-law-1"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-1",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-2",
+                    "rule_id": "correspondence-vb-mara-law-2"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-2",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "MAP2"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-3",
+                    "rule_id": "correspondence-vb-mara-law-3"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-3",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "MAP2"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-4",
+                    "rule_id": "correspondence-vb-mara-law-4"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-4",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "MAP2"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-5",
+                    "rule_id": "correspondence-vb-mara-law-5"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-5",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "MAP2"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-6",
+                    "rule_id": "correspondence-vb-mara-law-6"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-6",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "MAP2"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-7",
+                    "rule_id": "correspondence-vb-mara-law-7"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-7",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "MAP2"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-8",
+                    "rule_id": "correspondence-vb-mara-law-8"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-8",
+                    "output": [
+                      "MAP8",
+                      "a",
+                      "a",
+                      "MAP2"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-9",
+                    "rule_id": "correspondence-vb-mara-law-9"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-9",
+                    "output": [
+                      "MAP8",
+                      "a",
+                      "a",
+                      "MAP2"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-10",
+                    "rule_id": "correspondence-vb-mara-law-10"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-10",
+                    "output": [
+                      "MAP8",
+                      "a",
+                      "a",
+                      "MAP2"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-11",
+                    "rule_id": "correspondence-vb-mara-law-11"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-11",
+                    "output": [
+                      "MAP8",
+                      "a",
+                      "a",
+                      "MAP2"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-12",
+                    "rule_id": "correspondence-vb-mara-law-12"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-12",
+                    "output": [
+                      "MAP8",
+                      "a",
+                      "a",
+                      "MAP2"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-13",
+                    "rule_id": "correspondence-vb-mara-law-13"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-13",
+                    "output": [
+                      "MAP8",
+                      "a",
+                      "a"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-14",
+                    "rule_id": "correspondence-vb-mara-law-14"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-14",
+                    "output": [
+                      "MAP8",
+                      "a",
+                      "a"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-15",
+                    "rule_id": "correspondence-vb-mara-law-15"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-15",
+                    "output": [
+                      "MAP8",
+                      "a",
+                      "a"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-16",
+                    "rule_id": "correspondence-vb-mara-law-16"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-16",
+                    "output": [
+                      "MAP8",
+                      "a",
+                      "a"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-17",
+                    "rule_id": "correspondence-vb-mara-law-17"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-17",
+                    "output": [
+                      "MAP8",
+                      "a",
+                      "a"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-18",
+                    "rule_id": "correspondence-vb-mara-law-18"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-18",
+                    "output": [
+                      "MAP8",
+                      "a",
+                      "a"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-19",
+                    "rule_id": "correspondence-vb-mara-law-19"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-19",
+                    "output": [
+                      "a",
+                      "a"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-20",
+                    "rule_id": "correspondence-vb-mara-law-20"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-20",
+                    "output": [
+                      "a",
+                      "a"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-21",
+                    "rule_id": "correspondence-vb-mara-law-21"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mara-stage-21",
+                    "output": [
+                      "a",
+                      "a"
+                    ],
+                    "output_stage": "correspondence-vb-mara-stage-22",
+                    "rule_id": "correspondence-vb-mara-law-22"
+                  }
+                ]
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-hakha-lai",
+                "exact": true,
+                "expected": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-correspondence-all-groups-1",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "correspondence-vb-hakha-lai",
+                "steps": [
+                  {
+                    "input_stage": "published-root",
+                    "output": [
+                      "MAP0",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-hakha-lai-stage-1",
+                    "rule_id": "correspondence-vb-hakha-lai-law-1"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-hakha-lai-stage-1",
+                    "output": [
+                      "MAP0",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-hakha-lai-stage-2",
+                    "rule_id": "correspondence-vb-hakha-lai-law-2"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-hakha-lai-stage-2",
+                    "output": [
+                      "MAP0",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-hakha-lai-stage-3",
+                    "rule_id": "correspondence-vb-hakha-lai-law-3"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-hakha-lai-stage-3",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-hakha-lai-stage-4",
+                    "rule_id": "correspondence-vb-hakha-lai-law-4"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-hakha-lai-stage-4",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-hakha-lai-stage-5",
+                    "rule_id": "correspondence-vb-hakha-lai-law-5"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-hakha-lai-stage-5",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-hakha-lai-stage-6",
+                    "rule_id": "correspondence-vb-hakha-lai-law-6"
+                  }
+                ]
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-falam-lai",
+                "exact": true,
+                "expected": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-correspondence-all-groups-2",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "correspondence-vb-falam-lai",
+                "steps": [
+                  {
+                    "input_stage": "published-root",
+                    "output": [
+                      "MAP0",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-falam-lai-stage-1",
+                    "rule_id": "correspondence-vb-falam-lai-law-1"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-falam-lai-stage-1",
+                    "output": [
+                      "MAP0",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-falam-lai-stage-2",
+                    "rule_id": "correspondence-vb-falam-lai-law-2"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-falam-lai-stage-2",
+                    "output": [
+                      "MAP0",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-falam-lai-stage-3",
+                    "rule_id": "correspondence-vb-falam-lai-law-3"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-falam-lai-stage-3",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-falam-lai-stage-4",
+                    "rule_id": "correspondence-vb-falam-lai-law-4"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-falam-lai-stage-4",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-falam-lai-stage-5",
+                    "rule_id": "correspondence-vb-falam-lai-law-5"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-falam-lai-stage-5",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-falam-lai-stage-6",
+                    "rule_id": "correspondence-vb-falam-lai-law-6"
+                  }
+                ]
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-mizo",
+                "exact": true,
+                "expected": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-correspondence-all-groups-3",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "correspondence-vb-mizo",
+                "steps": [
+                  {
+                    "input_stage": "published-root",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-1",
+                    "rule_id": "correspondence-vb-mizo-law-1"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-1",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-2",
+                    "rule_id": "correspondence-vb-mizo-law-2"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-2",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-3",
+                    "rule_id": "correspondence-vb-mizo-law-3"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-3",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-4",
+                    "rule_id": "correspondence-vb-mizo-law-4"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-4",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-5",
+                    "rule_id": "correspondence-vb-mizo-law-5"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-5",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-6",
+                    "rule_id": "correspondence-vb-mizo-law-6"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-6",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-7",
+                    "rule_id": "correspondence-vb-mizo-law-7"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-7",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-8",
+                    "rule_id": "correspondence-vb-mizo-law-8"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-8",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-9",
+                    "rule_id": "correspondence-vb-mizo-law-9"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-9",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-10",
+                    "rule_id": "correspondence-vb-mizo-law-10"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-10",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-11",
+                    "rule_id": "correspondence-vb-mizo-law-11"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-11",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-12",
+                    "rule_id": "correspondence-vb-mizo-law-12"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-12",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-13",
+                    "rule_id": "correspondence-vb-mizo-law-13"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-13",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-14",
+                    "rule_id": "correspondence-vb-mizo-law-14"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-14",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-15",
+                    "rule_id": "correspondence-vb-mizo-law-15"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-15",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-16",
+                    "rule_id": "correspondence-vb-mizo-law-16"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-16",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-17",
+                    "rule_id": "correspondence-vb-mizo-law-17"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mizo-stage-17",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mizo-stage-18",
+                    "rule_id": "correspondence-vb-mizo-law-18"
+                  }
+                ]
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-tedim",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a",
+                  ":",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-correspondence-all-groups-4",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "correspondence-vb-tedim",
+                "steps": [
+                  {
+                    "input_stage": "published-root",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-tedim-stage-1",
+                    "rule_id": "correspondence-vb-tedim-law-1"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-tedim-stage-1",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-tedim-stage-2",
+                    "rule_id": "correspondence-vb-tedim-law-2"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-tedim-stage-2",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-tedim-stage-3",
+                    "rule_id": "correspondence-vb-tedim-law-3"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-tedim-stage-3",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-tedim-stage-4",
+                    "rule_id": "correspondence-vb-tedim-law-4"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-tedim-stage-4",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-tedim-stage-5",
+                    "rule_id": "correspondence-vb-tedim-law-5"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-tedim-stage-5",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-tedim-stage-6",
+                    "rule_id": "correspondence-vb-tedim-law-6"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-tedim-stage-6",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-tedim-stage-7",
+                    "rule_id": "correspondence-vb-tedim-law-7"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-tedim-stage-7",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-tedim-stage-8",
+                    "rule_id": "correspondence-vb-tedim-law-8"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-tedim-stage-8",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-tedim-stage-9",
+                    "rule_id": "correspondence-vb-tedim-law-9"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-tedim-stage-9",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-tedim-stage-10",
+                    "rule_id": "correspondence-vb-tedim-law-10"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-tedim-stage-10",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-tedim-stage-11",
+                    "rule_id": "correspondence-vb-tedim-law-11"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-tedim-stage-11",
+                    "output": [
+                      "MAP5",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-tedim-stage-12",
+                    "rule_id": "correspondence-vb-tedim-law-12"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-tedim-stage-12",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-tedim-stage-13",
+                    "rule_id": "correspondence-vb-tedim-law-13"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-tedim-stage-13",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-tedim-stage-14",
+                    "rule_id": "correspondence-vb-tedim-law-14"
+                  }
+                ]
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-thado-kuki",
+                "exact": true,
+                "expected": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-correspondence-all-groups-5",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "correspondence-vb-thado-kuki",
+                "steps": [
+                  {
+                    "input_stage": "published-root",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-thado-kuki-stage-1",
+                    "rule_id": "correspondence-vb-thado-kuki-law-1"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-thado-kuki-stage-1",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-thado-kuki-stage-2",
+                    "rule_id": "correspondence-vb-thado-kuki-law-2"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-thado-kuki-stage-2",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-thado-kuki-stage-3",
+                    "rule_id": "correspondence-vb-thado-kuki-law-3"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-thado-kuki-stage-3",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-thado-kuki-stage-4",
+                    "rule_id": "correspondence-vb-thado-kuki-law-4"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-thado-kuki-stage-4",
+                    "output": [
+                      "MAP4",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-thado-kuki-stage-5",
+                    "rule_id": "correspondence-vb-thado-kuki-law-5"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-thado-kuki-stage-5",
+                    "output": [
+                      "MAP4",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-thado-kuki-stage-6",
+                    "rule_id": "correspondence-vb-thado-kuki-law-6"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-thado-kuki-stage-6",
+                    "output": [
+                      "MAP4",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-thado-kuki-stage-7",
+                    "rule_id": "correspondence-vb-thado-kuki-law-7"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-thado-kuki-stage-7",
+                    "output": [
+                      "MAP4",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-thado-kuki-stage-8",
+                    "rule_id": "correspondence-vb-thado-kuki-law-8"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-thado-kuki-stage-8",
+                    "output": [
+                      "MAP4",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-thado-kuki-stage-9",
+                    "rule_id": "correspondence-vb-thado-kuki-law-9"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-thado-kuki-stage-9",
+                    "output": [
+                      "MAP4",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-thado-kuki-stage-10",
+                    "rule_id": "correspondence-vb-thado-kuki-law-10"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-thado-kuki-stage-10",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-thado-kuki-stage-11",
+                    "rule_id": "correspondence-vb-thado-kuki-law-11"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-thado-kuki-stage-11",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-thado-kuki-stage-12",
+                    "rule_id": "correspondence-vb-thado-kuki-law-12"
+                  }
+                ]
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-paite",
+                "exact": true,
+                "expected": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-correspondence-all-groups-6",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "correspondence-vb-paite",
+                "steps": [
+                  {
+                    "input_stage": "published-root",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-paite-stage-1",
+                    "rule_id": "correspondence-vb-paite-law-1"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-paite-stage-1",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-paite-stage-2",
+                    "rule_id": "correspondence-vb-paite-law-2"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-paite-stage-2",
+                    "output": [
+                      "MAP2",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-paite-stage-3",
+                    "rule_id": "correspondence-vb-paite-law-3"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-paite-stage-3",
+                    "output": [
+                      "MAP2",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-paite-stage-4",
+                    "rule_id": "correspondence-vb-paite-law-4"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-paite-stage-4",
+                    "output": [
+                      "MAP2",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-paite-stage-5",
+                    "rule_id": "correspondence-vb-paite-law-5"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-paite-stage-5",
+                    "output": [
+                      "MAP2",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-paite-stage-6",
+                    "rule_id": "correspondence-vb-paite-law-6"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-paite-stage-6",
+                    "output": [
+                      "MAP2",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-paite-stage-7",
+                    "rule_id": "correspondence-vb-paite-law-7"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-paite-stage-7",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-paite-stage-8",
+                    "rule_id": "correspondence-vb-paite-law-8"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-paite-stage-8",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-paite-stage-9",
+                    "rule_id": "correspondence-vb-paite-law-9"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-paite-stage-9",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-paite-stage-10",
+                    "rule_id": "correspondence-vb-paite-law-10"
+                  }
+                ]
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-sizang",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-correspondence-all-groups-7",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "correspondence-vb-sizang",
+                "steps": [
+                  {
+                    "input_stage": "published-root",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-sizang-stage-1",
+                    "rule_id": "correspondence-vb-sizang-law-1"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-sizang-stage-1",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-sizang-stage-2",
+                    "rule_id": "correspondence-vb-sizang-law-2"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-sizang-stage-2",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-sizang-stage-3",
+                    "rule_id": "correspondence-vb-sizang-law-3"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-sizang-stage-3",
+                    "output": [
+                      "MAP3",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-sizang-stage-4",
+                    "rule_id": "correspondence-vb-sizang-law-4"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-sizang-stage-4",
+                    "output": [
+                      "MAP3",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-sizang-stage-5",
+                    "rule_id": "correspondence-vb-sizang-law-5"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-sizang-stage-5",
+                    "output": [
+                      "MAP3",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-sizang-stage-6",
+                    "rule_id": "correspondence-vb-sizang-law-6"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-sizang-stage-6",
+                    "output": [
+                      "MAP3",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-sizang-stage-7",
+                    "rule_id": "correspondence-vb-sizang-law-7"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-sizang-stage-7",
+                    "output": [
+                      "MAP3",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-sizang-stage-8",
+                    "rule_id": "correspondence-vb-sizang-law-8"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-sizang-stage-8",
+                    "output": [
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-sizang-stage-9",
+                    "rule_id": "correspondence-vb-sizang-law-9"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-sizang-stage-9",
+                    "output": [
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-sizang-stage-10",
+                    "rule_id": "correspondence-vb-sizang-law-10"
+                  }
+                ]
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-mindat-cho",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-correspondence-all-groups-8",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "correspondence-vb-mindat-cho",
+                "steps": [
+                  {
+                    "input_stage": "published-root",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-1",
+                    "rule_id": "correspondence-vb-mindat-cho-law-1"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-1",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-2",
+                    "rule_id": "correspondence-vb-mindat-cho-law-2"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-2",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-3",
+                    "rule_id": "correspondence-vb-mindat-cho-law-3"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-3",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-4",
+                    "rule_id": "correspondence-vb-mindat-cho-law-4"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-4",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-5",
+                    "rule_id": "correspondence-vb-mindat-cho-law-5"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-5",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-6",
+                    "rule_id": "correspondence-vb-mindat-cho-law-6"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-6",
+                    "output": [
+                      "MAP6",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-7",
+                    "rule_id": "correspondence-vb-mindat-cho-law-7"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-7",
+                    "output": [
+                      "MAP6",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-8",
+                    "rule_id": "correspondence-vb-mindat-cho-law-8"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-8",
+                    "output": [
+                      "MAP6",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-9",
+                    "rule_id": "correspondence-vb-mindat-cho-law-9"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-9",
+                    "output": [
+                      "MAP6",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-10",
+                    "rule_id": "correspondence-vb-mindat-cho-law-10"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-10",
+                    "output": [
+                      "MAP6",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-11",
+                    "rule_id": "correspondence-vb-mindat-cho-law-11"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-11",
+                    "output": [
+                      "MAP6",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-12",
+                    "rule_id": "correspondence-vb-mindat-cho-law-12"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-12",
+                    "output": [
+                      "MAP6",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-13",
+                    "rule_id": "correspondence-vb-mindat-cho-law-13"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-13",
+                    "output": [
+                      "MAP6",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-14",
+                    "rule_id": "correspondence-vb-mindat-cho-law-14"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-14",
+                    "output": [
+                      "MAP6",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-15",
+                    "rule_id": "correspondence-vb-mindat-cho-law-15"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-15",
+                    "output": [
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-16",
+                    "rule_id": "correspondence-vb-mindat-cho-law-16"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-16",
+                    "output": [
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-17",
+                    "rule_id": "correspondence-vb-mindat-cho-law-17"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-mindat-cho-stage-17",
+                    "output": [
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-mindat-cho-stage-18",
+                    "rule_id": "correspondence-vb-mindat-cho-law-18"
+                  }
+                ]
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "vb-asho",
+                "exact": false,
+                "expected": [
+                  "b",
+                  "a",
+                  "w",
+                  "n"
+                ],
+                "id": "explain-vb-1-unmarked-correspondence-all-groups-9",
+                "input": [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "output": [
+                  "b",
+                  "a",
+                  "a",
+                  "n"
+                ],
+                "package_id": "correspondence-vb-asho",
+                "steps": [
+                  {
+                    "input_stage": "published-root",
+                    "output": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-asho-stage-1",
+                    "rule_id": "correspondence-vb-asho-law-1"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-asho-stage-1",
+                    "output": [
+                      "MAP1",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-asho-stage-2",
+                    "rule_id": "correspondence-vb-asho-law-2"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-asho-stage-2",
+                    "output": [
+                      "MAP1",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-asho-stage-3",
+                    "rule_id": "correspondence-vb-asho-law-3"
+                  },
+                  {
+                    "input_stage": "correspondence-vb-asho-stage-3",
+                    "output": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ],
+                    "output_stage": "correspondence-vb-asho-stage-4",
+                    "rule_id": "correspondence-vb-asho-law-4"
+                  }
+                ]
+              }
+            ],
+            "in_declared_pool": true,
+            "query_id": "vb-1-unmarked-correspondence-all-groups",
+            "satisfies_observations": false
+          }
+        ],
+        "no_candidate_in_scope": true,
+        "result": {
+          "forward": [
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a"
+              ],
+              "id": "explain-vb-1-unmarked-identity-all-groups-0",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "identity-vb-mara",
+              "steps": []
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-identity-all-groups-1",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "identity-vb-hakha-lai",
+              "steps": []
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-identity-all-groups-2",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "identity-vb-falam-lai",
+              "steps": []
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-identity-all-groups-3",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "identity-vb-mizo",
+              "steps": []
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a",
+                ":",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-identity-all-groups-4",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "identity-vb-tedim",
+              "steps": []
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-identity-all-groups-5",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "identity-vb-thado-kuki",
+              "steps": []
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-identity-all-groups-6",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "identity-vb-paite",
+              "steps": []
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-identity-all-groups-7",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "identity-vb-sizang",
+              "steps": []
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-identity-all-groups-8",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "identity-vb-mindat-cho",
+              "steps": []
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a",
+                "w",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-identity-all-groups-9",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "identity-vb-asho",
+              "steps": []
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a"
+              ],
+              "id": "explain-vb-1-unmarked-correspondence-all-groups-0",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "a",
+                "a"
+              ],
+              "package_id": "correspondence-vb-mara",
+              "steps": [
+                {
+                  "input_stage": "published-root",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-1",
+                  "rule_id": "correspondence-vb-mara-law-1"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-1",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-2",
+                  "rule_id": "correspondence-vb-mara-law-2"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-2",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "MAP2"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-3",
+                  "rule_id": "correspondence-vb-mara-law-3"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-3",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "MAP2"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-4",
+                  "rule_id": "correspondence-vb-mara-law-4"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-4",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "MAP2"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-5",
+                  "rule_id": "correspondence-vb-mara-law-5"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-5",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "MAP2"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-6",
+                  "rule_id": "correspondence-vb-mara-law-6"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-6",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "MAP2"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-7",
+                  "rule_id": "correspondence-vb-mara-law-7"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-7",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "MAP2"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-8",
+                  "rule_id": "correspondence-vb-mara-law-8"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-8",
+                  "output": [
+                    "MAP8",
+                    "a",
+                    "a",
+                    "MAP2"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-9",
+                  "rule_id": "correspondence-vb-mara-law-9"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-9",
+                  "output": [
+                    "MAP8",
+                    "a",
+                    "a",
+                    "MAP2"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-10",
+                  "rule_id": "correspondence-vb-mara-law-10"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-10",
+                  "output": [
+                    "MAP8",
+                    "a",
+                    "a",
+                    "MAP2"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-11",
+                  "rule_id": "correspondence-vb-mara-law-11"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-11",
+                  "output": [
+                    "MAP8",
+                    "a",
+                    "a",
+                    "MAP2"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-12",
+                  "rule_id": "correspondence-vb-mara-law-12"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-12",
+                  "output": [
+                    "MAP8",
+                    "a",
+                    "a",
+                    "MAP2"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-13",
+                  "rule_id": "correspondence-vb-mara-law-13"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-13",
+                  "output": [
+                    "MAP8",
+                    "a",
+                    "a"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-14",
+                  "rule_id": "correspondence-vb-mara-law-14"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-14",
+                  "output": [
+                    "MAP8",
+                    "a",
+                    "a"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-15",
+                  "rule_id": "correspondence-vb-mara-law-15"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-15",
+                  "output": [
+                    "MAP8",
+                    "a",
+                    "a"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-16",
+                  "rule_id": "correspondence-vb-mara-law-16"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-16",
+                  "output": [
+                    "MAP8",
+                    "a",
+                    "a"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-17",
+                  "rule_id": "correspondence-vb-mara-law-17"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-17",
+                  "output": [
+                    "MAP8",
+                    "a",
+                    "a"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-18",
+                  "rule_id": "correspondence-vb-mara-law-18"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-18",
+                  "output": [
+                    "MAP8",
+                    "a",
+                    "a"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-19",
+                  "rule_id": "correspondence-vb-mara-law-19"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-19",
+                  "output": [
+                    "a",
+                    "a"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-20",
+                  "rule_id": "correspondence-vb-mara-law-20"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-20",
+                  "output": [
+                    "a",
+                    "a"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-21",
+                  "rule_id": "correspondence-vb-mara-law-21"
+                },
+                {
+                  "input_stage": "correspondence-vb-mara-stage-21",
+                  "output": [
+                    "a",
+                    "a"
+                  ],
+                  "output_stage": "correspondence-vb-mara-stage-22",
+                  "rule_id": "correspondence-vb-mara-law-22"
+                }
+              ]
+            },
+            {
+              "certificate_accepted": true,
+              "exact": true,
+              "expected": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-correspondence-all-groups-1",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "correspondence-vb-hakha-lai",
+              "steps": [
+                {
+                  "input_stage": "published-root",
+                  "output": [
+                    "MAP0",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-hakha-lai-stage-1",
+                  "rule_id": "correspondence-vb-hakha-lai-law-1"
+                },
+                {
+                  "input_stage": "correspondence-vb-hakha-lai-stage-1",
+                  "output": [
+                    "MAP0",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-hakha-lai-stage-2",
+                  "rule_id": "correspondence-vb-hakha-lai-law-2"
+                },
+                {
+                  "input_stage": "correspondence-vb-hakha-lai-stage-2",
+                  "output": [
+                    "MAP0",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-hakha-lai-stage-3",
+                  "rule_id": "correspondence-vb-hakha-lai-law-3"
+                },
+                {
+                  "input_stage": "correspondence-vb-hakha-lai-stage-3",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-hakha-lai-stage-4",
+                  "rule_id": "correspondence-vb-hakha-lai-law-4"
+                },
+                {
+                  "input_stage": "correspondence-vb-hakha-lai-stage-4",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-hakha-lai-stage-5",
+                  "rule_id": "correspondence-vb-hakha-lai-law-5"
+                },
+                {
+                  "input_stage": "correspondence-vb-hakha-lai-stage-5",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-hakha-lai-stage-6",
+                  "rule_id": "correspondence-vb-hakha-lai-law-6"
+                }
+              ]
+            },
+            {
+              "certificate_accepted": true,
+              "exact": true,
+              "expected": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-correspondence-all-groups-2",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "correspondence-vb-falam-lai",
+              "steps": [
+                {
+                  "input_stage": "published-root",
+                  "output": [
+                    "MAP0",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-falam-lai-stage-1",
+                  "rule_id": "correspondence-vb-falam-lai-law-1"
+                },
+                {
+                  "input_stage": "correspondence-vb-falam-lai-stage-1",
+                  "output": [
+                    "MAP0",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-falam-lai-stage-2",
+                  "rule_id": "correspondence-vb-falam-lai-law-2"
+                },
+                {
+                  "input_stage": "correspondence-vb-falam-lai-stage-2",
+                  "output": [
+                    "MAP0",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-falam-lai-stage-3",
+                  "rule_id": "correspondence-vb-falam-lai-law-3"
+                },
+                {
+                  "input_stage": "correspondence-vb-falam-lai-stage-3",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-falam-lai-stage-4",
+                  "rule_id": "correspondence-vb-falam-lai-law-4"
+                },
+                {
+                  "input_stage": "correspondence-vb-falam-lai-stage-4",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-falam-lai-stage-5",
+                  "rule_id": "correspondence-vb-falam-lai-law-5"
+                },
+                {
+                  "input_stage": "correspondence-vb-falam-lai-stage-5",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-falam-lai-stage-6",
+                  "rule_id": "correspondence-vb-falam-lai-law-6"
+                }
+              ]
+            },
+            {
+              "certificate_accepted": true,
+              "exact": true,
+              "expected": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-correspondence-all-groups-3",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "correspondence-vb-mizo",
+              "steps": [
+                {
+                  "input_stage": "published-root",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-1",
+                  "rule_id": "correspondence-vb-mizo-law-1"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-1",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-2",
+                  "rule_id": "correspondence-vb-mizo-law-2"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-2",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-3",
+                  "rule_id": "correspondence-vb-mizo-law-3"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-3",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-4",
+                  "rule_id": "correspondence-vb-mizo-law-4"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-4",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-5",
+                  "rule_id": "correspondence-vb-mizo-law-5"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-5",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-6",
+                  "rule_id": "correspondence-vb-mizo-law-6"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-6",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-7",
+                  "rule_id": "correspondence-vb-mizo-law-7"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-7",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-8",
+                  "rule_id": "correspondence-vb-mizo-law-8"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-8",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-9",
+                  "rule_id": "correspondence-vb-mizo-law-9"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-9",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-10",
+                  "rule_id": "correspondence-vb-mizo-law-10"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-10",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-11",
+                  "rule_id": "correspondence-vb-mizo-law-11"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-11",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-12",
+                  "rule_id": "correspondence-vb-mizo-law-12"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-12",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-13",
+                  "rule_id": "correspondence-vb-mizo-law-13"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-13",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-14",
+                  "rule_id": "correspondence-vb-mizo-law-14"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-14",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-15",
+                  "rule_id": "correspondence-vb-mizo-law-15"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-15",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-16",
+                  "rule_id": "correspondence-vb-mizo-law-16"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-16",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-17",
+                  "rule_id": "correspondence-vb-mizo-law-17"
+                },
+                {
+                  "input_stage": "correspondence-vb-mizo-stage-17",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mizo-stage-18",
+                  "rule_id": "correspondence-vb-mizo-law-18"
+                }
+              ]
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a",
+                ":",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-correspondence-all-groups-4",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "correspondence-vb-tedim",
+              "steps": [
+                {
+                  "input_stage": "published-root",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-tedim-stage-1",
+                  "rule_id": "correspondence-vb-tedim-law-1"
+                },
+                {
+                  "input_stage": "correspondence-vb-tedim-stage-1",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-tedim-stage-2",
+                  "rule_id": "correspondence-vb-tedim-law-2"
+                },
+                {
+                  "input_stage": "correspondence-vb-tedim-stage-2",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-tedim-stage-3",
+                  "rule_id": "correspondence-vb-tedim-law-3"
+                },
+                {
+                  "input_stage": "correspondence-vb-tedim-stage-3",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-tedim-stage-4",
+                  "rule_id": "correspondence-vb-tedim-law-4"
+                },
+                {
+                  "input_stage": "correspondence-vb-tedim-stage-4",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-tedim-stage-5",
+                  "rule_id": "correspondence-vb-tedim-law-5"
+                },
+                {
+                  "input_stage": "correspondence-vb-tedim-stage-5",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-tedim-stage-6",
+                  "rule_id": "correspondence-vb-tedim-law-6"
+                },
+                {
+                  "input_stage": "correspondence-vb-tedim-stage-6",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-tedim-stage-7",
+                  "rule_id": "correspondence-vb-tedim-law-7"
+                },
+                {
+                  "input_stage": "correspondence-vb-tedim-stage-7",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-tedim-stage-8",
+                  "rule_id": "correspondence-vb-tedim-law-8"
+                },
+                {
+                  "input_stage": "correspondence-vb-tedim-stage-8",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-tedim-stage-9",
+                  "rule_id": "correspondence-vb-tedim-law-9"
+                },
+                {
+                  "input_stage": "correspondence-vb-tedim-stage-9",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-tedim-stage-10",
+                  "rule_id": "correspondence-vb-tedim-law-10"
+                },
+                {
+                  "input_stage": "correspondence-vb-tedim-stage-10",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-tedim-stage-11",
+                  "rule_id": "correspondence-vb-tedim-law-11"
+                },
+                {
+                  "input_stage": "correspondence-vb-tedim-stage-11",
+                  "output": [
+                    "MAP5",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-tedim-stage-12",
+                  "rule_id": "correspondence-vb-tedim-law-12"
+                },
+                {
+                  "input_stage": "correspondence-vb-tedim-stage-12",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-tedim-stage-13",
+                  "rule_id": "correspondence-vb-tedim-law-13"
+                },
+                {
+                  "input_stage": "correspondence-vb-tedim-stage-13",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-tedim-stage-14",
+                  "rule_id": "correspondence-vb-tedim-law-14"
+                }
+              ]
+            },
+            {
+              "certificate_accepted": true,
+              "exact": true,
+              "expected": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-correspondence-all-groups-5",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "correspondence-vb-thado-kuki",
+              "steps": [
+                {
+                  "input_stage": "published-root",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-thado-kuki-stage-1",
+                  "rule_id": "correspondence-vb-thado-kuki-law-1"
+                },
+                {
+                  "input_stage": "correspondence-vb-thado-kuki-stage-1",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-thado-kuki-stage-2",
+                  "rule_id": "correspondence-vb-thado-kuki-law-2"
+                },
+                {
+                  "input_stage": "correspondence-vb-thado-kuki-stage-2",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-thado-kuki-stage-3",
+                  "rule_id": "correspondence-vb-thado-kuki-law-3"
+                },
+                {
+                  "input_stage": "correspondence-vb-thado-kuki-stage-3",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-thado-kuki-stage-4",
+                  "rule_id": "correspondence-vb-thado-kuki-law-4"
+                },
+                {
+                  "input_stage": "correspondence-vb-thado-kuki-stage-4",
+                  "output": [
+                    "MAP4",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-thado-kuki-stage-5",
+                  "rule_id": "correspondence-vb-thado-kuki-law-5"
+                },
+                {
+                  "input_stage": "correspondence-vb-thado-kuki-stage-5",
+                  "output": [
+                    "MAP4",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-thado-kuki-stage-6",
+                  "rule_id": "correspondence-vb-thado-kuki-law-6"
+                },
+                {
+                  "input_stage": "correspondence-vb-thado-kuki-stage-6",
+                  "output": [
+                    "MAP4",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-thado-kuki-stage-7",
+                  "rule_id": "correspondence-vb-thado-kuki-law-7"
+                },
+                {
+                  "input_stage": "correspondence-vb-thado-kuki-stage-7",
+                  "output": [
+                    "MAP4",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-thado-kuki-stage-8",
+                  "rule_id": "correspondence-vb-thado-kuki-law-8"
+                },
+                {
+                  "input_stage": "correspondence-vb-thado-kuki-stage-8",
+                  "output": [
+                    "MAP4",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-thado-kuki-stage-9",
+                  "rule_id": "correspondence-vb-thado-kuki-law-9"
+                },
+                {
+                  "input_stage": "correspondence-vb-thado-kuki-stage-9",
+                  "output": [
+                    "MAP4",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-thado-kuki-stage-10",
+                  "rule_id": "correspondence-vb-thado-kuki-law-10"
+                },
+                {
+                  "input_stage": "correspondence-vb-thado-kuki-stage-10",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-thado-kuki-stage-11",
+                  "rule_id": "correspondence-vb-thado-kuki-law-11"
+                },
+                {
+                  "input_stage": "correspondence-vb-thado-kuki-stage-11",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-thado-kuki-stage-12",
+                  "rule_id": "correspondence-vb-thado-kuki-law-12"
+                }
+              ]
+            },
+            {
+              "certificate_accepted": true,
+              "exact": true,
+              "expected": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-correspondence-all-groups-6",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "correspondence-vb-paite",
+              "steps": [
+                {
+                  "input_stage": "published-root",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-paite-stage-1",
+                  "rule_id": "correspondence-vb-paite-law-1"
+                },
+                {
+                  "input_stage": "correspondence-vb-paite-stage-1",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-paite-stage-2",
+                  "rule_id": "correspondence-vb-paite-law-2"
+                },
+                {
+                  "input_stage": "correspondence-vb-paite-stage-2",
+                  "output": [
+                    "MAP2",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-paite-stage-3",
+                  "rule_id": "correspondence-vb-paite-law-3"
+                },
+                {
+                  "input_stage": "correspondence-vb-paite-stage-3",
+                  "output": [
+                    "MAP2",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-paite-stage-4",
+                  "rule_id": "correspondence-vb-paite-law-4"
+                },
+                {
+                  "input_stage": "correspondence-vb-paite-stage-4",
+                  "output": [
+                    "MAP2",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-paite-stage-5",
+                  "rule_id": "correspondence-vb-paite-law-5"
+                },
+                {
+                  "input_stage": "correspondence-vb-paite-stage-5",
+                  "output": [
+                    "MAP2",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-paite-stage-6",
+                  "rule_id": "correspondence-vb-paite-law-6"
+                },
+                {
+                  "input_stage": "correspondence-vb-paite-stage-6",
+                  "output": [
+                    "MAP2",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-paite-stage-7",
+                  "rule_id": "correspondence-vb-paite-law-7"
+                },
+                {
+                  "input_stage": "correspondence-vb-paite-stage-7",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-paite-stage-8",
+                  "rule_id": "correspondence-vb-paite-law-8"
+                },
+                {
+                  "input_stage": "correspondence-vb-paite-stage-8",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-paite-stage-9",
+                  "rule_id": "correspondence-vb-paite-law-9"
+                },
+                {
+                  "input_stage": "correspondence-vb-paite-stage-9",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-paite-stage-10",
+                  "rule_id": "correspondence-vb-paite-law-10"
+                }
+              ]
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-correspondence-all-groups-7",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "correspondence-vb-sizang",
+              "steps": [
+                {
+                  "input_stage": "published-root",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-sizang-stage-1",
+                  "rule_id": "correspondence-vb-sizang-law-1"
+                },
+                {
+                  "input_stage": "correspondence-vb-sizang-stage-1",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-sizang-stage-2",
+                  "rule_id": "correspondence-vb-sizang-law-2"
+                },
+                {
+                  "input_stage": "correspondence-vb-sizang-stage-2",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-sizang-stage-3",
+                  "rule_id": "correspondence-vb-sizang-law-3"
+                },
+                {
+                  "input_stage": "correspondence-vb-sizang-stage-3",
+                  "output": [
+                    "MAP3",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-sizang-stage-4",
+                  "rule_id": "correspondence-vb-sizang-law-4"
+                },
+                {
+                  "input_stage": "correspondence-vb-sizang-stage-4",
+                  "output": [
+                    "MAP3",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-sizang-stage-5",
+                  "rule_id": "correspondence-vb-sizang-law-5"
+                },
+                {
+                  "input_stage": "correspondence-vb-sizang-stage-5",
+                  "output": [
+                    "MAP3",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-sizang-stage-6",
+                  "rule_id": "correspondence-vb-sizang-law-6"
+                },
+                {
+                  "input_stage": "correspondence-vb-sizang-stage-6",
+                  "output": [
+                    "MAP3",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-sizang-stage-7",
+                  "rule_id": "correspondence-vb-sizang-law-7"
+                },
+                {
+                  "input_stage": "correspondence-vb-sizang-stage-7",
+                  "output": [
+                    "MAP3",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-sizang-stage-8",
+                  "rule_id": "correspondence-vb-sizang-law-8"
+                },
+                {
+                  "input_stage": "correspondence-vb-sizang-stage-8",
+                  "output": [
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-sizang-stage-9",
+                  "rule_id": "correspondence-vb-sizang-law-9"
+                },
+                {
+                  "input_stage": "correspondence-vb-sizang-stage-9",
+                  "output": [
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-sizang-stage-10",
+                  "rule_id": "correspondence-vb-sizang-law-10"
+                }
+              ]
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-correspondence-all-groups-8",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "correspondence-vb-mindat-cho",
+              "steps": [
+                {
+                  "input_stage": "published-root",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-1",
+                  "rule_id": "correspondence-vb-mindat-cho-law-1"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-1",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-2",
+                  "rule_id": "correspondence-vb-mindat-cho-law-2"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-2",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-3",
+                  "rule_id": "correspondence-vb-mindat-cho-law-3"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-3",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-4",
+                  "rule_id": "correspondence-vb-mindat-cho-law-4"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-4",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-5",
+                  "rule_id": "correspondence-vb-mindat-cho-law-5"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-5",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-6",
+                  "rule_id": "correspondence-vb-mindat-cho-law-6"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-6",
+                  "output": [
+                    "MAP6",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-7",
+                  "rule_id": "correspondence-vb-mindat-cho-law-7"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-7",
+                  "output": [
+                    "MAP6",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-8",
+                  "rule_id": "correspondence-vb-mindat-cho-law-8"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-8",
+                  "output": [
+                    "MAP6",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-9",
+                  "rule_id": "correspondence-vb-mindat-cho-law-9"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-9",
+                  "output": [
+                    "MAP6",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-10",
+                  "rule_id": "correspondence-vb-mindat-cho-law-10"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-10",
+                  "output": [
+                    "MAP6",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-11",
+                  "rule_id": "correspondence-vb-mindat-cho-law-11"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-11",
+                  "output": [
+                    "MAP6",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-12",
+                  "rule_id": "correspondence-vb-mindat-cho-law-12"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-12",
+                  "output": [
+                    "MAP6",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-13",
+                  "rule_id": "correspondence-vb-mindat-cho-law-13"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-13",
+                  "output": [
+                    "MAP6",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-14",
+                  "rule_id": "correspondence-vb-mindat-cho-law-14"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-14",
+                  "output": [
+                    "MAP6",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-15",
+                  "rule_id": "correspondence-vb-mindat-cho-law-15"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-15",
+                  "output": [
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-16",
+                  "rule_id": "correspondence-vb-mindat-cho-law-16"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-16",
+                  "output": [
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-17",
+                  "rule_id": "correspondence-vb-mindat-cho-law-17"
+                },
+                {
+                  "input_stage": "correspondence-vb-mindat-cho-stage-17",
+                  "output": [
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-mindat-cho-stage-18",
+                  "rule_id": "correspondence-vb-mindat-cho-law-18"
+                }
+              ]
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "b",
+                "a",
+                "w",
+                "n"
+              ],
+              "id": "explain-vb-1-unmarked-correspondence-all-groups-9",
+              "input": [
+                "ɓ",
+                "a",
+                "a",
+                "n"
+              ],
+              "output": [
+                "b",
+                "a",
+                "a",
+                "n"
+              ],
+              "package_id": "correspondence-vb-asho",
+              "steps": [
+                {
+                  "input_stage": "published-root",
+                  "output": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-asho-stage-1",
+                  "rule_id": "correspondence-vb-asho-law-1"
+                },
+                {
+                  "input_stage": "correspondence-vb-asho-stage-1",
+                  "output": [
+                    "MAP1",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-asho-stage-2",
+                  "rule_id": "correspondence-vb-asho-law-2"
+                },
+                {
+                  "input_stage": "correspondence-vb-asho-stage-2",
+                  "output": [
+                    "MAP1",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-asho-stage-3",
+                  "rule_id": "correspondence-vb-asho-law-3"
+                },
+                {
+                  "input_stage": "correspondence-vb-asho-stage-3",
+                  "output": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ],
+                  "output_stage": "correspondence-vb-asho-stage-4",
+                  "rule_id": "correspondence-vb-asho-law-4"
+                }
+              ]
+            }
+          ],
+          "id": "m6-kuki-transcription-baselines",
+          "input_valid": true,
+          "inverse": [
+            {
+              "ambiguous": false,
+              "candidates": [],
+              "complete": true,
+              "empty_in_scope": true,
+              "examined": 59,
+              "id": "vb-1-unmarked-identity-all-groups",
+              "reference": [
+                [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ]
+              ],
+              "reference_recalled": false,
+              "scope": "declared-published-reference-pool"
+            },
+            {
+              "ambiguous": false,
+              "candidates": [],
+              "complete": true,
+              "empty_in_scope": true,
+              "examined": 59,
+              "id": "vb-1-unmarked-correspondence-all-groups",
+              "reference": [
+                [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ]
+              ],
+              "reference_recalled": false,
+              "scope": "declared-published-reference-pool"
+            }
+          ]
+        },
+        "scope": "selected-declared-pools",
+        "status": "complete"
+      }
+    },
+    {
+      "id": "tibetan-merger:merged-affricate-pool",
+      "result": {
+        "comparison": {
+          "candidate_support": [
+            {
+              "hypotheses": [
+                "merged-affricate-pool"
+              ],
+              "protoform": [
+                "dz"
+              ]
+            },
+            {
+              "hypotheses": [
+                "merged-affricate-pool"
+              ],
+              "protoform": [
+                "ndz"
+              ]
+            }
+          ],
+          "common_to_all": [
+            [
+              "dz"
+            ],
+            [
+              "ndz"
+            ]
+          ],
+          "interpretation": "Agreement/disagreement within this case and its declared pools; these counts are not probabilities."
+        },
+        "complete": true,
+        "explanations": [
+          {
+            "branches": [
+              {
+                "certificate_accepted": true,
+                "doculect_id": "onset-a",
+                "exact": false,
+                "expected": [
+                  "z"
+                ],
+                "id": "explain-merged-affricate-pool-0",
+                "input": [
+                  "p"
+                ],
+                "output": [
+                  "p"
+                ],
+                "package_id": "merger-daughter-a",
+                "steps": [
+                  {
+                    "input_stage": "published-root",
+                    "output": [
+                      "p"
+                    ],
+                    "output_stage": "merger-daughter-a-stage-1",
+                    "rule_id": "merger-daughter-a-law-1"
+                  },
+                  {
+                    "input_stage": "merger-daughter-a-stage-1",
+                    "output": [
+                      "p"
+                    ],
+                    "output_stage": "merger-daughter-a-stage-2",
+                    "rule_id": "merger-daughter-a-law-2"
+                  }
+                ]
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "onset-b",
+                "exact": false,
+                "expected": [
+                  "z"
+                ],
+                "id": "explain-merged-affricate-pool-1",
+                "input": [
+                  "p"
+                ],
+                "output": [
+                  "p"
+                ],
+                "package_id": "merger-daughter-b",
+                "steps": [
+                  {
+                    "input_stage": "published-root",
+                    "output": [
+                      "p"
+                    ],
+                    "output_stage": "merger-daughter-b-stage-1",
+                    "rule_id": "merger-daughter-b-law-1"
+                  },
+                  {
+                    "input_stage": "merger-daughter-b-stage-1",
+                    "output": [
+                      "p"
+                    ],
+                    "output_stage": "merger-daughter-b-stage-2",
+                    "rule_id": "merger-daughter-b-law-2"
+                  }
+                ]
+              }
+            ],
+            "in_declared_pool": true,
+            "query_id": "merged-affricate-pool",
+            "satisfies_observations": false
+          }
+        ],
+        "no_candidate_in_scope": false,
+        "result": {
+          "forward": [
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "z"
+              ],
+              "id": "explain-merged-affricate-pool-0",
+              "input": [
+                "p"
+              ],
+              "output": [
+                "p"
+              ],
+              "package_id": "merger-daughter-a",
+              "steps": [
+                {
+                  "input_stage": "published-root",
+                  "output": [
+                    "p"
+                  ],
+                  "output_stage": "merger-daughter-a-stage-1",
+                  "rule_id": "merger-daughter-a-law-1"
+                },
+                {
+                  "input_stage": "merger-daughter-a-stage-1",
+                  "output": [
+                    "p"
+                  ],
+                  "output_stage": "merger-daughter-a-stage-2",
+                  "rule_id": "merger-daughter-a-law-2"
+                }
+              ]
+            },
+            {
+              "certificate_accepted": true,
+              "exact": false,
+              "expected": [
+                "z"
+              ],
+              "id": "explain-merged-affricate-pool-1",
+              "input": [
+                "p"
+              ],
+              "output": [
+                "p"
+              ],
+              "package_id": "merger-daughter-b",
+              "steps": [
+                {
+                  "input_stage": "published-root",
+                  "output": [
+                    "p"
+                  ],
+                  "output_stage": "merger-daughter-b-stage-1",
+                  "rule_id": "merger-daughter-b-law-1"
+                },
+                {
+                  "input_stage": "merger-daughter-b-stage-1",
+                  "output": [
+                    "p"
+                  ],
+                  "output_stage": "merger-daughter-b-stage-2",
+                  "rule_id": "merger-daughter-b-law-2"
+                }
+              ]
+            }
+          ],
+          "id": "m6-source-fragments",
+          "input_valid": true,
+          "inverse": [
+            {
+              "ambiguous": true,
+              "candidates": [
+                [
+                  "ndz"
+                ],
+                [
+                  "dz"
+                ]
+              ],
+              "complete": true,
+              "empty_in_scope": false,
+              "examined": 3,
+              "id": "merged-affricate-pool",
+              "reference": [
+                [
+                  "ndz"
+                ]
+              ],
+              "reference_recalled": true,
+              "scope": "declared-published-reference-pool"
+            }
+          ]
+        },
+        "scope": "selected-declared-pools",
+        "status": "complete"
+      }
+    },
+    {
+      "id": "kuki-chin:northern-only",
+      "result": {
+        "comparison": {
+          "candidate_support": [],
+          "common_to_all": [],
+          "interpretation": "Agreement/disagreement within this case and its declared pools; these counts are not probabilities."
+        },
+        "complete": true,
+        "explanations": [],
+        "no_candidate_in_scope": true,
+        "result": {
+          "forward": [],
+          "id": "m6-kuki-transcription-baselines",
+          "input_valid": true,
+          "inverse": [
+            {
+              "ambiguous": false,
+              "candidates": [],
+              "complete": true,
+              "empty_in_scope": true,
+              "examined": 59,
+              "id": "vb-1-unmarked-correspondence-northern-only",
+              "reference": [
+                [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ]
+              ],
+              "reference_recalled": false,
+              "scope": "declared-published-reference-pool"
+            }
+          ]
+        },
+        "scope": "selected-declared-pools",
+        "status": "complete"
+      }
+    },
+    {
+      "id": "kuki-chin:all-groups:withheld",
+      "result": {
+        "comparison": {
+          "candidate_support": [],
+          "common_to_all": [],
+          "interpretation": "Agreement/disagreement within this case and its declared pools; these counts are not probabilities."
+        },
+        "complete": true,
+        "explanations": [],
+        "no_candidate_in_scope": true,
+        "result": {
+          "forward": [],
+          "id": "m6-kuki-transcription-baselines",
+          "input_valid": true,
+          "inverse": [
+            {
+              "ambiguous": false,
+              "candidates": [],
+              "complete": true,
+              "empty_in_scope": true,
+              "examined": 59,
+              "id": "vb-1-unmarked-correspondence-all-groups",
+              "reference": [
+                [
+                  "ɓ",
+                  "a",
+                  "a",
+                  "n"
+                ]
+              ],
+              "reference_recalled": false,
+              "scope": "declared-published-reference-pool"
+            }
+          ]
+        },
+        "scope": "selected-declared-pools",
+        "status": "complete"
+      }
+    },
+    {
+      "id": "voice:all",
+      "result": {
+        "candidates": [
+          {
+            "analysis_id": "N-anticausative",
+            "branches": [
+              {
+                "certificate_accepted": true,
+                "doculect_id": "MC-transitive",
+                "input": [
+                  "p"
+                ],
+                "observation_satisfied": true,
+                "output": [
+                  "p"
+                ],
+                "package_id": "N-anticausative-MC-transitive",
+                "package_version": "1.0.0",
+                "steps": []
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "MC-intransitive",
+                "input": [
+                  "p"
+                ],
+                "observation_satisfied": true,
+                "output": [
+                  "b"
+                ],
+                "package_id": "N-anticausative-MC-intransitive",
+                "package_version": "1.0.0",
+                "steps": [
+                  {
+                    "input_stage": "basic-onset-projection",
+                    "output": [
+                      "b"
+                    ],
+                    "output_stage": "N-anticausative-MC-intransitive-stage-1",
+                    "rule_id": "N-anticausative-MC-intransitive-law-1"
+                  }
+                ]
+              }
+            ],
+            "choice_bindings": [
+              {
+                "group_id": "voice-analysis",
+                "option_id": "N-anticausative"
+              }
+            ],
+            "proto_node_id": "basic-onset-projection",
+            "protoform": [
+              "p"
+            ]
+          },
+          {
+            "analysis_id": "s-devoicing",
+            "branches": [
+              {
+                "certificate_accepted": true,
+                "doculect_id": "MC-transitive",
+                "input": [
+                  "b"
+                ],
+                "observation_satisfied": true,
+                "output": [
+                  "p"
+                ],
+                "package_id": "s-devoicing-MC-transitive",
+                "package_version": "1.0.0",
+                "steps": [
+                  {
+                    "input_stage": "basic-onset-projection",
+                    "output": [
+                      "p"
+                    ],
+                    "output_stage": "s-devoicing-MC-transitive-stage-1",
+                    "rule_id": "s-devoicing-MC-transitive-law-1"
+                  }
+                ]
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "MC-intransitive",
+                "input": [
+                  "b"
+                ],
+                "observation_satisfied": true,
+                "output": [
+                  "b"
+                ],
+                "package_id": "s-devoicing-MC-intransitive",
+                "package_version": "1.0.0",
+                "steps": []
+              }
+            ],
+            "choice_bindings": [
+              {
+                "group_id": "voice-analysis",
+                "option_id": "s-devoicing"
+              }
+            ],
+            "proto_node_id": "basic-onset-projection",
+            "protoform": [
+              "b"
+            ]
+          }
+        ],
+        "claim": "bounded-relative-completeness",
+        "complete": true,
+        "distinct_protoform_count": 2,
+        "examined": 6,
+        "history_count": 2,
+        "id": "m6-voice-paradigm-projection",
+        "input_valid": true,
+        "issues": [],
+        "no_candidate_in_scope": false,
+        "raw_hypothesis_upper_bound": 6,
+        "reason": "exhausted",
+        "scope_size": 6,
+        "status": "complete"
+      }
+    },
+    {
+      "id": "voice:voice-analysis=N-anticausative",
+      "result": {
+        "candidates": [
+          {
+            "analysis_id": "N-anticausative",
+            "branches": [
+              {
+                "certificate_accepted": true,
+                "doculect_id": "MC-transitive",
+                "input": [
+                  "p"
+                ],
+                "observation_satisfied": true,
+                "output": [
+                  "p"
+                ],
+                "package_id": "N-anticausative-MC-transitive",
+                "package_version": "1.0.0",
+                "steps": []
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "MC-intransitive",
+                "input": [
+                  "p"
+                ],
+                "observation_satisfied": true,
+                "output": [
+                  "b"
+                ],
+                "package_id": "N-anticausative-MC-intransitive",
+                "package_version": "1.0.0",
+                "steps": [
+                  {
+                    "input_stage": "basic-onset-projection",
+                    "output": [
+                      "b"
+                    ],
+                    "output_stage": "N-anticausative-MC-intransitive-stage-1",
+                    "rule_id": "N-anticausative-MC-intransitive-law-1"
+                  }
+                ]
+              }
+            ],
+            "choice_bindings": [
+              {
+                "group_id": "voice-analysis",
+                "option_id": "N-anticausative"
+              }
+            ],
+            "proto_node_id": "basic-onset-projection",
+            "protoform": [
+              "p"
+            ]
+          }
+        ],
+        "claim": "bounded-relative-completeness",
+        "complete": true,
+        "distinct_protoform_count": 1,
+        "examined": 3,
+        "history_count": 1,
+        "id": "m6-voice-paradigm-projection",
+        "input_valid": true,
+        "issues": [],
+        "no_candidate_in_scope": false,
+        "raw_hypothesis_upper_bound": 3,
+        "reason": "exhausted",
+        "scope_size": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "id": "voice:voice-analysis=s-devoicing",
+      "result": {
+        "candidates": [
+          {
+            "analysis_id": "s-devoicing",
+            "branches": [
+              {
+                "certificate_accepted": true,
+                "doculect_id": "MC-transitive",
+                "input": [
+                  "b"
+                ],
+                "observation_satisfied": true,
+                "output": [
+                  "p"
+                ],
+                "package_id": "s-devoicing-MC-transitive",
+                "package_version": "1.0.0",
+                "steps": [
+                  {
+                    "input_stage": "basic-onset-projection",
+                    "output": [
+                      "p"
+                    ],
+                    "output_stage": "s-devoicing-MC-transitive-stage-1",
+                    "rule_id": "s-devoicing-MC-transitive-law-1"
+                  }
+                ]
+              },
+              {
+                "certificate_accepted": true,
+                "doculect_id": "MC-intransitive",
+                "input": [
+                  "b"
+                ],
+                "observation_satisfied": true,
+                "output": [
+                  "b"
+                ],
+                "package_id": "s-devoicing-MC-intransitive",
+                "package_version": "1.0.0",
+                "steps": []
+              }
+            ],
+            "choice_bindings": [
+              {
+                "group_id": "voice-analysis",
+                "option_id": "s-devoicing"
+              }
+            ],
+            "proto_node_id": "basic-onset-projection",
+            "protoform": [
+              "b"
+            ]
+          }
+        ],
+        "claim": "bounded-relative-completeness",
+        "complete": true,
+        "distinct_protoform_count": 1,
+        "examined": 3,
+        "history_count": 1,
+        "id": "m6-voice-paradigm-projection",
+        "input_valid": true,
+        "issues": [],
+        "no_candidate_in_scope": false,
+        "raw_hypothesis_upper_bound": 3,
+        "reason": "exhausted",
+        "scope_size": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "id": "voice:all:budget0",
+      "result": {
+        "candidates": [],
+        "claim": "bounded-relative-completeness",
+        "complete": false,
+        "distinct_protoform_count": 0,
+        "examined": 0,
+        "history_count": 0,
+        "id": "m6-voice-paradigm-projection",
+        "input_valid": true,
+        "issues": [],
+        "no_candidate_in_scope": false,
+        "raw_hypothesis_upper_bound": 6,
+        "reason": "candidate-budget",
+        "scope_size": 6,
+        "status": "incomplete"
+      }
+    }
+  ],
+  "input_hashes": {
+    ".github/workflows/exploration.yml": "2a188a1a5896998e6c50dd5e06c416e48d4b75668ff48faa6c22d73ffd8c8504",
+    "data/kuki-chin/diagnostic-input.json": "ba925191655664d102247f8d7ae843b842d8d23dc8de98218ca16416e3a894d4",
+    "data/kuki-chin/joint-analysis-input.json": "1227498fbfb36b1f023c40f14505b7aee4ebf6ac15dcdede0dad85c38e2a0c6a",
+    "data/kuki-chin/lexical-input.json": "3aab83fcb6de49aca3de5f19d14b9e5ac5cd23ec1180d1c4a8a75e2231c4ed48",
+    "data/materials/coverage.json": "4220306a12c771a090cafcb51cdfc2c6c0425c0593a6cb4684ff55fdd914011e",
+    "data/materials/sources.json": "9652e13b02ea73900c57154a47e01cfce7f87ada3c24e12bd6f2a4d8d7b849a8",
+    "data/materials/vanbik-initials.json": "caa7298760fea89a2f15c0f06023b582e43d76204410a66db5d04ce9c80217ba",
+    "data/pie/latin-control-input.json": "13fd7017ceb9f58811a26cdfed26588e4df1cbc0a2bacaa6dffa6d3afc4c23ff",
+    "data/pie/lexical-input.json": "f258dab9b2e592a5b3b4e1f611319c62c0c3a7fa73cf38f1fbedeb050a57e358",
+    "docs/13-materials-and-exploration.md": "b5b8b04333816a7bb19cfe010b4a676041e1af62252dd4580b89df0adfe85f97",
+    "scripts/build_materials.py": "38a392875c3aeee6493b100ef5cb5063c8a102b9d20244aaeef8739efaaf5fff",
+    "scripts/explore_reconstructions.py": "c36e93f0d214759cd6a7f0958253682866dc3ae3f176f20f53c87ad8b9f8c858",
+    "scripts/materials.py": "32b912fb6223d480a7bfb21b53388ca24697c486264a1fb42d597d054c143969",
+    "scripts/verify_explorer.py": "4c0497fb91e31b8ade65f2478a18aa35e4da8f2253c62ccf70643615ebe0e7ae",
+    "tests/test_explorer.py": "7a0e49020daf5369721f8c0db61b1e4e88c889f86d101d8504eb07116c7f1ffa"
+  },
+  "limitations": [
+    "No new sound-change models are inferred from the expanded catalogue.",
+    "The 509 registered pool queries retain their original experimental limitations; identity/correspondence are baselines.",
+    "Source transcription and historical hypotheses still require specialist review."
+  ],
+  "passed": true,
+  "registered_pool_queries": {
+    "kuki-chin": 198,
+    "latin": 40,
+    "pie": 270,
+    "tibetan-merger": 1
+  },
+  "schema_version": "1.0.0"
+}
