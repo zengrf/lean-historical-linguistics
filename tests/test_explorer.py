@@ -119,10 +119,19 @@ class MaterialTests(unittest.TestCase):
 
     def test_vanbik_keeps_lower_nodes_and_omissions(self):
         d = strict_read(ROOT / "data/materials/vanbik-initials.json")
-        self.assertEqual(len(d["entries"]), 1344)
-        self.assertEqual({e["source_level"] for e in d["entries"]}, {"PKC", "PCC", "PNC"})
-        self.assertEqual(len(d["omissions"]), 10)
-        self.assertEqual(sum(1 for _ in search("vanbik2009")), 6711)
+        self.assertEqual([e["id"] for e in d["entries"]], [str(i) for i in range(1, 1356)])
+        self.assertEqual({e["source_level"] for e in d["entries"]}, {"PKC", "PCC", "PNC", "PPC", "PSPC"})
+        self.assertEqual(len(d["omissions"]), 1)
+        self.assertEqual(d["omissions"][0]["entry_id"], "461")
+        self.assertIn("khup", d["omissions"][0]["source_span"])
+        self.assertEqual(sum(1 for _ in search("vanbik2009")), 6752)
+
+    def test_expanded_parser_preserves_every_frozen_m6_source_record(self):
+        expanded = {e["id"]: e for e in strict_read(ROOT / "data/materials/vanbik-initials.json")["entries"]}
+        frozen = strict_read(ROOT / "data/kuki-chin/corpus.json")["sets"]
+        for e in frozen:
+            for field in ("records", "label", "source_level", "source_reconstruction", "source_locator"):
+                self.assertEqual(e[field], expanded[e["id"]][field])
 
 
 if __name__ == "__main__":

@@ -6,9 +6,10 @@ This catalogue expands source access without changing the frozen M5/M6 studies.
   subgroup labels and explicit coverage limits.
 - [sources.json](sources.json): pinned Sagart comparative dataset and file hashes;
   the older CLDF pins remain in [upstream/manifest.json](../upstream/manifest.json).
-- [vanbik-initials.json](vanbik-initials.json): all 1,344 parsed chapter-4 entries,
-  their 6,711 reflex records and ten extraction omissions. Source reconstructions
-  at PKC, PCC and PNC levels remain separate. Transcription review is pending.
+- [vanbik-initials.json](vanbik-initials.json): all 1,355 numbered chapter-4 entries,
+  their 6,752 parsed reflex records and one unparsed Paite reflex span, retained
+  verbatim with its source page. PKC, PCC, PNC, PPC and PSPC reconstruction levels
+  remain separate. Transcription review is pending.
 
 The CLDF data remain in their original tables under `data/upstream`; the catalogue
 does not duplicate or normalize those rows. All forms, judgments, source

@@ -40,8 +40,8 @@ published reference forms within a declared candidate pool.
 ## Documentation
 
 The [expanded materials and hypothesis explorer](docs/13-materials-and-exploration.md)
-provide access to 48,653 source form records: complete retained IE-CoR, Sagart
-Sino-Tibetan and Burmish datasets, plus 1,344 parsed VanBik entries. Select among
+provide access to 48,694 source form records: complete retained IE-CoR, Sagart
+Sino-Tibetan and Burmish datasets, plus all 1,355 numbered VanBik entries. Select among
 509 existing candidate-pool queries or supply a bounded reconstruction
 specification; compare hypotheses, inspect checked derivations and test the
 effect of withholding observations. This source coverage exceeds the executable

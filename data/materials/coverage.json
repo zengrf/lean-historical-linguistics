@@ -1293,14 +1293,16 @@
       ]
     },
     "vanbik2009": {
-      "entries": 1344,
-      "extraction_omissions": 10,
-      "reflex_records": 6711,
-      "scope": "VanBik (2009), chapter 4, PDF pages 93–340: every entry parsed by the retained extractor, including PKC and lower reconstruction levels. This is not a transcription of chapters 5–6 (rhymes and tones).",
+      "entries": 1355,
+      "extraction_omissions": 1,
+      "reflex_records": 6752,
+      "scope": "VanBik (2009), numbered comparative entries [1]–[1355] in chapter 4, PDF pages 93–341. All reconstruction levels are retained. Sections 4.8–4.9 relist earlier entries and are not counted as extra sets. Chapters 5–6 (rhymes and tones) are not structurally transcribed.",
       "source_levels": {
-        "PCC": 126,
-        "PKC": 1161,
-        "PNC": 57
+        "PCC": 128,
+        "PKC": 1165,
+        "PNC": 57,
+        "PPC": 3,
+        "PSPC": 2
       },
       "source_sha256": "fb1ddf78261db19c5cb2e2698242939b2f952d390b2a3961b3b867b939598406",
       "varieties": 12

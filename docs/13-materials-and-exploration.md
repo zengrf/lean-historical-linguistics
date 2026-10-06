@@ -1,7 +1,7 @@
 # Comparative materials and hypothesis exploration
 
 The catalogue exposes **every row in three pinned CLDF datasets**, plus every
-parseable entry in VanBik's initial-consonant chapter. The explorer selects
+numbered comparative entry in VanBik's initial-consonant chapter. The explorer selects
 existing hypotheses and asks Lean to enumerate their reconstructions within a
 declared finite space. The enlarged catalogue does not automatically supply
 sound-change rules for its new records.
@@ -13,9 +13,9 @@ sound-change rules for its new records.
 | [IE-CoR](../data/upstream/iecor/README.md) | 25,731 forms; 160 varieties; 170 concepts | 25,741 cognate memberships; 4,981 cognate sets; published root forms and reconstruction levels; comments, uncertainty and 1,036 loan-event rows |
 | [Sagart, Jacques, Lai and List](../data/upstream/sagartst/README.md) | 12,179 forms; 50 varieties; 250 concepts | 12,179 cognate memberships in 5,120 sets; loans, sources, transcription and subgroup labels |
 | [Hill–Gong Burmish](../data/upstream/hillburmish/README.md) | 4,032 forms; nine source varieties/nodes; 819 concepts | Original cognacy and partial-cognacy columns, loan flags, segmentation, sources and ProtoBurmish forms |
-| [VanBik 2009](../library/open/vanbik2009.pdf) | 1,344 parsed entries; 6,711 reflex records; 12 varieties | 1,161 PKC, 126 PCC and 57 PNC entries; original forms, glosses, source pages, stem labels, allofamy markers and discussion flags |
+| [VanBik 2009](../library/open/vanbik2009.pdf) | All 1,355 numbered entries; 6,752 parsed reflex records; 12 varieties | 1,165 PKC, 128 PCC, 57 PNC, three PPC and two PSPC entries; original forms, glosses, source pages, stem labels, allofamy markers and discussion flags |
 
-These are **48,653 source form records**, not 48,653 distinct lexemes. Varieties,
+These are **48,694 source form records**, not 48,694 distinct lexemes. Varieties,
 forms and analyses overlap between datasets; source-qualified IDs keep their
 provenance separate. Burmish has no separate CLDF cognate table in this snapshot:
 its embedded cognacy columns remain available without inventing a new set table.
@@ -38,8 +38,14 @@ Its original tables, bibliography, metadata, contributors and CC BY 4.0 license
 are retained with [file hashes](../data/materials/sources.json). IE-CoR and
 Burmish retain their [existing pins](../data/upstream/manifest.json).
 The catalogue reads the original CSV strings without normalizing them. The
-VanBik expansion reuses the M6 extractor, preserves its ten omission records,
-and does not promote unreviewed PDF extraction to verified transcription.
+VanBik expansion extends the M6 extraction method through PDF page 341,
+recognizes indented entry headers and retains PPC (Proto-Peripheral-Chin) and
+PSPC (Proto-Southern-Plains-Chin), following the source's abbreviations on PDF
+page 26. All entry numbers [1]–[1355] are checked for presence and uniqueness.
+Section introductions are excluded from reflex lists. One Paite span in entry
+[461] lacks an opening gloss quote; it is retained verbatim with its page locator
+as an unparsed record. The source forms, glosses and locators of all 100 frozen
+M6 entries remain identical. Unreviewed PDF extraction is not verified transcription.
 
 ## Browse the material
 

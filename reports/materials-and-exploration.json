@@ -1294,14 +1294,16 @@
         ]
       },
       "vanbik2009": {
-        "entries": 1344,
-        "extraction_omissions": 10,
-        "reflex_records": 6711,
-        "scope": "VanBik (2009), chapter 4, PDF pages 93–340: every entry parsed by the retained extractor, including PKC and lower reconstruction levels. This is not a transcription of chapters 5–6 (rhymes and tones).",
+        "entries": 1355,
+        "extraction_omissions": 1,
+        "reflex_records": 6752,
+        "scope": "VanBik (2009), numbered comparative entries [1]–[1355] in chapter 4, PDF pages 93–341. All reconstruction levels are retained. Sections 4.8–4.9 relist earlier entries and are not counted as extra sets. Chapters 5–6 (rhymes and tones) are not structurally transcribed.",
         "source_levels": {
-          "PCC": 126,
-          "PKC": 1161,
-          "PNC": 57
+          "PCC": 128,
+          "PKC": 1165,
+          "PNC": 57,
+          "PPC": 3,
+          "PSPC": 2
         },
         "source_sha256": "fb1ddf78261db19c5cb2e2698242939b2f952d390b2a3961b3b867b939598406",
         "varieties": 12
@@ -5720,16 +5722,17 @@
   ],
   "input_hashes": {
     ".github/workflows/exploration.yml": "2a188a1a5896998e6c50dd5e06c416e48d4b75668ff48faa6c22d73ffd8c8504",
+    "data/kuki-chin/corpus.json": "ca1657b7ee017c5e2fa06a08fa2a3ee7c38aa62faad20ea58a2fcdcf224b13b0",
     "data/kuki-chin/diagnostic-input.json": "ba925191655664d102247f8d7ae843b842d8d23dc8de98218ca16416e3a894d4",
     "data/kuki-chin/joint-analysis-input.json": "1227498fbfb36b1f023c40f14505b7aee4ebf6ac15dcdede0dad85c38e2a0c6a",
     "data/kuki-chin/lexical-input.json": "3aab83fcb6de49aca3de5f19d14b9e5ac5cd23ec1180d1c4a8a75e2231c4ed48",
-    "data/materials/coverage.json": "4220306a12c771a090cafcb51cdfc2c6c0425c0593a6cb4684ff55fdd914011e",
+    "data/materials/coverage.json": "74a14498e9e8241f76d5eec2ae2aad7f6344b2979e3823d83c16b7e00c9e66e4",
     "data/materials/sources.json": "9652e13b02ea73900c57154a47e01cfce7f87ada3c24e12bd6f2a4d8d7b849a8",
-    "data/materials/vanbik-initials.json": "caa7298760fea89a2f15c0f06023b582e43d76204410a66db5d04ce9c80217ba",
+    "data/materials/vanbik-initials.json": "a9c6fce2f4b573ceeb64e73cfd4034a1d5c244985a453c4aab8425a97b8adeb7",
     "data/pie/latin-control-input.json": "13fd7017ceb9f58811a26cdfed26588e4df1cbc0a2bacaa6dffa6d3afc4c23ff",
     "data/pie/lexical-input.json": "f258dab9b2e592a5b3b4e1f611319c62c0c3a7fa73cf38f1fbedeb050a57e358",
     "data/upstream/manifest.json": "dcc3ab6ab8b2f99435e58beade977b6c0e698ab9dc16bb3c8e32522ffca38de9",
-    "docs/13-materials-and-exploration.md": "b5b8b04333816a7bb19cfe010b4a676041e1af62252dd4580b89df0adfe85f97",
+    "docs/13-materials-and-exploration.md": "0db980e05f1098cc96704c08b7b8b6e762f1002dd8e92640bff439da89fc6748",
     "lean/Audit.lean": "5532561b312ffabcb50dd1bc9dc6b41d5495efb4d14417495a9a46a5db25deef",
     "lean/Comparative.lean": "5a86cb79f48b5bb7b7dfe539ad9eb5529a6fcb4b985d5660f6e820ca5f161197",
     "lean/Comparative/Core.lean": "9941c1f795a9b4b982f8c1acb69ba0ad61ac78eeafa1f5721cd61226e57d6e0b",
@@ -5761,17 +5764,18 @@
     "lean/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
     "requirements.txt": "5e9e0b8f3d67f97d23836900017d92bc251abb5893d5e675da1e262237bf1c74",
     "scripts/build_kuki_corpus.py": "c72461582696d9504e2e818245cecfac2d15b0bb4386fdbb0c64594b700881b5",
-    "scripts/build_materials.py": "38a392875c3aeee6493b100ef5cb5063c8a102b9d20244aaeef8739efaaf5fff",
+    "scripts/build_materials.py": "22202e37f32aeea3cfbbaa87e5a7a997390d73aabfa9c1a48e72d6d1259ee6e5",
     "scripts/build_pie_corpus.py": "b886fdbabfbc296c5516538e2fa6d1ec1945b141d78c6cc0f3bb0da450889d8e",
     "scripts/explore_reconstructions.py": "c36e93f0d214759cd6a7f0958253682866dc3ae3f176f20f53c87ad8b9f8c858",
+    "scripts/extract_vanbik_materials.py": "560e50353f537703f5cd936ebf718bafd8568582ea721b6da0638096bd73413f",
     "scripts/import_cldf.py": "f2e1044aa6c3ca5e1668438c3aa6f3d1977547855cfc34adb191a293be9c8414",
     "scripts/materials.py": "32b912fb6223d480a7bfb21b53388ca24697c486264a1fb42d597d054c143969",
     "scripts/reference_reconstruction.py": "e7c2a8bcb460187393b75f6b8539e460ec526738c5c63fcb9c589a738f247fe1",
     "scripts/reference_rules.py": "d8536ce7ad4d152db57fb70840b7707091a20f7c4295796d7a1c9d64a95aba90",
     "scripts/run_reconstruction.py": "709ef9e4952c8c869255a4efa957d0b6839d130dfa3a42083f0efa55ec665807",
-    "scripts/verify_explorer.py": "9243668cc9b7e2bd44e889786b101acc388854a3d81c72cbf8cfdf1ef0a436e8",
+    "scripts/verify_explorer.py": "ee358b2ff7f3aae2fb83e23c9827c7e64661b024d099a47e4c30f2bd724016c4",
     "scripts/verify_m5.py": "33dd93a2f0bafbf034ac67372ba4f1b8709124f1968981f00e5fb3b84e3e4cd6",
-    "tests/test_explorer.py": "7a0e49020daf5369721f8c0db61b1e4e88c889f86d101d8504eb07116c7f1ffa"
+    "tests/test_explorer.py": "d2e0a710063582b12439aabbd45ffc71e31d8e628345a0133f1c4e393b828564"
   },
   "limitations": [
     "No new sound-change models are inferred from the expanded catalogue.",
