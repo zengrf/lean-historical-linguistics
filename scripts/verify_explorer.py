@@ -44,8 +44,12 @@ def verify(binary_dir=BIN):
             assert not r["no_candidate_in_scope"]
         runs.append(dict(id="voice:" + (choices[0] if choices else "all") + (":budget0" if budget == 0 else ""), result=r))
     sources = ["scripts/materials.py", "scripts/build_materials.py", "scripts/explore_reconstructions.py", "scripts/verify_explorer.py",
+        "scripts/run_reconstruction.py", "scripts/reference_reconstruction.py", "scripts/reference_rules.py", "scripts/verify_m5.py",
+        "scripts/build_kuki_corpus.py", "scripts/build_pie_corpus.py", "scripts/import_cldf.py", "data/upstream/manifest.json",
         "tests/test_explorer.py", "data/materials/sources.json", "data/materials/coverage.json", "data/materials/vanbik-initials.json",
         "data/kuki-chin/joint-analysis-input.json", *SOURCES.values(), "docs/13-materials-and-exploration.md", ".github/workflows/exploration.yml"]
+    sources += [str(p.relative_to(ROOT)) for p in (ROOT / "lean").rglob("*.lean") if ".lake" not in p.parts]
+    sources += ["lean/lakefile.toml", "lean/lean-toolchain", "requirements.txt"]
     return dict(schema_version="1.0.0", passed=True, catalogue=current,
         registered_pool_queries={dataset: len(catalogue(dataset)) for dataset in SOURCES},
         checks=dict(snapshot_hashes=True, cldf_validation=True, complete_source_row_unit_tests="tests/test_explorer.py",
