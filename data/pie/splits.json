@@ -1,0 +1,1016 @@
+{
+  "assignments": [
+    {
+      "family_id": "family-14",
+      "set_id": "14",
+      "split": "train"
+    },
+    {
+      "family_id": "family-18",
+      "set_id": "18",
+      "split": "test"
+    },
+    {
+      "family_id": "family-21",
+      "set_id": "21",
+      "split": "development"
+    },
+    {
+      "family_id": "family-28",
+      "set_id": "28",
+      "split": "train"
+    },
+    {
+      "family_id": "family-39",
+      "set_id": "39",
+      "split": "train"
+    },
+    {
+      "family_id": "family-42",
+      "set_id": "42",
+      "split": "train"
+    },
+    {
+      "family_id": "family-42",
+      "set_id": "44",
+      "split": "train"
+    },
+    {
+      "family_id": "family-53",
+      "set_id": "53",
+      "split": "development"
+    },
+    {
+      "family_id": "family-72",
+      "set_id": "72",
+      "split": "train"
+    },
+    {
+      "family_id": "family-45",
+      "set_id": "76",
+      "split": "train"
+    },
+    {
+      "family_id": "family-42",
+      "set_id": "80",
+      "split": "train"
+    },
+    {
+      "family_id": "family-45",
+      "set_id": "82",
+      "split": "train"
+    },
+    {
+      "family_id": "family-53",
+      "set_id": "86",
+      "split": "development"
+    },
+    {
+      "family_id": "family-87",
+      "set_id": "87",
+      "split": "test"
+    },
+    {
+      "family_id": "family-42",
+      "set_id": "91",
+      "split": "train"
+    },
+    {
+      "family_id": "family-42",
+      "set_id": "123",
+      "split": "train"
+    },
+    {
+      "family_id": "family-29",
+      "set_id": "131",
+      "split": "development"
+    },
+    {
+      "family_id": "family-146",
+      "set_id": "146",
+      "split": "train"
+    },
+    {
+      "family_id": "family-68",
+      "set_id": "153",
+      "split": "train"
+    },
+    {
+      "family_id": "family-172",
+      "set_id": "172",
+      "split": "train"
+    },
+    {
+      "family_id": "family-42",
+      "set_id": "178",
+      "split": "train"
+    },
+    {
+      "family_id": "family-45",
+      "set_id": "208",
+      "split": "train"
+    },
+    {
+      "family_id": "family-83",
+      "set_id": "210",
+      "split": "train"
+    },
+    {
+      "family_id": "family-83",
+      "set_id": "211",
+      "split": "train"
+    },
+    {
+      "family_id": "family-45",
+      "set_id": "219",
+      "split": "train"
+    },
+    {
+      "family_id": "family-45",
+      "set_id": "220",
+      "split": "train"
+    },
+    {
+      "family_id": "family-39",
+      "set_id": "223",
+      "split": "train"
+    },
+    {
+      "family_id": "family-83",
+      "set_id": "225",
+      "split": "train"
+    },
+    {
+      "family_id": "family-226",
+      "set_id": "226",
+      "split": "development"
+    },
+    {
+      "family_id": "family-45",
+      "set_id": "237",
+      "split": "train"
+    },
+    {
+      "family_id": "family-100",
+      "set_id": "249",
+      "split": "development"
+    },
+    {
+      "family_id": "family-39",
+      "set_id": "252",
+      "split": "train"
+    },
+    {
+      "family_id": "family-257",
+      "set_id": "257",
+      "split": "train"
+    },
+    {
+      "family_id": "family-261",
+      "set_id": "261",
+      "split": "test"
+    },
+    {
+      "family_id": "family-263",
+      "set_id": "263",
+      "split": "train"
+    },
+    {
+      "family_id": "family-265",
+      "set_id": "265",
+      "split": "development"
+    },
+    {
+      "family_id": "family-202",
+      "set_id": "266",
+      "split": "test"
+    },
+    {
+      "family_id": "family-267",
+      "set_id": "267",
+      "split": "train"
+    },
+    {
+      "family_id": "family-276",
+      "set_id": "276",
+      "split": "test"
+    },
+    {
+      "family_id": "family-253",
+      "set_id": "283",
+      "split": "train"
+    },
+    {
+      "family_id": "family-25",
+      "set_id": "285",
+      "split": "train"
+    },
+    {
+      "family_id": "family-83",
+      "set_id": "287",
+      "split": "train"
+    },
+    {
+      "family_id": "family-256",
+      "set_id": "289",
+      "split": "train"
+    },
+    {
+      "family_id": "family-294",
+      "set_id": "294",
+      "split": "development"
+    },
+    {
+      "family_id": "family-301",
+      "set_id": "301",
+      "split": "train"
+    },
+    {
+      "family_id": "family-303",
+      "set_id": "303",
+      "split": "test"
+    },
+    {
+      "family_id": "family-111",
+      "set_id": "309",
+      "split": "train"
+    },
+    {
+      "family_id": "family-276",
+      "set_id": "312",
+      "split": "test"
+    },
+    {
+      "family_id": "family-314",
+      "set_id": "314",
+      "split": "train"
+    },
+    {
+      "family_id": "family-196",
+      "set_id": "320",
+      "split": "train"
+    },
+    {
+      "family_id": "family-257",
+      "set_id": "325",
+      "split": "train"
+    },
+    {
+      "family_id": "family-326",
+      "set_id": "326",
+      "split": "test"
+    },
+    {
+      "family_id": "family-202",
+      "set_id": "327",
+      "split": "test"
+    },
+    {
+      "family_id": "family-83",
+      "set_id": "328",
+      "split": "train"
+    },
+    {
+      "family_id": "family-25",
+      "set_id": "333",
+      "split": "train"
+    },
+    {
+      "family_id": "family-300",
+      "set_id": "335",
+      "split": "train"
+    },
+    {
+      "family_id": "family-192",
+      "set_id": "338",
+      "split": "development"
+    },
+    {
+      "family_id": "family-342",
+      "set_id": "342",
+      "split": "test"
+    },
+    {
+      "family_id": "family-172",
+      "set_id": "348",
+      "split": "train"
+    },
+    {
+      "family_id": "family-256",
+      "set_id": "350",
+      "split": "train"
+    },
+    {
+      "family_id": "family-111",
+      "set_id": "360",
+      "split": "train"
+    },
+    {
+      "family_id": "family-25",
+      "set_id": "368",
+      "split": "train"
+    },
+    {
+      "family_id": "family-46",
+      "set_id": "375",
+      "split": "train"
+    },
+    {
+      "family_id": "family-380",
+      "set_id": "380",
+      "split": "development"
+    },
+    {
+      "family_id": "family-45",
+      "set_id": "384",
+      "split": "train"
+    },
+    {
+      "family_id": "family-45",
+      "set_id": "403",
+      "split": "train"
+    },
+    {
+      "family_id": "family-45",
+      "set_id": "405",
+      "split": "train"
+    },
+    {
+      "family_id": "family-411",
+      "set_id": "411",
+      "split": "test"
+    },
+    {
+      "family_id": "family-227",
+      "set_id": "437",
+      "split": "development"
+    },
+    {
+      "family_id": "family-111",
+      "set_id": "451",
+      "split": "train"
+    },
+    {
+      "family_id": "family-468",
+      "set_id": "468",
+      "split": "test"
+    },
+    {
+      "family_id": "family-42",
+      "set_id": "488",
+      "split": "train"
+    },
+    {
+      "family_id": "family-201",
+      "set_id": "500",
+      "split": "development"
+    },
+    {
+      "family_id": "family-502",
+      "set_id": "502",
+      "split": "train"
+    },
+    {
+      "family_id": "family-146",
+      "set_id": "503",
+      "split": "train"
+    },
+    {
+      "family_id": "family-317",
+      "set_id": "515",
+      "split": "train"
+    },
+    {
+      "family_id": "family-138",
+      "set_id": "519",
+      "split": "train"
+    },
+    {
+      "family_id": "family-293",
+      "set_id": "520",
+      "split": "development"
+    },
+    {
+      "family_id": "family-18",
+      "set_id": "535",
+      "split": "test"
+    },
+    {
+      "family_id": "family-322",
+      "set_id": "565",
+      "split": "train"
+    },
+    {
+      "family_id": "family-84",
+      "set_id": "579",
+      "split": "train"
+    },
+    {
+      "family_id": "family-589",
+      "set_id": "589",
+      "split": "train"
+    },
+    {
+      "family_id": "family-25",
+      "set_id": "598",
+      "split": "train"
+    },
+    {
+      "family_id": "family-87",
+      "set_id": "619",
+      "split": "test"
+    },
+    {
+      "family_id": "family-622",
+      "set_id": "622",
+      "split": "train"
+    },
+    {
+      "family_id": "family-300",
+      "set_id": "631",
+      "split": "train"
+    },
+    {
+      "family_id": "family-640",
+      "set_id": "640",
+      "split": "train"
+    },
+    {
+      "family_id": "family-642",
+      "set_id": "642",
+      "split": "train"
+    },
+    {
+      "family_id": "family-646",
+      "set_id": "646",
+      "split": "train"
+    },
+    {
+      "family_id": "family-24",
+      "set_id": "648",
+      "split": "train"
+    },
+    {
+      "family_id": "family-83",
+      "set_id": "649",
+      "split": "train"
+    },
+    {
+      "family_id": "family-186",
+      "set_id": "662",
+      "split": "train"
+    },
+    {
+      "family_id": "family-667",
+      "set_id": "667",
+      "split": "train"
+    },
+    {
+      "family_id": "family-21",
+      "set_id": "671",
+      "split": "development"
+    },
+    {
+      "family_id": "family-680",
+      "set_id": "680",
+      "split": "development"
+    },
+    {
+      "family_id": "family-699",
+      "set_id": "699",
+      "split": "development"
+    },
+    {
+      "family_id": "family-700",
+      "set_id": "700",
+      "split": "development"
+    },
+    {
+      "family_id": "family-256",
+      "set_id": "718",
+      "split": "train"
+    },
+    {
+      "family_id": "family-42",
+      "set_id": "771",
+      "split": "train"
+    },
+    {
+      "family_id": "family-774",
+      "set_id": "774",
+      "split": "train"
+    },
+    {
+      "family_id": "family-18",
+      "set_id": "788",
+      "split": "test"
+    },
+    {
+      "family_id": "family-796",
+      "set_id": "796",
+      "split": "train"
+    },
+    {
+      "family_id": "family-265",
+      "set_id": "815",
+      "split": "development"
+    },
+    {
+      "family_id": "family-818",
+      "set_id": "818",
+      "split": "train"
+    },
+    {
+      "family_id": "family-820",
+      "set_id": "820",
+      "split": "test"
+    },
+    {
+      "family_id": "family-825",
+      "set_id": "825",
+      "split": "test"
+    },
+    {
+      "family_id": "family-840",
+      "set_id": "840",
+      "split": "train"
+    },
+    {
+      "family_id": "family-7",
+      "set_id": "850",
+      "split": "train"
+    },
+    {
+      "family_id": "family-854",
+      "set_id": "854",
+      "split": "train"
+    },
+    {
+      "family_id": "family-856",
+      "set_id": "856",
+      "split": "test"
+    },
+    {
+      "family_id": "family-859",
+      "set_id": "859",
+      "split": "train"
+    },
+    {
+      "family_id": "family-860",
+      "set_id": "860",
+      "split": "development"
+    },
+    {
+      "family_id": "family-867",
+      "set_id": "867",
+      "split": "train"
+    },
+    {
+      "family_id": "family-293",
+      "set_id": "870",
+      "split": "development"
+    },
+    {
+      "family_id": "family-45",
+      "set_id": "907",
+      "split": "train"
+    },
+    {
+      "family_id": "family-45",
+      "set_id": "910",
+      "split": "train"
+    },
+    {
+      "family_id": "family-317",
+      "set_id": "913",
+      "split": "train"
+    },
+    {
+      "family_id": "family-929",
+      "set_id": "929",
+      "split": "train"
+    },
+    {
+      "family_id": "family-982",
+      "set_id": "982",
+      "split": "train"
+    },
+    {
+      "family_id": "family-290",
+      "set_id": "1062",
+      "split": "train"
+    },
+    {
+      "family_id": "family-1094",
+      "set_id": "1094",
+      "split": "train"
+    },
+    {
+      "family_id": "family-700",
+      "set_id": "1105",
+      "split": "development"
+    },
+    {
+      "family_id": "family-25",
+      "set_id": "1111",
+      "split": "train"
+    },
+    {
+      "family_id": "family-83",
+      "set_id": "1126",
+      "split": "train"
+    },
+    {
+      "family_id": "family-256",
+      "set_id": "1143",
+      "split": "train"
+    },
+    {
+      "family_id": "family-1170",
+      "set_id": "1170",
+      "split": "test"
+    },
+    {
+      "family_id": "family-84",
+      "set_id": "1172",
+      "split": "train"
+    },
+    {
+      "family_id": "family-468",
+      "set_id": "1179",
+      "split": "test"
+    },
+    {
+      "family_id": "family-186",
+      "set_id": "1181",
+      "split": "train"
+    },
+    {
+      "family_id": "family-316",
+      "set_id": "1186",
+      "split": "train"
+    },
+    {
+      "family_id": "family-388",
+      "set_id": "1201",
+      "split": "development"
+    },
+    {
+      "family_id": "family-276",
+      "set_id": "1202",
+      "split": "test"
+    },
+    {
+      "family_id": "family-42",
+      "set_id": "1218",
+      "split": "train"
+    },
+    {
+      "family_id": "family-108",
+      "set_id": "1232",
+      "split": "train"
+    },
+    {
+      "family_id": "family-72",
+      "set_id": "1277",
+      "split": "train"
+    },
+    {
+      "family_id": "family-433",
+      "set_id": "1298",
+      "split": "test"
+    },
+    {
+      "family_id": "family-1312",
+      "set_id": "1312",
+      "split": "train"
+    },
+    {
+      "family_id": "family-300",
+      "set_id": "1335",
+      "split": "train"
+    },
+    {
+      "family_id": "family-1369",
+      "set_id": "1369",
+      "split": "development"
+    },
+    {
+      "family_id": "family-1412",
+      "set_id": "1412",
+      "split": "test"
+    },
+    {
+      "family_id": "family-1456",
+      "set_id": "1456",
+      "split": "development"
+    },
+    {
+      "family_id": "family-1467",
+      "set_id": "1467",
+      "split": "train"
+    },
+    {
+      "family_id": "family-790",
+      "set_id": "1486",
+      "split": "train"
+    },
+    {
+      "family_id": "family-1503",
+      "set_id": "1503",
+      "split": "train"
+    },
+    {
+      "family_id": "family-700",
+      "set_id": "1532",
+      "split": "development"
+    },
+    {
+      "family_id": "family-1536",
+      "set_id": "1536",
+      "split": "train"
+    },
+    {
+      "family_id": "family-1551",
+      "set_id": "1551",
+      "split": "train"
+    },
+    {
+      "family_id": "family-790",
+      "set_id": "1567",
+      "split": "train"
+    },
+    {
+      "family_id": "family-215",
+      "set_id": "1575",
+      "split": "development"
+    },
+    {
+      "family_id": "family-1576",
+      "set_id": "1576",
+      "split": "development"
+    },
+    {
+      "family_id": "family-667",
+      "set_id": "1580",
+      "split": "train"
+    },
+    {
+      "family_id": "family-1585",
+      "set_id": "1585",
+      "split": "train"
+    },
+    {
+      "family_id": "family-42",
+      "set_id": "1604",
+      "split": "train"
+    },
+    {
+      "family_id": "family-1690",
+      "set_id": "1690",
+      "split": "train"
+    },
+    {
+      "family_id": "family-1692",
+      "set_id": "1692",
+      "split": "train"
+    },
+    {
+      "family_id": "family-45",
+      "set_id": "1728",
+      "split": "train"
+    },
+    {
+      "family_id": "family-29",
+      "set_id": "1735",
+      "split": "development"
+    },
+    {
+      "family_id": "family-14",
+      "set_id": "1857",
+      "split": "train"
+    },
+    {
+      "family_id": "family-2047",
+      "set_id": "2047",
+      "split": "train"
+    },
+    {
+      "family_id": "family-84",
+      "set_id": "2150",
+      "split": "train"
+    },
+    {
+      "family_id": "family-2156",
+      "set_id": "2156",
+      "split": "train"
+    },
+    {
+      "family_id": "family-42",
+      "set_id": "2211",
+      "split": "train"
+    },
+    {
+      "family_id": "family-2217",
+      "set_id": "2217",
+      "split": "train"
+    },
+    {
+      "family_id": "family-83",
+      "set_id": "2232",
+      "split": "train"
+    },
+    {
+      "family_id": "family-700",
+      "set_id": "2235",
+      "split": "development"
+    },
+    {
+      "family_id": "family-2236",
+      "set_id": "2236",
+      "split": "train"
+    },
+    {
+      "family_id": "family-72",
+      "set_id": "2238",
+      "split": "train"
+    },
+    {
+      "family_id": "family-83",
+      "set_id": "2245",
+      "split": "train"
+    },
+    {
+      "family_id": "family-151",
+      "set_id": "2268",
+      "split": "test"
+    },
+    {
+      "family_id": "family-2302",
+      "set_id": "2302",
+      "split": "test"
+    },
+    {
+      "family_id": "family-929",
+      "set_id": "2307",
+      "split": "train"
+    },
+    {
+      "family_id": "family-137",
+      "set_id": "2316",
+      "split": "test"
+    },
+    {
+      "family_id": "family-18",
+      "set_id": "2322",
+      "split": "test"
+    },
+    {
+      "family_id": "family-205",
+      "set_id": "2336",
+      "split": "development"
+    },
+    {
+      "family_id": "family-111",
+      "set_id": "2359",
+      "split": "train"
+    },
+    {
+      "family_id": "family-1063",
+      "set_id": "2395",
+      "split": "test"
+    },
+    {
+      "family_id": "family-1034",
+      "set_id": "2456",
+      "split": "train"
+    },
+    {
+      "family_id": "family-53",
+      "set_id": "2457",
+      "split": "development"
+    },
+    {
+      "family_id": "family-2490",
+      "set_id": "2490",
+      "split": "train"
+    },
+    {
+      "family_id": "family-2493",
+      "set_id": "2493",
+      "split": "test"
+    },
+    {
+      "family_id": "family-126",
+      "set_id": "2649",
+      "split": "train"
+    },
+    {
+      "family_id": "family-982",
+      "set_id": "2741",
+      "split": "train"
+    },
+    {
+      "family_id": "family-894",
+      "set_id": "2774",
+      "split": "development"
+    },
+    {
+      "family_id": "family-2779",
+      "set_id": "2779",
+      "split": "test"
+    },
+    {
+      "family_id": "family-83",
+      "set_id": "2783",
+      "split": "train"
+    },
+    {
+      "family_id": "family-12",
+      "set_id": "2825",
+      "split": "train"
+    },
+    {
+      "family_id": "family-256",
+      "set_id": "2837",
+      "split": "train"
+    },
+    {
+      "family_id": "family-2877",
+      "set_id": "2877",
+      "split": "train"
+    },
+    {
+      "family_id": "family-226",
+      "set_id": "2895",
+      "split": "development"
+    },
+    {
+      "family_id": "family-1304",
+      "set_id": "2930",
+      "split": "test"
+    },
+    {
+      "family_id": "family-3055",
+      "set_id": "3055",
+      "split": "train"
+    },
+    {
+      "family_id": "family-231",
+      "set_id": "3080",
+      "split": "train"
+    },
+    {
+      "family_id": "family-3090",
+      "set_id": "3090",
+      "split": "train"
+    },
+    {
+      "family_id": "family-172",
+      "set_id": "3214",
+      "split": "train"
+    },
+    {
+      "family_id": "family-3312",
+      "set_id": "3312",
+      "split": "test"
+    },
+    {
+      "family_id": "family-3318",
+      "set_id": "3318",
+      "split": "development"
+    },
+    {
+      "family_id": "family-261",
+      "set_id": "3381",
+      "split": "test"
+    },
+    {
+      "family_id": "family-433",
+      "set_id": "3551",
+      "split": "test"
+    },
+    {
+      "family_id": "family-2473",
+      "set_id": "4015",
+      "split": "train"
+    },
+    {
+      "family_id": "family-186",
+      "set_id": "6458",
+      "split": "train"
+    }
+  ],
+  "evaluation_kind": "retrospective-grouped-evaluation; not a blind historical discovery test",
+  "family_counts": {
+    "development": 24,
+    "test": 24,
+    "train": 71
+  },
+  "frozen_before_model_revision": true,
+  "grouping": "Transitive closure over the entire upstream dataset: superset/proposed-cognacy edges, normalized source root alternatives within a reconstruction level, shared form IDs, and identical spellings within a doculect. Possible homonyms are conservatively joined. Unrecorded semantic family relations still require specialist review.",
+  "schema_version": "1.0.0",
+  "seed": "m5-iecor-lexical-families-v1",
+  "selection_sha256": "b8abe50ac94c7f404f21e84d90ad1dc6fd0477f0c41bfb1f234775b6c1a9f445",
+  "upstream_commit": "700b635a04786427b78841489c46eefbe2843509"
+}
