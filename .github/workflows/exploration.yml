@@ -1,4 +1,4 @@
-name: Materials and hypothesis exploration
+name: Materials and research workbench
 
 on:
   push:
@@ -21,11 +21,14 @@ jobs:
         with:
           python-version: '3.12'
           cache: pip
-      - run: python -m pip install -r requirements.txt
+      - run: python -m pip install -r requirements.txt -r requirements-ui-test.txt
       - name: Reproduce expanded source extraction and catalogue
         run: python scripts/build_materials.py --check
       - name: Test source retention, selection, ambiguity and incomplete results
-        run: python -m unittest discover -s tests -p test_explorer.py -v
+        run: |
+          python -m unittest discover -s tests -p test_explorer.py -v
+          python -m unittest discover -s tests -p test_research.py -v
+          python scripts/build_research_examples.py --check
       - name: Install pinned elan
         shell: bash
         run: |
@@ -36,6 +39,10 @@ jobs:
           echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
       - name: Build reconstruction executables
         working-directory: lean
-        run: lake +leanprover/lean4:${{ matrix.lean }} build reconstruct pie_check sino_tibetan_check
+        run: lake +leanprover/lean4:${{ matrix.lean }} build reconstruct pie_check sino_tibetan_check research_check
       - name: Execute and compare selected hypotheses
         run: python scripts/verify_explorer.py --check
+      - name: Verify conflicts, predictions, chronology, morphology and tone
+        run: python scripts/verify_research.py --check
+      - name: Exercise the browser against native Lean and capture previews
+        run: python scripts/verify_ui.py --output "$RUNNER_TEMP/research-ui"

@@ -1,0 +1,224 @@
+{
+  "analyses": [
+    {
+      "cells": [
+        {
+          "allomorphs": [],
+          "expected": {
+            "segments": [
+              "p",
+              "a"
+            ],
+            "tone": "L"
+          },
+          "id": "singular",
+          "prefix": [],
+          "sound": {
+            "description": "Explicit finite realization package",
+            "final_stage": "singular-sound-stage-1",
+            "id": "singular-sound",
+            "initial_stage": "stem",
+            "inventory": [
+              "b",
+              "p",
+              "a",
+              "e",
+              "s",
+              "n"
+            ],
+            "laws": [
+              {
+                "id": "singular-sound-law-0",
+                "input_stage": "stem",
+                "output_stage": "singular-sound-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "p",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "b"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          },
+          "source_ref": "synthetic:affix-and-tone-control",
+          "stem": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "singular-stem",
+            "initial_stage": "stem",
+            "inventory": [
+              "b",
+              "p",
+              "a",
+              "e",
+              "s",
+              "n"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "suffix": [],
+          "tone_rules": [
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "T",
+              "id": "singular-tone",
+              "initial_class": [
+                "b"
+              ],
+              "to_tone": "L"
+            }
+          ]
+        },
+        {
+          "allomorphs": [],
+          "expected": {
+            "segments": [
+              "n",
+              "+",
+              "p",
+              "e",
+              "+",
+              "s"
+            ],
+            "tone": "H"
+          },
+          "id": "plural",
+          "prefix": [
+            "n",
+            "+"
+          ],
+          "sound": {
+            "description": "Explicit finite realization package",
+            "final_stage": "plural-sound-stage-1",
+            "id": "plural-sound",
+            "initial_stage": "stem",
+            "inventory": [
+              "b",
+              "p",
+              "a",
+              "e",
+              "s",
+              "n"
+            ],
+            "laws": [
+              {
+                "id": "plural-sound-law-0",
+                "input_stage": "stem",
+                "output_stage": "plural-sound-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "p",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "b"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          },
+          "source_ref": "synthetic:affix-and-tone-control",
+          "stem": {
+            "description": "Explicit finite realization package",
+            "final_stage": "plural-stem-stage-1",
+            "id": "plural-stem",
+            "initial_stage": "stem",
+            "inventory": [
+              "b",
+              "p",
+              "a",
+              "e",
+              "s",
+              "n"
+            ],
+            "laws": [
+              {
+                "id": "plural-stem-law-0",
+                "input_stage": "stem",
+                "output_stage": "plural-stem-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "e",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "a"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          },
+          "suffix": [
+            "+",
+            "s"
+          ],
+          "tone_rules": [
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "T",
+              "id": "plural-tone",
+              "initial_class": [
+                "b"
+              ],
+              "to_tone": "H"
+            }
+          ]
+        }
+      ],
+      "description": "Morphology precedes the declared word-level sound change",
+      "id": "stem-conditioned",
+      "source_ref": "synthetic"
+    }
+  ],
+  "id": "affix-tone-control",
+  "inventory": [
+    "b",
+    "p",
+    "a",
+    "e",
+    "s",
+    "n"
+  ],
+  "pool": [
+    {
+      "segments": [
+        "b",
+        "a"
+      ],
+      "tone": "T"
+    },
+    {
+      "segments": [
+        "p",
+        "a"
+      ],
+      "tone": "T"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "source_kind": "synthetic",
+  "source_scope": "Synthetic linked singular/plural: prefixation, suffixation, vowel alternation and tone conditioned on the stem before devoicing. No historical claim.",
+  "tone_inventory": [
+    "T",
+    "L",
+    "H"
+  ]
+}

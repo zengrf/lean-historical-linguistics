@@ -248,7 +248,7 @@ def summary(corpus,design,executions,artifacts):
             dict(id="M6-signoff",status="passed" if review["passed"] else "pending",evidence="Independent human specialist review of the 50 core sets and 30 cross-branch dossiers has not been supplied" if not review["passed"] else "Independent specialist assessment supplied")],
         lexical=metrics(corpus,design,executions["lexical"]),sensitivity=sensitivity(corpus,design,executions["lexical"],executions["diagnostic"],executions["joint"]),
         leakage=check_leakage(corpus,design),review=review,benchmark=benchmark,**artifacts,
-        proof_audit=dict(declarations=137,new_scope_theorems=4,project_axioms=False,proof_placeholders=False),
+        proof_audit=dict(declarations=len((ROOT/"lean/Audit.lean").read_text().split("#print axioms "))-1,new_scope_theorems=4,project_axioms=False,proof_placeholders=False),
         limitations=["The core transcriptions and etymological claims are not independently reviewed.","Learned mappings operate on transcription graphemes, exclude tone and provide no chronological sound-law account.",
             "Cross-branch rule fragments reproduce specified features. Several dossiers are documentary rather than executable full derivations.","Some rival accounts are available only through the primary paper's discussion; their original publications have not all been independently checked.",
             "The data do not identify a unique Proto-Sino-Tibetan system or family topology."],input_hashes=input_hashes())

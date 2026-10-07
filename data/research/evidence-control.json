@@ -1,0 +1,111 @@
+{
+  "allow_morphemes": false,
+  "analyses": [
+    {
+      "alignment_evidence": null,
+      "branches": [
+        {
+          "doculect_id": "A",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "demo-A",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "b"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          }
+        },
+        {
+          "doculect_id": "B",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "demo-B",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "b"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          }
+        },
+        {
+          "doculect_id": "C",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "demo-C",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "b"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          }
+        }
+      ],
+      "choice_bindings": [],
+      "description": "Synthetic identity model",
+      "id": "identity",
+      "observations": [
+        {
+          "doculect_id": "A",
+          "form": [
+            {
+              "kind": "segment",
+              "value": "p"
+            }
+          ],
+          "source_ref": "synthetic"
+        },
+        {
+          "doculect_id": "B",
+          "form": [
+            {
+              "kind": "segment",
+              "value": "b"
+            }
+          ],
+          "source_ref": "synthetic"
+        },
+        {
+          "doculect_id": "C",
+          "form": [
+            {
+              "kind": "segment",
+              "value": "p"
+            }
+          ],
+          "source_ref": "synthetic"
+        }
+      ],
+      "proto_node_id": "stem"
+    }
+  ],
+  "analysis_bound": 1,
+  "candidate_budget": 100,
+  "choice_groups": [],
+  "claim": "bounded-relative-completeness",
+  "description": "Synthetic identity branches: A=p and B=b conflict; withholding B preserves p. C is an additional explicit observation.",
+  "doculects": [
+    "A",
+    "B",
+    "C"
+  ],
+  "id": "evidence-control",
+  "max_length": 1,
+  "max_rules_per_branch": 0,
+  "proto_inventory": [
+    "p",
+    "b"
+  ],
+  "schema_version": "1.0.0",
+  "source_kind": "synthetic",
+  "time_limit_ms": null
+}

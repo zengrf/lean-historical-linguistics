@@ -13,6 +13,15 @@ linguistic justification of those rules, the cognacy judgments and the source
 readings requires separate assessment. See the [terminology and notation](docs/terminology.md)
 and [formal architecture](docs/02-formal-architecture.md) for these distinctions.
 
+The [research workbench](docs/14-research-workbench.md) now supports minimal
+conflicting evidence, discriminating predictions, observational equivalence,
+chronology enumeration, and linked morphology and tone. Its browser interface
+uses the paper, cedar and vermilion palette of [zengrf.github.io](https://zengrf.github.io),
+with day/dusk/night settings, source browsing and query/result export.
+After the setup and Lean build below, run `python scripts/serve_ui.py` and open
+<http://127.0.0.1:8765>. See the [desktop preview](reports/ui/desktop.png) and
+[mobile preview](reports/ui/mobile.png).
+
 ## Current results
 
 | Milestone | Implementation and evidence | Status |
@@ -59,14 +68,15 @@ word/analysis space.
 | [Research method](docs/06-research-method.md) | Source selection, reading scope, acquisition and access gaps |
 | [Annotated bibliography](bibliography/README.md) | Source annotations, links and PDF locations |
 | [Milestone register](data/milestones.json) | Machine-readable criteria and status |
-| [Materials and hypothesis exploration](docs/13-materials-and-exploration.md) | Full source catalogue, hypothesis selection, enumeration, explanations, coverage gaps and proposed features |
+| [Materials and hypothesis exploration](docs/13-materials-and-exploration.md) | Full source catalogue, hypothesis selection, enumeration, explanations and coverage gaps |
+| [Research workbench](docs/14-research-workbench.md) | Five evidence-analysis features, browser interface, semantics, source-worked controls and delivery checks |
 
 ## Library and proofs
 
 - **127 PDFs, representing 122 qualifying distinct works**, retained locally: 5,184 pages and approximately 211 MB. Proposals, reviews/replies and a chapter already contained in a downloaded book do not count toward the 100-work floor. Five unsuccessful acquisitions are documented separately.
 - **64 PDFs are included in this public repository** under their recorded redistribution terms. The other 63 are retained in the ignored local library. The manifest and fetcher preserve their original source locations; continued remote availability is not guaranteed.
 - **132 annotated references**: 34 focused excerpt readings, 82 excerpt screenings, 10 visual excerpt readings, one decoded-abstract screening, two web-only excerpt readings and three access-gap notes. The reading notes identify the examined pages.
-- **137 Lean theorem declarations**: 22 M0 results, five M1 evidence results, 17 M2 contextual-rule results, 35 M3 alignment/correspondence results, 48 M4 reconstruction/ambiguity results, six M5 case-study results and four M6 path/scope results. The audit permits Lean's standard logical axioms and rejects project axioms, proof placeholders and `native_decide`.
+- **157 Lean theorem declarations**: 22 M0 results, five M1 evidence results, 17 M2 contextual-rule results, 35 M3 alignment/correspondence results, 48 M4 reconstruction/ambiguity results, six M5 case-study results, four M6 path/scope results and 20 evidence-analysis/paradigm results. The audit permits Lean's standard logical axioms and rejects project axioms, proof placeholders and `native_decide`.
 
 The [full local acquisition audit](reports/library-audit.json) records actual hash and page-count checks. Public CI validates the public PDFs and the acquisition ledger; it cannot verify copies absent from a public checkout. See [verification records](reports/README.md).
 
@@ -115,6 +125,10 @@ python scripts/review_pie.py
 python scripts/verify_m6.py --audit reports/lean-axioms-current.txt
 python scripts/verify_m6.py --check-report
 python scripts/review_sino_tibetan.py
+python scripts/build_research_examples.py --check
+python scripts/verify_research.py --check
+python -m pip install -r requirements-ui-test.txt
+python scripts/verify_ui.py --output /tmp/research-ui
 ```
 
 The default toolchain is pinned in [lean-toolchain](lean/lean-toolchain). CI builds Lean **4.19.0 and 4.34.1** independently. The original local build used 4.19.0 because the 4.34.1 binary did not run on the host's macOS 10.15. If you need that compatibility path, replace `lake` with `lake +leanprover/lean4:v4.19.0` in each Lean command. CI results, rather than local compatibility claims, establish the newer-toolchain build status.
@@ -143,6 +157,7 @@ reports/          Acquisition and proof verification records
 reviews/          Independent source-entry and hand-worked semantics review records
 schema/           Versioned evidence format and migration policy
 scripts/          Retrieval, catalogue generation and validation
+web/              Local reconstruction interface; served by scripts/serve_ui.py
 ```
 
 Original code and documentation use the [MIT license](LICENSE). Third-party publications retain their own copyright and licenses; consult [the individual notices](library/THIRD_PARTY_NOTICES.md) before reuse. The acquisition and literature cutoff is **5 October 2026 UTC**.

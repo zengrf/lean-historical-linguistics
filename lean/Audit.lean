@@ -143,3 +143,24 @@ import Historical
 #print axioms Historical.ReconstructionInput.m3_projection_recovers
 #print axioms Historical.ReconstructionInput.checked_reconstruction_iff
 #print axioms Historical.ReconstructionInput.checked_candidate_correct
+
+#print axioms Historical.Research.fits_iff
+#print axioms Historical.Research.fits_mono
+#print axioms Historical.Research.anyFits_iff
+#print axioms Historical.Research.minimalConflict_iff
+#print axioms Historical.Research.minimal_conflict_proper_subset
+#print axioms Historical.Research.mem_subsets
+#print axioms Historical.Research.reported_conflict_sound
+#print axioms Historical.Research.conflicts_complete_in_enumeration
+#print axioms Historical.Research.full_conflict_enumeration_correct
+#print axioms Historical.Research.equivalent_refl
+#print axioms Historical.Research.equivalent_symm
+#print axioms Historical.Research.equivalent_trans
+#print axioms Historical.Research.class_members_correct
+#print axioms Historical.Research.order_enumeration_correct
+#print axioms Historical.Research.order_respects_constraints
+#print axioms Historical.Paradigm.tone_derivation_iff
+#print axioms Historical.Paradigm.realization_correct
+#print axioms Historical.Paradigm.realization_deterministic
+#print axioms Historical.Paradigm.agrees_iff
+#print axioms Historical.Paradigm.paradigm_reconstruction_correct

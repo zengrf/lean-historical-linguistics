@@ -1,0 +1,27 @@
+{
+  "discrepancy": "Table164 (PDF482) gives Hakha Lai L for PKC tone2; Table166 (PDF493) prints F, while entry7 on that page gives L. Both table readings are retained as explicit analyses; no emendation or specialist signoff is claimed.",
+  "limitations": [
+    "Only smooth nominal tone correspondences are modeled; Khumi's conditioned variants are excluded.",
+    "Verbal tones, sandhi, polysyllabic association and the functions of Form I/II are not inferred.",
+    "Entry2 stem allomorphy is lexical and is not generalized to a productive rule."
+  ],
+  "pages_read": [
+    37,
+    38,
+    93,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    493
+  ],
+  "rendered_tables_checked": [
+    164,
+    166
+  ],
+  "sha256": "fb1ddf78261db19c5cb2e2698242939b2f952d390b2a3961b3b867b939598406",
+  "source_id": "vanbik2009"
+}

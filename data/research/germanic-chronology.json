@@ -1,0 +1,669 @@
+{
+  "blocks": [
+    {
+      "id": "grimm",
+      "label": "Grimm fragment",
+      "rules": [
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": true,
+          "mode": "simultaneous",
+          "replacement": "f",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "p"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [
+            [
+              "a",
+              "á",
+              "e",
+              "é",
+              "i",
+              "í",
+              "o",
+              "ó",
+              "u",
+              "ú",
+              "m",
+              "n",
+              "l",
+              "r",
+              "w",
+              "j"
+            ]
+          ],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "f",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "p"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": true,
+          "mode": "simultaneous",
+          "replacement": "θ",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "t"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [
+            [
+              "a",
+              "á",
+              "e",
+              "é",
+              "i",
+              "í",
+              "o",
+              "ó",
+              "u",
+              "ú",
+              "m",
+              "n",
+              "l",
+              "r",
+              "w",
+              "j"
+            ]
+          ],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "θ",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "t"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": true,
+          "mode": "simultaneous",
+          "replacement": "x",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "k"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [
+            [
+              "a",
+              "á",
+              "e",
+              "é",
+              "i",
+              "í",
+              "o",
+              "ó",
+              "u",
+              "ú",
+              "m",
+              "n",
+              "l",
+              "r",
+              "w",
+              "j"
+            ]
+          ],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "x",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "k"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": true,
+          "mode": "simultaneous",
+          "replacement": "xʷ",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "kʷ"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [
+            [
+              "a",
+              "á",
+              "e",
+              "é",
+              "i",
+              "í",
+              "o",
+              "ó",
+              "u",
+              "ú",
+              "m",
+              "n",
+              "l",
+              "r",
+              "w",
+              "j"
+            ]
+          ],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "xʷ",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "kʷ"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "p",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "b"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "t",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "d"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "k",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "g"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "kʷ",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "gʷ"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "β",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "bʰ"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "ð",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "dʰ"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "ɣ",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "gʰ"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "ɣʷ",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "gʷʰ"
+          ]
+        }
+      ],
+      "source_ref": "ringe2022:pp55-56:M5-VCV-fragment"
+    },
+    {
+      "id": "verner",
+      "label": "Verner fragment",
+      "rules": [
+        {
+          "direction": "left-to-right",
+          "left": [
+            [
+              "a",
+              "e",
+              "i",
+              "o",
+              "u"
+            ]
+          ],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "β",
+          "right": [
+            [
+              "a",
+              "á",
+              "e",
+              "é",
+              "i",
+              "í",
+              "o",
+              "ó",
+              "u",
+              "ú"
+            ]
+          ],
+          "right_edge": false,
+          "target": [
+            "f"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [
+            [
+              "a",
+              "e",
+              "i",
+              "o",
+              "u"
+            ]
+          ],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "ð",
+          "right": [
+            [
+              "a",
+              "á",
+              "e",
+              "é",
+              "i",
+              "í",
+              "o",
+              "ó",
+              "u",
+              "ú"
+            ]
+          ],
+          "right_edge": false,
+          "target": [
+            "θ"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [
+            [
+              "a",
+              "e",
+              "i",
+              "o",
+              "u"
+            ]
+          ],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "z",
+          "right": [
+            [
+              "a",
+              "á",
+              "e",
+              "é",
+              "i",
+              "í",
+              "o",
+              "ó",
+              "u",
+              "ú"
+            ]
+          ],
+          "right_edge": false,
+          "target": [
+            "s"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [
+            [
+              "a",
+              "e",
+              "i",
+              "o",
+              "u"
+            ]
+          ],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "ɣ",
+          "right": [
+            [
+              "a",
+              "á",
+              "e",
+              "é",
+              "i",
+              "í",
+              "o",
+              "ó",
+              "u",
+              "ú"
+            ]
+          ],
+          "right_edge": false,
+          "target": [
+            "x"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [
+            [
+              "a",
+              "e",
+              "i",
+              "o",
+              "u"
+            ]
+          ],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "ɣʷ",
+          "right": [
+            [
+              "a",
+              "á",
+              "e",
+              "é",
+              "i",
+              "í",
+              "o",
+              "ó",
+              "u",
+              "ú"
+            ]
+          ],
+          "right_edge": false,
+          "target": [
+            "xʷ"
+          ]
+        }
+      ],
+      "source_ref": "ringe2022:pp55-56:M5-VCV-fragment"
+    },
+    {
+      "id": "stress",
+      "label": "Initial stress",
+      "rules": [
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": true,
+          "mode": "simultaneous",
+          "replacement": "á",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "a"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [
+            "*",
+            "*"
+          ],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "a",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "á"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": true,
+          "mode": "simultaneous",
+          "replacement": "é",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "e"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [
+            "*",
+            "*"
+          ],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "e",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "é"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": true,
+          "mode": "simultaneous",
+          "replacement": "í",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "i"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [
+            "*",
+            "*"
+          ],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "i",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "í"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": true,
+          "mode": "simultaneous",
+          "replacement": "ó",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "o"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [
+            "*",
+            "*"
+          ],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "o",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "ó"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [],
+          "left_edge": true,
+          "mode": "simultaneous",
+          "replacement": "ú",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "u"
+          ]
+        },
+        {
+          "direction": "left-to-right",
+          "left": [
+            "*",
+            "*"
+          ],
+          "left_edge": false,
+          "mode": "simultaneous",
+          "replacement": "u",
+          "right": [],
+          "right_edge": false,
+          "target": [
+            "ú"
+          ]
+        }
+      ],
+      "source_ref": "ringe2022:pp55-56:M5-VCV-fragment"
+    }
+  ],
+  "constraints": [],
+  "description": "Order the three fixed M5 rule blocks. Restricted accent-marked VCV controls, not full PIE-to-Germanic histories.",
+  "id": "germanic-order",
+  "inventory": [
+    "a",
+    "b",
+    "bʰ",
+    "d",
+    "dʰ",
+    "e",
+    "f",
+    "g",
+    "gʰ",
+    "gʷ",
+    "gʷʰ",
+    "i",
+    "j",
+    "k",
+    "kʷ",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "r",
+    "s",
+    "t",
+    "u",
+    "w",
+    "x",
+    "xʷ",
+    "z",
+    "á",
+    "é",
+    "í",
+    "ð",
+    "ó",
+    "ú",
+    "ɣ",
+    "ɣʷ",
+    "β",
+    "θ"
+  ],
+  "probes": [
+    {
+      "expected": [
+        "á",
+        "ð",
+        "e"
+      ],
+      "id": "unaccented-medial",
+      "input": [
+        "a",
+        "t",
+        "é"
+      ],
+      "source_ref": "M5:ringe-vcv-control"
+    },
+    {
+      "expected": [
+        "á",
+        "θ",
+        "e"
+      ],
+      "id": "accented-medial",
+      "input": [
+        "á",
+        "t",
+        "e"
+      ],
+      "source_ref": "M5:ringe-vcv-control"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "source_kind": "source-inspired-control",
+  "source_ref": "data/pie/source-analyses.json:Ringe2022"
+}

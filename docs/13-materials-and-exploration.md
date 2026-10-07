@@ -180,9 +180,9 @@ assessment are separate deliverables:
 | PIE phonology and chronology | M5 Ringe chronology fragment; Kloekhorst Hittite onset projections; recorded alternative attribution | Full daughter-specific sound histories, accent/ablaut, syllabification and interactions with morphology |
 | PIE morphology | M5 source-backed dispute records and joint evidence representation | Productive inflectional/derivational analyses and conditioning by morphological environment |
 | Sino-Tibetan vocabulary | Complete pinned Sagart and Burmish datasets; expanded VanBik chapter 4 | More language varieties and lexical domains; source-specific transcription review and reconciliation |
-| Kuki-Chin rhymes, tones and stem alternation | Complete retained VanBik/Button books; extracted source strings and M6 parsing diagnostics | Structured transcription of VanBik chapters 5–6, Button comparisons, phonological alignment and executable tone/stem models |
+| Kuki-Chin rhymes, tones and stem alternation | Complete retained VanBik/Button books; extracted strings, parsing diagnostics and new VanBik tone/stem controls | Full structured transcription of chapters 5–6, Button comparisons, phonological alignment and broader source-reviewed tone/stem models |
 | Cross-branch reconstruction | Thirty M6 dossiers with source pages, alternatives, topology assumptions and discriminating evidence | More lexical families and explicit branch histories; no automatic promotion of PKC, PNC or PTB reconstructions to PST |
-| Reconstruction search | Pool and bounded enumeration; joint analyses; checked derivations | Larger search spaces, compositional morphology, chronology alternatives and a reviewed inventory of historical hypothesis packages |
+| Reconstruction search | Pool and bounded enumeration; joint analyses; checked derivations; finite chronology, affixation and tone models | Larger search spaces, richer morphology and a reviewed inventory of historical hypothesis packages |
 
 The new catalogue is comprehensive **for the pinned CLDF snapshots**. It is not
 a complete inventory of either family, a full transcription of every retained
@@ -190,9 +190,12 @@ book, or a comprehensive executable reconstruction of PIE/PST. The M5/M6
 corpora, splits and review requirements remain frozen and unchanged. Their
 specialist signoffs remain pending.
 
-## Useful next features and acceptance criteria
+## Research features and acceptance criteria
 
-These are proposed extensions, not delivered features. They follow from the
+The five evidence-analysis features and the initial review interface below are
+implemented in the [research workbench](14-research-workbench.md). The dedicated
+cognacy/loan/segmentation editor and larger resumable search remain proposed.
+These operations follow from the
 comparative method's attention to recurrent correspondences, conditioning,
 shared innovations, morphological structure and source criticism; see the
 repository's [primary-source terminology readings](../bibliography/terminology-readings.json)
@@ -200,19 +203,19 @@ and [literature review](01-literature-review.md).
 
 | Feature | Research use | Verifiable delivery goal |
 | --- | --- | --- |
-| Minimal conflicting evidence | Explain why a hypothesis yields no candidate | Return inclusion-minimal sets of observations inconsistent within the declared space; verify inconsistency and that removing any one observation restores a candidate |
-| Discriminating observations | Decide which additional attestation or variety would distinguish surviving reconstructions | Partition candidates by predicted held-out reflex; independently verify every prediction and report when no available observation distinguishes them |
-| Observational equivalence | Avoid treating undistinguishable analyses as a unique historical answer | Retain all analysis identities while grouping those with identical predictions on a declared domain; prove the equivalence relation and test its computed classes |
-| Chronology constraints | Compare competing orders of sound changes | Enumerate all orders satisfying a supplied partial order; reject cycles; certify each derivation and distinguish counterfeeding/feeding outcomes |
+| Minimal conflicting evidence — implemented | Explain why a hypothesis yields no candidate | Inclusion-minimal conflicts; proper-subset and enumeration proofs; independent comparisons and explicit incomplete subset budgets |
+| Discriminating observations — implemented | Decide which additional attestation or variety would distinguish surviving reconstructions | Checked prediction partitions and distinguished pair counts; nondiscriminating probes remain visible |
+| Observational equivalence — implemented | Avoid treating indistinguishable analyses as a unique historical answer | All analysis identities retained; equivalence and class-membership proofs; missing-component projection tests |
+| Chronology constraints — implemented | Compare competing orders of sound changes | All orders of up to six fixed blocks; explicit cyclic result; checked derivations and feeding/counterfeeding controls |
 | Alternative cognacy, loans and segmentation | Test how source disputes affect reconstruction | Bind alternatives as whole analyses, retain attribution and loan status, and show candidate differences without silently relabeling evidence |
-| Morphology and tone | Model paradigms and conditioned changes beyond segment replacement/deletion | Add explicit semantics, soundness proofs and source-worked controls before evaluating stem alternation, tone correspondences or affix histories |
+| Morphology and tone — implemented within an explicit finite profile | Model paradigms and conditioned changes beyond segment replacement/deletion | Stem allomorphy, affixation, stem/surface sound changes and conditioned category rules; five semantic theorems; source-worked and synthetic controls |
 | Larger and resumable search | Explore useful bounds without confusing interruption with exhaustion | Prove pruning preserves every solution; bind checkpoints to input hashes; make resumed results exactly equal uninterrupted enumeration |
-| Review interface | Inspect sources, assumptions and derivations together | Link each displayed claim to a source locator and each output to its certificate; export the exact query and preserve unresolved alternatives |
+| Review interface — initial version implemented | Inspect sources, assumptions and derivations together | Local browser, source records and public PDF locators, derivation inspection, strict JSON imports and exact query/result export |
 
-The first three offer the most immediate research value after enumeration:
-they explain failure, guide evidence collection, and expose the limits of
-identification. A graphical interface can then present these operations without
-changing the underlying scientific claims.
+The first three explain failure, guide evidence collection and expose limits
+of identification. The [workbench guide](14-research-workbench.md) gives their
+precise finite claims, source readings, proof coverage and executable delivery
+checks. Broader historical adequacy still requires linguistic assessment.
 
 ## Verification
 

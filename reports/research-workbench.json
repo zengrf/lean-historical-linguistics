@@ -1,0 +1,955 @@
+{
+  "checks": {
+    "chronology_permutations": 874,
+    "chronology_sizes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exhaustive_matrices": 256,
+    "incomplete_conflict_search": "72ad7077253d7d2b33282aa3431c688e783e08360d4fca89746421c3617ed8aa",
+    "integration_executions": 20,
+    "invalid_requests": [
+      "empty-history-universe",
+      "repeated-axis",
+      "unknown-axis",
+      "repeated-selection",
+      "wrong-dimension",
+      "budget-too-large",
+      "unknown-field",
+      "nested-unknown-field",
+      "negative-index",
+      "unknown-edge",
+      "repeated-rule",
+      "too-many-rules",
+      "unknown-tone",
+      "repeated-root",
+      "no-analyses",
+      "repeated-cell",
+      "unknown-conditioning",
+      "unlisted-affix",
+      "ambiguous-allomorph",
+      "invalid-sound-package",
+      "invalid-utf8",
+      "duplicate-key",
+      "non-json-number"
+    ],
+    "lean_python_exact_agreement": true,
+    "matrix_outputs_sha256": "9b89b9a4c0985b371da9596fd4c60fe774eb080b0f35e158e3a8e458c8376fd1"
+  },
+  "executions": [
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [],
+      "histories": 256,
+      "id": "pie",
+      "minimal_conflicts": [
+        [
+          6
+        ],
+        [
+          5
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "orders": [],
+      "probes": [],
+      "result_sha256": "8b709ba4a047fb96b72d7992de542f3c732eb1f1a0c3471d283a6ed1e3688ab5",
+      "survivors": []
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [],
+      "histories": 40,
+      "id": "latin",
+      "minimal_conflicts": [
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "orders": [],
+      "probes": [],
+      "result_sha256": "7b74b82163d3665486b930676460e85f9883cfa19f861eb3fdb2360e0a33ec56",
+      "survivors": []
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [],
+      "histories": 118,
+      "id": "kuki-chin",
+      "minimal_conflicts": [
+        [
+          9
+        ],
+        [
+          8
+        ],
+        [
+          7
+        ],
+        [
+          4
+        ],
+        [
+          0
+        ]
+      ],
+      "orders": [],
+      "probes": [],
+      "result_sha256": "e8f5cdd881cc1f9869e109d1fc5d1a08a92415c7f912c6588aa1f64940c90c65",
+      "survivors": []
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [
+        {
+          "histories": [
+            "h-0-0",
+            "h-0-1"
+          ],
+          "prediction": [
+            "[\"z\"]",
+            "[\"z\"]"
+          ]
+        }
+      ],
+      "histories": 3,
+      "id": "tibetan-merger",
+      "minimal_conflicts": [],
+      "orders": [],
+      "probes": [],
+      "result_sha256": "7b9b49c71565042f4170956e0532369b2f6c6acf70ad7aa0851a8e3828075929",
+      "survivors": [
+        "h-0-0",
+        "h-0-1"
+      ]
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [
+        {
+          "histories": [
+            "h-0",
+            "h-4"
+          ],
+          "prediction": [
+            "{\"segments\":[],\"tone\":\"vb-Hakha-Lai-F\"}",
+            "{\"segments\":[],\"tone\":\"vb-Mizo-R\"}",
+            "{\"segments\":[],\"tone\":\"vb-Mara-H\"}",
+            "{\"segments\":[],\"tone\":\"vb-Tedim-1\"}"
+          ]
+        }
+      ],
+      "histories": 8,
+      "id": "tone-paradigm",
+      "minimal_conflicts": [],
+      "orders": [],
+      "probes": [],
+      "result_sha256": "5bac459b4dc9cdd6df47ebd833c7507256913e689c26cc297fb2f1078cf511f4",
+      "survivors": [
+        "h-0",
+        "h-4"
+      ]
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [
+        {
+          "histories": [
+            "h-0"
+          ],
+          "prediction": [
+            "{\"segments\":[\"b\",\"e\",\"e\",\"l\"],\"tone\":\"unobserved\"}",
+            "{\"segments\":[\"b\",\"e\",\"l\",\"h\"],\"tone\":\"unobserved\"}",
+            "{\"segments\":[\"b\",\"e\",\"l\",\"ʔ\"],\"tone\":\"unobserved\"}",
+            "{\"segments\":[\"b\",\"e\",\"l\",\"ʔ\"],\"tone\":\"unobserved\"}"
+          ]
+        }
+      ],
+      "histories": 2,
+      "id": "stem-paradigm",
+      "minimal_conflicts": [],
+      "orders": [],
+      "probes": [],
+      "result_sha256": "d6acee913f6888e33aae18c543a2f4117eec6e734f1da72656a5748b293a70f7",
+      "survivors": [
+        "h-0"
+      ]
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [
+        {
+          "histories": [
+            "h-0"
+          ],
+          "prediction": [
+            "{\"segments\":[\"p\",\"a\"],\"tone\":\"L\"}",
+            "{\"segments\":[\"n\",\"+\",\"p\",\"e\",\"+\",\"s\"],\"tone\":\"H\"}"
+          ]
+        }
+      ],
+      "histories": 2,
+      "id": "affix-control",
+      "minimal_conflicts": [],
+      "orders": [],
+      "probes": [],
+      "result_sha256": "5905d95ecb79dc085ea733b0841d717cb283430b5b62d175d7daf362182c1236",
+      "survivors": [
+        "h-0"
+      ]
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [
+        {
+          "histories": [
+            "h-0",
+            "h-3",
+            "h-4",
+            "h-5",
+            "h-7"
+          ],
+          "prediction": [
+            "{\"segments\":[],\"tone\":\"vb-Hakha-Lai-F\"}"
+          ]
+        }
+      ],
+      "histories": 8,
+      "id": "tone-merger-and-probes",
+      "minimal_conflicts": [],
+      "orders": [],
+      "probes": [
+        {
+          "axis": 1,
+          "discriminating": true,
+          "distinguished_pairs": 8,
+          "partitions": [
+            {
+              "histories": [
+                "h-0",
+                "h-4"
+              ],
+              "prediction": [
+                "{\"segments\":[],\"tone\":\"vb-Mizo-R\"}"
+              ]
+            },
+            {
+              "histories": [
+                "h-3",
+                "h-7"
+              ],
+              "prediction": [
+                "{\"segments\":[],\"tone\":\"vb-Mizo-H\"}"
+              ]
+            },
+            {
+              "histories": [
+                "h-5"
+              ],
+              "prediction": [
+                "{\"segments\":[],\"tone\":\"vb-Mizo-F\"}"
+              ]
+            }
+          ]
+        },
+        {
+          "axis": 2,
+          "discriminating": true,
+          "distinguished_pairs": 6,
+          "partitions": [
+            {
+              "histories": [
+                "h-0",
+                "h-4",
+                "h-5"
+              ],
+              "prediction": [
+                "{\"segments\":[],\"tone\":\"vb-Mara-H\"}"
+              ]
+            },
+            {
+              "histories": [
+                "h-3",
+                "h-7"
+              ],
+              "prediction": [
+                "{\"segments\":[],\"tone\":\"vb-Mara-L\"}"
+              ]
+            }
+          ]
+        },
+        {
+          "axis": 3,
+          "discriminating": true,
+          "distinguished_pairs": 6,
+          "partitions": [
+            {
+              "histories": [
+                "h-0",
+                "h-4",
+                "h-5"
+              ],
+              "prediction": [
+                "{\"segments\":[],\"tone\":\"vb-Tedim-1\"}"
+              ]
+            },
+            {
+              "histories": [
+                "h-3",
+                "h-7"
+              ],
+              "prediction": [
+                "{\"segments\":[],\"tone\":\"vb-Tedim-2\"}"
+              ]
+            }
+          ]
+        }
+      ],
+      "result_sha256": "26f9e3c3c1817aff7c66e42ebe0b501e56aeee28070d2121c5742a3efefee7c7",
+      "survivors": [
+        "h-0",
+        "h-3",
+        "h-4",
+        "h-5",
+        "h-7"
+      ]
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [
+        {
+          "histories": [
+            "h-0",
+            "h-3"
+          ],
+          "prediction": [
+            "{\"segments\":[],\"tone\":\"vb-Hakha-Lai-F\"}"
+          ]
+        }
+      ],
+      "histories": 4,
+      "id": "tone-table164-only",
+      "minimal_conflicts": [],
+      "orders": [],
+      "probes": [
+        {
+          "axis": 1,
+          "discriminating": true,
+          "distinguished_pairs": 1,
+          "partitions": [
+            {
+              "histories": [
+                "h-0"
+              ],
+              "prediction": [
+                "{\"segments\":[],\"tone\":\"vb-Mizo-R\"}"
+              ]
+            },
+            {
+              "histories": [
+                "h-3"
+              ],
+              "prediction": [
+                "{\"segments\":[],\"tone\":\"vb-Mizo-H\"}"
+              ]
+            }
+          ]
+        },
+        {
+          "axis": 2,
+          "discriminating": true,
+          "distinguished_pairs": 1,
+          "partitions": [
+            {
+              "histories": [
+                "h-0"
+              ],
+              "prediction": [
+                "{\"segments\":[],\"tone\":\"vb-Mara-H\"}"
+              ]
+            },
+            {
+              "histories": [
+                "h-3"
+              ],
+              "prediction": [
+                "{\"segments\":[],\"tone\":\"vb-Mara-L\"}"
+              ]
+            }
+          ]
+        },
+        {
+          "axis": 3,
+          "discriminating": true,
+          "distinguished_pairs": 1,
+          "partitions": [
+            {
+              "histories": [
+                "h-0"
+              ],
+              "prediction": [
+                "{\"segments\":[],\"tone\":\"vb-Tedim-1\"}"
+              ]
+            },
+            {
+              "histories": [
+                "h-3"
+              ],
+              "prediction": [
+                "{\"segments\":[],\"tone\":\"vb-Tedim-2\"}"
+              ]
+            }
+          ]
+        }
+      ],
+      "result_sha256": "88f77de12d42d29cc9ec67b7b7f3888bec05ba68ffbedfd9e3fe2115bd5097a6",
+      "survivors": [
+        "h-0",
+        "h-3"
+      ]
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [
+        {
+          "histories": [
+            "h-0",
+            "h-1"
+          ],
+          "prediction": [
+            "{\"segments\":[\"p\",\"a\"],\"tone\":\"unobserved\"}",
+            "{\"segments\":[\"n\",\"+\",\"p\",\"e\",\"+\",\"s\"],\"tone\":\"unobserved\"}"
+          ]
+        }
+      ],
+      "histories": 2,
+      "id": "unobserved-tone",
+      "minimal_conflicts": [],
+      "orders": [],
+      "probes": [],
+      "result_sha256": "e8802e7d758251112ff7a4b29ce0499129e1c2fbfbc52abdbe1c602f51c871d6",
+      "survivors": [
+        "h-0",
+        "h-1"
+      ]
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [
+        {
+          "histories": [
+            "h-0",
+            "h-1"
+          ],
+          "prediction": [
+            "{\"segments\":[\"p\",\"a\"],\"tone\":\"unobserved\"}",
+            "{\"segments\":[\"n\",\"+\",\"p\",\"e\",\"+\",\"s\"],\"tone\":\"unobserved\"}"
+          ]
+        }
+      ],
+      "histories": 2,
+      "id": "unknown-input-tone",
+      "minimal_conflicts": [],
+      "orders": [],
+      "probes": [],
+      "result_sha256": "76fd203a5850c8ddebe2d9dc604cbe094d996229988438bb386a285659794fb9",
+      "survivors": [
+        "h-0",
+        "h-1"
+      ]
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [],
+      "histories": 3,
+      "id": "two-conflicts",
+      "minimal_conflicts": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "orders": [],
+      "probes": [],
+      "result_sha256": "bf042747a84b30eba86317319c3dce8a8287b91ccb412f126b561c90a0ec27ce",
+      "survivors": []
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [
+        {
+          "histories": [
+            "h-0-1"
+          ],
+          "prediction": [
+            "[\"p\"]",
+            "[\"p\"]"
+          ]
+        }
+      ],
+      "histories": 3,
+      "id": "withheld-conflict",
+      "minimal_conflicts": [],
+      "orders": [],
+      "probes": [
+        {
+          "axis": 1,
+          "discriminating": false,
+          "distinguished_pairs": 0,
+          "partitions": [
+            {
+              "histories": [
+                "h-0-1"
+              ],
+              "prediction": [
+                "[\"p\"]"
+              ]
+            }
+          ]
+        }
+      ],
+      "result_sha256": "3a9033de6d2c8b023e385d4919c29698c8d2c7e8904f626c1a36d44a91371b13",
+      "survivors": [
+        "h-0-1"
+      ]
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [
+        {
+          "histories": [
+            "h-0-0",
+            "h-0-1",
+            "h-0-2"
+          ],
+          "prediction": []
+        }
+      ],
+      "histories": 3,
+      "id": "empty-selected-domain",
+      "minimal_conflicts": [],
+      "orders": [],
+      "probes": [
+        {
+          "axis": 0,
+          "discriminating": true,
+          "distinguished_pairs": 3,
+          "partitions": [
+            {
+              "histories": [
+                "h-0-0"
+              ],
+              "prediction": [
+                "[]"
+              ]
+            },
+            {
+              "histories": [
+                "h-0-1"
+              ],
+              "prediction": [
+                "[\"p\"]"
+              ]
+            },
+            {
+              "histories": [
+                "h-0-2"
+              ],
+              "prediction": [
+                "[\"b\"]"
+              ]
+            }
+          ]
+        },
+        {
+          "axis": 1,
+          "discriminating": true,
+          "distinguished_pairs": 3,
+          "partitions": [
+            {
+              "histories": [
+                "h-0-0"
+              ],
+              "prediction": [
+                "[]"
+              ]
+            },
+            {
+              "histories": [
+                "h-0-1"
+              ],
+              "prediction": [
+                "[\"p\"]"
+              ]
+            },
+            {
+              "histories": [
+                "h-0-2"
+              ],
+              "prediction": [
+                "[\"b\"]"
+              ]
+            }
+          ]
+        },
+        {
+          "axis": 2,
+          "discriminating": true,
+          "distinguished_pairs": 3,
+          "partitions": [
+            {
+              "histories": [
+                "h-0-0"
+              ],
+              "prediction": [
+                "[]"
+              ]
+            },
+            {
+              "histories": [
+                "h-0-1"
+              ],
+              "prediction": [
+                "[\"p\"]"
+              ]
+            },
+            {
+              "histories": [
+                "h-0-2"
+              ],
+              "prediction": [
+                "[\"b\"]"
+              ]
+            }
+          ]
+        }
+      ],
+      "result_sha256": "c283f029cef17b74c83c37b47b67e79fdc52f2f5226008332028fd55420923f8",
+      "survivors": [
+        "h-0-0",
+        "h-0-1",
+        "h-0-2"
+      ]
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [
+        {
+          "histories": [
+            "h-0-1",
+            "h-1-2"
+          ],
+          "prediction": [
+            "[\"p\"]",
+            "[\"b\"]"
+          ]
+        }
+      ],
+      "histories": 6,
+      "id": "joint-voice-analyses",
+      "minimal_conflicts": [],
+      "orders": [],
+      "probes": [],
+      "result_sha256": "10e5cc70897318ca0889a4d612a03e89fbbba1fb414174f34c4d77ffe4a0811f",
+      "survivors": [
+        "h-0-1",
+        "h-1-2"
+      ]
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [
+        {
+          "histories": [
+            "h-0-1"
+          ],
+          "prediction": [
+            "[\"p\"]",
+            "[\"b\"]"
+          ]
+        }
+      ],
+      "histories": 3,
+      "id": "N-anticausative",
+      "minimal_conflicts": [],
+      "orders": [],
+      "probes": [],
+      "result_sha256": "01eeedb6cbeeab1b3b7206fb16d96c540cf76c1d8e5b7a0f0abb0958f5eba19e",
+      "survivors": [
+        "h-0-1"
+      ]
+    },
+    {
+      "complete": true,
+      "cyclic": null,
+      "equivalence_classes": [
+        {
+          "histories": [
+            "h-0-2"
+          ],
+          "prediction": [
+            "[\"p\"]",
+            "[\"b\"]"
+          ]
+        }
+      ],
+      "histories": 3,
+      "id": "s-devoicing",
+      "minimal_conflicts": [],
+      "orders": [],
+      "probes": [],
+      "result_sha256": "9cb018d32d38798036d1c094e7feed7c922e087304e751f3a13c891ff915e42c",
+      "survivors": [
+        "h-0-2"
+      ]
+    },
+    {
+      "complete": true,
+      "cyclic": false,
+      "equivalence_classes": [],
+      "histories": 0,
+      "id": "six-chronologies",
+      "minimal_conflicts": [],
+      "orders": [
+        {
+          "matches": true,
+          "order": [
+            "grimm",
+            "verner",
+            "stress"
+          ]
+        },
+        {
+          "matches": false,
+          "order": [
+            "grimm",
+            "stress",
+            "verner"
+          ]
+        },
+        {
+          "matches": false,
+          "order": [
+            "verner",
+            "grimm",
+            "stress"
+          ]
+        },
+        {
+          "matches": false,
+          "order": [
+            "verner",
+            "stress",
+            "grimm"
+          ]
+        },
+        {
+          "matches": false,
+          "order": [
+            "stress",
+            "grimm",
+            "verner"
+          ]
+        },
+        {
+          "matches": false,
+          "order": [
+            "stress",
+            "verner",
+            "grimm"
+          ]
+        }
+      ],
+      "probes": [],
+      "result_sha256": "a610e64fd7087580a0f719f319b7f3fbc4c2a517139c3b0411e263a971e9699e",
+      "survivors": []
+    },
+    {
+      "complete": true,
+      "cyclic": false,
+      "equivalence_classes": [],
+      "histories": 0,
+      "id": "counterfeeding-orders",
+      "minimal_conflicts": [],
+      "orders": [
+        {
+          "matches": false,
+          "order": [
+            "verner",
+            "grimm",
+            "stress"
+          ]
+        },
+        {
+          "matches": false,
+          "order": [
+            "verner",
+            "stress",
+            "grimm"
+          ]
+        },
+        {
+          "matches": false,
+          "order": [
+            "stress",
+            "verner",
+            "grimm"
+          ]
+        }
+      ],
+      "probes": [],
+      "result_sha256": "9b6a47b4c38c593623edaaff3483ce541849b2762657d5a0a3b81306af97974a",
+      "survivors": []
+    },
+    {
+      "complete": true,
+      "cyclic": true,
+      "equivalence_classes": [],
+      "histories": 0,
+      "id": "cycle",
+      "minimal_conflicts": [],
+      "orders": [],
+      "probes": [],
+      "result_sha256": "f318315be8d66cbb503bebd6c47de77ad82dc3225da0de927928ad345bb43ea2",
+      "survivors": []
+    }
+  ],
+  "input_hashes": {
+    ".github/workflows/exploration.yml": "300da0b33d7ec3b503e9535753f22a7d5408ef5ed7041ab541799cbe6c8ec733",
+    "data/kuki-chin/diagnostic-input.json": "ba925191655664d102247f8d7ae843b842d8d23dc8de98218ca16416e3a894d4",
+    "data/kuki-chin/joint-analysis-input.json": "1227498fbfb36b1f023c40f14505b7aee4ebf6ac15dcdede0dad85c38e2a0c6a",
+    "data/kuki-chin/lexical-input.json": "3aab83fcb6de49aca3de5f19d14b9e5ac5cd23ec1180d1c4a8a75e2231c4ed48",
+    "data/pie/diagnostic-input.json": "dc58b47fface956f78b5752779e85f8b577ccdb21fc53230b66789889e05ea90",
+    "data/pie/latin-control-input.json": "13fd7017ceb9f58811a26cdfed26588e4df1cbc0a2bacaa6dffa6d3afc4c23ff",
+    "data/pie/lexical-input.json": "f258dab9b2e592a5b3b4e1f611319c62c0c3a7fa73cf38f1fbedeb050a57e358",
+    "data/research/affix-control.json": "b0716cbe750997fdcd5398fd538371fa030cb56a4bb3d5edf1b79c905950674b",
+    "data/research/evidence-control.json": "e36a29e63c851abcd8e2c960212e9f36100bb1e5a9fbdced1f01fdbf240e1da3",
+    "data/research/germanic-chronology.json": "6151c5df6f70b06ba67f4b7ce9bbb435a6c07c568ffe73006bf9dc7158f696ee",
+    "data/research/source-readings.json": "dbfadd747686253d91742655af5b6e1209232d0ffba1460f8b63654868db12e7",
+    "data/research/stem-paradigm.json": "6cb693d3e9a4a07966fb24821e903713fa48eafb3eaa7a2e17e4956cdc9738c3",
+    "data/research/tone-paradigm.json": "37f333c16038572278d204360fce5c3205bba14b46fed9d71c8ee7d7ffeb0be2",
+    "docs/14-research-workbench.md": "3dc220dea9a4c9600277df77dd9f24babaa32dfe1e8185444ed85e35361e2c4b",
+    "lean/Audit.lean": "422e96659b7fb28f6476f041a087c1285f72b2d9bae4c1460084136ce8048d83",
+    "lean/Comparative.lean": "5a86cb79f48b5bb7b7dfe539ad9eb5529a6fcb4b985d5660f6e820ca5f161197",
+    "lean/Comparative/Core.lean": "9941c1f795a9b4b982f8c1acb69ba0ad61ac78eeafa1f5721cd61226e57d6e0b",
+    "lean/Comparative/Examples.lean": "e847b3a41625be6eb3375e261e48df1cc308f6bb15d185ea8d7b1402e1f9c8a4",
+    "lean/Comparative/Patterns.lean": "50df3ef56d9c8e6cfb951fbb30554327ede2a1bd0a48a068489bba3a3632199e",
+    "lean/CorrespondenceCheck.lean": "c25b1643fdffbb5ff4110f91bb89af5e90349ce97f7694e0c24c913f56ce8418",
+    "lean/DossierCheck.lean": "ce6c1412b117e8aca536abbb1c61fe359533bb9660b28b0f0825e9329edd0bf2",
+    "lean/Historical.lean": "0f766adc98ec3ef7d9487a4da07a4a2ec45795c2986f906f63669548ef014dfd",
+    "lean/Historical/Alignment.lean": "337932bb7e5b5703d106a5b1f10c92d6f62a609d80691c04fb5dfb3e9eb5f18e",
+    "lean/Historical/Batch.lean": "5cad833b718db40cc93958c84a9295b3447c1b80b6c811f4ea9cb8d95307ade1",
+    "lean/Historical/CaseStudy.lean": "56321998a56f142dee89158ffc24603c3d9298d11612748e05681e245d072d61",
+    "lean/Historical/Certificates.lean": "bce24d449d0b39281d75987035b3d14d1287ee6c9b356ce9941a813dee53e158",
+    "lean/Historical/Correspondence.lean": "67693e7ad1e9855d7edf4b80194e792b53d6f52dc5c82f4230d9cbf43735b7d5",
+    "lean/Historical/CorrespondenceInput.lean": "36ec342752f5095ac82e4ea5eab19459c4cfaf8928520104afae9f9752e9fbf3",
+    "lean/Historical/Evidence.lean": "adfab9a0073b8df312dc28895cd12094e5213de8c8544d2015543338980b5f9f",
+    "lean/Historical/Identifiability.lean": "432b78fd0cd6f50fff75b7bd21c48f644e0ad1a314e6b2b534bcc0f1bcb66f7c",
+    "lean/Historical/JsonInput.lean": "4dbb8bdcd8a026eb72e0d58d4ca699a6c46d07dd3d11e9d15fed26bf4ae5248a",
+    "lean/Historical/Paradigm.lean": "4d7e10ed9d48ba4b25fb5c9d44a5508a9807a0af8a652484a5f048af2d8b518b",
+    "lean/Historical/Reconstruction.lean": "5a9098ee99c05205d2ee017519c7d05dce253dc3b9acbe3d03c1f558abbfe9c3",
+    "lean/Historical/ReconstructionInput.lean": "7a0717e262b3c51383cce5687908e32f05a7a5aef92ed3bb4d407a6e0c414146",
+    "lean/Historical/Research.lean": "6141f694b1bf8ea59a979bec3fcca3e67bf4f684933231a2575794b96880156d",
+    "lean/Historical/RuleInput.lean": "b07bff88f3441029d9c75038511df1bf8e37e5053171ff1fd716826b5db711f0",
+    "lean/Historical/Rules.lean": "5a80b6c4b49d16941db3623a146ab9d14db4877d0dae05b840968de965fa0bb4",
+    "lean/Historical/SourceScope.lean": "c4cfcc4160cdeea904c0d7a01c4922531cc402ad962356c1151a961b6fac6ff6",
+    "lean/Historical/Validation.lean": "b7222532841e6d6ab06c269ce99e85c605a86ef9ebf56ea46644dbc613a8f18d",
+    "lean/PieCheck.lean": "0ba6286fa0bbc8b3f77772b48bbb275d4428317130d530da168a2a1d5e78f7e7",
+    "lean/Reconstruct.lean": "b18251ecfda8887b1dafcd0f25607e064e9de05ebf9f5e7aa29f625080d84719",
+    "lean/ResearchCheck.lean": "5c4c5950a012f6059a883d9c309d822ca81d00bb10fe4dd5412d3224890a096a",
+    "lean/SinoTibetanCheck.lean": "bc7b235c8543215593f25303c3873d7d23fcc5929d58c0faac986bbd6a0a5b66",
+    "lean/VerifyDossiers.lean": "d87ef8b5db2375742e8d16185cb8fa80ca034dfc55426daa07a514aea1ec2c82",
+    "lean/lakefile.toml": "9a8b071426f74edf0f35a72b44223d798d8fb029a33a919e8bf5c59fb50f5f8b",
+    "lean/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+    "scripts/build_research_examples.py": "488df2d3661c85e08b0e1b582d7163a2ed9fd1ec55ee0ede1c69e16d0989f009",
+    "scripts/explore_reconstructions.py": "c36e93f0d214759cd6a7f0958253682866dc3ae3f176f20f53c87ad8b9f8c858",
+    "scripts/reference_reconstruction.py": "e7c2a8bcb460187393b75f6b8539e460ec526738c5c63fcb9c589a738f247fe1",
+    "scripts/reference_research.py": "3ca9cb05d53b66f1d51a1410fb67beeda1b74cf9fa9a9793b40dc1683cddf4c2",
+    "scripts/reference_rules.py": "d8536ce7ad4d152db57fb70840b7707091a20f7c4295796d7a1c9d64a95aba90",
+    "scripts/research.py": "0cc813f68686ad068c37ae190a0c300d6cf3717ad76028821cefc2f43db3083e",
+    "scripts/run_reconstruction.py": "709ef9e4952c8c869255a4efa957d0b6839d130dfa3a42083f0efa55ec665807",
+    "scripts/serve_ui.py": "98ed4586fa9fbd2fb2f0fa71a53427d34fdaf40c03afdb9c7d6582e1e37588be",
+    "scripts/verify_m5.py": "3a16f486391835007e02c93e949cec5ae4429a5f2c14f13e1daca21c59409565",
+    "scripts/verify_research.py": "2de518f3ab60edefb507af461e2b6406c811506ec5f72ed4c9c4ca2e6275e3d7",
+    "scripts/verify_ui.py": "78594ed9c384af81e4aeefef5a454bbf2251efe71dbaebb8a7485284d9af14b6",
+    "tests/test_research.py": "f116d3947f4655a9a2ac833f99186bdc08eeff8e96085587f55161c95cde6b05",
+    "web/app.js": "3fed34db09d7b37c16b3d34a659049aa9d7bc76f7e5dc10965a42245a09a2915",
+    "web/index.html": "43e3ba74552d45ba30013b2b9412e98060c57a8e9269c45b264e136973279493",
+    "web/seal.svg": "4d2e8677cc545af188baab89c17383c0aa412c9ce7de670074d0b054427edc94",
+    "web/style.css": "10912f23fba4089fe97640116ee6a518ef7d6f9e0cf43a8630daeba40a755dee"
+  },
+  "limitations": [
+    "Finite declared models only; source labels and transcriptions require linguistic assessment.",
+    "Search, parsing, UI and their connection to the mathematical definitions are additionally tested infrastructure, not end-to-end verified software.",
+    "Discriminating pair counts are not probabilities. Morphology and tone examples do not constitute a complete PIE or PST grammar."
+  ],
+  "passed": true,
+  "schema_version": "1.0.0",
+  "theorems": [
+    "Historical.Research.fits_iff",
+    "Historical.Research.fits_mono",
+    "Historical.Research.anyFits_iff",
+    "Historical.Research.minimalConflict_iff",
+    "Historical.Research.minimal_conflict_proper_subset",
+    "Historical.Research.mem_subsets",
+    "Historical.Research.reported_conflict_sound",
+    "Historical.Research.conflicts_complete_in_enumeration",
+    "Historical.Research.full_conflict_enumeration_correct",
+    "Historical.Research.equivalent_refl",
+    "Historical.Research.equivalent_symm",
+    "Historical.Research.equivalent_trans",
+    "Historical.Research.class_members_correct",
+    "Historical.Research.order_enumeration_correct",
+    "Historical.Research.order_respects_constraints",
+    "Historical.Paradigm.tone_derivation_iff",
+    "Historical.Paradigm.realization_correct",
+    "Historical.Paradigm.realization_deterministic",
+    "Historical.Paradigm.agrees_iff",
+    "Historical.Paradigm.paradigm_reconstruction_correct"
+  ]
+}

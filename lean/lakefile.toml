@@ -1,6 +1,6 @@
 name = "comparative"
 version = "0.1.0"
-defaultTargets = ["Comparative", "Historical", "dossier_check", "verify_dossiers", "correspondence_check", "reconstruct", "pie_check", "sino_tibetan_check"]
+defaultTargets = ["Comparative", "Historical", "dossier_check", "verify_dossiers", "correspondence_check", "reconstruct", "pie_check", "sino_tibetan_check", "research_check"]
 
 [[lean_lib]]
 name = "Comparative"
@@ -31,3 +31,7 @@ root = "PieCheck"
 [[lean_exe]]
 name = "sino_tibetan_check"
 root = "SinoTibetanCheck"
+
+[[lean_exe]]
+name = "research_check"
+root = "ResearchCheck"

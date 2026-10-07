@@ -11,3 +11,5 @@ import Historical.Identifiability
 import Historical.ReconstructionInput
 import Historical.CaseStudy
 import Historical.SourceScope
+import Historical.Research
+import Historical.Paradigm

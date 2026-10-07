@@ -1,0 +1,598 @@
+{
+  "analyses": [
+    {
+      "cells": [
+        {
+          "allomorphs": [],
+          "expected": {
+            "segments": [],
+            "tone": "vb-Hakha-Lai-F"
+          },
+          "id": "Hakha-Lai",
+          "prefix": [],
+          "sound": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Hakha-Lai-sound",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "source_ref": "vanbik2009:PDF482:Table164",
+          "stem": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Hakha-Lai-stem",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "suffix": [],
+          "tone_rules": [
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-1",
+              "id": "Hakha-Lai-tone-0",
+              "initial_class": [],
+              "to_tone": "vb-Hakha-Lai-F"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-2",
+              "id": "Hakha-Lai-tone-1",
+              "initial_class": [],
+              "to_tone": "vb-Hakha-Lai-L"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-3",
+              "id": "Hakha-Lai-tone-2",
+              "initial_class": [],
+              "to_tone": "vb-Hakha-Lai-R"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-4",
+              "id": "Hakha-Lai-tone-3",
+              "initial_class": [],
+              "to_tone": "vb-Hakha-Lai-F"
+            }
+          ]
+        },
+        {
+          "allomorphs": [],
+          "expected": {
+            "segments": [],
+            "tone": "vb-Mizo-R"
+          },
+          "id": "Mizo",
+          "prefix": [],
+          "sound": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Mizo-sound",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "source_ref": "vanbik2009:PDF482:Table164",
+          "stem": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Mizo-stem",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "suffix": [],
+          "tone_rules": [
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-1",
+              "id": "Mizo-tone-0",
+              "initial_class": [],
+              "to_tone": "vb-Mizo-R"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-2",
+              "id": "Mizo-tone-1",
+              "initial_class": [],
+              "to_tone": "vb-Mizo-F"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-3",
+              "id": "Mizo-tone-2",
+              "initial_class": [],
+              "to_tone": "vb-Mizo-L"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-4",
+              "id": "Mizo-tone-3",
+              "initial_class": [],
+              "to_tone": "vb-Mizo-H"
+            }
+          ]
+        },
+        {
+          "allomorphs": [],
+          "expected": {
+            "segments": [],
+            "tone": "vb-Mara-H"
+          },
+          "id": "Mara",
+          "prefix": [],
+          "sound": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Mara-sound",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "source_ref": "vanbik2009:PDF482:Table164",
+          "stem": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Mara-stem",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "suffix": [],
+          "tone_rules": [
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-1",
+              "id": "Mara-tone-0",
+              "initial_class": [],
+              "to_tone": "vb-Mara-H"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-2",
+              "id": "Mara-tone-1",
+              "initial_class": [],
+              "to_tone": "vb-Mara-H"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-3",
+              "id": "Mara-tone-2",
+              "initial_class": [],
+              "to_tone": "vb-Mara-M"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-4",
+              "id": "Mara-tone-3",
+              "initial_class": [],
+              "to_tone": "vb-Mara-L"
+            }
+          ]
+        },
+        {
+          "allomorphs": [],
+          "expected": {
+            "segments": [],
+            "tone": "vb-Tedim-1"
+          },
+          "id": "Tedim",
+          "prefix": [],
+          "sound": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Tedim-sound",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "source_ref": "vanbik2009:PDF482:Table164",
+          "stem": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Tedim-stem",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "suffix": [],
+          "tone_rules": [
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-1",
+              "id": "Tedim-tone-0",
+              "initial_class": [],
+              "to_tone": "vb-Tedim-1"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-2",
+              "id": "Tedim-tone-1",
+              "initial_class": [],
+              "to_tone": "vb-Tedim-1"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-3",
+              "id": "Tedim-tone-2",
+              "initial_class": [],
+              "to_tone": "vb-Tedim-3"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-4",
+              "id": "Tedim-tone-3",
+              "initial_class": [],
+              "to_tone": "vb-Tedim-2"
+            }
+          ]
+        }
+      ],
+      "description": "Table 164 correspondences",
+      "id": "table-164",
+      "source_ref": "vanbik2009:PDF482,493; observations:PDF485:entry243"
+    },
+    {
+      "cells": [
+        {
+          "allomorphs": [],
+          "expected": {
+            "segments": [],
+            "tone": "vb-Hakha-Lai-F"
+          },
+          "id": "Hakha-Lai",
+          "prefix": [],
+          "sound": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Hakha-Lai-sound",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "source_ref": "vanbik2009:PDF482:Table164;PDF493:Table166",
+          "stem": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Hakha-Lai-stem",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "suffix": [],
+          "tone_rules": [
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-1",
+              "id": "Hakha-Lai-tone-0",
+              "initial_class": [],
+              "to_tone": "vb-Hakha-Lai-F"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-2",
+              "id": "Hakha-Lai-tone-1",
+              "initial_class": [],
+              "to_tone": "vb-Hakha-Lai-F"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-3",
+              "id": "Hakha-Lai-tone-2",
+              "initial_class": [],
+              "to_tone": "vb-Hakha-Lai-R"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-4",
+              "id": "Hakha-Lai-tone-3",
+              "initial_class": [],
+              "to_tone": "vb-Hakha-Lai-F"
+            }
+          ]
+        },
+        {
+          "allomorphs": [],
+          "expected": {
+            "segments": [],
+            "tone": "vb-Mizo-R"
+          },
+          "id": "Mizo",
+          "prefix": [],
+          "sound": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Mizo-sound",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "source_ref": "vanbik2009:PDF482:Table164",
+          "stem": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Mizo-stem",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "suffix": [],
+          "tone_rules": [
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-1",
+              "id": "Mizo-tone-0",
+              "initial_class": [],
+              "to_tone": "vb-Mizo-R"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-2",
+              "id": "Mizo-tone-1",
+              "initial_class": [],
+              "to_tone": "vb-Mizo-F"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-3",
+              "id": "Mizo-tone-2",
+              "initial_class": [],
+              "to_tone": "vb-Mizo-L"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-4",
+              "id": "Mizo-tone-3",
+              "initial_class": [],
+              "to_tone": "vb-Mizo-H"
+            }
+          ]
+        },
+        {
+          "allomorphs": [],
+          "expected": {
+            "segments": [],
+            "tone": "vb-Mara-H"
+          },
+          "id": "Mara",
+          "prefix": [],
+          "sound": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Mara-sound",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "source_ref": "vanbik2009:PDF482:Table164",
+          "stem": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Mara-stem",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "suffix": [],
+          "tone_rules": [
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-1",
+              "id": "Mara-tone-0",
+              "initial_class": [],
+              "to_tone": "vb-Mara-H"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-2",
+              "id": "Mara-tone-1",
+              "initial_class": [],
+              "to_tone": "vb-Mara-H"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-3",
+              "id": "Mara-tone-2",
+              "initial_class": [],
+              "to_tone": "vb-Mara-M"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-4",
+              "id": "Mara-tone-3",
+              "initial_class": [],
+              "to_tone": "vb-Mara-L"
+            }
+          ]
+        },
+        {
+          "allomorphs": [],
+          "expected": {
+            "segments": [],
+            "tone": "vb-Tedim-1"
+          },
+          "id": "Tedim",
+          "prefix": [],
+          "sound": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Tedim-sound",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "source_ref": "vanbik2009:PDF482:Table164",
+          "stem": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Tedim-stem",
+            "initial_stage": "stem",
+            "inventory": [
+              "σ"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "suffix": [],
+          "tone_rules": [
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-1",
+              "id": "Tedim-tone-0",
+              "initial_class": [],
+              "to_tone": "vb-Tedim-1"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-2",
+              "id": "Tedim-tone-1",
+              "initial_class": [],
+              "to_tone": "vb-Tedim-1"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-3",
+              "id": "Tedim-tone-2",
+              "initial_class": [],
+              "to_tone": "vb-Tedim-3"
+            },
+            {
+              "conditioning": "stem",
+              "final_class": [],
+              "from_tone": "vb-PKC-4",
+              "id": "Tedim-tone-3",
+              "initial_class": [],
+              "to_tone": "vb-Tedim-2"
+            }
+          ]
+        }
+      ],
+      "description": "Table 164 with the printed Table 166 Hakha Lai tone-2 reading; source inconsistency retained",
+      "id": "table-166-Hakha-2",
+      "source_ref": "vanbik2009:PDF482,493; observations:PDF485:entry243"
+    }
+  ],
+  "id": "vanbik-smooth-tones",
+  "inventory": [
+    "σ"
+  ],
+  "pool": [
+    {
+      "segments": [],
+      "tone": "vb-PKC-1"
+    },
+    {
+      "segments": [],
+      "tone": "vb-PKC-2"
+    },
+    {
+      "segments": [],
+      "tone": "vb-PKC-3"
+    },
+    {
+      "segments": [],
+      "tone": "vb-PKC-4"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "source_kind": "source-worked",
+  "source_scope": "VanBik 2009 PKC nominal smooth-syllable tone correspondence projection; no segmental derivation. Observed tone-1 pattern exemplified by WATER [243].",
+  "tone_inventory": [
+    "vb-PKC-1",
+    "vb-PKC-2",
+    "vb-PKC-3",
+    "vb-PKC-4",
+    "vb-Hakha-Lai-F",
+    "vb-Hakha-Lai-L",
+    "vb-Hakha-Lai-R",
+    "vb-Mizo-R",
+    "vb-Mizo-F",
+    "vb-Mizo-L",
+    "vb-Mizo-H",
+    "vb-Mara-H",
+    "vb-Mara-M",
+    "vb-Mara-L",
+    "vb-Tedim-1",
+    "vb-Tedim-3",
+    "vb-Tedim-2"
+  ]
+}

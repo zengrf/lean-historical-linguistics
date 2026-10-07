@@ -45,3 +45,17 @@ every retained file's checksum and size. As in the older snapshots,
 The catalogue adds counts, joins and source-qualified identifiers; it makes no
 new cognacy judgments or claims of author endorsement. Forms from this source
 are not deduplicated against Burmish or Kuki-Chin records from other sources.
+
+## Research workbench examples
+
+[research/](research/README.md) adds attributed, limited tone and lexical-stem
+projections from Kenneth VanBik (2009), *Proto-Kuki-Chin*, STEDT Monograph 8:
+entry [2] and Tables 164/166, with PDF/printed page locators and the unresolved
+printed discrepancy retained. The source PDF remains unmodified under the
+STEDT permission recorded in [the library notices](../library/THIRD_PARTY_NOTICES.md).
+The executable projection, segmentation choices and comparison of readings
+are additions by this project; they imply neither author endorsement nor
+specialist approval. The Germanic chronology example reuses the separately
+attributed, restricted Ringe fragment documented in [M5](../docs/11-m5-delivery.md).
+The project's MIT license applies to its original code and synthetic controls;
+it does not relicense either cited book.

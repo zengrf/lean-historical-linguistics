@@ -1,0 +1,391 @@
+{
+  "analyses": [
+    {
+      "cells": [
+        {
+          "allomorphs": [],
+          "expected": {
+            "segments": [
+              "b",
+              "e",
+              "e",
+              "l"
+            ],
+            "tone": null
+          },
+          "id": "Mizo-I",
+          "prefix": [],
+          "sound": {
+            "description": "Explicit finite realization package",
+            "final_stage": "Mizo-I-sound-stage-2",
+            "id": "Mizo-I-sound",
+            "initial_stage": "stem",
+            "inventory": [
+              "ɓ",
+              "b",
+              "e",
+              "l",
+              "ʔ",
+              "h"
+            ],
+            "laws": [
+              {
+                "id": "Mizo-I-sound-law-0",
+                "input_stage": "stem",
+                "output_stage": "Mizo-I-sound-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "b",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "ɓ"
+                  ]
+                }
+              },
+              {
+                "id": "Mizo-I-sound-law-1",
+                "input_stage": "Mizo-I-sound-stage-1",
+                "output_stage": "Mizo-I-sound-stage-2",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "h",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "ʔ"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          },
+          "source_ref": "vanbik2009:PDF93:entry2",
+          "stem": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Mizo-I-stem",
+            "initial_stage": "stem",
+            "inventory": [
+              "ɓ",
+              "b",
+              "e",
+              "l",
+              "ʔ",
+              "h"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "suffix": [],
+          "tone_rules": []
+        },
+        {
+          "allomorphs": [
+            {
+              "input": [
+                "ɓ",
+                "e",
+                "e",
+                "l"
+              ],
+              "output": [
+                "ɓ",
+                "e",
+                "l",
+                "ʔ"
+              ]
+            }
+          ],
+          "expected": {
+            "segments": [
+              "b",
+              "e",
+              "l",
+              "h"
+            ],
+            "tone": null
+          },
+          "id": "Mizo-II",
+          "prefix": [],
+          "sound": {
+            "description": "Explicit finite realization package",
+            "final_stage": "Mizo-II-sound-stage-2",
+            "id": "Mizo-II-sound",
+            "initial_stage": "stem",
+            "inventory": [
+              "ɓ",
+              "b",
+              "e",
+              "l",
+              "ʔ",
+              "h"
+            ],
+            "laws": [
+              {
+                "id": "Mizo-II-sound-law-0",
+                "input_stage": "stem",
+                "output_stage": "Mizo-II-sound-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "b",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "ɓ"
+                  ]
+                }
+              },
+              {
+                "id": "Mizo-II-sound-law-1",
+                "input_stage": "Mizo-II-sound-stage-1",
+                "output_stage": "Mizo-II-sound-stage-2",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "h",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "ʔ"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          },
+          "source_ref": "vanbik2009:PDF93:entry2",
+          "stem": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Mizo-II-stem",
+            "initial_stage": "stem",
+            "inventory": [
+              "ɓ",
+              "b",
+              "e",
+              "l",
+              "ʔ",
+              "h"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "suffix": [],
+          "tone_rules": []
+        },
+        {
+          "allomorphs": [
+            {
+              "input": [
+                "ɓ",
+                "e",
+                "e",
+                "l"
+              ],
+              "output": [
+                "ɓ",
+                "e",
+                "l",
+                "ʔ"
+              ]
+            }
+          ],
+          "expected": {
+            "segments": [
+              "b",
+              "e",
+              "l",
+              "ʔ"
+            ],
+            "tone": null
+          },
+          "id": "Hakha-I",
+          "prefix": [],
+          "sound": {
+            "description": "Explicit finite realization package",
+            "final_stage": "Hakha-I-sound-stage-1",
+            "id": "Hakha-I-sound",
+            "initial_stage": "stem",
+            "inventory": [
+              "ɓ",
+              "b",
+              "e",
+              "l",
+              "ʔ",
+              "h"
+            ],
+            "laws": [
+              {
+                "id": "Hakha-I-sound-law-0",
+                "input_stage": "stem",
+                "output_stage": "Hakha-I-sound-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "b",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "ɓ"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          },
+          "source_ref": "vanbik2009:PDF93:entry2",
+          "stem": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Hakha-I-stem",
+            "initial_stage": "stem",
+            "inventory": [
+              "ɓ",
+              "b",
+              "e",
+              "l",
+              "ʔ",
+              "h"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "suffix": [],
+          "tone_rules": []
+        },
+        {
+          "allomorphs": [
+            {
+              "input": [
+                "ɓ",
+                "e",
+                "e",
+                "l"
+              ],
+              "output": [
+                "ɓ",
+                "e",
+                "l",
+                "ʔ"
+              ]
+            }
+          ],
+          "expected": {
+            "segments": [
+              "b",
+              "e",
+              "l",
+              "ʔ"
+            ],
+            "tone": null
+          },
+          "id": "Hakha-II",
+          "prefix": [],
+          "sound": {
+            "description": "Explicit finite realization package",
+            "final_stage": "Hakha-II-sound-stage-1",
+            "id": "Hakha-II-sound",
+            "initial_stage": "stem",
+            "inventory": [
+              "ɓ",
+              "b",
+              "e",
+              "l",
+              "ʔ",
+              "h"
+            ],
+            "laws": [
+              {
+                "id": "Hakha-II-sound-law-0",
+                "input_stage": "stem",
+                "output_stage": "Hakha-II-sound-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "b",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "ɓ"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          },
+          "source_ref": "vanbik2009:PDF93:entry2",
+          "stem": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "Hakha-II-stem",
+            "initial_stage": "stem",
+            "inventory": [
+              "ɓ",
+              "b",
+              "e",
+              "l",
+              "ʔ",
+              "h"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          },
+          "suffix": [],
+          "tone_rules": []
+        }
+      ],
+      "description": "Published paired stems and invariant Hakha Lai reflex",
+      "id": "linked-stems",
+      "source_ref": "vanbik2009:PDF93:entry2;PDF38:stem-function caveat"
+    }
+  ],
+  "id": "vanbik-attach-stems",
+  "inventory": [
+    "ɓ",
+    "b",
+    "e",
+    "l",
+    "ʔ",
+    "h"
+  ],
+  "pool": [
+    {
+      "segments": [
+        "ɓ",
+        "e",
+        "e",
+        "l"
+      ],
+      "tone": null
+    },
+    {
+      "segments": [
+        "ɓ",
+        "e",
+        "l",
+        "ʔ"
+      ],
+      "tone": null
+    }
+  ],
+  "schema_version": "1.0.0",
+  "source_kind": "source-worked",
+  "source_scope": "VanBik 2009 entry [2] ATTACH: linked PKC Form I/II and Hakha Lai invariant stem, projected to displayed segment strings with tone omitted. Mizo h is a source-spelling projection, not a new phonetic claim; allomorphy is stipulated from this entry, not inferred as a productive rule.",
+  "tone_inventory": []
+}
