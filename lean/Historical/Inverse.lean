@@ -121,8 +121,7 @@ theorem allows_cons (ts : List Compile.Table) (s : State) (a : Atom) (w : Word) 
     | some rest =>
       have hb : (m ≤ w.length + 1 ∧ w.length + 1 ≤ n + 1) ↔
           (m - 1 ≤ w.length ∧ w.length ≤ n) := by omega
-      simp [step, hr, allows, hb, shapeFits]
-      omega
+      simp [step, hr, allows, hb, shapeFits] <;> omega
 
 /-- Mathematical enumeration. Runtime uses checked DAG certificates instead of
 materializing this list when mergers or deletion create enormous inverse sets. -/
