@@ -137,8 +137,12 @@ theorem compiled_request_complete (r : Request) (a : Analysis) (e : Entry)
   by_cases hw : ∀ x ∈ w, x ∈ alphabet r
   · have hf := compiled_reflexes_correct (alphabet r) a.branches e.reflexes w hs hw
     change Inverse.fits (tables r a) (masks e) w = fitsReflexes a.branches e.reflexes w at hf
+    -- Match the decision procedure already in the expression. Lean 4.34's
+    -- simplifier synthesizes class-implicit arguments of rewrite lemmas.
+    have reflect (p : Prop) (inst : Decidable p) : @decide p inst = true ↔ p :=
+      ⟨@of_decide_eq_true p inst, @decide_eq_true p inst⟩
     simp only [wordFits, predicate, Inverse.allows, root, hf, List.all_eq_true,
-      Bool.and_eq_true, decide_eq_true_eq, List.contains_iff]
+      Bool.and_eq_true, reflect, List.contains_iff]
     simp only [and_assoc, and_left_comm, and_comm]
   · simp [wordFits, List.all_eq_true, hw]
 
