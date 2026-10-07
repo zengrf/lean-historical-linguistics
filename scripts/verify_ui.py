@@ -6,11 +6,13 @@ server unless --url is supplied. Uses Chrome's documented DevTools protocol.
 
 import argparse
 import base64
+import errno
 import hashlib
 import json
 import os
 from pathlib import Path
 import shutil
+import signal
 import socket
 import subprocess
 import tempfile
@@ -51,6 +53,7 @@ class Browser:
             ],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
+            start_new_session=True,
         )
         self.id = 0
         self.events = []
@@ -128,14 +131,33 @@ class Browser:
 
     def close(self):
         if hasattr(self, "ws"):
+            try:
+                self.ws.settimeout(5)
+                self.call("Browser.close")
+            except (websocket.WebSocketException, OSError):
+                # Chrome can close the connection before acknowledging shutdown.
+                pass
             self.ws.close()
-        self.process.terminate()
         try:
             self.process.wait(timeout=5)
         except subprocess.TimeoutExpired:
             self.process.kill()
             self.process.wait()
-        self.folder.cleanup()
+        if os.name == "posix":
+            # Only this test's session: renderer descendants may briefly outlive
+            # the browser and continue writing the temporary profile.
+            try:
+                os.killpg(self.process.pid, signal.SIGKILL)
+            except ProcessLookupError:
+                pass
+        for attempt in range(20):
+            try:
+                self.folder.cleanup()
+                break
+            except OSError as error:
+                if error.errno != errno.ENOTEMPTY or attempt == 19:
+                    raise
+                time.sleep(0.1)
 
 
 def verify(url, directory, chrome=None):

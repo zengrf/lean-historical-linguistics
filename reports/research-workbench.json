@@ -920,7 +920,7 @@
     "scripts/verify_m5.py": "3a16f486391835007e02c93e949cec5ae4429a5f2c14f13e1daca21c59409565",
     "scripts/verify_research.py": "93c83aca5866b45a3b5f39cc4c6878095bf898f9755f8ac1b0702990f0a0459b",
     "scripts/verify_theme.py": "a12b20d4df6902866f29d6966766d505cab4988aaea773b3fff7037c28db6b55",
-    "scripts/verify_ui.py": "329e77d8a934f2384753db9b6c28919e9e5c3a577116be1cf7a3ce85bd679090",
+    "scripts/verify_ui.py": "00cf3b745eca75e618ca74ba8bd84ce29c362c9fd7c85880755ead54c8ad2e33",
     "scripts/workbench_labels.py": "1075454c3771741b2fbe94d7b39f8502fb64d3149884940d29ec10173fa6519e",
     "tests/test_research.py": "e595ae33f10b184369fac6e4ab93643e821dd8e129729feac8d9b6b7c4e59f0f",
     "web/app.js": "94fb7eef44cbf5b1c612904b06b5f4d7e1c34c7cc94fd43ae2894979725a2da0",
