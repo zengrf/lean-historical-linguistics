@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/zengrf/kiwari-slides",
+  "commit": "a0be327572f2fec8a6080bb74e1334442db57927",
+  "license": "MIT; fonts retain their SIL Open Font Licenses",
+  "files": {
+    "slides.css": "c189085d9c97c115a96ef365f82e1d4f3f7db9d93c0867f87b5c4e485592a331",
+    "materials.css": "96f8d10c1d494d10018759089eb4d439d2646251204087336884531a5f76b702",
+    "lib/fonts.css": "ac81f8b5aa0bd99c9f308aafbeeb9418d9b1525b16c2a9bf0f5370794799c527",
+    "LICENSE": "7d392243fe416dab21ac53f35179467c50da9ce107d5baae51bbe21f0bba80db",
+    "lib/fonts/Cormorant-Garamond-OFL.txt": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+    "lib/fonts/EB-Garamond-OFL.txt": "0985066662eb755ed3683ae5482a81a9195b49ce3f7e165cc2388b3dbece7dd7",
+    "lib/fonts/font-0.ttf": "69e7ae35cba23d962227b86f99217c250e642e4c6f6104b4f3ec465039e4e2d8",
+    "lib/fonts/font-1.ttf": "440daf036a35abd6d2bdfa92b14ab0f150cce690fe6d767ee5cab15a1a10a87f",
+    "lib/fonts/font-2.ttf": "9d2ca86044b885d085059c7e3bed21d6e31456a81a47761e7ade8cd390ebe71d",
+    "lib/fonts/font-3.ttf": "934aa932b4bc1a75d883f7c3d4d5bbc8278e5e7fcc96d5440bbffd61050cf958",
+    "lib/fonts/font-4.ttf": "b536adfa0f5746cfbd148d8a1a669540366edef2c85c4b49450798a037bd928c"
+  }
+}

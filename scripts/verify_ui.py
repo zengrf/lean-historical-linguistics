@@ -175,7 +175,24 @@ def verify(url, directory, chrome=None):
             "source discrepancy and source PDF links",
             "document.querySelectorAll('#reading-note a').length===2 && !document.getElementById('reading-note').hidden",
         )
+        b.wait("document.fonts.status==='loaded'")
+        check(
+            "original Kiwari styles and materials are active",
+            "[...document.styleSheets].some(s=>s.href?.endsWith('/vendor/kiwari/slides.css')) && getComputedStyle(document.querySelector('.room'),'::before').backgroundImage.includes('data:image/svg+xml') && getComputedStyle(document.querySelector('.top-rail')).backgroundImage.includes('data:image/svg+xml')",
+        )
+        check(
+            "bundled Garamond fonts are actually loaded",
+            "[...document.fonts].some(f=>f.family==='EB Garamond' && f.status==='loaded') && [...document.fonts].some(f=>f.family==='Cormorant Garamond' && f.status==='loaded')",
+        )
+        check(
+            "query explains candidate space and required daughter form",
+            "document.getElementById('query-summary').textContent.includes('4 candidate tone categories') && document.getElementById('query-summary').textContent.includes('Hakha Lai')",
+        )
         run()
+        check(
+            "distinct reconstructions group compatible analyses",
+            "document.querySelectorAll('.candidate').length===3 && document.querySelector('.result-summary').dataset.forms==='3'",
+        )
         check(
             "tone merger retains five source-qualified histories",
             "state.result.result.analysis.survivors.length===5",
@@ -203,11 +220,16 @@ def verify(url, directory, chrome=None):
         assert len(exported["result"]["analysis"]["survivors"]) == 5
         checks.append("downloaded exact query and checked result")
         b.evaluate("document.querySelector('.candidate summary').click()")
+        b.wait("document.querySelector('.candidate .history-details')")
+        b.evaluate(
+            "document.querySelector('.candidate .history-details summary').click()"
+        )
         b.wait("document.querySelector('.candidate .derivation')")
         check(
             "tone derivation displays actual rules",
             "document.querySelector('.candidate .derivation').innerText.includes('Hakha-Lai-tone-')",
         )
+        b.evaluate("document.querySelector('.candidate summary').click()")
         b.screenshot(directory / "desktop.png")
         b.evaluate(
             "document.querySelector('input[name=observation][value=Mizo]').click()"
@@ -219,7 +241,26 @@ def verify(url, directory, chrome=None):
         run()
         check(
             "Mizo removes merger ambiguity but retains model identity",
-            "state.result.result.analysis.survivors.length===2",
+            "state.result.result.analysis.survivors.length===2 && document.querySelectorAll('.candidate').length===1",
+        )
+        # Hold a real response until after the user changes a constraint. Older
+        # work must neither replace the new query nor leave its button disabled.
+        b.evaluate(
+            "window.originalFetch=window.fetch;window.fetch=async (...args)=>{const response=await window.originalFetch(...args);if(args[0]==='/api/run') await new Promise(resolve=>window.releaseRun=resolve);return response};window.pendingRun=runEvidence();void 0"
+        )
+        b.wait("typeof window.releaseRun==='function'")
+        b.evaluate(
+            "document.querySelector('input[name=observation][value=Mara]').click();window.releaseRun();window.fetch=window.originalFetch"
+        )
+        b.wait("document.getElementById('results').getAttribute('aria-busy')==='false'")
+        # Await the superseded request itself, rather than assuming a delay.
+        b.evaluate("window.pendingRun")
+        check(
+            "changed constraints reject an in-flight result and remain runnable",
+            "state.result===null && !document.getElementById('run').disabled && document.getElementById('export').disabled",
+        )
+        b.evaluate(
+            "document.querySelector('input[name=observation][value=Mara]').click()"
         )
         b.evaluate(
             "document.querySelector('input[name=hypothesis][value=table-166-Hakha-2]').click()"
@@ -241,7 +282,7 @@ def verify(url, directory, chrome=None):
         run()
         check(
             "budget exhaustion never displayed as complete",
-            "state.result.result.complete===false && document.querySelector('.completion.incomplete')!==null",
+            "state.result.result.complete===false && document.querySelector('.source-note.incomplete')!==null && document.querySelector('.completion').textContent.includes('All allowed forms')",
         )
         b.evaluate(
             "document.getElementById('subset-budget').value=4096;document.querySelector('input[name=observation][value=B]').click()"
@@ -254,6 +295,10 @@ def verify(url, directory, chrome=None):
         case("affixes")
         run()
         b.evaluate("document.querySelector('.candidate summary').click()")
+        b.wait("document.querySelector('.candidate .history-details')")
+        b.evaluate(
+            "document.querySelector('.candidate .history-details summary').click()"
+        )
         b.wait("document.querySelector('.candidate .derivation')")
         check(
             "linked affixes and stem-conditioned tone displayed",
@@ -312,6 +357,71 @@ def verify(url, directory, chrome=None):
             "document.querySelector('.source-record pre').textContent.includes('source_row') && state.materialQuery.q==='water'",
         )
         b.evaluate("document.getElementById('tab-evidence').click()")
+        case("conflicts")
+        b.evaluate(
+            "document.getElementById('subset-budget').value=4096;document.getElementById('subset-budget').dispatchEvent(new Event('change'));document.getElementById('observations-none').click();document.getElementById('max-length').value=2;document.getElementById('max-length').dispatchEvent(new Event('input'))"
+        )
+        run()
+        check(
+            "editable word bounds enumerate every short sequence in Lean",
+            "state.result.result.histories.length===7 && document.querySelectorAll('.candidate').length===7 && state.result.result.input_request.max_length===2",
+        )
+        b.evaluate("document.querySelector('input[name=segment][value=b]').click()")
+        run()
+        check(
+            "segment constraint narrows the actual Lean search space",
+            "state.result.result.histories.length===3 && state.result.result.input_request.proto_inventory.join('')==='p' && document.querySelectorAll('.candidate').length===3",
+        )
+        b.evaluate("document.getElementById('reset-constraints').click()")
+        check(
+            "reset restores observations and original bounds",
+            "chosen('observation').length===3 && chosen('segment').length===2 && document.getElementById('max-length').value==='1' && state.result===null",
+        )
+        run()
+        b.evaluate(
+            "[...document.querySelectorAll('.conflict-list button')].find(x=>x.textContent==='Uncheck B').click()"
+        )
+        check(
+            "conflict explanation can relax a constraint explicitly",
+            "!chosen('observation').includes('B') && state.result===null && document.getElementById('export').disabled",
+        )
+        run()
+        check(
+            "relaxing the conflict yields the complete allowed form",
+            "document.querySelectorAll('.candidate').length===1 && state.result.result.analysis.survivors.length===1",
+        )
+        b.evaluate(
+            "document.getElementById('max-length').value=10;document.getElementById('max-length').dispatchEvent(new Event('input'))"
+        )
+        run()
+        check(
+            "excessive bounds report an error without claiming completeness",
+            "state.result===null && document.getElementById('run-status').textContent.includes('1,024') && !document.querySelector('.completion')",
+        )
+        b.evaluate(
+            "document.getElementById('collection').value='pie';document.getElementById('collection').dispatchEvent(new Event('change'));document.getElementById('case-search').value='dog';document.getElementById('case-search').dispatchEvent(new Event('input'))"
+        )
+        b.wait(
+            "state.current?.dataset==='pie' && !document.getElementById('run').disabled"
+        )
+        check(
+            "word search exposes source meanings and language names",
+            "document.getElementById('case').options.length>0 && [...document.getElementById('case').options].every(o=>o.textContent.toLowerCase().includes('dog')) && !document.querySelector('#observation-options b').textContent.includes('iecor-form')",
+        )
+        b.evaluate(
+            "document.getElementById('case-search').value='no-match-zzzz';document.getElementById('case-search').dispatchEvent(new Event('input'))"
+        )
+        check(
+            "empty search disables enumeration and clears the active case",
+            "state.current===null && document.getElementById('run').disabled",
+        )
+        b.evaluate(
+            "document.getElementById('collection').value='worked';document.getElementById('collection').dispatchEvent(new Event('change'))"
+        )
+        b.wait(
+            "state.current?.key==='tones' && !document.getElementById('run').disabled"
+        )
+        run()
         for width in [320, 390, 768, 1440]:
             b.size(width)
             check(
@@ -324,7 +434,7 @@ def verify(url, directory, chrome=None):
             )
             check(
                 theme + " appearance persists",
-                f"document.documentElement.dataset.theme==='{theme}' && localStorage.getItem('comparative-theme')==='{theme}'",
+                f"document.documentElement.dataset.time==='{theme}' && localStorage.getItem('comparative-theme')==='{theme}'",
             )
         b.call(
             "Emulation.setEmulatedMedia",
@@ -368,6 +478,15 @@ def verify(url, directory, chrome=None):
             "scripts/serve_ui.py",
             "scripts/research.py",
             "scripts/verify_ui.py",
+            "scripts/workbench_labels.py",
+            "scripts/verify_theme.py",
+            "data/pie/corpus.json",
+            "data/pie/latin-control-frozen.json",
+            "data/kuki-chin/corpus.json",
+        ] + [
+            str(p.relative_to(ROOT))
+            for p in sorted((ROOT / "web/vendor").rglob("*"))
+            if p.is_file()
         ]
         report = dict(
             passed=True,

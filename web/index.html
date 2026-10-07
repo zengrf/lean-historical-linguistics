@@ -1,17 +1,23 @@
 <!doctype html>
-<html lang="en" data-theme="day">
+<html lang="en" data-time="day">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
     <title>Comparative reconstruction · Zeng RF</title>
     <link rel="icon" href="/seal.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/vendor/kiwari/lib/fonts.css" />
+    <link rel="stylesheet" href="/vendor/kiwari/materials.css" />
+    <link rel="stylesheet" href="/vendor/kiwari/slides.css" />
     <link rel="stylesheet" href="/style.css" />
     <script src="/app.js" defer></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to the workbench</a>
-    <div class="room">
+    <div class="slide room">
+      <i class="top-rail" aria-hidden="true"></i>
+      <i class="transom" aria-hidden="true"></i>
+      <i class="bottom-rail" aria-hidden="true"></i>
       <header class="masthead">
         <a
           class="wordmark"
@@ -53,14 +59,13 @@
         <p class="eyebrow">The comparative method · Research workbench</p>
         <h1 id="page-title">Comparative reconstruction</h1>
         <p class="lede">
-          Choose the hypotheses. Examine the evidence.<br />Enumerate the
-          reconstructions they permit.
+          Select constraints and find every reconstruction they allow.
         </p>
         <div class="scope-line">
           <span class="small-seal" aria-hidden="true">∗</span>
           <p>
-            Every result is relative to explicit models and a finite search
-            space. Open a derivation to see each step.
+            “All” means all forms in the chosen finite search space.<br />Every
+            result is checked by Lean; each derivation can be inspected.
           </p>
           <span class="scope-label">Indo-European &amp; Sino-Tibetan</span>
         </div>
@@ -74,7 +79,7 @@
           tabindex="0"
           data-tab="evidence"
         >
-          <span>01</span> Evidence &amp; reconstructions
+          <span>01</span> Reconstruct
         </button>
         <button
           id="tab-chronology"
@@ -104,29 +109,83 @@
           aria-labelledby="tab-evidence"
           tabindex="0"
         >
+          <div class="material-picker">
+            <h2 class="step-title"><span>1</span> Choose the material</h2>
+            <label for="collection">Material or worked example</label
+            ><select id="collection">
+              <option>Loading catalogue…</option>
+            </select>
+            <label for="case-search">Find a word or example</label>
+            <input
+              id="case-search"
+              type="search"
+              placeholder="e.g. dog, arm, tone"
+              autocomplete="off"
+              aria-describedby="case-search-status"
+            />
+            <p id="case-search-status" class="help" role="status"></p>
+            <label for="case">Word or example</label
+            ><select id="case"></select>
+            <p id="case-kind" class="source-caption"></p>
+          </div>
           <div class="workbench">
             <aside class="controls" aria-label="Reconstruction controls">
-              <p class="eyebrow">Set the comparison</p>
-              <label for="collection">Material or worked example</label
-              ><select id="collection">
-                <option>Loading catalogue…</option>
-              </select>
-              <label for="case">Case</label
-              ><select id="case"></select>
-              <p id="case-kind" class="source-caption"></p>
+              <h2 class="step-title"><span>2</span> Set the constraints</h2>
               <fieldset id="hypotheses">
-                <legend>Whole hypotheses</legend>
+                <legend>Allowed analyses</legend>
+                <p class="help">
+                  A form may follow <strong>any one</strong> checked analysis
+                  (OR).
+                </p>
                 <div id="hypothesis-options"></div>
               </fieldset>
               <fieldset id="observations">
-                <legend>Use these observations</legend>
+                <legend>Required daughter forms</legend>
                 <p class="help">
-                  Withhold an observation to compare its predictions.
+                  Match <strong>every</strong> checked form under the same
+                  analysis (AND).
                 </p>
+                <div class="selection-actions">
+                  <button id="observations-all" type="button" class="quiet">
+                    Require all
+                  </button>
+                  <button id="observations-none" type="button" class="quiet">
+                    Require none
+                  </button>
+                </div>
                 <div id="observation-options"></div>
               </fieldset>
+              <fieldset id="candidate-space">
+                <legend>Candidate space</legend>
+                <p id="space-description" class="help"></p>
+                <div id="word-bounds" hidden>
+                  <label>Allowed proto-segments</label>
+                  <div
+                    id="segment-options"
+                    class="segment-options"
+                    role="group"
+                    aria-label="Allowed proto-segments"
+                  ></div>
+                  <label for="max-length">Maximum number of tokens</label>
+                  <input
+                    id="max-length"
+                    type="number"
+                    min="0"
+                    max="16"
+                    value="1"
+                  />
+                  <p class="help">
+                    Includes the empty form and every shorter sequence. Morpheme
+                    boundaries, when enabled by the model, count as tokens.
+                  </p>
+                </div>
+                <details id="pool-preview">
+                  <summary>Inspect candidate forms</summary>
+                  <p id="pool-forms" class="pool-forms"></p>
+                </details>
+              </fieldset>
               <details class="advanced">
-                <summary>Search bounds &amp; input</summary>
+                <summary>Advanced: diagnostics &amp; import</summary>
                 <label for="subset-budget">Conflict subsets to examine</label
                 ><input
                   id="subset-budget"
@@ -152,37 +211,48 @@
                 />
                 <p id="import-status" class="help"></p>
               </details>
-              <button id="run" class="primary" type="button">
-                Enumerate &amp; compare <span aria-hidden="true">→</span>
-              </button>
-              <p
-                id="run-status"
-                class="run-status"
-                role="status"
-                aria-live="polite"
-              >
-                Choose a case to begin.
-              </p>
             </aside>
             <div class="study">
               <div class="study-heading">
                 <div>
-                  <p id="study-subtitle" class="eyebrow"></p>
+                  <p class="eyebrow">3 · Allowed reconstructions</p>
+                  <p id="study-subtitle" class="source-caption"></p>
                   <h2 id="study-title">Loading the workbench</h2>
                 </div>
                 <button id="export" class="quiet" type="button" disabled>
                   Export result ↓
                 </button>
               </div>
+              <div class="run-panel">
+                <div class="query-preview" aria-live="polite">
+                  <p class="eyebrow">Your query</p>
+                  <p id="query-summary"></p>
+                </div>
+                <button id="run" class="primary" type="button">
+                  Enumerate all allowed reconstructions
+                  <span aria-hidden="true">→</span>
+                </button>
+                <button id="reset-constraints" class="quiet" type="button">
+                  Reset this example
+                </button>
+                <p
+                  id="run-status"
+                  class="run-status"
+                  role="status"
+                  aria-live="polite"
+                >
+                  Choose material to begin.
+                </p>
+              </div>
               <p id="case-description" class="description"></p>
               <div id="reading-note" class="source-note" hidden></div>
               <div id="results" aria-live="polite" aria-busy="false">
                 <div class="empty-state">
                   <span class="ornament" aria-hidden="true">∗</span>
-                  <h3>The comparison starts here.</h3>
+                  <h3>Ready to enumerate</h3>
                   <p>
-                    Select hypotheses and observations, then enumerate their
-                    consequences.
+                    Choose the constraints, then enumerate to see every allowed
+                    form.
                   </p>
                 </div>
               </div>
@@ -335,6 +405,14 @@
         ><a href="https://zengrf.github.io" target="_blank" rel="noreferrer"
           >Zeng RF ↗</a
         >
+        <p class="theme-credit">
+          Theme assets from
+          <a
+            href="https://github.com/zengrf/kiwari-slides/tree/a0be327572f2fec8a6080bb74e1334442db57927"
+            >Kiwari</a
+          >
+          · original CSS, textures &amp; fonts.
+        </p>
       </footer>
     </div>
     <noscript

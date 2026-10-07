@@ -12,6 +12,7 @@ import tempfile
 
 from build_pie_corpus import ROOT, encoded
 from build_research_examples import build
+from verify_theme import verify as verify_theme
 from explore_reconstructions import BIN, strict_read, VOICE
 from research import (
     checked,
@@ -28,6 +29,7 @@ def digest(value):
 
 
 def verify(binary_dir=BIN):
+    verify_theme()
     for name, value in build().items():
         assert (EXAMPLES / name).read_bytes() == encoded(value), name
     matrices = 0
@@ -288,7 +290,7 @@ def verify(binary_dir=BIN):
     assert len(theorem_names) == 20
     names = [
         str(p.relative_to(ROOT))
-        for pattern in ["lean/**/*.lean", "data/research/*.json", "web/*"]
+        for pattern in ["lean/**/*.lean", "data/research/*.json", "web/**/*"]
         for p in ROOT.glob(pattern)
         if ".lake" not in p.parts and p.is_file()
     ]
@@ -298,6 +300,11 @@ def verify(binary_dir=BIN):
         "scripts/build_research_examples.py",
         "scripts/verify_research.py",
         "scripts/serve_ui.py",
+        "scripts/workbench_labels.py",
+        "scripts/verify_theme.py",
+        "data/pie/corpus.json",
+        "data/pie/latin-control-frozen.json",
+        "data/kuki-chin/corpus.json",
         "scripts/verify_ui.py",
         "tests/test_research.py",
         "scripts/explore_reconstructions.py",

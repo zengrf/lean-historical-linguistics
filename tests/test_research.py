@@ -28,6 +28,7 @@ from build_research_examples import (
 from build_pie_corpus import ROOT, encoded
 from research import checked, matrix_analysis, IncompleteSearch, explore_chronology
 from serve_ui import (
+    constrained_bounds,
     browse,
     make_server,
     run_request,
@@ -265,6 +266,57 @@ class InterfaceTests(unittest.TestCase):
             d = describe(dict(key=key))
             self.assertTrue(d["request"])
             self.assertEqual(d["kind"], EXAMPLE_INFO[key][0])
+
+    def test_friendly_labels_preserve_source_identifiers(self):
+        d = describe(dict(dataset="pie", case="set-21"))
+        self.assertIn("dog", d["title"].lower())
+        self.assertEqual(d["axes"][0]["id"], "iecor-form-81-31-1")
+        self.assertEqual(d["axes"][0]["label"], "Tocharian A")
+        self.assertEqual(d["hypotheses"][0]["id"], "identity")
+
+    def test_bounds_change_search_space_without_mutating_models(self):
+        request = describe(dict(key="voice"))["request"]
+        original = deepcopy(request)
+        narrowed = constrained_bounds(
+            request, dict(proto_inventory=["p"], max_length=3), ["N-anticausative"]
+        )
+        self.assertEqual(request, original)
+        self.assertEqual(narrowed["analyses"], original["analyses"])
+        self.assertEqual(narrowed["proto_inventory"], ["p"])
+        self.assertEqual(narrowed["max_length"], 3)
+
+    def test_unsupported_or_excessive_bounds_are_errors(self):
+        request = describe(dict(key="voice"))["request"]
+        for inventory, length in [
+            ([], 1),
+            (["x"], 1),
+            (["p", "p"], 1),
+            (["p"], True),
+            (["p"], -1),
+            (["p"], 17),
+            (["p", "b"], 10),
+        ]:
+            with self.assertRaises(ValueError):
+                constrained_bounds(
+                    request,
+                    dict(proto_inventory=inventory, max_length=length),
+                    ["N-anticausative"],
+                )
+        with self.assertRaisesRegex(ValueError, "only to bounded"):
+            run_request(dict(kind="paradigm", key="tones", bounds={}))
+
+    def test_original_theme_assets_are_pinned_and_served(self):
+        from verify_theme import verify
+
+        manifest = verify()
+        self.assertEqual(
+            manifest["repository"], "https://github.com/zengrf/kiwari-slides"
+        )
+        for path in ["slides.css", "materials.css", "lib/fonts/font-0.ttf"]:
+            with urlopen(self.url + "/vendor/kiwari/" + path) as response:
+                self.assertEqual(
+                    response.read(), (ROOT / "web/vendor/kiwari" / path).read_bytes()
+                )
 
     def test_empty_hypothesis_selection_and_unknown_fields_fail(self):
         for body in [

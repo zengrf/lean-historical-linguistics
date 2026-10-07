@@ -166,7 +166,7 @@ document.querySelectorAll("[role=tab]").forEach((tab, index, tabs) => {
 });
 document.querySelectorAll('input[name="theme"]').forEach((radio) =>
   radio.addEventListener("change", () => {
-    document.documentElement.dataset.theme = radio.value;
+    document.documentElement.dataset.time = radio.value;
     try {
       localStorage.setItem("comparative-theme", radio.value);
     } catch {}
@@ -175,15 +175,111 @@ document.querySelectorAll('input[name="theme"]').forEach((radio) =>
 try {
   const theme = localStorage.getItem("comparative-theme");
   if (["day", "dusk", "night"].includes(theme)) {
-    document.documentElement.dataset.theme = theme;
+    document.documentElement.dataset.time = theme;
     document.querySelector(`input[name="theme"][value="${theme}"]`).checked =
       true;
   }
 } catch {}
 
+function axisName(id) {
+  return (
+    state.current?.axes.find((a) => a.id === id)?.label ||
+    id.replaceAll("-", " ")
+  );
+}
+function analysisName(id) {
+  return state.current?.hypotheses.find((a) => a.id === id)?.label || id;
+}
+// Group exact proto-forms, retaining the complete checked histories beneath each.
+function canonical(value) {
+  if (Array.isArray(value)) return value.map(canonical);
+  if (value && typeof value === "object")
+    return Object.fromEntries(
+      Object.keys(value)
+        .sort()
+        .map((k) => [k, canonical(value[k])]),
+    );
+  return value;
+}
+function reconstructionGroups(r) {
+  const ids = new Set(r.analysis.survivors),
+    groups = new Map();
+  r.histories
+    .filter((h) => ids.has(h.id))
+    .forEach((h) => {
+      const key = JSON.stringify(canonical(h.protoform));
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(h);
+    });
+  return [...groups.values()];
+}
+function candidateForms(c) {
+  if (c.kind === "paradigm") return c.request.pool;
+  if (c.kind === "pool") return (c.request.batch || c.request).inverse[0].pool;
+  return [];
+}
+function updateQuery() {
+  const c = state.current;
+  if (!c) return;
+  const hypotheses = chosen("hypothesis"),
+    selected = chosen("observation");
+  let count, space;
+  if (c.kind === "bounded") {
+    const length = Number($("max-length").value);
+    const alphabet =
+      chosen("segment").length + Number(c.request.allow_morphemes);
+    const valid = Number.isInteger(length) && length >= 0 && length <= 16;
+    count = valid
+      ? Array.from({ length: length + 1 }, (_, i) => alphabet ** i).reduce(
+          (a, b) => a + b,
+          0,
+        )
+      : null;
+    space = valid
+      ? `${count.toLocaleString()} token sequences, from length 0 to ${length}`
+      : "Choose a maximum length from 0 to 16";
+    $("space-description").textContent =
+      space +
+      (c.request.allow_morphemes ? "; morpheme boundaries included." : ".");
+  } else {
+    count = candidateForms(c).length;
+    space = `${count} candidate ${c.key === "tones" ? "tone categories" : "forms"} in the supplied pool`;
+    $("space-description").textContent =
+      space + ". Open the list below to inspect the whole search space.";
+  }
+  const names = selected.map(axisName).join(", ");
+  $("query-summary").textContent = !hypotheses.length
+    ? "Select at least one analysis."
+    : `Test ${space} under ${hypotheses.length} allowed ${hypotheses.length === 1 ? "analysis" : "analyses"}. ` +
+      (selected.length
+        ? `Require a match to ${names}.`
+        : "No daughter forms are required; every candidate is allowed under each selected analysis.");
+}
+function showSpace(data) {
+  $("word-bounds").hidden = data.kind !== "bounded";
+  $("pool-preview").hidden = data.kind === "bounded";
+  $("segment-options").replaceChildren();
+  if (data.kind === "bounded") {
+    data.request.proto_inventory.forEach((x) =>
+      $("segment-options").append(checkRow("segment", x, x, "")),
+    );
+    $("max-length").value = data.request.max_length;
+    document
+      .querySelectorAll('input[name="segment"]')
+      .forEach((x) => x.addEventListener("change", markChanged));
+  } else
+    $("pool-forms").textContent = candidateForms(data)
+      .map((x) => "*" + form(x))
+      .join(" · ");
+  updateQuery();
+}
 function markChanged() {
   state.revision++;
   $("export").disabled = true;
+  // A changed query can be run even if the superseded request is still finishing.
+  $("run").disabled = !state.current;
+  $("results").setAttribute("aria-busy", "false");
+  updateQuery();
   if (state.result) {
     status(
       "run-status",
@@ -192,10 +288,10 @@ function markChanged() {
     $("results").replaceChildren(
       append(
         element("div", null, "empty-state"),
-        element("h3", "Ready for another comparison"),
+        element("h3", "Ready to enumerate again"),
         element(
           "p",
-          "The observations or hypotheses have changed. Enumerate again to see the new result.",
+          "The constraints have changed. Enumerate again to see every form they now allow.",
         ),
       ),
     );
@@ -204,34 +300,55 @@ function markChanged() {
 }
 function fillCases() {
   const collection = $("collection").value;
+  const previous = $("case").value;
   $("case").replaceChildren();
   let options;
   if (collection === "worked")
     options = state.catalogue.examples
       .filter((x) => x.kind !== "chronology")
       .map((x) => [x.key, x.title]);
-  else {
-    const queries = state.catalogue.pools.find(
-      (p) => p.id === collection,
-    ).queries;
+  else
     options = [
-      ...new Set(
-        queries.filter((q) => q.scope === "all-groups").map((q) => q.case),
-      ),
-    ].map((c) => [c, c]);
-  }
+      ...new Map(
+        state.catalogue.pools
+          .find((p) => p.id === collection)
+          .queries.filter((q) => q.scope === "all-groups")
+          .map((q) => [q.case, q.title]),
+      ).entries(),
+    ];
+  const query = $("case-search").value.trim().toLocaleLowerCase();
+  options = options.filter(([id, title]) =>
+    (title + " " + id).toLocaleLowerCase().includes(query),
+  );
   options.forEach(([value, label]) => {
     const o = element("option", label);
     o.value = value;
     $("case").append(o);
   });
-  loadCase();
+  $("case-search-status").textContent =
+    `${options.length} ${options.length === 1 ? "choice" : "choices"}`;
+  $("case").disabled = !options.length;
+  if (options.some(([value]) => value === previous)) $("case").value = previous;
+  if (options.length) loadCase();
+  else {
+    markChanged();
+    state.current = null;
+    $("run").disabled = true;
+    status(
+      "run-status",
+      "No matching material. Try another word or clear the search.",
+    );
+    $("query-summary").textContent = "Choose material to set constraints.";
+    $("hypothesis-options").replaceChildren();
+    $("observation-options").replaceChildren();
+  }
 }
 async function loadCase() {
   markChanged();
   const revision = state.revision;
+  state.current = null;
   $("run").disabled = true;
-  status("run-status", "Loading the declared models…");
+  status("run-status", "Loading the analyses and daughter forms…");
   try {
     const params = new URLSearchParams(
       $("collection").value === "worked"
@@ -241,11 +358,11 @@ async function loadCase() {
     const data = await api("/api/case?" + params);
     if (revision !== state.revision) return;
     showCase(data);
-    status("run-status", "Ready. All displayed assumptions are explicit.");
+    status("run-status", "Ready to enumerate with these constraints.");
   } catch (e) {
     status("run-status", e.message, true);
   } finally {
-    if (revision === state.revision) $("run").disabled = false;
+    if (revision === state.revision) $("run").disabled = !state.current;
   }
 }
 function showCase(data) {
@@ -261,19 +378,22 @@ function showCase(data) {
   $("case-description").textContent = data.description;
   $("hypothesis-options").replaceChildren();
   $("observation-options").replaceChildren();
-  data.hypotheses.forEach((h) =>
-    $("hypothesis-options").append(checkRow("hypothesis", h.id, h.id, h.label)),
-  );
+  data.hypotheses.forEach((h) => {
+    const row = checkRow("hypothesis", h.id, h.label, "");
+    row.title = h.description || h.id;
+    $("hypothesis-options").append(row);
+  });
   data.axes.forEach((a) => {
     const row = checkRow(
       "observation",
       a.id,
-      a.id,
+      a.label || axisName(a.id),
       form(a.expected),
       data.defaults?.includes(a.id) ?? a.observed,
       !a.observed,
     );
     row.querySelector("small")?.classList.add("observation-form");
+    row.title = a.source_ref || a.id;
     $("observation-options").append(row);
   });
   const note = $("reading-note");
@@ -293,13 +413,14 @@ function showCase(data) {
   document
     .querySelectorAll("#hypothesis-options input,#observation-options input")
     .forEach((c) => c.addEventListener("change", markChanged));
+  showSpace(data);
 }
 function activeBody() {
   const c = state.current;
   if (!c) throw new Error("Choose a case first.");
   const hypotheses = chosen("hypothesis");
   if (!hypotheses.length)
-    throw new Error("Select at least one whole hypothesis.");
+    throw new Error("Select at least one allowed analysis.");
   const budget = Number($("subset-budget").value);
   if (!Number.isInteger(budget) || budget < 0 || budget > 4096)
     throw new Error(
@@ -313,6 +434,14 @@ function activeBody() {
         ? { key: c.key }
         : { dataset: c.dataset, case: c.case, scope: c.scope }),
     hypotheses,
+    ...(c.kind === "bounded"
+      ? {
+          bounds: {
+            proto_inventory: chosen("segment"),
+            max_length: Number($("max-length").value),
+          },
+        }
+      : {}),
     selected: chosen("observation"),
     subset_budget: budget,
   };
@@ -335,8 +464,8 @@ async function runEvidence() {
     status(
       "run-status",
       data.result.complete
-        ? "Enumeration checked. Inspect or export the complete result."
-        : "Conflict enumeration is incomplete. Increase the subset budget to exhaust it.",
+        ? "Every allowed reconstruction is listed. Open a form to inspect its analyses."
+        : "Reconstruction enumeration is complete. The search for conflicting constraints is incomplete.",
     );
   } catch (e) {
     if (revision === state.revision) {
@@ -347,8 +476,10 @@ async function runEvidence() {
       status("run-status", e.message, true);
     }
   } finally {
-    $("run").disabled = false;
-    $("results").setAttribute("aria-busy", "false");
+    if (revision === state.revision) {
+      $("run").disabled = !state.current;
+      $("results").setAttribute("aria-busy", "false");
+    }
   }
 }
 function traceLine(before, after, name) {
@@ -427,16 +558,83 @@ function appendTrace(box, trace, input) {
       ),
     );
 }
+function historyView(h, r) {
+  const details = element("details", null, "history-details");
+  details.dataset.history = h.id;
+  details.append(
+    element(
+      "summary",
+      analysisName(h.analysis_id) + " · predictions & derivation",
+    ),
+  );
+  details.addEventListener("toggle", () => {
+    if (!details.open || details.dataset.loaded) return;
+    details.dataset.loaded = "true";
+    const table = element("table", null, "prediction-table");
+    table.append(
+      append(
+        element("thead"),
+        append(
+          element("tr"),
+          ...["Daughter form", "Predicted", "Required"].map((x) =>
+            element("th", x),
+          ),
+        ),
+      ),
+    );
+    const body = element("tbody");
+    r.axes.forEach((axis, i) =>
+      body.append(
+        append(
+          element("tr"),
+          element("td", axisName(axis.id)),
+          element("td", form(h.predictions[i]), "form"),
+          element(
+            "td",
+            r.selected.includes(axis.id)
+              ? "✓ " +
+                  form(
+                    h.observations?.[i]?.form ??
+                      h.observations?.[i] ??
+                      axis.expected,
+                  )
+              : "Unconstrained",
+          ),
+        ),
+      ),
+    );
+    table.append(body);
+    details.append(append(element("div", null, "table-wrap"), table));
+    const traces = element("div", null, "derivations");
+    h.certificates.forEach((c, i) =>
+      traces.append(certificateView(c, axisName(r.axes[i].id))),
+    );
+    append(
+      details,
+      element("p", h.analysis_id, "analysis-id"),
+      traces,
+      element("p", h.source_scope, "footnote"),
+    );
+  });
+  return details;
+}
 function renderEvidence(r) {
-  const box = $("results");
+  const box = $("results"),
+    a = r.analysis,
+    groups = reconstructionGroups(r);
   box.replaceChildren();
-  const a = r.analysis;
   const by = new Map(r.histories.map((h) => [h.id, h]));
   const summary = element("div", null, "result-summary");
+  summary.dataset.forms = groups.length;
   [
-    [a.survivors.length, "surviving histories"],
-    [a.equivalence_classes.length, "prediction classes"],
-    [r.histories.length, "declared histories"],
+    [
+      groups.length,
+      groups.length === 1
+        ? "allowed reconstruction"
+        : "allowed reconstructions",
+    ],
+    [a.survivors.length, "compatible form–analysis combinations"],
+    [r.histories.length, "combinations checked"],
   ].forEach(([n, label]) =>
     summary.append(
       append(
@@ -446,132 +644,166 @@ function renderEvidence(r) {
       ),
     ),
   );
+  // A successful API result exhausts the underlying candidate space. The matrix's
+  // `complete` field additionally covers conflict diagnosis, a separate search.
   summary.append(
     element(
       "p",
-      r.complete
-        ? "✓ Complete within the declared finite space"
-        : "Partial conflict search · completion not established",
-      "completion" + (r.complete ? "" : " incomplete"),
+      "✓ All allowed forms in this finite search space are listed.",
+      "completion",
     ),
   );
   box.append(summary);
-  if (!a.survivors.length) {
-    box.append(
-      heading(
-        "Minimal conflicting evidence",
-        `${a.subsets_examined} / ${a.subset_space} subsets examined`,
-      ),
-    );
+  box.append(
+    element(
+      "p",
+      r.selected.length
+        ? "Must match: " +
+            r.selected
+              .map((id) => {
+                const axis = state.current.axes.find((a) => a.id === id);
+                return axisName(id) + " = " + form(axis.expected);
+              })
+              .join("; ") +
+            "."
+        : "No daughter forms are required. The list contains the entire chosen candidate space.",
+      "result-query",
+    ),
+  );
+  if (!groups.length) {
+    box.append(heading("No reconstruction matches these constraints", ""));
     box.append(
       element(
         "p",
-        "No declared history satisfies all selected observations. Each set below is inconsistent; deleting any one of its observations makes that set satisfiable.",
-        "footnote",
+        "Try allowing another analysis or unchecking a required daughter form. Each conflict below identifies constraints that cannot hold together within this search space.",
       ),
     );
     const list = element("ul", null, "conflict-list");
-    a.minimal_conflicts.forEach((core) =>
-      list.append(
-        append(
-          element("li"),
-          element("span", core.map((i) => r.axes[i].label).join(" + ")),
-          element(
-            "small",
-            "Minimal by inclusion within the selected hypothesis and candidate space",
-          ),
+    a.minimal_conflicts.forEach((core) => {
+      const row = element("li");
+      row.append(
+        element("span", core.map((i) => axisName(r.axes[i].id)).join(" + ")),
+      );
+      const actions = element("div", null, "selection-actions");
+      core.forEach((i) => {
+        const id = r.axes[i].id,
+          button = element("button", "Uncheck " + axisName(id), "quiet");
+        button.type = "button";
+        button.addEventListener("click", () => {
+          const input = [
+            ...document.querySelectorAll('input[name="observation"]'),
+          ].find((x) => x.value === id);
+          input.checked = false;
+          markChanged();
+          $("run").focus();
+        });
+        actions.append(button);
+      });
+      append(
+        row,
+        element(
+          "small",
+          "Minimal conflict: removing any one of these forms makes this subset satisfiable.",
         ),
-      ),
-    );
+        actions,
+      );
+      list.append(row);
+    });
     box.append(list);
     if (!a.conflicts_complete)
       box.append(
         element(
           "p",
-          "The subset budget was exhausted. This list may omit other minimal conflicts.",
-          "source-note",
+          "Conflict diagnosis is incomplete: " +
+            a.subsets_examined +
+            " of " +
+            a.subset_space +
+            " subsets examined. Increase the diagnostic budget to find all minimal conflicts. The empty reconstruction result above is complete.",
+          "source-note incomplete",
         ),
       );
   } else {
     box.append(
       heading(
-        "Surviving reconstructions",
-        "Open a history to inspect its derivations",
+        "Allowed reconstructions",
+        "Open a form to see which analyses allow it",
       ),
     );
-    a.survivors.forEach((id) => {
-      const h = by.get(id),
-        d = element("details", null, "candidate");
-      d.dataset.history = id;
+    groups.forEach((histories) => {
+      const d = element("details", null, "candidate"),
+        modelCount = new Set(histories.map((h) => h.analysis_id)).size;
       append(
         d,
         append(
           element("summary"),
-          element("span", "*" + form(h.protoform), "proto"),
-          element("span", h.analysis_id, "candidate-id"),
+          element("span", "*" + form(histories[0].protoform), "proto"),
+          element(
+            "span",
+            modelCount +
+              " allowed " +
+              (modelCount === 1 ? "analysis" : "analyses"),
+            "candidate-id",
+          ),
         ),
       );
       d.addEventListener("toggle", () => {
         if (!d.open || d.dataset.loaded) return;
         d.dataset.loaded = "true";
-        const traces = element("div", null, "derivations");
-        h.certificates.forEach((c, i) =>
-          traces.append(certificateView(c, r.axes[i].label)),
-        );
-        traces.append(element("p", h.source_scope, "footnote"));
-        d.append(traces);
+        histories.forEach((h) => d.append(historyView(h, r)));
       });
       box.append(d);
     });
-    box.append(
+    const diagnostics = element("details", null, "diagnostics");
+    diagnostics.append(
+      element(
+        "summary",
+        "Compare predictions & find useful additional evidence",
+      ),
+    );
+    diagnostics.append(
       heading(
-        "Observational equivalence",
-        "Hypothesis identities are retained",
+        "Analyses with the same selected predictions",
+        a.equivalence_classes.length + " groups",
       ),
     );
     a.equivalence_classes.forEach((group, i) => {
-      const row = element("div", null, "equivalence-row");
-      append(
-        row,
-        element("b", `Class ${i + 1} · ${group.histories.length} histories`),
-        element(
-          "div",
-          group.histories
-            .map(
-              (id) =>
-                "*" +
-                form(by.get(id).protoform) +
-                " [" +
-                by.get(id).analysis_id +
-                "]",
-            )
-            .join("; "),
+      diagnostics.append(
+        append(
+          element("div", null, "equivalence-row"),
+          element(
+            "b",
+            `Group ${i + 1} · ${group.histories.length} form–analysis combinations`,
+          ),
+          element(
+            "div",
+            group.histories
+              .map(
+                (id) =>
+                  "*" +
+                  form(by.get(id).protoform) +
+                  " [" +
+                  analysisName(by.get(id).analysis_id) +
+                  "]",
+              )
+              .join("; "),
+          ),
         ),
       );
-      row.append(
-        element(
-          "div",
-          r.selected.length
-            ? "Same prediction on: " + r.selected.join(", ")
-            : "No observations selected: all declared histories are equivalent on the empty observation set.",
-        ),
-      );
-      box.append(row);
     });
-    box.append(
+    diagnostics.append(
       heading(
-        "Discriminating predictions",
-        "Withheld observations & unobserved probes",
+        "What else would distinguish these reconstructions?",
+        "Unchecked forms & unobserved forms",
       ),
     );
     const probes = [...a.probes].sort(
       (l, r) => r.distinguished_pairs - l.distinguished_pairs,
     );
     if (!probes.length)
-      box.append(
+      diagnostics.append(
         element(
           "p",
-          "All available observations are selected. Withhold one to examine its predicted outcomes.",
+          "All available daughter forms are required. Uncheck one to compare its predictions.",
           "footnote",
         ),
       );
@@ -582,11 +814,8 @@ function renderEvidence(r) {
         d,
         append(
           element("summary"),
-          element("span", r.axes[p.axis].label),
-          element(
-            "small",
-            p.distinguished_pairs + " history pairs distinguished",
-          ),
+          element("span", axisName(r.axes[p.axis].id)),
+          element("small", p.distinguished_pairs + " pairs distinguished"),
         ),
       );
       p.partitions.forEach((part) =>
@@ -602,7 +831,7 @@ function renderEvidence(r) {
                     "*" +
                     form(by.get(id).protoform) +
                     " [" +
-                    by.get(id).analysis_id +
+                    analysisName(by.get(id).analysis_id) +
                     "]",
                 )
                 .join("; "),
@@ -614,19 +843,20 @@ function renderEvidence(r) {
         d.append(
           element(
             "p",
-            "This observation would not distinguish the surviving histories.",
+            "This form would not distinguish the surviving combinations.",
             "footnote",
           ),
         );
-      box.append(d);
+      diagnostics.append(d);
     });
-    box.append(
+    diagnostics.append(
       element(
         "p",
-        "Pair counts compare the declared histories. They are not probabilities, evidence weights or a measure of historical plausibility.",
+        "These comparisons preserve analysis identities. Pair counts are not probabilities or evidence weights.",
         "footnote",
       ),
     );
+    box.append(diagnostics);
   }
   box.append(
     rawDetails(
@@ -636,7 +866,7 @@ function renderEvidence(r) {
         matrix: r.matrix,
         analysis: r.analysis,
       },
-      "Evidence matrix & completeness record",
+      "Inspect the checked evidence matrix & completeness record",
     ),
   );
 }
@@ -931,6 +1161,10 @@ async function importFile(file, kind, chronology = false) {
   imported.disabled = true;
   $("collection").append(imported);
   $("collection").value = "imported";
+  $("case-search").value = "";
+  $("case-search").disabled = true;
+  $("case-search-status").textContent = "Imported specification";
+  $("case").disabled = false;
   $("case").replaceChildren(element("option", request.id));
   showCase({
     kind,
@@ -953,7 +1187,29 @@ async function importFile(file, kind, chronology = false) {
   );
 }
 
-$("collection").addEventListener("change", fillCases);
+$("collection").addEventListener("change", () => {
+  $("case-search").value = "";
+  $("case-search").disabled = false;
+  fillCases();
+});
+$("case-search").addEventListener("input", fillCases);
+$("max-length").addEventListener("input", markChanged);
+$("reset-constraints").addEventListener("click", () => {
+  if (!state.current) return;
+  markChanged();
+  showCase(state.current);
+  status("run-status", "Default constraints restored. Ready to enumerate.");
+});
+for (const [id, value] of [
+  ["observations-all", true],
+  ["observations-none", false],
+])
+  $(id).addEventListener("click", () => {
+    document
+      .querySelectorAll('input[name="observation"]:not(:disabled)')
+      .forEach((x) => (x.checked = value));
+    markChanged();
+  });
 $("case").addEventListener("change", loadCase);
 $("subset-budget").addEventListener("change", markChanged);
 $("run").addEventListener("click", runEvidence);

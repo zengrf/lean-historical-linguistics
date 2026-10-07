@@ -16,8 +16,11 @@ and [formal architecture](docs/02-formal-architecture.md) for these distinctions
 The [research workbench](docs/14-research-workbench.md) now supports minimal
 conflicting evidence, discriminating predictions, observational equivalence,
 chronology enumeration, and linked morphology and tone. Its browser interface
-uses the paper, cedar and vermilion palette of [zengrf.github.io](https://zengrf.github.io),
-with day/dusk/night settings, source browsing and query/result export.
+directly uses the original CSS, textures and fonts from [Kiwari](https://github.com/zengrf/kiwari-slides),
+pinned with file hashes and licenses. Choose material, select allowed analyses
+and required daughter forms, and enumerate every allowed reconstruction in
+the displayed finite search space. Results group the same proto-form across
+compatible analyses; bounded models also expose segment and length controls.
 After the setup and Lean build below, run `python scripts/serve_ui.py` and open
 <http://127.0.0.1:8765>. See the [desktop preview](reports/ui/desktop.png) and
 [mobile preview](reports/ui/mobile.png).

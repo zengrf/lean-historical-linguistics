@@ -27,24 +27,68 @@ no frontend build tool or external font service. Reconstruction requests run
 the compiled Lean programs and compare their outputs with Python. A missing
 binary produces an error, never a substitute result.
 
-The interface follows the paper backgrounds, continuous cedar frame,
-vermilion links, serif typography, and day/dusk/night settings of
-[zengrf.github.io](https://github.com/zengrf/zengrf.github.io), inspected at
-commit `749b631`. It is a separate application in this repository. No changes
-to the personal website are needed. Layouts accommodate narrow screens;
-tabs support arrow keys, Home and End; controls have labels and visible focus.
-These checks are a starting point for accessibility review, not a claim of
-complete accessibility certification.
+The interface loads the original styles, textures and bundled Garamond fonts
+from [Kiwari](https://github.com/zengrf/kiwari-slides/tree/a0be327572f2fec8a6080bb74e1334442db57927),
+the reusable toolkit for the personal website's aesthetic. The 11 upstream
+files in `web/vendor/kiwari` are unmodified and pinned to commit
+`a0be327572f2fec8a6080bb74e1334442db57927`. The source URL and SHA-256 hashes
+are in [upstream.json](../web/vendor/kiwari/upstream.json); MIT and font OFL
+licenses are retained. `python scripts/verify_theme.py` checks the complete
+file inventory, hashes, font paths and stylesheet imports. The app loads the
+upstream CSS directly, with no separate copy of its palette or textures.
+[style.css](../web/style.css) adapts the slide dimensions to a scrolling
+application and lays out the controls; the original paper, timber, lattice,
+font families and `data-time` day/dusk/night colors come from the toolkit.
+Layouts accommodate narrow screens; tabs support arrow keys, Home and End.
 
-In **Evidence & reconstructions**, choose a worked example or one of the four
-registered pool collections. Select whole hypotheses and the observations
-to use. Withholding an observation leaves its predictions available for
-comparison. A new selection clears the previous result. Open a surviving
-history to inspect its derivations; unchanged rule passes remain in its full
-certificate. Export downloads the submitted query, selected observations,
-input specification, complete histories and checked result. Specifications
-can also be imported from JSON; duplicate keys and non-JSON constants are
-rejected before interpretation.
+In **Reconstruct**, use the three numbered steps:
+
+1. **Choose the material.** Search by meaning or example name, then select a
+   word or worked example. Pool titles and daughter-language labels come from
+   the retained sources; original IDs remain in requests and exports.
+2. **Set the constraints.** Allowed analyses are alternatives (OR). Required
+   daughter forms are joint requirements (AND), evaluated under the same
+   analysis. Unchecked forms impose no constraint. Require all/none and reset
+   controls make these choices explicit. The candidate space is visible:
+   inspect every member of a source pool, or set allowed proto-segments and
+   maximum token length for a bounded model. The latter includes the empty
+   word and every shorter sequence; a morpheme boundary counts as one token.
+3. **Enumerate all allowed reconstructions.** The query summary states what
+   will be tested. Results list each distinct proto-form once, with all its
+   compatible analyses and their derivations beneath it. Equality for this
+   display uses exact structured proto-forms, not their rendered spelling.
+   Counts also report form–analysis combinations, so distinct analyses remain
+   identifiable. Unchanged rule passes remain in full certificates.
+
+For example, the default tone query requires Hakha Lai F and permits both
+source readings: it returns **three tonal reconstructions** represented by
+five form–analysis combinations. Requiring Mizo R leaves **one tonal
+reconstruction**, still permitted by both analyses. These results enumerate
+source-specific tonal categories, not complete proto-language words.
+
+Every successful reconstruction query exhausts its specified finite candidate
+space. Conflict diagnosis is a separate subset search: a curtailed diagnostic
+budget does not make an already exhaustive empty reconstruction result
+partial. Its possibly incomplete conflict list is labeled separately. A
+conflict's **Uncheck** control changes that requirement and clears the old
+result; it does not silently run a modified query. Prediction comparisons and
+the evidence matrix are available below the primary result list.
+
+Bounded controls may select a subset of the model's proto-segment inventory
+and a maximum length from 0 to 16. The server rejects an empty inventory,
+unsupported segments and more than 1,024 form–analysis combinations before
+execution. It changes only the input word space and runtime candidate budget;
+branch rule packages stay intact. The effective specification goes through
+the existing native enumerator and independent interpreter. Original bounds
+are restored by reset.
+
+Changing a constraint clears the prior result and disables its export;
+superseded requests cannot populate results for newer selections. Export
+contains the submitted query, effective input specification, complete
+histories and checked result. **Advanced** offers the diagnostic budget and
+JSON import/export; duplicate keys and non-JSON constants are rejected.
+These browser checks are a starting point for accessibility review, not a
+claim of complete accessibility certification.
 
 In **Chronology**, choose precedences between the declared rule blocks.
 Every permitted order is evaluated on the declared probes. In **Source
@@ -228,9 +272,12 @@ failures return 1 and invocation/I/O failures return 2.
 | Equivalence classes | Equivalence and membership theorems; history identities retained; empty-domain and unobserved-component tests |
 | Chronology | Enumeration and precedence theorems; all 874 permutations across sizes 0–6; source-inspired derivations, counterfeeding order and cycle controls |
 | Morphology and tone | Five semantic theorems; source-worked tones and lexical stems; synthetic affixation, stage conditioning and missing-tone controls |
-| Interface and reproducibility | Real-browser operations against Lean, JSON import/export, source pagination, keyboard tabs, responsive widths and theme checks; saved screenshots and input hashes |
+| Constraint interface | OR across selected whole analyses; AND across required forms; editable bounded word space executed in Lean; distinct proto-forms retain all compatible histories; explicit conflict relaxation; changed inputs invalidate results |
+| Theme reuse | Eleven byte-for-byte Kiwari files, source commit and SHA-256 manifest, MIT/OFL licenses; browser checks confirm original texture CSS and actual local font loading |
+| Interface and reproducibility | Real-browser operations against Lean, JSON import/export, source search/pagination, keyboard tabs, four responsive widths and theme checks; saved screenshots and input hashes |
 
 ```bash
+python scripts/verify_theme.py
 python scripts/build_research_examples.py --check
 python -m unittest discover -s tests -p test_research.py -v
 python scripts/verify_research.py --check

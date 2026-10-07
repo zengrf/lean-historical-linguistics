@@ -5,6 +5,7 @@ The server binds only to loopback and serves only the web directory and public P
 """
 
 import argparse
+from copy import deepcopy
 from functools import lru_cache
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
@@ -16,6 +17,7 @@ from urllib.parse import parse_qs, unquote, urlsplit
 from build_pie_corpus import ROOT, encoded
 from explore_reconstructions import catalogue, SOURCES, select_pool, strict_read, VOICE
 from materials import search
+from workbench_labels import analysis_label, axis_label, case_labels
 from research import (
     EXAMPLES,
     IncompleteSearch,
@@ -73,6 +75,7 @@ FAMILIES = {
 JOBS = threading.BoundedSemaphore(2)
 
 
+@lru_cache(maxsize=1)
 def public_catalogue():
     return dict(
         examples=[
@@ -80,7 +83,14 @@ def public_catalogue():
             for k, v in EXAMPLE_INFO.items()
         ],
         pools=[
-            dict(id=d, label=label, queries=catalogue(d))
+            dict(
+                id=d,
+                label=label,
+                queries=[
+                    dict(q, title=case_labels(d, q["case"])["title"])
+                    for q in catalogue(d)
+                ],
+            )
             for d, label in FAMILIES.items()
         ],
         coverage=strict_read(ROOT / "data/materials/coverage.json"),
@@ -107,12 +117,16 @@ def describe(request):
             )
         a = data["analyses"][0]
         hypotheses = [
-            dict(id=a["id"], label=a["description"]) for a in data["analyses"]
+            dict(
+                id=a["id"], label=analysis_label(a["id"]), description=a["description"]
+            )
+            for a in data["analyses"]
         ]
         if kind == "paradigm":
             axes = [
                 dict(
                     id=c["id"],
+                    label=axis_label(c["id"]),
                     expected=c["expected"],
                     source_ref=c["source_ref"],
                     observed=all(
@@ -125,6 +139,7 @@ def describe(request):
             axes = [
                 dict(
                     id=o["doculect_id"],
+                    label=axis_label(o["doculect_id"]),
                     expected=o["form"],
                     source_ref=o["source_ref"],
                     observed=all(
@@ -157,6 +172,7 @@ def describe(request):
         request.get("scope", "all-groups"),
     )
     data = select_pool(dataset, case, scope=scope)
+    labels = case_labels(dataset, case)
     batch = data.get("batch", data)
     queries = [
         q for q in catalogue(dataset) if q["case"] == case and q["scope"] == scope
@@ -164,6 +180,9 @@ def describe(request):
     axes = [
         dict(
             id=b["doculect_id"],
+            label=labels["languages"].get(
+                b["doculect_id"], axis_label(b["doculect_id"])
+            ),
             expected=b["expected"],
             observed=True,
             source_ref=f"{dataset}:{case}:{b['doculect_id']}",
@@ -175,14 +194,50 @@ def describe(request):
         dataset=dataset,
         case=case,
         scope=scope,
-        title=case,
+        title=labels["title"],
         subtitle=FAMILIES[dataset],
         request=data,
-        hypotheses=[dict(id=q["hypothesis"], label=q["hypothesis"]) for q in queries],
+        hypotheses=[
+            dict(id=q["hypothesis"], label=analysis_label(q["hypothesis"]))
+            for q in queries
+        ],
         axes=axes,
         defaults=[a["id"] for a in axes],
         description="Enumerate the declared source pool under selected whole models. Identity and correspondence models are experimental baselines; this is not an unrestricted reconstruction of a language family.",
     )
+
+
+def constrained_bounds(request, bounds, hypotheses):
+    """Change only the finite proto-word space; branch models remain intact."""
+    if not isinstance(bounds, dict) or set(bounds) != {"proto_inventory", "max_length"}:
+        raise ValueError("Provide allowed segments and a maximum length")
+    inventory, length = bounds["proto_inventory"], bounds["max_length"]
+    if (
+        not isinstance(inventory, list)
+        or not inventory
+        or not all(isinstance(x, str) for x in inventory)
+        or len(set(inventory)) != len(inventory)
+        or set(inventory) - set(request["proto_inventory"])
+    ):
+        raise ValueError("Select at least one segment from this model's inventory")
+    if type(length) is not int or not 0 <= length <= 16:
+        raise ValueError("Maximum length must be an integer from 0 to 16")
+    alphabet = len(inventory) + int(request["allow_morphemes"])
+    size = sum(alphabet**i for i in range(length + 1))
+    histories = size * (
+        len(hypotheses) if hypotheses is not None else len(request["analyses"])
+    )
+    if histories > 1024:
+        raise ValueError(
+            f"These bounds require {histories:,} form–analysis combinations; reduce them to at most 1,024"
+        )
+    spec = deepcopy(request)
+    spec.update(
+        proto_inventory=inventory,
+        max_length=length,
+        candidate_budget=max(request["candidate_budget"], histories),
+    )
+    return spec
 
 
 def run_request(body):
@@ -198,14 +253,17 @@ def run_request(body):
         "subset_budget",
         "constraints",
         "choices",
+        "bounds",
     }
     if not isinstance(body, dict) or set(body) - allowed:
         raise ValueError("Unknown request fields")
     kind = body.get("kind")
     if kind not in {"pool", "bounded", "paradigm", "chronology"}:
         raise ValueError("Unknown analysis kind")
+    if "bounds" in body and kind != "bounded":
+        raise ValueError("Word bounds apply only to bounded reconstruction")
     if kind != "chronology" and "hypotheses" in body and not body["hypotheses"]:
-        raise ValueError("Select at least one whole hypothesis")
+        raise ValueError("Select at least one allowed analysis")
     kwargs = dict(
         selected=body.get("selected"), subset_budget=body.get("subset_budget", 4096)
     )
@@ -238,6 +296,8 @@ def run_request(body):
         return explore_chronology(request, body.get("constraints"))
     if kind == "paradigm":
         return analyze_paradigm(request, body.get("hypotheses", ()), **kwargs)
+    if "bounds" in body:
+        request = constrained_bounds(request, body["bounds"], body.get("hypotheses"))
     return analyze_bounded(
         request, body.get("hypotheses", ()), body.get("choices", ()), **kwargs
     )

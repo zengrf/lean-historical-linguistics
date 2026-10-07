@@ -3,9 +3,11 @@
 [research-workbench.json](research-workbench.json) records the five new
 operations: 256 exhaustive matrix comparisons, 874 chronology permutations,
 20 integration executions and 23 rejected requests, with source hashes and
-20 new theorem names. [ui/verification.json](ui/verification.json) records 30
+20 new theorem names. [ui/verification.json](ui/verification.json) records 43
 real-browser checks against the API and compiled Lean, including downloaded
-query/result JSON, imported specifications, keyboard tabs, source pagination,
+query/result JSON, distinct reconstructed forms, editable native word bounds,
+explicit conflict relaxation, original Kiwari CSS/font loading, imported
+specifications, keyboard tabs, source pagination,
 four responsive widths and day/dusk/night settings. Its desktop and mobile
 screenshots were visually inspected. See the [workbench guide](../docs/14-research-workbench.md)
 for precise claims and reproduction commands.
