@@ -220,3 +220,41 @@ import Historical
 #print axioms Historical.LexiconInput.compiled_request_complete
 
 #print axioms Historical.LexiconInput.reference_request_complete
+
+#print axioms Historical.Pruning.mem_distinct
+
+#print axioms Historical.Pruning.language_correct
+
+#print axioms Historical.Pruning.expands_append
+
+#print axioms Historical.Pruning.expands_split
+
+#print axioms Historical.Pruning.expands_reverse
+
+#print axioms Historical.Pruning.output_allowed
+
+#print axioms Historical.Pruning.choices_reverse
+
+#print axioms Historical.Pruning.scan_allowed
+
+#print axioms Historical.Pruning.mirror_choices
+
+#print axioms Historical.Pruning.rule_allowed
+
+#print axioms Historical.Pruning.expands_identity
+
+#print axioms Historical.Pruning.expands_compose
+
+#print axioms Historical.Pruning.run_allowed
+
+#print axioms Historical.Pruning.residuals_allowed
+
+#print axioms Historical.Pruning.fitting_prefix
+
+#print axioms Historical.PrefixSearch.pruned_machine_correct
+
+#print axioms Historical.LexiconInput.viable_prefix
+
+#print axioms Historical.LexiconInput.predicate_viable
+
+#print axioms Historical.LexiconInput.pruned_request_complete

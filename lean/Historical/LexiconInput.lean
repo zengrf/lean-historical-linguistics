@@ -1,4 +1,4 @@
-import Historical.Protolexicon
+import Historical.Pruning
 
 /-! Reflex-only requests and untrusted inverse-graph certificates. Parsing,
 binding, topology and semantic checking all run in the native Lean process. -/
@@ -107,6 +107,30 @@ def predicate (r : Request) (a : Analysis) (e : Entry) (w : Word) : Bool :=
 def wordFits (r : Request) (a : Analysis) (e : Entry) (w : Word) : Bool :=
   w.all (fun x => (alphabet r).contains x) && decide (w.length ≤ r.max_length) && predicate r a e w
 
+def viable : List Branch → List Reflex → Word → Bool
+  | [], [], _ => true
+  | b :: bs, f :: fs, front =>
+      !(Pruning.residuals (Pruning.compile b.package.laws) [mask f] front).isEmpty &&
+        viable bs fs front
+  | _, _, _ => false
+
+theorem viable_prefix (bs : List Branch) (fs : List Reflex) (front suffix : Word)
+    (h : fitsReflexes bs fs (front ++ suffix) = true) : viable bs fs front = true := by
+  induction bs generalizing fs with
+  | nil => cases fs <;> simp_all [fitsReflexes, viable]
+  | cons b bs ih =>
+    cases fs with
+    | nil => simp [fitsReflexes] at h
+    | cons f fs =>
+      have hh := Bool.and_eq_true_iff.mp h
+      have hp := Pruning.fitting_prefix b.package.laws (mask f) front suffix hh.1
+      simp [viable, hp, ih fs hh.2]
+
+theorem predicate_viable (r : Request) (a : Analysis) (e : Entry)
+    (front suffix : Word) (h : predicate r a e (front ++ suffix) = true) :
+    viable a.branches e.reflexes front = true :=
+  viable_prefix _ _ _ _ (Bool.and_eq_true_iff.mp h).2
+
 theorem compiled_reflexes_correct (alphabet : List Atom) (bs : List Branch)
     (fs : List Reflex) (w : Word)
     (hs : bs.all (fun b => Compile.supportedLaws b.package.laws) = true)
@@ -165,6 +189,16 @@ theorem reference_request_complete (r : Request) (a : Analysis) (e : Entry)
     (hi : g[i]? = some n) (hr : n.state = ⟨r.max_length, []⟩) (w : Word) :
     graphAccept (alphabet r) g i w = true ↔ wordFits r a e w = true := by
   rw [PrefixSearch.reference_graph_correct _ _ _ hg i n hi, hr]
+  simp [wordFits, List.all_eq_true, and_assoc]
+
+theorem pruned_request_complete (r : Request) (a : Analysis) (e : Entry)
+    (g : Graph PrefixSearch.State) (i : Nat) (n : Node PrefixSearch.State)
+    (hg : faithful (alphabet r) (PrefixSearch.prunedStep (viable a.branches e.reflexes))
+      (PrefixSearch.finish (predicate r a e)) g = true)
+    (hi : g[i]? = some n) (hr : n.state = ⟨r.max_length, []⟩) (w : Word) :
+    graphAccept (alphabet r) g i w = true ↔ wordFits r a e w = true := by
+  rw [graph_correct _ _ _ _ hg i n hi,
+    PrefixSearch.pruned_machine_correct _ _ _ (predicate_viable r a e), hr]
   simp [wordFits, List.all_eq_true, and_assoc]
 
 structure GraphData where
@@ -230,18 +264,20 @@ def checkForest (f : Forest) : Except String Json := do
       graphCounts := graphCounts.push (← checkGraph (alphabet r) (Inverse.step ts) (Inverse.finish ts) g)
       for (e, b) in r.entries.zip m.bindings do
         if (g[b.root]?.map (·.state)) != some (root r e) then throw "ROOT_BINDING: wrong residual state"
-    else if m.mode == "reference" then
+    else if m.mode == "reference" || m.mode == "pruned" then
       for gi in [:m.graphs.size] do
         let rows := (r.entries.zip m.bindings).filter fun eb => eb.2.graph == gi
         let some first := rows.head? | throw "GRAPH_BINDING: unreferenced graph"
         if !(rows.all fun eb => masks eb.1 == masks first.1) then throw "GRAPH_BINDING: different observations share a reference trie"
         let g ← decodeGraph PrefixSearch.State m.graphs[gi]!
-        graphCounts := graphCounts.push (← checkGraph (alphabet r) PrefixSearch.step
+        let step := if m.mode == "pruned" then
+          PrefixSearch.prunedStep (viable a.branches first.1.reflexes) else PrefixSearch.step
+        graphCounts := graphCounts.push (← checkGraph (alphabet r) step
           (PrefixSearch.finish (predicate r a first.1)) g)
         for (_, b) in rows do
           if (g[b.root]?.map (·.state)) != some (PrefixSearch.State.mk r.max_length []) then
             throw "ROOT_BINDING: wrong reference state"
-    else throw "GRAPH_MODE: expected compiled or reference"
+    else throw "GRAPH_MODE: expected compiled, pruned or reference"
     let mut count := 1
     let mut entries : List Json := []
     for b in m.bindings do

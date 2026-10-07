@@ -56,7 +56,7 @@ class InverseSolverTests(unittest.TestCase):
 
     def test_reference_context(self):
         f = self.agree(contextual())
-        self.assertEqual(f["models"][0]["mode"], "reference")
+        self.assertEqual(f["models"][0]["mode"], "pruned")
 
     def test_compiler_and_reference_exact_agreement(self):
         s = deletion()

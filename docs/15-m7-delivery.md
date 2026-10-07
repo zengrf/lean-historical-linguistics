@@ -47,7 +47,9 @@ available. M5 and M6 still await their family-specialist assessments.
 
 ## What Lean proves and checks
 
-M7 adds 28 theorem declarations; the repository audit now covers 185.
+Original M7 added 28 theorem declarations. The subsequent
+[contextual-pruning extension](16-contextual-pruning.md) adds 19; the repository
+audit now covers 204.
 
 | Module | Result |
 | --- | --- |
@@ -67,8 +69,9 @@ cannot share a trie unless their observation tuples agree.
 
 The compiled fragment is deliberately restricted. A package containing a
 context, an edge condition, or a right-to-left pass uses the original M2
-interpreter in a bounded prefix trie. Nothing in that package is silently
-discarded. This fallback is exact but may exceed the resource budget.
+interpreter in a bounded prefix trie with proved conservative pruning. Nothing
+in that package is silently discarded. The unpruned reference mode remains
+available for comparison. Both searches are exact but may exceed the budget.
 
 The mathematical results are kernel checked. Strict JSON parsing, the
 request-to-graph bindings, native execution, integer counts, pagination, Python

@@ -50,6 +50,8 @@ jobs:
         run: python scripts/verify_ui.py --output "$RUNNER_TEMP/research-ui"
       - name: Verify complete protolexicon graphs and reject corrupted proposals
         run: python scripts/verify_m7.py --check
+      - name: Check conservative contextual pruning and 1000-row scaling
+        run: python scripts/verify_pruning.py --output "$RUNNER_TEMP/contextual-pruning.json"
       - name: Benchmark 1000 distinct reflex rows and 3000 certificates
         run: python scripts/benchmark_m7.py --lean-version "${{ matrix.lean }}" --output "$RUNNER_TEMP/m7-benchmark.json"
       - name: Exercise reflex import, global models and whole-lexicon pagination

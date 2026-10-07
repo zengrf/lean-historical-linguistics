@@ -29,6 +29,36 @@ def output(branch, word):
     return run([law["rule"] for law in branch["package"]["laws"]], list(word))[1]
 
 
+def approximate(branch, alphabet):
+    """Context-free superset only for rejecting impossible input prefixes.
+
+    Lean proves its inclusion of every actual contextual derivation. Terminal
+    nodes still use the complete original rules, including direction and mode.
+    """
+    table = {}
+    for atom in alphabet:
+        images = {(atom,)}
+        for law in branch["package"]["laws"]:
+            r = law["rule"]
+            exact = (
+                not any((r["left"], r["right"], r["left_edge"], r["right_edge"]))
+                and r["direction"] == "left-to-right"
+            )
+            following = set()
+            for word in images:
+                if exact:
+                    following.add(tuple(run([r], list(word))[1]))
+                else:
+                    following.add(word)
+                    if word and word[0] != "+" and word[0] in r["target"]:
+                        following.add(
+                            () if r["replacement"] is None else (r["replacement"],)
+                        )
+            images = following
+        table[atom] = images
+    return table
+
+
 def matches(mask, word):
     return mask is None or (
         len(mask) == len(word)
@@ -145,6 +175,12 @@ class Builder:
         self.deadline, self.budget = deadline, node_budget
         self.alphabet = tuple(spec["proto_inventory"])
         self.fast = compiled(model["branches"]) and not force_reference
+        self.pruned = not self.fast and not force_reference
+        self.approximations = (
+            [approximate(b, self.alphabet) for b in model["branches"]]
+            if self.pruned
+            else []
+        )
         self.tables = (
             [
                 {a: tuple(output(b, [a])) for a in self.alphabet}
@@ -155,6 +191,21 @@ class Builder:
         )
         self.nodes, self.counts, self.known = [], [], {}
         self.masks = None
+
+    def viable(self, front):
+        for table, mask in zip(self.approximations, self.masks):
+            states = {mask}
+            for atom in front:
+                states = {
+                    rest
+                    for m in states
+                    for emitted in table[atom]
+                    for ok, rest in [consume(m, emitted)]
+                    if ok
+                }
+                if not states:
+                    return False
+        return True
 
     def check_budget(self):
         if time.monotonic() > self.deadline:
@@ -202,6 +253,8 @@ class Builder:
                     )
                 else:
                     child = Prefix(state.remaining - 1, state.front + (atom,))
+                    if self.pruned and not self.viable(child.front):
+                        continue
                 edges.append([atom, self.visit(child)])
         self.check_budget()
         index = len(self.nodes)
@@ -254,7 +307,7 @@ def solve(spec, *, node_budget=250_000, time_limit=60, force_reference=False):
             for entry in spec["entries"]:
                 key = masks_for(spec, entry)
                 if key not in reused:
-                    one = Builder(spec, model, deadline, remaining, True)
+                    one = Builder(spec, model, deadline, remaining, force_reference)
                     r = one.entry(entry)
                     remaining -= len(one.nodes)
                     reused[key] = (len(graphs), r["root"], r["count"])
@@ -270,7 +323,11 @@ def solve(spec, *, node_budget=250_000, time_limit=60, force_reference=False):
         models.append(
             dict(
                 analysis_id=model["id"],
-                mode="compiled" if builder.fast else "reference",
+                mode=(
+                    "compiled"
+                    if builder.fast
+                    else "pruned" if builder.pruned else "reference"
+                ),
                 graphs=graphs,
                 bindings=bindings,
             )

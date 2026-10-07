@@ -1,0 +1,180 @@
+{
+  "comparisons": [
+    {
+      "case": 0,
+      "complete": true,
+      "nodes": 135,
+      "request_sha256": "b888fc882bb833bacf0644b19cebe5c15ca6e1e9d1685d9ac4320bdfc16c1faf"
+    },
+    {
+      "case": 1,
+      "complete": true,
+      "nodes": 135,
+      "request_sha256": "2831c0e16b80c46e571d64e2f611adff330d42861a417685e6c786b8a999134f"
+    },
+    {
+      "case": 2,
+      "complete": true,
+      "nodes": 147,
+      "request_sha256": "776c7f4c738d73285098b6076e37f77c0fcdf9b7d9dca6a79b66f43a17921fc1"
+    },
+    {
+      "case": 3,
+      "complete": true,
+      "nodes": 141,
+      "request_sha256": "8363adde4d7bfe8cdf1728b4a19f4e4093aa63ce1b45e6017ad2cc01479fcf8d"
+    },
+    {
+      "case": 4,
+      "complete": true,
+      "nodes": 201,
+      "request_sha256": "5d955635022339498059fe224f822291e9eb1dd939e4bc2aa6cd79b3eced59f7"
+    },
+    {
+      "case": 5,
+      "complete": true,
+      "nodes": 133,
+      "request_sha256": "421cd5183924405c5a886a778f7c428e185445fbcf33de23510c8d7811fed21e"
+    },
+    {
+      "case": 6,
+      "complete": true,
+      "nodes": 134,
+      "request_sha256": "0f3a6e5183012ad3db816d3919a2cdc35fdacad81b535dfed3131cbadff42545"
+    },
+    {
+      "case": 7,
+      "complete": true,
+      "nodes": 166,
+      "request_sha256": "a9a09f83405205e0d64a837dd922ce4cdbe242f1021f14e45132c47b85092c9f"
+    },
+    {
+      "case": 8,
+      "complete": true,
+      "nodes": 211,
+      "request_sha256": "73bd28ff45cc5e445006607c71ba5f13de880d0e6f3a14df1b7e50b217c11afb"
+    },
+    {
+      "case": 9,
+      "complete": true,
+      "nodes": 201,
+      "request_sha256": "47057d122fe34b9fe1fcbabc09369aae40e307ce9edca379bd620db1104b9ab0"
+    },
+    {
+      "case": 10,
+      "complete": true,
+      "nodes": 133,
+      "request_sha256": "6529ee7e18d8a5a736969ef7542d3096c830390f43eb27c7f0e8500efe74162b"
+    },
+    {
+      "case": 11,
+      "complete": true,
+      "nodes": 190,
+      "request_sha256": "50b26e4164677d315b2a78d6b24eaeaad06c1df95980a37c37d8777d48484d67"
+    },
+    {
+      "case": 12,
+      "complete": true,
+      "nodes": 201,
+      "request_sha256": "be8ad77deb3882d7d91ed7065df2f4589cf5c1110a0ac9693f9773b35422589f"
+    },
+    {
+      "case": 13,
+      "complete": true,
+      "nodes": 24,
+      "request_sha256": "1d20d5339cd4bd037721afeb30054bb8fd3baa73330c5f0430e3b716b8d4caf4"
+    },
+    {
+      "case": 14,
+      "complete": true,
+      "nodes": 133,
+      "request_sha256": "d81d08a7a130408370726bcb4f25a8ef30e338e152dc65acd04d5856bfd7a9cd"
+    },
+    {
+      "case": 15,
+      "complete": true,
+      "nodes": 162,
+      "request_sha256": "744f20939a22d6a12aaf7ad44fcff4ee1a7c7b8484efa4b7f278bd651f871be2"
+    },
+    {
+      "case": 16,
+      "complete": true,
+      "nodes": 135,
+      "request_sha256": "15909b30c8552cf42a1125730069624524aa66a74b7efc800fdbe6e66841240a"
+    },
+    {
+      "case": 17,
+      "complete": true,
+      "nodes": 135,
+      "request_sha256": "01a1723457619dbde503760999d9243a6b6d83d39d23088a91d76da71a0ea6d4"
+    },
+    {
+      "case": 18,
+      "complete": true,
+      "nodes": 133,
+      "request_sha256": "68c83cf91803d5295ff9ff1f2e502d3a5e0298a6debbf40b074fa8e03a01507f"
+    },
+    {
+      "case": 19,
+      "complete": true,
+      "nodes": 147,
+      "request_sha256": "e5df7a9a596f0b652f2360a4b47bda5341fb58c78b05697ecfb2f88eebde9fc8"
+    },
+    {
+      "case": 20,
+      "complete": true,
+      "nodes": 286,
+      "request_sha256": "6b22ee16226b6892b899551838f72cdb3d27b94082a4ec986e29315dad561e84"
+    },
+    {
+      "case": 21,
+      "complete": true,
+      "nodes": 147,
+      "request_sha256": "35781ae4bd897438cd84e640e5faab5e33bc1f63df7605280b5ce49a3b94ad59"
+    },
+    {
+      "case": 22,
+      "complete": true,
+      "nodes": 147,
+      "request_sha256": "78c3194ee61fa23fe1bbb85345445963d28708ed425ea9f68ba541c9ac147ecf"
+    },
+    {
+      "case": 23,
+      "complete": true,
+      "nodes": 147,
+      "request_sha256": "4c02094b8abc957813af55dacbb4f301122e3e11d8f40667a5e65dba173c2ee2"
+    }
+  ],
+  "contextual_benchmark": {
+    "branch_certificates": 2000,
+    "elapsed_seconds": 2.4216968768741935,
+    "graph_nodes": 8000,
+    "length": 7,
+    "lexicons": "1",
+    "max_length": 12,
+    "memory_upper_bound_bytes": 290689024,
+    "reflexes": 2000,
+    "rows": 1000,
+    "within_delivery_limits": true
+  },
+  "exact_inverse_sets": 96,
+  "formerly_exhausted_case": {
+    "complete": true,
+    "elapsed_seconds": 0.14098645094782114,
+    "max_length": 12,
+    "nodes": 4,
+    "search_budget_seconds": 5
+  },
+  "input_hashes": {
+    "lean/Historical/LexiconInput.lean": "e84ec7f730cc2470c16837ff8f31b39e7fdf4cf6a4743b78f05fcf092898b99c",
+    "lean/Historical/Pruning.lean": "703e6242e0586ffc058847438afd920dc7c7f687aed415959d8307d8d9f1c278",
+    "scripts/m7_solver.py": "cfe0b6b7fffb593b82650688161d29304efbdd95054b8982be3815682ba82cf4",
+    "scripts/verify_pruning.py": "ccfff6e4f0a5d7f17be3ce6295577819bc261f887e78549402a23f122f6ab1f0"
+  },
+  "passed": true,
+  "rejected_corruptions": [
+    "omitted possible edge",
+    "false accepting state"
+  ],
+  "scope": "Synthetic contextual control with one changing daughter and one conservative daughter. This is not a benchmark of a complete historical grammar. Worst-case search remains bounded and can be incomplete."
+}
