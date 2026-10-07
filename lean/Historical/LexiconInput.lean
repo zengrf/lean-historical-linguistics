@@ -137,13 +137,26 @@ theorem compiled_request_complete (r : Request) (a : Analysis) (e : Entry)
   by_cases hw : ∀ x ∈ w, x ∈ alphabet r
   · have hf := compiled_reflexes_correct (alphabet r) a.branches e.reflexes w hs hw
     change Inverse.fits (tables r a) (masks e) w = fitsReflexes a.branches e.reflexes w at hf
-    -- Match the decision procedure already in the expression. Lean 4.34's
-    -- simplifier synthesizes class-implicit arguments of rewrite lemmas.
-    have reflect (p : Prop) (inst : Decidable p) : @decide p inst = true ↔ p :=
-      ⟨@of_decide_eq_true p inst, @decide_eq_true p inst⟩
-    simp only [wordFits, predicate, Inverse.allows, root, hf, List.all_eq_true,
-      Bool.and_eq_true, reflect, List.contains_iff]
-    simp only [and_assoc, and_left_comm, and_comm]
+    have ha : w.all (fun x => (alphabet r).contains x) = true := by
+      simpa only [List.all_eq_true, List.contains_iff] using hw
+    constructor
+    · intro h
+      have hp := Bool.and_eq_true_iff.mp h.2
+      have hb := Bool.and_eq_true_iff.mp hp.1
+      have bounds : r.min_length ≤ w.length ∧ w.length ≤ r.max_length :=
+        @of_decide_eq_true _ _ hb.1
+      simp only [wordFits, predicate, Bool.and_eq_true]
+      exact ⟨⟨ha, @decide_eq_true _ _ bounds.2⟩,
+        ⟨⟨@decide_eq_true _ _ bounds.1, hp.2⟩, hf ▸ hb.2⟩⟩
+    · intro h
+      have hp := Bool.and_eq_true_iff.mp h
+      have ht := Bool.and_eq_true_iff.mp hp.2
+      have hm := Bool.and_eq_true_iff.mp ht.1
+      have hmax := (Bool.and_eq_true_iff.mp hp.1).2
+      have bounds : r.min_length ≤ w.length ∧ w.length ≤ r.max_length :=
+        ⟨@of_decide_eq_true _ _ hm.1, @of_decide_eq_true _ _ hmax⟩
+      exact ⟨hw, Bool.and_eq_true_iff.mpr
+        ⟨Bool.and_eq_true_iff.mpr ⟨@decide_eq_true _ _ bounds, hf.symm ▸ ht.2⟩, hm.2⟩⟩
   · simp [wordFits, List.all_eq_true, hw]
 
 theorem reference_request_complete (r : Request) (a : Analysis) (e : Entry)
