@@ -1,5 +1,11 @@
 # M7 examples and performance assessment
 
+This is a retained assessment of the original M7 revision. Contextual search
+has since gained [proved conservative pruning](../../docs/16-contextual-pruning.md),
+and the [persistent workspace](../../docs/17-research-workspace.md) supersedes
+this demonstration UI for project work. The timings and ratings below describe
+the recorded old commit, not the current release candidate.
+
 These examples were rerun against the M7 engine at commit
 `d3d6932b263a40e853acd99d393488bbd5ecaae9`. [examples.json](examples.json)
 contains native results, checked derivations, three timing samples for each

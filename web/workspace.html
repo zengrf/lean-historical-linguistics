@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="en" data-time="day">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Comparative workbench · Zeng RF</title>
+    <link rel="icon" href="/seal.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/vendor/kiwari/lib/fonts.css" />
+    <link rel="stylesheet" href="/vendor/kiwari/materials.css" />
+    <link rel="stylesheet" href="/vendor/kiwari/slides.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/workspace.css" />
+    <script src="/workspace.js" defer></script>
+  </head>
+  <body class="workspace">
+    <a class="skip" href="#ws-main">Skip to the wordlist</a>
+    <div class="slide room">
+      <i class="top-rail" aria-hidden="true"></i
+      ><i class="transom" aria-hidden="true"></i
+      ><i class="bottom-rail" aria-hidden="true"></i>
+      <header class="masthead">
+        <a class="wordmark" href="/"
+          ><span class="seal" aria-hidden="true">曾</span
+          ><span
+            >Comparative workbench<span class="wordmark-note"
+              >Zeng RF · Historical linguistics &amp; philology</span
+            ></span
+          ></a
+        >
+        <div class="header-end">
+          <a href="/legacy" target="_blank" rel="noopener"
+            >Source library &amp; additional analyses ↗</a
+          >
+          <fieldset class="themes">
+            <legend class="sr-only">Appearance</legend>
+            <label
+              ><input type="radio" name="theme" value="day" checked /><span
+                >Day</span
+              ></label
+            ><label
+              ><input type="radio" name="theme" value="dusk" /><span
+                >Dusk</span
+              ></label
+            ><label
+              ><input type="radio" name="theme" value="night" /><span
+                >Night</span
+              ></label
+            >
+          </fieldset>
+        </div>
+      </header>
+      <div class="project-toolbar" aria-label="Project actions">
+        <label class="project-picker" for="ws-project"
+          >Project<select id="ws-project">
+            <option value="">Loading projects…</option>
+          </select></label
+        >
+        <button id="ws-new">New project</button
+        ><button id="ws-import">Import</button>
+        <button id="ws-save" class="primary">Save</button
+        ><span id="ws-save-state" role="status">No project loaded</span>
+        <button id="ws-undo" disabled aria-label="Undo the last edit">
+          Undo</button
+        ><button id="ws-redo" disabled aria-label="Redo the last edit">
+          Redo
+        </button>
+        <label class="export-picker" for="ws-export-format"
+          >Export<select id="ws-export-format">
+            <option value="project">Complete project</option>
+            <option value="edictor">EDICTOR wordlist</option>
+            <option value="wide">Cognate-set table</option>
+            <option value="cldf">CLDF Wordlist</option>
+            <option value="tei">TEI reading apparatus</option>
+          </select></label
+        ><button id="ws-export">Download</button>
+      </div>
+      <div
+        id="ws-message"
+        class="workspace-message"
+        role="status"
+        aria-live="polite"
+      >
+        Opening the private workspace…
+      </div>
+      <div id="ws-recovery" class="workspace-message" hidden>
+        <span>A recoverable draft was found in this browser.</span
+        ><button id="ws-recover">Recover draft</button
+        ><button id="ws-discard-draft">Use saved revision</button>
+      </div>
+      <div class="project-heading">
+        <div>
+          <input
+            id="ws-title"
+            aria-label="Project title"
+            placeholder="Project title"
+          />
+          <p id="ws-description"></p>
+        </div>
+        <span id="ws-counts" class="count-note"></span>
+      </div>
+      <nav class="tabs" role="tablist" aria-label="Project views">
+        <button
+          id="ws-tab-wordlist"
+          data-view="wordlist"
+          role="tab"
+          aria-controls="ws-wordlist"
+          aria-selected="true"
+        >
+          Wordlist
+        </button>
+        <button
+          id="ws-tab-rules"
+          data-view="rules"
+          role="tab"
+          aria-controls="ws-rules"
+          aria-selected="false"
+          tabindex="-1"
+        >
+          Sound changes
+        </button>
+        <button
+          id="ws-tab-results"
+          data-view="results"
+          role="tab"
+          aria-controls="ws-results"
+          aria-selected="false"
+          tabindex="-1"
+        >
+          Reconstructions
+        </button>
+        <button
+          id="ws-tab-history"
+          data-view="history"
+          role="tab"
+          aria-controls="ws-history"
+          aria-selected="false"
+          tabindex="-1"
+        >
+          History &amp; backups
+        </button>
+      </nav>
+      <main id="ws-main">
+        <section
+          id="ws-wordlist"
+          role="tabpanel"
+          aria-labelledby="ws-tab-wordlist"
+        >
+          <div class="view-toolbar">
+            <label for="ws-filter"
+              >Find a cognate set, gloss or form<input
+                id="ws-filter"
+                type="search"
+                placeholder="e.g. arm, water, ḱ" /></label
+            ><button id="ws-add-row">Add cognate set</button
+            ><button id="ws-add-language">Add daughter variety</button
+            ><button id="ws-select-all">Select all</button
+            ><button id="ws-select-none">Clear selection</button>
+          </div>
+          <p class="help">
+            One proposed cognate set per row. Enter space-separated segments.
+            <strong>?</strong> = unknown segment; <strong>∅</strong> = observed
+            zero; blank = no phonological observation. Use
+            <strong>⋯</strong> for the source reading, witness, alignment and
+            alternatives.
+          </p>
+          <div
+            class="wordlist-scroll"
+            tabindex="0"
+            aria-label="Editable comparative wordlist"
+          >
+            <table id="ws-grid" class="wordlist">
+              <caption class="sr-only">
+                Cognate sets and daughter-language reflexes
+              </caption>
+              <thead></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="grid-footer">
+            <span id="ws-grid-status"></span>
+            <div>
+              <button id="ws-grid-prev">← Previous rows</button
+              ><button id="ws-grid-next">Next rows →</button>
+            </div>
+          </div>
+          <details class="workspace-notes">
+            <summary>Project notes and assumptions</summary>
+            <label for="ws-notes"
+              >Reconstruction level, variety identities, dating, cognacy
+              assumptions and source conventions</label
+            ><textarea id="ws-notes" rows="5"></textarea>
+          </details>
+          <details class="workspace-notes">
+            <summary>Observed correspondence columns</summary>
+            <p class="help">
+              These columns summarize your supplied alignments. They do not
+              establish cognacy or infer sound laws.
+            </p>
+            <button id="ws-correspondences">Summarize alignments</button>
+            <div id="ws-correspondence-output"></div>
+          </details>
+        </section>
+        <section
+          id="ws-rules"
+          role="tabpanel"
+          aria-labelledby="ws-tab-rules"
+          hidden
+        >
+          <div class="rule-layout">
+            <aside>
+              <label for="ws-rule-model"
+                >Hypothesis<select id="ws-rule-model"></select></label
+              ><button id="ws-duplicate-model">Duplicate hypothesis</button
+              ><label for="ws-model-description"
+                >Account and scope<textarea
+                  id="ws-model-description"
+                  rows="4"
+                ></textarea></label
+              ><label for="ws-model-source"
+                >Source reference<input id="ws-model-source" /></label
+              ><label for="ws-classes"
+                >Segment classes<textarea
+                  id="ws-classes"
+                  rows="7"
+                  spellcheck="false"
+                ></textarea>
+              </label>
+              <p class="help">
+                Define a class with <code>V = a e i o u</code>. Class names
+                abbreviate explicit lists of segments.
+              </p>
+            </aside>
+            <div>
+              <label for="ws-rule-language"
+                >Daughter variety<select id="ws-rule-language"></select></label
+              ><label for="ws-rule-text">Ordered sound changes</label
+              ><textarea
+                id="ws-rule-text"
+                class="rules-editor"
+                rows="12"
+                spellcheck="false"
+                placeholder="p > b / V _ V&#10;h > ∅ / # _"
+              ></textarea>
+              <p class="help">
+                One change per line, applied from top to bottom.
+                <code>#</code> = word boundary, <code>+</code> = morpheme
+                boundary, <code>.</code> = any segment. Use
+                <code>[p t k]</code> for alternative targets.
+              </p>
+              <button id="ws-apply-rules" class="primary">
+                Apply sound changes</button
+              ><span id="ws-rule-status" role="status"></span>
+              <details class="workspace-notes">
+                <summary>Application conventions and limits</summary>
+                <p>
+                  Rules normally apply simultaneously from left to right within
+                  each pass. Append <code>; feeding</code> or
+                  <code>; rtl</code> to a particular rule when required. The
+                  displayed order is the relative chronology.
+                </p>
+                <p>
+                  The checked rule language supports substitution and deletion,
+                  with up to two context positions on each side. It currently
+                  excludes insertion and metathesis. Unsupported notation is
+                  rejected.
+                </p>
+              </details>
+            </div>
+          </div>
+        </section>
+        <section
+          id="ws-results"
+          role="tabpanel"
+          aria-labelledby="ws-tab-results"
+          hidden
+        >
+          <div class="reconstruction-layout">
+            <aside class="search-controls">
+              <h2>Reconstruction assumptions</h2>
+              <fieldset>
+                <legend>Allowed hypotheses</legend>
+                <div id="ws-hypotheses"></div>
+              </fieldset>
+              <fieldset>
+                <legend>Match these daughters</legend>
+                <div id="ws-daughters"></div>
+              </fieldset>
+              <label for="ws-alphabet"
+                >Proto-segments<textarea
+                  id="ws-alphabet"
+                  rows="3"
+                  spellcheck="false"
+                ></textarea>
+              </label>
+              <div class="bounds">
+                <label for="ws-min"
+                  >Minimum length<input
+                    id="ws-min"
+                    type="number"
+                    min="0"
+                    max="64" /></label
+                ><label for="ws-max"
+                  >Maximum length<input
+                    id="ws-max"
+                    type="number"
+                    min="0"
+                    max="64"
+                /></label>
+              </div>
+              <label for="ws-shapes"
+                >Word shapes (optional)<input
+                  id="ws-shapes"
+                  placeholder="C V | C V C"
+              /></label>
+              <p class="help">
+                Separate alternative shapes with |. Use the classes defined
+                under Sound changes. Blank allows any shape.
+              </p>
+              <button id="ws-apply-constraints">
+                Apply alphabet and shapes
+              </button>
+              <details>
+                <summary>Search limits</summary>
+                <label for="ws-seconds"
+                  >Search seconds<input
+                    id="ws-seconds"
+                    type="number"
+                    min="1"
+                    max="60"
+                    value="60" /></label
+                ><label for="ws-nodes"
+                  >Maximum graph states<input
+                    id="ws-nodes"
+                    type="number"
+                    min="1"
+                    max="250000"
+                    value="250000"
+                /></label>
+              </details>
+              <p id="ws-selected-count" class="help"></p>
+              <button id="ws-run" class="primary">
+                Enumerate reconstructions
+              </button>
+              <p class="help">
+                Each whole wordlist uses one shared hypothesis. Completeness is
+                relative to your selected evidence, rules, alphabet and length
+                bounds.
+              </p>
+            </aside>
+            <div class="analysis-results">
+              <div class="results-heading">
+                <h2>Analyses</h2>
+                <button id="ws-refresh-jobs">Refresh</button>
+              </div>
+              <div id="ws-jobs" aria-live="polite"></div>
+              <div id="ws-result" hidden>
+                <p id="ws-result-provenance"></p>
+                <h3 id="ws-result-total"></h3>
+                <div id="ws-model-outcomes"></div>
+                <div class="result-options">
+                  <label for="ws-result-model"
+                    >Hypothesis<select id="ws-result-model"></select></label
+                  ><label for="ws-result-view"
+                    >Show<select id="ws-result-view">
+                      <option value="words">
+                        Protoforms for one cognate set
+                      </option>
+                      <option value="lexicons">
+                        Whole reconstructed wordlists
+                      </option>
+                    </select></label
+                  ><label for="ws-result-entry"
+                    >Cognate set<select id="ws-result-entry"></select></label
+                  ><label for="ws-result-number"
+                    >Starting reconstruction<input
+                      id="ws-result-number"
+                      value="1"
+                      inputmode="numeric" /></label
+                  ><button id="ws-show-result">Show</button>
+                </div>
+                <p id="ws-page-status" role="status"></p>
+                <div id="ws-candidates"></div>
+                <div class="grid-footer">
+                  <button id="ws-result-prev">← Previous</button
+                  ><button id="ws-result-next">Next →</button
+                  ><button id="ws-download-result">
+                    Download checked search
+                  </button>
+                </div>
+                <div id="ws-evaluation"></div>
+              </div>
+              <p id="ws-no-results" class="empty-state">
+                Select cognate sets in the wordlist, enter a sound-law
+                hypothesis, then enumerate. Finished analyses retain the exact
+                project revision and search assumptions.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section
+          id="ws-history"
+          role="tabpanel"
+          aria-labelledby="ws-tab-history"
+          hidden
+        >
+          <div class="view-toolbar">
+            <h2>Saved revisions</h2>
+            <button id="ws-backup">Download workspace backup</button
+            ><button id="ws-refresh-history">Refresh history</button>
+          </div>
+          <p class="help">
+            Restoring creates a new revision. Later revisions and their analyses
+            remain available. A browser draft is recoverable, but saving records
+            a durable revision on this computer.
+          </p>
+          <div id="ws-history-list"></div>
+          <p id="ws-workspace-location" class="help"></p>
+        </section>
+      </main>
+      <footer class="workspace-footer">
+        <span id="ws-engine-status">Checking the reconstruction engine…</span
+        ><span
+          >Checked consequences of explicit hypotheses · Linguistic review
+          remains separate</span
+        ><a
+          href="https://github.com/zengrf/lean-historical-linguistics"
+          target="_blank"
+          rel="noopener"
+          >Methods &amp; source code ↗</a
+        >
+      </footer>
+    </div>
+    <dialog id="ws-create-dialog">
+      <form method="dialog">
+        <div class="dialog-heading">
+          <h2>New project</h2>
+          <button value="cancel" aria-label="Close">×</button>
+        </div>
+        <label for="ws-new-title"
+          >Title<input
+            id="ws-new-title"
+            required
+            value="Comparative study" /></label
+        ><label for="ws-new-example"
+          >Starting material<select id="ws-new-example"></select
+        ></label>
+        <p class="help">
+          Examples retain their stated scope and source references. Imported or
+          edited sound changes are working hypotheses.
+        </p>
+        <button id="ws-create" value="default" class="primary">
+          Create project
+        </button>
+      </form>
+    </dialog>
+    <dialog id="ws-import-dialog">
+      <form method="dialog">
+        <div class="dialog-heading">
+          <h2>Import a wordlist or project</h2>
+          <button value="cancel" aria-label="Close">×</button>
+        </div>
+        <label for="ws-import-format"
+          >Format<select id="ws-import-format">
+            <option value="edictor">EDICTOR / LingPy TSV</option>
+            <option value="cldf">CLDF Wordlist ZIP</option>
+            <option value="project">Complete project JSON</option>
+            <option value="request">Reconstruction request JSON</option>
+          </select></label
+        ><label for="ws-import-title"
+          >Project title<input
+            id="ws-import-title"
+            value="Imported study" /></label
+        ><label for="ws-import-source"
+          >Source reference<input
+            id="ws-import-source"
+            value="user:import" /></label
+        ><label for="ws-import-file"
+          >File<input
+            id="ws-import-file"
+            type="file"
+            accept=".tsv,.txt,.json,.zip" /></label
+        ><label for="ws-import-text"
+          >Or paste a TSV wordlist<textarea
+            id="ws-import-text"
+            rows="6"
+            spellcheck="false"
+            placeholder="ID&#9;DOCULECT&#9;CONCEPT&#9;TOKENS&#9;COGID"
+          ></textarea>
+        </label>
+        <p class="help">
+          Cognate membership must be supplied. Multiple readings are retained
+          explicitly; the importer will not silently choose among competing
+          forms.
+        </p>
+        <button id="ws-do-import" value="default" class="primary">
+          Import into a new project
+        </button>
+      </form>
+    </dialog>
+    <dialog id="ws-reading-dialog">
+      <form method="dialog">
+        <div class="dialog-heading">
+          <h2 id="ws-reading-title">Source reading</h2>
+          <button value="cancel" aria-label="Close">×</button>
+        </div>
+        <div class="reading-fields">
+          <label for="ws-reading-original"
+            >Reading as printed<input
+              id="ws-reading-original"
+              dir="auto" /></label
+          ><label for="ws-reading-form"
+            >Segments used for comparison<input
+              id="ws-reading-form"
+              spellcheck="false" /></label
+          ><label for="ws-reading-source"
+            >Source reference<input id="ws-reading-source" /></label
+          ><label for="ws-reading-witness"
+            >Witness or edition<input id="ws-reading-witness" /></label
+          ><label for="ws-reading-locator"
+            >Page, folio, line or entry<input id="ws-reading-locator" /></label
+          ><label for="ws-reading-certainty"
+            >Certainty of reading<select id="ws-reading-certainty">
+              <option value="unassessed">Unassessed</option>
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select></label
+          >
+        </div>
+        <label for="ws-reading-alignment"
+          >Alignment (optional; - is a gap)<input
+            id="ws-reading-alignment"
+            spellcheck="false" /></label
+        ><label for="ws-reading-note"
+          >Editorial note<textarea
+            id="ws-reading-note"
+            rows="3"
+          ></textarea></label
+        ><button id="ws-suggest-segments" type="button">
+          Suggest segmentation from the inventory
+        </button>
+        <div id="ws-segment-options"></div>
+        <h3>Alternative readings</h3>
+        <div id="ws-alternatives"></div>
+        <button id="ws-add-reading" type="button">
+          Add alternative reading
+        </button>
+        <p class="help">
+          “Use for comparison” swaps the selected reading and retains the
+          previous one. Segmentation proposals do not alter the source
+          transcription.
+        </p>
+        <button id="ws-save-reading" value="default" class="primary">
+          Keep reading and notes
+        </button>
+      </form>
+    </dialog>
+    <dialog id="ws-row-dialog">
+      <form method="dialog">
+        <div class="dialog-heading">
+          <h2>Cognate set</h2>
+          <button value="cancel" aria-label="Close">×</button>
+        </div>
+        <label for="ws-row-meaning"
+          >Gloss or concept<input id="ws-row-meaning" required /></label
+        ><label for="ws-row-reference"
+          >Reference reconstruction (evaluation only)<input
+            id="ws-row-reference"
+            placeholder="Space-separated segments; optional" /></label
+        ><label for="ws-row-split"
+          >Evaluation partition<select id="ws-row-split">
+            <option value="unassigned">Unassigned</option>
+            <option value="train">Training</option>
+            <option value="development">Development</option>
+            <option value="test">Held-out test</option>
+          </select></label
+        >
+        <p class="help">
+          A reference reconstruction is never a candidate pool or a constraint
+          on the search. The partition records your protocol; it cannot
+          establish that a model was developed without seeing the test data.
+        </p>
+        <button id="ws-save-row" value="default" class="primary">
+          Keep cognate set
+        </button>
+      </form>
+    </dialog>
+    <dialog id="ws-language-dialog">
+      <form method="dialog">
+        <div class="dialog-heading">
+          <h2>Daughter variety</h2>
+          <button value="cancel" aria-label="Close">×</button>
+        </div>
+        <label for="ws-language-name"
+          >Language or variety name<input
+            id="ws-language-name"
+            required /></label
+        ><label for="ws-language-note"
+          >Identity, date, place and source conventions<textarea
+            id="ws-language-note"
+            rows="4"
+          ></textarea></label
+        ><button id="ws-save-language" value="default" class="primary">
+          Keep variety
+        </button>
+      </form>
+    </dialog>
+  </body>
+</html>

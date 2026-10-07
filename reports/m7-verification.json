@@ -301,7 +301,7 @@
   ],
   "external_generated_and_native_accepted": 2973,
   "input_hashes": {
-    ".github/workflows/exploration.yml": "aaf22d313d0aaac87fecf0d21536e8bc8a5f7465da231eb65882a0f4875a8641",
+    ".github/workflows/exploration.yml": "a6941c8ca4a45c06a8fc5e31789f262d2a378771621e29e322fcac5bd3d4ed2c",
     "data/lexicon/README.md": "c907e481c413c63dfd59e22a8b36bbe3292714503d9586533618a18e9ea20c4f",
     "data/lexicon/conflict.json": "7be9334f32feaf8ee56e00c10817e82e7c5d4ffcedaffe81cf704b6b4cdf4ab5",
     "data/lexicon/conflict.tsv": "8722acb4c9d4ef19ebb5679580665f9194c814f0dc44ba68bebe64d7ead62988",
@@ -371,7 +371,10 @@
     "web/index.html": "b1a4397eec60f57fef79443d3bc5fe573744eda915d48aadef858bd5027b6195",
     "web/lexicon.js": "feae8c406596a34c5c53d0ff21ae0bb0d5b8190f1cbb5ad6655f50500e453f56",
     "web/seal.svg": "4d2e8677cc545af188baab89c17383c0aa412c9ce7de670074d0b054427edc94",
-    "web/style.css": "b5601cd626f25f9cce4754218129b11b565488abf089b0bc9a103fbf8dea4ae5"
+    "web/style.css": "b5601cd626f25f9cce4754218129b11b565488abf089b0bc9a103fbf8dea4ae5",
+    "web/workspace.css": "f934a04142e7ced8933399ac0d443a4966c026a197ddcb06fd8cf77d872dd0b5",
+    "web/workspace.html": "e3383bc18add52b7964610ec221df1ef75089fb8445710f5157900a14d6d49d9",
+    "web/workspace.js": "8cc8cfcafcd0194cd1d46be3155f87752fd47100ef5db0f22ffac53fb929eedf"
   },
   "inverse_sets": 1488,
   "limits": [

@@ -1,0 +1,21 @@
+#!/bin/sh
+set -eu
+cd "$(dirname "$0")"
+command_name="${1:-open}"
+if [ "$#" -gt 0 ]; then shift; fi
+case "$command_name" in
+  setup) exec "${WORKBENCH_PYTHON:-python3}" scripts/workspace_setup.py "$@" ;;
+  doctor) exec .venv/bin/python scripts/workspace_setup.py --doctor "$@" ;;
+  open|serve)
+    if [ ! -x .venv/bin/python ]; then
+      echo "Run ./workbench setup first (Python 3.12 recommended)." >&2
+      exit 1
+    fi
+    if [ "$command_name" = open ]; then
+      exec .venv/bin/python scripts/workspace_server.py --open "$@"
+    else
+      exec .venv/bin/python scripts/workspace_server.py "$@"
+    fi ;;
+  backup|restore) exec .venv/bin/python scripts/workspace_backup.py "$command_name" "$@" ;;
+  *) echo "Usage: ./workbench [setup|doctor|open|serve|backup|restore] [options]" >&2; exit 2 ;;
+esac

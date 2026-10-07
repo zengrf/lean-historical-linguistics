@@ -1,5 +1,19 @@
 # Verification records
 
+[workspace/verification.json](workspace/verification.json) records 35 backend
+tests and 38 real-browser checks for the persistent local application, with
+source and screenshot hashes. These include native jobs, revision conflicts,
+reading alternatives, reference evaluation, cancelled/incomplete searches,
+backup restoration, local session protection and keyboard saving. The broader
+unit suite currently has 176 passing tests. See the
+[workspace guide](../docs/17-research-workspace.md) and
+[remaining release gates](../docs/18-production-readiness.md).
+
+[contextual-pruning.json](contextual-pruning.json) records 96 independent exact
+inverse comparisons, rejected corrupt graphs and a 1,000-row contextual scale
+control. Its [19 proved results](../docs/16-contextual-pruning.md) preserve the
+existing relative-completeness claim while pruning impossible prefixes.
+
 [m7-verification.json](m7-verification.json) records generative reconstruction
 from daughter reflexes: 1,488 exact inverse sets, complete graph checking,
 global model consistency, rejected malformed graphs and corrupted forward

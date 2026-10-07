@@ -64,6 +64,7 @@ jobs:
         run: |
           python scripts/build_m7_fixtures.py --check
           python scripts/verify_m7.py --check-report
+          python scripts/verify_workspace.py --check-report
 
   lean:
     runs-on: ubuntu-latest

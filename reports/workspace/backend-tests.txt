@@ -1,0 +1,40 @@
+test_cldf_export_validates_and_import_distinguishes_empty (test_workspace.ExchangeTests.test_cldf_export_validates_and_import_distinguishes_empty) ... ok
+test_correspondences_require_explicit_consistent_alignments (test_workspace.ExchangeTests.test_correspondences_require_explicit_consistent_alignments) ... ok
+test_duplicate_and_partial_cognacy_are_not_silently_selected (test_workspace.ExchangeTests.test_duplicate_and_partial_cognacy_are_not_silently_selected) ... ok
+test_edictor_unicode_source_columns_and_unknown_empty_missing (test_workspace.ExchangeTests.test_edictor_unicode_source_columns_and_unknown_empty_missing) ... ok
+test_tei_preserves_readings_witnesses_and_escapes_markup (test_workspace.ExchangeTests.test_tei_preserves_readings_witnesses_and_escapes_markup) ... ok
+test_zip_traversal_duplicate_and_remote_dependencies_rejected (test_workspace.ExchangeTests.test_zip_traversal_duplicate_and_remote_dependencies_rejected) ... ok
+test_authentication_launch_redirect_and_headers (test_workspace.HTTPTests.test_authentication_launch_redirect_and_headers) ... ok
+test_dns_rebinding_cross_origin_and_csrf_rejected (test_workspace.HTTPTests.test_dns_rebinding_cross_origin_and_csrf_rejected) ... ok
+test_malformed_cldf_reports_client_error (test_workspace.HTTPTests.test_malformed_cldf_reports_client_error) ... ok
+test_project_source_markup_is_data_not_executable_html (test_workspace.HTTPTests.test_project_source_markup_is_data_not_executable_html) ... ok
+test_strict_json_body_limits_and_static_traversal (test_workspace.HTTPTests.test_strict_json_body_limits_and_static_traversal) ... ok
+test_budget_exhaustion_has_no_complete_result (test_workspace.NativeJobTests.test_budget_exhaustion_has_no_complete_result) ... ok
+test_cancelled_queued_job_never_starts (test_workspace.NativeJobTests.test_cancelled_queued_job_never_starts) ... ok
+test_morphological_boundaries_are_reported_as_unsupported (test_workspace.NativeJobTests.test_morphological_boundaries_are_reported_as_unsupported) ... ok
+test_native_job_frozen_revision_evaluation_and_integrity (test_workspace.NativeJobTests.test_native_job_frozen_revision_evaluation_and_integrity) ... ok
+test_references_do_not_change_search_request (test_workspace.NativeJobTests.test_references_do_not_change_search_request) ... ok
+test_running_worker_is_cancelled_with_its_process_group (test_workspace.NativeJobTests.test_running_worker_is_cancelled_with_its_process_group) ... ok
+test_stale_native_build_is_rejected (test_workspace.NativeJobTests.test_stale_native_build_is_rejected) ... ok
+test_all_shipped_lexicon_rules_round_trip (test_workspace.NotationTests.test_all_shipped_lexicon_rules_round_trip) ... ok
+test_branch_chronology_rebuilt_without_changing_source (test_workspace.NotationTests.test_branch_chronology_rebuilt_without_changing_source) ... ok
+test_context_orientation_and_flags (test_workspace.NotationTests.test_context_orientation_and_flags) ... ok
+test_segmentation_preserves_ambiguity_and_unicode (test_workspace.NotationTests.test_segmentation_preserves_ambiguity_and_unicode) ... ok
+test_shapes_and_classes (test_workspace.NotationTests.test_shapes_and_classes) ... ok
+test_unsupported_changes_fail_explicitly (test_workspace.NotationTests.test_unsupported_changes_fail_explicitly) ... ok
+test_backup_refuses_active_jobs (test_workspace.StoreTests.test_backup_refuses_active_jobs) ... ok
+test_backup_restore_preserves_revisions_and_artifacts (test_workspace.StoreTests.test_backup_restore_preserves_revisions_and_artifacts) ... ok
+test_backup_tampering_is_rejected_before_destination_created (test_workspace.StoreTests.test_backup_tampering_is_rejected_before_destination_created) ... ok
+test_concurrent_save_detects_lost_update (test_workspace.StoreTests.test_concurrent_save_detects_lost_update) ... ok
+test_drafts_can_have_no_proto_inventory_but_malformed_structure_is_rejected (test_workspace.StoreTests.test_drafts_can_have_no_proto_inventory_but_malformed_structure_is_rejected) ... ok
+test_exclusive_workspace_lock (test_workspace.StoreTests.test_exclusive_workspace_lock) ... ok
+test_interrupted_jobs_are_never_complete_after_restart (test_workspace.StoreTests.test_interrupted_jobs_are_never_complete_after_restart) ... ok
+test_newer_schema_is_refused_without_migration (test_workspace.StoreTests.test_newer_schema_is_refused_without_migration) ... ok
+test_private_database_and_path_validation (test_workspace.StoreTests.test_private_database_and_path_validation) ... ok
+test_revisions_survive_restart_and_restore_is_nondestructive (test_workspace.StoreTests.test_revisions_survive_restart_and_restore_is_nondestructive) ... ok
+test_terminal_cancellation_cannot_be_overwritten (test_workspace.StoreTests.test_terminal_cancellation_cannot_be_overwritten) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 9.441s
+
+OK

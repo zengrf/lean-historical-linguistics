@@ -13,12 +13,30 @@ linguistic justification of those rules, the cognacy judgments and the source
 readings requires separate assessment. See the [terminology and notation](docs/terminology.md)
 and [formal architecture](docs/02-formal-architecture.md) for these distinctions.
 
-The primary [reflex-table interface](docs/15-m7-delivery.md) generates all bounded
-protolexicons from daughter forms and selected sound-law models. Import a TSV
-lexicon, choose the alphabet, bounds and word shapes, and browse individual
-protoforms or whole lexicons with checked derivations. A 1,000-row demonstration
-represents `64^1000` possible protolexicons in 2,341 checked graph states.
-See the [new desktop preview](reports/m7-ui/desktop.png).
+The primary [research workspace](docs/17-research-workspace.md) provides a saved
+cognate-set table, source readings and alternative witnesses, ordered sound-law
+editing, and bounded reconstruction from daughter forms. Select hypotheses,
+observations, the proto-alphabet and word shapes, then browse all allowed
+protoforms or whole wordlists with checked derivations. Projects have immutable
+revisions, background analyses, backup/restore, and EDICTOR, CLDF and limited TEI
+exchange. It uses the original Kiwari appearance package from the persona website.
+
+```bash
+./workbench setup
+./workbench
+```
+
+Use Python 3.12 on macOS or Linux. Setup installs local dependencies and builds
+the engine; the second command opens the private application. Research data are
+saved outside this public repository. See the [wordlist](reports/workspace/wordlist.png),
+[source-reading editor](reports/workspace/reading.png), and
+[enumeration interface](reports/workspace/reconstructions.png).
+
+This is a **local research release candidate**. The [production requirements](docs/18-production-readiness.md)
+record the remaining specialist reviews, real-user study, phonological extensions,
+and deployment gates. Automated correctness checks do not establish historical
+accuracy. The [contextual-pruning proof and benchmark](docs/16-contextual-pruning.md)
+address a former scaling bottleneck without changing that distinction.
 
 The [research workbench](docs/14-research-workbench.md) now supports minimal
 conflicting evidence, discriminating predictions, observational equivalence,
@@ -28,9 +46,9 @@ pinned with file hashes and licenses. Choose material, select allowed analyses
 and required daughter forms, and enumerate every allowed reconstruction in
 the displayed finite search space. Results group the same proto-form across
 compatible analyses; bounded models also expose segment and length controls.
-After the setup and Lean build below, run `python scripts/serve_ui.py` and open
-<http://127.0.0.1:8765>. See the [desktop preview](reports/ui/desktop.png) and
-[mobile preview](reports/ui/mobile.png).
+These additional panels are available through the workspace's **Source library
+& additional analyses** link. The older demonstration server remains available
+as `python scripts/serve_ui.py`; use the new workspace for durable project work.
 
 ## Current results
 
@@ -82,6 +100,8 @@ word/analysis space.
 | [Materials and hypothesis exploration](docs/13-materials-and-exploration.md) | Full source catalogue, hypothesis selection, enumeration, explanations and coverage gaps |
 | [Research workbench](docs/14-research-workbench.md) | Five evidence-analysis features, browser interface, semantics, source-worked controls and delivery checks |
 | [M7 protolexicon reconstruction](docs/15-m7-delivery.md) | Reflex-table input, complete generative search, proof statements, global models, CLI/browser use, performance and scope |
+| [Research workspace](docs/17-research-workspace.md) | Installation, comparative editing, source variants, interchange, durability, security boundary, backups and limits |
+| [Production requirements](docs/18-production-readiness.md) | Delivered engineering work, evidence, remaining scientific and operational release gates |
 
 ## Library and proofs
 
@@ -169,7 +189,7 @@ reports/          Acquisition and proof verification records
 reviews/          Independent source-entry and hand-worked semantics review records
 schema/           Versioned evidence format and migration policy
 scripts/          Retrieval, catalogue generation and validation
-web/              Local reconstruction interface; served by scripts/serve_ui.py
+web/              Research workspace and additional analysis panels
 ```
 
 Original code and documentation use the [MIT license](LICENSE). Third-party publications retain their own copyright and licenses; consult [the individual notices](library/THIRD_PARTY_NOTICES.md) before reuse. The acquisition and literature cutoff is **5 October 2026 UTC**.

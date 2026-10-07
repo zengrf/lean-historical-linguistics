@@ -860,7 +860,7 @@
     }
   ],
   "input_hashes": {
-    ".github/workflows/exploration.yml": "0d6b7ef8a7a9b38342d83f75899c055630a8ecc4426de232a0bb86931960d0de",
+    ".github/workflows/exploration.yml": "a6941c8ca4a45c06a8fc5e31789f262d2a378771621e29e322fcac5bd3d4ed2c",
     "data/kuki-chin/corpus.json": "ca1657b7ee017c5e2fa06a08fa2a3ee7c38aa62faad20ea58a2fcdcf224b13b0",
     "data/kuki-chin/diagnostic-input.json": "ba925191655664d102247f8d7ae843b842d8d23dc8de98218ca16416e3a894d4",
     "data/kuki-chin/joint-analysis-input.json": "1227498fbfb36b1f023c40f14505b7aee4ebf6ac15dcdede0dad85c38e2a0c6a",
@@ -946,7 +946,10 @@
     "web/vendor/kiwari/lib/fonts/font-4.ttf": "b536adfa0f5746cfbd148d8a1a669540366edef2c85c4b49450798a037bd928c",
     "web/vendor/kiwari/materials.css": "96f8d10c1d494d10018759089eb4d439d2646251204087336884531a5f76b702",
     "web/vendor/kiwari/slides.css": "c189085d9c97c115a96ef365f82e1d4f3f7db9d93c0867f87b5c4e485592a331",
-    "web/vendor/kiwari/upstream.json": "d5699ffc1ab4af61392b33f9964167e488de9339ab92ba5766732977353b9468"
+    "web/vendor/kiwari/upstream.json": "d5699ffc1ab4af61392b33f9964167e488de9339ab92ba5766732977353b9468",
+    "web/workspace.css": "f934a04142e7ced8933399ac0d443a4966c026a197ddcb06fd8cf77d872dd0b5",
+    "web/workspace.html": "e3383bc18add52b7964610ec221df1ef75089fb8445710f5157900a14d6d49d9",
+    "web/workspace.js": "84f093a102731728ccb961415780661aa5e2c1b777973b33a440a0c482a9e11e"
   },
   "limitations": [
     "Finite declared models only; source labels and transcriptions require linguistic assessment.",
