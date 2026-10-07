@@ -18,6 +18,8 @@ from build_pie_corpus import ROOT, encoded
 from explore_reconstructions import catalogue, SOURCES, select_pool, strict_read, VOICE
 from materials import search
 from workbench_labels import analysis_label, axis_label, case_labels
+import lexicon_api
+from m7_solver import IncompleteSearch as LexiconIncomplete
 from research import (
     EXAMPLES,
     IncompleteSearch,
@@ -395,6 +397,8 @@ class Handler(BaseHTTPRequestHandler):
         try:
             if path == "/api/catalogue":
                 return self.send(200, public_catalogue())
+            if path == "/api/lexicon/example":
+                return self.send(200, lexicon_api.example(query.get("key", "merger")))
             if path == "/api/case":
                 return self.send(200, describe(query))
             if path == "/api/materials":
@@ -423,17 +427,28 @@ class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         if not self.trusted():
             return self.send(403, dict(error="Use the local server origin"))
-        if self.path not in {"/api/run", "/api/import"}:
+        if self.path not in {
+            "/api/run",
+            "/api/import",
+            "/api/lexicon/import",
+            "/api/lexicon/run",
+            "/api/lexicon/page",
+            "/api/lexicon/export",
+            "/api/lexicon/table",
+        }:
             return self.send(404, dict(error="Unknown endpoint"))
         if self.headers.get("Content-Type", "").split(";")[0] != "application/json":
             return self.send(415, dict(error="Send application/json"))
         acquired = False
         try:
             size = int(self.headers.get("Content-Length", "0"))
-            if not 0 < size <= 2_000_000:
-                raise ValueError("Request must be 1 byte–2 MB")
+            body_limit = (
+                16_000_000 if self.path.startswith("/api/lexicon/") else 2_000_000
+            )
+            if not 0 < size <= body_limit:
+                raise ValueError(f"Request must be 1–{body_limit} bytes")
             body = strict_json(self.rfile.read(size))
-            if self.path == "/api/import":
+            if self.path in {"/api/import", "/api/lexicon/import"}:
                 if (
                     not isinstance(body, dict)
                     or set(body) != {"text"}
@@ -453,9 +468,12 @@ class Handler(BaseHTTPRequestHandler):
                         complete=False,
                     ),
                 )
-            result = run_request(body)
-            self.send(200, dict(submitted_request=body, result=result))
-        except IncompleteSearch as error:
+            if self.path.startswith("/api/lexicon/"):
+                self.send(200, lexicon_api.execute(self.path.rsplit("/", 1)[-1], body))
+            else:
+                result = run_request(body)
+                self.send(200, dict(submitted_request=body, result=result))
+        except (IncompleteSearch, LexiconIncomplete) as error:
             self.send(200, dict(status="incomplete", complete=False, error=str(error)))
         except (
             ValueError,

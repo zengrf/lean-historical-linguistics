@@ -13,6 +13,13 @@ linguistic justification of those rules, the cognacy judgments and the source
 readings requires separate assessment. See the [terminology and notation](docs/terminology.md)
 and [formal architecture](docs/02-formal-architecture.md) for these distinctions.
 
+The primary [reflex-table interface](docs/15-m7-delivery.md) generates all bounded
+protolexicons from daughter forms and selected sound-law models. Import a TSV
+lexicon, choose the alphabet, bounds and word shapes, and browse individual
+protoforms or whole lexicons with checked derivations. A 1,000-row demonstration
+represents `64^1000` possible protolexicons in 2,341 checked graph states.
+See the [new desktop preview](reports/m7-ui/desktop.png).
+
 The [research workbench](docs/14-research-workbench.md) now supports minimal
 conflicting evidence, discriminating predictions, observational equivalence,
 chronology enumeration, and linked morphology and tone. Its browser interface
@@ -36,6 +43,7 @@ After the setup and Lean build below, run `python scripts/serve_ui.py` and open
 | [M4: reconstruction](docs/10-m4-delivery.md) | Soundness and relative completeness for bounded search; 1,936 inverse sets; joint alternatives and incomplete searches | Delivered |
 | [M5: Indo-European](docs/11-m5-delivery.md) | 200 IE-CoR cognate sets, 843 reflexes, a 20-set review sample, published analyses and a Latin control | Computational checks passed; specialist review pending |
 | [M6: Kuki-Chin and cross-branch comparison](docs/12-m6-delivery.md) | 100 VanBik sets, 580 reflex records, a 50-set review core and 30 cross-branch dossiers; source-qualified paths and competing analyses | Computational checks passed; specialist review pending |
+| [M7: generative protolexicons](docs/15-m7-delivery.md) | Reflex-only inputs, proved compiler, complete inverse-graph certificates, globally shared models, 1,488 exact inverse-set comparisons and a 1,000-row benchmark | Delivered within declared model and word bounds |
 
 M1's source-entry review and M2's worked derivations were completed by separate
 AI agents. They assess transcription and rule application. M5 requires a PIE
@@ -73,13 +81,14 @@ word/analysis space.
 | [Milestone register](data/milestones.json) | Machine-readable criteria and status |
 | [Materials and hypothesis exploration](docs/13-materials-and-exploration.md) | Full source catalogue, hypothesis selection, enumeration, explanations and coverage gaps |
 | [Research workbench](docs/14-research-workbench.md) | Five evidence-analysis features, browser interface, semantics, source-worked controls and delivery checks |
+| [M7 protolexicon reconstruction](docs/15-m7-delivery.md) | Reflex-table input, complete generative search, proof statements, global models, CLI/browser use, performance and scope |
 
 ## Library and proofs
 
 - **127 PDFs, representing 122 qualifying distinct works**, retained locally: 5,184 pages and approximately 211 MB. Proposals, reviews/replies and a chapter already contained in a downloaded book do not count toward the 100-work floor. Five unsuccessful acquisitions are documented separately.
 - **64 PDFs are included in this public repository** under their recorded redistribution terms. The other 63 are retained in the ignored local library. The manifest and fetcher preserve their original source locations; continued remote availability is not guaranteed.
 - **132 annotated references**: 34 focused excerpt readings, 82 excerpt screenings, 10 visual excerpt readings, one decoded-abstract screening, two web-only excerpt readings and three access-gap notes. The reading notes identify the examined pages.
-- **157 Lean theorem declarations**: 22 M0 results, five M1 evidence results, 17 M2 contextual-rule results, 35 M3 alignment/correspondence results, 48 M4 reconstruction/ambiguity results, six M5 case-study results, four M6 path/scope results and 20 evidence-analysis/paradigm results. The audit permits Lean's standard logical axioms and rejects project axioms, proof placeholders and `native_decide`.
+- **185 Lean theorem declarations**: 22 M0 results, five M1 evidence results, 17 M2 contextual-rule results, 35 M3 alignment/correspondence results, 48 M4 reconstruction/ambiguity results, six M5 case-study results, four M6 path/scope results, 20 evidence-analysis/paradigm results and 28 M7 compiler/inverse-graph/protolexicon results. The audit permits Lean's standard logical axioms and rejects project axioms, proof placeholders and `native_decide`.
 
 The [full local acquisition audit](reports/library-audit.json) records actual hash and page-count checks. Public CI validates the public PDFs and the acquisition ledger; it cannot verify copies absent from a public checkout. See [verification records](reports/README.md).
 

@@ -28,7 +28,9 @@ jobs:
         run: |
           python -m unittest discover -s tests -p test_explorer.py -v
           python -m unittest discover -s tests -p test_research.py -v
+          python -m unittest discover -s tests -p test_m7.py -v
           python scripts/build_research_examples.py --check
+          python scripts/build_m7_fixtures.py --check
       - name: Install pinned elan
         shell: bash
         run: |
@@ -39,10 +41,16 @@ jobs:
           echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
       - name: Build reconstruction executables
         working-directory: lean
-        run: lake +leanprover/lean4:${{ matrix.lean }} build reconstruct pie_check sino_tibetan_check research_check
+        run: lake +leanprover/lean4:${{ matrix.lean }} build reconstruct pie_check sino_tibetan_check research_check lexicon_check
       - name: Execute and compare selected hypotheses
         run: python scripts/verify_explorer.py --check
       - name: Verify conflicts, predictions, chronology, morphology and tone
         run: python scripts/verify_research.py --check
       - name: Exercise the browser against native Lean and capture previews
         run: python scripts/verify_ui.py --output "$RUNNER_TEMP/research-ui"
+      - name: Verify complete protolexicon graphs and reject corrupted proposals
+        run: python scripts/verify_m7.py --check
+      - name: Benchmark 1000 distinct reflex rows and 3000 certificates
+        run: python scripts/benchmark_m7.py --lean-version "${{ matrix.lean }}" --output "$RUNNER_TEMP/m7-benchmark.json"
+      - name: Exercise reflex import, global models and whole-lexicon pagination
+        run: python scripts/verify_m7_ui.py --output "$RUNNER_TEMP/m7-ui"

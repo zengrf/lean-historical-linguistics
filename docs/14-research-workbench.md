@@ -1,5 +1,7 @@
 # Evidence analysis and the research workbench
 
+The primary view now supports [M7 generative protolexicon reconstruction](15-m7-delivery.md) from reflex tables. This document describes the separate source-pool, paradigm and evidence-analysis operations.
+
 The workbench adds five operations to the existing finite reconstruction
 engines: minimal conflicting evidence, discriminating predictions,
 observational equivalence, chronology enumeration, and linked morphology and
@@ -291,7 +293,7 @@ rejected inputs. The [browser report](../reports/ui/verification.json) records
 the actual local browser version, executed checks and screenshot paths.
 [Desktop](../reports/ui/desktop.png) and [mobile](../reports/ui/mobile.png)
 previews were visually inspected. CI repeats native and browser checks under
-Lean 4.19.0 and 4.34.1. Broader milestone regression checks and the 157-theorem
+Lean 4.19.0 and 4.34.1. Broader milestone regression checks and the complete theorem
 dependency audit remain required.
 
 Selecting alternative loan/cognacy/segmentation judgments in a dedicated

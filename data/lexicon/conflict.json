@@ -1,0 +1,212 @@
+{
+  "analyses": [
+    {
+      "branches": [
+        {
+          "language_id": "A",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "to-p-A-stage-1",
+            "id": "to-p-A",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "b"
+            ],
+            "laws": [
+              {
+                "id": "to-p-A-law-0",
+                "input_stage": "stem",
+                "output_stage": "to-p-A-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "p",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "b"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        },
+        {
+          "language_id": "B",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "to-p-B-stage-1",
+            "id": "to-p-B",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "b"
+            ],
+            "laws": [
+              {
+                "id": "to-p-B-law-0",
+                "input_stage": "stem",
+                "output_stage": "to-p-B-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "p",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "b"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        }
+      ],
+      "description": "Explicit synthetic model",
+      "id": "to-p",
+      "source_ref": "synthetic:M7"
+    },
+    {
+      "branches": [
+        {
+          "language_id": "A",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "to-b-A-stage-1",
+            "id": "to-b-A",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "b"
+            ],
+            "laws": [
+              {
+                "id": "to-b-A-law-0",
+                "input_stage": "stem",
+                "output_stage": "to-b-A-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "b",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "p"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        },
+        {
+          "language_id": "B",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "to-b-B-stage-1",
+            "id": "to-b-B",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "b"
+            ],
+            "laws": [
+              {
+                "id": "to-b-B-law-0",
+                "input_stage": "stem",
+                "output_stage": "to-b-B-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "b",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "p"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        }
+      ],
+      "description": "Explicit synthetic model",
+      "id": "to-b",
+      "source_ref": "synthetic:M7"
+    }
+  ],
+  "description": "Synthetic inverse-search control; no historical claim.",
+  "entries": [
+    {
+      "id": "p-row",
+      "meaning": "p-row",
+      "reflexes": [
+        {
+          "form": [
+            "p"
+          ],
+          "language_id": "A",
+          "source_ref": "synthetic:M7"
+        },
+        {
+          "form": [
+            "p"
+          ],
+          "language_id": "B",
+          "source_ref": "synthetic:M7"
+        }
+      ]
+    },
+    {
+      "id": "b-row",
+      "meaning": "b-row",
+      "reflexes": [
+        {
+          "form": [
+            "b"
+          ],
+          "language_id": "A",
+          "source_ref": "synthetic:M7"
+        },
+        {
+          "form": [
+            "b"
+          ],
+          "language_id": "B",
+          "source_ref": "synthetic:M7"
+        }
+      ]
+    }
+  ],
+  "id": "global-conflict",
+  "languages": [
+    {
+      "id": "A",
+      "label": "A"
+    },
+    {
+      "id": "B",
+      "label": "B"
+    }
+  ],
+  "max_length": 1,
+  "min_length": 0,
+  "phonotactics": null,
+  "proto_inventory": [
+    "p",
+    "b"
+  ],
+  "schema_version": "1.0.0"
+}

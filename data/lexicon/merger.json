@@ -1,0 +1,229 @@
+{
+  "analyses": [
+    {
+      "branches": [
+        {
+          "language_id": "A",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "mergers-A-stage-2",
+            "id": "mergers-A",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "b",
+              "t",
+              "d",
+              "a"
+            ],
+            "laws": [
+              {
+                "id": "mergers-A-law-0",
+                "input_stage": "stem",
+                "output_stage": "mergers-A-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "p",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "b"
+                  ]
+                }
+              },
+              {
+                "id": "mergers-A-law-1",
+                "input_stage": "mergers-A-stage-1",
+                "output_stage": "mergers-A-stage-2",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "t",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "d"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        },
+        {
+          "language_id": "B",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "mergers-B-stage-2",
+            "id": "mergers-B",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "b",
+              "t",
+              "d",
+              "a"
+            ],
+            "laws": [
+              {
+                "id": "mergers-B-law-0",
+                "input_stage": "stem",
+                "output_stage": "mergers-B-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "p",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "b"
+                  ]
+                }
+              },
+              {
+                "id": "mergers-B-law-1",
+                "input_stage": "mergers-B-stage-1",
+                "output_stage": "mergers-B-stage-2",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "t",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "d"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        }
+      ],
+      "description": "Both daughters merge b with p and d with t",
+      "id": "mergers",
+      "source_ref": "synthetic:M7"
+    },
+    {
+      "branches": [
+        {
+          "language_id": "A",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "identity-A",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "b",
+              "t",
+              "d",
+              "a"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          }
+        },
+        {
+          "language_id": "B",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "identity-B",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "b",
+              "t",
+              "d",
+              "a"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          }
+        }
+      ],
+      "description": "Both daughters preserve every segment",
+      "id": "identity",
+      "source_ref": "synthetic:M7"
+    }
+  ],
+  "description": "Synthetic inverse-search control; no historical claim.",
+  "entries": [
+    {
+      "id": "one",
+      "meaning": "one",
+      "reflexes": [
+        {
+          "form": [
+            "p",
+            "a"
+          ],
+          "language_id": "A",
+          "source_ref": "synthetic:M7"
+        },
+        {
+          "form": [
+            "p",
+            "a"
+          ],
+          "language_id": "B",
+          "source_ref": "synthetic:M7"
+        }
+      ]
+    },
+    {
+      "id": "two",
+      "meaning": "two",
+      "reflexes": [
+        {
+          "form": [
+            "t",
+            "a"
+          ],
+          "language_id": "A",
+          "source_ref": "synthetic:M7"
+        },
+        {
+          "form": [
+            "t",
+            "a"
+          ],
+          "language_id": "B",
+          "source_ref": "synthetic:M7"
+        }
+      ]
+    }
+  ],
+  "id": "two-mergers",
+  "languages": [
+    {
+      "id": "A",
+      "label": "A"
+    },
+    {
+      "id": "B",
+      "label": "B"
+    }
+  ],
+  "max_length": 2,
+  "min_length": 2,
+  "phonotactics": null,
+  "proto_inventory": [
+    "p",
+    "b",
+    "t",
+    "d",
+    "a"
+  ],
+  "schema_version": "1.0.0"
+}

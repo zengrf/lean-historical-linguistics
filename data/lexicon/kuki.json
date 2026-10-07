@@ -1,0 +1,131 @@
+{
+  "analyses": [
+    {
+      "branches": [
+        {
+          "language_id": "Mizo",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "b-merger-projection-Mizo-stage-1",
+            "id": "b-merger-projection-Mizo",
+            "initial_stage": "stem",
+            "inventory": [
+              "b",
+              "ɓ",
+              "a",
+              "n"
+            ],
+            "laws": [
+              {
+                "id": "b-merger-projection-Mizo-law-0",
+                "input_stage": "stem",
+                "output_stage": "b-merger-projection-Mizo-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "b",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "ɓ"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        },
+        {
+          "language_id": "Thado-Kuki",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "b-merger-projection-Thado-Kuki-stage-1",
+            "id": "b-merger-projection-Thado-Kuki",
+            "initial_stage": "stem",
+            "inventory": [
+              "b",
+              "ɓ",
+              "a",
+              "n"
+            ],
+            "laws": [
+              {
+                "id": "b-merger-projection-Thado-Kuki-law-0",
+                "input_stage": "stem",
+                "output_stage": "b-merger-projection-Thado-Kuki-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "b",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "ɓ"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        }
+      ],
+      "description": "Segmental b/ɓ merger projection; tone and the remaining correspondence system are outside this example",
+      "id": "b-merger-projection",
+      "source_ref": "vanbik2009:PDF93:entry1; restricted M7 projection"
+    }
+  ],
+  "description": "VanBik ARM: Mizo and Thado Kuki báan, projected to b a a n with tone omitted. The source's reconstructed form is not supplied. Both b and ɓ are permitted; this projection cannot decide between them. This is not a full Kuki-Chin or Sino-Tibetan sound-law model.",
+  "entries": [
+    {
+      "id": "arm",
+      "meaning": "ARM",
+      "reflexes": [
+        {
+          "form": [
+            "b",
+            "a",
+            "a",
+            "n"
+          ],
+          "language_id": "Mizo",
+          "source_ref": "vanbik2009:PDF93:entry1; source báan; tone omitted, repeated a retained"
+        },
+        {
+          "form": [
+            "b",
+            "a",
+            "a",
+            "n"
+          ],
+          "language_id": "Thado-Kuki",
+          "source_ref": "vanbik2009:PDF93:entry1; source báan; tone omitted, repeated a retained"
+        }
+      ]
+    }
+  ],
+  "id": "kuki-chin-arm",
+  "languages": [
+    {
+      "id": "Mizo",
+      "label": "Mizo"
+    },
+    {
+      "id": "Thado-Kuki",
+      "label": "Thado-Kuki"
+    }
+  ],
+  "max_length": 6,
+  "min_length": 1,
+  "phonotactics": null,
+  "proto_inventory": [
+    "b",
+    "ɓ",
+    "a",
+    "n"
+  ],
+  "schema_version": "1.0.0"
+}

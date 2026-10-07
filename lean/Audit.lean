@@ -164,3 +164,59 @@ import Historical
 #print axioms Historical.Paradigm.realization_deterministic
 #print axioms Historical.Paradigm.agrees_iff
 #print axioms Historical.Paradigm.paradigm_reconstruction_correct
+
+#print axioms Historical.Compile.output_independent
+
+#print axioms Historical.Compile.scan_compiles
+
+#print axioms Historical.Compile.rule_compiles
+
+#print axioms Historical.Compile.run_nil
+
+#print axioms Historical.Compile.run_append
+
+#print axioms Historical.Compile.laws_compile
+
+#print axioms Historical.Compile.image_compile
+
+#print axioms Historical.Compile.compile_correct
+
+#print axioms Historical.Inverse.consumeCells_correct
+
+#print axioms Historical.Inverse.consume_correct
+
+#print axioms Historical.Inverse.residual_correct
+
+#print axioms Historical.Inverse.allows_nil
+
+#print axioms Historical.Inverse.allows_cons
+
+#print axioms Historical.Inverse.inverse_correct
+
+#print axioms Historical.SearchGraph.faithful_at
+
+#print axioms Historical.SearchGraph.graph_correct
+
+#print axioms Historical.SearchGraph.inverse_machine_correct
+
+#print axioms Historical.SearchGraph.checked_inverse_complete
+
+#print axioms Historical.PrefixSearch.reference_machine_correct
+
+#print axioms Historical.PrefixSearch.reference_graph_correct
+
+#print axioms Historical.Protolexicon.product_correct
+
+#print axioms Historical.Protolexicon.protolexicon_correct
+
+#print axioms Historical.Protolexicon.solutions_correct
+
+#print axioms Historical.Protolexicon.one_model_for_all_words
+
+#print axioms Historical.Protolexicon.empty_entry_excludes_model
+
+#print axioms Historical.LexiconInput.compiled_reflexes_correct
+
+#print axioms Historical.LexiconInput.compiled_request_complete
+
+#print axioms Historical.LexiconInput.reference_request_complete

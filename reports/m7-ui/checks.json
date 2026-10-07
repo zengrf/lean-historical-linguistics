@@ -1,0 +1,31 @@
+{
+  "checks": [
+    "reflex reconstruction is the primary view",
+    "reflex input distinguishes missing, unknown and empty",
+    "enumerates model-qualified whole lexicons",
+    "both local roots displayed",
+    "derivation comes from the native rule trace",
+    "whole lexicon has one model and both rows",
+    "pagination advances whole lexicons",
+    "edits invalidate complete results",
+    "global conflict is not independent wordwise model mixing",
+    "pasted TSV is actually used",
+    "model selection constrains the complete search",
+    "slot constraints change the inverse set",
+    "downloads the checked graph and exact request",
+    "budget exhaustion cannot appear as a complete empty set",
+    "PIE example is generative and fitted-model scope is visible",
+    "Kuki-Chin ambiguity retained",
+    "mobile has no page-level horizontal overflow",
+    "original Kiwari theme is used",
+    "no uncaught browser exceptions"
+  ],
+  "input_hashes": {
+    "scripts/lexicon_api.py": "d80c12a84e17af71ee2874d4c0741bc8d6577043e09597206f6033d795c818dd",
+    "scripts/verify_m7_ui.py": "f4801c28b815b1671065405457d9c747a4fd2b74457c3e4164e26c6c17048c9b",
+    "web/index.html": "b1a4397eec60f57fef79443d3bc5fe573744eda915d48aadef858bd5027b6195",
+    "web/lexicon.js": "feae8c406596a34c5c53d0ff21ae0bb0d5b8190f1cbb5ad6655f50500e453f56",
+    "web/style.css": "b5601cd626f25f9cce4754218129b11b565488abf089b0bc9a103fbf8dea4ae5"
+  },
+  "passed": true
+}

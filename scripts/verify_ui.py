@@ -193,6 +193,7 @@ def verify(url, directory, chrome=None):
         b.wait(
             "typeof state!=='undefined' && state.current?.key==='tones' && state.chronology && !document.getElementById('run').disabled"
         )
+        b.evaluate("document.getElementById('tab-evidence').click()")
         check(
             "source discrepancy and source PDF links",
             "document.querySelectorAll('#reading-note a').length===2 && !document.getElementById('reading-note').hidden",

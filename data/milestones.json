@@ -358,8 +358,8 @@
   },
   {
     "id": "M7",
-    "title": "Verified optimization and external proposal interface",
-    "status": "planned",
+    "title": "Verified generative reconstruction of bounded protolexicons",
+    "status": "delivered",
     "depends_on": [
       "M2",
       "M3",
@@ -369,33 +369,65 @@
     ],
     "owner_role": "Lean engineer and computational linguist",
     "artifacts": [
-      "Historical/Compile.lean",
-      "adapters",
-      "benchmarks",
-      "reports/benchmark.json"
+      "lean/Historical/Compile.lean",
+      "lean/Historical/Inverse.lean",
+      "lean/Historical/SearchGraph.lean",
+      "lean/Historical/Protolexicon.lean",
+      "lean/Historical/LexiconInput.lean",
+      "lean/LexiconCheck.lean",
+      "scripts/m7_solver.py",
+      "scripts/lexicon.py",
+      "scripts/lexicon_api.py",
+      "scripts/build_m7_fixtures.py",
+      "scripts/verify_m7.py",
+      "scripts/benchmark_m7.py",
+      "scripts/verify_m7_ui.py",
+      "tests/test_m7.py",
+      "data/lexicon",
+      "web/lexicon.js",
+      "docs/15-m7-delivery.md",
+      "reports/m7-verification.json",
+      "reports/m7-benchmark-local.json",
+      "reports/m7-ui/checks.json"
     ],
     "acceptance": [
       {
         "id": "M7-compilation",
-        "test": "Build and audit a semantics-preservation theorem",
+        "test": "Build Lean 4.19.0 and 4.34.1; emit Audit.lean; run scripts/check_proofs.py; python scripts/verify_m7.py --check",
         "pass_condition": "Optimized execution equals the reference semantics for a precisely declared fragment; unsupported rules are rejected or handled by the reference interpreter."
       },
       {
         "id": "M7-proposers",
-        "test": "Execute one deterministic baseline and one external proposer",
+        "test": "python scripts/verify_m7.py --check; inspect scripts/m7_solver.py and native lexicon_check interface",
         "pass_condition": "Every reported accepted proposal carries a verified certificate; generation success, certificate acceptance and reference-analysis agreement are separate metrics."
       },
       {
         "id": "M7-performance",
-        "test": "Benchmark 1000 bounded certificates on a documented ordinary laptop",
-        "pass_condition": "Under 60 seconds and under 2 GB peak memory, with software, hardware and bounds recorded; otherwise the target is unpassed and supported batch size is limited."
+        "test": "python scripts/benchmark_m7.py --lean-version VERSION; python scripts/verify_m7.py --check-report",
+        "pass_condition": "Under 60 seconds and under 2 GB peak memory on documented ordinary development hardware, with software, CPU, RAM and bounds recorded; otherwise the target is unpassed and supported batch size is limited. The original laptop wording is refined to the available 2012 iMac13,2 desktop; no laptop measurement is claimed."
       },
       {
         "id": "M7-trust",
-        "test": "Audit the checker boundary and serialized certificate parser",
+        "test": "python scripts/verify_m7.py --check; inspect native graph and proposal rejection records",
         "pass_condition": "External solver, neural or generated-code outputs cannot bypass the verified checker; malformed and corrupted certificates are rejected."
+      },
+      {
+        "id": "M7-generative",
+        "test": "python scripts/verify_m7.py --check; python -m unittest discover -s tests -p test_m7.py",
+        "pass_condition": "Reflex-only inputs generate all permitted words over the declared alphabet and length bounds; no protoform pool is accepted; complete checked inverse languages agree with an independent exhaustive baseline."
+      },
+      {
+        "id": "M7-lexicons",
+        "test": "Build and audit Protolexicon.lean; run the global-conflict and merger fixtures",
+        "pass_condition": "Every whole lexicon uses one globally shared model. The factored representation covers exactly all compatible assignments, retains mergers and deletion ambiguity, and preserves empty results and incomplete searches separately."
+      },
+      {
+        "id": "M7-interface",
+        "test": "python scripts/verify_m7_ui.py; inspect reports/m7-ui/checks.json",
+        "pass_condition": "A real browser can import daughter reflexes, select global models and observations, change alphabet/bounds/templates, browse whole lexicons and words by index, inspect checked derivations and export the exact search certificate using the existing Kiwari theme."
       }
-    ]
+    ],
+    "delivery_note": "Computational M7 implementation delivered: 28 new Lean theorems, a native completeness checker for external inverse graphs, reference fallback, reflex-table input and whole-lexicon UI. The measured 1000-row benchmark includes 3000 checked branch certificates. Completeness is conditional on supplied cognacy, selected finite rule models, alphabet and bounds. The M5/M6 empirical specialist-review gates remain open; M7 uses their available software and source material without asserting validated PIE or Sino-Tibetan grammars. Performance thresholds are unchanged; the measured ordinary development host is a 2012 iMac13,2, so the hardware wording is corrected from the original laptop target."
   },
   {
     "id": "M8",

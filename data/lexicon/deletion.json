@@ -1,0 +1,140 @@
+{
+  "analyses": [
+    {
+      "branches": [
+        {
+          "language_id": "A",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "loss-A-stage-1",
+            "id": "loss-A",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "h",
+              "a"
+            ],
+            "laws": [
+              {
+                "id": "loss-A-law-0",
+                "input_stage": "stem",
+                "output_stage": "loss-A-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": null,
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "h"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        },
+        {
+          "language_id": "B",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "loss-B-stage-1",
+            "id": "loss-B",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "h",
+              "a"
+            ],
+            "laws": [
+              {
+                "id": "loss-B-law-0",
+                "input_stage": "stem",
+                "output_stage": "loss-B-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": null,
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "h"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        }
+      ],
+      "description": "Both daughters lose h",
+      "id": "loss",
+      "source_ref": "synthetic:M7"
+    }
+  ],
+  "description": "Synthetic inverse-search control; no historical claim.",
+  "entries": [
+    {
+      "id": "one",
+      "meaning": "one",
+      "reflexes": [
+        {
+          "form": [
+            "p",
+            "a"
+          ],
+          "language_id": "A",
+          "source_ref": "synthetic:M7"
+        },
+        {
+          "form": [
+            null,
+            "a"
+          ],
+          "language_id": "B",
+          "source_ref": "synthetic:M7"
+        }
+      ]
+    },
+    {
+      "id": "empty",
+      "meaning": "empty",
+      "reflexes": [
+        {
+          "form": [],
+          "language_id": "A",
+          "source_ref": "synthetic:M7"
+        },
+        {
+          "form": null,
+          "language_id": "B",
+          "source_ref": "synthetic:M7"
+        }
+      ]
+    }
+  ],
+  "id": "deletion",
+  "languages": [
+    {
+      "id": "A",
+      "label": "A"
+    },
+    {
+      "id": "B",
+      "label": "B"
+    }
+  ],
+  "max_length": 4,
+  "min_length": 0,
+  "phonotactics": null,
+  "proto_inventory": [
+    "p",
+    "h",
+    "a"
+  ],
+  "schema_version": "1.0.0"
+}

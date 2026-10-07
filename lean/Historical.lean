@@ -13,3 +13,4 @@ import Historical.CaseStudy
 import Historical.SourceScope
 import Historical.Research
 import Historical.Paradigm
+import Historical.LexiconInput

@@ -1,5 +1,15 @@
 # Verification records
 
+[m7-verification.json](m7-verification.json) records generative reconstruction
+from daughter reflexes: 1,488 exact inverse sets, complete graph checking,
+global model consistency, rejected malformed graphs and corrupted forward
+certificates. [m7-benchmark-local.json](m7-benchmark-local.json) measures 1,000
+distinct cognate rows and 3,000 branch certificates, including generation and
+native checking. [m7-ui/checks.json](m7-ui/checks.json) records 19 browser checks
+for reflex import, selectable constraints, indexed whole-lexicon enumeration
+and export. See [M7 delivery](../docs/15-m7-delivery.md) for the 28 new theorem
+statements, runtime profile, supported compiler fragment and empirical limits.
+
 [research-workbench.json](research-workbench.json) records the five new
 operations: 256 exhaustive matrix comparisons, 874 chronology permutations,
 20 integration executions and 23 rejected requests, with source hashes and
@@ -28,7 +38,7 @@ python scripts/verify_library.py --local --output reports/library-audit.json
 
 It records the time, count decisions, source coverage, access gaps and actual checks of all 127 retained PDF files. It attests to the files checked at that time. It does not establish exhaustive literature coverage or cover-to-cover reading. A public clone contains 64 PDFs; its ordinary audit therefore has a different on-disk count.
 
-`lean-axioms-local.txt` records `#print axioms` for all 157 theorem declarations after a successful local build with **Lean 4.19.0 on macOS 10.15 x86_64**. Its reported dependencies are `propext`, `Quot.sound` and `Classical.choice`. There are no project axioms or proof placeholders in the audited source.
+`lean-axioms-local.txt` records `#print axioms` for all 185 theorem declarations after a successful local build with **Lean 4.19.0 on macOS 10.15 x86_64**. Its reported dependencies are `propext`, `Quot.sound` and `Classical.choice`. There are no project axioms or proof placeholders in the audited source.
 
 The local host could not run the Lean 4.34.1 binary because its system C++ library lacks a required symbol. [GitHub Actions](https://github.com/zengrf/lean-historical-linguistics/actions/workflows/ci.yml) independently builds the source on Linux with both 4.19.0 and the pinned 4.34.1, then checks each generated theorem audit. Consult the run for the commit being evaluated; a committed old report alone does not validate changed source.
 

@@ -1,0 +1,1529 @@
+{
+  "analyses": [
+    {
+      "branches": [
+        {
+          "language_id": "ie-127",
+          "package": {
+            "description": "Train-only unit-edit correspondence baseline; substitution/deletion only, with no morphological or chronological interpretation.",
+            "final_stage": "correspondence-127-stage-42",
+            "id": "correspondence-127",
+            "initial_stage": "published-root",
+            "inventory": [
+              "MAP0",
+              "MAP1",
+              "MAP10",
+              "MAP11",
+              "MAP12",
+              "MAP13",
+              "MAP14",
+              "MAP15",
+              "MAP16",
+              "MAP17",
+              "MAP18",
+              "MAP19",
+              "MAP2",
+              "MAP20",
+              "MAP3",
+              "MAP4",
+              "MAP5",
+              "MAP6",
+              "MAP7",
+              "MAP8",
+              "MAP9",
+              "a",
+              "aː",
+              "b",
+              "bʰ",
+              "bʱ",
+              "bʲ",
+              "c",
+              "d",
+              "dz",
+              "dʑ",
+              "dʒ",
+              "dʰ",
+              "dʱ",
+              "dʲ",
+              "dː",
+              "d̪ʲ",
+              "e",
+              "eː",
+              "e̝",
+              "e̞",
+              "f",
+              "g",
+              "gʰ",
+              "gʷ",
+              "gʷʰ",
+              "h",
+              "h1",
+              "h2",
+              "h3",
+              "i",
+              "iː",
+              "i˞",
+              "i̯",
+              "j",
+              "k",
+              "kʰ",
+              "kʲ",
+              "kʷ",
+              "kː",
+              "l",
+              "lʲ",
+              "lː",
+              "lˠ",
+              "l̥",
+              "l̩",
+              "l̪",
+              "l̪ʲ",
+              "m",
+              "mʲ",
+              "mː",
+              "n",
+              "nʲ",
+              "nː",
+              "n̥",
+              "n̪",
+              "n̪ʲ",
+              "o",
+              "oː",
+              "o̞",
+              "o̞ː",
+              "p",
+              "pʰ",
+              "pː",
+              "r",
+              "rʲ",
+              "rː",
+              "r̝",
+              "r̥",
+              "r̩",
+              "r̩ʲ",
+              "r̪",
+              "s",
+              "sʲ",
+              "t",
+              "ts",
+              "tɕ",
+              "tʃ",
+              "tʃʰ",
+              "tʃʲ",
+              "tʰ",
+              "tʲ",
+              "tː",
+              "u",
+              "uː",
+              "u̯",
+              "v",
+              "w",
+              "x",
+              "y",
+              "yː",
+              "z",
+              "á",
+              "áː",
+              "ã",
+              "ãː",
+              "æ",
+              "æː",
+              "é",
+              "éː",
+              "é̞",
+              "êː",
+              "ì̯",
+              "í",
+              "íː",
+              "ð",
+              "ðʲ",
+              "ó",
+              "ó̞",
+              "ó̞ː",
+              "õ",
+              "ø",
+              "øː",
+              "ú",
+              "úː",
+              "ý",
+              "ýː",
+              "ē",
+              "ŋ",
+              "ŋʲ",
+              "ō",
+              "ũː",
+              "ŷː",
+              "ǵ",
+              "ǵʰ",
+              "ɑ",
+              "ɑː",
+              "ɑ̯",
+              "ɒ",
+              "ɔ",
+              "ɔː",
+              "ɕ",
+              "ɖ",
+              "ɘ",
+              "ə",
+              "ɛ",
+              "ɛː",
+              "ɛ́ː",
+              "ɛ̂ː",
+              "ɜ",
+              "ɡ",
+              "ɡʱ",
+              "ɡʲ",
+              "ɡː",
+              "ɣ",
+              "ɣʲ",
+              "ɤ",
+              "ɦ",
+              "ɨ",
+              "ɪ",
+              "ɯ",
+              "ɲ",
+              "ɸʲ",
+              "ɾ",
+              "ʂ",
+              "ʂː",
+              "ʃ",
+              "ʃː",
+              "ʊ",
+              "ʌ",
+              "ʎ",
+              "ʐ",
+              "ʑ",
+              "ʒ",
+              "β",
+              "βʲ",
+              "θ",
+              "θʲ",
+              "χ",
+              "ḱ",
+              "ṽ",
+              "ṽʲ",
+              "ẽ",
+              "⁵⁵"
+            ],
+            "laws": [
+              {
+                "id": "correspondence-127-law-1",
+                "input_stage": "published-root",
+                "output_stage": "correspondence-127-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP0",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "bʰ"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-2",
+                "input_stage": "correspondence-127-stage-1",
+                "output_stage": "correspondence-127-stage-2",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP1",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "d"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-3",
+                "input_stage": "correspondence-127-stage-2",
+                "output_stage": "correspondence-127-stage-3",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP2",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "dʰ"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-4",
+                "input_stage": "correspondence-127-stage-3",
+                "output_stage": "correspondence-127-stage-4",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP3",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "e"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-5",
+                "input_stage": "correspondence-127-stage-4",
+                "output_stage": "correspondence-127-stage-5",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP4",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "g"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-6",
+                "input_stage": "correspondence-127-stage-5",
+                "output_stage": "correspondence-127-stage-6",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP5",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "gʷ"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-7",
+                "input_stage": "correspondence-127-stage-6",
+                "output_stage": "correspondence-127-stage-7",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP6",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "h1"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-8",
+                "input_stage": "correspondence-127-stage-7",
+                "output_stage": "correspondence-127-stage-8",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP7",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "h2"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-9",
+                "input_stage": "correspondence-127-stage-8",
+                "output_stage": "correspondence-127-stage-9",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP8",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "h3"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-10",
+                "input_stage": "correspondence-127-stage-9",
+                "output_stage": "correspondence-127-stage-10",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP9",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "i"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-11",
+                "input_stage": "correspondence-127-stage-10",
+                "output_stage": "correspondence-127-stage-11",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP10",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "j"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-12",
+                "input_stage": "correspondence-127-stage-11",
+                "output_stage": "correspondence-127-stage-12",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP11",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "kʷ"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-13",
+                "input_stage": "correspondence-127-stage-12",
+                "output_stage": "correspondence-127-stage-13",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP12",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "p"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-14",
+                "input_stage": "correspondence-127-stage-13",
+                "output_stage": "correspondence-127-stage-14",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP13",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "r̥"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-15",
+                "input_stage": "correspondence-127-stage-14",
+                "output_stage": "correspondence-127-stage-15",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP14",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "t"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-16",
+                "input_stage": "correspondence-127-stage-15",
+                "output_stage": "correspondence-127-stage-16",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP15",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "u"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-17",
+                "input_stage": "correspondence-127-stage-16",
+                "output_stage": "correspondence-127-stage-17",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP16",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "w"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-18",
+                "input_stage": "correspondence-127-stage-17",
+                "output_stage": "correspondence-127-stage-18",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP17",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "ō"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-19",
+                "input_stage": "correspondence-127-stage-18",
+                "output_stage": "correspondence-127-stage-19",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP18",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "ǵ"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-20",
+                "input_stage": "correspondence-127-stage-19",
+                "output_stage": "correspondence-127-stage-20",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP19",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "ǵʰ"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-21",
+                "input_stage": "correspondence-127-stage-20",
+                "output_stage": "correspondence-127-stage-21",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP20",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "ḱ"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-22",
+                "input_stage": "correspondence-127-stage-21",
+                "output_stage": "correspondence-127-stage-22",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "b",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP0"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-23",
+                "input_stage": "correspondence-127-stage-22",
+                "output_stage": "correspondence-127-stage-23",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "e",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP1"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-24",
+                "input_stage": "correspondence-127-stage-23",
+                "output_stage": "correspondence-127-stage-24",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": null,
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP2"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-25",
+                "input_stage": "correspondence-127-stage-24",
+                "output_stage": "correspondence-127-stage-25",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "u",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP3"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-26",
+                "input_stage": "correspondence-127-stage-25",
+                "output_stage": "correspondence-127-stage-26",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "i",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP4"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-27",
+                "input_stage": "correspondence-127-stage-26",
+                "output_stage": "correspondence-127-stage-27",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "ðʲ",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP5"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-28",
+                "input_stage": "correspondence-127-stage-27",
+                "output_stage": "correspondence-127-stage-28",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": null,
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP6"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-29",
+                "input_stage": "correspondence-127-stage-28",
+                "output_stage": "correspondence-127-stage-29",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": null,
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP7"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-30",
+                "input_stage": "correspondence-127-stage-29",
+                "output_stage": "correspondence-127-stage-30",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": null,
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP8"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-31",
+                "input_stage": "correspondence-127-stage-30",
+                "output_stage": "correspondence-127-stage-31",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "a",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP9"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-32",
+                "input_stage": "correspondence-127-stage-31",
+                "output_stage": "correspondence-127-stage-32",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "ə",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP10"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-33",
+                "input_stage": "correspondence-127-stage-32",
+                "output_stage": "correspondence-127-stage-33",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "k",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP11"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-34",
+                "input_stage": "correspondence-127-stage-33",
+                "output_stage": "correspondence-127-stage-34",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": null,
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP12"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-35",
+                "input_stage": "correspondence-127-stage-34",
+                "output_stage": "correspondence-127-stage-35",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "r",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP13"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-36",
+                "input_stage": "correspondence-127-stage-35",
+                "output_stage": "correspondence-127-stage-36",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": null,
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP14"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-37",
+                "input_stage": "correspondence-127-stage-36",
+                "output_stage": "correspondence-127-stage-37",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "n",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP15"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-38",
+                "input_stage": "correspondence-127-stage-37",
+                "output_stage": "correspondence-127-stage-38",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": null,
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP16"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-39",
+                "input_stage": "correspondence-127-stage-38",
+                "output_stage": "correspondence-127-stage-39",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": null,
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP17"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-40",
+                "input_stage": "correspondence-127-stage-39",
+                "output_stage": "correspondence-127-stage-40",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "r",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP18"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-41",
+                "input_stage": "correspondence-127-stage-40",
+                "output_stage": "correspondence-127-stage-41",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "ɡ",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP19"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-127-law-42",
+                "input_stage": "correspondence-127-stage-41",
+                "output_stage": "correspondence-127-stage-42",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": null,
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP20"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        },
+        {
+          "language_id": "ie-239",
+          "package": {
+            "description": "Train-only unit-edit correspondence baseline; substitution/deletion only, with no morphological or chronological interpretation.",
+            "final_stage": "correspondence-239-stage-2",
+            "id": "correspondence-239",
+            "initial_stage": "published-root",
+            "inventory": [
+              "MAP0",
+              "a",
+              "aː",
+              "b",
+              "bʰ",
+              "bʱ",
+              "bʲ",
+              "c",
+              "d",
+              "dz",
+              "dʑ",
+              "dʒ",
+              "dʰ",
+              "dʱ",
+              "dʲ",
+              "dː",
+              "d̪ʲ",
+              "e",
+              "eː",
+              "e̝",
+              "e̞",
+              "f",
+              "g",
+              "gʰ",
+              "gʷ",
+              "gʷʰ",
+              "h",
+              "h1",
+              "h2",
+              "h3",
+              "i",
+              "iː",
+              "i˞",
+              "i̯",
+              "j",
+              "k",
+              "kʰ",
+              "kʲ",
+              "kʷ",
+              "kː",
+              "l",
+              "lʲ",
+              "lː",
+              "lˠ",
+              "l̥",
+              "l̩",
+              "l̪",
+              "l̪ʲ",
+              "m",
+              "mʲ",
+              "mː",
+              "n",
+              "nʲ",
+              "nː",
+              "n̥",
+              "n̪",
+              "n̪ʲ",
+              "o",
+              "oː",
+              "o̞",
+              "o̞ː",
+              "p",
+              "pʰ",
+              "pː",
+              "r",
+              "rʲ",
+              "rː",
+              "r̝",
+              "r̥",
+              "r̩",
+              "r̩ʲ",
+              "r̪",
+              "s",
+              "sʲ",
+              "t",
+              "ts",
+              "tɕ",
+              "tʃ",
+              "tʃʰ",
+              "tʃʲ",
+              "tʰ",
+              "tʲ",
+              "tː",
+              "u",
+              "uː",
+              "u̯",
+              "v",
+              "w",
+              "x",
+              "y",
+              "yː",
+              "z",
+              "á",
+              "áː",
+              "ã",
+              "ãː",
+              "æ",
+              "æː",
+              "é",
+              "éː",
+              "é̞",
+              "êː",
+              "ì̯",
+              "í",
+              "íː",
+              "ð",
+              "ðʲ",
+              "ó",
+              "ó̞",
+              "ó̞ː",
+              "õ",
+              "ø",
+              "øː",
+              "ú",
+              "úː",
+              "ý",
+              "ýː",
+              "ē",
+              "ŋ",
+              "ŋʲ",
+              "ō",
+              "ũː",
+              "ŷː",
+              "ǵ",
+              "ǵʰ",
+              "ɑ",
+              "ɑː",
+              "ɑ̯",
+              "ɒ",
+              "ɔ",
+              "ɔː",
+              "ɕ",
+              "ɖ",
+              "ɘ",
+              "ə",
+              "ɛ",
+              "ɛː",
+              "ɛ́ː",
+              "ɛ̂ː",
+              "ɜ",
+              "ɡ",
+              "ɡʱ",
+              "ɡʲ",
+              "ɡː",
+              "ɣ",
+              "ɣʲ",
+              "ɤ",
+              "ɦ",
+              "ɨ",
+              "ɪ",
+              "ɯ",
+              "ɲ",
+              "ɸʲ",
+              "ɾ",
+              "ʂ",
+              "ʂː",
+              "ʃ",
+              "ʃː",
+              "ʊ",
+              "ʌ",
+              "ʎ",
+              "ʐ",
+              "ʑ",
+              "ʒ",
+              "β",
+              "βʲ",
+              "θ",
+              "θʲ",
+              "χ",
+              "ḱ",
+              "ṽ",
+              "ṽʲ",
+              "ẽ",
+              "⁵⁵"
+            ],
+            "laws": [
+              {
+                "id": "correspondence-239-law-1",
+                "input_stage": "published-root",
+                "output_stage": "correspondence-239-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP0",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "ḱ"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-239-law-2",
+                "input_stage": "correspondence-239-stage-1",
+                "output_stage": "correspondence-239-stage-2",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "ɨ",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP0"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        },
+        {
+          "language_id": "ie-189",
+          "package": {
+            "description": "Train-only unit-edit correspondence baseline; substitution/deletion only, with no morphological or chronological interpretation.",
+            "final_stage": "correspondence-189-stage-6",
+            "id": "correspondence-189",
+            "initial_stage": "published-root",
+            "inventory": [
+              "MAP0",
+              "MAP1",
+              "MAP2",
+              "a",
+              "aː",
+              "b",
+              "bʰ",
+              "bʱ",
+              "bʲ",
+              "c",
+              "d",
+              "dz",
+              "dʑ",
+              "dʒ",
+              "dʰ",
+              "dʱ",
+              "dʲ",
+              "dː",
+              "d̪ʲ",
+              "e",
+              "eː",
+              "e̝",
+              "e̞",
+              "f",
+              "g",
+              "gʰ",
+              "gʷ",
+              "gʷʰ",
+              "h",
+              "h1",
+              "h2",
+              "h3",
+              "i",
+              "iː",
+              "i˞",
+              "i̯",
+              "j",
+              "k",
+              "kʰ",
+              "kʲ",
+              "kʷ",
+              "kː",
+              "l",
+              "lʲ",
+              "lː",
+              "lˠ",
+              "l̥",
+              "l̩",
+              "l̪",
+              "l̪ʲ",
+              "m",
+              "mʲ",
+              "mː",
+              "n",
+              "nʲ",
+              "nː",
+              "n̥",
+              "n̪",
+              "n̪ʲ",
+              "o",
+              "oː",
+              "o̞",
+              "o̞ː",
+              "p",
+              "pʰ",
+              "pː",
+              "r",
+              "rʲ",
+              "rː",
+              "r̝",
+              "r̥",
+              "r̩",
+              "r̩ʲ",
+              "r̪",
+              "s",
+              "sʲ",
+              "t",
+              "ts",
+              "tɕ",
+              "tʃ",
+              "tʃʰ",
+              "tʃʲ",
+              "tʰ",
+              "tʲ",
+              "tː",
+              "u",
+              "uː",
+              "u̯",
+              "v",
+              "w",
+              "x",
+              "y",
+              "yː",
+              "z",
+              "á",
+              "áː",
+              "ã",
+              "ãː",
+              "æ",
+              "æː",
+              "é",
+              "éː",
+              "é̞",
+              "êː",
+              "ì̯",
+              "í",
+              "íː",
+              "ð",
+              "ðʲ",
+              "ó",
+              "ó̞",
+              "ó̞ː",
+              "õ",
+              "ø",
+              "øː",
+              "ú",
+              "úː",
+              "ý",
+              "ýː",
+              "ē",
+              "ŋ",
+              "ŋʲ",
+              "ō",
+              "ũː",
+              "ŷː",
+              "ǵ",
+              "ǵʰ",
+              "ɑ",
+              "ɑː",
+              "ɑ̯",
+              "ɒ",
+              "ɔ",
+              "ɔː",
+              "ɕ",
+              "ɖ",
+              "ɘ",
+              "ə",
+              "ɛ",
+              "ɛː",
+              "ɛ́ː",
+              "ɛ̂ː",
+              "ɜ",
+              "ɡ",
+              "ɡʱ",
+              "ɡʲ",
+              "ɡː",
+              "ɣ",
+              "ɣʲ",
+              "ɤ",
+              "ɦ",
+              "ɨ",
+              "ɪ",
+              "ɯ",
+              "ɲ",
+              "ɸʲ",
+              "ɾ",
+              "ʂ",
+              "ʂː",
+              "ʃ",
+              "ʃː",
+              "ʊ",
+              "ʌ",
+              "ʎ",
+              "ʐ",
+              "ʑ",
+              "ʒ",
+              "β",
+              "βʲ",
+              "θ",
+              "θʲ",
+              "χ",
+              "ḱ",
+              "ṽ",
+              "ṽʲ",
+              "ẽ",
+              "⁵⁵"
+            ],
+            "laws": [
+              {
+                "id": "correspondence-189-law-1",
+                "input_stage": "published-root",
+                "output_stage": "correspondence-189-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP0",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "o"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-189-law-2",
+                "input_stage": "correspondence-189-stage-1",
+                "output_stage": "correspondence-189-stage-2",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP1",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "s"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-189-law-3",
+                "input_stage": "correspondence-189-stage-2",
+                "output_stage": "correspondence-189-stage-3",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "MAP2",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "ḱ"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-189-law-4",
+                "input_stage": "correspondence-189-stage-3",
+                "output_stage": "correspondence-189-stage-4",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "ɔ",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP0"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-189-law-5",
+                "input_stage": "correspondence-189-stage-4",
+                "output_stage": "correspondence-189-stage-5",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "ə",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP1"
+                  ]
+                }
+              },
+              {
+                "id": "correspondence-189-law-6",
+                "input_stage": "correspondence-189-stage-5",
+                "output_stage": "correspondence-189-stage-6",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "ʃː",
+                  "right": [],
+                  "right_edge": false,
+                  "target": [
+                    "MAP2"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        }
+      ],
+      "description": "M5 fitted segment correspondences; an experimental baseline, not established PIE-to-daughter histories",
+      "id": "m5-fitted-correspondences",
+      "source_ref": "data/pie/experiment.json; fitted model retains its original training provenance"
+    }
+  ],
+  "description": "IE-CoR LEG reflexes in Old Irish, Middle Welsh and Neapolitan. Enumerates a segment alphabet under the existing M5 fitted correspondence baseline. No published protoform pool is supplied. Model fit is not independent historical validation; morphology and chronology are incomplete.",
+  "entries": [
+    {
+      "id": "leg",
+      "meaning": "LEG",
+      "reflexes": [
+        {
+          "form": [
+            "k",
+            "o",
+            "s"
+          ],
+          "language_id": "ie-127",
+          "source_ref": "data/upstream/iecor/cldf/forms.csv#ID=127-93-1"
+        },
+        {
+          "form": [
+            "k",
+            "o",
+            "ɨ",
+            "s"
+          ],
+          "language_id": "ie-239",
+          "source_ref": "data/upstream/iecor/cldf/forms.csv#ID=239-93-1"
+        },
+        {
+          "form": [
+            "k",
+            "ɔ",
+            "ʃː",
+            "ə"
+          ],
+          "language_id": "ie-189",
+          "source_ref": "data/upstream/iecor/cldf/forms.csv#ID=189-93-1"
+        }
+      ]
+    }
+  ],
+  "id": "pie-leg-reflexes",
+  "languages": [
+    {
+      "id": "ie-127",
+      "label": "Old Irish"
+    },
+    {
+      "id": "ie-239",
+      "label": "Middle Welsh"
+    },
+    {
+      "id": "ie-189",
+      "label": "Neapolitan"
+    }
+  ],
+  "max_length": 6,
+  "min_length": 0,
+  "phonotactics": null,
+  "proto_inventory": [
+    "p",
+    "b",
+    "t",
+    "d",
+    "k",
+    "ḱ",
+    "g",
+    "ǵ",
+    "s",
+    "m",
+    "n",
+    "l",
+    "r",
+    "w",
+    "j",
+    "e",
+    "o",
+    "a",
+    "i",
+    "u",
+    "h1",
+    "h2",
+    "h3"
+  ],
+  "schema_version": "1.0.0"
+}

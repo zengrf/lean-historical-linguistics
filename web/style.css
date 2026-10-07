@@ -1317,6 +1317,95 @@ footer {
 .introduction {
   padding-top: 24px;
 }
+textarea {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid var(--text-muted, #827568);
+  border-radius: 2px;
+  padding: 10px;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+  resize: vertical;
+}
+#lex-table,
+#lex-model-edit,
+#lex-shapes {
+  font: 14px/1.6 monospace;
+}
+#lex-table {
+  margin-bottom: 12px;
+}
+.lex-bounds,
+.lex-browser {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.lex-browser {
+  margin: 20px 0;
+}
+.lex-browser select,
+.lex-browser input {
+  width: 100%;
+}
+.lex-model-card {
+  padding: 12px 0;
+  border-bottom: 1px solid currentColor;
+}
+.lex-model-card p {
+  margin: 5px 0;
+}
+.lex-derivation {
+  padding: 14px 0;
+  border-bottom: 1px solid currentColor;
+}
+.lex-derivation > summary {
+  font-size: 22px;
+}
+.lex-derivation details {
+  margin: 12px 0 12px 16px;
+}
+.lex-whole table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+.lex-whole th,
+.lex-whole td {
+  padding: 6px 10px;
+  border-bottom: 1px solid currentColor;
+}
+#lex-total {
+  overflow-wrap: anywhere;
+}
+#panel-lexicon > .material-picker {
+  grid-template-columns: 1fr 1fr;
+}
+#panel-lexicon > .material-picker h2 {
+  grid-column: 1 / -1;
+}
+#panel-lexicon label[for="lex-example"] {
+  grid-column: 1;
+  grid-row: 2;
+}
+#panel-lexicon label[for="lex-import"] {
+  grid-column: 2;
+  grid-row: 2;
+}
+#lex-example {
+  grid-column: 1;
+  grid-row: 3;
+}
+#lex-import {
+  grid-column: 2;
+  grid-row: 3;
+}
+@media (max-width: 700px) {
+  .lex-browser {
+    grid-template-columns: 1fr;
+  }
+}
 .slide.room h1 {
   margin-bottom: 18px;
 }

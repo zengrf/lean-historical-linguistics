@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/vendor/kiwari/slides.css" />
     <link rel="stylesheet" href="/style.css" />
     <script src="/app.js" defer></script>
+    <script src="/lexicon.js" defer></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to the workbench</a>
@@ -72,14 +73,24 @@
       </section>
       <nav class="tabs" role="tablist" aria-label="Workbench sections">
         <button
-          id="tab-evidence"
+          id="tab-lexicon"
           role="tab"
           aria-selected="true"
-          aria-controls="panel-evidence"
+          aria-controls="panel-lexicon"
           tabindex="0"
+          data-tab="lexicon"
+        >
+          <span>01</span> Reconstruct a lexicon
+        </button>
+        <button
+          id="tab-evidence"
+          role="tab"
+          aria-selected="false"
+          aria-controls="panel-evidence"
+          tabindex="-1"
           data-tab="evidence"
         >
-          <span>01</span> Reconstruct
+          <span>02</span> Source pools &amp; paradigms
         </button>
         <button
           id="tab-chronology"
@@ -89,7 +100,7 @@
           tabindex="-1"
           data-tab="chronology"
         >
-          <span>02</span> Chronology
+          <span>03</span> Chronology
         </button>
         <button
           id="tab-materials"
@@ -99,15 +110,224 @@
           tabindex="-1"
           data-tab="materials"
         >
-          <span>03</span> Source materials
+          <span>04</span> Source materials
         </button>
       </nav>
       <main id="main">
+        <section
+          id="panel-lexicon"
+          role="tabpanel"
+          aria-labelledby="tab-lexicon"
+          tabindex="0"
+        >
+          <div class="material-picker">
+            <h2 class="step-title">
+              <span>1</span> Supply daughter-language words
+            </h2>
+            <label for="lex-example">Start with an example</label>
+            <select id="lex-example">
+              <option value="merger">Loading reflex tables…</option>
+            </select>
+            <label for="lex-import">Or import your request (JSON)</label>
+            <input
+              id="lex-import"
+              type="file"
+              accept=".json,application/json"
+            />
+          </div>
+          <div class="workbench">
+            <aside class="controls">
+              <h2 class="step-title"><span>2</span> Choose the constraints</h2>
+              <fieldset>
+                <legend>Sound-law models</legend>
+                <p class="help">
+                  Each reconstruction uses one selected model for every word in
+                  the lexicon.
+                </p>
+                <div id="lex-models"></div>
+              </fieldset>
+              <fieldset>
+                <legend>Daughter languages to match</legend>
+                <div id="lex-languages"></div>
+              </fieldset>
+              <label for="lex-inventory">Allowed proto-segments</label>
+              <textarea
+                id="lex-inventory"
+                rows="3"
+                spellcheck="false"
+                aria-describedby="lex-inventory-help"
+              ></textarea>
+              <p id="lex-inventory-help" class="help">
+                Separate atomic segments with spaces. A symbol such as kʷ counts
+                as one segment.
+              </p>
+              <div class="lex-bounds">
+                <label for="lex-min"
+                  >Minimum length<input
+                    id="lex-min"
+                    type="number"
+                    min="0"
+                    max="64"
+                    value="0"
+                /></label>
+                <label for="lex-max"
+                  >Maximum length<input
+                    id="lex-max"
+                    type="number"
+                    min="0"
+                    max="64"
+                    value="4"
+                /></label>
+              </div>
+              <details class="advanced">
+                <summary>Word shapes, models &amp; search limits</summary>
+                <label for="lex-shapes"
+                  >Allowed slot templates (JSON; null allows any shape)</label
+                >
+                <textarea id="lex-shapes" rows="3" spellcheck="false">
+null</textarea
+                >
+                <p class="help">
+                  For example, [[ ["p","b"], ["a"] ]] permits pa or ba. An empty
+                  list permits no forms.
+                </p>
+                <label for="lex-model-edit">Ordered sound laws (JSON)</label>
+                <textarea
+                  id="lex-model-edit"
+                  rows="8"
+                  spellcheck="false"
+                ></textarea>
+                <button id="lex-apply-models" class="quiet">
+                  Apply model edits
+                </button>
+                <label for="lex-budget">Maximum search graph nodes</label
+                ><input
+                  id="lex-budget"
+                  type="number"
+                  min="1"
+                  max="250000"
+                  value="250000"
+                />
+                <label for="lex-seconds">Search seconds</label
+                ><input
+                  id="lex-seconds"
+                  type="number"
+                  min="1"
+                  max="60"
+                  value="60"
+                />
+                <p class="help">
+                  Exhausting either budget reports an incomplete search.
+                  Context-sensitive rules use the reference interpreter and can
+                  require much more work.
+                </p>
+              </details>
+              <button id="lex-download-input" class="quiet">
+                Download request ↓
+              </button>
+            </aside>
+            <div class="study">
+              <p class="eyebrow">Reflexes → possible protolexicons</p>
+              <h2>Reconstruct from the daughter forms</h2>
+              <p id="lex-description" class="description"></p>
+              <details id="lex-table-details" open>
+                <summary>
+                  Reflex table · <span id="lex-row-count"></span>
+                </summary>
+                <p class="help">
+                  One proposed cognate set per row. Paste tab-separated columns
+                  from a spreadsheet. Within a cell, separate segments with
+                  spaces. Blank = missing word; ? = one unknown segment; ∅ = an
+                  observed empty form.
+                </p>
+                <label class="sr-only" for="lex-table"
+                  >Tab-separated reflex table</label
+                >
+                <textarea
+                  id="lex-table"
+                  rows="7"
+                  spellcheck="false"
+                  wrap="off"
+                ></textarea>
+                <label for="lex-tsv-import">Import a TSV table</label
+                ><input
+                  id="lex-tsv-import"
+                  type="file"
+                  accept=".tsv,.txt,text/tab-separated-values"
+                />
+                <label for="lex-source"
+                  >Source reference for edited or imported rows</label
+                ><input id="lex-source" value="user:reflex-table" />
+              </details>
+              <div class="run-panel">
+                <p class="help">
+                  The search generates protoforms from your alphabet and
+                  constraints. “All” covers the supplied cognate sets under the
+                  selected models and length bounds.
+                </p>
+                <button id="lex-run" class="primary">
+                  Enumerate all allowed protolexicons →
+                </button>
+                <p
+                  id="lex-status"
+                  role="status"
+                  aria-live="polite"
+                  class="run-status"
+                >
+                  Loading the reflex table.
+                </p>
+              </div>
+              <div id="lex-results" aria-live="polite" aria-busy="false" hidden>
+                <div class="study-heading">
+                  <h3 id="lex-total"></h3>
+                  <button id="lex-export" class="quiet" disabled>
+                    Download checked search ↓
+                  </button>
+                </div>
+                <p id="lex-scope" class="help"></p>
+                <div id="lex-model-summary"></div>
+                <div class="lex-browser">
+                  <label for="lex-result-model"
+                    >Use this global model<select id="lex-result-model"></select
+                  ></label>
+                  <label for="lex-view"
+                    >Browse<select id="lex-view">
+                      <option value="words">
+                        Protoforms for one cognate set
+                      </option>
+                      <option value="lexicons">Whole protolexicons</option>
+                    </select></label
+                  >
+                  <label for="lex-entry"
+                    >Cognate set<select id="lex-entry"></select
+                  ></label>
+                  <label for="lex-offset"
+                    >Start at index (from 0)<input
+                      id="lex-offset"
+                      value="0"
+                      inputmode="numeric"
+                  /></label>
+                  <button id="lex-go" class="quiet">
+                    Show reconstructions
+                  </button>
+                </div>
+                <p id="lex-page-status" class="help" role="status"></p>
+                <div id="lex-candidates"></div>
+                <div class="pagination">
+                  <button id="lex-previous" class="quiet" disabled>
+                    ← Previous</button
+                  ><button id="lex-next" class="quiet" disabled>Next →</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section
           id="panel-evidence"
           role="tabpanel"
           aria-labelledby="tab-evidence"
           tabindex="0"
+          hidden
         >
           <div class="material-picker">
             <h2 class="step-title"><span>1</span> Choose the material</h2>

@@ -1,6 +1,6 @@
 # Delivery plan with verifiable goals
 
-**M0–M4 are delivered; M5 and M6 are in review; M7–M9 are planned.** Separate AI reviewers completed M1's source-entry gate and M2's independent hand-worked examples. The M5 and M6 computational pilots are implemented; their independent family-specialist assessments remain pending. The machine-readable register is [milestones.json](../data/milestones.json). M1–M6's checkers and verification commands now exist; commands named for later modules remain acceptance-interface specifications.
+**M0–M4 and M7 are delivered; M5 and M6 are in review; M8–M9 are planned.** Separate AI reviewers completed M1's source-entry gate and M2's independent hand-worked examples. The M5 and M6 computational pilots are implemented; their independent family-specialist assessments remain pending. The machine-readable register is [milestones.json](../data/milestones.json). M1–M7's checkers and verification commands now exist. M7 depends on the available M5/M6 implementations and source material; it does not close their empirical review gates. Commands named for later modules remain acceptance-interface specifications.
 
 ## 1. Intended research contribution
 
@@ -26,7 +26,7 @@ An initial publication could present the rule semantics, certificate checker and
 | **M4** | Bounded inverse reconstruction and alternatives; depends on M2–M3 | 48 new theorems; explicit finite models/word bounds; 1,936 exact inverse sets across 16 cascades; linked alternatives and incomplete searches retained; 82 fixtures | Delivered; original estimate 4–7 engineer-weeks |
 | **M5** | PIE case study; depends on M1–M4 | 20-set / 161-reflex review core within 200 sets / 843 reflex records; scoped source packages and morphology; 1,308 checked traces / 310 inverse sets; frozen evaluation. Independent specialist review pending. | In review; original estimate 6–10 engineer-weeks + 6–10 specialist-weeks |
 | **M6** | Sino-Tibetan subgroup and cross-branch study; depends on M1–M4 | 50-set / 298-reflex core within 100 sets / 580 reflex records; 30 cross-branch dossiers; source scopes and competing analyses checked. Independent specialist review pending. | In review; original estimate 8–12 engineer-weeks + 8–12 specialist-weeks |
-| **M7** | Verified optimization and external proposers; depends on M2–M6 | Proved compilation for a restricted fragment; one deterministic baseline and one external proposer; all reported accepted outputs carry certificates; benchmark logs | 6–10 engineer-weeks |
+| **M7** | Verified generative protolexicons; depends on M2–M6 software and source material | Proved compiler and complete graph checker; reflex-only input; shared global models; external solver and exhaustive baseline; 1,000-row benchmark and browser | Delivered; bounded computational contract |
 | **M8** | Morphology, analogy and contact extension; depends on M5–M7 | Paradigm-aware derivations; typed borrowing/analogy witnesses; 20 reviewed cases; failure to establish a unique history explicitly represented | 6–10 engineer-weeks + specialist review |
 | **M9** | Research release and optional probability module; depends on M7–M8 | Clean-environment reproduction; artifact archive; paper with precise claims; uncertainty evaluation. Optional finite rational posterior theorem if pursued | 4–8 engineer-weeks |
 
@@ -85,11 +85,15 @@ Follow the detailed [case-study protocol](03-case-studies-and-evaluation.md). De
 
 The evidence must include multiple source-defined analysis packages. A successful outcome may show that two theories fit the same data, or that the selected sources do not support a proposed law. Retain these outcomes and report any shortfall against the sample targets.
 
-### M7: optimize behind a fixed contract
+### M7: complete inverse languages and protolexicons
+
+Implemented in the [M7 delivery](15-m7-delivery.md): 28 new Lean theorems, generative reflex-table input, compact complete inverse graphs, globally shared sound-law models, indexed enumeration and a browser using the existing Kiwari assets. Original optimization and proposer criteria are retained; the user-requested whole-lexicon and interface criteria are added in the register. M5/M6 specialist reviews remain pending.
+
+Original acceptance contract:
 
 Benchmark the reference interpreter before optimization. A finite-state compiler must come with a semantics-preservation theorem for a precisely stated fragment. An external proposer can be a solver or a statistical/neural system; its outputs are inputs to the verified checker. Candidate-generation success, certificate acceptance and reference-analysis agreement must be separate columns in the report.
 
-Target: 1,000 bounded certificates checked in under 60 seconds and under 2 GB peak memory on a documented ordinary laptop. If the target fails, publish the profile and limit supported batch size until addressed. Do not introduce unsound shortcuts to meet the time limit.
+Target: 1,000 bounded certificates checked in under 60 seconds and under 2 GB peak memory on documented ordinary development hardware. The original plan named a laptop; the available measured host is a 2012 iMac13,2. Hardware is recorded explicitly and no laptop measurement is claimed. If the target fails, publish the profile and limit supported batch size until addressed. Do not introduce unsound shortcuts to meet the time limit.
 
 ### M8: explain apparent exceptions
 

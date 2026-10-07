@@ -1,0 +1,116 @@
+{
+  "analyses": [
+    {
+      "branches": [
+        {
+          "language_id": "A",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "intervocalic-A-stage-1",
+            "id": "intervocalic-A",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "b",
+              "a"
+            ],
+            "laws": [
+              {
+                "id": "intervocalic-A-law-0",
+                "input_stage": "stem",
+                "output_stage": "intervocalic-A-stage-1",
+                "rule": {
+                  "direction": "left-to-right",
+                  "left": [
+                    [
+                      "a"
+                    ]
+                  ],
+                  "left_edge": false,
+                  "mode": "simultaneous",
+                  "replacement": "b",
+                  "right": [
+                    [
+                      "a"
+                    ]
+                  ],
+                  "right_edge": false,
+                  "target": [
+                    "p"
+                  ]
+                }
+              }
+            ],
+            "version": "1.0.0"
+          }
+        },
+        {
+          "language_id": "B",
+          "package": {
+            "description": "Explicit finite realization package",
+            "final_stage": "stem",
+            "id": "intervocalic-B",
+            "initial_stage": "stem",
+            "inventory": [
+              "p",
+              "b",
+              "a"
+            ],
+            "laws": [],
+            "version": "1.0.0"
+          }
+        }
+      ],
+      "description": "Explicit synthetic model",
+      "id": "intervocalic",
+      "source_ref": "synthetic:M7"
+    }
+  ],
+  "description": "Synthetic inverse-search control; no historical claim.",
+  "entries": [
+    {
+      "id": "one",
+      "meaning": "one",
+      "reflexes": [
+        {
+          "form": [
+            "a",
+            "b",
+            "a"
+          ],
+          "language_id": "A",
+          "source_ref": "synthetic:M7"
+        },
+        {
+          "form": [
+            "a",
+            "p",
+            "a"
+          ],
+          "language_id": "B",
+          "source_ref": "synthetic:M7"
+        }
+      ]
+    }
+  ],
+  "id": "contextual",
+  "languages": [
+    {
+      "id": "A",
+      "label": "A"
+    },
+    {
+      "id": "B",
+      "label": "B"
+    }
+  ],
+  "max_length": 3,
+  "min_length": 0,
+  "phonotactics": null,
+  "proto_inventory": [
+    "p",
+    "b",
+    "a"
+  ],
+  "schema_version": "1.0.0"
+}
