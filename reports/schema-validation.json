@@ -1048,7 +1048,7 @@
     "lean/Historical/Identifiability.lean": "432b78fd0cd6f50fff75b7bd21c48f644e0ad1a314e6b2b534bcc0f1bcb66f7c",
     "lean/Historical/Inverse.lean": "6c4736b78c9d320e6fe92c2909b45231d7c513a6f88369b81546a7337668ac29",
     "lean/Historical/JsonInput.lean": "4dbb8bdcd8a026eb72e0d58d4ca699a6c46d07dd3d11e9d15fed26bf4ae5248a",
-    "lean/Historical/LexiconInput.lean": "f74c34d2adfbe8876bd36982101d4e71dda5d7e1d1d1b0fc3d6c637dc81c2875",
+    "lean/Historical/LexiconInput.lean": "4c2ce73bacb67c77c091aa6b2542b2dae644ce602e929882f5a42166fc27ad1b",
     "lean/Historical/Paradigm.lean": "4d7e10ed9d48ba4b25fb5c9d44a5508a9807a0af8a652484a5f048af2d8b518b",
     "lean/Historical/Protolexicon.lean": "025636b80e9ce6749e520250cb164929d522deb9ed3ee1472da7fe55c188762b",
     "lean/Historical/Reconstruction.lean": "5a9098ee99c05205d2ee017519c7d05dce253dc3b9acbe3d03c1f558abbfe9c3",

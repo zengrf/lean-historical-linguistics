@@ -137,8 +137,9 @@ theorem compiled_request_complete (r : Request) (a : Analysis) (e : Entry)
   by_cases hw : ∀ x ∈ w, x ∈ alphabet r
   · have hf := compiled_reflexes_correct (alphabet r) a.branches e.reflexes w hs hw
     change Inverse.fits (tables r a) (masks e) w = fitsReflexes a.branches e.reflexes w at hf
-    simp [wordFits, predicate, Inverse.allows, root, hf, List.all_eq_true, hw, decide_eq_true_eq,
-      and_assoc, and_left_comm, and_comm]
+    simp only [wordFits, predicate, Inverse.allows, root, hf, List.all_eq_true,
+      Bool.and_eq_true, decide_eq_true_eq, List.contains_iff]
+    simp only [and_assoc, and_left_comm, and_comm]
   · simp [wordFits, List.all_eq_true, hw]
 
 theorem reference_request_complete (r : Request) (a : Analysis) (e : Entry)
