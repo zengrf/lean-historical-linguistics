@@ -18,6 +18,11 @@ from workspace_evaluation import evaluate
 
 def main():
     directory = Path(sys.argv[1])
+    # Lean 4.34 reserves a 1 GiB stack for each runtime thread by default.
+    # Bound native concurrency and stack reservations inside the worker's
+    # address-space budget; these checks do not use parallel Lean tasks.
+    os.environ["LEAN_NUM_THREADS"] = "1"
+    os.environ["LEAN_STACK_SIZE_KB"] = "65536"
     if sys.platform.startswith("linux"):
         import resource
 

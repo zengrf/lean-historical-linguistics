@@ -91,7 +91,7 @@
     "scripts/workspace_server.py": "9c7f7c9b4104fa9902765e074ce653b77c3307f0de61740d507ccf496327e67e",
     "scripts/workspace_setup.py": "a5268bb59ec6538b002e632dfeee388582bdbb732d477c5b5917e952c2097ff8",
     "scripts/workspace_store.py": "b155213fd855d31044c2ddd9f7a4bc7e715a62c89a66edc2f7c4c802a350a438",
-    "scripts/workspace_worker.py": "5ba7fd71c979d3f5737517615da38479779d48dde095bbb454980073b6b3decd",
+    "scripts/workspace_worker.py": "98ae40240396aa163be0cf423b4197ebd9dda3674ffbe53cbcfd38a027d7c3d3",
     "tests/test_workspace.py": "587f6795400778c447c561c2872e12777c183f2a9d52648a32eaa555a96129da",
     "web/workspace.css": "f934a04142e7ced8933399ac0d443a4966c026a197ddcb06fd8cf77d872dd0b5",
     "web/workspace.html": "e3383bc18add52b7964610ec221df1ef75089fb8445710f5157900a14d6d49d9",
@@ -103,7 +103,7 @@
     "mobile.png": "de27455b1736ecb28532820bd3d5370ff186523d0f45450ff5c718419bff8df8",
     "night.png": "31a8814dae61fe573e79792d0385e04f353b8a5c60c82baede676dc2d070f7e4",
     "reading.png": "124525da027cdcf0242640794aed9a0c62beec6db6ed8a3ccb5b73336abf59b9",
-    "reconstructions.png": "690746b4fd2426ce900aeac23085380ae434ba01129f35ab3e46c7b46e94cc74",
+    "reconstructions.png": "3cf54ab105a60cabb6b1f8db6e3dabb47e13abea3cde3a8b823a84918bbc9392",
     "sound-changes.png": "f7f5e0b2776210f119919b9386d8a57d27e05186d5509581279a5aec7d049611",
     "wordlist.png": "9d6bcc78635bcddefe35574a1024d124e3408071af1cbce70dfa6434e6de31ca"
   }

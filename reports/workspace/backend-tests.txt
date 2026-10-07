@@ -35,6 +35,6 @@ test_revisions_survive_restart_and_restore_is_nondestructive (test_workspace.Sto
 test_terminal_cancellation_cannot_be_overwritten (test_workspace.StoreTests.test_terminal_cancellation_cannot_be_overwritten) ... ok
 
 ----------------------------------------------------------------------
-Ran 35 tests in 9.441s
+Ran 35 tests in 11.297s
 
 OK

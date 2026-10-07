@@ -949,7 +949,7 @@
     "web/vendor/kiwari/upstream.json": "d5699ffc1ab4af61392b33f9964167e488de9339ab92ba5766732977353b9468",
     "web/workspace.css": "f934a04142e7ced8933399ac0d443a4966c026a197ddcb06fd8cf77d872dd0b5",
     "web/workspace.html": "e3383bc18add52b7964610ec221df1ef75089fb8445710f5157900a14d6d49d9",
-    "web/workspace.js": "84f093a102731728ccb961415780661aa5e2c1b777973b33a440a0c482a9e11e"
+    "web/workspace.js": "8cc8cfcafcd0194cd1d46be3155f87752fd47100ef5db0f22ffac53fb929eedf"
   },
   "limitations": [
     "Finite declared models only; source labels and transcriptions require linguistic assessment.",

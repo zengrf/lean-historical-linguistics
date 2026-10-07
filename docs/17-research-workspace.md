@@ -171,6 +171,7 @@ reported as incomplete or failed, without a completeness claim.
 | Total job deadline | Search limit plus 125 seconds for checks and evaluation |
 | Native certificate | At most 128 MiB |
 | Linux worker hard limits | 3 GiB address space, 256 MiB per file; macOS uses time, graph and artifact limits without an address-space cap |
+| Native worker runtime | One Lean task thread; 64 MiB thread stack reservation on Lean 4.34, so default virtual stack reservations do not exhaust the Linux address-space limit |
 | Stored analysis admission limit | 2 GiB; pending jobs can add artifacts before the next admission check |
 | Browser backup download | 64 MB compressed; command-line backup supports larger workspaces |
 
