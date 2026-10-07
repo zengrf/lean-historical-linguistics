@@ -103,3 +103,9 @@ The three `sino-tibetan-*-execution.json` files contain 740 forward certificates
 the 1,000-certificate measurement. The [specialist status](sino-tibetan-review.json)
 remains pending. See [M6 delivery](../docs/12-m6-delivery.md);
 `verify_m6.py --require-complete` enforces the outstanding review requirement.
+
+[M7 examples and assessment](m7-examples/README.md) contains actual screenshots
+of whole-lexicon enumeration, the fitted PIE LEG example and Kuki-Chin ARM
+ambiguity. Native outputs, repeated small-case timings, a fresh 1,000-row
+benchmark and a contextual-rule stress test accompany the assessment. Its
+readiness ratings are judgments, separate from measured historical accuracy.

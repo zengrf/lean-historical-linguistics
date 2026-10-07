@@ -1,0 +1,3653 @@
+{
+  "browser": {
+    "kuki": {
+      "candidates": "*baan · checked daughter derivations\nMizo: baan\nThado-Kuki: baan\n*ɓaan · checked daughter derivations\nMizo: baan\nThado-Kuki: baan",
+      "scope": "Complete search checked by Lean. 1 cognate sets; 5 graph states. Counts distinguish global models, even when they predict the same forms.",
+      "total": "2 allowed protolexicons"
+    },
+    "merger": {
+      "candidates": "mergers · lexicon 3\nCOGNATE SET\tPROTOFORM\none\t*ba\ntwo\t*da\nChecked derivations for every word",
+      "scope": "Complete search checked by Lean. 2 cognate sets; 8 graph states. Counts distinguish global models, even when they predict the same forms.",
+      "total": "5 allowed protolexicons"
+    },
+    "pie": {
+      "candidates": "*koḱs · checked daughter derivations\nOld Irish: kos\nMiddle Welsh: koɨs\nNeapolitan: kɔʃːə",
+      "scope": "Complete search checked by Lean. 1 cognate sets; 5 graph states. Counts distinguish global models, even when they predict the same forms.",
+      "total": "1 allowed protolexicons"
+    }
+  },
+  "code_commit": "d3d6932b263a40e853acd99d393488bbd5ecaae9",
+  "contextual_scaling": {
+    "12": {
+      "median_seconds": 5.137437050929293,
+      "options": {
+        "time_limit": 5
+      },
+      "possible_words_before_reflex_constraints": 797161,
+      "runs": [
+        {
+          "complete": false,
+          "reason": "Search time budget exhausted; completeness is not established",
+          "seconds": 5.137437050929293
+        }
+      ]
+    },
+    "3": {
+      "median_seconds": 0.13367089699022472,
+      "options": {
+        "time_limit": 5
+      },
+      "possible_words_before_reflex_constraints": 40,
+      "runs": [
+        {
+          "complete": true,
+          "seconds": 0.13367089699022472,
+          "summary": {
+            "certificate_sha256": "d962923c6c27168ba7faeb717b46006266c56591e0d73c430ab461f5e635eaa5",
+            "checking_seconds": 0.067563,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000885,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "1",
+            "models": [
+              {
+                "analysis_id": "intervocalic",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "one"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "reference"
+              }
+            ],
+            "nodes": 40,
+            "request_sha256": "035870cc46c890820823d5d1ea5d21a908a1663fae4d0dd05bff095a56591e22",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        }
+      ]
+    },
+    "6": {
+      "median_seconds": 0.23974180012010038,
+      "options": {
+        "time_limit": 5
+      },
+      "possible_words_before_reflex_constraints": 1093,
+      "runs": [
+        {
+          "complete": true,
+          "seconds": 0.23974180012010038,
+          "summary": {
+            "certificate_sha256": "54b087c42156e2ca0661df802722a016760ae06848f1332051b8a0b523d8e297",
+            "checking_seconds": 0.15758,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.02,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "1",
+            "models": [
+              {
+                "analysis_id": "intervocalic",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "one"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "reference"
+              }
+            ],
+            "nodes": 1093,
+            "request_sha256": "bd5e31817c3f004792c7994703eae1d8f20ce0396a79a8caeaa5512d33e03eb7",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        }
+      ]
+    },
+    "8": {
+      "median_seconds": 1.2990561809856445,
+      "options": {
+        "time_limit": 5
+      },
+      "possible_words_before_reflex_constraints": 9841,
+      "runs": [
+        {
+          "complete": true,
+          "seconds": 1.2990561809856445,
+          "summary": {
+            "certificate_sha256": "77f52c3896887947e2989d437f5ede70c2b1b5b9d09f06ff70619c33efef204e",
+            "checking_seconds": 1.025674,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.211903,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "1",
+            "models": [
+              {
+                "analysis_id": "intervocalic",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "one"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "reference"
+              }
+            ],
+            "nodes": 9841,
+            "request_sha256": "84c808427110b60675ce2b07e5d6ad0bd300eca60563c1bc627d18c38a5fc731",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        }
+      ]
+    }
+  },
+  "examples": {
+    "conflict": {
+      "first_pages": {},
+      "median_seconds": 0.1266779040452093,
+      "options": {},
+      "runs": [
+        {
+          "complete": true,
+          "seconds": 0.12578657385893166,
+          "summary": {
+            "certificate_sha256": "ad31699209f9ff48978177e5b226ea3ff5149d25de11253eeae94b45f94d7c32",
+            "checking_seconds": 0.063559,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000516,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "0",
+            "models": [
+              {
+                "analysis_id": "to-p",
+                "entries": [
+                  {
+                    "count": "2",
+                    "entry_id": "p-row"
+                  },
+                  {
+                    "count": "0",
+                    "entry_id": "b-row"
+                  }
+                ],
+                "lexicon_count": "0",
+                "mode": "compiled"
+              },
+              {
+                "analysis_id": "to-b",
+                "entries": [
+                  {
+                    "count": "0",
+                    "entry_id": "p-row"
+                  },
+                  {
+                    "count": "2",
+                    "entry_id": "b-row"
+                  }
+                ],
+                "lexicon_count": "0",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 6,
+            "request_sha256": "7be9334f32feaf8ee56e00c10817e82e7c5d4ffcedaffe81cf704b6b4cdf4ab5",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        },
+        {
+          "complete": true,
+          "seconds": 0.12680170102976263,
+          "summary": {
+            "certificate_sha256": "ad31699209f9ff48978177e5b226ea3ff5149d25de11253eeae94b45f94d7c32",
+            "checking_seconds": 0.064973,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000584,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "0",
+            "models": [
+              {
+                "analysis_id": "to-p",
+                "entries": [
+                  {
+                    "count": "2",
+                    "entry_id": "p-row"
+                  },
+                  {
+                    "count": "0",
+                    "entry_id": "b-row"
+                  }
+                ],
+                "lexicon_count": "0",
+                "mode": "compiled"
+              },
+              {
+                "analysis_id": "to-b",
+                "entries": [
+                  {
+                    "count": "0",
+                    "entry_id": "p-row"
+                  },
+                  {
+                    "count": "2",
+                    "entry_id": "b-row"
+                  }
+                ],
+                "lexicon_count": "0",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 6,
+            "request_sha256": "7be9334f32feaf8ee56e00c10817e82e7c5d4ffcedaffe81cf704b6b4cdf4ab5",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        },
+        {
+          "complete": true,
+          "seconds": 0.1266779040452093,
+          "summary": {
+            "certificate_sha256": "ad31699209f9ff48978177e5b226ea3ff5149d25de11253eeae94b45f94d7c32",
+            "checking_seconds": 0.06462,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000587,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "0",
+            "models": [
+              {
+                "analysis_id": "to-p",
+                "entries": [
+                  {
+                    "count": "2",
+                    "entry_id": "p-row"
+                  },
+                  {
+                    "count": "0",
+                    "entry_id": "b-row"
+                  }
+                ],
+                "lexicon_count": "0",
+                "mode": "compiled"
+              },
+              {
+                "analysis_id": "to-b",
+                "entries": [
+                  {
+                    "count": "0",
+                    "entry_id": "p-row"
+                  },
+                  {
+                    "count": "2",
+                    "entry_id": "b-row"
+                  }
+                ],
+                "lexicon_count": "0",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 6,
+            "request_sha256": "7be9334f32feaf8ee56e00c10817e82e7c5d4ffcedaffe81cf704b6b4cdf4ab5",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        }
+      ]
+    },
+    "contextual": {
+      "first_pages": {
+        "intervocalic": {
+          "count": "1",
+          "has_more": false,
+          "items": [
+            {
+              "analysis_id": "intervocalic",
+              "derivations": [
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "a",
+                        "p",
+                        "a"
+                      ],
+                      "output": [
+                        "a",
+                        "b",
+                        "a"
+                      ],
+                      "package_id": "intervocalic-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "a",
+                            "b",
+                            "a"
+                          ],
+                          "output_stage": "intervocalic-A-stage-1",
+                          "rule_id": "intervocalic-A-law-0"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "a",
+                        "p",
+                        "a"
+                      ],
+                      "output": [
+                        "a",
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "intervocalic-B",
+                      "package_version": "1.0.0",
+                      "steps": []
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "intervocalic",
+                    "entry_id": "one",
+                    "word": [
+                      "a",
+                      "p",
+                      "a"
+                    ]
+                  }
+                }
+              ],
+              "index": "0",
+              "words": [
+                {
+                  "analysis_id": "intervocalic",
+                  "entry_id": "one",
+                  "word": [
+                    "a",
+                    "p",
+                    "a"
+                  ]
+                }
+              ]
+            }
+          ],
+          "kind": "lexicons",
+          "offset": "0"
+        }
+      },
+      "median_seconds": 0.1276084769051522,
+      "options": {},
+      "runs": [
+        {
+          "complete": true,
+          "seconds": 0.1276084769051522,
+          "summary": {
+            "certificate_sha256": "d962923c6c27168ba7faeb717b46006266c56591e0d73c430ab461f5e635eaa5",
+            "checking_seconds": 0.065523,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.001027,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "1",
+            "models": [
+              {
+                "analysis_id": "intervocalic",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "one"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "reference"
+              }
+            ],
+            "nodes": 40,
+            "request_sha256": "035870cc46c890820823d5d1ea5d21a908a1663fae4d0dd05bff095a56591e22",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        },
+        {
+          "complete": true,
+          "seconds": 0.1279694049153477,
+          "summary": {
+            "certificate_sha256": "d962923c6c27168ba7faeb717b46006266c56591e0d73c430ab461f5e635eaa5",
+            "checking_seconds": 0.065212,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000831,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "1",
+            "models": [
+              {
+                "analysis_id": "intervocalic",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "one"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "reference"
+              }
+            ],
+            "nodes": 40,
+            "request_sha256": "035870cc46c890820823d5d1ea5d21a908a1663fae4d0dd05bff095a56591e22",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        },
+        {
+          "complete": true,
+          "seconds": 0.12666593701578677,
+          "summary": {
+            "certificate_sha256": "d962923c6c27168ba7faeb717b46006266c56591e0d73c430ab461f5e635eaa5",
+            "checking_seconds": 0.064817,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000817,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "1",
+            "models": [
+              {
+                "analysis_id": "intervocalic",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "one"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "reference"
+              }
+            ],
+            "nodes": 40,
+            "request_sha256": "035870cc46c890820823d5d1ea5d21a908a1663fae4d0dd05bff095a56591e22",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        }
+      ]
+    },
+    "deletion": {
+      "first_pages": {
+        "loss": {
+          "count": "50",
+          "has_more": true,
+          "items": [
+            {
+              "analysis_id": "loss",
+              "derivations": [
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "p",
+                        "h",
+                        "h",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "loss-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "loss-A-stage-1",
+                          "rule_id": "loss-A-law-0"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "p",
+                        "h",
+                        "h",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "loss-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "loss-B-stage-1",
+                          "rule_id": "loss-B-law-0"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "loss",
+                    "entry_id": "one",
+                    "word": [
+                      "p",
+                      "h",
+                      "h",
+                      "a"
+                    ]
+                  }
+                },
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [],
+                      "output": [],
+                      "package_id": "loss-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [],
+                          "output_stage": "loss-A-stage-1",
+                          "rule_id": "loss-A-law-0"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [],
+                      "output": [],
+                      "package_id": "loss-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [],
+                          "output_stage": "loss-B-stage-1",
+                          "rule_id": "loss-B-law-0"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "loss",
+                    "entry_id": "empty",
+                    "word": []
+                  }
+                }
+              ],
+              "index": "0",
+              "words": [
+                {
+                  "analysis_id": "loss",
+                  "entry_id": "one",
+                  "word": [
+                    "p",
+                    "h",
+                    "h",
+                    "a"
+                  ]
+                },
+                {
+                  "analysis_id": "loss",
+                  "entry_id": "empty",
+                  "word": []
+                }
+              ]
+            },
+            {
+              "analysis_id": "loss",
+              "derivations": [
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "p",
+                        "h",
+                        "h",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "loss-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "loss-A-stage-1",
+                          "rule_id": "loss-A-law-0"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "p",
+                        "h",
+                        "h",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "loss-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "loss-B-stage-1",
+                          "rule_id": "loss-B-law-0"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "loss",
+                    "entry_id": "one",
+                    "word": [
+                      "p",
+                      "h",
+                      "h",
+                      "a"
+                    ]
+                  }
+                },
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "h"
+                      ],
+                      "output": [],
+                      "package_id": "loss-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [],
+                          "output_stage": "loss-A-stage-1",
+                          "rule_id": "loss-A-law-0"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "h"
+                      ],
+                      "output": [],
+                      "package_id": "loss-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [],
+                          "output_stage": "loss-B-stage-1",
+                          "rule_id": "loss-B-law-0"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "loss",
+                    "entry_id": "empty",
+                    "word": [
+                      "h"
+                    ]
+                  }
+                }
+              ],
+              "index": "1",
+              "words": [
+                {
+                  "analysis_id": "loss",
+                  "entry_id": "one",
+                  "word": [
+                    "p",
+                    "h",
+                    "h",
+                    "a"
+                  ]
+                },
+                {
+                  "analysis_id": "loss",
+                  "entry_id": "empty",
+                  "word": [
+                    "h"
+                  ]
+                }
+              ]
+            },
+            {
+              "analysis_id": "loss",
+              "derivations": [
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "p",
+                        "h",
+                        "h",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "loss-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "loss-A-stage-1",
+                          "rule_id": "loss-A-law-0"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "p",
+                        "h",
+                        "h",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "loss-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "loss-B-stage-1",
+                          "rule_id": "loss-B-law-0"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "loss",
+                    "entry_id": "one",
+                    "word": [
+                      "p",
+                      "h",
+                      "h",
+                      "a"
+                    ]
+                  }
+                },
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "h",
+                        "h"
+                      ],
+                      "output": [],
+                      "package_id": "loss-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [],
+                          "output_stage": "loss-A-stage-1",
+                          "rule_id": "loss-A-law-0"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "h",
+                        "h"
+                      ],
+                      "output": [],
+                      "package_id": "loss-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [],
+                          "output_stage": "loss-B-stage-1",
+                          "rule_id": "loss-B-law-0"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "loss",
+                    "entry_id": "empty",
+                    "word": [
+                      "h",
+                      "h"
+                    ]
+                  }
+                }
+              ],
+              "index": "2",
+              "words": [
+                {
+                  "analysis_id": "loss",
+                  "entry_id": "one",
+                  "word": [
+                    "p",
+                    "h",
+                    "h",
+                    "a"
+                  ]
+                },
+                {
+                  "analysis_id": "loss",
+                  "entry_id": "empty",
+                  "word": [
+                    "h",
+                    "h"
+                  ]
+                }
+              ]
+            },
+            {
+              "analysis_id": "loss",
+              "derivations": [
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "p",
+                        "h",
+                        "h",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "loss-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "loss-A-stage-1",
+                          "rule_id": "loss-A-law-0"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "p",
+                        "h",
+                        "h",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "loss-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "loss-B-stage-1",
+                          "rule_id": "loss-B-law-0"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "loss",
+                    "entry_id": "one",
+                    "word": [
+                      "p",
+                      "h",
+                      "h",
+                      "a"
+                    ]
+                  }
+                },
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "h",
+                        "h",
+                        "h"
+                      ],
+                      "output": [],
+                      "package_id": "loss-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [],
+                          "output_stage": "loss-A-stage-1",
+                          "rule_id": "loss-A-law-0"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "h",
+                        "h",
+                        "h"
+                      ],
+                      "output": [],
+                      "package_id": "loss-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [],
+                          "output_stage": "loss-B-stage-1",
+                          "rule_id": "loss-B-law-0"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "loss",
+                    "entry_id": "empty",
+                    "word": [
+                      "h",
+                      "h",
+                      "h"
+                    ]
+                  }
+                }
+              ],
+              "index": "3",
+              "words": [
+                {
+                  "analysis_id": "loss",
+                  "entry_id": "one",
+                  "word": [
+                    "p",
+                    "h",
+                    "h",
+                    "a"
+                  ]
+                },
+                {
+                  "analysis_id": "loss",
+                  "entry_id": "empty",
+                  "word": [
+                    "h",
+                    "h",
+                    "h"
+                  ]
+                }
+              ]
+            }
+          ],
+          "kind": "lexicons",
+          "offset": "0"
+        }
+      },
+      "median_seconds": 0.12693523592315614,
+      "options": {},
+      "runs": [
+        {
+          "complete": true,
+          "seconds": 0.12614791095256805,
+          "summary": {
+            "certificate_sha256": "ca9ad1f5d604ffbdb411563d4bd2f8334226dcf6866b45921fc4931308fa1d04",
+            "checking_seconds": 0.064376,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000906,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "50",
+            "models": [
+              {
+                "analysis_id": "loss",
+                "entries": [
+                  {
+                    "count": "10",
+                    "entry_id": "one"
+                  },
+                  {
+                    "count": "5",
+                    "entry_id": "empty"
+                  }
+                ],
+                "lexicon_count": "50",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 17,
+            "request_sha256": "34b350cc3fd34e651812178498b8d8b6364d4bec605938862a6b87ff4fba7a0e",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        },
+        {
+          "complete": true,
+          "seconds": 0.12733385991305113,
+          "summary": {
+            "certificate_sha256": "ca9ad1f5d604ffbdb411563d4bd2f8334226dcf6866b45921fc4931308fa1d04",
+            "checking_seconds": 0.064867,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000699,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "50",
+            "models": [
+              {
+                "analysis_id": "loss",
+                "entries": [
+                  {
+                    "count": "10",
+                    "entry_id": "one"
+                  },
+                  {
+                    "count": "5",
+                    "entry_id": "empty"
+                  }
+                ],
+                "lexicon_count": "50",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 17,
+            "request_sha256": "34b350cc3fd34e651812178498b8d8b6364d4bec605938862a6b87ff4fba7a0e",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        },
+        {
+          "complete": true,
+          "seconds": 0.12693523592315614,
+          "summary": {
+            "certificate_sha256": "ca9ad1f5d604ffbdb411563d4bd2f8334226dcf6866b45921fc4931308fa1d04",
+            "checking_seconds": 0.065307,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000717,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "50",
+            "models": [
+              {
+                "analysis_id": "loss",
+                "entries": [
+                  {
+                    "count": "10",
+                    "entry_id": "one"
+                  },
+                  {
+                    "count": "5",
+                    "entry_id": "empty"
+                  }
+                ],
+                "lexicon_count": "50",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 17,
+            "request_sha256": "34b350cc3fd34e651812178498b8d8b6364d4bec605938862a6b87ff4fba7a0e",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        }
+      ]
+    },
+    "kuki": {
+      "first_pages": {
+        "b-merger-projection": {
+          "count": "2",
+          "has_more": false,
+          "items": [
+            {
+              "analysis_id": "b-merger-projection",
+              "derivations": [
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "b",
+                        "a",
+                        "a",
+                        "n"
+                      ],
+                      "output": [
+                        "b",
+                        "a",
+                        "a",
+                        "n"
+                      ],
+                      "package_id": "b-merger-projection-Mizo",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "b",
+                            "a",
+                            "a",
+                            "n"
+                          ],
+                          "output_stage": "b-merger-projection-Mizo-stage-1",
+                          "rule_id": "b-merger-projection-Mizo-law-0"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "b",
+                        "a",
+                        "a",
+                        "n"
+                      ],
+                      "output": [
+                        "b",
+                        "a",
+                        "a",
+                        "n"
+                      ],
+                      "package_id": "b-merger-projection-Thado-Kuki",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "b",
+                            "a",
+                            "a",
+                            "n"
+                          ],
+                          "output_stage": "b-merger-projection-Thado-Kuki-stage-1",
+                          "rule_id": "b-merger-projection-Thado-Kuki-law-0"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "b-merger-projection",
+                    "entry_id": "arm",
+                    "word": [
+                      "b",
+                      "a",
+                      "a",
+                      "n"
+                    ]
+                  }
+                }
+              ],
+              "index": "0",
+              "words": [
+                {
+                  "analysis_id": "b-merger-projection",
+                  "entry_id": "arm",
+                  "word": [
+                    "b",
+                    "a",
+                    "a",
+                    "n"
+                  ]
+                }
+              ]
+            },
+            {
+              "analysis_id": "b-merger-projection",
+              "derivations": [
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "ɓ",
+                        "a",
+                        "a",
+                        "n"
+                      ],
+                      "output": [
+                        "b",
+                        "a",
+                        "a",
+                        "n"
+                      ],
+                      "package_id": "b-merger-projection-Mizo",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "b",
+                            "a",
+                            "a",
+                            "n"
+                          ],
+                          "output_stage": "b-merger-projection-Mizo-stage-1",
+                          "rule_id": "b-merger-projection-Mizo-law-0"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "ɓ",
+                        "a",
+                        "a",
+                        "n"
+                      ],
+                      "output": [
+                        "b",
+                        "a",
+                        "a",
+                        "n"
+                      ],
+                      "package_id": "b-merger-projection-Thado-Kuki",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "b",
+                            "a",
+                            "a",
+                            "n"
+                          ],
+                          "output_stage": "b-merger-projection-Thado-Kuki-stage-1",
+                          "rule_id": "b-merger-projection-Thado-Kuki-law-0"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "b-merger-projection",
+                    "entry_id": "arm",
+                    "word": [
+                      "ɓ",
+                      "a",
+                      "a",
+                      "n"
+                    ]
+                  }
+                }
+              ],
+              "index": "1",
+              "words": [
+                {
+                  "analysis_id": "b-merger-projection",
+                  "entry_id": "arm",
+                  "word": [
+                    "ɓ",
+                    "a",
+                    "a",
+                    "n"
+                  ]
+                }
+              ]
+            }
+          ],
+          "kind": "lexicons",
+          "offset": "0"
+        }
+      },
+      "median_seconds": 0.12571920501068234,
+      "options": {},
+      "runs": [
+        {
+          "complete": true,
+          "seconds": 0.12571920501068234,
+          "summary": {
+            "certificate_sha256": "8ab595fce5f6cd9a128cd913b0fb131cfe0b92cc98058d55bb207cf0e6ea6a57",
+            "checking_seconds": 0.063083,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000415,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "2",
+            "models": [
+              {
+                "analysis_id": "b-merger-projection",
+                "entries": [
+                  {
+                    "count": "2",
+                    "entry_id": "arm"
+                  }
+                ],
+                "lexicon_count": "2",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 5,
+            "request_sha256": "44e801b872aaa3d5d4eb89934cb7eebb7fb3ea113ba7c031df43de5278f1b6d5",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        },
+        {
+          "complete": true,
+          "seconds": 0.12730445596389472,
+          "summary": {
+            "certificate_sha256": "8ab595fce5f6cd9a128cd913b0fb131cfe0b92cc98058d55bb207cf0e6ea6a57",
+            "checking_seconds": 0.06392,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000404,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "2",
+            "models": [
+              {
+                "analysis_id": "b-merger-projection",
+                "entries": [
+                  {
+                    "count": "2",
+                    "entry_id": "arm"
+                  }
+                ],
+                "lexicon_count": "2",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 5,
+            "request_sha256": "44e801b872aaa3d5d4eb89934cb7eebb7fb3ea113ba7c031df43de5278f1b6d5",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        },
+        {
+          "complete": true,
+          "seconds": 0.1251477280166,
+          "summary": {
+            "certificate_sha256": "8ab595fce5f6cd9a128cd913b0fb131cfe0b92cc98058d55bb207cf0e6ea6a57",
+            "checking_seconds": 0.063319,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000396,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "2",
+            "models": [
+              {
+                "analysis_id": "b-merger-projection",
+                "entries": [
+                  {
+                    "count": "2",
+                    "entry_id": "arm"
+                  }
+                ],
+                "lexicon_count": "2",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 5,
+            "request_sha256": "44e801b872aaa3d5d4eb89934cb7eebb7fb3ea113ba7c031df43de5278f1b6d5",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        }
+      ]
+    },
+    "merger": {
+      "first_pages": {
+        "identity": {
+          "count": "1",
+          "has_more": false,
+          "items": [
+            {
+              "analysis_id": "identity",
+              "derivations": [
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "p",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "identity-A",
+                      "package_version": "1.0.0",
+                      "steps": []
+                    },
+                    {
+                      "input": [
+                        "p",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "identity-B",
+                      "package_version": "1.0.0",
+                      "steps": []
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "identity",
+                    "entry_id": "one",
+                    "word": [
+                      "p",
+                      "a"
+                    ]
+                  }
+                },
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "t",
+                        "a"
+                      ],
+                      "output": [
+                        "t",
+                        "a"
+                      ],
+                      "package_id": "identity-A",
+                      "package_version": "1.0.0",
+                      "steps": []
+                    },
+                    {
+                      "input": [
+                        "t",
+                        "a"
+                      ],
+                      "output": [
+                        "t",
+                        "a"
+                      ],
+                      "package_id": "identity-B",
+                      "package_version": "1.0.0",
+                      "steps": []
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "identity",
+                    "entry_id": "two",
+                    "word": [
+                      "t",
+                      "a"
+                    ]
+                  }
+                }
+              ],
+              "index": "0",
+              "words": [
+                {
+                  "analysis_id": "identity",
+                  "entry_id": "one",
+                  "word": [
+                    "p",
+                    "a"
+                  ]
+                },
+                {
+                  "analysis_id": "identity",
+                  "entry_id": "two",
+                  "word": [
+                    "t",
+                    "a"
+                  ]
+                }
+              ]
+            }
+          ],
+          "kind": "lexicons",
+          "offset": "0"
+        },
+        "mergers": {
+          "count": "4",
+          "has_more": false,
+          "items": [
+            {
+              "analysis_id": "mergers",
+              "derivations": [
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "p",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "mergers-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-1",
+                          "rule_id": "mergers-A-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-A-stage-1",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-2",
+                          "rule_id": "mergers-A-law-1"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "p",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "mergers-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-1",
+                          "rule_id": "mergers-B-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-B-stage-1",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-2",
+                          "rule_id": "mergers-B-law-1"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "mergers",
+                    "entry_id": "one",
+                    "word": [
+                      "p",
+                      "a"
+                    ]
+                  }
+                },
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "t",
+                        "a"
+                      ],
+                      "output": [
+                        "t",
+                        "a"
+                      ],
+                      "package_id": "mergers-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-1",
+                          "rule_id": "mergers-A-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-A-stage-1",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-2",
+                          "rule_id": "mergers-A-law-1"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "t",
+                        "a"
+                      ],
+                      "output": [
+                        "t",
+                        "a"
+                      ],
+                      "package_id": "mergers-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-1",
+                          "rule_id": "mergers-B-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-B-stage-1",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-2",
+                          "rule_id": "mergers-B-law-1"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "mergers",
+                    "entry_id": "two",
+                    "word": [
+                      "t",
+                      "a"
+                    ]
+                  }
+                }
+              ],
+              "index": "0",
+              "words": [
+                {
+                  "analysis_id": "mergers",
+                  "entry_id": "one",
+                  "word": [
+                    "p",
+                    "a"
+                  ]
+                },
+                {
+                  "analysis_id": "mergers",
+                  "entry_id": "two",
+                  "word": [
+                    "t",
+                    "a"
+                  ]
+                }
+              ]
+            },
+            {
+              "analysis_id": "mergers",
+              "derivations": [
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "p",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "mergers-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-1",
+                          "rule_id": "mergers-A-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-A-stage-1",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-2",
+                          "rule_id": "mergers-A-law-1"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "p",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "mergers-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-1",
+                          "rule_id": "mergers-B-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-B-stage-1",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-2",
+                          "rule_id": "mergers-B-law-1"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "mergers",
+                    "entry_id": "one",
+                    "word": [
+                      "p",
+                      "a"
+                    ]
+                  }
+                },
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "d",
+                        "a"
+                      ],
+                      "output": [
+                        "t",
+                        "a"
+                      ],
+                      "package_id": "mergers-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "d",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-1",
+                          "rule_id": "mergers-A-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-A-stage-1",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-2",
+                          "rule_id": "mergers-A-law-1"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "d",
+                        "a"
+                      ],
+                      "output": [
+                        "t",
+                        "a"
+                      ],
+                      "package_id": "mergers-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "d",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-1",
+                          "rule_id": "mergers-B-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-B-stage-1",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-2",
+                          "rule_id": "mergers-B-law-1"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "mergers",
+                    "entry_id": "two",
+                    "word": [
+                      "d",
+                      "a"
+                    ]
+                  }
+                }
+              ],
+              "index": "1",
+              "words": [
+                {
+                  "analysis_id": "mergers",
+                  "entry_id": "one",
+                  "word": [
+                    "p",
+                    "a"
+                  ]
+                },
+                {
+                  "analysis_id": "mergers",
+                  "entry_id": "two",
+                  "word": [
+                    "d",
+                    "a"
+                  ]
+                }
+              ]
+            },
+            {
+              "analysis_id": "mergers",
+              "derivations": [
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "b",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "mergers-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-1",
+                          "rule_id": "mergers-A-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-A-stage-1",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-2",
+                          "rule_id": "mergers-A-law-1"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "b",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "mergers-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-1",
+                          "rule_id": "mergers-B-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-B-stage-1",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-2",
+                          "rule_id": "mergers-B-law-1"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "mergers",
+                    "entry_id": "one",
+                    "word": [
+                      "b",
+                      "a"
+                    ]
+                  }
+                },
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "t",
+                        "a"
+                      ],
+                      "output": [
+                        "t",
+                        "a"
+                      ],
+                      "package_id": "mergers-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-1",
+                          "rule_id": "mergers-A-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-A-stage-1",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-2",
+                          "rule_id": "mergers-A-law-1"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "t",
+                        "a"
+                      ],
+                      "output": [
+                        "t",
+                        "a"
+                      ],
+                      "package_id": "mergers-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-1",
+                          "rule_id": "mergers-B-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-B-stage-1",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-2",
+                          "rule_id": "mergers-B-law-1"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "mergers",
+                    "entry_id": "two",
+                    "word": [
+                      "t",
+                      "a"
+                    ]
+                  }
+                }
+              ],
+              "index": "2",
+              "words": [
+                {
+                  "analysis_id": "mergers",
+                  "entry_id": "one",
+                  "word": [
+                    "b",
+                    "a"
+                  ]
+                },
+                {
+                  "analysis_id": "mergers",
+                  "entry_id": "two",
+                  "word": [
+                    "t",
+                    "a"
+                  ]
+                }
+              ]
+            },
+            {
+              "analysis_id": "mergers",
+              "derivations": [
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "b",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "mergers-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-1",
+                          "rule_id": "mergers-A-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-A-stage-1",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-2",
+                          "rule_id": "mergers-A-law-1"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "b",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "mergers-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-1",
+                          "rule_id": "mergers-B-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-B-stage-1",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-2",
+                          "rule_id": "mergers-B-law-1"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "mergers",
+                    "entry_id": "one",
+                    "word": [
+                      "b",
+                      "a"
+                    ]
+                  }
+                },
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "d",
+                        "a"
+                      ],
+                      "output": [
+                        "t",
+                        "a"
+                      ],
+                      "package_id": "mergers-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "d",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-1",
+                          "rule_id": "mergers-A-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-A-stage-1",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-2",
+                          "rule_id": "mergers-A-law-1"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "d",
+                        "a"
+                      ],
+                      "output": [
+                        "t",
+                        "a"
+                      ],
+                      "package_id": "mergers-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "d",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-1",
+                          "rule_id": "mergers-B-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-B-stage-1",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-2",
+                          "rule_id": "mergers-B-law-1"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "mergers",
+                    "entry_id": "two",
+                    "word": [
+                      "d",
+                      "a"
+                    ]
+                  }
+                }
+              ],
+              "index": "3",
+              "words": [
+                {
+                  "analysis_id": "mergers",
+                  "entry_id": "one",
+                  "word": [
+                    "b",
+                    "a"
+                  ]
+                },
+                {
+                  "analysis_id": "mergers",
+                  "entry_id": "two",
+                  "word": [
+                    "d",
+                    "a"
+                  ]
+                }
+              ]
+            }
+          ],
+          "kind": "lexicons",
+          "offset": "0"
+        }
+      },
+      "median_seconds": 0.12866415292955935,
+      "options": {},
+      "runs": [
+        {
+          "complete": true,
+          "seconds": 1.6543857040815055,
+          "summary": {
+            "certificate_sha256": "3b17052424777c4df90841fc40c0c3ab80b90a1c32066d26465a6a004bd0d556",
+            "checking_seconds": 0.06923,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000798,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "5",
+            "models": [
+              {
+                "analysis_id": "mergers",
+                "entries": [
+                  {
+                    "count": "2",
+                    "entry_id": "one"
+                  },
+                  {
+                    "count": "2",
+                    "entry_id": "two"
+                  }
+                ],
+                "lexicon_count": "4",
+                "mode": "compiled"
+              },
+              {
+                "analysis_id": "identity",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "one"
+                  },
+                  {
+                    "count": "1",
+                    "entry_id": "two"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 8,
+            "request_sha256": "5f67fca039460bfd4f41138e4c52e7ddd65e8c77798d5600ae9326d909ed5dd1",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        },
+        {
+          "complete": true,
+          "seconds": 0.12846469599753618,
+          "summary": {
+            "certificate_sha256": "3b17052424777c4df90841fc40c0c3ab80b90a1c32066d26465a6a004bd0d556",
+            "checking_seconds": 0.064888,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000722,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "5",
+            "models": [
+              {
+                "analysis_id": "mergers",
+                "entries": [
+                  {
+                    "count": "2",
+                    "entry_id": "one"
+                  },
+                  {
+                    "count": "2",
+                    "entry_id": "two"
+                  }
+                ],
+                "lexicon_count": "4",
+                "mode": "compiled"
+              },
+              {
+                "analysis_id": "identity",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "one"
+                  },
+                  {
+                    "count": "1",
+                    "entry_id": "two"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 8,
+            "request_sha256": "5f67fca039460bfd4f41138e4c52e7ddd65e8c77798d5600ae9326d909ed5dd1",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        },
+        {
+          "complete": true,
+          "seconds": 0.12866415292955935,
+          "summary": {
+            "certificate_sha256": "3b17052424777c4df90841fc40c0c3ab80b90a1c32066d26465a6a004bd0d556",
+            "checking_seconds": 0.064593,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000725,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "5",
+            "models": [
+              {
+                "analysis_id": "mergers",
+                "entries": [
+                  {
+                    "count": "2",
+                    "entry_id": "one"
+                  },
+                  {
+                    "count": "2",
+                    "entry_id": "two"
+                  }
+                ],
+                "lexicon_count": "4",
+                "mode": "compiled"
+              },
+              {
+                "analysis_id": "identity",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "one"
+                  },
+                  {
+                    "count": "1",
+                    "entry_id": "two"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 8,
+            "request_sha256": "5f67fca039460bfd4f41138e4c52e7ddd65e8c77798d5600ae9326d909ed5dd1",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        }
+      ]
+    },
+    "merger_narrowed": {
+      "first_pages": {
+        "mergers": {
+          "count": "1",
+          "has_more": false,
+          "items": [
+            {
+              "analysis_id": "mergers",
+              "derivations": [
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "p",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "mergers-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-1",
+                          "rule_id": "mergers-A-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-A-stage-1",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-2",
+                          "rule_id": "mergers-A-law-1"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "p",
+                        "a"
+                      ],
+                      "output": [
+                        "p",
+                        "a"
+                      ],
+                      "package_id": "mergers-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-1",
+                          "rule_id": "mergers-B-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-B-stage-1",
+                          "output": [
+                            "p",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-2",
+                          "rule_id": "mergers-B-law-1"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "mergers",
+                    "entry_id": "one",
+                    "word": [
+                      "p",
+                      "a"
+                    ]
+                  }
+                },
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "t",
+                        "a"
+                      ],
+                      "output": [
+                        "t",
+                        "a"
+                      ],
+                      "package_id": "mergers-A",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-1",
+                          "rule_id": "mergers-A-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-A-stage-1",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-A-stage-2",
+                          "rule_id": "mergers-A-law-1"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "t",
+                        "a"
+                      ],
+                      "output": [
+                        "t",
+                        "a"
+                      ],
+                      "package_id": "mergers-B",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "stem",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-1",
+                          "rule_id": "mergers-B-law-0"
+                        },
+                        {
+                          "input_stage": "mergers-B-stage-1",
+                          "output": [
+                            "t",
+                            "a"
+                          ],
+                          "output_stage": "mergers-B-stage-2",
+                          "rule_id": "mergers-B-law-1"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "mergers",
+                    "entry_id": "two",
+                    "word": [
+                      "t",
+                      "a"
+                    ]
+                  }
+                }
+              ],
+              "index": "0",
+              "words": [
+                {
+                  "analysis_id": "mergers",
+                  "entry_id": "one",
+                  "word": [
+                    "p",
+                    "a"
+                  ]
+                },
+                {
+                  "analysis_id": "mergers",
+                  "entry_id": "two",
+                  "word": [
+                    "t",
+                    "a"
+                  ]
+                }
+              ]
+            }
+          ],
+          "kind": "lexicons",
+          "offset": "0"
+        }
+      },
+      "median_seconds": 0.12593124993145466,
+      "options": {},
+      "request": {
+        "analyses": [
+          {
+            "branches": [
+              {
+                "language_id": "A",
+                "package": {
+                  "description": "Explicit finite realization package",
+                  "final_stage": "mergers-A-stage-2",
+                  "id": "mergers-A",
+                  "initial_stage": "stem",
+                  "inventory": [
+                    "p",
+                    "b",
+                    "t",
+                    "d",
+                    "a"
+                  ],
+                  "laws": [
+                    {
+                      "id": "mergers-A-law-0",
+                      "input_stage": "stem",
+                      "output_stage": "mergers-A-stage-1",
+                      "rule": {
+                        "direction": "left-to-right",
+                        "left": [],
+                        "left_edge": false,
+                        "mode": "simultaneous",
+                        "replacement": "p",
+                        "right": [],
+                        "right_edge": false,
+                        "target": [
+                          "b"
+                        ]
+                      }
+                    },
+                    {
+                      "id": "mergers-A-law-1",
+                      "input_stage": "mergers-A-stage-1",
+                      "output_stage": "mergers-A-stage-2",
+                      "rule": {
+                        "direction": "left-to-right",
+                        "left": [],
+                        "left_edge": false,
+                        "mode": "simultaneous",
+                        "replacement": "t",
+                        "right": [],
+                        "right_edge": false,
+                        "target": [
+                          "d"
+                        ]
+                      }
+                    }
+                  ],
+                  "version": "1.0.0"
+                }
+              },
+              {
+                "language_id": "B",
+                "package": {
+                  "description": "Explicit finite realization package",
+                  "final_stage": "mergers-B-stage-2",
+                  "id": "mergers-B",
+                  "initial_stage": "stem",
+                  "inventory": [
+                    "p",
+                    "b",
+                    "t",
+                    "d",
+                    "a"
+                  ],
+                  "laws": [
+                    {
+                      "id": "mergers-B-law-0",
+                      "input_stage": "stem",
+                      "output_stage": "mergers-B-stage-1",
+                      "rule": {
+                        "direction": "left-to-right",
+                        "left": [],
+                        "left_edge": false,
+                        "mode": "simultaneous",
+                        "replacement": "p",
+                        "right": [],
+                        "right_edge": false,
+                        "target": [
+                          "b"
+                        ]
+                      }
+                    },
+                    {
+                      "id": "mergers-B-law-1",
+                      "input_stage": "mergers-B-stage-1",
+                      "output_stage": "mergers-B-stage-2",
+                      "rule": {
+                        "direction": "left-to-right",
+                        "left": [],
+                        "left_edge": false,
+                        "mode": "simultaneous",
+                        "replacement": "t",
+                        "right": [],
+                        "right_edge": false,
+                        "target": [
+                          "d"
+                        ]
+                      }
+                    }
+                  ],
+                  "version": "1.0.0"
+                }
+              }
+            ],
+            "description": "Both daughters merge b with p and d with t",
+            "id": "mergers",
+            "source_ref": "synthetic:M7"
+          }
+        ],
+        "description": "Synthetic inverse-search control; no historical claim.",
+        "entries": [
+          {
+            "id": "one",
+            "meaning": "one",
+            "reflexes": [
+              {
+                "form": [
+                  "p",
+                  "a"
+                ],
+                "language_id": "A",
+                "source_ref": "synthetic:M7"
+              },
+              {
+                "form": [
+                  "p",
+                  "a"
+                ],
+                "language_id": "B",
+                "source_ref": "synthetic:M7"
+              }
+            ]
+          },
+          {
+            "id": "two",
+            "meaning": "two",
+            "reflexes": [
+              {
+                "form": [
+                  "t",
+                  "a"
+                ],
+                "language_id": "A",
+                "source_ref": "synthetic:M7"
+              },
+              {
+                "form": [
+                  "t",
+                  "a"
+                ],
+                "language_id": "B",
+                "source_ref": "synthetic:M7"
+              }
+            ]
+          }
+        ],
+        "id": "two-mergers",
+        "languages": [
+          {
+            "id": "A",
+            "label": "A"
+          },
+          {
+            "id": "B",
+            "label": "B"
+          }
+        ],
+        "max_length": 2,
+        "min_length": 2,
+        "phonotactics": null,
+        "proto_inventory": [
+          "p",
+          "t",
+          "a"
+        ],
+        "schema_version": "1.0.0"
+      },
+      "runs": [
+        {
+          "complete": true,
+          "seconds": 0.12609083810821176,
+          "summary": {
+            "certificate_sha256": "3b2e7d91f6743b71cedd7750f635fea33f1523086118ba0d24c550f59e75d5af",
+            "checking_seconds": 0.063506,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000496,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "1",
+            "models": [
+              {
+                "analysis_id": "mergers",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "one"
+                  },
+                  {
+                    "count": "1",
+                    "entry_id": "two"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 4,
+            "request_sha256": "b76b916fbd77bc9a6de17aadeb11ac4bfa4865a4e00014b8ccab311c3e684225",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        },
+        {
+          "complete": true,
+          "seconds": 0.12593124993145466,
+          "summary": {
+            "certificate_sha256": "3b2e7d91f6743b71cedd7750f635fea33f1523086118ba0d24c550f59e75d5af",
+            "checking_seconds": 0.063675,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000365,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "1",
+            "models": [
+              {
+                "analysis_id": "mergers",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "one"
+                  },
+                  {
+                    "count": "1",
+                    "entry_id": "two"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 4,
+            "request_sha256": "b76b916fbd77bc9a6de17aadeb11ac4bfa4865a4e00014b8ccab311c3e684225",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        },
+        {
+          "complete": true,
+          "seconds": 0.12485016509890556,
+          "summary": {
+            "certificate_sha256": "3b2e7d91f6743b71cedd7750f635fea33f1523086118ba0d24c550f59e75d5af",
+            "checking_seconds": 0.063248,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.000374,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "1",
+            "models": [
+              {
+                "analysis_id": "mergers",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "one"
+                  },
+                  {
+                    "count": "1",
+                    "entry_id": "two"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 4,
+            "request_sha256": "b76b916fbd77bc9a6de17aadeb11ac4bfa4865a4e00014b8ccab311c3e684225",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        }
+      ]
+    },
+    "pie": {
+      "first_pages": {
+        "m5-fitted-correspondences": {
+          "count": "1",
+          "has_more": false,
+          "items": [
+            {
+              "analysis_id": "m5-fitted-correspondences",
+              "derivations": [
+                {
+                  "accepted": true,
+                  "certificates": [
+                    {
+                      "input": [
+                        "k",
+                        "o",
+                        "ḱ",
+                        "s"
+                      ],
+                      "output": [
+                        "k",
+                        "o",
+                        "s"
+                      ],
+                      "package_id": "correspondence-127",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "published-root",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-1",
+                          "rule_id": "correspondence-127-law-1"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-1",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-2",
+                          "rule_id": "correspondence-127-law-2"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-2",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-3",
+                          "rule_id": "correspondence-127-law-3"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-3",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-4",
+                          "rule_id": "correspondence-127-law-4"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-4",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-5",
+                          "rule_id": "correspondence-127-law-5"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-5",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-6",
+                          "rule_id": "correspondence-127-law-6"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-6",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-7",
+                          "rule_id": "correspondence-127-law-7"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-7",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-8",
+                          "rule_id": "correspondence-127-law-8"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-8",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-9",
+                          "rule_id": "correspondence-127-law-9"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-9",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-10",
+                          "rule_id": "correspondence-127-law-10"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-10",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-11",
+                          "rule_id": "correspondence-127-law-11"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-11",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-12",
+                          "rule_id": "correspondence-127-law-12"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-12",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-13",
+                          "rule_id": "correspondence-127-law-13"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-13",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-14",
+                          "rule_id": "correspondence-127-law-14"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-14",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-15",
+                          "rule_id": "correspondence-127-law-15"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-15",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-16",
+                          "rule_id": "correspondence-127-law-16"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-16",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-17",
+                          "rule_id": "correspondence-127-law-17"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-17",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-18",
+                          "rule_id": "correspondence-127-law-18"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-18",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-19",
+                          "rule_id": "correspondence-127-law-19"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-19",
+                          "output": [
+                            "k",
+                            "o",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-20",
+                          "rule_id": "correspondence-127-law-20"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-20",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-21",
+                          "rule_id": "correspondence-127-law-21"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-21",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-22",
+                          "rule_id": "correspondence-127-law-22"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-22",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-23",
+                          "rule_id": "correspondence-127-law-23"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-23",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-24",
+                          "rule_id": "correspondence-127-law-24"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-24",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-25",
+                          "rule_id": "correspondence-127-law-25"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-25",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-26",
+                          "rule_id": "correspondence-127-law-26"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-26",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-27",
+                          "rule_id": "correspondence-127-law-27"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-27",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-28",
+                          "rule_id": "correspondence-127-law-28"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-28",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-29",
+                          "rule_id": "correspondence-127-law-29"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-29",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-30",
+                          "rule_id": "correspondence-127-law-30"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-30",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-31",
+                          "rule_id": "correspondence-127-law-31"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-31",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-32",
+                          "rule_id": "correspondence-127-law-32"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-32",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-33",
+                          "rule_id": "correspondence-127-law-33"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-33",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-34",
+                          "rule_id": "correspondence-127-law-34"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-34",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-35",
+                          "rule_id": "correspondence-127-law-35"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-35",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-36",
+                          "rule_id": "correspondence-127-law-36"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-36",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-37",
+                          "rule_id": "correspondence-127-law-37"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-37",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-38",
+                          "rule_id": "correspondence-127-law-38"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-38",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-39",
+                          "rule_id": "correspondence-127-law-39"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-39",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-40",
+                          "rule_id": "correspondence-127-law-40"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-40",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP20",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-41",
+                          "rule_id": "correspondence-127-law-41"
+                        },
+                        {
+                          "input_stage": "correspondence-127-stage-41",
+                          "output": [
+                            "k",
+                            "o",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-127-stage-42",
+                          "rule_id": "correspondence-127-law-42"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "k",
+                        "o",
+                        "ḱ",
+                        "s"
+                      ],
+                      "output": [
+                        "k",
+                        "o",
+                        "ɨ",
+                        "s"
+                      ],
+                      "package_id": "correspondence-239",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "published-root",
+                          "output": [
+                            "k",
+                            "o",
+                            "MAP0",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-239-stage-1",
+                          "rule_id": "correspondence-239-law-1"
+                        },
+                        {
+                          "input_stage": "correspondence-239-stage-1",
+                          "output": [
+                            "k",
+                            "o",
+                            "ɨ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-239-stage-2",
+                          "rule_id": "correspondence-239-law-2"
+                        }
+                      ]
+                    },
+                    {
+                      "input": [
+                        "k",
+                        "o",
+                        "ḱ",
+                        "s"
+                      ],
+                      "output": [
+                        "k",
+                        "ɔ",
+                        "ʃː",
+                        "ə"
+                      ],
+                      "package_id": "correspondence-189",
+                      "package_version": "1.0.0",
+                      "steps": [
+                        {
+                          "input_stage": "published-root",
+                          "output": [
+                            "k",
+                            "MAP0",
+                            "ḱ",
+                            "s"
+                          ],
+                          "output_stage": "correspondence-189-stage-1",
+                          "rule_id": "correspondence-189-law-1"
+                        },
+                        {
+                          "input_stage": "correspondence-189-stage-1",
+                          "output": [
+                            "k",
+                            "MAP0",
+                            "ḱ",
+                            "MAP1"
+                          ],
+                          "output_stage": "correspondence-189-stage-2",
+                          "rule_id": "correspondence-189-law-2"
+                        },
+                        {
+                          "input_stage": "correspondence-189-stage-2",
+                          "output": [
+                            "k",
+                            "MAP0",
+                            "MAP2",
+                            "MAP1"
+                          ],
+                          "output_stage": "correspondence-189-stage-3",
+                          "rule_id": "correspondence-189-law-3"
+                        },
+                        {
+                          "input_stage": "correspondence-189-stage-3",
+                          "output": [
+                            "k",
+                            "ɔ",
+                            "MAP2",
+                            "MAP1"
+                          ],
+                          "output_stage": "correspondence-189-stage-4",
+                          "rule_id": "correspondence-189-law-4"
+                        },
+                        {
+                          "input_stage": "correspondence-189-stage-4",
+                          "output": [
+                            "k",
+                            "ɔ",
+                            "MAP2",
+                            "ə"
+                          ],
+                          "output_stage": "correspondence-189-stage-5",
+                          "rule_id": "correspondence-189-law-5"
+                        },
+                        {
+                          "input_stage": "correspondence-189-stage-5",
+                          "output": [
+                            "k",
+                            "ɔ",
+                            "ʃː",
+                            "ə"
+                          ],
+                          "output_stage": "correspondence-189-stage-6",
+                          "rule_id": "correspondence-189-law-6"
+                        }
+                      ]
+                    }
+                  ],
+                  "proposal": {
+                    "analysis_id": "m5-fitted-correspondences",
+                    "entry_id": "leg",
+                    "word": [
+                      "k",
+                      "o",
+                      "ḱ",
+                      "s"
+                    ]
+                  }
+                }
+              ],
+              "index": "0",
+              "words": [
+                {
+                  "analysis_id": "m5-fitted-correspondences",
+                  "entry_id": "leg",
+                  "word": [
+                    "k",
+                    "o",
+                    "ḱ",
+                    "s"
+                  ]
+                }
+              ]
+            }
+          ],
+          "kind": "lexicons",
+          "offset": "0"
+        }
+      },
+      "median_seconds": 0.1435559969395399,
+      "options": {},
+      "runs": [
+        {
+          "complete": true,
+          "seconds": 0.1440633030142635,
+          "summary": {
+            "certificate_sha256": "8e1ea0ccb171cfa52a2d3c1d91aae6767714cab03bae6f5f1235c8a3a7ecabbd",
+            "checking_seconds": 0.073267,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.003966,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "1",
+            "models": [
+              {
+                "analysis_id": "m5-fitted-correspondences",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "leg"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 5,
+            "request_sha256": "021229a2b93c2d3d9b8238cf183d653f9fee99eb74115726118c859eca5f8b6a",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        },
+        {
+          "complete": true,
+          "seconds": 0.1435559969395399,
+          "summary": {
+            "certificate_sha256": "8e1ea0ccb171cfa52a2d3c1d91aae6767714cab03bae6f5f1235c8a3a7ecabbd",
+            "checking_seconds": 0.073776,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.00234,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "1",
+            "models": [
+              {
+                "analysis_id": "m5-fitted-correspondences",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "leg"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 5,
+            "request_sha256": "021229a2b93c2d3d9b8238cf183d653f9fee99eb74115726118c859eca5f8b6a",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        },
+        {
+          "complete": true,
+          "seconds": 0.14319147705100477,
+          "summary": {
+            "certificate_sha256": "8e1ea0ccb171cfa52a2d3c1d91aae6767714cab03bae6f5f1235c8a3a7ecabbd",
+            "checking_seconds": 0.073427,
+            "complete": true,
+            "count_unit": "model-qualified protolexicons",
+            "generation_seconds": 0.002383,
+            "graph_checked": true,
+            "input_valid": true,
+            "lexicon_count": "1",
+            "models": [
+              {
+                "analysis_id": "m5-fitted-correspondences",
+                "entries": [
+                  {
+                    "count": "1",
+                    "entry_id": "leg"
+                  }
+                ],
+                "lexicon_count": "1",
+                "mode": "compiled"
+              }
+            ],
+            "nodes": 5,
+            "request_sha256": "021229a2b93c2d3d9b8238cf183d653f9fee99eb74115726118c859eca5f8b6a",
+            "scope": "Every supplied cognate row, one shared selected model, declared alphabet, length bounds and slot templates."
+          }
+        }
+      ]
+    }
+  },
+  "input_hashes": {
+    "data/lexicon/conflict.json": "7be9334f32feaf8ee56e00c10817e82e7c5d4ffcedaffe81cf704b6b4cdf4ab5",
+    "data/lexicon/contextual.json": "035870cc46c890820823d5d1ea5d21a908a1663fae4d0dd05bff095a56591e22",
+    "data/lexicon/deletion.json": "34b350cc3fd34e651812178498b8d8b6364d4bec605938862a6b87ff4fba7a0e",
+    "data/lexicon/kuki.json": "44e801b872aaa3d5d4eb89934cb7eebb7fb3ea113ba7c031df43de5278f1b6d5",
+    "data/lexicon/merger.json": "5f67fca039460bfd4f41138e4c52e7ddd65e8c77798d5600ae9326d909ed5dd1",
+    "data/lexicon/pie.json": "021229a2b93c2d3d9b8238cf183d653f9fee99eb74115726118c859eca5f8b6a",
+    "data/lexicon/scaling.json": "d6b59f4f6f2dbbfc781239a48f5b6eacaa74b8b9c2bd43477f8ebd44dfa5f094",
+    "scripts/capture_m7_examples.py": "4b64790e3501c6375c93c9c67399bbebec8c20609c53a41327b515ed047d9f59",
+    "scripts/lexicon.py": "4d3f0a8f07fcf59c805b6e295fd806dcc86cff44aad412326cf4a8e33d49bc0c",
+    "scripts/m7_solver.py": "bc26ae0217f4d5402dbef56490055d8df6b00a0295c29f11fa3c37ece1267076",
+    "web/lexicon.js": "feae8c406596a34c5c53d0ff21ae0bb0d5b8190f1cbb5ad6655f50500e453f56"
+  },
+  "timing_scope": "Native request validation, graph generation, native completeness checking and independent count comparison; word-page derivations are outside these small-case timings."
+}
